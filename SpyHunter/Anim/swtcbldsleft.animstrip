@@ -1,0 +1,45 @@
+{
+  "Frames": [
+    {
+      "Path": "r01_swtcblds_00x00.png",
+      "Duration": 2,
+      "HandleX": -19,
+      "HandleY": -17,
+      "XFlipped": false,
+      "HitBox": {
+        "X": -8,
+        "Y": -7,
+        "Width": 3,
+        "Height": 7
+      },
+      "HasHitBox": true,
+      "OnFrame": null
+    },
+    {
+      "Path": "r01_swtcblds_01x00.png",
+      "Duration": 2,
+      "HandleX": -20,
+      "HandleY": -17,
+      "XFlipped": false,
+      "HitBox": {
+        "X": -9,
+        "Y": 7,
+        "Width": 3,
+        "Height": 7
+      },
+      "HasHitBox": true,
+      "OnFrame": null
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "SpriteType": "Attached_16colors",
+  "Multiplexes": 0,
+  "LoopFrame": 0,
+  "LinkedMap": null,
+  "OnFinish": null,
+  "AutoFlip": false
+}

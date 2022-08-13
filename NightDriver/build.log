@@ -1,0 +1,149 @@
+=== Image optimisations ===
+Reduce width of Anim\Car_Sprite_00x00.png by 15 pixels to 112 to reduce sprites by 1
+Reduce width of Anim\RoadMarkings_00x02.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\RoadMarkings_00x03.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\RoadMarkings_00x04.png by 10 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkings_00x05.png by 8 pixels to 64 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkings_00x07.png by 12 pixels to 224 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x04.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x05.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x06.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x07.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x08.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x09.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x10.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x12.png by 2 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x13.png by 4 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x14.png by 6 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x15.png by 8 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x16.png by 10 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x17.png by 12 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x18.png by 14 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x21.png by 4 pixels to 48 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x22.png by 6 pixels to 48 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x23.png by 8 pixels to 48 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x24.png by 10 pixels to 48 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x25.png by 12 pixels to 48 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x26.png by 14 pixels to 48 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x28.png by 2 pixels to 64 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x29.png by 4 pixels to 64 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x30.png by 6 pixels to 64 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x31.png by 8 pixels to 64 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x32.png by 10 pixels to 64 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x33.png by 12 pixels to 64 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x34.png by 14 pixels to 64 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x36.png by 2 pixels to 80 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x37.png by 4 pixels to 80 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x38.png by 6 pixels to 80 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x39.png by 8 pixels to 80 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x40.png by 10 pixels to 80 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x41.png by 12 pixels to 80 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x42.png by 14 pixels to 80 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x44.png by 2 pixels to 96 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x45.png by 4 pixels to 96 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x46.png by 6 pixels to 96 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x47.png by 8 pixels to 96 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x48.png by 10 pixels to 96 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x49.png by 12 pixels to 96 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x50.png by 14 pixels to 96 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x52.png by 2 pixels to 112 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x53.png by 4 pixels to 112 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x54.png by 6 pixels to 112 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x55.png by 8 pixels to 112 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x56.png by 10 pixels to 112 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x57.png by 12 pixels to 112 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x58.png by 14 pixels to 112 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x60.png by 2 pixels to 128 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x61.png by 4 pixels to 128 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x62.png by 6 pixels to 128 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x63.png by 8 pixels to 128 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x64.png by 10 pixels to 128 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x65.png by 12 pixels to 128 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x66.png by 14 pixels to 128 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x68.png by 2 pixels to 144 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x69.png by 4 pixels to 144 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x70.png by 6 pixels to 144 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x71.png by 8 pixels to 144 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x72.png by 10 pixels to 144 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x73.png by 12 pixels to 144 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x74.png by 14 pixels to 144 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x76.png by 2 pixels to 160 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x77.png by 4 pixels to 160 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x78.png by 6 pixels to 160 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x79.png by 8 pixels to 160 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x80.png by 10 pixels to 160 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x81.png by 12 pixels to 160 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x82.png by 14 pixels to 160 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x84.png by 2 pixels to 176 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x85.png by 4 pixels to 176 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x86.png by 6 pixels to 176 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x87.png by 8 pixels to 176 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x88.png by 10 pixels to 176 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x89.png by 12 pixels to 176 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x90.png by 14 pixels to 176 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x92.png by 2 pixels to 192 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x93.png by 4 pixels to 192 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x94.png by 6 pixels to 192 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x95.png by 8 pixels to 192 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x96.png by 10 pixels to 192 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x97.png by 12 pixels to 192 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x98.png by 14 pixels to 192 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x100.png by 2 pixels to 208 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x101.png by 4 pixels to 208 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x102.png by 6 pixels to 208 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x103.png by 8 pixels to 208 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x104.png by 10 pixels to 208 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x105.png by 12 pixels to 208 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x106.png by 14 pixels to 208 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x108.png by 2 pixels to 224 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x109.png by 4 pixels to 224 to improve blit performance by 100.00%
+Reduce width of Anim\RoadMarkingsHiRes_00x110.png by 6 pixels to 224 to improve blit performance by 100.00%
+
+=== Misc ===
+Actor Count: 3
+Actor Data Size: 888
+Block Count: 1
+Block Data Size: 52
+Anim5 Count: 1
+Anim5 Data Size: 4
+Sound Count: 1
+Sound Data Size: 32
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 4
+Animations Data Size: 64
+AnimationFrame Count: 121
+AnimationFrame Data Size: 1936
+ImageFrames: BlitzTool.BlitzWord
+ImageFrame Data Size: 7744
+Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3308
+Saving Project virtual machine (codeblocks) as project.vm. Original size: 5388
+Saving Header data for map imported map as 1.mhd. Original size: 9788
+Saving Data for map imported map as 1.map. Original size: 2124
+Saving Background for map imported map as 1.bg. Original size: 2672
+Saving Asset bundle 0 as 0.gfx. Original size: 33696
+Saving Asset bundle 1 as 1.gfx. Original size: 64
+Saving Project data as project.dat. Original size: 10728
+Saving Scorpion header as project.hd. Original size: 4036
+
+Estimated memory usages:
+
+For chip:
+Map gfx (Panel: scorpion_eng_splashscreen): 37106
+Music memory: 0
+BP Buffer memory: 61440
+core sfx/gfx memory: 33696
+Parallax memory: 0
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 2124
+Map background memory: 2672
+EXE memory: 199124
+vm memory: 5388
+project memory: 10728
+
+Accounted memory chip: 132242
+Accounted memory other: 220036
+Accounted memory total: 352278

@@ -1,0 +1,1665 @@
+{
+  "Frames": [
+    {
+      "Path": "RoadMarkingsHiRes_00x00.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x01.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x02.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x03.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x04.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x05.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x06.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x07.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x08.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x09.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x10.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x11.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x12.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x13.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x14.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x15.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x16.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x17.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x18.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x19.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x21.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x22.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x23.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x24.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x25.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x26.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x27.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x28.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x29.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x30.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x31.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x32.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x33.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x34.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x35.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x36.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x37.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x38.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x39.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x40.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x41.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x42.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x43.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x44.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x45.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x46.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x47.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x48.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x49.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x50.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x51.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x52.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x53.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x54.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x55.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x56.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x57.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x58.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x59.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x60.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x61.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x62.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x63.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x64.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x65.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x66.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x67.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x68.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x69.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x70.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x71.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x72.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x73.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x74.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x75.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x76.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x77.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x78.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x79.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x80.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x81.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x82.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x83.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x84.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x85.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x86.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x87.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x88.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x89.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x90.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x91.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x92.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x93.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x94.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x95.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x96.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x97.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x98.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x99.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x100.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x101.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x102.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x103.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x104.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x105.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x106.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x107.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x108.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x109.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "RoadMarkingsHiRes_00x110.png",
+      "Duration": 1,
+      "HandleX": -128,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": "destroy_actor"
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "SpriteType": "Attached_16colors",
+  "Multiplexes": 0,
+  "LoopFrame": 0,
+  "LinkedMap": null,
+  "OnFinish": null,
+  "AutoFlip": false
+}

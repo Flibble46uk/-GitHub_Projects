@@ -1,0 +1,63 @@
+=== Image optimisations ===
+Reduce width of Anim\r01_boathouseshadow_00x00.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\r01_playerspin_07x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\r01_playerspin_01x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\r01_playerspin_01x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\r01_playerspin_02x00.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\r01_playerspin_03x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\r01_playerspin_05x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\r01_playerspin_06x00.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\r01_playerspin_07x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\ScoreMockup_00x00.png by 14 pixels to 160 to improve blit performance by 100.00%
+
+=== Misc ===
+Saving Peter_Gnu.mod as 1.mus. Original size: 78368
+Actor Count: 28
+Actor Data Size: 8288
+Block Count: 12
+Block Data Size: 624
+Anim5 Count: 1
+Anim5 Data Size: 4
+Sound Count: 1
+Sound Data Size: 32
+Teleporter Count: 7
+Teleporter Data Size: 56
+Animations Count: 49
+Animations Data Size: 784
+AnimationFrame Count: 154
+AnimationFrame Data Size: 2464
+ImageFrames: BlitzTool.BlitzWord
+ImageFrame Data Size: 6656
+Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3308
+Saving Panel spyhuntertitle as 1.img. Original size: 42210
+Saving Panel status as 2.img. Original size: 5042
+Saving Project virtual machine (codeblocks) as project.vm. Original size: 12370
+Saving Header data for map spyhunter as 1.mhd. Original size: 9788
+Saving Data for map spyhunter as 1.map. Original size: 207812
+Saving Background for map spyhunter as 1.bg. Original size: 2672
+Saving Asset bundle 0 as 0.gfx. Original size: 44810
+Saving Asset bundle 1 as 1.gfx. Original size: 42880
+Saving Project data as project.dat. Original size: 18908
+Saving Scorpion header as project.hd. Original size: 4036
+
+Estimated memory usages:
+
+For chip:
+Map gfx (level gfx bundle 1 ): 42880
+Music memory: 78368
+BP Buffer memory: 123120
+core sfx/gfx memory: 44810
+Parallax memory: 0
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 207812
+Map background memory: 2672
+EXE memory: 199124
+vm memory: 12370
+project memory: 18908
+
+Accounted memory chip: 289178
+Accounted memory other: 440886
+Accounted memory total: 730064

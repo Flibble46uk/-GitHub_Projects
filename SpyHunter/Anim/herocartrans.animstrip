@@ -1,0 +1,255 @@
+{
+  "Frames": [
+    {
+      "Path": "r01_cartranstoboat_00x00.png",
+      "Duration": 5,
+      "HandleX": -8,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "r01_cartranstoboat_01x00.png",
+      "Duration": 5,
+      "HandleX": -8,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "r01_cartranstoboat_02x00.png",
+      "Duration": 5,
+      "HandleX": -8,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "r01_cartranstoboat_03x00.png",
+      "Duration": 5,
+      "HandleX": -8,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "r01_cartranstoboat_04x00.png",
+      "Duration": 5,
+      "HandleX": -8,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "r01_cartranstoboat_05x00.png",
+      "Duration": 5,
+      "HandleX": -8,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "r01_cartranstoboat_06x00.png",
+      "Duration": 5,
+      "HandleX": -8,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "r01_cartranstoboat_07x00.png",
+      "Duration": 5,
+      "HandleX": -8,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "r01_cartranstoboat_08x00.png",
+      "Duration": 5,
+      "HandleX": -8,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "r01_cartranstoboat_09x00.png",
+      "Duration": 5,
+      "HandleX": -8,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "r01_cartranstoboat_10x00.png",
+      "Duration": 5,
+      "HandleX": -8,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "r01_cartranstoboat_11x00.png",
+      "Duration": 5,
+      "HandleX": -8,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "r01_cartranstoboat_12x00.png",
+      "Duration": 5,
+      "HandleX": -8,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "r01_cartranstoboat_13x00.png",
+      "Duration": 5,
+      "HandleX": -8,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "r01_cartranstoboat_14x00.png",
+      "Duration": 5,
+      "HandleX": -8,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "r01_cartranstoboat_15x00.png",
+      "Duration": 5,
+      "HandleX": -8,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "SpriteType": "Attached_16colors",
+  "Multiplexes": 0,
+  "LoopFrame": 0,
+  "LinkedMap": null,
+  "OnFinish": null,
+  "AutoFlip": false
+}

@@ -1,0 +1,13 @@
+{
+  "DataVersion": 1,
+  "Variables": [
+    {
+      "Name": "usedlanes",
+      "Value": "0",
+      "Notes": null,
+      "PrivateSet": false,
+      "VariableType": "Variable"
+    }
+  ],
+  "Commands": []
+}
