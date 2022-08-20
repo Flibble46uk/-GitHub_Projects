@@ -6,4 +6,9 @@
       <property name="Name" value="default" type="string" />
     </properties>
   </tile>
+  <tile id="1">
+    <properties>
+      <property name="Name" value="wirepole" type="string" />
+    </properties>
+  </tile>
 </tileset>
