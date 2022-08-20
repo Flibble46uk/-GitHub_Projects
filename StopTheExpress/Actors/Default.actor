@@ -2,7 +2,7 @@
   "ShootDirType": "actor_direction",
   "ClassType": "Player",
   "DefaultLookDir": "up",
-  "Recycle": "Trash",
+  "Recycle": "Never",
   "MoveType": "control",
   "MaxEntities": 0,
   "NudgeX": 8,
@@ -147,5 +147,5 @@
   ],
   "TileID": 0,
   "JumpHeight": null,
-  "SuggestedRecycle": "Trash"
+  "SuggestedRecycle": "Never"
 }
