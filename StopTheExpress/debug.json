@@ -5957,84 +5957,102 @@
       "CodeBlock": "01_startup",
       "CodeBlockLine": 4,
       "MemoryOffset": 5032,
-      "Description": "Set 'actor_x' to 'camera_x'"
+      "Description": "Set 'backgroundspritepairs' to '4'"
     },
     {
       "CodeBlock": "01_startup",
       "CodeBlockLine": 4,
+      "MemoryOffset": 5040,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 5,
       "MemoryOffset": 5042,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 4,
+      "CodeBlockLine": 5,
       "MemoryOffset": 5044,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+      "Description": "Set 'actor_x' to 'camera_x'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 5048,
+      "CodeBlockLine": 5,
+      "MemoryOffset": 5054,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 5050,
+      "CodeBlockLine": 5,
+      "MemoryOffset": 5056,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 5060,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 5062,
       "Description": "Set 'actor_y' to 'camera_y+112'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 5064,
+      "CodeBlockLine": 5,
+      "MemoryOffset": 5076,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 5066,
+      "CodeBlockLine": 5,
+      "MemoryOffset": 5078,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 5070,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 5082,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 5072,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 5084,
       "Description": "Set 'actor_spawn' to 'wirepole'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 5080,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 5092,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 5082,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 5094,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 5086,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 5098,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 5088,
+      "MemoryOffset": 5100,
       "Description": "STARTUP"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 5088,
+      "MemoryOffset": 5100,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     }
   ],
