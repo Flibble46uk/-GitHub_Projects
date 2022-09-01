@@ -3,12 +3,7 @@
   <image source="actors.png" width="256" height="256" />
   <tile id="0">
     <properties>
-      <property name="Name" value="dummyplayer" type="string" />
-    </properties>
-  </tile>
-  <tile id="1">
-    <properties>
-      <property name="Name" value="oscarwalk" type="string" />
+      <property name="Name" value="oscar" type="string" />
     </properties>
   </tile>
 </tileset>

@@ -1,6 +1,10 @@
 === Image optimisations ===
+Reduce width of Anims\Oscar_Crouch_00x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Oscar_Crouch_00x00.png by 13 pixels to 16 to improve blit performance by 200.00%
 Reduce width of Anims\Oscar_Idle_00x00.png by 10 pixels to 16 to improve blit performance by 200.00%
 Reduce width of Anims\Oscar_Idle_00x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Oscar_Jump_00x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Oscar_Jump_00x00.png by 10 pixels to 16 to improve blit performance by 200.00%
 Reduce width of Anims\Oscar_WalkRight_00x00.png by 10 pixels to 16 to improve blit performance by 200.00%
 Reduce width of Anims\Oscar_WalkRight_01x00.png by 10 pixels to 16 to improve blit performance by 200.00%
 Reduce width of Anims\Oscar_WalkRight_02x00.png by 10 pixels to 16 to improve blit performance by 200.00%
@@ -19,43 +23,43 @@ Reduce width of Anims\Oscar_WalkRight_06x00.png by 10 pixels to 16 to improve bl
 Reduce width of Anims\Oscar_WalkRight_07x00.png by 11 pixels to 16 to improve blit performance by 200.00%
 
 === Misc ===
-Actor Count: 3
-Actor Data Size: 888
-Block Count: 1
-Block Data Size: 52
+Actor Count: 2
+Actor Data Size: 592
+Block Count: 2
+Block Data Size: 104
 Anim5 Count: 1
 Anim5 Data Size: 4
 Sound Count: 1
 Sound Data Size: 32
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 6
-Animations Data Size: 96
-AnimationFrame Count: 21
-AnimationFrame Data Size: 336
+Animations Count: 10
+Animations Data Size: 160
+AnimationFrame Count: 25
+AnimationFrame Data Size: 400
 ImageFrames: BlitzTool.BlitzWord
-ImageFrame Data Size: 1344
+ImageFrame Data Size: 1664
 Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3308
-Saving Project virtual machine (codeblocks) as project.vm. Original size: 5298
+Saving Project virtual machine (codeblocks) as project.vm. Original size: 5320
 Saving Header data for map imported map as 1.mhd. Original size: 9788
 Saving Data for map imported map as 1.map. Original size: 2124
 Saving Background for map imported map as 1.bg. Original size: 2672
 Saving Header data for map oscar_lvl_01 as 2.mhd. Original size: 9788
 Saving Data for map oscar_lvl_01 as 2.map. Original size: 26828
 Saving Background for map oscar_lvl_01 as 2.bg. Original size: 2672
-Saving Asset bundle 0 as 0.gfx. Original size: 22880
+Saving Asset bundle 0 as 0.gfx. Original size: 27200
 Saving Asset bundle 1 as 1.gfx. Original size: 320
-Saving Asset bundle 2 as 2.gfx. Original size: 57600
-Saving Project data as project.dat. Original size: 2760
+Saving Asset bundle 2 as 2.gfx. Original size: 58560
+Saving Project data as project.dat. Original size: 2964
 Saving Scorpion header as project.hd. Original size: 4036
 
 Estimated memory usages:
 
 For chip:
-Map gfx (level gfx bundle 2 ): 57600
+Map gfx (level gfx bundle 2 ): 58560
 Music memory: 0
 BP Buffer memory: 118000
-core sfx/gfx memory: 22880
+core sfx/gfx memory: 27200
 Parallax memory: 0
 
 For other:
@@ -63,10 +67,10 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 26828
 Map background memory: 2672
-EXE memory: 200092
-vm memory: 5298
-project memory: 2760
+EXE memory: 200172
+vm memory: 5320
+project memory: 2964
 
-Accounted memory chip: 198480
-Accounted memory other: 237650
-Accounted memory total: 436130
+Accounted memory chip: 203760
+Accounted memory other: 237956
+Accounted memory total: 441716
