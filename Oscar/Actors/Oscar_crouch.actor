@@ -3,7 +3,7 @@
   "ClassType": "Player",
   "DefaultLookDir": "right",
   "Recycle": "Default",
-  "MoveType": "control_platform",
+  "MoveType": "none",
   "MaxEntities": 0,
   "NudgeX": 8,
   "NudgeY": 0,
@@ -11,28 +11,28 @@
     "UpLeft": null,
     "Up": "",
     "UpRight": null,
-    "Left": "oscidle_l",
-    "Right": "oscidle_r",
-    "DownLeft": null,
-    "Down": null,
-    "DownRight": null
+    "Left": "osccrch_l",
+    "Right": "osccrch_r",
+    "DownLeft": "",
+    "Down": "osccrch_r",
+    "DownRight": ""
   },
   "Moves": {
-    "UpLeft": "oscjmp_l",
-    "Up": "oscjmp_r",
-    "UpRight": "oscjmp_r",
-    "Left": "oscwlk_l",
-    "Right": "oscwlk_r",
-    "DownLeft": "oscjmp_l",
-    "Down": "osccrch_r",
-    "DownRight": "oscjmp_r"
+    "UpLeft": "",
+    "Up": "",
+    "UpRight": "",
+    "Left": "osccrch_l",
+    "Right": "osccrch_r",
+    "DownLeft": "",
+    "Down": "",
+    "DownRight": ""
   },
   "Attacks": {
     "UpLeft": null,
     "Up": null,
     "UpRight": null,
-    "Left": null,
-    "Right": null,
+    "Left": "osccrch_l",
+    "Right": "osccrch_r",
     "DownLeft": null,
     "Down": null,
     "DownRight": null
@@ -128,13 +128,13 @@
   "DivertPlayerHit": null,
   "DivertHitAgainstPlayer": null,
   "DivertProjectileCollision": null,
-  "DivertOutOfScreenLeft": "",
+  "DivertOutOfScreenLeft": "01_prevent_leave_left",
   "DivertOutOfScreenRight": null,
   "DivertOutOfScreenUp": null,
   "DivertOutOfScreenDown": null,
   "DivertPlatformEdge": null,
-  "DivertPlatformLand": "",
-  "DivertTimer": "01_oscar_control",
+  "DivertPlatformLand": null,
+  "DivertTimer": null,
   "DivertTimerFrames": 0,
   "Vars": [
     "0",
@@ -145,6 +145,6 @@
     "0"
   ],
   "ControlPort": 1,
-  "TileID": 0,
+  "TileID": 1,
   "SuggestedRecycle": "Never"
 }

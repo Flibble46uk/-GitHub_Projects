@@ -23,8 +23,8 @@ Reduce width of Anims\Oscar_WalkRight_06x00.png by 10 pixels to 16 to improve bl
 Reduce width of Anims\Oscar_WalkRight_07x00.png by 11 pixels to 16 to improve blit performance by 200.00%
 
 === Misc ===
-Actor Count: 2
-Actor Data Size: 592
+Actor Count: 3
+Actor Data Size: 888
 Block Count: 2
 Block Data Size: 104
 Anim5 Count: 1
@@ -38,9 +38,9 @@ Animations Data Size: 160
 AnimationFrame Count: 25
 AnimationFrame Data Size: 400
 ImageFrames: BlitzTool.BlitzWord
-ImageFrame Data Size: 1664
+ImageFrame Data Size: 1600
 Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3308
-Saving Project virtual machine (codeblocks) as project.vm. Original size: 5320
+Saving Project virtual machine (codeblocks) as project.vm. Original size: 5432
 Saving Header data for map imported map as 1.mhd. Original size: 9788
 Saving Data for map imported map as 1.map. Original size: 2124
 Saving Background for map imported map as 1.bg. Original size: 2672
@@ -50,7 +50,7 @@ Saving Background for map oscar_lvl_01 as 2.bg. Original size: 2672
 Saving Asset bundle 0 as 0.gfx. Original size: 27200
 Saving Asset bundle 1 as 1.gfx. Original size: 320
 Saving Asset bundle 2 as 2.gfx. Original size: 58560
-Saving Project data as project.dat. Original size: 2964
+Saving Project data as project.dat. Original size: 3196
 Saving Scorpion header as project.hd. Original size: 4036
 
 Estimated memory usages:
@@ -67,10 +67,10 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 26828
 Map background memory: 2672
-EXE memory: 200172
-vm memory: 5320
-project memory: 2964
+EXE memory: 196340
+vm memory: 5432
+project memory: 3196
 
 Accounted memory chip: 203760
-Accounted memory other: 237956
-Accounted memory total: 441716
+Accounted memory other: 234468
+Accounted memory total: 438228

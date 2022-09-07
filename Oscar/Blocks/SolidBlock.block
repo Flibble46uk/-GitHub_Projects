@@ -12,7 +12,7 @@
   "OnAnimationFrame": null,
   "ShootOver": false,
   "FastBlit": false,
-  "IsInvisible": false,
+  "IsInvisible": true,
   "IsSlope": false,
   "ReplaceTileProperties": true,
   "TileID": 0

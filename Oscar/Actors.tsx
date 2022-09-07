@@ -6,4 +6,9 @@
       <property name="Name" value="oscar" type="string" />
     </properties>
   </tile>
+  <tile id="1">
+    <properties>
+      <property name="Name" value="oscar_crouch" type="string" />
+    </properties>
+  </tile>
 </tileset>

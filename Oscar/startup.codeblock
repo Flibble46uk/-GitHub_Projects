@@ -1,5 +1,14 @@
 {
+  "CompileOrder": 0,
   "DataVersion": 1,
-  "Variables": [],
+  "Variables": [
+    {
+      "Name": "crouch",
+      "Value": "false",
+      "Notes": null,
+      "PrivateSet": false,
+      "VariableType": "Variable"
+    }
+  ],
   "Commands": []
 }
