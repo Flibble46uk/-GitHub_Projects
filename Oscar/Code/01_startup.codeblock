@@ -197,7 +197,7 @@
         "Down": "0"
       },
       "YRes": 224,
-      "CameraFollowLeft": false,
+      "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
       "CameraFollowDown": true,

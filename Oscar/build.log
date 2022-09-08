@@ -45,14 +45,14 @@ Saving Header data for map oscar_lvl_01 as 1.mhd. Original size: 9788
 Saving Data for map oscar_lvl_01 as 1.map. Original size: 26828
 Saving Background for map oscar_lvl_01 as 1.bg. Original size: 2672
 Saving Asset bundle 0 as 0.gfx. Original size: 27200
-Saving Asset bundle 1 as 1.gfx. Original size: 71200
+Saving Asset bundle 1 as 1.gfx. Original size: 75200
 Saving Project data as project.dat. Original size: 3196
 Saving Scorpion header as project.hd. Original size: 4036
 
 Estimated memory usages:
 
 For chip:
-Map gfx (level gfx bundle 1 ): 71200
+Map gfx (level gfx bundle 1 ): 75200
 Music memory: 0
 BP Buffer memory: 118000
 core sfx/gfx memory: 27200
@@ -67,6 +67,6 @@ EXE memory: 196340
 vm memory: 5432
 project memory: 3196
 
-Accounted memory chip: 216400
+Accounted memory chip: 220400
 Accounted memory other: 234468
-Accounted memory total: 450868
+Accounted memory total: 454868

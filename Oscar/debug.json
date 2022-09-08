@@ -5975,7 +5975,7 @@
       "CodeBlock": "01_startup",
       "CodeBlockLine": 3,
       "MemoryOffset": 5040,
-      "Description": "Set 'camera_follow' to '14'"
+      "Description": "Set 'camera_follow' to '15'"
     },
     {
       "CodeBlock": "01_startup",
