@@ -5991,20 +5991,140 @@
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 3,
+      "CodeBlockLine": 4,
       "MemoryOffset": 5052,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 5054,
+      "Description": "Set 'actor_type' to 'none'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 5062,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 5064,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 5068,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 5070,
+      "Description": "Set 'actor_spawn' to 'statusbar'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 5078,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 5080,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 5084,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 5086,
+      "Description": "Set 'actor_x' to 'camera_x+16'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 5100,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 5102,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 5106,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 5108,
+      "Description": "Set 'actor_y' to 'camera_y+224'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 5122,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 5124,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 5128,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 5130,
+      "Description": "Yield on level timer to  next line"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 5136,
+      "Description": "Raw expression ''"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 5140,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 5142,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 5054,
+      "MemoryOffset": 5144,
       "Description": "STARTUP"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 5054,
+      "MemoryOffset": 5144,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     }
   ],
@@ -6021,7 +6141,8 @@
   "Actors": {
     "0": "Destroyed actor",
     "1": "oscar",
-    "2": "oscar_crouch"
+    "2": "oscar_crouch",
+    "3": "statusbar"
   },
   "Sounds": {
     "0": "No sound played"
@@ -6035,6 +6156,7 @@
     "6": "oscjmp_r",
     "7": "oscjmp_l",
     "8": "oscwlk_r",
-    "9": "oscwlk_l"
+    "9": "oscwlk_l",
+    "10": "statubar"
   }
 }

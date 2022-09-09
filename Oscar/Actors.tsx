@@ -11,4 +11,9 @@
       <property name="Name" value="oscar_crouch" type="string" />
     </properties>
   </tile>
+  <tile id="2">
+    <properties>
+      <property name="Name" value="statusbar" type="string" />
+    </properties>
+  </tile>
 </tileset>
