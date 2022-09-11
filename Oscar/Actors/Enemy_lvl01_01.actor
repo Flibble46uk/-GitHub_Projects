@@ -2,8 +2,8 @@
   "ShootDirType": "actor_direction",
   "ClassType": "DefaultClass",
   "DefaultLookDir": "left",
-  "Recycle": "Default",
-  "MoveType": "cpu",
+  "Recycle": "Trash",
+  "MoveType": "cpu_platform",
   "MaxEntities": 0,
   "NudgeX": 8,
   "NudgeY": -1,
@@ -113,8 +113,8 @@
   "AccelRightAir": null,
   "RotationSpeed": 0.0,
   "CollType_Left": "none",
-  "CollType_Right": "block",
-  "CollType_Up": "block",
+  "CollType_Right": "none",
+  "CollType_Up": "none",
   "CollType_Down": "block",
   "Flags": 0,
   "AttackProjectile": null,
@@ -146,5 +146,5 @@
   ],
   "ControlPort": 0,
   "TileID": 4,
-  "SuggestedRecycle": "Always"
+  "SuggestedRecycle": "Trash"
 }
