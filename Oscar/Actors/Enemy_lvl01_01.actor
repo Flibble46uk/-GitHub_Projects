@@ -112,7 +112,7 @@
   "AccelLeftAir": null,
   "AccelRightAir": null,
   "RotationSpeed": 0.0,
-  "CollType_Left": "block",
+  "CollType_Left": "none",
   "CollType_Right": "block",
   "CollType_Up": "block",
   "CollType_Down": "block",
