@@ -16,4 +16,14 @@
       <property name="Name" value="statusbar" type="string" />
     </properties>
   </tile>
+  <tile id="3">
+    <properties>
+      <property name="Name" value="statusbar_locked" type="string" />
+    </properties>
+  </tile>
+  <tile id="4">
+    <properties>
+      <property name="Name" value="enemy_lvl01_01" type="string" />
+    </properties>
+  </tile>
 </tileset>

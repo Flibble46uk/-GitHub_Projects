@@ -1,10 +1,10 @@
 {
   "Frames": [
     {
-      "Path": "StatusBar_00x00.png",
-      "Duration": 5,
-      "HandleX": 0,
-      "HandleY": -8,
+      "Path": "Enemy_lvl01_01_00x00.png",
+      "Duration": 7,
+      "HandleX": -16,
+      "HandleY": -16,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -26,5 +26,5 @@
   "LoopFrame": 0,
   "LinkedMap": null,
   "OnFinish": null,
-  "AutoFlip": false
+  "AutoFlip": true
 }
