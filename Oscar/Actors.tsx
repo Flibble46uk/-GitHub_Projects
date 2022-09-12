@@ -26,4 +26,9 @@
       <property name="Name" value="enemy_lvl01_01" type="string" />
     </properties>
   </tile>
+  <tile id="5">
+    <properties>
+      <property name="Name" value="level01_boss" type="string" />
+    </properties>
+  </tile>
 </tileset>
