@@ -31,4 +31,9 @@
       <property name="Name" value="level01_boss" type="string" />
     </properties>
   </tile>
+  <tile id="6">
+    <properties>
+      <property name="Name" value="level01_bighead" type="string" />
+    </properties>
+  </tile>
 </tileset>

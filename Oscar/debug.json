@@ -4719,11 +4719,12 @@
   "Actors": {
     "0": "Destroyed actor",
     "1": "enemy_lvl01_01",
-    "2": "level01_boss",
-    "3": "oscar",
-    "4": "oscar_crouch",
-    "5": "statusbar",
-    "6": "statusbar_locked"
+    "2": "level01_bighead",
+    "3": "level01_boss",
+    "4": "oscar",
+    "5": "oscar_crouch",
+    "6": "statusbar",
+    "7": "statusbar_locked"
   },
   "Sounds": {
     "0": "No sound played"
@@ -4735,14 +4736,15 @@
     "4": "enemy_lvl01_01_l",
     "5": "enemy_lvl01_01_r",
     "6": "lvl_01_boss",
-    "7": "osccrch_r",
-    "8": "osccrch_l",
-    "9": "oscidle_r",
-    "10": "oscidle_l",
-    "11": "oscjmp_r",
-    "12": "oscjmp_l",
-    "13": "oscwlk_r",
-    "14": "oscwlk_l",
-    "15": "statubar"
+    "7": "lvl01_bighead",
+    "8": "osccrch_r",
+    "9": "osccrch_l",
+    "10": "oscidle_r",
+    "11": "oscidle_l",
+    "12": "oscjmp_r",
+    "13": "oscjmp_l",
+    "14": "oscwlk_r",
+    "15": "oscwlk_l",
+    "16": "statubar"
   }
 }
