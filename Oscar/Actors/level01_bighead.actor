@@ -5,8 +5,8 @@
   "Recycle": "Default",
   "MoveType": "cpu",
   "MaxEntities": 0,
-  "NudgeX": 8,
-  "NudgeY": 8,
+  "NudgeX": 13,
+  "NudgeY": -32,
   "Idles": {
     "UpLeft": null,
     "Up": "lvl01_bighead",
@@ -94,10 +94,10 @@
     }
   ],
   "CollBox": {
-    "X": -4,
-    "Y": -4,
-    "Width": 8,
-    "Height": 8
+    "X": -21,
+    "Y": -12,
+    "Width": 46,
+    "Height": 60
   },
   "AttackDelay": 0,
   "ZOrder": 999,

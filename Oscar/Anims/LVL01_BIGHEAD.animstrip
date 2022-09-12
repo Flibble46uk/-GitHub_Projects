@@ -2,7 +2,7 @@
   "Frames": [
     {
       "Path": "LVL01_BIGHEAD_00x00.png",
-      "Duration": 5,
+      "Duration": 8,
       "HandleX": -32,
       "HandleY": -64,
       "XFlipped": false,
@@ -17,7 +17,7 @@
     },
     {
       "Path": "LVL01_BIGHEAD_01x00.png",
-      "Duration": 5,
+      "Duration": 8,
       "HandleX": -32,
       "HandleY": -64,
       "XFlipped": false,
@@ -32,7 +32,7 @@
     }
   ],
   "PreventMovement": false,
-  "PreventCollision": false,
+  "PreventCollision": true,
   "HideChildren": false,
   "AutoSprite": false,
   "OnlySprite": false,
