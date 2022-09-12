@@ -65,10 +65,10 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 26828
 Map background memory: 2672
-EXE memory: 195108
+EXE memory: 194968
 vm memory: 6640
 project memory: 4756
 
 Accounted memory chip: 230280
-Accounted memory other: 236004
-Accounted memory total: 466284
+Accounted memory other: 235864
+Accounted memory total: 466144
