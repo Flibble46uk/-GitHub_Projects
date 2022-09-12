@@ -2,7 +2,7 @@
   "Frames": [
     {
       "Path": "Enemy_lvl01_01_00x00.png",
-      "Duration": 7,
+      "Duration": 3,
       "HandleX": -16,
       "HandleY": -16,
       "XFlipped": false,
@@ -17,7 +17,7 @@
     },
     {
       "Path": "Enemy_lvl01_01_01x00.png",
-      "Duration": 7,
+      "Duration": 3,
       "HandleX": -16,
       "HandleY": -16,
       "XFlipped": false,
@@ -32,7 +32,7 @@
     },
     {
       "Path": "Enemy_lvl01_01_02x00.png",
-      "Duration": 7,
+      "Duration": 3,
       "HandleX": -16,
       "HandleY": -16,
       "XFlipped": false,

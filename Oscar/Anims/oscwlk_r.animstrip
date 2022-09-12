@@ -2,7 +2,7 @@
   "Frames": [
     {
       "Path": "Oscar_WalkRight_00x00.png",
-      "Duration": 5,
+      "Duration": 2,
       "HandleX": -16,
       "HandleY": -16,
       "XFlipped": false,
@@ -17,7 +17,7 @@
     },
     {
       "Path": "Oscar_WalkRight_01x00.png",
-      "Duration": 5,
+      "Duration": 2,
       "HandleX": -16,
       "HandleY": -16,
       "XFlipped": false,
@@ -32,7 +32,7 @@
     },
     {
       "Path": "Oscar_WalkRight_02x00.png",
-      "Duration": 5,
+      "Duration": 2,
       "HandleX": -16,
       "HandleY": -16,
       "XFlipped": false,
@@ -47,7 +47,7 @@
     },
     {
       "Path": "Oscar_WalkRight_03x00.png",
-      "Duration": 5,
+      "Duration": 2,
       "HandleX": -16,
       "HandleY": -16,
       "XFlipped": false,
@@ -62,7 +62,7 @@
     },
     {
       "Path": "Oscar_WalkRight_04x00.png",
-      "Duration": 5,
+      "Duration": 2,
       "HandleX": -16,
       "HandleY": -16,
       "XFlipped": false,
@@ -77,7 +77,7 @@
     },
     {
       "Path": "Oscar_WalkRight_05x00.png",
-      "Duration": 5,
+      "Duration": 2,
       "HandleX": -16,
       "HandleY": -16,
       "XFlipped": false,
@@ -92,7 +92,7 @@
     },
     {
       "Path": "Oscar_WalkRight_06x00.png",
-      "Duration": 5,
+      "Duration": 2,
       "HandleX": -16,
       "HandleY": -16,
       "XFlipped": false,
@@ -107,7 +107,7 @@
     },
     {
       "Path": "Oscar_WalkRight_07x00.png",
-      "Duration": 5,
+      "Duration": 2,
       "HandleX": -16,
       "HandleY": -16,
       "XFlipped": false,
