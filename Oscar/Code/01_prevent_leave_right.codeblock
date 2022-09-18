@@ -28,7 +28,7 @@
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
-      "XPosition": "camera_x",
+      "XPosition": "camera_x+256",
       "YPosition": "",
       "TeleportName": "none",
       "XFloat": null,

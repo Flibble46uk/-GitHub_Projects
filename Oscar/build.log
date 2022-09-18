@@ -47,14 +47,15 @@ AnimationFrame Data Size: 640
 ImageFrames: BlitzTool.BlitzWord
 ImageFrame Data Size: 2432
 Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3308
-Saving Project virtual machine (codeblocks) as project.vm. Original size: 6640
+Saving Panel debug as 1.img. Original size: 4838
+Saving Project virtual machine (codeblocks) as project.vm. Original size: 7790
 Saving Project virtual machine redirects as project.rd. Original size: 4
 Saving Header data for map oscar_lvl_01 as 1.mhd. Original size: 9788
 Saving Data for map oscar_lvl_01 as 1.map. Original size: 26828
 Saving Background for map oscar_lvl_01 as 1.bg. Original size: 2672
 Saving Asset bundle 0 as 0.gfx. Original size: 76120
 Saving Asset bundle 1 as 1.gfx. Original size: 75200
-Saving Project data as project.dat. Original size: 5860
+Saving Project data as project.dat. Original size: 5876
 Saving Scorpion header as project.hd. Original size: 4036
 
 Estimated memory usages:
@@ -71,10 +72,10 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 26828
 Map background memory: 2672
-EXE memory: 194968
-vm memory: 6640
-project memory: 5860
+EXE memory: 194920
+vm memory: 7790
+project memory: 5876
 
 Accounted memory chip: 275720
-Accounted memory other: 236968
-Accounted memory total: 512688
+Accounted memory other: 238086
+Accounted memory total: 513806

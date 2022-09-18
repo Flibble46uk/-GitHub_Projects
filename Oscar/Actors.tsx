@@ -11,11 +11,7 @@
       <property name="Name" value="oscar_crouch" type="string" />
     </properties>
   </tile>
-  <tile id="2">
-    <properties>
-      <property name="Name" value="statusbar" type="string" />
-    </properties>
-  </tile>
+  <tile id="2" />
   <tile id="3">
     <properties>
       <property name="Name" value="statusbar_locked" type="string" />
@@ -23,7 +19,7 @@
   </tile>
   <tile id="4">
     <properties>
-      <property name="Name" value="enemy_lvl01_01" type="string" />
+      <property name="Name" value="level01_enemy_01" type="string" />
     </properties>
   </tile>
   <tile id="5">
@@ -34,6 +30,11 @@
   <tile id="6">
     <properties>
       <property name="Name" value="level01_bighead" type="string" />
+    </properties>
+  </tile>
+  <tile id="7">
+    <properties>
+      <property name="Name" value="oscar_nomove" type="string" />
     </properties>
   </tile>
 </tileset>
