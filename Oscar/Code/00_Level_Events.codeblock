@@ -1761,7 +1761,7 @@
       "CoreType": "RefreshActorVariable",
       "ControlMode": "Joys_1",
       "Goto": "",
-      "Comment": "",
+      "Comment": "Set Blues",
       "Variable": "pallette",
       "Expression": "0",
       "Index": "0",
@@ -1878,7 +1878,7 @@
       "Fire2Jump": true,
       "UpJump": true,
       "JumpOnHold": false,
-      "ColorIndex": "29",
+      "ColorIndex": "25",
       "Color": {
         "r": 170,
         "g": 204,
@@ -1950,10 +1950,10 @@
       "Fire2Jump": true,
       "UpJump": true,
       "JumpOnHold": false,
-      "ColorIndex": "30",
+      "ColorIndex": "26",
       "Color": {
-        "r": 119,
-        "g": 170,
+        "r": 136,
+        "g": 187,
         "b": 221,
         "a": 255
       },
@@ -2265,7 +2265,7 @@
       "CoreType": "RefreshActorVariable",
       "ControlMode": "Joys_1",
       "Goto": "",
-      "Comment": "",
+      "Comment": "Restore",
       "Variable": "pallette",
       "Expression": "1",
       "Index": "0",
@@ -2454,7 +2454,7 @@
       "Fire2Jump": true,
       "UpJump": true,
       "JumpOnHold": false,
-      "ColorIndex": "29",
+      "ColorIndex": "25",
       "Color": {
         "r": 221,
         "g": 187,
@@ -2526,7 +2526,7 @@
       "Fire2Jump": true,
       "UpJump": true,
       "JumpOnHold": false,
-      "ColorIndex": "30",
+      "ColorIndex": "26",
       "Color": {
         "r": 170,
         "g": 136,
