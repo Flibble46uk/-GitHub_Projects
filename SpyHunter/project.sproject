@@ -1,5 +1,7 @@
 {
   "GFXMode": "BP5",
+  "GFXModeAGA": "BP5",
+  "TargetPlatform": "amiga_ocs",
   "EmulatedAmiga": "A1200",
   "EmulatedFastRam": 2,
   "Talkpad": null,
@@ -24,39 +26,10 @@
   "XFillSize": 19,
   "YFillSize": 20,
   "Add21K": false,
-  "DataVersion": 3,
+  "DataVersion": 4,
   "Commands": [
     {
-      "Key": "C",
-      "JoystickPort": -1,
-      "JoystickX": 0,
-      "JoystickY": 0,
-      "JoystickFire1": false,
-      "JoystickFire2": false,
-      "CD32Play": false,
-      "CD32Reverse": false,
-      "CD32Forward": false,
-      "CD32Green": false,
-      "CD32Yellow": false,
-      "OnPress": "",
-      "OnRelease": "01_spawnciv"
-    },
-    {
-      "Key": "E",
-      "JoystickPort": -1,
-      "JoystickX": 0,
-      "JoystickY": 0,
-      "JoystickFire1": false,
-      "JoystickFire2": false,
-      "CD32Play": false,
-      "CD32Reverse": false,
-      "CD32Forward": false,
-      "CD32Green": false,
-      "CD32Yellow": false,
-      "OnPress": "",
-      "OnRelease": "01_spawnenemy"
-    },
-    {
+      "Compiler": "amiga",
       "Key": "S",
       "JoystickPort": -1,
       "JoystickX": 0,
@@ -72,6 +45,7 @@
       "OnRelease": null
     },
     {
+      "Compiler": "amiga",
       "Key": "D",
       "JoystickPort": -1,
       "JoystickX": 0,
@@ -87,6 +61,7 @@
       "OnRelease": ""
     },
     {
+      "Compiler": "amiga",
       "Key": "I",
       "JoystickPort": -1,
       "JoystickX": 0,
@@ -102,6 +77,7 @@
       "OnRelease": "01_intro"
     },
     {
+      "Compiler": "amiga",
       "Key": "R",
       "JoystickPort": -1,
       "JoystickX": 0,
@@ -117,6 +93,7 @@
       "OnRelease": "01_startup"
     },
     {
+      "Compiler": "amiga",
       "Key": "Alpha1",
       "JoystickPort": -1,
       "JoystickX": 0,
@@ -142,8 +119,8 @@
   },
   "FontMetaData": {},
   "SplashScreen": null,
-  "LogicSpeed": 2,
-  "OutputSpeed": 2,
+  "LogicSpeed": "PAL_50HZ",
+  "OutputSpeed": "PAL_50HZ",
   "DoubleCopper": true,
   "AllocateMemoryUpfront": true
 }

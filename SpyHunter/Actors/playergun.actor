@@ -1,15 +1,15 @@
 {
   "ShootDirType": "actor_direction",
-  "ClassType": "Projectile",
+  "ClassType": "Actor",
   "DefaultLookDir": "up",
   "Recycle": "Trash",
-  "MoveType": "cpu_accelerate",
+  "MoveType": "none",
   "MaxEntities": 0,
   "NudgeX": 8,
-  "NudgeY": 8,
+  "NudgeY": -20,
   "Idles": {
     "UpLeft": null,
-    "Up": "heromachgun",
+    "Up": "herolaser",
     "UpRight": null,
     "Left": null,
     "Right": null,
@@ -103,7 +103,7 @@
   "ZOrder": 0,
   "SpeedLeft": 0.0,
   "SpeedRight": 0.0,
-  "SpeedUp": 9.0,
+  "SpeedUp": 0.0,
   "SpeedDown": 0.0,
   "AccelLeft": null,
   "AccelRight": null,
@@ -134,7 +134,7 @@
   "DivertOutOfScreenDown": null,
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
-  "DivertTimer": "50_playerbullet",
+  "DivertTimer": "50_playerlaser",
   "DivertTimerFrames": 0,
   "Vars": [
     "0",
@@ -142,10 +142,9 @@
     "0",
     "0",
     "0",
-    "0",
-    "1"
+    "0"
   ],
+  "ControlPort": 1,
   "TileID": 22,
-  "JumpHeight": null,
   "SuggestedRecycle": "Trash"
 }

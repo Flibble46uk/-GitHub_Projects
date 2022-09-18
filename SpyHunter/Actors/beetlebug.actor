@@ -4,7 +4,7 @@
   "DefaultLookDir": "up",
   "Recycle": "Trash",
   "MoveType": "cpu",
-  "MaxEntities": 2,
+  "MaxEntities": 1,
   "NudgeX": 8,
   "NudgeY": 2,
   "Idles": {
@@ -142,10 +142,9 @@
     "0",
     "0",
     "0",
-    "0",
-    "1"
+    "0"
   ],
+  "ControlPort": 1,
   "TileID": 2,
-  "JumpHeight": null,
   "SuggestedRecycle": "Trash"
 }
