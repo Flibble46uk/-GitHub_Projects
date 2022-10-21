@@ -1,0 +1,19 @@
+{
+  "Divert_PlayerProjectileCollision": null,
+  "IsPlatform": false,
+  "IsSolid": false,
+  "BlockImagePath": "Blocks\\Slopes.png",
+  "X": 32,
+  "Y": 32,
+  "Divert_PlayerCollision": null,
+  "Divert_PlayerHit": null,
+  "Divert_PlayerOverlap": null,
+  "Divert_ProjectileCollision": null,
+  "OnAnimationFrame": null,
+  "ShootOver": false,
+  "FastBlit": false,
+  "IsInvisible": false,
+  "IsSlope": false,
+  "ReplaceTileProperties": true,
+  "TileID": 25
+}

@@ -1,0 +1,19 @@
+{
+  "Divert_PlayerProjectileCollision": null,
+  "IsPlatform": false,
+  "IsSolid": false,
+  "BlockImagePath": "Blocks\\AlertLight.png",
+  "X": 96,
+  "Y": 16,
+  "Divert_PlayerCollision": null,
+  "Divert_PlayerHit": null,
+  "Divert_PlayerOverlap": null,
+  "Divert_ProjectileCollision": null,
+  "OnAnimationFrame": "alert04_01",
+  "ShootOver": false,
+  "FastBlit": false,
+  "IsInvisible": false,
+  "IsSlope": false,
+  "ReplaceTileProperties": true,
+  "TileID": 48
+}

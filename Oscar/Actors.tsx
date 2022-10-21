@@ -32,9 +32,71 @@
       <property name="Name" value="level01_bighead" type="string" />
     </properties>
   </tile>
-  <tile id="7">
+  <tile id="7" />
+  <tile id="8">
     <properties>
-      <property name="Name" value="oscar_nomove" type="string" />
+      <property name="Name" value="level01_enemy_02" type="string" />
+    </properties>
+  </tile>
+  <tile id="9">
+    <properties>
+      <property name="Name" value="level01_turret_01" type="string" />
+    </properties>
+  </tile>
+  <tile id="10">
+    <properties>
+      <property name="Name" value="level01_turret_02" type="string" />
+    </properties>
+  </tile>
+  <tile id="11">
+    <properties>
+      <property name="Name" value="level01_miniboss" type="string" />
+    </properties>
+  </tile>
+  <tile id="12">
+    <properties>
+      <property name="Name" value="level01_bullet_01" type="string" />
+    </properties>
+  </tile>
+  <tile id="13">
+    <properties>
+      <property name="Name" value="level01_grenade_01" type="string" />
+    </properties>
+  </tile>
+  <tile id="14">
+    <properties>
+      <property name="Name" value="oscar_laser_act" type="string" />
+    </properties>
+  </tile>
+  <tile id="15">
+    <properties>
+      <property name="Name" value="dummy_actor" type="string" />
+    </properties>
+  </tile>
+  <tile id="16" />
+  <tile id="17">
+    <properties>
+      <property name="Name" value="oscar_grenade_act" type="string" />
+    </properties>
+  </tile>
+  <tile id="18">
+    <properties>
+      <property name="Name" value="oscar_grenade_test" type="string" />
+    </properties>
+  </tile>
+  <tile id="19">
+    <properties>
+      <property name="Name" value="oscar_muzzle_act" type="string" />
+    </properties>
+  </tile>
+  <tile id="20">
+    <properties>
+      <property name="Name" value="oscar_gunhit_act" type="string" />
+    </properties>
+  </tile>
+  <tile id="21">
+    <properties>
+      <property name="Name" value="level01_enemy_03_spawner" type="string" />
     </properties>
   </tile>
 </tileset>

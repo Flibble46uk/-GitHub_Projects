@@ -1,8 +1,8 @@
 {
   "Frames": [
     {
-      "Path": "Oscar_WalkRight_00x00.png",
-      "Duration": 2,
+      "Path": "Oscar_FaceRight_03x00.png",
+      "Duration": 1,
       "HandleX": -16,
       "HandleY": -16,
       "XFlipped": false,
@@ -16,8 +16,8 @@
       "OnFrame": null
     },
     {
-      "Path": "Oscar_WalkRight_01x00.png",
-      "Duration": 2,
+      "Path": "Oscar_FaceRight_04x00.png",
+      "Duration": 1,
       "HandleX": -16,
       "HandleY": -16,
       "XFlipped": false,
@@ -31,8 +31,8 @@
       "OnFrame": null
     },
     {
-      "Path": "Oscar_WalkRight_02x00.png",
-      "Duration": 2,
+      "Path": "Oscar_FaceRight_05x00.png",
+      "Duration": 1,
       "HandleX": -16,
       "HandleY": -16,
       "XFlipped": false,
@@ -46,8 +46,8 @@
       "OnFrame": null
     },
     {
-      "Path": "Oscar_WalkRight_03x00.png",
-      "Duration": 2,
+      "Path": "Oscar_FaceRight_06x00.png",
+      "Duration": 1,
       "HandleX": -16,
       "HandleY": -16,
       "XFlipped": false,
@@ -61,8 +61,8 @@
       "OnFrame": null
     },
     {
-      "Path": "Oscar_WalkRight_04x00.png",
-      "Duration": 2,
+      "Path": "Oscar_FaceRight_07x00.png",
+      "Duration": 1,
       "HandleX": -16,
       "HandleY": -16,
       "XFlipped": false,
@@ -76,8 +76,8 @@
       "OnFrame": null
     },
     {
-      "Path": "Oscar_WalkRight_05x00.png",
-      "Duration": 2,
+      "Path": "Oscar_FaceRight_08x00.png",
+      "Duration": 1,
       "HandleX": -16,
       "HandleY": -16,
       "XFlipped": false,
@@ -91,8 +91,8 @@
       "OnFrame": null
     },
     {
-      "Path": "Oscar_WalkRight_06x00.png",
-      "Duration": 2,
+      "Path": "Oscar_FaceRight_09x00.png",
+      "Duration": 1,
       "HandleX": -16,
       "HandleY": -16,
       "XFlipped": false,
@@ -106,8 +106,8 @@
       "OnFrame": null
     },
     {
-      "Path": "Oscar_WalkRight_07x00.png",
-      "Duration": 2,
+      "Path": "Oscar_FaceRight_10x00.png",
+      "Duration": 1,
       "HandleX": -16,
       "HandleY": -16,
       "XFlipped": false,

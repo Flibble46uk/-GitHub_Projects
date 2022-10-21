@@ -95,9 +95,9 @@
   ],
   "CollBox": {
     "X": -7,
-    "Y": -12,
-    "Width": 11,
-    "Height": 28
+    "Y": -6,
+    "Width": 10,
+    "Height": 22
   },
   "AttackDelay": 0,
   "ZOrder": 0,
@@ -134,8 +134,8 @@
   "DivertOutOfScreenDown": null,
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
-  "DivertTimer": null,
-  "DivertTimerFrames": 0,
+  "DivertTimer": "00_oscar_control",
+  "DivertTimerFrames": 1,
   "Vars": [
     "0",
     "0",

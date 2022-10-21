@@ -40,6 +40,42 @@
       "CounterImage1": null,
       "CounterDivisions": 1,
       "MaxValue": 9999
+    },
+    {
+      "PanelElementType": 0,
+      "Variable": "play_x",
+      "X": 0,
+      "Y": 8,
+      "NumberFont": "defaultnumberfont",
+      "Font": null,
+      "BarImage": null,
+      "CounterImage1": null,
+      "CounterDivisions": 1,
+      "MaxValue": 9999
+    },
+    {
+      "PanelElementType": 0,
+      "Variable": "play_y",
+      "X": 39,
+      "Y": 8,
+      "NumberFont": "defaultnumberfont",
+      "Font": null,
+      "BarImage": null,
+      "CounterImage1": null,
+      "CounterDivisions": 1,
+      "MaxValue": 9999
+    },
+    {
+      "PanelElementType": 0,
+      "Variable": "player_lookdir",
+      "X": 207,
+      "Y": 0,
+      "NumberFont": "defaultnumberfont",
+      "Font": null,
+      "BarImage": null,
+      "CounterImage1": null,
+      "CounterDivisions": 1,
+      "MaxValue": 9999
     }
   ],
   "GFXMode": "BP1",

@@ -1,0 +1,99 @@
+=== Image optimisations ===
+Reduce width of Anims\Hero_Crouch_01x00.png by 8 pixels to 48 to improve blit performance by 100.00%
+Reduce width of Anims\Hero_Crouch_02x00.png by 9 pixels to 48 to improve blit performance by 100.00%
+Reduce width of Anims\Hero_Crouch_01x00.png by 8 pixels to 48 to improve blit performance by 100.00%
+Reduce width of Anims\Hero_Crouch_02x00.png by 9 pixels to 48 to improve blit performance by 100.00%
+Reduce width of Anims\Hero_Crouch_00x00.png by 8 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anims\Hero_Crouch_00x00.png by 8 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anims\Hero_Crouch_04x00.png by 7 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anims\Hero_Crouch_06x00.png by 5 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anims\Hero_Crouch_04x00.png by 7 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anims\Hero_Crouch_06x00.png by 5 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anims\Hero_Jump_02x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Hero_Jump_02x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Hero_Sprites_00x00.png by 3 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Hero_Sprites_00x00.png by 3 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Hero_Jump_01x00.png by 1 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anims\Hero_Jump_02x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Hero_Jump_01x00.png by 1 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anims\Hero_Jump_02x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Hero_Sprites_01x00.png by 4 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anims\Hero_Sprites_02x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Hero_Sprites_03x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Hero_Sprites_04x00.png by 3 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anims\Hero_Sprites_05x00.png by 3 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Hero_Sprites_06x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Hero_Sprites_01x00.png by 4 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anims\Hero_Sprites_02x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Hero_Sprites_03x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Hero_Sprites_04x00.png by 3 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anims\Hero_Sprites_05x00.png by 3 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Hero_Sprites_06x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Highway_Red_Sports_Car_00x00.png by 13 pixels to 176 to improve blit performance by 100.00%
+Reduce width of Anims\Highway_sportswheels_00x00.png by 7 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Highway_sportswheels_01x00.png by 7 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Highway_sportswheels_02x00.png by 7 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Highway_taxiwheels_00x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Highway_taxiwheels_01x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Highway_taxiwheels_02x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+
+=== Misc ===
+Actor Count: 15
+Actor Data Size: 4440
+Block Count: 41
+Block Data Size: 2132
+Anim5 Count: 1
+Anim5 Data Size: 4
+Sound Count: 1
+Sound Data Size: 32
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 25
+Animations Data Size: 400
+AnimationFrame Count: 56
+AnimationFrame Data Size: 896
+ImageFrames: BlitzTool.BlitzWord
+ImageFrame Data Size: 3456
+Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3308
+Saving Panel debug as 1.img. Original size: 4940
+Saving Project virtual machine (codeblocks) as project.vm. Original size: 8588
+Saving Project virtual machine redirects as project.rd. Original size: 4
+Saving Header data for map highway_01 as 1.mhd. Original size: 9788
+Saving Data for map highway_01 as 1.map. Original size: 16196
+Saving Background for map highway_01 as 1.bg. Original size: 2672
+Saving Parallax for map highway_01 as 1.plx. Original size: 1800
+Saving Header data for map level_01 as 2.mhd. Original size: 9788
+Saving Data for map level_01 as 2.map. Original size: 15716
+Saving Background for map level_01 as 2.bg. Original size: 2672
+Saving Parallax for map level_01 as 2.plx. Original size: 1800
+Saving Header data for map titlescreen as 3.mhd. Original size: 9788
+Saving Data for map titlescreen as 3.map. Original size: 2276
+Saving Background for map titlescreen as 3.bg. Original size: 2672
+Saving Asset bundle 0 as 0.gfx. Original size: 134600
+Saving Asset bundle 1 as 1.gfx. Original size: 51520
+Saving Asset bundle 2 as 2.gfx. Original size: 101120
+Saving Asset bundle 3 as 3.gfx. Original size: 30080
+Saving Project data as project.dat. Original size: 11368
+Saving Scorpion header as project.hd. Original size: 4036
+
+Estimated memory usages:
+
+For chip:
+Map gfx (level gfx bundle 2 ): 101120
+Music memory: 0
+BP Buffer memory: 112400
+core sfx/gfx memory: 134600
+Parallax memory: 1800
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 16196
+Map background memory: 2672
+EXE memory: 194920
+vm memory: 8588
+project memory: 11368
+
+Accounted memory chip: 349920
+Accounted memory other: 233744
+Accounted memory total: 583664

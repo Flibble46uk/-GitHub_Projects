@@ -1,0 +1,19 @@
+{
+  "Divert_PlayerProjectileCollision": null,
+  "IsPlatform": true,
+  "IsSolid": false,
+  "BlockImagePath": "Blocks\\highway_slopes.png",
+  "X": 160,
+  "Y": 16,
+  "Divert_PlayerCollision": null,
+  "Divert_PlayerHit": null,
+  "Divert_PlayerOverlap": null,
+  "Divert_ProjectileCollision": null,
+  "OnAnimationFrame": null,
+  "ShootOver": false,
+  "FastBlit": false,
+  "IsInvisible": true,
+  "IsSlope": true,
+  "ReplaceTileProperties": true,
+  "TileID": 8
+}

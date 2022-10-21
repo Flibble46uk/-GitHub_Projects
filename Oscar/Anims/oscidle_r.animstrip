@@ -1,7 +1,7 @@
 {
   "Frames": [
     {
-      "Path": "Oscar_Idle_00x00.png",
+      "Path": "Oscar_FaceRight_00x00.png",
       "Duration": 5,
       "HandleX": -16,
       "HandleY": -16,

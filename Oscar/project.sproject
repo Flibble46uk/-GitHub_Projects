@@ -7,7 +7,7 @@
   "Talkpad": null,
   "Talkpad_OnBottom": false,
   "WinUAEConfiguration": null,
-  "StartupCodeBlock": "01_startup",
+  "StartupCodeBlock": "00_startup",
   "Uses24BitColor": false,
   "AGARequired": false,
   "SpriteMode": "Mode_0_16_Wide",
@@ -28,22 +28,6 @@
   "Add21K": false,
   "DataVersion": 4,
   "Commands": [
-    {
-      "Compiler": "amiga",
-      "Key": "P",
-      "JoystickPort": 1,
-      "JoystickX": 0,
-      "JoystickY": 0,
-      "JoystickFire1": true,
-      "JoystickFire2": false,
-      "CD32Play": false,
-      "CD32Reverse": false,
-      "CD32Forward": false,
-      "CD32Green": false,
-      "CD32Yellow": false,
-      "OnPress": "00_trigger_recenter",
-      "OnRelease": null
-    },
     {
       "Compiler": "amiga",
       "Key": "Tilde",
@@ -73,6 +57,6 @@
   "SplashScreen": null,
   "LogicSpeed": "PAL_25HZ",
   "OutputSpeed": "PAL_25HZ",
-  "DoubleCopper": true,
+  "DoubleCopper": false,
   "AllocateMemoryUpfront": true
 }

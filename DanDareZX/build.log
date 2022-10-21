@@ -1,0 +1,77 @@
+=== Image optimisations ===
+Reduce width of Anim\DAN_00x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\DAN_00x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\DAN_03x00.png by 5 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\DAN_04x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\DAN_05x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\DAN_06x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\DAN_07x00.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\DAN_03x00.png by 5 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\DAN_04x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\DAN_05x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\DAN_06x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\DAN_07x00.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\DAN_01x00.png by 5 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\DAN_01x00.png by 5 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\DAN_02x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+
+=== Misc ===
+Actor Count: 4
+Actor Data Size: 1184
+Block Count: 51
+Block Data Size: 2652
+Anim5 Count: 1
+Anim5 Data Size: 4
+Sound Count: 1
+Sound Data Size: 32
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 10
+Animations Data Size: 160
+AnimationFrame Count: 20
+AnimationFrame Data Size: 320
+ImageFrames: BlitzTool.BlitzWord
+ImageFrame Data Size: 3712
+Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3308
+Saving Panel statusbar as 1.img. Original size: 8930
+Saving Panel statusbarwide as 2.img. Original size: 9250
+Saving Panel titlescreen as 3.img. Original size: 28386
+Saving Project virtual machine (codeblocks) as project.vm. Original size: 7018
+Saving Project virtual machine redirects as project.rd. Original size: 4
+Saving Header data for map sector_01_bg as 1.mhd. Original size: 9788
+Saving Data for map sector_01_bg as 1.map. Original size: 40736
+Saving Background for map sector_01_bg as 1.bg. Original size: 2672
+Saving Header data for map sector_01_both as 2.mhd. Original size: 9788
+Saving Data for map sector_01_both as 2.map. Original size: 40736
+Saving Background for map sector_01_both as 2.bg. Original size: 2672
+Saving Header data for map sector5surface as 3.mhd. Original size: 9788
+Saving Data for map sector5surface as 3.map. Original size: 5206
+Saving Background for map sector5surface as 3.bg. Original size: 2672
+Saving Asset bundle 0 as 0.gfx. Original size: 22248
+Saving Asset bundle 1 as 1.gfx. Original size: 40448
+Saving Asset bundle 2 as 2.gfx. Original size: 83584
+Saving Asset bundle 3 as 3.gfx. Original size: 16256
+Saving Project data as project.dat. Original size: 8072
+Saving Scorpion header as project.hd. Original size: 4036
+
+Estimated memory usages:
+
+For chip:
+Map gfx (level gfx bundle 2 ): 83584
+Music memory: 0
+BP Buffer memory: 84816
+core sfx/gfx memory: 22248
+Parallax memory: 0
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 40736
+Map background memory: 2672
+EXE memory: 194920
+vm memory: 7018
+project memory: 8072
+
+Accounted memory chip: 190648
+Accounted memory other: 253418
+Accounted memory total: 444066
