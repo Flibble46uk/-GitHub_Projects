@@ -16,8 +16,10 @@ Reduce width of Anim\DAN_01x00.png by 5 pixels to 16 to improve blit performance
 Reduce width of Anim\DAN_02x00.png by 2 pixels to 16 to improve blit performance by 200.00%
 
 === Misc ===
+Maps and Asset Bundles Count: 4
+Maps and Asset Bundles Data Size: 48
 Actor Count: 4
-Actor Data Size: 1184
+Actor Data Size: 1200
 Block Count: 51
 Block Data Size: 2652
 Anim5 Count: 1
@@ -33,34 +35,34 @@ AnimationFrame Data Size: 320
 ImageFrames: BlitzTool.BlitzWord
 ImageFrame Data Size: 3712
 Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3308
-Saving Panel statusbar as 1.img. Original size: 8930
-Saving Panel statusbarwide as 2.img. Original size: 9250
-Saving Panel titlescreen as 3.img. Original size: 28386
-Saving Project virtual machine (codeblocks) as project.vm. Original size: 7018
-Saving Project virtual machine redirects as project.rd. Original size: 4
-Saving Header data for map sector_01_bg as 1.mhd. Original size: 9788
-Saving Data for map sector_01_bg as 1.map. Original size: 40736
-Saving Background for map sector_01_bg as 1.bg. Original size: 2672
-Saving Header data for map sector_01_both as 2.mhd. Original size: 9788
-Saving Data for map sector_01_both as 2.map. Original size: 40736
-Saving Background for map sector_01_both as 2.bg. Original size: 2672
-Saving Header data for map sector5surface as 3.mhd. Original size: 9788
-Saving Data for map sector5surface as 3.map. Original size: 5206
-Saving Background for map sector5surface as 3.bg. Original size: 2672
-Saving Asset bundle 0 as 0.gfx. Original size: 22248
-Saving Asset bundle 1 as 1.gfx. Original size: 40448
-Saving Asset bundle 2 as 2.gfx. Original size: 83584
-Saving Asset bundle 3 as 3.gfx. Original size: 16256
-Saving Project data as project.dat. Original size: 8072
-Saving Scorpion header as project.hd. Original size: 4036
+Crunching Panel statusbar as 1.img. Original size: 8930. Crunched size: 902
+Crunching Panel statusbarwide as 2.img. Original size: 9250. Crunched size: 860
+Crunching Panel titlescreen as 3.img. Original size: 28386. Crunched size: 8156
+Crunching Project virtual machine (codeblocks) as project.vm. Original size: 6978. Crunched size: 1898
+Crunching Project virtual machine redirects as project.rd. Original size: 4. Crunched size: 4
+Crunching Header data for map sector_01_bg as 1.mhd. Original size: 9780. Crunched size: 230
+Crunching Data for map sector_01_bg as 1.map. Original size: 40736. Crunched size: 3034
+Crunching Background for map sector_01_bg as 1.bg. Original size: 2672. Crunched size: 92
+Crunching Header data for map sector_01_both as 2.mhd. Original size: 9780. Crunched size: 660
+Crunching Data for map sector_01_both as 2.map. Original size: 40736. Crunched size: 4650
+Crunching Background for map sector_01_both as 2.bg. Original size: 2672. Crunched size: 92
+Crunching Header data for map sector5surface as 3.mhd. Original size: 9780. Crunched size: 236
+Crunching Data for map sector5surface as 3.map. Original size: 5206. Crunched size: 962
+Crunching Background for map sector5surface as 3.bg. Original size: 2672. Crunched size: 92
+Crunching Asset bundle 0 (Core project asset bundle) as 0.gfx. Original size: 27810. Crunched size: 4644
+Crunching Asset bundle 1 (sector_01_bg) as 1.gfx. Original size: 50560. Crunched size: 7210
+Crunching Asset bundle 2 (sector_01_both) as 2.gfx. Original size: 105440. Crunched size: 9290
+Crunching Asset bundle 3 (sector5surface) as 3.gfx. Original size: 20320. Crunched size: 2442
+Crunching Project data as project.dat. Original size: 8136. Crunched size: 1356
+Crunching Scorpion header as project.hd. Original size: 4040. Crunched size: 1200
 
 Estimated memory usages:
 
 For chip:
-Map gfx (level gfx bundle 2 ): 83584
+Map gfx (level gfx bundle 2 ): 105440
 Music memory: 0
-BP Buffer memory: 84816
-core sfx/gfx memory: 22248
+BP Buffer memory: 106020
+core sfx/gfx memory: 27810
 Parallax memory: 0
 
 For other:
@@ -68,10 +70,10 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 40736
 Map background memory: 2672
-EXE memory: 194920
-vm memory: 7018
-project memory: 8072
+EXE memory: 196100
+vm memory: 6978
+project memory: 8136
 
-Accounted memory chip: 190648
-Accounted memory other: 253418
-Accounted memory total: 444066
+Accounted memory chip: 239270
+Accounted memory other: 254622
+Accounted memory total: 493892
