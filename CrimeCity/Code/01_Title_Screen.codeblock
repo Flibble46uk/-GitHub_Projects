@@ -168,7 +168,7 @@
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
-      "Disabled": false,
+      "Disabled": true,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
