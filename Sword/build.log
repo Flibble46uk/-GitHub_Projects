@@ -46,8 +46,8 @@ Music file peter_gnu Original size 78368 Crunched size 56024
 === Cartridge section PANL (size 32988) ===
 Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
 
-=== Cartridge section MPHD (size 6028) ===
-Header data for map test_map_01 Original size 9780 Crunched size 596
+=== Cartridge section MPHD (size 6148) ===
+Header data for map test_map_01 Original size 9780 Crunched size 608
 
 === Cartridge section MPDT (size 34508) ===
 Tile data for map test_map_01 Original size 136084 Crunched size 3444
@@ -65,8 +65,8 @@ Asset bundle 1 (test_map_01) Original size 73536 Crunched size 29912
 === Cartridge section PROJ (size 12008) ===
 Project Header Original size 4040 Crunched size 1194
 
-=== Cartridge section PDAT (size 8528) ===
-Project Data Original size 3500 Crunched size 846
+=== Cartridge section PDAT (size 8288) ===
+Project Data Original size 3500 Crunched size 822
 
 === Cartridge section VMCB (size 18188) ===
 Project virtual machine (codeblocks) Original size 6762 Crunched size 1812

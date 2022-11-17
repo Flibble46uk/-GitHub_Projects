@@ -1,6 +1,6 @@
 {
   "ShootDirType": "actor_direction",
-  "ClassType": "Actor",
+  "ClassType": "Player",
   "DefaultLookDir": "left",
   "Recycle": "Default",
   "MoveType": "control",
@@ -103,8 +103,8 @@
   "ZOrder": 0,
   "SpeedLeft": 1.0,
   "SpeedRight": 1.0,
-  "SpeedUp": 0.0,
-  "SpeedDown": 0.0,
+  "SpeedUp": 1.0,
+  "SpeedDown": 1.0,
   "AccelLeft": null,
   "AccelRight": null,
   "AccelUp": null,
@@ -112,10 +112,10 @@
   "AccelLeftAir": null,
   "AccelRightAir": null,
   "RotationSpeed": 0.0,
-  "CollType_Left": "block",
-  "CollType_Right": "block",
-  "CollType_Up": "block",
-  "CollType_Down": "block",
+  "CollType_Left": "none",
+  "CollType_Right": "none",
+  "CollType_Up": "none",
+  "CollType_Down": "none",
   "Flags": 0,
   "AttackProjectile": null,
   "AutoFire": false,
@@ -147,5 +147,5 @@
   "ControlPort": 0,
   "JumpCancel": 2.0,
   "TileID": 0,
-  "SuggestedRecycle": "Always"
+  "SuggestedRecycle": "Never"
 }
