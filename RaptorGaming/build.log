@@ -1,0 +1,101 @@
+=== Image optimisations ===
+Reduce width of Anims\LVL01_BIGHEAD_00x00.png by 14 pixels to 48 to improve blit performance by 100.00%
+Reduce width of Anims\LVL01_BIGHEAD_01x00.png by 14 pixels to 48 to improve blit performance by 100.00%
+Reduce width of Anims\LVL01_BOSS_00x00.png by 14 pixels to 48 to improve blit performance by 100.00%
+Reduce width of Anims\LVL01_BOSS_01x00.png by 14 pixels to 48 to improve blit performance by 100.00%
+Reduce width of Anims\LVL01_BOSS_02x00.png by 14 pixels to 48 to improve blit performance by 100.00%
+Reduce width of Anims\LVL01_BOSS_03x00.png by 14 pixels to 48 to improve blit performance by 100.00%
+Reduce width of Anims\LVL01_Enemy_02_00x00.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\LVL01_Enemy_02_01x00.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\LVL01_Enemy_02_00x00.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\LVL01_Enemy_02_01x00.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\LVL01_Enemy_03_00x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\LVL01_Enemy_03_01x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\LVL01_Enemy_03_02x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\LVL01_Enemy_03_03x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\LVL01_Enemy_03_04x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\LVL01_Enemy_03_05x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\LVL01_Enemy_03_06x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\LVL01_Enemy_03_00x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\LVL01_Enemy_03_01x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\LVL01_Enemy_03_02x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\LVL01_Enemy_03_03x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\LVL01_Enemy_03_04x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\LVL01_Enemy_03_05x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\LVL01_Enemy_03_06x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Oscar_FaceRight_02x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Oscar_FaceRight_02x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Oscar_FaceRight_00x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Oscar_FaceRight_00x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Oscar_FaceRight_01x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Oscar_FaceRight_01x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Oscar_FaceRight_03x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Oscar_FaceRight_04x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Oscar_FaceRight_05x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Oscar_FaceRight_06x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Oscar_FaceRight_07x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Oscar_FaceRight_08x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Oscar_FaceRight_09x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Oscar_FaceRight_10x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Oscar_FaceRight_03x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Oscar_FaceRight_04x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Oscar_FaceRight_05x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Oscar_FaceRight_06x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Oscar_FaceRight_07x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Oscar_FaceRight_08x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Oscar_FaceRight_09x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Oscar_FaceRight_10x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\StatusBar_00x00.png by 14 pixels to 192 to improve blit performance by 100.00%
+
+=== Misc ===
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 24
+Actor Count: 20
+Actor Data Size: 6000
+Block Count: 2
+Block Data Size: 104
+Anim5 Count: 1
+Anim5 Data Size: 4
+Sound Count: 1
+Sound Data Size: 32
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 36
+Animations Data Size: 576
+AnimationFrame Count: 104
+AnimationFrame Data Size: 1664
+ImageFrames: 95
+ImageFrame Data Size: 6080
+
+=== Cartridge section PANL (size 504608) ===
+Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
+Panel debug Original size 4940 Crunched size 0
+Panel oscar_titlel Original size 42210 Crunched size 0
+
+=== Cartridge section MPHD (size 5588) ===
+Header data for map oscar_lvl_01 Original size 9780 Crunched size 552
+
+=== Cartridge section MPDT (size 28808) ===
+Tile data for map oscar_lvl_01 Original size 26828 Crunched size 2874
+
+=== Cartridge section MPBG (size 1248) ===
+Background for map oscar_lvl_01 Original size 2672 Crunched size 118
+
+=== Cartridge section MPPX (size 68) ===
+Parallax for map oscar_lvl_01 Original size 0 Crunched size 0
+
+=== Cartridge section ASBD (size 592268) ===
+Asset bundle 0 (Core project asset bundle) Original size 111350 Crunched size 29418
+Asset bundle 1 (oscar_lvl_01) Original size 75840 Crunched size 29796
+
+=== Cartridge section PROJ (size 11948) ===
+Project Header Original size 4040 Crunched size 1188
+
+=== Cartridge section PDAT (size 31748) ===
+Project Data Original size 14492 Crunched size 3168
+
+=== Cartridge section VMCB (size 26548) ===
+Project virtual machine (codeblocks) Original size 10044 Crunched size 2648
+
+=== Cartridge section VMRD (size 108) ===
+Project virtual machine redirects Original size 4 Crunched size 4
