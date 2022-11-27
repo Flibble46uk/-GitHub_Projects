@@ -1,6 +1,6 @@
 {
   "ShootDirType": "actor_direction",
-  "ClassType": "Actor",
+  "ClassType": "Player",
   "DefaultLookDir": "right",
   "Recycle": "Never",
   "MoveType": "control",

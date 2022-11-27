@@ -1,9 +1,9 @@
 {
   "ShootDirType": "actor_direction",
-  "ClassType": "Player",
+  "ClassType": "Actor",
   "DefaultLookDir": "right",
   "Recycle": "Default",
-  "MoveType": "control",
+  "MoveType": "none",
   "MaxEntities": 0,
   "NudgeX": 0,
   "NudgeY": 0,
@@ -94,8 +94,8 @@
     }
   ],
   "CollBox": {
-    "X": -4,
-    "Y": -4,
+    "X": 0,
+    "Y": 0,
     "Width": 8,
     "Height": 8
   },
@@ -134,8 +134,8 @@
   "DivertOutOfScreenDown": null,
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
-  "DivertTimer": null,
-  "DivertTimerFrames": 0,
+  "DivertTimer": "00_actortoplayer",
+  "DivertTimerFrames": 1,
   "Vars": [
     "0",
     "0",
@@ -147,5 +147,5 @@
   "ControlPort": 0,
   "JumpCancel": 2.0,
   "TileID": 3,
-  "SuggestedRecycle": "Never"
+  "SuggestedRecycle": "Always"
 }
