@@ -11,4 +11,14 @@
       <property name="Name" value="00_dummyplayer" type="string" />
     </properties>
   </tile>
+  <tile id="2">
+    <properties>
+      <property name="Name" value="00_palettetestmask" type="string" />
+    </properties>
+  </tile>
+  <tile id="3">
+    <properties>
+      <property name="Name" value="00_palettetest" type="string" />
+    </properties>
+  </tile>
 </tileset>

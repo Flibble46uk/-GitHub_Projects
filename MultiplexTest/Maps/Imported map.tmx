@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="6" nextobjectid="1">
   <properties>
-    <property name="divert_timer" value="01_spawnroad" />
+    <property name="divert_timer" value="" />
     <property name="divert_timerframes" type="int" value="14" />
   </properties>
   <tileset firstgid="1" source="..\Actors.tsx" />
@@ -30,7 +30,7 @@
   <layer id="2" name="objects" width="16" height="16">
     <data encoding="csv">
 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+3,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
