@@ -3,8 +3,8 @@
 === Misc ===
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
-Actor Count: 5
-Actor Data Size: 1500
+Actor Count: 9
+Actor Data Size: 2700
 Block Count: 1
 Block Data Size: 52
 Anim5 Count: 1
@@ -13,18 +13,18 @@ Sound Count: 1
 Sound Data Size: 32
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 5
-Animations Data Size: 80
-AnimationFrame Count: 6
-AnimationFrame Data Size: 96
-ImageFrames: 6
-ImageFrame Data Size: 384
+Animations Count: 9
+Animations Data Size: 144
+AnimationFrame Count: 10
+AnimationFrame Data Size: 160
+ImageFrames: 10
+ImageFrame Data Size: 640
 
 === Cartridge section PANL (size 32988) ===
 Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
 
-=== Cartridge section MPHD (size 3348) ===
-Header data for map imported map Original size 9780 Crunched size 328
+=== Cartridge section MPHD (size 3228) ===
+Header data for map imported map Original size 9780 Crunched size 316
 
 === Cartridge section MPDT (size 1888) ===
 Tile data for map imported map Original size 2124 Crunched size 182
@@ -35,18 +35,18 @@ Background for map imported map Original size 2672 Crunched size 92
 === Cartridge section MPPX (size 68) ===
 Parallax for map imported map Original size 0 Crunched size 0
 
-=== Cartridge section ASBD (size 8808) ===
-Asset bundle 0 (Core project asset bundle) Original size 8320 Crunched size 548
+=== Cartridge section ASBD (size 9148) ===
+Asset bundle 0 (Core project asset bundle) Original size 10880 Crunched size 582
 Asset bundle 1 (imported map) Original size 320 Crunched size 320
 
 === Cartridge section PROJ (size 11928) ===
 Project Header Original size 4040 Crunched size 1186
 
-=== Cartridge section PDAT (size 3028) ===
-Project Data Original size 2180 Crunched size 296
+=== Cartridge section PDAT (size 4108) ===
+Project Data Original size 3764 Crunched size 404
 
-=== Cartridge section VMCB (size 17688) ===
-Project virtual machine (codeblocks) Original size 6462 Crunched size 1762
+=== Cartridge section VMCB (size 17988) ===
+Project virtual machine (codeblocks) Original size 6636 Crunched size 1792
 
 === Cartridge section VMRD (size 108) ===
 Project virtual machine redirects Original size 4 Crunched size 4

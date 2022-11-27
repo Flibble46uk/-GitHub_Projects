@@ -12,7 +12,7 @@
     "Up": null,
     "UpRight": null,
     "Left": null,
-    "Right": "anim_palettestest",
+    "Right": "ocsplane1",
     "DownLeft": null,
     "Down": null,
     "DownRight": null
@@ -146,6 +146,6 @@
   ],
   "ControlPort": 0,
   "JumpCancel": 2.0,
-  "TileID": 3,
+  "TileID": 2,
   "SuggestedRecycle": "Always"
 }

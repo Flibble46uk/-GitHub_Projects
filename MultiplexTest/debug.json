@@ -4600,14 +4600,134 @@
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 4,
+      "CodeBlockLine": 5,
       "MemoryOffset": 5998,
+      "Description": "Raw expression 'actor_ocspalette'"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 6004,
+      "Description": "Raw expression 'camera_x+80'"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 6018,
+      "Description": "Raw expression 'camera_y+16'"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 6032,
+      "Description": "Core operation'PixelSpawn'"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6036,
+      "Description": "Raw expression 'actor_plane1'"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6042,
+      "Description": "Raw expression 'camera_x'"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6052,
+      "Description": "Raw expression 'camera_y+16'"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6066,
+      "Description": "Core operation'PixelSpawn'"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 6070,
+      "Description": "Raw expression 'actor_plane3'"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 6076,
+      "Description": "Raw expression 'camera_x'"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 6086,
+      "Description": "Raw expression 'camera_y+16'"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 6100,
+      "Description": "Core operation'PixelSpawn'"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 6104,
+      "Description": "Raw expression 'actor_plane4'"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 6110,
+      "Description": "Raw expression 'camera_x'"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 6120,
+      "Description": "Raw expression 'camera_y+16'"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 6134,
+      "Description": "Core operation'PixelSpawn'"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 6138,
+      "Description": "Raw expression 'actor_plane5'"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 6144,
+      "Description": "Raw expression 'camera_x'"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 6154,
+      "Description": "Raw expression 'camera_y+16'"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 6168,
+      "Description": "Core operation'PixelSpawn'"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 6172,
       "Description": "Yield on levelyield timer to  next line"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6056,
+      "MemoryOffset": 6230,
       "Description": "STARTUP"
     }
   ],
@@ -4625,16 +4745,24 @@
     "0": "Destroyed actor",
     "1": "00_dummycamera",
     "2": "00_dummyplayer",
-    "3": "00_palettetest",
-    "4": "00_palettetestmask"
+    "3": "actor_ocspalette",
+    "4": "actor_plane1",
+    "5": "actor_plane2",
+    "6": "actor_plane3",
+    "7": "actor_plane4",
+    "8": "actor_plane5"
   },
   "Sounds": {
     "0": "No sound played"
   },
   "Animations": {
-    "1": "anim_palettestest",
-    "2": "anim_palettestestmask",
-    "3": "dummycamera",
-    "4": "dummyplayer"
+    "1": "dummycamera",
+    "2": "dummyplayer",
+    "3": "ocspalette",
+    "4": "ocsplane1",
+    "5": "ocsplane2",
+    "6": "ocsplane3",
+    "7": "ocsplane4",
+    "8": "ocsplane5"
   }
 }

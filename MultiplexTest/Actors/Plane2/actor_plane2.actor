@@ -1,20 +1,20 @@
 {
   "ShootDirType": "actor_direction",
-  "ClassType": "Actor",
+  "ClassType": "DefaultClass",
   "DefaultLookDir": "right",
-  "Recycle": "Never",
-  "MoveType": "control",
+  "Recycle": "Default",
+  "MoveType": "none",
   "MaxEntities": 0,
   "NudgeX": 0,
   "NudgeY": 0,
   "Idles": {
     "UpLeft": null,
-    "Up": "dummyplayer",
+    "Up": null,
     "UpRight": null,
-    "Left": "dummyplayer",
-    "Right": "dummyplayer",
+    "Left": null,
+    "Right": "ocsplane2",
     "DownLeft": null,
-    "Down": "dummyplayer",
+    "Down": null,
     "DownRight": null
   },
   "Moves": {
@@ -94,17 +94,17 @@
     }
   ],
   "CollBox": {
-    "X": 0,
-    "Y": 0,
-    "Width": 16,
-    "Height": 16
+    "X": -4,
+    "Y": -4,
+    "Width": 8,
+    "Height": 8
   },
   "AttackDelay": 0,
-  "ZOrder": 9999,
-  "SpeedLeft": 2.0,
-  "SpeedRight": 2.0,
-  "SpeedUp": 2.0,
-  "SpeedDown": 2.0,
+  "ZOrder": 0,
+  "SpeedLeft": 0.0,
+  "SpeedRight": 0.0,
+  "SpeedUp": 0.0,
+  "SpeedDown": 0.0,
   "AccelLeft": null,
   "AccelRight": null,
   "AccelUp": null,
@@ -146,6 +146,6 @@
   ],
   "ControlPort": 0,
   "JumpCancel": 2.0,
-  "TileID": 1,
-  "SuggestedRecycle": "Never"
+  "TileID": 3,
+  "SuggestedRecycle": "Always"
 }
