@@ -2045,6 +2045,20 @@
       "DefaultValue": "0",
       "Index": 185,
       "MemoryOffset": 185
+    },
+    {
+      "CodeBlock": "00_startup",
+      "Name": "x_offset",
+      "DefaultValue": "0",
+      "Index": 186,
+      "MemoryOffset": 186
+    },
+    {
+      "CodeBlock": "00_startup",
+      "Name": "y_offset",
+      "DefaultValue": "128",
+      "Index": 187,
+      "MemoryOffset": 187
     }
   ],
   "Lines": [
@@ -4564,170 +4578,98 @@
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 2,
+      "CodeBlockLine": 3,
       "MemoryOffset": 5938,
       "Description": "Set 'newvalue' to 'imported map'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 2,
+      "CodeBlockLine": 3,
       "MemoryOffset": 5944,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 3,
+      "CodeBlockLine": 6,
       "MemoryOffset": 5964,
-      "Description": "Raw expression '00_dummyplayer'"
-    },
-    {
-      "CodeBlock": "00_startup",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 5970,
-      "Description": "Raw expression 'camera_x'"
-    },
-    {
-      "CodeBlock": "00_startup",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 5980,
-      "Description": "Raw expression 'camera_y+80'"
-    },
-    {
-      "CodeBlock": "00_startup",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 5994,
-      "Description": "Core operation'PixelSpawn'"
-    },
-    {
-      "CodeBlock": "00_startup",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 5998,
       "Description": "Raw expression 'actor_ocspalette'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 6004,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 5970,
       "Description": "Raw expression 'camera_x+80'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 6018,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 5984,
       "Description": "Raw expression 'camera_y+16'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 6032,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 5998,
       "Description": "Core operation'PixelSpawn'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 7,
-      "MemoryOffset": 6036,
+      "CodeBlockLine": 8,
+      "MemoryOffset": 6002,
       "Description": "Raw expression 'actor_plane1'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 7,
-      "MemoryOffset": 6042,
-      "Description": "Raw expression 'camera_x'"
+      "CodeBlockLine": 8,
+      "MemoryOffset": 6008,
+      "Description": "Raw expression 'camera_x+x_offset'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 7,
-      "MemoryOffset": 6052,
-      "Description": "Raw expression 'camera_y+16'"
+      "CodeBlockLine": 8,
+      "MemoryOffset": 6022,
+      "Description": "Raw expression 'camera_y+y_offset'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 7,
-      "MemoryOffset": 6066,
+      "CodeBlockLine": 8,
+      "MemoryOffset": 6036,
       "Description": "Core operation'PixelSpawn'"
     },
     {
       "CodeBlock": "00_startup",
       "CodeBlockLine": 9,
-      "MemoryOffset": 6070,
-      "Description": "Raw expression 'actor_plane3'"
+      "MemoryOffset": 6040,
+      "Description": "Raw expression 'actor_plane2'"
     },
     {
       "CodeBlock": "00_startup",
       "CodeBlockLine": 9,
-      "MemoryOffset": 6076,
-      "Description": "Raw expression 'camera_x'"
+      "MemoryOffset": 6046,
+      "Description": "Raw expression 'camera_x+x_offset'"
     },
     {
       "CodeBlock": "00_startup",
       "CodeBlockLine": 9,
-      "MemoryOffset": 6086,
-      "Description": "Raw expression 'camera_y+16'"
+      "MemoryOffset": 6060,
+      "Description": "Raw expression 'camera_y+y_offset'"
     },
     {
       "CodeBlock": "00_startup",
       "CodeBlockLine": 9,
-      "MemoryOffset": 6100,
+      "MemoryOffset": 6074,
       "Description": "Core operation'PixelSpawn'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 10,
-      "MemoryOffset": 6104,
-      "Description": "Raw expression 'actor_plane4'"
-    },
-    {
-      "CodeBlock": "00_startup",
-      "CodeBlockLine": 10,
-      "MemoryOffset": 6110,
-      "Description": "Raw expression 'camera_x'"
-    },
-    {
-      "CodeBlock": "00_startup",
-      "CodeBlockLine": 10,
-      "MemoryOffset": 6120,
-      "Description": "Raw expression 'camera_y+16'"
-    },
-    {
-      "CodeBlock": "00_startup",
-      "CodeBlockLine": 10,
-      "MemoryOffset": 6134,
-      "Description": "Core operation'PixelSpawn'"
-    },
-    {
-      "CodeBlock": "00_startup",
-      "CodeBlockLine": 11,
-      "MemoryOffset": 6138,
-      "Description": "Raw expression 'actor_plane5'"
-    },
-    {
-      "CodeBlock": "00_startup",
-      "CodeBlockLine": 11,
-      "MemoryOffset": 6144,
-      "Description": "Raw expression 'camera_x'"
-    },
-    {
-      "CodeBlock": "00_startup",
-      "CodeBlockLine": 11,
-      "MemoryOffset": 6154,
-      "Description": "Raw expression 'camera_y+16'"
-    },
-    {
-      "CodeBlock": "00_startup",
-      "CodeBlockLine": 11,
-      "MemoryOffset": 6168,
-      "Description": "Core operation'PixelSpawn'"
-    },
-    {
-      "CodeBlock": "00_startup",
-      "CodeBlockLine": 13,
-      "MemoryOffset": 6172,
+      "CodeBlockLine": 14,
+      "MemoryOffset": 6078,
       "Description": "Yield on levelyield timer to  next line"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6230,
+      "MemoryOffset": 6136,
       "Description": "STARTUP"
     }
   ],

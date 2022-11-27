@@ -26,8 +26,8 @@ Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
 === Cartridge section MPHD (size 3228) ===
 Header data for map imported map Original size 9780 Crunched size 316
 
-=== Cartridge section MPDT (size 1888) ===
-Tile data for map imported map Original size 2124 Crunched size 182
+=== Cartridge section MPDT (size 3788) ===
+Tile data for map imported map Original size 2124 Crunched size 372
 
 === Cartridge section MPBG (size 988) ===
 Background for map imported map Original size 2672 Crunched size 92
@@ -35,18 +35,18 @@ Background for map imported map Original size 2672 Crunched size 92
 === Cartridge section MPPX (size 68) ===
 Parallax for map imported map Original size 0 Crunched size 0
 
-=== Cartridge section ASBD (size 9148) ===
+=== Cartridge section ASBD (size 55208) ===
 Asset bundle 0 (Core project asset bundle) Original size 10880 Crunched size 582
-Asset bundle 1 (imported map) Original size 320 Crunched size 320
+Asset bundle 1 (imported map) Original size 7520 Crunched size 4926
 
 === Cartridge section PROJ (size 11928) ===
 Project Header Original size 4040 Crunched size 1186
 
-=== Cartridge section PDAT (size 4108) ===
-Project Data Original size 3764 Crunched size 404
+=== Cartridge section PDAT (size 4188) ===
+Project Data Original size 3764 Crunched size 412
 
-=== Cartridge section VMCB (size 17988) ===
-Project virtual machine (codeblocks) Original size 6636 Crunched size 1792
+=== Cartridge section VMCB (size 17888) ===
+Project virtual machine (codeblocks) Original size 6546 Crunched size 1782
 
 === Cartridge section VMRD (size 108) ===
 Project virtual machine redirects Original size 4 Crunched size 4
