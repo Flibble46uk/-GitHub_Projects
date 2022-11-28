@@ -1,0 +1,57 @@
+=== Image optimisations ===
+Reduce width of Anims\ChopHover_00x00.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\ChopHover_01x00.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\ChopHover_02x00.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\clouds_l_00x00.png by 9 pixels to 432 to improve blit performance by 100.00%
+Reduce width of Anims\clouds_m_00x00.png by 6 pixels to 416 to improve blit performance by 100.00%
+
+=== Misc ===
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 24
+Actor Count: 7
+Actor Data Size: 2100
+Block Count: 1
+Block Data Size: 52
+Anim5 Count: 1
+Anim5 Data Size: 4
+Sound Count: 1
+Sound Data Size: 32
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 7
+Animations Data Size: 112
+AnimationFrame Count: 10
+AnimationFrame Data Size: 160
+ImageFrames: 9
+ImageFrame Data Size: 576
+
+=== Cartridge section PANL (size 32988) ===
+Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
+
+=== Cartridge section MPHD (size 3268) ===
+Header data for map imported map Original size 9780 Crunched size 320
+
+=== Cartridge section MPDT (size 1968) ===
+Tile data for map imported map Original size 3428 Crunched size 190
+
+=== Cartridge section MPBG (size 5048) ===
+Background for map imported map Original size 3192 Crunched size 498
+
+=== Cartridge section MPPX (size 43988) ===
+Parallax for map imported map Original size 29700 Crunched size 4392
+
+=== Cartridge section ASBD (size 60308) ===
+Asset bundle 0 (Core project asset bundle) Original size 41960 Crunched size 5698
+Asset bundle 1 (imported map) Original size 320 Crunched size 320
+
+=== Cartridge section PROJ (size 11948) ===
+Project Header Original size 4040 Crunched size 1188
+
+=== Cartridge section PDAT (size 4708) ===
+Project Data Original size 3068 Crunched size 464
+
+=== Cartridge section VMCB (size 17928) ===
+Project virtual machine (codeblocks) Original size 6512 Crunched size 1786
+
+=== Cartridge section VMRD (size 108) ===
+Project virtual machine redirects Original size 4 Crunched size 4
