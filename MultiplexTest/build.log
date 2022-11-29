@@ -47,11 +47,11 @@ Asset bundle 2 (orbit_map_test) Original size 18240 Crunched size 4258
 === Cartridge section PROJ (size 12128) ===
 Project Header Original size 4040 Crunched size 1206
 
-=== Cartridge section PDAT (size 4928) ===
-Project Data Original size 4172 Crunched size 486
+=== Cartridge section PDAT (size 4948) ===
+Project Data Original size 4172 Crunched size 488
 
-=== Cartridge section VMCB (size 20148) ===
-Project virtual machine (codeblocks) Original size 7480 Crunched size 2008
+=== Cartridge section VMCB (size 20268) ===
+Project virtual machine (codeblocks) Original size 7526 Crunched size 2020
 
 === Cartridge section VMRD (size 108) ===
 Project virtual machine redirects Original size 4 Crunched size 4
