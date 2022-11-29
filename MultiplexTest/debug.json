@@ -2084,7 +2084,7 @@
     {
       "CodeBlock": "00_startup",
       "Name": "TestType",
-      "DefaultValue": "1",
+      "DefaultValue": "2",
       "Index": 191,
       "MemoryOffset": 191
     }
@@ -4774,61 +4774,61 @@
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 9,
+      "CodeBlockLine": 8,
       "MemoryOffset": 6360,
       "Description": "Raw expression 'actor_ocspalette'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 9,
+      "CodeBlockLine": 8,
       "MemoryOffset": 6366,
       "Description": "Raw expression 'camera_x+192'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 9,
+      "CodeBlockLine": 8,
       "MemoryOffset": 6380,
       "Description": "Raw expression 'camera_y'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 9,
+      "CodeBlockLine": 8,
       "MemoryOffset": 6390,
       "Description": "Core operation'PixelSpawn'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 14,
+      "CodeBlockLine": 12,
       "MemoryOffset": 6394,
       "Description": "If 'testtype' Equals '2' ELSE GOTO 00006448"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 15,
+      "CodeBlockLine": 13,
       "MemoryOffset": 6408,
       "Description": "Set 'newvalue' to 'orbit_map_test'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 15,
+      "CodeBlockLine": 13,
       "MemoryOffset": 6414,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 16,
+      "CodeBlockLine": 14,
       "MemoryOffset": 6434,
       "Description": "Set 'player_spawn' to '00_dummyactor'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 16,
+      "CodeBlockLine": 14,
       "MemoryOffset": 6440,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 16,
+      "CodeBlockLine": 14,
       "MemoryOffset": 6444,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },

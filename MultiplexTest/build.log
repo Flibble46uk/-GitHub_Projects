@@ -23,13 +23,13 @@ ImageFrame Data Size: 704
 === Cartridge section PANL (size 32988) ===
 Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
 
-=== Cartridge section MPHD (size 6408) ===
+=== Cartridge section MPHD (size 6388) ===
 Header data for map imported map Original size 9780 Crunched size 312
-Header data for map orbit_map_test Original size 9780 Crunched size 316
+Header data for map orbit_map_test Original size 9780 Crunched size 314
 
-=== Cartridge section MPDT (size 11128) ===
+=== Cartridge section MPDT (size 14368) ===
 Tile data for map imported map Original size 2124 Crunched size 372
-Tile data for map orbit_map_test Original size 7666 Crunched size 728
+Tile data for map orbit_map_test Original size 27506 Crunched size 1052
 
 === Cartridge section MPBG (size 1968) ===
 Background for map imported map Original size 2672 Crunched size 92
@@ -50,8 +50,8 @@ Project Header Original size 4040 Crunched size 1204
 === Cartridge section PDAT (size 4908) ===
 Project Data Original size 4172 Crunched size 484
 
-=== Cartridge section VMCB (size 20088) ===
-Project virtual machine (codeblocks) Original size 7478 Crunched size 2002
+=== Cartridge section VMCB (size 20108) ===
+Project virtual machine (codeblocks) Original size 7478 Crunched size 2004
 
 === Cartridge section VMRD (size 108) ===
 Project virtual machine redirects Original size 4 Crunched size 4
