@@ -17,8 +17,8 @@ Animations Count: 10
 Animations Data Size: 160
 AnimationFrame Count: 11
 AnimationFrame Data Size: 176
-ImageFrames: 11
-ImageFrame Data Size: 704
+ImageFrames: 9
+ImageFrame Data Size: 576
 
 === Cartridge section PANL (size 32988) ===
 Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
@@ -39,16 +39,16 @@ Background for map orbit_map_test Original size 2672 Crunched size 358
 Parallax for map imported map Original size 0 Crunched size 0
 Parallax for map orbit_map_test Original size 1800 Crunched size 162
 
-=== Cartridge section ASBD (size 97908) ===
-Asset bundle 0 (Core project asset bundle) Original size 18880 Crunched size 588
+=== Cartridge section ASBD (size 96768) ===
+Asset bundle 0 (Core project asset bundle) Original size 18240 Crunched size 474
 Asset bundle 1 (imported map) Original size 7520 Crunched size 4926
 Asset bundle 2 (orbit_map_test) Original size 18240 Crunched size 4258
 
-=== Cartridge section PROJ (size 12128) ===
-Project Header Original size 4040 Crunched size 1206
+=== Cartridge section PROJ (size 12148) ===
+Project Header Original size 4040 Crunched size 1208
 
-=== Cartridge section PDAT (size 4948) ===
-Project Data Original size 4172 Crunched size 488
+=== Cartridge section PDAT (size 4708) ===
+Project Data Original size 4044 Crunched size 464
 
 === Cartridge section VMCB (size 20268) ===
 Project virtual machine (codeblocks) Original size 7526 Crunched size 2020

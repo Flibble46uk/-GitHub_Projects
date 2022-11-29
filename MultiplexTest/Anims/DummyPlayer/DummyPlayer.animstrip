@@ -1,7 +1,7 @@
 {
   "Frames": [
     {
-      "Path": "DummyPlayer.png",
+      "Path": null,
       "Duration": 5,
       "HandleX": 0,
       "HandleY": 0,
