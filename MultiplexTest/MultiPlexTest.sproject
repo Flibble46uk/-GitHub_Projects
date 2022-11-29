@@ -116,7 +116,7 @@
       "Width": 256,
       "XOffset": 32,
       "XFillSize": 24,
-      "YFillSize": 17,
+      "YFillSize": 20,
       "Implode": true,
       "MapCache": false,
       "DoubleCopper": true,
@@ -133,7 +133,7 @@
     "EmulatedFastRam": 0,
     "WinUAEConfiguration": null,
     "XFillSize": 24,
-    "YFillSize": 17,
+    "YFillSize": 20,
     "XOffset": 32,
     "FMode": 0,
     "Width": 256,
@@ -143,7 +143,7 @@
     "AllocateMemoryUpfront": true,
     "Implode": true,
     "FolderPath": "D:\\!ScorpionProjects\\MultiplexTest\\",
-    "IsDirty": false,
-    "DirtyDelay": 0.0
+    "IsDirty": true,
+    "DirtyDelay": 4.824251E-07
   }
 }

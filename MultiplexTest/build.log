@@ -1,10 +1,10 @@
 === Image optimisations ===
 
 === Misc ===
-Maps and Asset Bundles Count: 2
-Maps and Asset Bundles Data Size: 24
-Actor Count: 9
-Actor Data Size: 2700
+Maps and Asset Bundles Count: 3
+Maps and Asset Bundles Data Size: 36
+Actor Count: 10
+Actor Data Size: 3000
 Block Count: 1
 Block Data Size: 52
 Anim5 Count: 1
@@ -13,40 +13,45 @@ Sound Count: 1
 Sound Data Size: 32
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 9
-Animations Data Size: 144
-AnimationFrame Count: 10
-AnimationFrame Data Size: 160
-ImageFrames: 10
-ImageFrame Data Size: 640
+Animations Count: 10
+Animations Data Size: 160
+AnimationFrame Count: 11
+AnimationFrame Data Size: 176
+ImageFrames: 11
+ImageFrame Data Size: 704
 
 === Cartridge section PANL (size 32988) ===
 Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
 
-=== Cartridge section MPHD (size 3228) ===
-Header data for map imported map Original size 9780 Crunched size 316
+=== Cartridge section MPHD (size 6408) ===
+Header data for map imported map Original size 9780 Crunched size 312
+Header data for map orbit_map_test Original size 9780 Crunched size 316
 
-=== Cartridge section MPDT (size 3788) ===
+=== Cartridge section MPDT (size 11128) ===
 Tile data for map imported map Original size 2124 Crunched size 372
+Tile data for map orbit_map_test Original size 7666 Crunched size 728
 
-=== Cartridge section MPBG (size 988) ===
+=== Cartridge section MPBG (size 1968) ===
 Background for map imported map Original size 2672 Crunched size 92
+Background for map orbit_map_test Original size 2672 Crunched size 92
 
-=== Cartridge section MPPX (size 68) ===
+=== Cartridge section MPPX (size 128) ===
 Parallax for map imported map Original size 0 Crunched size 0
+Parallax for map orbit_map_test Original size 0 Crunched size 0
 
-=== Cartridge section ASBD (size 54728) ===
-Asset bundle 0 (Core project asset bundle) Original size 18560 Crunched size 534
+=== Cartridge section ASBD (size 67548) ===
+Asset bundle 0 (Core project asset bundle) Original size 18880 Crunched size 588
 Asset bundle 1 (imported map) Original size 7520 Crunched size 4926
+Asset bundle 2 (orbit_map_test) Original size 15360 Crunched size 1222
 
 === Cartridge section PROJ (size 12108) ===
 Project Header Original size 4040 Crunched size 1204
 
-=== Cartridge section PDAT (size 4348) ===
-Project Data Original size 3764 Crunched size 428
+=== Cartridge section PDAT (size 4908) ===
+Project Data Original size 4172 Crunched size 484
 
-=== Cartridge section VMCB (size 19228) ===
-Project virtual machine (codeblocks) Original size 7174 Crunched size 1916
+=== Cartridge section VMCB (size 20088) ===
+Project virtual machine (codeblocks) Original size 7478 Crunched size 2002
 
 === Cartridge section VMRD (size 108) ===
 Project virtual machine redirects Original size 4 Crunched size 4

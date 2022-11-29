@@ -41,4 +41,9 @@
       <property name="Name" value="actor_ocspalette" type="string" />
     </properties>
   </tile>
+  <tile id="8">
+    <properties>
+      <property name="Name" value="00_dummyactor" type="string" />
+    </properties>
+  </tile>
 </tileset>

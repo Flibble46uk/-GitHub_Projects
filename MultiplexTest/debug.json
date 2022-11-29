@@ -2080,6 +2080,13 @@
       "DefaultValue": "0",
       "Index": 190,
       "MemoryOffset": 190
+    },
+    {
+      "CodeBlock": "00_startup",
+      "Name": "TestType",
+      "DefaultValue": "1",
+      "Index": 191,
+      "MemoryOffset": 191
     }
   ],
   "Lines": [
@@ -4604,447 +4611,568 @@
       "Description": "Yield on levelyield timer to  next line"
     },
     {
-      "CodeBlock": "00_setcamera",
+      "CodeBlock": "00_donothing",
       "CodeBlockLine": 0,
       "MemoryOffset": 5926,
+      "Description": "00_DONOTHING"
+    },
+    {
+      "CodeBlock": "00_orbit_follow",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 5958,
+      "Description": "00_ORBIT_FOLLOW"
+    },
+    {
+      "CodeBlock": "00_orbit_follow",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 5958,
+      "Description": "Set 'camera_x' to 'actor_x-128'"
+    },
+    {
+      "CodeBlock": "00_orbit_follow",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 5982,
+      "Description": "Set 'camera_y' to 'actor_y-128'"
+    },
+    {
+      "CodeBlock": "00_orbit_follow",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 6006,
+      "Description": "If 'actor_var2' LessThan '360' ELSE GOTO 00006062"
+    },
+    {
+      "CodeBlock": "00_orbit_follow",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 6032,
+      "Description": "Set 'actor_var2' to 'actor_var2+1'"
+    },
+    {
+      "CodeBlock": "00_orbit_follow",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 6054,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "00_orbit_follow",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 6058,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "00_orbit_follow",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6062,
+      "Description": "If 'actor_var2' GreaterThanOrEqual '360' ELSE GOTO 00006102"
+    },
+    {
+      "CodeBlock": "00_orbit_follow",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 6088,
+      "Description": "Set 'actor_var2' to '0'"
+    },
+    {
+      "CodeBlock": "00_orbit_follow",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 6094,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "00_orbit_follow",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 6098,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "00_orbit_follow",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 6102,
+      "Description": "Yield on levelyield timer to  next line"
+    },
+    {
+      "CodeBlock": "00_setcamera",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 6160,
       "Description": "00_SETCAMERA"
     },
     {
       "CodeBlock": "00_setcamera",
       "CodeBlockLine": 1,
-      "MemoryOffset": 5926,
+      "MemoryOffset": 6160,
       "Description": "Set 'camera_x' to 'actor_x'"
     },
     {
       "CodeBlock": "00_setcamera",
       "CodeBlockLine": 2,
-      "MemoryOffset": 5946,
+      "MemoryOffset": 6180,
       "Description": "Set 'camera_y' to 'actor_y'"
     },
     {
       "CodeBlock": "00_setcamera",
       "CodeBlockLine": 3,
-      "MemoryOffset": 5966,
+      "MemoryOffset": 6200,
       "Description": "Yield on levelyield timer to  next line"
     },
     {
       "CodeBlock": "00_startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6024,
+      "MemoryOffset": 6258,
       "Description": "00_STARTUP"
     },
     {
       "CodeBlock": "00_startup",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6024,
+      "MemoryOffset": 6258,
       "Description": "Set 'newvalue' to '256'"
     },
     {
       "CodeBlock": "00_startup",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6032,
+      "MemoryOffset": 6266,
       "Description": "GOSUB TO 'SET_YRESOLUTION'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 6052,
+      "CodeBlockLine": 5,
+      "MemoryOffset": 6286,
+      "Description": "If 'testtype' Equals '1' ELSE GOTO 00006394"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6300,
       "Description": "Set 'newvalue' to 'imported map'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 6058,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6306,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 6078,
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6326,
       "Description": "Raw expression '00_dummyplayer'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 6084,
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6332,
       "Description": "Raw expression 'camera_x'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 6094,
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6342,
       "Description": "Raw expression 'camera_y+80'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 6108,
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6356,
       "Description": "Core operation'PixelSpawn'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 6112,
+      "CodeBlockLine": 9,
+      "MemoryOffset": 6360,
       "Description": "Raw expression 'actor_ocspalette'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 6118,
+      "CodeBlockLine": 9,
+      "MemoryOffset": 6366,
       "Description": "Raw expression 'camera_x+192'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 6132,
+      "CodeBlockLine": 9,
+      "MemoryOffset": 6380,
       "Description": "Raw expression 'camera_y'"
     },
     {
       "CodeBlock": "00_startup",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 6142,
+      "CodeBlockLine": 9,
+      "MemoryOffset": 6390,
       "Description": "Core operation'PixelSpawn'"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 6394,
+      "Description": "If 'testtype' Equals '2' ELSE GOTO 00006448"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 6408,
+      "Description": "Set 'newvalue' to 'orbit_map_test'"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 6414,
+      "Description": "GOSUB TO 'LOAD_LEVEL'"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 6434,
+      "Description": "Set 'player_spawn' to '00_dummyactor'"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 6440,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "00_startup",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 6444,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_plane1_toggle",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6178,
+      "MemoryOffset": 6480,
       "Description": "01_PLANE1_TOGGLE"
     },
     {
       "CodeBlock": "01_plane1_toggle",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6178,
+      "MemoryOffset": 6480,
       "Description": "Set 'plane_1' to '1-plane_1'"
     },
     {
       "CodeBlock": "01_plane1_toggle",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6188,
+      "MemoryOffset": 6490,
       "Description": "If 'plane_1' Equals '1'"
     },
     {
       "CodeBlock": "01_plane1_toggle",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6202,
+      "MemoryOffset": 6504,
       "Description": "Set 'player_spawn' to 'actor_plane1'"
     },
     {
       "CodeBlock": "01_plane1_toggle",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6208,
+      "MemoryOffset": 6510,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_plane1_toggle",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6212,
+      "MemoryOffset": 6514,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_plane1_toggle",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6216,
+      "MemoryOffset": 6518,
       "Description": "Yield on levelyield timer to  next line"
     },
     {
       "CodeBlock": "01_plane1_toggle",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6242,
-      "Description": "GOTO '00006262'"
+      "MemoryOffset": 6544,
+      "Description": "GOTO '00006564'"
     },
     {
       "CodeBlock": "01_plane1_toggle",
       "CodeBlockLine": 6,
-      "MemoryOffset": 6248,
+      "MemoryOffset": 6550,
       "Description": "Raw expression 'actor_plane1'"
     },
     {
       "CodeBlock": "01_plane1_toggle",
       "CodeBlockLine": 6,
-      "MemoryOffset": 6254,
+      "MemoryOffset": 6556,
       "Description": "Core operation'Foreach'"
     },
     {
       "CodeBlock": "01_plane1_toggle",
       "CodeBlockLine": 6,
-      "MemoryOffset": 6258,
+      "MemoryOffset": 6560,
       "Description": "Foreach 'actor_plane1' do 'destroy_actor'"
     },
     {
       "CodeBlock": "01_plane2_toggle",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6294,
+      "MemoryOffset": 6596,
       "Description": "01_PLANE2_TOGGLE"
     },
     {
       "CodeBlock": "01_plane2_toggle",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6294,
+      "MemoryOffset": 6596,
       "Description": "Set 'plane_2' to '1-plane_2'"
     },
     {
       "CodeBlock": "01_plane2_toggle",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6304,
+      "MemoryOffset": 6606,
       "Description": "If 'plane_2' Equals '1'"
     },
     {
       "CodeBlock": "01_plane2_toggle",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6318,
+      "MemoryOffset": 6620,
       "Description": "Set 'player_spawn' to 'actor_plane2'"
     },
     {
       "CodeBlock": "01_plane2_toggle",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6324,
+      "MemoryOffset": 6626,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_plane2_toggle",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6328,
+      "MemoryOffset": 6630,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_plane2_toggle",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6332,
+      "MemoryOffset": 6634,
       "Description": "Yield on levelyield timer to  next line"
     },
     {
       "CodeBlock": "01_plane2_toggle",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6358,
-      "Description": "GOTO '00006378'"
+      "MemoryOffset": 6660,
+      "Description": "GOTO '00006680'"
     },
     {
       "CodeBlock": "01_plane2_toggle",
       "CodeBlockLine": 6,
-      "MemoryOffset": 6364,
+      "MemoryOffset": 6666,
       "Description": "Raw expression 'actor_plane2'"
     },
     {
       "CodeBlock": "01_plane2_toggle",
       "CodeBlockLine": 6,
-      "MemoryOffset": 6370,
+      "MemoryOffset": 6672,
       "Description": "Core operation'Foreach'"
     },
     {
       "CodeBlock": "01_plane2_toggle",
       "CodeBlockLine": 6,
-      "MemoryOffset": 6374,
+      "MemoryOffset": 6676,
       "Description": "Foreach 'actor_plane2' do 'destroy_actor'"
     },
     {
       "CodeBlock": "01_plane3_toggle",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6410,
+      "MemoryOffset": 6712,
       "Description": "01_PLANE3_TOGGLE"
     },
     {
       "CodeBlock": "01_plane3_toggle",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6410,
+      "MemoryOffset": 6712,
       "Description": "Set 'plane_3' to '1-plane_3'"
     },
     {
       "CodeBlock": "01_plane3_toggle",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6420,
+      "MemoryOffset": 6722,
       "Description": "If 'plane_3' Equals '1'"
     },
     {
       "CodeBlock": "01_plane3_toggle",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6434,
+      "MemoryOffset": 6736,
       "Description": "Set 'player_spawn' to 'actor_plane3'"
     },
     {
       "CodeBlock": "01_plane3_toggle",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6440,
+      "MemoryOffset": 6742,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_plane3_toggle",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6444,
+      "MemoryOffset": 6746,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_plane3_toggle",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6448,
+      "MemoryOffset": 6750,
       "Description": "Yield on levelyield timer to  next line"
     },
     {
       "CodeBlock": "01_plane3_toggle",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6474,
-      "Description": "GOTO '00006494'"
+      "MemoryOffset": 6776,
+      "Description": "GOTO '00006796'"
     },
     {
       "CodeBlock": "01_plane3_toggle",
       "CodeBlockLine": 6,
-      "MemoryOffset": 6480,
+      "MemoryOffset": 6782,
       "Description": "Raw expression 'actor_plane3'"
     },
     {
       "CodeBlock": "01_plane3_toggle",
       "CodeBlockLine": 6,
-      "MemoryOffset": 6486,
+      "MemoryOffset": 6788,
       "Description": "Core operation'Foreach'"
     },
     {
       "CodeBlock": "01_plane3_toggle",
       "CodeBlockLine": 6,
-      "MemoryOffset": 6490,
+      "MemoryOffset": 6792,
       "Description": "Foreach 'actor_plane3' do 'destroy_actor'"
     },
     {
       "CodeBlock": "01_plane4_toggle",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6526,
+      "MemoryOffset": 6828,
       "Description": "01_PLANE4_TOGGLE"
     },
     {
       "CodeBlock": "01_plane4_toggle",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6526,
+      "MemoryOffset": 6828,
       "Description": "Set 'plane_4' to '1-plane_4'"
     },
     {
       "CodeBlock": "01_plane4_toggle",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6536,
+      "MemoryOffset": 6838,
       "Description": "If 'plane_4' Equals '1'"
     },
     {
       "CodeBlock": "01_plane4_toggle",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6550,
+      "MemoryOffset": 6852,
       "Description": "Set 'player_spawn' to 'actor_plane4'"
     },
     {
       "CodeBlock": "01_plane4_toggle",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6556,
+      "MemoryOffset": 6858,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_plane4_toggle",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6560,
+      "MemoryOffset": 6862,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_plane4_toggle",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6564,
+      "MemoryOffset": 6866,
       "Description": "Yield on levelyield timer to  next line"
     },
     {
       "CodeBlock": "01_plane4_toggle",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6590,
-      "Description": "GOTO '00006610'"
+      "MemoryOffset": 6892,
+      "Description": "GOTO '00006912'"
     },
     {
       "CodeBlock": "01_plane4_toggle",
       "CodeBlockLine": 6,
-      "MemoryOffset": 6596,
+      "MemoryOffset": 6898,
       "Description": "Raw expression 'actor_plane4'"
     },
     {
       "CodeBlock": "01_plane4_toggle",
       "CodeBlockLine": 6,
-      "MemoryOffset": 6602,
+      "MemoryOffset": 6904,
       "Description": "Core operation'Foreach'"
     },
     {
       "CodeBlock": "01_plane4_toggle",
       "CodeBlockLine": 6,
-      "MemoryOffset": 6606,
+      "MemoryOffset": 6908,
       "Description": "Foreach 'actor_plane4' do 'destroy_actor'"
     },
     {
       "CodeBlock": "01_plane5_toggle",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6642,
+      "MemoryOffset": 6944,
       "Description": "01_PLANE5_TOGGLE"
     },
     {
       "CodeBlock": "01_plane5_toggle",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6642,
+      "MemoryOffset": 6944,
       "Description": "Set 'plane_5' to '1-plane_5'"
     },
     {
       "CodeBlock": "01_plane5_toggle",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6652,
+      "MemoryOffset": 6954,
       "Description": "If 'plane_5' Equals '1'"
     },
     {
       "CodeBlock": "01_plane5_toggle",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6666,
+      "MemoryOffset": 6968,
       "Description": "Set 'player_spawn' to 'actor_plane5'"
     },
     {
       "CodeBlock": "01_plane5_toggle",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6672,
+      "MemoryOffset": 6974,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_plane5_toggle",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6676,
+      "MemoryOffset": 6978,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_plane5_toggle",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6680,
+      "MemoryOffset": 6982,
       "Description": "Yield on levelyield timer to  next line"
     },
     {
       "CodeBlock": "01_plane5_toggle",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6706,
-      "Description": "GOTO '00006726'"
+      "MemoryOffset": 7008,
+      "Description": "GOTO '00007028'"
     },
     {
       "CodeBlock": "01_plane5_toggle",
       "CodeBlockLine": 6,
-      "MemoryOffset": 6712,
+      "MemoryOffset": 7014,
       "Description": "Raw expression 'actor_plane5'"
     },
     {
       "CodeBlock": "01_plane5_toggle",
       "CodeBlockLine": 6,
-      "MemoryOffset": 6718,
+      "MemoryOffset": 7020,
       "Description": "Core operation'Foreach'"
     },
     {
       "CodeBlock": "01_plane5_toggle",
       "CodeBlockLine": 6,
-      "MemoryOffset": 6722,
+      "MemoryOffset": 7024,
       "Description": "Foreach 'actor_plane5' do 'destroy_actor'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6758,
+      "MemoryOffset": 7060,
       "Description": "STARTUP"
     }
   ],
   "Levels": {
     "0": "No level loaded",
-    "1": "imported map"
+    "1": "imported map",
+    "2": "orbit_map_test"
   },
   "Music": {
     "0": "No music loaded"
@@ -5054,26 +5182,28 @@
   },
   "Actors": {
     "0": "Destroyed actor",
-    "1": "00_dummycamera",
-    "2": "00_dummyplayer",
-    "3": "actor_ocspalette",
-    "4": "actor_plane1",
-    "5": "actor_plane2",
-    "6": "actor_plane3",
-    "7": "actor_plane4",
-    "8": "actor_plane5"
+    "1": "00_dummyactor",
+    "2": "00_dummycamera",
+    "3": "00_dummyplayer",
+    "4": "actor_ocspalette",
+    "5": "actor_plane1",
+    "6": "actor_plane2",
+    "7": "actor_plane3",
+    "8": "actor_plane4",
+    "9": "actor_plane5"
   },
   "Sounds": {
     "0": "No sound played"
   },
   "Animations": {
-    "1": "dummycamera",
-    "2": "dummyplayer",
-    "3": "ocspalette",
-    "4": "ocsplane1",
-    "5": "ocsplane2",
-    "6": "ocsplane3",
-    "7": "ocsplane4",
-    "8": "ocsplane5"
+    "1": "dummyactor",
+    "2": "dummycamera",
+    "3": "dummyplayer",
+    "4": "ocspalette",
+    "5": "ocsplane1",
+    "6": "ocsplane2",
+    "7": "ocsplane3",
+    "8": "ocsplane4",
+    "9": "ocsplane5"
   }
 }

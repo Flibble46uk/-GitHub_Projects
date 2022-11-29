@@ -13,7 +13,7 @@
   "Width": 256,
   "XOffset": 32,
   "XFillSize": 24,
-  "YFillSize": 17,
+  "YFillSize": 20,
   "Implode": true,
   "MapCache": false,
   "DoubleCopper": true,
