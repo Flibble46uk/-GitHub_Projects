@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<tileset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="orbit_map_test" tilewidth="16" tileheight="16" tilecount="112" columns="16">
-  <image source="orbit_map_test.tileset.png" width="256" height="112" />
+<tileset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="orbit_map_test" tilewidth="16" tileheight="16" tilecount="128" columns="16">
+  <image source="orbit_map_test.tileset.png" width="256" height="128" />
   <tile id="0">
     <properties>
       <property name="IsSolid" value="False" type="bool" />
@@ -668,6 +668,102 @@
     </properties>
   </tile>
   <tile id="111">
+    <properties>
+      <property name="IsSolid" value="False" type="bool" />
+      <property name="IsPlatform" value="False" type="bool" />
+    </properties>
+  </tile>
+  <tile id="112">
+    <properties>
+      <property name="IsSolid" value="False" type="bool" />
+      <property name="IsPlatform" value="False" type="bool" />
+    </properties>
+  </tile>
+  <tile id="113">
+    <properties>
+      <property name="IsSolid" value="False" type="bool" />
+      <property name="IsPlatform" value="False" type="bool" />
+    </properties>
+  </tile>
+  <tile id="114">
+    <properties>
+      <property name="IsSolid" value="False" type="bool" />
+      <property name="IsPlatform" value="False" type="bool" />
+    </properties>
+  </tile>
+  <tile id="115">
+    <properties>
+      <property name="IsSolid" value="False" type="bool" />
+      <property name="IsPlatform" value="False" type="bool" />
+    </properties>
+  </tile>
+  <tile id="116">
+    <properties>
+      <property name="IsSolid" value="False" type="bool" />
+      <property name="IsPlatform" value="False" type="bool" />
+    </properties>
+  </tile>
+  <tile id="117">
+    <properties>
+      <property name="IsSolid" value="False" type="bool" />
+      <property name="IsPlatform" value="False" type="bool" />
+    </properties>
+  </tile>
+  <tile id="118">
+    <properties>
+      <property name="IsSolid" value="False" type="bool" />
+      <property name="IsPlatform" value="False" type="bool" />
+    </properties>
+  </tile>
+  <tile id="119">
+    <properties>
+      <property name="IsSolid" value="False" type="bool" />
+      <property name="IsPlatform" value="False" type="bool" />
+    </properties>
+  </tile>
+  <tile id="120">
+    <properties>
+      <property name="IsSolid" value="False" type="bool" />
+      <property name="IsPlatform" value="False" type="bool" />
+    </properties>
+  </tile>
+  <tile id="121">
+    <properties>
+      <property name="IsSolid" value="False" type="bool" />
+      <property name="IsPlatform" value="False" type="bool" />
+    </properties>
+  </tile>
+  <tile id="122">
+    <properties>
+      <property name="IsSolid" value="False" type="bool" />
+      <property name="IsPlatform" value="False" type="bool" />
+    </properties>
+  </tile>
+  <tile id="123">
+    <properties>
+      <property name="IsSolid" value="False" type="bool" />
+      <property name="IsPlatform" value="False" type="bool" />
+    </properties>
+  </tile>
+  <tile id="124">
+    <properties>
+      <property name="IsSolid" value="False" type="bool" />
+      <property name="IsPlatform" value="False" type="bool" />
+    </properties>
+  </tile>
+  <tile id="125">
+    <properties>
+      <property name="IsSolid" value="False" type="bool" />
+      <property name="IsPlatform" value="False" type="bool" />
+    </properties>
+  </tile>
+  <tile id="126">
+    <properties>
+      <property name="IsSolid" value="False" type="bool" />
+      <property name="IsPlatform" value="False" type="bool" />
+    </properties>
+  </tile>
+  <tile id="127">
     <properties>
       <property name="IsSolid" value="False" type="bool" />
       <property name="IsPlatform" value="False" type="bool" />

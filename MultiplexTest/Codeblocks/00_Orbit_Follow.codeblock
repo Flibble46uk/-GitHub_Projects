@@ -1,7 +1,15 @@
 {
   "CompileOrder": 0,
   "DataVersion": 1,
-  "Variables": [],
+  "Variables": [
+    {
+      "Name": "a",
+      "Value": "1",
+      "Notes": null,
+      "PrivateSet": false,
+      "VariableType": "Variable"
+    }
+  ],
   "Commands": [
     {
       "DataVersion": 2,
