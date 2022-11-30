@@ -1,6 +1,5 @@
 === Image optimisations ===
 Reduce width of Anims\LVL01_BIGHEAD_00x00.png by 14 pixels to 48 to improve blit performance by 100.00%
-Reduce width of Anims\LVL01_BIGHEAD_01x00.png by 14 pixels to 48 to improve blit performance by 100.00%
 Reduce width of Anims\LVL01_BOSS_00x00.png by 14 pixels to 48 to improve blit performance by 100.00%
 Reduce width of Anims\LVL01_BOSS_01x00.png by 14 pixels to 48 to improve blit performance by 100.00%
 Reduce width of Anims\LVL01_BOSS_02x00.png by 14 pixels to 48 to improve blit performance by 100.00%
@@ -48,8 +47,10 @@ Reduce width of Anims\Oscar_FaceRight_10x00.png by 11 pixels to 16 to improve bl
 Reduce width of Anims\StatusBar_00x00.png by 14 pixels to 192 to improve blit performance by 100.00%
 
 === Misc ===
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 24
 Actor Count: 20
-Actor Data Size: 5920
+Actor Data Size: 6000
 Block Count: 2
 Block Data Size: 104
 Anim5 Count: 1
@@ -60,41 +61,40 @@ Teleporter Count: 1
 Teleporter Data Size: 8
 Animations Count: 36
 Animations Data Size: 576
-AnimationFrame Count: 104
-AnimationFrame Data Size: 1664
-ImageFrames: BlitzTool.BlitzWord
-ImageFrame Data Size: 6080
-Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3308
-Saving Panel debug as 1.img. Original size: 4940
-Saving Panel oscar_titlel as 2.img. Original size: 42210
-Saving Project virtual machine (codeblocks) as project.vm. Original size: 10220
-Saving Project virtual machine redirects as project.rd. Original size: 4
-Saving Header data for map oscar_lvl_01 as 1.mhd. Original size: 9788
-Saving Data for map oscar_lvl_01 as 1.map. Original size: 26828
-Saving Background for map oscar_lvl_01 as 1.bg. Original size: 2672
-Saving Asset bundle 0 as 0.gfx. Original size: 111350
-Saving Asset bundle 1 as 1.gfx. Original size: 75200
-Saving Project data as project.dat. Original size: 14388
-Saving Scorpion header as project.hd. Original size: 4036
+AnimationFrame Count: 103
+AnimationFrame Data Size: 1648
+ImageFrames: 94
+ImageFrame Data Size: 6016
 
-Estimated memory usages:
+=== Cartridge section PANL (size 504608) ===
+Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
+Panel debug Original size 4940 Crunched size 0
+Panel oscar_titlel Original size 42210 Crunched size 0
 
-For chip:
-Map gfx (level gfx bundle 1 ): 75200
-Music memory: 0
-BP Buffer memory: 124400
-core sfx/gfx memory: 111350
-Parallax memory: 0
+=== Cartridge section MPHD (size 5508) ===
+Header data for map oscar_lvl_01 Original size 9780 Crunched size 544
 
-For other:
-Map cache memory: 0
-Map header cache memory: 0
-Map data memory: 26828
-Map background memory: 2672
-EXE memory: 194920
-vm memory: 10220
-project memory: 14388
+=== Cartridge section MPDT (size 28848) ===
+Tile data for map oscar_lvl_01 Original size 26828 Crunched size 2878
 
-Accounted memory chip: 310950
-Accounted memory other: 249028
-Accounted memory total: 559978
+=== Cartridge section MPBG (size 1248) ===
+Background for map oscar_lvl_01 Original size 2672 Crunched size 118
+
+=== Cartridge section MPPX (size 68) ===
+Parallax for map oscar_lvl_01 Original size 0 Crunched size 0
+
+=== Cartridge section ASBD (size 581008) ===
+Asset bundle 0 (Core project asset bundle) Original size 102870 Crunched size 28292
+Asset bundle 1 (oscar_lvl_01) Original size 75840 Crunched size 29796
+
+=== Cartridge section PROJ (size 11948) ===
+Project Header Original size 4040 Crunched size 1188
+
+=== Cartridge section PDAT (size 31628) ===
+Project Data Original size 14412 Crunched size 3156
+
+=== Cartridge section VMCB (size 26948) ===
+Project virtual machine (codeblocks) Original size 10140 Crunched size 2688
+
+=== Cartridge section VMRD (size 108) ===
+Project virtual machine redirects Original size 4 Crunched size 4

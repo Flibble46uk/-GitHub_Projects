@@ -145,6 +145,7 @@
     "0"
   ],
   "ControlPort": 1,
+  "JumpCancel": 2.0,
   "TileID": 0,
   "SuggestedRecycle": "Never"
 }

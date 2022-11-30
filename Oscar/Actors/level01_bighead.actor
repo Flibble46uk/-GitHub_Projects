@@ -5,8 +5,8 @@
   "Recycle": "Never",
   "MoveType": "none",
   "MaxEntities": 0,
-  "NudgeX": 31,
-  "NudgeY": 58,
+  "NudgeX": -2,
+  "NudgeY": -98,
   "Idles": {
     "UpLeft": null,
     "Up": "lvl01_bighead",
@@ -94,8 +94,8 @@
     }
   ],
   "CollBox": {
-    "X": -20,
-    "Y": -58,
+    "X": -7,
+    "Y": 8,
     "Width": 46,
     "Height": 106
   },
@@ -144,7 +144,8 @@
     "0",
     "0"
   ],
-  "ControlPort": 0,
+  "ControlPort": 1,
+  "JumpCancel": 2.0,
   "TileID": 6,
   "SuggestedRecycle": "Never"
 }
