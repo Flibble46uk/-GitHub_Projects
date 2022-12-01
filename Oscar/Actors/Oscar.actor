@@ -134,7 +134,7 @@
   "DivertOutOfScreenDown": null,
   "DivertPlatformEdge": null,
   "DivertPlatformLand": "",
-  "DivertTimer": "00_level_events",
+  "DivertTimer": "",
   "DivertTimerFrames": 1,
   "Vars": [
     "0",

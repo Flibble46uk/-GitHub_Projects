@@ -4,7 +4,22 @@
       "Path": "LVL01_BIGHEAD_00x00.png",
       "Duration": 8,
       "HandleX": -16,
-      "HandleY": 2,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "LVL01_BIGHEAD_01x00.png",
+      "Duration": 5,
+      "HandleX": -16,
+      "HandleY": 0,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
