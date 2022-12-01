@@ -74,7 +74,7 @@
     },
     {
       "Name": "grenade",
-      "Value": "1",
+      "Value": "0",
       "Notes": null,
       "PrivateSet": false,
       "VariableType": "Variable"
