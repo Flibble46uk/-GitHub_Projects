@@ -78,6 +78,20 @@
       "Notes": null,
       "PrivateSet": false,
       "VariableType": "Variable"
+    },
+    {
+      "Name": "laser",
+      "Value": "0",
+      "Notes": null,
+      "PrivateSet": false,
+      "VariableType": "Variable"
+    },
+    {
+      "Name": "ammocount",
+      "Value": "1",
+      "Notes": null,
+      "PrivateSet": false,
+      "VariableType": "Variable"
     }
   ],
   "Commands": [
