@@ -90,6 +90,22 @@
       "CD32Yellow": false,
       "OnPress": "01_plane5_toggle",
       "OnRelease": ""
+    },
+    {
+      "Compiler": "amiga",
+      "Key": "T",
+      "JoystickPort": -1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": false,
+      "JoystickFire2": false,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "OnPress": "00_camera_test_moveplayer",
+      "OnRelease": null
     }
   ],
   "AnimationMetaData": {},

@@ -1,12 +1,12 @@
 === Image optimisations ===
 
 === Misc ===
-Maps and Asset Bundles Count: 3
-Maps and Asset Bundles Data Size: 36
+Maps and Asset Bundles Count: 6
+Maps and Asset Bundles Data Size: 72
 Actor Count: 10
 Actor Data Size: 3000
-Block Count: 1
-Block Data Size: 52
+Block Count: 2
+Block Data Size: 104
 Anim5 Count: 1
 Anim5 Data Size: 4
 Sound Count: 1
@@ -17,41 +17,56 @@ Animations Count: 10
 Animations Data Size: 160
 AnimationFrame Count: 11
 AnimationFrame Data Size: 176
-ImageFrames: 9
-ImageFrame Data Size: 576
+ImageFrames: 11
+ImageFrame Data Size: 704
 
 === Cartridge section PANL (size 32988) ===
 Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
 
-=== Cartridge section MPHD (size 5508) ===
+=== Cartridge section MPHD (size 15188) ===
+Header data for map camera_test Original size 9780 Crunched size 322
 Header data for map imported map Original size 9780 Crunched size 312
 Header data for map orbit_map_test Original size 9780 Crunched size 226
+Header data for map wonderboy_all_rounds Original size 9780 Crunched size 312
+Header data for map wonderboy_lvl_01 Original size 9780 Crunched size 316
 
-=== Cartridge section MPDT (size 16128) ===
+=== Cartridge section MPDT (size 251228) ===
+Tile data for map camera_test Original size 7244 Crunched size 442
 Tile data for map imported map Original size 2124 Crunched size 372
 Tile data for map orbit_map_test Original size 27506 Crunched size 1228
+Tile data for map wonderboy_all_rounds Original size 797772 Crunched size 19450
+Tile data for map wonderboy_lvl_01 Original size 86276 Crunched size 3600
 
-=== Cartridge section MPBG (size 4628) ===
+=== Cartridge section MPBG (size 7568) ===
+Background for map camera_test Original size 2672 Crunched size 92
 Background for map imported map Original size 2672 Crunched size 92
 Background for map orbit_map_test Original size 2672 Crunched size 358
+Background for map wonderboy_all_rounds Original size 2672 Crunched size 92
+Background for map wonderboy_lvl_01 Original size 2672 Crunched size 92
 
-=== Cartridge section MPPX (size 1748) ===
+=== Cartridge section MPPX (size 1928) ===
+Parallax for map camera_test Original size 0 Crunched size 0
 Parallax for map imported map Original size 0 Crunched size 0
 Parallax for map orbit_map_test Original size 1800 Crunched size 162
+Parallax for map wonderboy_all_rounds Original size 0 Crunched size 0
+Parallax for map wonderboy_lvl_01 Original size 0 Crunched size 0
 
-=== Cartridge section ASBD (size 101448) ===
-Asset bundle 0 (Core project asset bundle) Original size 18240 Crunched size 474
-Asset bundle 1 (imported map) Original size 7520 Crunched size 4926
-Asset bundle 2 (orbit_map_test) Original size 20320 Crunched size 4726
+=== Cartridge section ASBD (size 979328) ===
+Asset bundle 0 (Core project asset bundle) Original size 18880 Crunched size 618
+Asset bundle 1 (camera_test) Original size 320 Crunched size 320
+Asset bundle 2 (imported map) Original size 7520 Crunched size 4926
+Asset bundle 3 (orbit_map_test) Original size 20320 Crunched size 4726
+Asset bundle 4 (wonderboy_all_rounds) Original size 239840 Crunched size 68410
+Asset bundle 5 (wonderboy_lvl_01) Original size 76800 Crunched size 18896
 
-=== Cartridge section PROJ (size 12148) ===
-Project Header Original size 4040 Crunched size 1208
+=== Cartridge section PROJ (size 12188) ===
+Project Header Original size 4040 Crunched size 1212
 
-=== Cartridge section PDAT (size 4708) ===
-Project Data Original size 4044 Crunched size 464
+=== Cartridge section PDAT (size 5188) ===
+Project Data Original size 4260 Crunched size 512
 
-=== Cartridge section VMCB (size 20268) ===
-Project virtual machine (codeblocks) Original size 7526 Crunched size 2020
+=== Cartridge section VMCB (size 21188) ===
+Project virtual machine (codeblocks) Original size 8190 Crunched size 2112
 
 === Cartridge section VMRD (size 108) ===
 Project virtual machine redirects Original size 4 Crunched size 4
