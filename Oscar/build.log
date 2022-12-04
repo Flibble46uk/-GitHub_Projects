@@ -91,11 +91,11 @@ Asset bundle 1 (oscar_lvl_01) Original size 75840 Crunched size 29796
 === Cartridge section PROJ (size 11948) ===
 Project Header Original size 4040 Crunched size 1188
 
-=== Cartridge section PDAT (size 31908) ===
-Project Data Original size 14492 Crunched size 3184
+=== Cartridge section PDAT (size 31888) ===
+Project Data Original size 14492 Crunched size 3182
 
 === Cartridge section VMCB (size 27348) ===
-Project virtual machine (codeblocks) Original size 10248 Crunched size 2728
+Project virtual machine (codeblocks) Original size 10264 Crunched size 2728
 
 === Cartridge section VMRD (size 108) ===
 Project virtual machine redirects Original size 4 Crunched size 4
