@@ -65,8 +65,8 @@ Project Header Original size 4040 Crunched size 1214
 === Cartridge section PDAT (size 5208) ===
 Project Data Original size 4284 Crunched size 514
 
-=== Cartridge section VMCB (size 21548) ===
-Project virtual machine (codeblocks) Original size 8296 Crunched size 2148
+=== Cartridge section VMCB (size 21508) ===
+Project virtual machine (codeblocks) Original size 8296 Crunched size 2144
 
 === Cartridge section VMRD (size 108) ===
 Project virtual machine redirects Original size 4 Crunched size 4
