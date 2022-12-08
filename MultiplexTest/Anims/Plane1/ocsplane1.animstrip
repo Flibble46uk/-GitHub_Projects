@@ -7,10 +7,10 @@
       "HandleY": 0,
       "XFlipped": false,
       "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
+        "X": -11,
+        "Y": -9,
+        "Width": 12,
+        "Height": 10
       },
       "HasHitBox": false,
       "OnFrame": null

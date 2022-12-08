@@ -139,13 +139,14 @@
   "Vars": [
     "0",
     "0",
-    "192",
+    "64",
     "0",
     "0",
     "0"
   ],
   "ControlPort": 0,
-  "JumpCancel": 2.0,
+  "DataVersion": 1,
   "TileID": 8,
-  "SuggestedRecycle": "Never"
+  "SuggestedRecycle": "Never",
+  "UpAccelerationName": "Accel Up"
 }

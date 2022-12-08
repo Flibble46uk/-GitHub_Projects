@@ -1,7 +1,7 @@
 {
   "Frames": [
     {
-      "Path": null,
+      "Path": "DummyActor.png",
       "Duration": 5,
       "HandleX": 0,
       "HandleY": 0,
