@@ -7,6 +7,7 @@
       "Value": "0",
       "Notes": null,
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Variable"
     },
     {
@@ -14,6 +15,7 @@
       "Value": "0",
       "Notes": null,
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Variable"
     },
     {
@@ -21,6 +23,7 @@
       "Value": "1",
       "Notes": null,
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Variable"
     },
     {
@@ -28,6 +31,7 @@
       "Value": "0",
       "Notes": null,
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Variable"
     },
     {
@@ -35,6 +39,7 @@
       "Value": "0",
       "Notes": null,
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Variable"
     },
     {
@@ -42,6 +47,7 @@
       "Value": "0",
       "Notes": null,
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Variable"
     },
     {
@@ -49,6 +55,7 @@
       "Value": "9999",
       "Notes": null,
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Variable"
     },
     {
@@ -56,6 +63,7 @@
       "Value": "0",
       "Notes": null,
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Variable"
     },
     {
@@ -63,6 +71,7 @@
       "Value": "0",
       "Notes": null,
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Variable"
     },
     {
@@ -70,6 +79,7 @@
       "Value": "0",
       "Notes": "",
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Variable"
     },
     {
@@ -77,6 +87,7 @@
       "Value": "0",
       "Notes": null,
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Variable"
     },
     {
@@ -84,6 +95,7 @@
       "Value": "0",
       "Notes": null,
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Variable"
     },
     {
@@ -91,6 +103,7 @@
       "Value": "1",
       "Notes": null,
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Variable"
     }
   ],
@@ -117,6 +130,7 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -169,6 +183,79 @@
     },
     {
       "DataVersion": 2,
+      "Category": "Conditional",
+      "BasicOperationType": "CommentOnly",
+      "DisplayOperationType": "SetPanel",
+      "AudioOperationType": "PlaySound",
+      "ConditionType": "EndCondition",
+      "LevelOperationType": "LoadLevel",
+      "ActorOperationType": "SetType",
+      "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "CoreType": "RefreshActorVariable",
+      "ControlMode": "Joys_1",
+      "Goto": "",
+      "Comment": "",
+      "Variable": "none",
+      "Expression": "0",
+      "Index": "0",
+      "Label": "",
+      "DiceSides": 2,
+      "Disabled": true,
+      "Breakpoint": false,
+      "Comparison": "NotZero",
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": "",
+      "YPosition": "",
+      "TeleportName": "none",
+      "XFloat": null,
+      "YFloat": null,
+      "ActorType": "none",
+      "Animation": "none",
+      "PushXPixels": "",
+      "PushYPixels": "",
+      "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": "",
+      "CameraX": "",
+      "CameraY": "",
+      "CameraBox": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "YRes": 224,
+      "CameraFollowLeft": true,
+      "CameraFollowRight": true,
+      "CameraFollowUp": true,
+      "CameraFollowDown": true,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
+      "Fire1Jump": false,
+      "Fire2Jump": true,
+      "UpJump": true,
+      "JumpOnHold": false,
+      "ColorIndex": "0",
+      "Color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "Sound": "none",
+      "Music": "none",
+      "MusicPos": "0",
+      "SpeakDelay": 1
+    },
+    {
+      "DataVersion": 2,
       "Category": "Display",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "Set25HZ",
@@ -189,6 +276,7 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -261,6 +349,7 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -333,6 +422,7 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "oscar_lvl_01",
       "NewBlock": "none",
@@ -405,6 +495,7 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -477,6 +568,7 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -549,6 +641,7 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
@@ -621,6 +714,7 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",
