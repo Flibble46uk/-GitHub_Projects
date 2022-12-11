@@ -51,7 +51,7 @@ Reduce width of Anims\StatusBar_00x00.png by 14 pixels to 192 to improve blit pe
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
 Actor Count: 20
-Actor Data Size: 6000
+Actor Data Size: 5920
 Block Count: 2
 Block Data Size: 104
 Anim5 Count: 1
@@ -67,10 +67,10 @@ AnimationFrame Data Size: 1664
 ImageFrames: 95
 ImageFrame Data Size: 6080
 
-=== Cartridge section PANL (size 504608) ===
+=== Cartridge section PANL (size 194568) ===
 Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
-Panel debug Original size 4940 Crunched size 0
-Panel oscar_titlel Original size 42210 Crunched size 0
+Panel debug Original size 4940 Crunched size 376
+Panel oscar_titlel Original size 42210 Crunched size 15770
 
 === Cartridge section MPHD (size 5508) ===
 Header data for map oscar_lvl_01 Original size 9780 Crunched size 544
@@ -91,11 +91,11 @@ Asset bundle 1 (oscar_lvl_01) Original size 75840 Crunched size 29796
 === Cartridge section PROJ (size 11948) ===
 Project Header Original size 4040 Crunched size 1188
 
-=== Cartridge section PDAT (size 31888) ===
-Project Data Original size 14492 Crunched size 3182
+=== Cartridge section PDAT (size 31628) ===
+Project Data Original size 14412 Crunched size 3156
 
-=== Cartridge section VMCB (size 27348) ===
-Project virtual machine (codeblocks) Original size 10264 Crunched size 2728
+=== Cartridge section VMCB (size 27448) ===
+Project virtual machine (codeblocks) Original size 10300 Crunched size 2738
 
 === Cartridge section VMRD (size 108) ===
 Project virtual machine redirects Original size 4 Crunched size 4
