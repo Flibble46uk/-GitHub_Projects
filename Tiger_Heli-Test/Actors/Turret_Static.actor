@@ -1,0 +1,152 @@
+{
+  "ShootDirType": "aim_at_player",
+  "ClassType": "Actor",
+  "DefaultLookDir": "down",
+  "Recycle": "Always",
+  "MoveType": "cpu_pursuit_direct",
+  "MaxEntities": 0,
+  "NudgeX": 8,
+  "NudgeY": 8,
+  "Idles": {
+    "UpLeft": "00_turret_static_ul",
+    "Up": "00_turret_static_u",
+    "UpRight": "00_turret_static_ur",
+    "Left": "00_turret_static_l",
+    "Right": "00_turret_static_r",
+    "DownLeft": "00_turret_static_dl",
+    "Down": "00_turret_static_d",
+    "DownRight": "00_turret_static_dr"
+  },
+  "Moves": {
+    "UpLeft": "00_turret_static_ur",
+    "Up": "00_turret_static_u",
+    "UpRight": "00_turret_static_ur",
+    "Left": "00_turret_static_l",
+    "Right": "00_turret_static_r",
+    "DownLeft": "00_turret_static_dl",
+    "Down": "00_turret_static_d",
+    "DownRight": "00_turret_static_dr"
+  },
+  "Attacks": {
+    "UpLeft": "00_turret_static_ul",
+    "Up": "00_turret_static_u",
+    "UpRight": "00_turret_static_ur",
+    "Left": "00_turret_static_l",
+    "Right": "00_turret_static_r",
+    "DownLeft": "00_turret_static_dl",
+    "Down": "00_turret_static_d",
+    "DownRight": "00_turret_static_dr"
+  },
+  "ProjectileOffsets": [
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    }
+  ],
+  "CollBox": {
+    "X": -8,
+    "Y": -8,
+    "Width": 16,
+    "Height": 16
+  },
+  "AttackDelay": 1,
+  "ZOrder": 30,
+  "SpeedLeft": 0.0,
+  "SpeedRight": 0.0,
+  "SpeedUp": 0.0,
+  "SpeedDown": 0.0,
+  "AccelLeft": null,
+  "AccelRight": null,
+  "AccelUp": null,
+  "AccelDown": null,
+  "AccelLeftAir": null,
+  "AccelRightAir": null,
+  "RotationSpeed": 0.0,
+  "CollType_Left": "block",
+  "CollType_Right": "block",
+  "CollType_Up": "block",
+  "CollType_Down": "block",
+  "Flags": 0,
+  "AttackProjectile": null,
+  "AutoFire": false,
+  "AttackProjectileAmmoVariable": null,
+  "AttackSound": null,
+  "JumpSound": null,
+  "DivertAttack": null,
+  "DivertSpawn": null,
+  "DivertPlayerCollision": null,
+  "DivertPlayerHit": null,
+  "DivertHitAgainstPlayer": null,
+  "DivertProjectileCollision": null,
+  "DivertOutOfScreenLeft": null,
+  "DivertOutOfScreenRight": null,
+  "DivertOutOfScreenUp": "00_leave_screen_y",
+  "DivertOutOfScreenDown": "00_leave_screen_y",
+  "DivertPlatformEdge": null,
+  "DivertPlatformLand": null,
+  "DivertTimer": null,
+  "DivertTimerFrames": 0,
+  "Vars": [
+    "0",
+    "0",
+    "0",
+    "8",
+    "8",
+    "0"
+  ],
+  "ControlPort": 0,
+  "DataVersion": 1,
+  "TileID": 24,
+  "SuggestedRecycle": "Always",
+  "UpAccelerationName": "Accel Up"
+}

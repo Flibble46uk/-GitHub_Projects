@@ -1,0 +1,135 @@
+{
+  "Frames": [
+    {
+      "Path": "Explosion_ground_00x00.png",
+      "Duration": 5,
+      "HandleX": -17,
+      "HandleY": -17,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "Explosion_ground_00x01.png",
+      "Duration": 5,
+      "HandleX": -15,
+      "HandleY": -17,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "Explosion_ground_00x02.png",
+      "Duration": 5,
+      "HandleX": -14,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "Explosion_ground_00x03.png",
+      "Duration": 5,
+      "HandleX": -16,
+      "HandleY": -15,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "Explosion_ground_00x04.png",
+      "Duration": 5,
+      "HandleX": -17,
+      "HandleY": -17,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "Explosion_ground_00x05.png",
+      "Duration": 5,
+      "HandleX": -18,
+      "HandleY": -17,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "Explosion_ground_00x06.png",
+      "Duration": 5,
+      "HandleX": -16,
+      "HandleY": -17,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": ""
+    },
+    {
+      "Path": "Explosion_ground_00x07.png",
+      "Duration": 5,
+      "HandleX": -17,
+      "HandleY": -13,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": "destroy_actor"
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "SpriteType": "Attached_16colors",
+  "Multiplexes": 0,
+  "LoopFrame": 0,
+  "LinkedMap": null,
+  "OnFinish": null,
+  "AutoFlip": false
+}
