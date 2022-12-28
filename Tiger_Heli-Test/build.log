@@ -82,35 +82,14 @@ Animations Data Size: 784
 AnimationFrame Count: 105
 AnimationFrame Data Size: 1680
 ImageFrames: 87
-ImageFrame Data Size: 5568
-
-=== Cartridge section PANL (size 32988) ===
-Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
-
-=== Cartridge section MPHD (size 8368) ===
-Header data for map tigerhelilvl01 Original size 9780 Crunched size 830
-
-=== Cartridge section MPDT (size 60628) ===
-Tile data for map tigerhelilvl01 Original size 28306 Crunched size 6056
-
-=== Cartridge section MPBG (size 988) ===
-Background for map tigerhelilvl01 Original size 2672 Crunched size 92
-
-=== Cartridge section MPPX (size 68) ===
-Parallax for map tigerhelilvl01 Original size 0 Crunched size 0
-
-=== Cartridge section ASBD (size 736708) ===
+ImageFrame Data Size: 5916
 Asset bundle 0 (Core project asset bundle) Original size 103852 Crunched size 29344
 Asset bundle 1 (tigerhelilvl01) Original size 229824 Crunched size 44314
-
-=== Cartridge section PROJ (size 11968) ===
+Background for map tigerhelilvl01 Original size 2672 Crunched size 92
+Tile data for map tigerhelilvl01 Original size 28306 Crunched size 6056
+Header data for map tigerhelilvl01 Original size 9780 Crunched size 830
+Project Data Original size 21000 Crunched size 3746
 Project Header Original size 4040 Crunched size 1190
-
-=== Cartridge section PDAT (size 36648) ===
-Project Data Original size 20652 Crunched size 3658
-
-=== Cartridge section VMCB (size 25788) ===
-Project virtual machine (codeblocks) Original size 9508 Crunched size 2572
-
-=== Cartridge section VMRD (size 108) ===
+Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
+Project virtual machine (codeblocks) Original size 9562 Crunched size 2584
 Project virtual machine redirects Original size 4 Crunched size 4
