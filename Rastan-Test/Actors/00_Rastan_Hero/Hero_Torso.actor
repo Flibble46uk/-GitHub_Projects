@@ -1,0 +1,152 @@
+{
+  "ShootDirType": "actor_direction",
+  "ClassType": "Actor",
+  "DefaultLookDir": "left",
+  "Recycle": "Default",
+  "MoveType": "cpu_parentlock",
+  "MaxEntities": 0,
+  "NudgeX": 8,
+  "NudgeY": 40,
+  "Idles": {
+    "UpLeft": "anim_rastan_torso_idle_l",
+    "Up": null,
+    "UpRight": "anim_rastan_torso_idle_r",
+    "Left": "anim_rastan_torso_idle_l",
+    "Right": "anim_rastan_torso_idle_r",
+    "DownLeft": "anim_rastan_torso_idle_l",
+    "Down": "anim_rastan_torso_idle_r",
+    "DownRight": "anim_rastan_torso_idle_r"
+  },
+  "Moves": {
+    "UpLeft": null,
+    "Up": null,
+    "UpRight": null,
+    "Left": null,
+    "Right": null,
+    "DownLeft": null,
+    "Down": "",
+    "DownRight": null
+  },
+  "Attacks": {
+    "UpLeft": null,
+    "Up": null,
+    "UpRight": null,
+    "Left": null,
+    "Right": null,
+    "DownLeft": null,
+    "Down": "",
+    "DownRight": null
+  },
+  "ProjectileOffsets": [
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    }
+  ],
+  "CollBox": {
+    "X": -2,
+    "Y": -35,
+    "Width": 4,
+    "Height": 5
+  },
+  "AttackDelay": 0,
+  "ZOrder": 0,
+  "SpeedLeft": 0.0,
+  "SpeedRight": 0.0,
+  "SpeedUp": 0.0,
+  "SpeedDown": 0.0,
+  "AccelLeft": null,
+  "AccelRight": null,
+  "AccelUp": null,
+  "AccelDown": null,
+  "AccelLeftAir": null,
+  "AccelRightAir": null,
+  "RotationSpeed": 0.0,
+  "CollType_Left": "block",
+  "CollType_Right": "block",
+  "CollType_Up": "block",
+  "CollType_Down": "block",
+  "Flags": 0,
+  "AttackProjectile": null,
+  "AutoFire": false,
+  "AttackProjectileAmmoVariable": null,
+  "AttackSound": null,
+  "JumpSound": null,
+  "DivertAttack": null,
+  "DivertSpawn": "",
+  "DivertPlayerCollision": null,
+  "DivertPlayerHit": null,
+  "DivertHitAgainstPlayer": null,
+  "DivertProjectileCollision": null,
+  "DivertOutOfScreenLeft": null,
+  "DivertOutOfScreenRight": null,
+  "DivertOutOfScreenUp": null,
+  "DivertOutOfScreenDown": null,
+  "DivertPlatformEdge": null,
+  "DivertPlatformLand": null,
+  "DivertTimer": "00_hero_torso_control",
+  "DivertTimerFrames": 1,
+  "Vars": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "ControlPort": 0,
+  "DataVersion": 1,
+  "TileID": 33,
+  "SuggestedRecycle": "Always",
+  "UpAccelerationName": "Accel Up"
+}

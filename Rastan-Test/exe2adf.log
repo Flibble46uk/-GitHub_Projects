@@ -1,0 +1,47 @@
+  Settings Copy: devs/system-configuration
+  Internal copy file: system-configuration (size: 232)
+  Write S/startup-sequence.
+  Internal Copy command: C/cls
+  Internal copy file: cls (size: 128)
+  Internal Copy command: C/add21k
+  Internal copy file: add21k (size: 1836)
+  Copy file: game-crunched.exe (size: 70856)
+Copy Whole Directory - ..\temp
+Copy Whole Directory - ..\temp\data
+  Copy file: 0.gfx (size: 2532)
+  Copy file: 0.img (size: 3312)
+  Copy file: 1.gfx (size: 6780)
+  Copy file: 1.img (size: 9518)
+  Copy file: 1.map (size: 3204)
+  Copy file: 1.mhd (size: 408)
+  Copy file: 1.mus (size: 56024)
+  Copy file: FLOPPY (size: 6)
+  Copy file: project.dat (size: 686)
+  Copy file: project.hd (size: 1176)
+  Copy file: project.vm (size: 1812)
+Copy Whole Directory - ..\temp\s
+Copy Whole Directory - ..\temp\savedata
+Device : Floppy DD. Cylinders = 80, Heads = 2, Sectors = 11. Volumes = 1
+Volume : Floppy 880 KBytes, "exe2adf" between sectors [0-1759]. OFS . Filled at 20.5%.
+         2022/05/07  10:34:08  000888  C/
+    128  2022/05/07  10:34:08  000889  C/cls
+   1836  2022/05/07  10:34:08  000891  C/add21k
+  70856  2022/05/07  10:34:08  000896  game-crunched.exe
+         2022/05/07  10:34:08  001238  savedata/
+         2022/05/07  10:34:08  000882  devs/
+    232  2022/05/07  10:34:08  000883  devs/system-configuration
+         2022/05/07  10:34:08  000885  S/
+     29  2022/05/07  10:34:08  000886  S/startup-sequence
+         2022/05/07  10:34:08  001045  data/
+   2532  2022/05/07  10:34:08  001046  data/0.gfx
+    686  2022/05/07  10:34:08  001226  data/project.dat
+      6  2022/05/07  10:34:08  001224  data/FLOPPY
+   9518  2022/05/07  10:34:08  001076  data/1.img
+    408  2022/05/07  10:34:08  001105  data/1.mhd
+   1812  2022/05/07  10:34:08  001233  data/project.vm
+   6780  2022/05/07  10:34:08  001061  data/1.gfx
+   3204  2022/05/07  10:34:08  001097  data/1.map
+   3312  2022/05/07  10:34:08  001053  data/0.img
+  56024  2022/05/07  10:34:08  001107  data/1.mus
+   1176  2022/05/07  10:34:08  001229  data/project.hd
+>>> Created "..\_tmp" <<<

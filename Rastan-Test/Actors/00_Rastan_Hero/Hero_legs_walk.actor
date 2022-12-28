@@ -1,0 +1,152 @@
+{
+  "ShootDirType": "actor_direction",
+  "ClassType": "Player",
+  "DefaultLookDir": "right",
+  "Recycle": "Default",
+  "MoveType": "control_platform",
+  "MaxEntities": 0,
+  "NudgeX": 8,
+  "NudgeY": 16,
+  "Idles": {
+    "UpLeft": null,
+    "Up": null,
+    "UpRight": null,
+    "Left": "anim_rastan_legs_idle_l",
+    "Right": "anim_rastan_legs_idle_r",
+    "DownLeft": null,
+    "Down": null,
+    "DownRight": null
+  },
+  "Moves": {
+    "UpLeft": "anim_rastan_legs_jump_l",
+    "Up": "",
+    "UpRight": "anim_rastan_legs_jump_r",
+    "Left": "anim_rastan_legs_walk_l",
+    "Right": "anim_rastan_legs_walk_r",
+    "DownLeft": "anim_rastan_legs_jump_l",
+    "Down": null,
+    "DownRight": "anim_rastan_legs_jump_r"
+  },
+  "Attacks": {
+    "UpLeft": null,
+    "Up": null,
+    "UpRight": null,
+    "Left": null,
+    "Right": null,
+    "DownLeft": null,
+    "Down": null,
+    "DownRight": null
+  },
+  "ProjectileOffsets": [
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    }
+  ],
+  "CollBox": {
+    "X": -8,
+    "Y": -47,
+    "Width": 16,
+    "Height": 47
+  },
+  "AttackDelay": 0,
+  "ZOrder": 0,
+  "SpeedLeft": 1.0,
+  "SpeedRight": 1.0,
+  "SpeedUp": 1.0,
+  "SpeedDown": 1.0,
+  "AccelLeft": null,
+  "AccelRight": null,
+  "AccelUp": null,
+  "AccelDown": 0.015625,
+  "AccelLeftAir": null,
+  "AccelRightAir": null,
+  "RotationSpeed": 0.0,
+  "CollType_Left": "block",
+  "CollType_Right": "block",
+  "CollType_Up": "none",
+  "CollType_Down": "block",
+  "Flags": 0,
+  "AttackProjectile": null,
+  "AutoFire": false,
+  "AttackProjectileAmmoVariable": null,
+  "AttackSound": null,
+  "JumpSound": null,
+  "DivertAttack": null,
+  "DivertSpawn": "00_hero_torso_spawn",
+  "DivertPlayerCollision": null,
+  "DivertPlayerHit": null,
+  "DivertHitAgainstPlayer": null,
+  "DivertProjectileCollision": null,
+  "DivertOutOfScreenLeft": null,
+  "DivertOutOfScreenRight": null,
+  "DivertOutOfScreenUp": null,
+  "DivertOutOfScreenDown": null,
+  "DivertPlatformEdge": null,
+  "DivertPlatformLand": null,
+  "DivertTimer": "00_hero_legs_control",
+  "DivertTimerFrames": 1,
+  "Vars": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "ControlPort": 0,
+  "DataVersion": 1,
+  "TileID": 4,
+  "SuggestedRecycle": "Never",
+  "UpAccelerationName": "Jump Cancel Dropoff"
+}

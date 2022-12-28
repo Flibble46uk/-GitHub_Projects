@@ -1,0 +1,61 @@
+=== Image optimisations ===
+Reduce width of Anim\00_Rastan_Legs\rastan_crouch_legs.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\00_Rastan_Legs\rastan_crouch_legs.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\00_Rastan_Legs\rastan_idle_legs.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\00_Rastan_Legs\rastan_idle_legs.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\00_Rastan_Legs\rastan_jump_legs.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\00_Rastan_Legs\rastan_jump_legs.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\00_Rastan_Legs\rastan_step_legs_1.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\00_Rastan_Legs\rastan_step_legs_3.png by 3 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\00_Rastan_Legs\rastan_step_legs_1.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\00_Rastan_Legs\rastan_step_legs_3.png by 3 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\00_Rastan_Torso\rastan_downstab_sword.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\00_Rastan_Torso\rastan_idle_torso.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\00_Rastan_Torso\rastan_idle_torso.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\Hero_Wizard\Wizard_001_test_01x00.png by 4 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anim\Hero_Wizard\Wizard_001_test_02x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\Hero_Wizard\Wizard_001_test_03x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\Hero_Wizard\Wizard_001_test_04x00.png by 3 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anim\Hero_Wizard\Wizard_001_test_05x00.png by 3 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\Hero_Wizard\Wizard_001_test_06x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\Hero_Wizard\Wizard_001_test_01x00.png by 4 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anim\Hero_Wizard\Wizard_001_test_02x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\Hero_Wizard\Wizard_001_test_03x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\Hero_Wizard\Wizard_001_test_04x00.png by 3 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anim\Hero_Wizard\Wizard_001_test_05x00.png by 3 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\Hero_Wizard\Wizard_001_test_06x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\Hero_Wizard\Wizard_001_test_00x00.png by 3 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\Hero_Wizard\Wizard_001_test_00x00.png by 3 pixels to 16 to improve blit performance by 200.00%
+
+=== Misc ===
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 24
+Actor Count: 9
+Actor Data Size: 2664
+Block Count: 2
+Block Data Size: 104
+Anim5 Count: 1
+Anim5 Data Size: 4
+Sound Count: 1
+Sound Data Size: 32
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 19
+Animations Data Size: 304
+AnimationFrame Count: 36
+AnimationFrame Data Size: 576
+ImageFrames: 34
+ImageFrame Data Size: 2312
+Asset bundle 0 (Core project asset bundle) Original size 71280 Crunched size 16832
+Asset bundle 1 (test_map_01) Original size 20736 Crunched size 11592
+Background for map test_map_01 Original size 2672 Crunched size 358
+Music file level3_4 Original size 94530 Crunched size 51536
+Music file peter_gnu Original size 78368 Crunched size 56024
+Tile data for map test_map_01 Original size 8044 Crunched size 684
+Header data for map test_map_01 Original size 9780 Crunched size 528
+Parallax for map test_map_01 Original size 1800 Crunched size 162
+Project Data Original size 6028 Crunched size 1332
+Project Header Original size 4040 Crunched size 1192
+Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
+Project virtual machine (codeblocks) Original size 7522 Crunched size 2024
+Project virtual machine redirects Original size 4 Crunched size 4
