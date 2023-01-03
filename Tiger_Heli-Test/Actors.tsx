@@ -21,11 +21,7 @@
       <property name="Name" value="hero_loaded" type="string" />
     </properties>
   </tile>
-  <tile id="4">
-    <properties>
-      <property name="Name" value="01_crater_small" type="string" />
-    </properties>
-  </tile>
+  <tile id="4" />
   <tile id="5" />
   <tile id="6">
     <properties>
@@ -127,31 +123,11 @@
       <property name="Name" value="exp_dummy" type="string" />
     </properties>
   </tile>
-  <tile id="26">
-    <properties>
-      <property name="Name" value="exp_ground_crater" type="string" />
-    </properties>
-  </tile>
-  <tile id="27">
-    <properties>
-      <property name="Name" value="exp_ground" type="string" />
-    </properties>
-  </tile>
-  <tile id="28">
-    <properties>
-      <property name="Name" value="hero_takeoff" type="string" />
-    </properties>
-  </tile>
-  <tile id="29">
-    <properties>
-      <property name="Name" value="hero_takeoff01" type="string" />
-    </properties>
-  </tile>
-  <tile id="30">
-    <properties>
-      <property name="Name" value="hero_takeoff02" type="string" />
-    </properties>
-  </tile>
+  <tile id="26" />
+  <tile id="27" />
+  <tile id="28" />
+  <tile id="29" />
+  <tile id="30" />
   <tile id="31">
     <properties>
       <property name="Name" value="01_dec_red_roof_tube" type="string" />
@@ -160,6 +136,11 @@
   <tile id="32">
     <properties>
       <property name="Name" value="01_dec_red_tent_small" type="string" />
+    </properties>
+  </tile>
+  <tile id="33">
+    <properties>
+      <property name="Name" value="00_dummysmartbomb" type="string" />
     </properties>
   </tile>
 </tileset>
