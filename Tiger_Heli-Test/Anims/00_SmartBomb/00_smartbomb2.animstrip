@@ -208,7 +208,7 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": "destroy_actor"
+      "OnFrame": ""
     }
   ],
   "PreventMovement": false,
