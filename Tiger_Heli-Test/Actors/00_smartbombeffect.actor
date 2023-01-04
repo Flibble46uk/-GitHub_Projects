@@ -1,9 +1,9 @@
 {
   "ShootDirType": "actor_direction",
-  "ClassType": "DefaultClass",
+  "ClassType": "Actor",
   "DefaultLookDir": "right",
-  "Recycle": "Never",
-  "MoveType": "cpu_parentorbit",
+  "Recycle": "Trash",
+  "MoveType": "none",
   "MaxEntities": 0,
   "NudgeX": 0,
   "NudgeY": 1,
@@ -12,7 +12,7 @@
     "Up": null,
     "UpRight": null,
     "Left": "",
-    "Right": "00_smartbomb",
+    "Right": "00_smartbomb2",
     "DownLeft": null,
     "Down": null,
     "DownRight": null
@@ -94,13 +94,13 @@
     }
   ],
   "CollBox": {
-    "X": 4,
-    "Y": 4,
-    "Width": 8,
-    "Height": 9
+    "X": -4,
+    "Y": -3,
+    "Width": 24,
+    "Height": 22
   },
   "AttackDelay": 0,
-  "ZOrder": 4,
+  "ZOrder": 5000,
   "SpeedLeft": 0.0,
   "SpeedRight": 0.0,
   "SpeedUp": 0.0,
@@ -138,15 +138,15 @@
   "DivertTimerFrames": 0,
   "Vars": [
     "0",
-    "45",
-    "16",
     "0",
     "0",
-    "Bombelement"
+    "0",
+    "0",
+    "0"
   ],
   "ControlPort": 0,
   "DataVersion": 1,
   "TileID": -1,
-  "SuggestedRecycle": "Never",
+  "SuggestedRecycle": "Trash",
   "UpAccelerationName": "Accel Up"
 }

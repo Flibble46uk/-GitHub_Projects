@@ -41,8 +41,8 @@
     "Data": {
       "OutputSpeed": "PAL_50HZ",
       "GFXMode": "BP7",
-      "Add21K": false,
-      "EmulatedAmiga": "A1200",
+      "MemorySaver": "None",
+      "EmulatedAmiga": "A4000/040",
       "EmulatedFastRam": 1,
       "WinUAEConfiguration": null,
       "SpriteMode": "Mode_0_16_Wide",
@@ -57,16 +57,18 @@
       "Implode": true,
       "MapCache": false,
       "DoubleCopper": true,
-      "AllocateMemoryUpfront": true
+      "AllocateMemoryUpfront": true,
+      "NTSC": false
     },
     "Extension": "platformdata",
     "GetGFXMode": "BP7",
+    "NTSC": false,
     "OutputSpeed": "PAL_50HZ",
     "Uses24BitColor": true,
     "SpriteColorBank": 1,
     "SpriteMode": "Mode_0_16_Wide",
     "GFXMode": "BP7",
-    "EmulatedAmiga": "A1200",
+    "EmulatedAmiga": "A4000/040",
     "EmulatedFastRam": 1,
     "WinUAEConfiguration": null,
     "XFillSize": 18,
@@ -79,8 +81,9 @@
     "DoubleCopper": true,
     "AllocateMemoryUpfront": true,
     "Implode": true,
+    "MemorySaver": "None",
     "FolderPath": "D:\\!ScorpionProjects\\Tiger_Heli-Test\\",
     "IsDirty": true,
-    "DirtyDelay": 0.0199185144
+    "DirtyDelay": 0.00108727627
   }
 }

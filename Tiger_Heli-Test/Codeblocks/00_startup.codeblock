@@ -4,7 +4,7 @@
   "Variables": [
     {
       "Name": "TestType",
-      "Value": "2",
+      "Value": "1",
       "Notes": "Change the test you want to run",
       "PrivateSet": false,
       "Watch": false,
