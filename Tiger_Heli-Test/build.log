@@ -79,17 +79,17 @@ Teleporter Count: 1
 Teleporter Data Size: 8
 Animations Count: 52
 Animations Data Size: 832
-AnimationFrame Count: 109
-AnimationFrame Data Size: 1744
-ImageFrames: 91
-ImageFrame Data Size: 6188
-Asset bundle 0 (Core project asset bundle) Original size 107884 Crunched size 29834
+AnimationFrame Count: 121
+AnimationFrame Data Size: 1936
+ImageFrames: 92
+ImageFrame Data Size: 6256
+Asset bundle 0 (Core project asset bundle) Original size 108724 Crunched size 29848
 Asset bundle 1 (tigerhelilvl01) Original size 229824 Crunched size 44314
 Background for map tigerhelilvl01 Original size 2672 Crunched size 92
 Tile data for map tigerhelilvl01 Original size 28306 Crunched size 6056
-Header data for map tigerhelilvl01 Original size 9780 Crunched size 834
-Project Data Original size 22272 Crunched size 3968
-Project Header Original size 4040 Crunched size 1190
+Header data for map tigerhelilvl01 Original size 9780 Crunched size 824
+Project Data Original size 22532 Crunched size 4002
+Project Header Original size 4040 Crunched size 1192
 Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
-Project virtual machine (codeblocks) Original size 10158 Crunched size 2744
+Project virtual machine (codeblocks) Original size 10226 Crunched size 2784
 Project virtual machine redirects Original size 4 Crunched size 4

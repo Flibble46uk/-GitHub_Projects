@@ -2,7 +2,7 @@
   "Frames": [
     {
       "Path": "Bombeffect_00x00.png",
-      "Duration": 5,
+      "Duration": 7,
       "HandleX": -8,
       "HandleY": -8,
       "XFlipped": false,
@@ -17,7 +17,7 @@
     },
     {
       "Path": "Bombeffect_00x01.png",
-      "Duration": 5,
+      "Duration": 7,
       "HandleX": -8,
       "HandleY": -8,
       "XFlipped": false,
@@ -29,6 +29,186 @@
       },
       "HasHitBox": false,
       "OnFrame": null
+    },
+    {
+      "Path": "Bombeffect_00x00.png",
+      "Duration": 7,
+      "HandleX": -8,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "Bombeffect_00x01.png",
+      "Duration": 7,
+      "HandleX": -8,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "Bombeffect_00x00.png",
+      "Duration": 7,
+      "HandleX": -8,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "Bombeffect_00x01.png",
+      "Duration": 7,
+      "HandleX": -8,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "Bombeffect_00x00.png",
+      "Duration": 7,
+      "HandleX": -8,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "Bombeffect_00x01.png",
+      "Duration": 7,
+      "HandleX": -8,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "Bombeffect_00x00.png",
+      "Duration": 7,
+      "HandleX": -8,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "Bombeffect_00x01.png",
+      "Duration": 7,
+      "HandleX": -8,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "Bombeffect_00x00.png",
+      "Duration": 7,
+      "HandleX": -8,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "Bombeffect_00x01.png",
+      "Duration": 7,
+      "HandleX": -8,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "Bombeffect_00x00.png",
+      "Duration": 7,
+      "HandleX": -8,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "Bombeffect_00x01.png",
+      "Duration": 7,
+      "HandleX": -8,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": "destroy_actor"
     }
   ],
   "PreventMovement": false,

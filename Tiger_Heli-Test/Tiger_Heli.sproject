@@ -27,6 +27,22 @@
       "CD32Yellow": false,
       "OnPress": "00_firetostart",
       "OnRelease": null
+    },
+    {
+      "Compiler": "amiga",
+      "Key": "Space",
+      "JoystickPort": -1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": false,
+      "JoystickFire2": false,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "OnPress": "00_spawnsmartbomb",
+      "OnRelease": null
     }
   ],
   "AnimationMetaData": {},
@@ -42,7 +58,7 @@
       "OutputSpeed": "PAL_50HZ",
       "GFXMode": "BP7",
       "MemorySaver": "None",
-      "EmulatedAmiga": "A4000/040",
+      "EmulatedAmiga": "A1200",
       "EmulatedFastRam": 1,
       "WinUAEConfiguration": null,
       "SpriteMode": "Mode_0_16_Wide",
@@ -68,7 +84,7 @@
     "SpriteColorBank": 1,
     "SpriteMode": "Mode_0_16_Wide",
     "GFXMode": "BP7",
-    "EmulatedAmiga": "A4000/040",
+    "EmulatedAmiga": "A1200",
     "EmulatedFastRam": 1,
     "WinUAEConfiguration": null,
     "XFillSize": 18,
@@ -83,7 +99,7 @@
     "Implode": true,
     "MemorySaver": "None",
     "FolderPath": "D:\\!ScorpionProjects\\Tiger_Heli-Test\\",
-    "IsDirty": true,
-    "DirtyDelay": 0.00108727627
+    "IsDirty": false,
+    "DirtyDelay": 0.0
   }
 }

@@ -1,6 +1,6 @@
 {
   "ShootDirType": "actor_direction",
-  "ClassType": "Actor",
+  "ClassType": "Projectile",
   "DefaultLookDir": "right",
   "Recycle": "Trash",
   "MoveType": "none",
@@ -94,10 +94,10 @@
     }
   ],
   "CollBox": {
-    "X": -4,
-    "Y": -3,
-    "Width": 24,
-    "Height": 22
+    "X": -30,
+    "Y": -33,
+    "Width": 77,
+    "Height": 79
   },
   "AttackDelay": 0,
   "ZOrder": 5000,
