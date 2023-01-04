@@ -28,8 +28,8 @@
     },
     {
       "Name": "Smartbombactive",
-      "Value": "0",
-      "Notes": null,
+      "Value": "1",
+      "Notes": "If equals 1 then don't allow Smartbomb",
       "PrivateSet": false,
       "Watch": false,
       "VariableType": "Variable"
