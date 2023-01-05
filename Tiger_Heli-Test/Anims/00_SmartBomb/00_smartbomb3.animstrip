@@ -1,8 +1,8 @@
 {
   "Frames": [
     {
-      "Path": "Bombeffect_00x00.png",
-      "Duration": 7,
+      "Path": "Bombeffect_00x02.png",
+      "Duration": 5,
       "HandleX": -8,
       "HandleY": -8,
       "XFlipped": false,
@@ -16,8 +16,8 @@
       "OnFrame": null
     },
     {
-      "Path": "Bombeffect_00x01.png",
-      "Duration": 7,
+      "Path": "Bombeffect_00x03.png",
+      "Duration": 5,
       "HandleX": -8,
       "HandleY": -8,
       "XFlipped": false,

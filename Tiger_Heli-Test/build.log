@@ -67,8 +67,8 @@ Reduce width of Anims\Hero_Rotors\Anim_Hero_Rotors_01x00.png by 10 pixels to 16 
 === Misc ===
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
-Actor Count: 45
-Actor Data Size: 13320
+Actor Count: 47
+Actor Data Size: 13912
 Block Count: 2
 Block Data Size: 104
 Anim5 Count: 1
@@ -77,19 +77,19 @@ Sound Count: 1
 Sound Data Size: 32
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 52
-Animations Data Size: 832
-AnimationFrame Count: 121
-AnimationFrame Data Size: 1936
-ImageFrames: 92
-ImageFrame Data Size: 6256
-Asset bundle 0 (Core project asset bundle) Original size 108724 Crunched size 29848
+Animations Count: 53
+Animations Data Size: 848
+AnimationFrame Count: 111
+AnimationFrame Data Size: 1776
+ImageFrames: 93
+ImageFrame Data Size: 6324
+Asset bundle 0 (Core project asset bundle) Original size 110404 Crunched size 30240
 Asset bundle 1 (tigerhelilvl01) Original size 229824 Crunched size 44314
 Background for map tigerhelilvl01 Original size 2672 Crunched size 92
 Tile data for map tigerhelilvl01 Original size 28306 Crunched size 6056
 Header data for map tigerhelilvl01 Original size 9780 Crunched size 824
-Project Data Original size 22532 Crunched size 3998
+Project Data Original size 23048 Crunched size 4014
 Project Header Original size 4040 Crunched size 1192
 Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
-Project virtual machine (codeblocks) Original size 10394 Crunched size 2840
+Project virtual machine (codeblocks) Original size 10492 Crunched size 2878
 Project virtual machine redirects Original size 4 Crunched size 4

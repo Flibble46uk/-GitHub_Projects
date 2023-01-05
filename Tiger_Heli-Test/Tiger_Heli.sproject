@@ -99,7 +99,7 @@
     "Implode": true,
     "MemorySaver": "None",
     "FolderPath": "D:\\!ScorpionProjects\\Tiger_Heli-Test\\",
-    "IsDirty": false,
-    "DirtyDelay": 0.0
+    "IsDirty": true,
+    "DirtyDelay": 0.0006100349
   }
 }

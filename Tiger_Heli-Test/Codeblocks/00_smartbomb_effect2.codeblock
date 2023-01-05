@@ -109,7 +109,7 @@
       "TeleportName": "none",
       "XFloat": null,
       "YFloat": null,
-      "ActorType": "00_smartbombeffect",
+      "ActorType": "00_smartbombeffect2",
       "Animation": "none",
       "PushXPixels": "",
       "PushYPixels": "",
