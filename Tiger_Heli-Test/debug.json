@@ -5910,7 +5910,7 @@
       "CodeBlock": "00_smartbomb",
       "CodeBlockLine": 30,
       "MemoryOffset": 8002,
-      "Description": "Foreach '00_smartbombeffect' do '00_make_visible'"
+      "Description": "Foreach '00_smartbombeffect' do '00_make_invisible'"
     },
     {
       "CodeBlock": "00_smartbomb",
@@ -5934,7 +5934,7 @@
       "CodeBlock": "00_smartbomb",
       "CodeBlockLine": 33,
       "MemoryOffset": 8042,
-      "Description": "Foreach '00_smartbombeffect2' do '00_make_invisible'"
+      "Description": "Foreach '00_smartbombeffect2' do '00_make_visible'"
     },
     {
       "CodeBlock": "00_smartbomb",
@@ -5946,7 +5946,7 @@
       "CodeBlock": "00_smartbomb",
       "CodeBlockLine": 36,
       "MemoryOffset": 8072,
-      "Description": "Raw expression '00_smartbombeffect'"
+      "Description": "Raw expression '00_smartbombeffect2'"
     },
     {
       "CodeBlock": "00_smartbomb",
@@ -5958,7 +5958,7 @@
       "CodeBlock": "00_smartbomb",
       "CodeBlockLine": 36,
       "MemoryOffset": 8082,
-      "Description": "Foreach '00_smartbombeffect' do '00_make_invisible'"
+      "Description": "Foreach '00_smartbombeffect2' do '00_make_invisible'"
     },
     {
       "CodeBlock": "00_smartbomb",
@@ -5970,7 +5970,7 @@
       "CodeBlock": "00_smartbomb",
       "CodeBlockLine": 39,
       "MemoryOffset": 8112,
-      "Description": "Raw expression '00_smartbombeffect2'"
+      "Description": "Raw expression '00_smartbombeffect'"
     },
     {
       "CodeBlock": "00_smartbomb",
@@ -5982,7 +5982,7 @@
       "CodeBlock": "00_smartbomb",
       "CodeBlockLine": 39,
       "MemoryOffset": 8122,
-      "Description": "Foreach '00_smartbombeffect2' do '00_make_visible'"
+      "Description": "Foreach '00_smartbombeffect' do '00_make_visible'"
     },
     {
       "CodeBlock": "00_smartbomb",
@@ -5992,55 +5992,55 @@
     },
     {
       "CodeBlock": "00_smartbomb",
-      "CodeBlockLine": 41,
+      "CodeBlockLine": 42,
       "MemoryOffset": 8152,
       "Description": "Set 'moves' to 'moves-1'"
     },
     {
       "CodeBlock": "00_smartbomb",
-      "CodeBlockLine": 42,
+      "CodeBlockLine": 43,
       "MemoryOffset": 8164,
       "Description": "GOTO '00007980'"
     },
     {
       "CodeBlock": "00_smartbomb",
-      "CodeBlockLine": 44,
+      "CodeBlockLine": 45,
       "MemoryOffset": 8170,
       "Description": "Raw expression '00_smartbombeffect'"
     },
     {
       "CodeBlock": "00_smartbomb",
-      "CodeBlockLine": 44,
+      "CodeBlockLine": 45,
       "MemoryOffset": 8176,
       "Description": "Core operation'Foreach'"
     },
     {
       "CodeBlock": "00_smartbomb",
-      "CodeBlockLine": 44,
+      "CodeBlockLine": 45,
       "MemoryOffset": 8180,
       "Description": "Foreach '00_smartbombeffect' do 'destroy_actor'"
     },
     {
       "CodeBlock": "00_smartbomb",
-      "CodeBlockLine": 45,
+      "CodeBlockLine": 46,
       "MemoryOffset": 8184,
       "Description": "Raw expression '00_smartbombeffect2'"
     },
     {
       "CodeBlock": "00_smartbomb",
-      "CodeBlockLine": 45,
+      "CodeBlockLine": 46,
       "MemoryOffset": 8190,
       "Description": "Core operation'Foreach'"
     },
     {
       "CodeBlock": "00_smartbomb",
-      "CodeBlockLine": 45,
+      "CodeBlockLine": 46,
       "MemoryOffset": 8194,
       "Description": "Foreach '00_smartbombeffect2' do 'destroy_actor'"
     },
     {
       "CodeBlock": "00_smartbomb",
-      "CodeBlockLine": 46,
+      "CodeBlockLine": 47,
       "MemoryOffset": 8198,
       "Description": "Set 'smartbombactive' to '0'"
     },
