@@ -5,7 +5,7 @@
   "EmulatedAmiga": "A1200",
   "EmulatedFastRam": 1,
   "WinUAEConfiguration": null,
-  "SpriteMode": "Mode_0_16_Wide",
+  "SpriteMode": "Mode_1_32_Wide",
   "Uses24BitColor": true,
   "SpriteColorBank": 1,
   "SScan2": false,

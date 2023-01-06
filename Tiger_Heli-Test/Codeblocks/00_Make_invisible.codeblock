@@ -4,6 +4,7 @@
   "Variables": [],
   "Commands": [
     {
+      "Values": {},
       "DataVersion": 2,
       "Category": "Actor",
       "BasicOperationType": "CommentOnly",
