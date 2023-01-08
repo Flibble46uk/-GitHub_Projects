@@ -21,7 +21,7 @@
   "HideChildren": false,
   "AutoSprite": false,
   "OnlySprite": true,
-  "SpriteType": "Channel_4_to_1",
+  "SpriteType": "Channel_6_to_1",
   "Multiplexes": 0,
   "LoopFrame": 0,
   "LinkedMap": null,

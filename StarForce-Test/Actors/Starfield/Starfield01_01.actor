@@ -1,6 +1,6 @@
 {
   "ShootDirType": "actor_direction",
-  "ClassType": "DefaultClass",
+  "ClassType": "Actor",
   "DefaultLookDir": "left",
   "Recycle": "Never",
   "MoveType": "none",
@@ -112,10 +112,10 @@
   "AccelLeftAir": null,
   "AccelRightAir": null,
   "RotationSpeed": 0.0,
-  "CollType_Left": "block",
-  "CollType_Right": "block",
-  "CollType_Up": "block",
-  "CollType_Down": "block",
+  "CollType_Left": "none",
+  "CollType_Right": "none",
+  "CollType_Up": "none",
+  "CollType_Down": "none",
   "Flags": 0,
   "AttackProjectile": null,
   "AutoFire": false,
@@ -142,7 +142,7 @@
     "0",
     "0",
     "0",
-    "0"
+    "Starfield"
   ],
   "ControlPort": 0,
   "DataVersion": 1,

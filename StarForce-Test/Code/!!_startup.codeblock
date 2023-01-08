@@ -4,7 +4,7 @@
   "Variables": [
     {
       "Name": "Starfieldoffset",
-      "Value": "512",
+      "Value": "256",
       "Notes": null,
       "PrivateSet": false,
       "Watch": false,
@@ -178,7 +178,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "none",
-      "Expression": "8",
+      "Expression": "16",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,

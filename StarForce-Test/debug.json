@@ -2189,7 +2189,7 @@
     {
       "CodeBlock": "!!_startup",
       "Name": "Starfieldoffset",
-      "DefaultValue": "512",
+      "DefaultValue": "256",
       "Index": 199,
       "MemoryOffset": 199
     }
@@ -4767,7 +4767,7 @@
       "CodeBlock": "!!_startup",
       "CodeBlockLine": 3,
       "MemoryOffset": 5980,
-      "Description": "Set 'backgroundspritepairs' to '8'"
+      "Description": "Set 'backgroundspritepairs' to '16'"
     },
     {
       "CodeBlock": "!!_startup",
@@ -4899,7 +4899,7 @@
       "CodeBlock": "00_level_events",
       "CodeBlockLine": 1,
       "MemoryOffset": 6196,
-      "Description": "If 'starfieldoffset' LessThan '512'"
+      "Description": "If 'starfieldoffset' LessThan '256'"
     },
     {
       "CodeBlock": "00_level_events",
@@ -4917,7 +4917,7 @@
       "CodeBlock": "00_level_events",
       "CodeBlockLine": 4,
       "MemoryOffset": 6230,
-      "Description": "Set 'starfieldoffset' to '0'"
+      "Description": "Set 'starfieldoffset' to '1'"
     },
     {
       "CodeBlock": "00_starfield_rap",
