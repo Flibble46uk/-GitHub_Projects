@@ -15,12 +15,12 @@ Map header cache memory: 0
 Map data memory: 4036
 Map background memory: 2672
 EXE memory: 210052
-vm memory: 6586
+vm memory: 6628
 project memory: 3624
 
 Accounted memory chip: 204498
-Accounted memory other: 226970
-Accounted memory total: 431468
+Accounted memory other: 227012
+Accounted memory total: 431510
 
 === Misc ===
 Maps and Asset Bundles Count: 3
@@ -53,5 +53,5 @@ Header data for map teststarfieldbg Original size 8756 Crunched size 8756
 Project Data Original size 3624 Crunched size 3624
 Project Header Original size 4040 Crunched size 4040
 Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
-Project virtual machine (codeblocks) Original size 6586 Crunched size 6586
+Project virtual machine (codeblocks) Original size 6628 Crunched size 6628
 Project virtual machine redirects Original size 4 Crunched size 4

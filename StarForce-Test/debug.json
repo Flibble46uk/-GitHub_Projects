@@ -4770,104 +4770,122 @@
     },
     {
       "CodeBlock": "!!_startup",
-      "CodeBlockLine": 4,
+      "CodeBlockLine": 5,
       "MemoryOffset": 5990,
+      "Description": "Set 'camera_x' to '0'"
+    },
+    {
+      "CodeBlock": "!!_startup",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 5996,
+      "Description": "Set 'camera_y' to '0'"
+    },
+    {
+      "CodeBlock": "!!_startup",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 6002,
+      "Description": "Set 'camera_follow' to 'camera_follow & 32752'"
+    },
+    {
+      "CodeBlock": "!!_startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6016,
       "Description": "Raw expression 'starfield01_01'"
     },
     {
       "CodeBlock": "!!_startup",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 5996,
-      "Description": "Raw expression 'camera_x'"
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6022,
+      "Description": "Raw expression 'camera_x-16'"
     },
     {
       "CodeBlock": "!!_startup",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 6006,
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6036,
       "Description": "Raw expression 'camera_y'"
     },
     {
       "CodeBlock": "!!_startup",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 6016,
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6046,
       "Description": "Core operation'PixelSpawn'"
     },
     {
       "CodeBlock": "!!_startup",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 6020,
+      "CodeBlockLine": 8,
+      "MemoryOffset": 6050,
       "Description": "Raw expression 'starfield01_02'"
     },
     {
       "CodeBlock": "!!_startup",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 6026,
-      "Description": "Raw expression 'camera_x+64'"
+      "CodeBlockLine": 8,
+      "MemoryOffset": 6056,
+      "Description": "Raw expression 'camera_x+64-16'"
     },
     {
       "CodeBlock": "!!_startup",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 6040,
-      "Description": "Raw expression 'camera_y'"
-    },
-    {
-      "CodeBlock": "!!_startup",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 6050,
-      "Description": "Core operation'PixelSpawn'"
-    },
-    {
-      "CodeBlock": "!!_startup",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 6054,
-      "Description": "Raw expression 'starfield01_03'"
-    },
-    {
-      "CodeBlock": "!!_startup",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 6060,
-      "Description": "Raw expression 'camera_x+128'"
-    },
-    {
-      "CodeBlock": "!!_startup",
-      "CodeBlockLine": 6,
+      "CodeBlockLine": 8,
       "MemoryOffset": 6074,
       "Description": "Raw expression 'camera_y'"
     },
     {
       "CodeBlock": "!!_startup",
-      "CodeBlockLine": 6,
+      "CodeBlockLine": 8,
       "MemoryOffset": 6084,
       "Description": "Core operation'PixelSpawn'"
     },
     {
       "CodeBlock": "!!_startup",
-      "CodeBlockLine": 7,
+      "CodeBlockLine": 9,
       "MemoryOffset": 6088,
-      "Description": "Raw expression 'starfield01_04'"
+      "Description": "Raw expression 'starfield01_03'"
     },
     {
       "CodeBlock": "!!_startup",
-      "CodeBlockLine": 7,
+      "CodeBlockLine": 9,
       "MemoryOffset": 6094,
-      "Description": "Raw expression 'camera_x+192'"
+      "Description": "Raw expression 'camera_x+128-16'"
     },
     {
       "CodeBlock": "!!_startup",
-      "CodeBlockLine": 7,
-      "MemoryOffset": 6108,
+      "CodeBlockLine": 9,
+      "MemoryOffset": 6112,
       "Description": "Raw expression 'camera_y'"
     },
     {
       "CodeBlock": "!!_startup",
-      "CodeBlockLine": 7,
-      "MemoryOffset": 6118,
+      "CodeBlockLine": 9,
+      "MemoryOffset": 6122,
+      "Description": "Core operation'PixelSpawn'"
+    },
+    {
+      "CodeBlock": "!!_startup",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 6126,
+      "Description": "Raw expression 'starfield01_04'"
+    },
+    {
+      "CodeBlock": "!!_startup",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 6132,
+      "Description": "Raw expression 'camera_x+192-16'"
+    },
+    {
+      "CodeBlock": "!!_startup",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 6150,
+      "Description": "Raw expression 'camera_y'"
+    },
+    {
+      "CodeBlock": "!!_startup",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 6160,
       "Description": "Core operation'PixelSpawn'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6154,
+      "MemoryOffset": 6196,
       "Description": "STARTUP"
     }
   ],
