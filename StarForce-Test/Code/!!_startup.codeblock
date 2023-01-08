@@ -1,7 +1,16 @@
 {
   "CompileOrder": 0,
   "DataVersion": 1,
-  "Variables": [],
+  "Variables": [
+    {
+      "Name": "Starfieldoffset",
+      "Value": "512",
+      "Notes": null,
+      "PrivateSet": false,
+      "Watch": false,
+      "VariableType": "Variable"
+    }
+  ],
   "Commands": [
     {
       "Values": {},

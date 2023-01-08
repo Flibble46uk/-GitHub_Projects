@@ -2,7 +2,7 @@
   "ShootDirType": "actor_direction",
   "ClassType": "DefaultClass",
   "DefaultLookDir": "left",
-  "Recycle": "Default",
+  "Recycle": "Never",
   "MoveType": "none",
   "MaxEntities": 0,
   "NudgeX": 0,
@@ -134,8 +134,8 @@
   "DivertOutOfScreenDown": null,
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
-  "DivertTimer": null,
-  "DivertTimerFrames": 0,
+  "DivertTimer": "00_starfield_rap",
+  "DivertTimerFrames": 1,
   "Vars": [
     "0",
     "0",
@@ -147,6 +147,6 @@
   "ControlPort": 0,
   "DataVersion": 1,
   "TileID": 4,
-  "SuggestedRecycle": "Always",
+  "SuggestedRecycle": "Never",
   "UpAccelerationName": "Accel Up"
 }

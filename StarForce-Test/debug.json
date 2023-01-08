@@ -2185,6 +2185,13 @@
       "DefaultValue": "8",
       "Index": 198,
       "MemoryOffset": 198
+    },
+    {
+      "CodeBlock": "!!_startup",
+      "Name": "Starfieldoffset",
+      "DefaultValue": "512",
+      "Index": 199,
+      "MemoryOffset": 199
     }
   ],
   "Lines": [
@@ -4883,9 +4890,69 @@
       "Description": "Core operation'PixelSpawn'"
     },
     {
-      "CodeBlock": "startup",
+      "CodeBlock": "00_level_events",
       "CodeBlockLine": 0,
       "MemoryOffset": 6196,
+      "Description": "00_LEVEL_EVENTS"
+    },
+    {
+      "CodeBlock": "00_level_events",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6196,
+      "Description": "If 'starfieldoffset' LessThan '512'"
+    },
+    {
+      "CodeBlock": "00_level_events",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 6212,
+      "Description": "Set 'starfieldoffset' to 'starfieldoffset+1'"
+    },
+    {
+      "CodeBlock": "00_level_events",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6224,
+      "Description": "GOTO '00006236'"
+    },
+    {
+      "CodeBlock": "00_level_events",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 6230,
+      "Description": "Set 'starfieldoffset' to '0'"
+    },
+    {
+      "CodeBlock": "00_starfield_rap",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 6268,
+      "Description": "00_STARFIELD_RAP"
+    },
+    {
+      "CodeBlock": "00_starfield_rap",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6268,
+      "Description": "Set 'actor_y' to 'camera_y+starfieldoffset-512'"
+    },
+    {
+      "CodeBlock": "00_starfield_rap",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6286,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "00_starfield_rap",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6290,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "00_starfield_rap",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 6294,
+      "Description": "Yield on actor timer to  next line"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 6352,
       "Description": "STARTUP"
     }
   ],

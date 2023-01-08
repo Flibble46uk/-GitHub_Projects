@@ -26,7 +26,7 @@
       "GFXMode": "BP6",
       "MemorySaver": "None",
       "EmulatedAmiga": "A1200",
-      "EmulatedFastRam": 0,
+      "EmulatedFastRam": 1,
       "WinUAEConfiguration": null,
       "SpriteMode": "Mode_2_64_Wide",
       "Uses24BitColor": true,
@@ -52,7 +52,7 @@
     "SpriteMode": "Mode_2_64_Wide",
     "GFXMode": "BP6",
     "EmulatedAmiga": "A1200",
-    "EmulatedFastRam": 0,
+    "EmulatedFastRam": 1,
     "WinUAEConfiguration": null,
     "XFillSize": 18,
     "YFillSize": 17,
@@ -67,6 +67,6 @@
     "MemorySaver": "None",
     "FolderPath": "D:\\!ScorpionProjects\\StarForce-Test\\",
     "IsDirty": true,
-    "DirtyDelay": 0.0008279346
+    "DirtyDelay": 0.00116387755
   }
 }
