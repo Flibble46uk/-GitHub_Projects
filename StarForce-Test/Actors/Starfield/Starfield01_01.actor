@@ -135,7 +135,7 @@
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
   "DivertTimer": "00_starfield_rap",
-  "DivertTimerFrames": 1,
+  "DivertTimerFrames": 0,
   "Vars": [
     "0",
     "0",

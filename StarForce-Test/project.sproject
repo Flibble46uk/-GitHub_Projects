@@ -32,9 +32,9 @@
       "Uses24BitColor": true,
       "SpriteColorBank": 2,
       "SScan2": false,
-      "FMode": 0,
+      "FMode": 1,
       "Width": 224,
-      "XOffset": 48,
+      "XOffset": 64,
       "XFillSize": 18,
       "YFillSize": 17,
       "Implode": false,
@@ -56,8 +56,8 @@
     "WinUAEConfiguration": null,
     "XFillSize": 18,
     "YFillSize": 17,
-    "XOffset": 48,
-    "FMode": 0,
+    "XOffset": 64,
+    "FMode": 1,
     "Width": 224,
     "SScan2": false,
     "MapCache": false,
@@ -65,8 +65,8 @@
     "AllocateMemoryUpfront": true,
     "Implode": false,
     "MemorySaver": "None",
-    "FolderPath": "D:\\!ScorpionProjects\\StarForce-Test\\",
+    "FolderPath": "C:\\Users\\earok\\OneDrive\\Desktop\\Scorpion\\Projects\\3p\\@Flibble42\\StarForce-Test\\",
     "IsDirty": true,
-    "DirtyDelay": 0.03423049
+    "DirtyDelay": 1.53258443E-05
   }
 }

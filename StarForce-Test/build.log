@@ -1,4 +1,5 @@
 === Image optimisations ===
+Reduce width of Anims\StarField\SF_Starfield01_01.png by 32 pixels to 192 to reduce sprites by 1
 
 === Estimated memory usages ===
 
@@ -6,7 +7,7 @@ For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 37090
 Music memory: 0
 BP Buffer memory: 117936
-core sfx/gfx memory: 49472
+core sfx/gfx memory: 33216
 Parallax memory: 0
 
 For other:
@@ -14,19 +15,19 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 4036
 Map background memory: 2672
-EXE memory: 210052
-vm memory: 6786
-project memory: 3624
+EXE memory: 210088
+vm memory: 6614
+project memory: 2436
 
-Accounted memory chip: 204498
-Accounted memory other: 227170
-Accounted memory total: 431668
+Accounted memory chip: 188242
+Accounted memory other: 225846
+Accounted memory total: 414088
 
 === Misc ===
 Maps and Asset Bundles Count: 3
 Maps and Asset Bundles Data Size: 36
-Actor Count: 6
-Actor Data Size: 1776
+Actor Count: 3
+Actor Data Size: 888
 Block Count: 1
 Block Data Size: 52
 Anim5 Count: 1
@@ -35,13 +36,13 @@ Sound Count: 1
 Sound Data Size: 32
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 6
-Animations Data Size: 96
-AnimationFrame Count: 7
-AnimationFrame Data Size: 112
-ImageFrames: 7
-ImageFrame Data Size: 476
-Asset bundle 0 (Core project asset bundle) Original size 49472 Crunched size 49472
+Animations Count: 3
+Animations Data Size: 48
+AnimationFrame Count: 4
+AnimationFrame Data Size: 64
+ImageFrames: 4
+ImageFrame Data Size: 272
+Asset bundle 0 (Core project asset bundle) Original size 33216 Crunched size 33216
 Asset bundle 1 (testfg) Original size 1920 Crunched size 1920
 Asset bundle 2 (teststarfieldbg) Original size 3072 Crunched size 3072
 Background for map testfg Original size 2672 Crunched size 2672
@@ -50,8 +51,8 @@ Tile data for map testfg (mem restrictions:No_Blocks) Original size 1332 Crunche
 Tile data for map teststarfieldbg (mem restrictions:No_Blocks) Original size 4036 Crunched size 4036
 Header data for map testfg Original size 8756 Crunched size 8756
 Header data for map teststarfieldbg Original size 8756 Crunched size 8756
-Project Data Original size 3624 Crunched size 3624
+Project Data Original size 2436 Crunched size 2436
 Project Header Original size 4040 Crunched size 4040
 Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
-Project virtual machine (codeblocks) Original size 6786 Crunched size 6786
+Project virtual machine (codeblocks) Original size 6614 Crunched size 6614
 Project virtual machine redirects Original size 4 Crunched size 4

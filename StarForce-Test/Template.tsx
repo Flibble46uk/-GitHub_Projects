@@ -11,19 +11,4 @@
       <property name="Name" value="starfield01_01" type="string" />
     </properties>
   </tile>
-  <tile id="2">
-    <properties>
-      <property name="Name" value="starfield01_02" type="string" />
-    </properties>
-  </tile>
-  <tile id="3">
-    <properties>
-      <property name="Name" value="starfield01_03" type="string" />
-    </properties>
-  </tile>
-  <tile id="4">
-    <properties>
-      <property name="Name" value="starfield01_04" type="string" />
-    </properties>
-  </tile>
 </tileset>
