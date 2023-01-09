@@ -6,8 +6,8 @@ Reduce width of Anims\StarField\SF_Starfield01_01.png by 32 pixels to 192 to red
 For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 37090
 Music memory: 0
-BP Buffer memory: 117936
-core sfx/gfx memory: 33216
+BP Buffer memory: 98280
+core sfx/gfx memory: 33152
 Parallax memory: 0
 
 For other:
@@ -16,12 +16,12 @@ Map header cache memory: 0
 Map data memory: 4036
 Map background memory: 2672
 EXE memory: 210088
-vm memory: 6614
+vm memory: 6646
 project memory: 2436
 
-Accounted memory chip: 188242
-Accounted memory other: 225846
-Accounted memory total: 414088
+Accounted memory chip: 168522
+Accounted memory other: 225878
+Accounted memory total: 394400
 
 === Misc ===
 Maps and Asset Bundles Count: 3
@@ -42,9 +42,9 @@ AnimationFrame Count: 4
 AnimationFrame Data Size: 64
 ImageFrames: 4
 ImageFrame Data Size: 272
-Asset bundle 0 (Core project asset bundle) Original size 33216 Crunched size 33216
-Asset bundle 1 (testfg) Original size 1920 Crunched size 1920
-Asset bundle 2 (teststarfieldbg) Original size 3072 Crunched size 3072
+Asset bundle 0 (Core project asset bundle) Original size 33152 Crunched size 33152
+Asset bundle 1 (testfg) Original size 1600 Crunched size 1600
+Asset bundle 2 (teststarfieldbg) Original size 2560 Crunched size 2560
 Background for map testfg Original size 2672 Crunched size 2672
 Background for map teststarfieldbg Original size 2672 Crunched size 2672
 Tile data for map testfg (mem restrictions:No_Blocks) Original size 1332 Crunched size 1332
@@ -54,5 +54,5 @@ Header data for map teststarfieldbg Original size 8756 Crunched size 8756
 Project Data Original size 2436 Crunched size 2436
 Project Header Original size 4040 Crunched size 4040
 Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
-Project virtual machine (codeblocks) Original size 6614 Crunched size 6614
+Project virtual machine (codeblocks) Original size 6646 Crunched size 6646
 Project virtual machine redirects Original size 4 Crunched size 4

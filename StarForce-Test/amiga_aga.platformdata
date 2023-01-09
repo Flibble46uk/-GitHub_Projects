@@ -1,6 +1,6 @@
 {
   "OutputSpeed": "PAL_50HZ",
-  "GFXMode": "BP6",
+  "GFXMode": "BP5",
   "MemorySaver": "None",
   "EmulatedAmiga": "A1200",
   "EmulatedFastRam": 1,

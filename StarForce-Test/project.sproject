@@ -23,7 +23,7 @@
     "ID": "amiga_aga",
     "Data": {
       "OutputSpeed": "PAL_50HZ",
-      "GFXMode": "BP6",
+      "GFXMode": "BP5",
       "MemorySaver": "None",
       "EmulatedAmiga": "A1200",
       "EmulatedFastRam": 1,
@@ -44,13 +44,13 @@
       "NTSC": false
     },
     "Extension": "platformdata",
-    "GetGFXMode": "BP6",
+    "GetGFXMode": "BP5",
     "NTSC": false,
     "OutputSpeed": "PAL_50HZ",
     "Uses24BitColor": true,
     "SpriteColorBank": 2,
     "SpriteMode": "Mode_2_64_Wide",
-    "GFXMode": "BP6",
+    "GFXMode": "BP5",
     "EmulatedAmiga": "A1200",
     "EmulatedFastRam": 1,
     "WinUAEConfiguration": null,
@@ -65,8 +65,8 @@
     "AllocateMemoryUpfront": true,
     "Implode": false,
     "MemorySaver": "None",
-    "FolderPath": "C:\\Users\\earok\\OneDrive\\Desktop\\Scorpion\\Projects\\3p\\@Flibble42\\StarForce-Test\\",
+    "FolderPath": "D:\\!ScorpionProjects\\StarForce-Test\\",
     "IsDirty": true,
-    "DirtyDelay": 1.53258443E-05
+    "DirtyDelay": 0.00100952946
   }
 }
