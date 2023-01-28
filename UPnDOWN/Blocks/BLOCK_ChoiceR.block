@@ -1,0 +1,21 @@
+{
+  "Divert_PlayerProjectileCollision": null,
+  "IsPlatform": false,
+  "IsSolid": false,
+  "BlockImagePath": "Blocks\\Choice_R.png",
+  "X": 0,
+  "Y": 0,
+  "Divert_PlayerCollision": "00_player_choice_r",
+  "Divert_PlayerHit": null,
+  "Divert_PlayerOverlap": null,
+  "Divert_ProjectileCollision": null,
+  "OnAnimationFrame": null,
+  "ShootOver": false,
+  "FastBlit": false,
+  "IsInvisible": false,
+  "IsSlope": false,
+  "ReplaceTileProperties": true,
+  "LinkedMap": null,
+  "TileID": 3,
+  "ImagePath": "D:\\!ScorpionProjects\\UPnDOWN\\\\Blocks\\Choice_R.png"
+}

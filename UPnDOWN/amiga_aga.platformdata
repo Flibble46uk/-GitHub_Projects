@@ -1,0 +1,22 @@
+{
+  "OutputSpeed": "PAL_50HZ",
+  "GFXMode": "BP6",
+  "MemorySaver": "None",
+  "EmulatedAmiga": "A1200",
+  "EmulatedFastRam": 0,
+  "WinUAEConfiguration": null,
+  "SpriteMode": "Mode_1_32_Wide",
+  "Uses24BitColor": true,
+  "SpriteColorBank": 4,
+  "SScan2": false,
+  "FMode": 0,
+  "Width": 224,
+  "XOffset": 32,
+  "XFillSize": 15,
+  "YFillSize": 19,
+  "Implode": false,
+  "MapCache": false,
+  "DoubleCopper": true,
+  "AllocateMemoryUpfront": true,
+  "NTSC": false
+}

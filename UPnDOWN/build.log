@@ -1,0 +1,61 @@
+=== Image optimisations ===
+Reduce width of Anims\Player\Player_00x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Player\Player_01x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Player\Player_00x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Player\Player_01x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Player\Player_00x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Player\Player_00x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Player\Player_00x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\Player\Player_00x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (level gfx bundle 1 ): 59712
+Music memory: 0
+BP Buffer memory: 109800
+core sfx/gfx memory: 6216
+Parallax memory: 0
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 29164
+Map background memory: 2672
+EXE memory: 210088
+vm memory: 8394
+project memory: 5196
+
+Accounted memory chip: 175728
+Accounted memory other: 255514
+Accounted memory total: 431242
+
+=== Misc ===
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 24
+Actor Count: 7
+Actor Data Size: 2072
+Block Count: 7
+Block Data Size: 364
+Anim5 Count: 1
+Anim5 Data Size: 1036
+Sound Count: 1
+Sound Data Size: 32
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 9
+Animations Data Size: 144
+AnimationFrame Count: 14
+AnimationFrame Data Size: 224
+ImageFrames: 19
+ImageFrame Data Size: 1292
+Asset bundle 0 (Core project asset bundle) Original size 6216 Crunched size 6216
+Asset bundle 1 (level_01) Original size 59712 Crunched size 59712
+Background for map level_01 Original size 2672 Crunched size 2672
+Tile data for map level_01 (mem restrictions:None) Original size 29164 Crunched size 29164
+Header data for map level_01 Original size 8756 Crunched size 8756
+Project Data Original size 5196 Crunched size 5196
+Project Header Original size 4040 Crunched size 4040
+Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
+Project virtual machine (codeblocks) Original size 8394 Crunched size 8394
+Project virtual machine redirects Original size 4 Crunched size 4

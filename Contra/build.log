@@ -1,0 +1,98 @@
+=== Image optimisations ===
+Reduce width of Anims\00_Explosion_01\00_Explsion_01_00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Explosion_01\00_Explsion_01_01.png by 3 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anims\00_Explosion_01\00_Explsion_01_02.png by 3 pixels to 48 to improve blit performance by 100.00%
+Reduce width of Anims\00_Explosion_01\00_Explsion_01_02.png by 3 pixels to 48 to improve blit performance by 100.00%
+Reduce width of Anims\00_Explosion_01\00_Explsion_01_01.png by 3 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anims\00_Explosion_01\00_Explsion_01_02.png by 3 pixels to 48 to improve blit performance by 100.00%
+Reduce width of Anims\00_Explosion_01\00_Explsion_01_02.png by 3 pixels to 48 to improve blit performance by 100.00%
+Reduce width of Anims\00_Explosion_01\00_Explsion_01_01.png by 3 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anims\00_Explosion_01\00_Explsion_01_00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Mountain\01_Mountain.png by 44 pixels to 192 to reduce sprites by 2
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_00x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_01x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_02x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_03x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_05x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_00x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_01x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_02x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_03x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_05x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideLegsRun\Player_side_run_00x00.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideLegsRun\Player_side_run_01x00.png by 3 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideLegsRun\Player_side_run_02x00.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideLegsRun\Player_side_run_04x00.png by 1 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideLegsRun\Player_side_run_05x00.png by 7 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideLegsRun\Player_side_run_00x00.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideLegsRun\Player_side_run_01x00.png by 3 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideLegsRun\Player_side_run_02x00.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideLegsRun\Player_side_run_04x00.png by 1 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideLegsRun\Player_side_run_05x00.png by 7 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_02x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_02x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_00x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_01x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_02x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_03x00.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_04x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_05x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_00x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_01x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_02x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_03x00.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_04x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_05x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (level gfx bundle 1 ): 116032
+Music memory: 0
+BP Buffer memory: 140112
+core sfx/gfx memory: 110960
+Parallax memory: 0
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 8332
+Map background memory: 2672
+EXE memory: 210088
+vm memory: 8364
+project memory: 12468
+
+Accounted memory chip: 367104
+Accounted memory other: 241924
+Accounted memory total: 609028
+
+=== Misc ===
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 24
+Actor Count: 16
+Actor Data Size: 4736
+Block Count: 6
+Block Data Size: 312
+Anim5 Count: 1
+Anim5 Data Size: 1036
+Sound Count: 1
+Sound Data Size: 32
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 26
+Animations Data Size: 416
+AnimationFrame Count: 80
+AnimationFrame Data Size: 1280
+ImageFrames: 68
+ImageFrame Data Size: 4624
+Asset bundle 0 (Core project asset bundle) Original size 110960 Crunched size 110960
+Asset bundle 1 (level1) Original size 116032 Crunched size 116032
+Background for map level1 Original size 2672 Crunched size 2672
+Tile data for map level1 (mem restrictions:None) Original size 8332 Crunched size 8332
+Header data for map level1 Original size 8756 Crunched size 8756
+Project Data Original size 12468 Crunched size 12468
+Project Header Original size 4040 Crunched size 4040
+Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
+Panel top_panel Original size 4034 Crunched size 4034
+Project virtual machine (codeblocks) Original size 8364 Crunched size 8364
+Project virtual machine redirects Original size 4 Crunched size 4

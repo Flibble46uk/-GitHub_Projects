@@ -1,0 +1,30 @@
+{
+  "Frames": [
+    {
+      "Path": "01_player_side_fall_shotgun_01x00.png",
+      "Duration": 5,
+      "HandleX": -7,
+      "HandleY": -28,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": true,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "SpriteType": "Attached_16colors",
+  "Multiplexes": 0,
+  "LoopFrame": 1,
+  "LinkedMap": null,
+  "OnFinish": null,
+  "AutoFlip": true
+}
