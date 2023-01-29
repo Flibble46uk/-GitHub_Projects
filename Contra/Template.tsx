@@ -69,4 +69,19 @@
       <property name="Name" value="00_weap_pod_1" type="string" />
     </properties>
   </tile>
+  <tile id="24">
+    <properties>
+      <property name="Name" value="00_weap_pod_2_move_r" type="string" />
+    </properties>
+  </tile>
+  <tile id="25">
+    <properties>
+      <property name="Name" value="00_weap_pod_2_move_l" type="string" />
+    </properties>
+  </tile>
+  <tile id="26">
+    <properties>
+      <property name="Name" value="01_turret_rck" type="string" />
+    </properties>
+  </tile>
 </tileset>

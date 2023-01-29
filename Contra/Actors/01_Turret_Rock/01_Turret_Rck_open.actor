@@ -1,17 +1,17 @@
 {
   "ShootDirType": "actor_direction",
-  "ClassType": "Platform",
+  "ClassType": "DefaultClass",
   "DefaultLookDir": "left",
-  "Recycle": "Default",
+  "Recycle": "Trash",
   "MoveType": "none",
   "MaxEntities": 0,
-  "NudgeX": 0,
-  "NudgeY": -8,
+  "NudgeX": 8,
+  "NudgeY": 8,
   "Idles": {
     "UpLeft": null,
     "Up": null,
     "UpRight": null,
-    "Left": "01_bridge_intact_sct1",
+    "Left": "01_turret_rock_open",
     "Right": null,
     "DownLeft": null,
     "Down": null,
@@ -94,10 +94,10 @@
     }
   ],
   "CollBox": {
-    "X": 0,
-    "Y": 6,
-    "Width": 32,
-    "Height": 18
+    "X": -8,
+    "Y": -8,
+    "Width": 16,
+    "Height": 16
   },
   "AttackDelay": 0,
   "ZOrder": 0,
@@ -123,7 +123,7 @@
   "AttackSound": null,
   "JumpSound": null,
   "DivertAttack": null,
-  "DivertSpawn": "00_update_off",
+  "DivertSpawn": "",
   "DivertPlayerCollision": null,
   "DivertPlayerHit": null,
   "DivertHitAgainstPlayer": null,
@@ -134,8 +134,8 @@
   "DivertOutOfScreenDown": null,
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
-  "DivertTimer": "01_handler_bridge_1",
-  "DivertTimerFrames": 2,
+  "DivertTimer": null,
+  "DivertTimerFrames": 0,
   "Vars": [
     "0",
     "0",
@@ -146,7 +146,7 @@
   ],
   "ControlPort": 0,
   "DataVersion": 1,
-  "TileID": 16,
-  "SuggestedRecycle": "Always",
+  "TileID": -1,
+  "SuggestedRecycle": "Trash",
   "UpAccelerationName": "Accel Up"
 }

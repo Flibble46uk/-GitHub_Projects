@@ -92,7 +92,7 @@
     }
   ],
   "PreventMovement": true,
-  "PreventCollision": false,
+  "PreventCollision": true,
   "HideChildren": false,
   "AutoSprite": false,
   "OnlySprite": false,

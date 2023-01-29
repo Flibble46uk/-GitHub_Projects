@@ -2,7 +2,7 @@
   "ShootDirType": "actor_direction",
   "ClassType": "DefaultClass",
   "DefaultLookDir": "left",
-  "Recycle": "Trash",
+  "Recycle": "Never",
   "MoveType": "none",
   "MaxEntities": 0,
   "NudgeX": 0,
@@ -128,8 +128,8 @@
   "DivertPlayerHit": null,
   "DivertHitAgainstPlayer": null,
   "DivertProjectileCollision": null,
-  "DivertOutOfScreenLeft": "destroy_actor",
-  "DivertOutOfScreenRight": null,
+  "DivertOutOfScreenLeft": "",
+  "DivertOutOfScreenRight": "",
   "DivertOutOfScreenUp": null,
   "DivertOutOfScreenDown": null,
   "DivertPlatformEdge": null,
@@ -147,6 +147,6 @@
   "ControlPort": 0,
   "DataVersion": 1,
   "TileID": 23,
-  "SuggestedRecycle": "Trash",
+  "SuggestedRecycle": "Never",
   "UpAccelerationName": "Accel Up"
 }

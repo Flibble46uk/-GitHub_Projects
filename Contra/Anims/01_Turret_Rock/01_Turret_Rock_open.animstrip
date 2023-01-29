@@ -1,9 +1,9 @@
 {
   "Frames": [
     {
-      "Path": "01_Shotgun_02x00.png",
-      "Duration": 80,
-      "HandleX": -8,
+      "Path": "01_Turrest_Rock_01x00.png",
+      "Duration": 5,
+      "HandleX": -16,
       "HandleY": -16,
       "XFlipped": false,
       "HitBox": {
@@ -16,24 +16,9 @@
       "OnFrame": null
     },
     {
-      "Path": "01_Shotgun_01x00.png",
-      "Duration": 80,
-      "HandleX": -8,
-      "HandleY": -15,
-      "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null
-    },
-    {
-      "Path": "01_Shotgun_02x00.png",
-      "Duration": 80,
-      "HandleX": -8,
+      "Path": "01_Turrest_Rock_02x00.png",
+      "Duration": 5,
+      "HandleX": -16,
       "HandleY": -16,
       "XFlipped": false,
       "HitBox": {
@@ -46,24 +31,9 @@
       "OnFrame": null
     },
     {
-      "Path": "01_Shotgun_01x00.png",
-      "Duration": 80,
-      "HandleX": -8,
-      "HandleY": -15,
-      "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null
-    },
-    {
-      "Path": "01_Shotgun_02x00.png",
-      "Duration": 80,
-      "HandleX": -8,
+      "Path": "01_Turrest_Rock_03x00.png",
+      "Duration": 5,
+      "HandleX": -16,
       "HandleY": -16,
       "XFlipped": false,
       "HitBox": {
@@ -76,24 +46,9 @@
       "OnFrame": null
     },
     {
-      "Path": "01_Shotgun_01x00.png",
-      "Duration": 80,
-      "HandleX": -8,
-      "HandleY": -15,
-      "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null
-    },
-    {
-      "Path": "01_Shotgun_02x00.png",
-      "Duration": 80,
-      "HandleX": -8,
+      "Path": "01_Turrest_Rock_04x00.png",
+      "Duration": 5,
+      "HandleX": -16,
       "HandleY": -16,
       "XFlipped": false,
       "HitBox": {
@@ -106,24 +61,9 @@
       "OnFrame": null
     },
     {
-      "Path": "01_Shotgun_01x00.png",
-      "Duration": 80,
-      "HandleX": -8,
-      "HandleY": -15,
-      "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null
-    },
-    {
-      "Path": "01_Shotgun_02x00.png",
-      "Duration": 80,
-      "HandleX": -8,
+      "Path": "01_Turrest_Rock_05x00.png",
+      "Duration": 5,
+      "HandleX": -16,
       "HandleY": -16,
       "XFlipped": false,
       "HitBox": {
@@ -136,10 +76,10 @@
       "OnFrame": null
     },
     {
-      "Path": "01_Shotgun_01x00.png",
-      "Duration": 80,
-      "HandleX": -8,
-      "HandleY": -15,
+      "Path": "01_Turrest_Rock_06x00.png",
+      "Duration": 5,
+      "HandleX": -16,
+      "HandleY": -16,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -151,9 +91,9 @@
       "OnFrame": null
     },
     {
-      "Path": "01_Shotgun_02x00.png",
-      "Duration": 240,
-      "HandleX": -8,
+      "Path": "01_Turrest_Rock_07x00.png",
+      "Duration": 5,
+      "HandleX": -16,
       "HandleY": -16,
       "XFlipped": false,
       "HitBox": {
@@ -164,17 +104,47 @@
       },
       "HasHitBox": false,
       "OnFrame": null
+    },
+    {
+      "Path": "01_Turrest_Rock_08x00.png",
+      "Duration": 5,
+      "HandleX": -16,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "01_Turrest_Rock_09x00.png",
+      "Duration": 5,
+      "HandleX": -16,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": "00_update_off"
     }
   ],
   "PreventMovement": false,
-  "PreventCollision": true,
+  "PreventCollision": false,
   "HideChildren": false,
   "AutoSprite": false,
   "OnlySprite": false,
   "SpriteType": "Attached_16colors",
   "Multiplexes": 0,
-  "LoopFrame": 0,
+  "LoopFrame": 8,
   "LinkedMap": null,
   "OnFinish": null,
-  "AutoFlip": true
+  "AutoFlip": false
 }
