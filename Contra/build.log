@@ -31,6 +31,16 @@ Reduce width of Anims\PlayerSideJump\01_player_side_jump_01x00.png by 13 pixels 
 Reduce width of Anims\PlayerSideJump\01_player_side_jump_02x00.png by 13 pixels to 16 to improve blit performance by 200.00%
 Reduce width of Anims\PlayerSideJump\01_player_side_jump_03x00.png by 13 pixels to 16 to improve blit performance by 200.00%
 Reduce width of Anims\PlayerSideJump\01_player_side_jump_05x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_00x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_01x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_02x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_03x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_05x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_00x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_01x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_02x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_03x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_05x00.png by 2 pixels to 16 to improve blit performance by 200.00%
 Reduce width of Anims\PlayerSideLegsRun\Player_side_run_00x00.png by 15 pixels to 16 to improve blit performance by 200.00%
 Reduce width of Anims\PlayerSideLegsRun\Player_side_run_01x00.png by 3 pixels to 16 to improve blit performance by 200.00%
 Reduce width of Anims\PlayerSideLegsRun\Player_side_run_02x00.png by 12 pixels to 16 to improve blit performance by 200.00%
@@ -82,7 +92,7 @@ For chip:
 Map gfx (level gfx bundle 1 ): 116032
 Music memory: 0
 BP Buffer memory: 140112
-core sfx/gfx memory: 121152
+core sfx/gfx memory: 128684
 Parallax memory: 0
 
 For other:
@@ -91,18 +101,18 @@ Map header cache memory: 0
 Map data memory: 8332
 Map background memory: 2672
 EXE memory: 210088
-vm memory: 9146
-project memory: 15300
+vm memory: 9458
+project memory: 16640
 
-Accounted memory chip: 377296
-Accounted memory other: 245538
-Accounted memory total: 622834
+Accounted memory chip: 384828
+Accounted memory other: 247190
+Accounted memory total: 632018
 
 === Misc ===
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
-Actor Count: 20
-Actor Data Size: 5920
+Actor Count: 21
+Actor Data Size: 6216
 Block Count: 6
 Block Data Size: 312
 Anim5 Count: 1
@@ -111,20 +121,20 @@ Sound Count: 1
 Sound Data Size: 32
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 29
-Animations Data Size: 464
-AnimationFrame Count: 112
-AnimationFrame Data Size: 1792
-ImageFrames: 84
-ImageFrame Data Size: 5712
-Asset bundle 0 (Core project asset bundle) Original size 121152 Crunched size 121152
+Animations Count: 33
+Animations Data Size: 528
+AnimationFrame Count: 135
+AnimationFrame Data Size: 2160
+ImageFrames: 93
+ImageFrame Data Size: 6324
+Asset bundle 0 (Core project asset bundle) Original size 128684 Crunched size 128684
 Asset bundle 1 (level1) Original size 116032 Crunched size 116032
 Background for map level1 Original size 2672 Crunched size 2672
 Tile data for map level1 (mem restrictions:None) Original size 8332 Crunched size 8332
 Header data for map level1 Original size 8756 Crunched size 8756
-Project Data Original size 15300 Crunched size 15300
+Project Data Original size 16640 Crunched size 16640
 Project Header Original size 4040 Crunched size 4040
 Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
 Panel top_panel Original size 4034 Crunched size 4034
-Project virtual machine (codeblocks) Original size 9146 Crunched size 9146
+Project virtual machine (codeblocks) Original size 9458 Crunched size 9458
 Project virtual machine redirects Original size 4 Crunched size 4

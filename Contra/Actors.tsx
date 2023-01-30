@@ -84,4 +84,9 @@
       <property name="Name" value="01_turret_rck" type="string" />
     </properties>
   </tile>
+  <tile id="27">
+    <properties>
+      <property name="Name" value="01_turret_grnd" type="string" />
+    </properties>
+  </tile>
 </tileset>

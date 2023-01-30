@@ -5384,981 +5384,1113 @@
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
-      "CodeBlock": "00_setcamera",
+      "CodeBlock": "00_look_left",
       "CodeBlockLine": 0,
       "MemoryOffset": 7020,
+      "Description": "00_LOOK_LEFT"
+    },
+    {
+      "CodeBlock": "00_look_left",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 7020,
+      "Description": "Set 'actor_lookdir' to 'look_left'"
+    },
+    {
+      "CodeBlock": "00_look_left",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 7026,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "00_look_left",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 7030,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "00_look_left",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 7034,
+      "Description": "GOSUB TO '00_INVISBLE_ON'"
+    },
+    {
+      "CodeBlock": "00_look_left",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 7054,
+      "Description": "GOSUB TO '00_UPDATE_OFF'"
+    },
+    {
+      "CodeBlock": "00_setcamera",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 7106,
       "Description": "00_SETCAMERA"
     },
     {
       "CodeBlock": "00_setcamera",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7020,
+      "MemoryOffset": 7106,
       "Description": "Set 'camera_x' to 'actor_x'"
     },
     {
       "CodeBlock": "00_setcamera",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7040,
+      "MemoryOffset": 7126,
       "Description": "Set 'camera_y' to 'actor_y'"
     },
     {
       "CodeBlock": "00_setcamera",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7060,
+      "MemoryOffset": 7146,
       "Description": "Set 'actor_type' to 'none'"
     },
     {
       "CodeBlock": "00_setcamera",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7066,
+      "MemoryOffset": 7152,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "00_setcamera",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7070,
+      "MemoryOffset": 7156,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "00_stopfollow",
       "CodeBlockLine": 0,
-      "MemoryOffset": 7106,
+      "MemoryOffset": 7192,
       "Description": "00_STOPFOLLOW"
     },
     {
       "CodeBlock": "00_stopfollow",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7106,
+      "MemoryOffset": 7192,
       "Description": "Set 'camera_follow' to '0'"
     },
     {
       "CodeBlock": "00_stopfollow",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7112,
+      "MemoryOffset": 7198,
       "Description": "Core operation'RefreshCameraFollow'"
     },
     {
       "CodeBlock": "00_update_off",
       "CodeBlockLine": 0,
-      "MemoryOffset": 7148,
+      "MemoryOffset": 7234,
       "Description": "00_UPDATE_OFF"
     },
     {
       "CodeBlock": "00_update_off",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7148,
+      "MemoryOffset": 7234,
       "Description": "Core operation'RefreshActorNoClear'"
     },
     {
       "CodeBlock": "00_update_off",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7152,
+      "MemoryOffset": 7238,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "00_update_off",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7154,
+      "MemoryOffset": 7240,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "00_update_on",
       "CodeBlockLine": 0,
-      "MemoryOffset": 7188,
+      "MemoryOffset": 7274,
       "Description": "00_UPDATE_ON"
     },
     {
       "CodeBlock": "00_update_on",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7188,
+      "MemoryOffset": 7274,
       "Description": "Core operation'RefreshActorNoClear'"
     },
     {
       "CodeBlock": "00_update_on",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7192,
+      "MemoryOffset": 7278,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "00_update_on",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7194,
+      "MemoryOffset": 7280,
       "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 0,
-      "MemoryOffset": 7228,
+      "MemoryOffset": 7314,
       "Description": "01_HANDLER_BRIDGE_1"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7228,
-      "Description": "If 'actor_x' LessThanOrEqual 'camera_x+168' ELSE GOTO 00007870"
+      "MemoryOffset": 7314,
+      "Description": "If 'actor_x' LessThanOrEqual 'camera_x+168' ELSE GOTO 00007956"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7260,
+      "MemoryOffset": 7346,
       "Description": "If 'explosion_chain' Equals '0'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7274,
+      "MemoryOffset": 7360,
       "Description": "GOSUB TO '00_UPDATE_ON'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 4,
-      "MemoryOffset": 7294,
+      "MemoryOffset": 7380,
       "Description": "Raw expression '12'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 4,
-      "MemoryOffset": 7300,
+      "MemoryOffset": 7386,
       "Description": "Raw expression '00_expl_01'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 4,
-      "MemoryOffset": 7306,
+      "MemoryOffset": 7392,
       "Description": "Core operation'ActorSpawn'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 5,
-      "MemoryOffset": 7310,
+      "MemoryOffset": 7396,
       "Description": "Set 'new_x' to 'actor_x+24'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 5,
-      "MemoryOffset": 7334,
+      "MemoryOffset": 7420,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 5,
-      "MemoryOffset": 7338,
+      "MemoryOffset": 7424,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 5,
-      "MemoryOffset": 7342,
+      "MemoryOffset": 7428,
       "Description": "Set 'new_y' to 'actor_y+16'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 5,
-      "MemoryOffset": 7366,
+      "MemoryOffset": 7452,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 5,
-      "MemoryOffset": 7370,
+      "MemoryOffset": 7456,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 6,
-      "MemoryOffset": 7374,
+      "MemoryOffset": 7460,
       "Description": "Set 'actor_type' to '01_brdg_dst_1'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 6,
-      "MemoryOffset": 7380,
+      "MemoryOffset": 7466,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 6,
-      "MemoryOffset": 7384,
+      "MemoryOffset": 7470,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 6,
-      "MemoryOffset": 7388,
+      "MemoryOffset": 7474,
       "Description": "Set 'actor_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 6,
-      "MemoryOffset": 7394,
+      "MemoryOffset": 7480,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 6,
-      "MemoryOffset": 7398,
+      "MemoryOffset": 7484,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 6,
-      "MemoryOffset": 7402,
+      "MemoryOffset": 7488,
       "Description": "Set 'actor_animation' to 'Trigger_CancelAnimation'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 6,
-      "MemoryOffset": 7408,
+      "MemoryOffset": 7494,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 6,
-      "MemoryOffset": 7412,
+      "MemoryOffset": 7498,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 7,
-      "MemoryOffset": 7416,
+      "MemoryOffset": 7502,
       "Description": "Set 'explosion_chain' to '1'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 9,
-      "MemoryOffset": 7422,
-      "Description": "GOTO '00007870'"
+      "MemoryOffset": 7508,
+      "Description": "GOTO '00007956'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 9,
-      "MemoryOffset": 7428,
+      "MemoryOffset": 7514,
       "Description": "If 'explosion_chain' Equals '1'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 11,
-      "MemoryOffset": 7442,
+      "MemoryOffset": 7528,
       "Description": "GOSUB TO '00_UPDATE_ON'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 12,
-      "MemoryOffset": 7462,
+      "MemoryOffset": 7548,
       "Description": "Raw expression '12'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 12,
-      "MemoryOffset": 7468,
+      "MemoryOffset": 7554,
       "Description": "Raw expression '00_expl_01'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 12,
-      "MemoryOffset": 7474,
+      "MemoryOffset": 7560,
       "Description": "Core operation'ActorSpawn'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 13,
-      "MemoryOffset": 7478,
+      "MemoryOffset": 7564,
       "Description": "Set 'new_x' to 'actor_x+24'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 13,
-      "MemoryOffset": 7502,
+      "MemoryOffset": 7588,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 13,
-      "MemoryOffset": 7506,
+      "MemoryOffset": 7592,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 13,
-      "MemoryOffset": 7510,
+      "MemoryOffset": 7596,
       "Description": "Set 'new_y' to 'actor_y+16'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 13,
-      "MemoryOffset": 7534,
+      "MemoryOffset": 7620,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 13,
-      "MemoryOffset": 7538,
+      "MemoryOffset": 7624,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 14,
-      "MemoryOffset": 7542,
+      "MemoryOffset": 7628,
       "Description": "Set 'actor_type' to 'none'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 14,
-      "MemoryOffset": 7548,
+      "MemoryOffset": 7634,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 14,
-      "MemoryOffset": 7552,
+      "MemoryOffset": 7638,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 15,
-      "MemoryOffset": 7556,
+      "MemoryOffset": 7642,
       "Description": "Set 'explosion_chain' to '2'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 17,
-      "MemoryOffset": 7562,
-      "Description": "GOTO '00007870'"
+      "MemoryOffset": 7648,
+      "Description": "GOTO '00007956'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 17,
-      "MemoryOffset": 7568,
+      "MemoryOffset": 7654,
       "Description": "If 'explosion_chain' Equals '2'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 19,
-      "MemoryOffset": 7582,
+      "MemoryOffset": 7668,
       "Description": "GOSUB TO '00_UPDATE_ON'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 20,
-      "MemoryOffset": 7602,
+      "MemoryOffset": 7688,
       "Description": "Raw expression '12'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 20,
-      "MemoryOffset": 7608,
+      "MemoryOffset": 7694,
       "Description": "Raw expression '00_expl_01'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 20,
-      "MemoryOffset": 7614,
+      "MemoryOffset": 7700,
       "Description": "Core operation'ActorSpawn'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 21,
-      "MemoryOffset": 7618,
+      "MemoryOffset": 7704,
       "Description": "Set 'new_x' to 'actor_x+24'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 21,
-      "MemoryOffset": 7642,
+      "MemoryOffset": 7728,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 21,
-      "MemoryOffset": 7646,
+      "MemoryOffset": 7732,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 21,
-      "MemoryOffset": 7650,
+      "MemoryOffset": 7736,
       "Description": "Set 'new_y' to 'actor_y+16'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 21,
-      "MemoryOffset": 7674,
+      "MemoryOffset": 7760,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 21,
-      "MemoryOffset": 7678,
+      "MemoryOffset": 7764,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 22,
-      "MemoryOffset": 7682,
+      "MemoryOffset": 7768,
       "Description": "Set 'actor_type' to 'none'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 22,
-      "MemoryOffset": 7688,
+      "MemoryOffset": 7774,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 22,
-      "MemoryOffset": 7692,
+      "MemoryOffset": 7778,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 23,
-      "MemoryOffset": 7696,
+      "MemoryOffset": 7782,
       "Description": "Set 'explosion_chain' to '3'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 25,
-      "MemoryOffset": 7702,
-      "Description": "GOTO '00007870'"
+      "MemoryOffset": 7788,
+      "Description": "GOTO '00007956'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 25,
-      "MemoryOffset": 7708,
-      "Description": "If 'explosion_chain' Equals '3' ELSE GOTO 00007870"
+      "MemoryOffset": 7794,
+      "Description": "If 'explosion_chain' Equals '3' ELSE GOTO 00007956"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 27,
-      "MemoryOffset": 7722,
+      "MemoryOffset": 7808,
       "Description": "GOSUB TO '00_UPDATE_ON'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 28,
-      "MemoryOffset": 7742,
+      "MemoryOffset": 7828,
       "Description": "Raw expression '12'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 28,
-      "MemoryOffset": 7748,
+      "MemoryOffset": 7834,
       "Description": "Raw expression '00_expl_01'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 28,
-      "MemoryOffset": 7754,
+      "MemoryOffset": 7840,
       "Description": "Core operation'ActorSpawn'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 29,
-      "MemoryOffset": 7758,
+      "MemoryOffset": 7844,
       "Description": "Set 'new_x' to 'actor_x+24'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 29,
-      "MemoryOffset": 7782,
+      "MemoryOffset": 7868,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 29,
-      "MemoryOffset": 7786,
+      "MemoryOffset": 7872,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 29,
-      "MemoryOffset": 7790,
+      "MemoryOffset": 7876,
       "Description": "Set 'new_y' to 'actor_y+16'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 29,
-      "MemoryOffset": 7814,
+      "MemoryOffset": 7900,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 29,
-      "MemoryOffset": 7818,
+      "MemoryOffset": 7904,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 30,
-      "MemoryOffset": 7822,
+      "MemoryOffset": 7908,
       "Description": "Set 'actor_type' to '01_brdg_dst_4'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 30,
-      "MemoryOffset": 7828,
+      "MemoryOffset": 7914,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 30,
-      "MemoryOffset": 7832,
+      "MemoryOffset": 7918,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 30,
-      "MemoryOffset": 7836,
+      "MemoryOffset": 7922,
       "Description": "Set 'actor_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 30,
-      "MemoryOffset": 7842,
+      "MemoryOffset": 7928,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 30,
-      "MemoryOffset": 7846,
+      "MemoryOffset": 7932,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 30,
-      "MemoryOffset": 7850,
+      "MemoryOffset": 7936,
       "Description": "Set 'actor_animation' to 'Trigger_CancelAnimation'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 30,
-      "MemoryOffset": 7856,
+      "MemoryOffset": 7942,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 30,
-      "MemoryOffset": 7860,
+      "MemoryOffset": 7946,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_bridge_1",
       "CodeBlockLine": 31,
-      "MemoryOffset": 7864,
+      "MemoryOffset": 7950,
       "Description": "Set 'explosion_chain' to '0'"
+    },
+    {
+      "CodeBlock": "01_handler_turret_ground_1",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 7988,
+      "Description": "01_HANDLER_TURRET_GROUND_1"
+    },
+    {
+      "CodeBlock": "01_handler_turret_ground_1",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 7988,
+      "Description": "If 'actor_var1' Equals '0' ELSE GOTO 00008092"
+    },
+    {
+      "CodeBlock": "01_handler_turret_ground_1",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 8012,
+      "Description": "If 'actor_x' LessThanOrEqual 'camera_x+184' ELSE GOTO 00008092"
+    },
+    {
+      "CodeBlock": "01_handler_turret_ground_1",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 8044,
+      "Description": "GOSUB TO '00_INVISBLE_OFF'"
+    },
+    {
+      "CodeBlock": "01_handler_turret_ground_1",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 8064,
+      "Description": "Set 'actor_lookdir' to 'look_left'"
+    },
+    {
+      "CodeBlock": "01_handler_turret_ground_1",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 8070,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "01_handler_turret_ground_1",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 8074,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "01_handler_turret_ground_1",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 8078,
+      "Description": "Set 'actor_var1' to '1'"
+    },
+    {
+      "CodeBlock": "01_handler_turret_ground_1",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 8084,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "01_handler_turret_ground_1",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 8088,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "01_handler_turret_ground_1",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 8092,
+      "Description": "If 'actor_var1' Equals '1' ELSE GOTO 00008182"
+    },
+    {
+      "CodeBlock": "01_handler_turret_ground_1",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 8116,
+      "Description": "If 'actor_x' LessThanOrEqual 'camera_x+40' ELSE GOTO 00008182"
+    },
+    {
+      "CodeBlock": "01_handler_turret_ground_1",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 8148,
+      "Description": "GOSUB TO '00_UPDATE_ON'"
+    },
+    {
+      "CodeBlock": "01_handler_turret_ground_1",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 8168,
+      "Description": "Set 'actor_lookdir' to 'look_right'"
+    },
+    {
+      "CodeBlock": "01_handler_turret_ground_1",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 8174,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "01_handler_turret_ground_1",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 8178,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_turret_rock",
       "CodeBlockLine": 0,
-      "MemoryOffset": 7902,
+      "MemoryOffset": 8214,
       "Description": "01_HANDLER_TURRET_ROCK"
     },
     {
       "CodeBlock": "01_handler_turret_rock",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7902,
-      "Description": "If 'actor_x' Equals 'camera_x+200' ELSE GOTO 00007976"
+      "MemoryOffset": 8214,
+      "Description": "If 'actor_x' Equals 'camera_x+200' ELSE GOTO 00008288"
     },
     {
       "CodeBlock": "01_handler_turret_rock",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7934,
+      "MemoryOffset": 8246,
       "Description": "Set 'actor_type' to '01_turret_rck_open'"
     },
     {
       "CodeBlock": "01_handler_turret_rock",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7940,
+      "MemoryOffset": 8252,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_turret_rock",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7944,
+      "MemoryOffset": 8256,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_turret_rock",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7948,
+      "MemoryOffset": 8260,
       "Description": "Set 'actor_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "01_handler_turret_rock",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7954,
+      "MemoryOffset": 8266,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_turret_rock",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7958,
+      "MemoryOffset": 8270,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_turret_rock",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7962,
+      "MemoryOffset": 8274,
       "Description": "Set 'actor_animation' to 'Trigger_CancelAnimation'"
     },
     {
       "CodeBlock": "01_handler_turret_rock",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7968,
+      "MemoryOffset": 8280,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_turret_rock",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7972,
+      "MemoryOffset": 8284,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_1",
       "CodeBlockLine": 0,
-      "MemoryOffset": 8008,
+      "MemoryOffset": 8320,
       "Description": "01_HANDLER_WEAP_POD_1"
     },
     {
       "CodeBlock": "01_handler_weap_pod_1",
       "CodeBlockLine": 1,
-      "MemoryOffset": 8008,
-      "Description": "If 'pod_open' Equals '0' ELSE GOTO 00008102"
+      "MemoryOffset": 8320,
+      "Description": "If 'pod_open' Equals '0' ELSE GOTO 00008414"
     },
     {
       "CodeBlock": "01_handler_weap_pod_1",
       "CodeBlockLine": 2,
-      "MemoryOffset": 8022,
-      "Description": "If 'actor_x' LessThanOrEqual 'camera_x+168' ELSE GOTO 00008102"
+      "MemoryOffset": 8334,
+      "Description": "If 'actor_x' LessThanOrEqual 'camera_x+168' ELSE GOTO 00008414"
     },
     {
       "CodeBlock": "01_handler_weap_pod_1",
       "CodeBlockLine": 3,
-      "MemoryOffset": 8054,
+      "MemoryOffset": 8366,
       "Description": "Set 'actor_type' to '00_weap_pod_1_open'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_1",
       "CodeBlockLine": 3,
-      "MemoryOffset": 8060,
+      "MemoryOffset": 8372,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_1",
       "CodeBlockLine": 3,
-      "MemoryOffset": 8064,
+      "MemoryOffset": 8376,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_1",
       "CodeBlockLine": 3,
-      "MemoryOffset": 8068,
+      "MemoryOffset": 8380,
       "Description": "Set 'actor_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_1",
       "CodeBlockLine": 3,
-      "MemoryOffset": 8074,
+      "MemoryOffset": 8386,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_1",
       "CodeBlockLine": 3,
-      "MemoryOffset": 8078,
+      "MemoryOffset": 8390,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_1",
       "CodeBlockLine": 3,
-      "MemoryOffset": 8082,
+      "MemoryOffset": 8394,
       "Description": "Set 'actor_animation' to 'Trigger_CancelAnimation'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_1",
       "CodeBlockLine": 3,
-      "MemoryOffset": 8088,
+      "MemoryOffset": 8400,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_1",
       "CodeBlockLine": 3,
-      "MemoryOffset": 8092,
+      "MemoryOffset": 8404,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_1",
       "CodeBlockLine": 4,
-      "MemoryOffset": 8096,
+      "MemoryOffset": 8408,
       "Description": "Set 'pod_open' to '1'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_1",
       "CodeBlockLine": 8,
-      "MemoryOffset": 8102,
-      "Description": "If 'pod_open' Equals '1' ELSE GOTO 00008196"
+      "MemoryOffset": 8414,
+      "Description": "If 'pod_open' Equals '1' ELSE GOTO 00008508"
     },
     {
       "CodeBlock": "01_handler_weap_pod_1",
       "CodeBlockLine": 9,
-      "MemoryOffset": 8116,
-      "Description": "If 'actor_x' Equals 'camera_x+40' ELSE GOTO 00008196"
+      "MemoryOffset": 8428,
+      "Description": "If 'actor_x' Equals 'camera_x+40' ELSE GOTO 00008508"
     },
     {
       "CodeBlock": "01_handler_weap_pod_1",
       "CodeBlockLine": 10,
-      "MemoryOffset": 8148,
+      "MemoryOffset": 8460,
       "Description": "Set 'actor_type' to '00_weap_pod_1_close'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_1",
       "CodeBlockLine": 10,
-      "MemoryOffset": 8154,
+      "MemoryOffset": 8466,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_1",
       "CodeBlockLine": 10,
-      "MemoryOffset": 8158,
+      "MemoryOffset": 8470,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_1",
       "CodeBlockLine": 10,
-      "MemoryOffset": 8162,
+      "MemoryOffset": 8474,
       "Description": "Set 'actor_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_1",
       "CodeBlockLine": 10,
-      "MemoryOffset": 8168,
+      "MemoryOffset": 8480,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_1",
       "CodeBlockLine": 10,
-      "MemoryOffset": 8172,
+      "MemoryOffset": 8484,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_1",
       "CodeBlockLine": 10,
-      "MemoryOffset": 8176,
+      "MemoryOffset": 8488,
       "Description": "Set 'actor_animation' to 'Trigger_CancelAnimation'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_1",
       "CodeBlockLine": 10,
-      "MemoryOffset": 8182,
+      "MemoryOffset": 8494,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_1",
       "CodeBlockLine": 10,
-      "MemoryOffset": 8186,
+      "MemoryOffset": 8498,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_1",
       "CodeBlockLine": 11,
-      "MemoryOffset": 8190,
+      "MemoryOffset": 8502,
       "Description": "Set 'pod_open' to '0'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 0,
-      "MemoryOffset": 8228,
+      "MemoryOffset": 8540,
       "Description": "01_HANDLER_WEAP_POD_2"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 2,
-      "MemoryOffset": 8228,
-      "Description": "If 'actor_type' Equals '00_weap_pod_2_move_r' ELSE GOTO 00008432"
+      "MemoryOffset": 8540,
+      "Description": "If 'actor_type' Equals '00_weap_pod_2_move_r' ELSE GOTO 00008744"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 3,
-      "MemoryOffset": 8252,
-      "Description": "If 'actor_var1' Equals '0' ELSE GOTO 00008342"
+      "MemoryOffset": 8564,
+      "Description": "If 'actor_var1' Equals '0' ELSE GOTO 00008654"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 4,
-      "MemoryOffset": 8276,
-      "Description": "If 'actor_x' LessThanOrEqual 'camera_x-16' ELSE GOTO 00008342"
+      "MemoryOffset": 8588,
+      "Description": "If 'actor_x' LessThanOrEqual 'camera_x-16' ELSE GOTO 00008654"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 5,
-      "MemoryOffset": 8308,
+      "MemoryOffset": 8620,
       "Description": "Set 'actor_var1' to '1'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 5,
-      "MemoryOffset": 8314,
+      "MemoryOffset": 8626,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 5,
-      "MemoryOffset": 8318,
+      "MemoryOffset": 8630,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 6,
-      "MemoryOffset": 8322,
+      "MemoryOffset": 8634,
       "Description": "GOSUB TO '00_INVISBLE_OFF'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 10,
-      "MemoryOffset": 8342,
-      "Description": "If 'actor_var1' GreaterThanOrEqual '1' ELSE GOTO 00008432"
+      "MemoryOffset": 8654,
+      "Description": "If 'actor_var1' GreaterThanOrEqual '1' ELSE GOTO 00008744"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 11,
-      "MemoryOffset": 8366,
+      "MemoryOffset": 8678,
       "Description": "Set 'actor_x' to 'camera_x-32+actor_var1'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 11,
-      "MemoryOffset": 8394,
+      "MemoryOffset": 8706,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 11,
-      "MemoryOffset": 8398,
+      "MemoryOffset": 8710,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 12,
-      "MemoryOffset": 8402,
+      "MemoryOffset": 8714,
       "Description": "Set 'actor_var1' to 'actor_var1+1'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 12,
-      "MemoryOffset": 8424,
+      "MemoryOffset": 8736,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 12,
-      "MemoryOffset": 8428,
+      "MemoryOffset": 8740,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 17,
-      "MemoryOffset": 8432,
-      "Description": "If 'actor_type' Equals '00_weap_pod_2_move_l' ELSE GOTO 00008616"
+      "MemoryOffset": 8744,
+      "Description": "If 'actor_type' Equals '00_weap_pod_2_move_l' ELSE GOTO 00008928"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 18,
-      "MemoryOffset": 8456,
-      "Description": "If 'actor_var1' Equals '0' ELSE GOTO 00008526"
+      "MemoryOffset": 8768,
+      "Description": "If 'actor_var1' Equals '0' ELSE GOTO 00008838"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 19,
-      "MemoryOffset": 8480,
-      "Description": "If 'actor_x' LessThan 'camera_x+224' ELSE GOTO 00008526"
+      "MemoryOffset": 8792,
+      "Description": "If 'actor_x' LessThan 'camera_x+224' ELSE GOTO 00008838"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 20,
-      "MemoryOffset": 8512,
+      "MemoryOffset": 8824,
       "Description": "Set 'actor_var1' to '1'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 20,
-      "MemoryOffset": 8518,
+      "MemoryOffset": 8830,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 20,
-      "MemoryOffset": 8522,
+      "MemoryOffset": 8834,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 24,
-      "MemoryOffset": 8526,
-      "Description": "If 'actor_var1' GreaterThanOrEqual '1' ELSE GOTO 00008616"
+      "MemoryOffset": 8838,
+      "Description": "If 'actor_var1' GreaterThanOrEqual '1' ELSE GOTO 00008928"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 25,
-      "MemoryOffset": 8550,
+      "MemoryOffset": 8862,
       "Description": "Set 'actor_x' to 'camera_x+224-actor_var1'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 25,
-      "MemoryOffset": 8578,
+      "MemoryOffset": 8890,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 25,
-      "MemoryOffset": 8582,
+      "MemoryOffset": 8894,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 26,
-      "MemoryOffset": 8586,
+      "MemoryOffset": 8898,
       "Description": "Set 'actor_var1' to 'actor_var1+1'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 26,
-      "MemoryOffset": 8608,
+      "MemoryOffset": 8920,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "01_handler_weap_pod_2",
       "CodeBlockLine": 26,
-      "MemoryOffset": 8612,
+      "MemoryOffset": 8924,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "01_spawn_torso",
       "CodeBlockLine": 0,
-      "MemoryOffset": 8648,
+      "MemoryOffset": 8960,
       "Description": "01_SPAWN_TORSO"
     },
     {
       "CodeBlock": "01_spawn_torso",
       "CodeBlockLine": 1,
-      "MemoryOffset": 8648,
+      "MemoryOffset": 8960,
       "Description": "Raw expression '4'"
     },
     {
       "CodeBlock": "01_spawn_torso",
       "CodeBlockLine": 1,
-      "MemoryOffset": 8654,
+      "MemoryOffset": 8966,
       "Description": "Raw expression '00_dummyplayer_torso'"
     },
     {
       "CodeBlock": "01_spawn_torso",
       "CodeBlockLine": 1,
-      "MemoryOffset": 8660,
+      "MemoryOffset": 8972,
       "Description": "Core operation'ActorSpawn'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 8696,
+      "MemoryOffset": 9008,
       "Description": "STARTUP"
     }
   ],
@@ -6392,40 +6524,45 @@
     "15": "01_brdg_sct_3",
     "16": "01_brdg_sct_4",
     "17": "01_mountain_bg",
-    "18": "01_turret_rck",
-    "19": "01_turret_rck_open"
+    "18": "01_turret_grnd",
+    "19": "01_turret_rck",
+    "20": "01_turret_rck_open"
   },
   "Sounds": {
     "0": "No sound played"
   },
   "Animations": {
-    "1": "00_explosion_01",
-    "2": "00_weapons_pod_1",
-    "3": "00_weapons_pod_1_close",
-    "4": "00_weapons_pod_1_open",
-    "5": "00_weapons_pod_2",
-    "6": "01_bridge_dest_sct1",
-    "7": "01_bridge_dest_sct4",
-    "8": "01_bridge_intact_sct1",
-    "9": "01_bridge_intact_sct2",
-    "10": "01_bridge_intact_sct4",
-    "11": "01_mountain",
-    "12": "01_turret_rock",
-    "13": "01_turret_rock_open",
-    "14": "dummyactor",
-    "15": "dummycamera",
-    "16": "dummyplayer",
-    "17": "player_side_fall_sg_r",
-    "18": "player_side_fall_sg_l",
-    "19": "player_side_jump_r",
-    "20": "player_side_jump_l",
-    "21": "player_side_idle_r",
-    "22": "player_side_idle_l",
-    "23": "player_side_run_r",
-    "24": "player_side_run_l",
-    "25": "player_side_idle_sg_r",
-    "26": "player_side_idle_sg_l",
-    "27": "player_side_run_sg_r",
-    "28": "player_side_run_sg_l"
+    "1": "00_blank",
+    "2": "00_explosion_01",
+    "3": "00_weapons_pod_1",
+    "4": "00_weapons_pod_1_close",
+    "5": "00_weapons_pod_1_open",
+    "6": "00_weapons_pod_2",
+    "7": "01_bridge_dest_sct1",
+    "8": "01_bridge_dest_sct4",
+    "9": "01_bridge_intact_sct1",
+    "10": "01_bridge_intact_sct2",
+    "11": "01_bridge_intact_sct4",
+    "12": "01_mountain",
+    "13": "01_turret_ground",
+    "14": "01_turret_ground_close",
+    "15": "01_turret_ground_open",
+    "16": "01_turret_rock",
+    "17": "01_turret_rock_open",
+    "18": "dummyactor",
+    "19": "dummycamera",
+    "20": "dummyplayer",
+    "21": "player_side_fall_sg_r",
+    "22": "player_side_fall_sg_l",
+    "23": "player_side_jump_r",
+    "24": "player_side_jump_l",
+    "25": "player_side_idle_r",
+    "26": "player_side_idle_l",
+    "27": "player_side_run_r",
+    "28": "player_side_run_l",
+    "29": "player_side_idle_sg_r",
+    "30": "player_side_idle_sg_l",
+    "31": "player_side_run_sg_r",
+    "32": "player_side_run_sg_l"
   }
 }

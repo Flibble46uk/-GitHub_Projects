@@ -1,0 +1,30 @@
+{
+  "Frames": [
+    {
+      "Path": "01_Turrest_Ground_03x00.png",
+      "Duration": 0,
+      "HandleX": -16,
+      "HandleY": -32,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": ""
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "SpriteType": "Attached_16colors",
+  "Multiplexes": 0,
+  "LoopFrame": 3,
+  "LinkedMap": null,
+  "OnFinish": null,
+  "AutoFlip": false
+}
