@@ -3,7 +3,7 @@
     {
       "Path": "01_Turrest_Ground_03x00.png",
       "Duration": 0,
-      "HandleX": -16,
+      "HandleX": 1,
       "HandleY": -32,
       "XFlipped": false,
       "HitBox": {

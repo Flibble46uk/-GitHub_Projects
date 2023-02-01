@@ -1,48 +1,48 @@
 {
   "ShootDirType": "actor_direction",
-  "ClassType": "DefaultClass",
-  "DefaultLookDir": "left",
-  "Recycle": "Trash",
-  "MoveType": "none",
+  "ClassType": "Player",
+  "DefaultLookDir": "right",
+  "Recycle": "Never",
+  "MoveType": "cpu_platform",
   "MaxEntities": 0,
-  "NudgeX": 0,
-  "NudgeY": 0,
+  "NudgeX": 8,
+  "NudgeY": -8,
   "Idles": {
     "UpLeft": null,
-    "Up": null,
+    "Up": "dummyplayer",
     "UpRight": null,
-    "Left": "00_weapons_pod_1_close",
-    "Right": null,
+    "Left": "player_side_idle_l",
+    "Right": "player_side_idle_r",
     "DownLeft": null,
-    "Down": null,
+    "Down": "dummyplayer",
     "DownRight": null
   },
   "Moves": {
-    "UpLeft": null,
+    "UpLeft": "player_side_jump_l",
     "Up": null,
-    "UpRight": null,
-    "Left": null,
-    "Right": null,
-    "DownLeft": null,
+    "UpRight": "player_side_jump_r",
+    "Left": "player_side_run_l",
+    "Right": "player_side_run_r",
+    "DownLeft": "player_side_fall_sg_l",
     "Down": null,
-    "DownRight": null
+    "DownRight": "player_side_fall_sg_r"
   },
   "Attacks": {
     "UpLeft": null,
     "Up": null,
-    "UpRight": null,
-    "Left": null,
-    "Right": null,
+    "UpRight": "",
+    "Left": "",
+    "Right": "",
     "DownLeft": null,
     "Down": null,
     "DownRight": null
   },
   "ProjectileOffsets": [
     {
-      "x": 0,
-      "y": 0,
-      "magnitude": 0.0,
-      "sqrMagnitude": 0
+      "x": -18,
+      "y": -22,
+      "magnitude": 28.42534,
+      "sqrMagnitude": 808
     },
     {
       "x": 0,
@@ -51,10 +51,16 @@
       "sqrMagnitude": 0
     },
     {
-      "x": 0,
-      "y": 0,
-      "magnitude": 0.0,
-      "sqrMagnitude": 0
+      "x": 17,
+      "y": -22,
+      "magnitude": 27.8028774,
+      "sqrMagnitude": 773
+    },
+    {
+      "x": -27,
+      "y": -4,
+      "magnitude": 27.2946873,
+      "sqrMagnitude": 745
     },
     {
       "x": 0,
@@ -63,16 +69,10 @@
       "sqrMagnitude": 0
     },
     {
-      "x": 0,
-      "y": 0,
-      "magnitude": 0.0,
-      "sqrMagnitude": 0
-    },
-    {
-      "x": 0,
-      "y": 0,
-      "magnitude": 0.0,
-      "sqrMagnitude": 0
+      "x": 27,
+      "y": -4,
+      "magnitude": 27.2946873,
+      "sqrMagnitude": 745
     },
     {
       "x": 0,
@@ -94,21 +94,21 @@
     }
   ],
   "CollBox": {
-    "X": 0,
-    "Y": 0,
-    "Width": 32,
-    "Height": 32
+    "X": -7,
+    "Y": -18,
+    "Width": 14,
+    "Height": 42
   },
-  "AttackDelay": 0,
-  "ZOrder": 0,
-  "SpeedLeft": 0.0,
-  "SpeedRight": 0.0,
-  "SpeedUp": 0.0,
-  "SpeedDown": 0.0,
+  "AttackDelay": 25,
+  "ZOrder": 9999,
+  "SpeedLeft": 1.0,
+  "SpeedRight": 1.0,
+  "SpeedUp": 2.0,
+  "SpeedDown": 3.0,
   "AccelLeft": null,
   "AccelRight": null,
   "AccelUp": null,
-  "AccelDown": null,
+  "AccelDown": 0.03125,
   "AccelLeftAir": null,
   "AccelRightAir": null,
   "RotationSpeed": 0.0,
@@ -117,25 +117,25 @@
   "CollType_Up": "block",
   "CollType_Down": "block",
   "Flags": 0,
-  "AttackProjectile": null,
+  "AttackProjectile": "00_plyr_bullet_sg",
   "AutoFire": false,
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,
-  "DivertAttack": null,
-  "DivertSpawn": "00_update_on",
+  "DivertAttack": "",
+  "DivertSpawn": "",
   "DivertPlayerCollision": null,
   "DivertPlayerHit": null,
   "DivertHitAgainstPlayer": null,
   "DivertProjectileCollision": null,
-  "DivertOutOfScreenLeft": "00_leave_screen",
-  "DivertOutOfScreenRight": null,
-  "DivertOutOfScreenUp": null,
-  "DivertOutOfScreenDown": null,
-  "DivertPlatformEdge": null,
+  "DivertOutOfScreenLeft": "snap_to_screen",
+  "DivertOutOfScreenRight": "snap_to_screen",
+  "DivertOutOfScreenUp": "00_donothing",
+  "DivertOutOfScreenDown": "!!_startup",
+  "DivertPlatformEdge": "00_player_fall",
   "DivertPlatformLand": null,
-  "DivertTimer": "",
-  "DivertTimerFrames": 0,
+  "DivertTimer": "00_move_camera_r",
+  "DivertTimerFrames": 1,
   "Vars": [
     "0",
     "0",
@@ -147,6 +147,6 @@
   "ControlPort": 0,
   "DataVersion": 1,
   "TileID": -1,
-  "SuggestedRecycle": "Trash",
+  "SuggestedRecycle": "Never",
   "UpAccelerationName": "Accel Up"
 }

@@ -11,7 +11,24 @@
   "UpJump": false,
   "JumpOnHold": false,
   "DataVersion": 3,
-  "Commands": [],
+  "Commands": [
+    {
+      "Compiler": "amiga",
+      "Key": "Space",
+      "JoystickPort": -1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": false,
+      "JoystickFire2": false,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "OnPress": "01_end_level",
+      "OnRelease": null
+    }
+  ],
   "AnimationMetaData": {},
   "Anim5MetaData": {},
   "SoundMetaData": {},
@@ -66,7 +83,7 @@
     "Implode": false,
     "MemorySaver": "None",
     "FolderPath": "D:\\!ScorpionProjects\\Contra\\",
-    "IsDirty": true,
-    "DirtyDelay": 0.00012325868
+    "IsDirty": false,
+    "DirtyDelay": 0.0
   }
 }

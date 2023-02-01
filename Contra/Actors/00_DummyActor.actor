@@ -1,7 +1,7 @@
 {
   "ShootDirType": "actor_direction",
   "ClassType": "DefaultClass",
-  "DefaultLookDir": "right",
+  "DefaultLookDir": "up",
   "Recycle": "Never",
   "MoveType": "none",
   "MaxEntities": 0,
@@ -9,12 +9,12 @@
   "NudgeY": 0,
   "Idles": {
     "UpLeft": null,
-    "Up": null,
+    "Up": "dummyactor",
     "UpRight": null,
     "Left": null,
-    "Right": "dummyactor",
+    "Right": "",
     "DownLeft": null,
-    "Down": null,
+    "Down": "00_blank",
     "DownRight": null
   },
   "Moves": {
@@ -123,11 +123,11 @@
   "AttackSound": null,
   "JumpSound": null,
   "DivertAttack": null,
-  "DivertSpawn": "",
+  "DivertSpawn": "00_actor_look_down",
   "DivertPlayerCollision": null,
   "DivertPlayerHit": null,
   "DivertHitAgainstPlayer": null,
-  "DivertProjectileCollision": null,
+  "DivertProjectileCollision": "01_end_level",
   "DivertOutOfScreenLeft": "00_donothing",
   "DivertOutOfScreenRight": "00_donothing",
   "DivertOutOfScreenUp": "00_donothing",

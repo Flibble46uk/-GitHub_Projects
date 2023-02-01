@@ -14,21 +14,6 @@
       },
       "HasHitBox": false,
       "OnFrame": null
-    },
-    {
-      "Path": "01_Mountain.png",
-      "Duration": 0,
-      "HandleX": 0,
-      "HandleY": 0,
-      "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null
     }
   ],
   "PreventMovement": false,

@@ -5,16 +5,16 @@
   "Recycle": "Never",
   "MoveType": "none",
   "MaxEntities": 0,
-  "NudgeX": 8,
+  "NudgeX": -9,
   "NudgeY": -16,
   "Idles": {
     "UpLeft": null,
-    "Up": "00_blank",
-    "UpRight": null,
+    "Up": "01_turret_ground",
+    "UpRight": "",
     "Left": "01_turret_ground_open",
     "Right": "01_turret_ground_close",
     "DownLeft": null,
-    "Down": null,
+    "Down": "00_blank",
     "DownRight": null
   },
   "Moves": {
@@ -94,7 +94,7 @@
     }
   ],
   "CollBox": {
-    "X": -8,
+    "X": 9,
     "Y": 0,
     "Width": 16,
     "Height": 16
@@ -123,7 +123,7 @@
   "AttackSound": null,
   "JumpSound": null,
   "DivertAttack": null,
-  "DivertSpawn": "",
+  "DivertSpawn": "00_actor_look_down",
   "DivertPlayerCollision": null,
   "DivertPlayerHit": null,
   "DivertHitAgainstPlayer": null,

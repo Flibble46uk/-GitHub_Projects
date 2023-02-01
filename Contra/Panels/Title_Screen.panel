@@ -6,7 +6,7 @@
   "FadeOutFrames": 0,
   "FadeInMusic": false,
   "FadeOutMusic": false,
-  "TalkpadFont": null,
+  "TalkpadFont": "",
   "TalkpadX": 0,
   "TalkpadY": 0,
   "TalkpadWidth": 8,

@@ -136,7 +136,7 @@
       "OnFrame": "00_update_off"
     }
   ],
-  "PreventMovement": false,
+  "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
   "AutoSprite": false,
