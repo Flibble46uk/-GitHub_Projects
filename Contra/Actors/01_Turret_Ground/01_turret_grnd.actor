@@ -128,7 +128,7 @@
   "DivertPlayerHit": null,
   "DivertHitAgainstPlayer": null,
   "DivertProjectileCollision": null,
-  "DivertOutOfScreenLeft": "00_leave_screen",
+  "DivertOutOfScreenLeft": "",
   "DivertOutOfScreenRight": null,
   "DivertOutOfScreenUp": null,
   "DivertOutOfScreenDown": null,

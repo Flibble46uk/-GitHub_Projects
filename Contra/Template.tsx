@@ -49,16 +49,8 @@
       <property name="Name" value="01_brdg_sct_4" type="string" />
     </properties>
   </tile>
-  <tile id="20">
-    <properties>
-      <property name="Name" value="01_brdg_dst_1" type="string" />
-    </properties>
-  </tile>
-  <tile id="21">
-    <properties>
-      <property name="Name" value="01_brdg_dst_4" type="string" />
-    </properties>
-  </tile>
+  <tile id="20" />
+  <tile id="21" />
   <tile id="22">
     <properties>
       <property name="Name" value="01_mountain_bg" type="string" />

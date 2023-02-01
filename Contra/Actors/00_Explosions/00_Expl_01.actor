@@ -5,7 +5,7 @@
   "Recycle": "Trash",
   "MoveType": "none",
   "MaxEntities": 0,
-  "NudgeX": 7,
+  "NudgeX": 8,
   "NudgeY": 7,
   "Idles": {
     "UpLeft": null,
@@ -94,7 +94,7 @@
     }
   ],
   "CollBox": {
-    "X": -7,
+    "X": -8,
     "Y": -7,
     "Width": 16,
     "Height": 16

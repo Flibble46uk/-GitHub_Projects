@@ -16,8 +16,8 @@
       "OnFrame": null
     }
   ],
-  "PreventMovement": false,
-  "PreventCollision": false,
+  "PreventMovement": true,
+  "PreventCollision": true,
   "HideChildren": false,
   "AutoSprite": false,
   "OnlySprite": false,

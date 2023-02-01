@@ -94,10 +94,10 @@
     }
   ],
   "CollBox": {
-    "X": 0,
-    "Y": 0,
-    "Width": 32,
-    "Height": 32
+    "X": 4,
+    "Y": 5,
+    "Width": 24,
+    "Height": 22
   },
   "AttackDelay": 0,
   "ZOrder": 0,
@@ -127,7 +127,7 @@
   "DivertPlayerCollision": null,
   "DivertPlayerHit": null,
   "DivertHitAgainstPlayer": null,
-  "DivertProjectileCollision": null,
+  "DivertProjectileCollision": "00_dstry_w_explsn_02",
   "DivertOutOfScreenLeft": "00_leave_screen",
   "DivertOutOfScreenRight": "",
   "DivertOutOfScreenUp": null,

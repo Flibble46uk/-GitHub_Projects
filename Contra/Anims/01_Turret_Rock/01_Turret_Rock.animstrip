@@ -3,8 +3,8 @@
     {
       "Path": "01_Turrest_Rock_00x00.png",
       "Duration": 5,
-      "HandleX": -16,
-      "HandleY": -16,
+      "HandleX": 0,
+      "HandleY": -1,
       "XFlipped": false,
       "HitBox": {
         "X": 0,

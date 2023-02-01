@@ -5,8 +5,8 @@
   "Recycle": "Trash",
   "MoveType": "none",
   "MaxEntities": 0,
-  "NudgeX": 8,
-  "NudgeY": 8,
+  "NudgeX": -5,
+  "NudgeY": -4,
   "Idles": {
     "UpLeft": null,
     "Up": null,
@@ -94,10 +94,10 @@
     }
   ],
   "CollBox": {
-    "X": -8,
-    "Y": -8,
-    "Width": 16,
-    "Height": 16
+    "X": 6,
+    "Y": 5,
+    "Width": 20,
+    "Height": 20
   },
   "AttackDelay": 0,
   "ZOrder": 0,
@@ -127,7 +127,7 @@
   "DivertPlayerCollision": null,
   "DivertPlayerHit": null,
   "DivertHitAgainstPlayer": null,
-  "DivertProjectileCollision": null,
+  "DivertProjectileCollision": "00_dstry_w_explsn_02",
   "DivertOutOfScreenLeft": "00_leave_screen",
   "DivertOutOfScreenRight": null,
   "DivertOutOfScreenUp": null,

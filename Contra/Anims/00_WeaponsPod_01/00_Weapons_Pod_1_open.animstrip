@@ -73,7 +73,22 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": ""
+    },
+    {
+      "Path": "Weapons_Pod_01_06x00.png",
+      "Duration": 5,
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": ""
     },
     {
       "Path": "Weapons_Pod_01_06x00.png",
@@ -92,13 +107,13 @@
     }
   ],
   "PreventMovement": true,
-  "PreventCollision": true,
+  "PreventCollision": false,
   "HideChildren": false,
   "AutoSprite": false,
   "OnlySprite": false,
   "SpriteType": "Attached_16colors",
   "Multiplexes": 0,
-  "LoopFrame": 5,
+  "LoopFrame": 6,
   "LinkedMap": null,
   "OnFinish": null,
   "AutoFlip": false

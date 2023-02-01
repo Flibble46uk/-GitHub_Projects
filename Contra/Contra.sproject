@@ -8,7 +8,7 @@
   "StartupSequenceDirty": false,
   "Fire1Jump": false,
   "Fire2Jump": true,
-  "UpJump": true,
+  "UpJump": false,
   "JumpOnHold": false,
   "DataVersion": 3,
   "Commands": [],
@@ -39,7 +39,7 @@
       "YFillSize": 17,
       "Implode": false,
       "MapCache": false,
-      "DoubleCopper": true,
+      "DoubleCopper": false,
       "AllocateMemoryUpfront": true,
       "NTSC": false
     },
@@ -61,12 +61,12 @@
     "Width": 224,
     "SScan2": false,
     "MapCache": false,
-    "DoubleCopper": true,
+    "DoubleCopper": false,
     "AllocateMemoryUpfront": true,
     "Implode": false,
     "MemorySaver": "None",
     "FolderPath": "D:\\!ScorpionProjects\\Contra\\",
     "IsDirty": true,
-    "DirtyDelay": 0.0118592661
+    "DirtyDelay": 0.00012325868
   }
 }

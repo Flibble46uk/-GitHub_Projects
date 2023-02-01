@@ -3,8 +3,8 @@
     {
       "Path": "01_Turrest_Rock_01x00.png",
       "Duration": 5,
-      "HandleX": -16,
-      "HandleY": -16,
+      "HandleX": 0,
+      "HandleY": -1,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -18,8 +18,8 @@
     {
       "Path": "01_Turrest_Rock_02x00.png",
       "Duration": 5,
-      "HandleX": -16,
-      "HandleY": -16,
+      "HandleX": 0,
+      "HandleY": -1,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -33,8 +33,8 @@
     {
       "Path": "01_Turrest_Rock_03x00.png",
       "Duration": 5,
-      "HandleX": -16,
-      "HandleY": -16,
+      "HandleX": 0,
+      "HandleY": -1,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -48,8 +48,8 @@
     {
       "Path": "01_Turrest_Rock_04x00.png",
       "Duration": 5,
-      "HandleX": -16,
-      "HandleY": -16,
+      "HandleX": 0,
+      "HandleY": -1,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -63,8 +63,8 @@
     {
       "Path": "01_Turrest_Rock_05x00.png",
       "Duration": 5,
-      "HandleX": -16,
-      "HandleY": -16,
+      "HandleX": 0,
+      "HandleY": -1,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -78,8 +78,8 @@
     {
       "Path": "01_Turrest_Rock_06x00.png",
       "Duration": 5,
-      "HandleX": -16,
-      "HandleY": -16,
+      "HandleX": 0,
+      "HandleY": -1,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -93,8 +93,8 @@
     {
       "Path": "01_Turrest_Rock_07x00.png",
       "Duration": 5,
-      "HandleX": -16,
-      "HandleY": -16,
+      "HandleX": 0,
+      "HandleY": -1,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -108,8 +108,8 @@
     {
       "Path": "01_Turrest_Rock_08x00.png",
       "Duration": 5,
-      "HandleX": -16,
-      "HandleY": -16,
+      "HandleX": 0,
+      "HandleY": -1,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -123,8 +123,8 @@
     {
       "Path": "01_Turrest_Rock_09x00.png",
       "Duration": 5,
-      "HandleX": -16,
-      "HandleY": -16,
+      "HandleX": 0,
+      "HandleY": -1,
       "XFlipped": false,
       "HitBox": {
         "X": 0,

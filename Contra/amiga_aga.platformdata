@@ -16,7 +16,7 @@
   "YFillSize": 17,
   "Implode": false,
   "MapCache": false,
-  "DoubleCopper": true,
+  "DoubleCopper": false,
   "AllocateMemoryUpfront": true,
   "NTSC": false
 }
