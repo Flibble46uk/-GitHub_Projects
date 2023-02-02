@@ -4,7 +4,7 @@
       "Path": "Bridge_Intact_01x00.png",
       "Duration": 5,
       "HandleX": 0,
-      "HandleY": 0,
+      "HandleY": -8,
       "XFlipped": false,
       "HitBox": {
         "X": 0,

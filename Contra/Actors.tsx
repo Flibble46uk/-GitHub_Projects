@@ -16,8 +16,16 @@
       <property name="Name" value="00_dummyplayer" type="string" />
     </properties>
   </tile>
-  <tile id="3" />
-  <tile id="4" />
+  <tile id="3">
+    <properties>
+      <property name="Name" value="01_enmy_01_run" type="string" />
+    </properties>
+  </tile>
+  <tile id="4">
+    <properties>
+      <property name="Name" value="01_turret_grnd" type="string" />
+    </properties>
+  </tile>
   <tile id="5" />
   <tile id="6" />
   <tile id="7" />
@@ -82,11 +90,6 @@
   <tile id="26">
     <properties>
       <property name="Name" value="01_turret_rck" type="string" />
-    </properties>
-  </tile>
-  <tile id="27">
-    <properties>
-      <property name="Name" value="01_turret_grnd" type="string" />
     </properties>
   </tile>
 </tileset>

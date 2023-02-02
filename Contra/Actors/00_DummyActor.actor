@@ -10,11 +10,11 @@
   "Idles": {
     "UpLeft": null,
     "Up": "dummyactor",
-    "UpRight": null,
+    "UpRight": "00_blank",
     "Left": null,
     "Right": "",
     "DownLeft": null,
-    "Down": "00_blank",
+    "Down": "",
     "DownRight": null
   },
   "Moves": {
@@ -96,7 +96,7 @@
   "CollBox": {
     "X": 0,
     "Y": 0,
-    "Width": 16,
+    "Width": 48,
     "Height": 16
   },
   "AttackDelay": 0,
@@ -123,21 +123,21 @@
   "AttackSound": null,
   "JumpSound": null,
   "DivertAttack": null,
-  "DivertSpawn": "00_actor_look_down",
+  "DivertSpawn": "00_actor_hide",
   "DivertPlayerCollision": null,
   "DivertPlayerHit": null,
   "DivertHitAgainstPlayer": null,
-  "DivertProjectileCollision": "01_end_level",
+  "DivertProjectileCollision": "01_handler_reactor",
   "DivertOutOfScreenLeft": "00_donothing",
   "DivertOutOfScreenRight": "00_donothing",
   "DivertOutOfScreenUp": "00_donothing",
   "DivertOutOfScreenDown": "00_donothing",
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
-  "DivertTimer": "",
+  "DivertTimer": "01_end_level",
   "DivertTimerFrames": 1,
   "Vars": [
-    "0",
+    "1",
     "0",
     "192",
     "0",

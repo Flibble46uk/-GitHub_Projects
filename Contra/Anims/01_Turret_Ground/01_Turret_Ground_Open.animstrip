@@ -18,8 +18,8 @@
     {
       "Path": "01_Turrest_Ground_00x00.png",
       "Duration": 5,
-      "HandleX": 1,
-      "HandleY": -7,
+      "HandleX": 0,
+      "HandleY": 25,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -33,8 +33,8 @@
     {
       "Path": "01_Turrest_Ground_01x00.png",
       "Duration": 5,
-      "HandleX": 1,
-      "HandleY": -15,
+      "HandleX": 0,
+      "HandleY": 17,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -48,8 +48,8 @@
     {
       "Path": "01_Turrest_Ground_02x00.png",
       "Duration": 5,
-      "HandleX": 1,
-      "HandleY": -25,
+      "HandleX": 0,
+      "HandleY": 7,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -63,8 +63,8 @@
     {
       "Path": "01_Turrest_Ground_03x00.png",
       "Duration": 0,
-      "HandleX": 1,
-      "HandleY": -32,
+      "HandleX": 0,
+      "HandleY": 0,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -73,11 +73,11 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": "00_update_off"
+      "OnFrame": "00_increase_var1"
     }
   ],
-  "PreventMovement": false,
-  "PreventCollision": false,
+  "PreventMovement": true,
+  "PreventCollision": true,
   "HideChildren": false,
   "AutoSprite": false,
   "OnlySprite": false,

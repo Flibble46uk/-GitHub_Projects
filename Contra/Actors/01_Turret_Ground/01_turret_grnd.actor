@@ -8,13 +8,13 @@
   "NudgeX": -9,
   "NudgeY": -16,
   "Idles": {
-    "UpLeft": null,
+    "UpLeft": "01_turret_ground_dead",
     "Up": "01_turret_ground",
-    "UpRight": "",
+    "UpRight": "00_blank",
     "Left": "01_turret_ground_open",
     "Right": "01_turret_ground_close",
     "DownLeft": null,
-    "Down": "00_blank",
+    "Down": "01_turret_ground_active",
     "DownRight": null
   },
   "Moves": {
@@ -94,10 +94,10 @@
     }
   ],
   "CollBox": {
-    "X": 9,
-    "Y": 0,
-    "Width": 16,
-    "Height": 16
+    "X": 8,
+    "Y": 1,
+    "Width": 20,
+    "Height": 26
   },
   "AttackDelay": 0,
   "ZOrder": 0,
@@ -123,12 +123,12 @@
   "AttackSound": null,
   "JumpSound": null,
   "DivertAttack": null,
-  "DivertSpawn": "00_actor_look_down",
+  "DivertSpawn": "00_actor_hide",
   "DivertPlayerCollision": null,
   "DivertPlayerHit": null,
   "DivertHitAgainstPlayer": null,
-  "DivertProjectileCollision": null,
-  "DivertOutOfScreenLeft": "",
+  "DivertProjectileCollision": "00_dstry_ground_turret",
+  "DivertOutOfScreenLeft": "00_leave_screen",
   "DivertOutOfScreenRight": null,
   "DivertOutOfScreenUp": null,
   "DivertOutOfScreenDown": null,
@@ -146,7 +146,7 @@
   ],
   "ControlPort": 0,
   "DataVersion": 1,
-  "TileID": 27,
+  "TileID": 4,
   "SuggestedRecycle": "Never",
   "UpAccelerationName": "Accel Up"
 }

@@ -114,7 +114,7 @@
   "RotationSpeed": 0.0,
   "CollType_Left": "block",
   "CollType_Right": "block",
-  "CollType_Up": "block",
+  "CollType_Up": "none",
   "CollType_Down": "block",
   "Flags": 0,
   "AttackProjectile": "00_plyr_bullet_sg",

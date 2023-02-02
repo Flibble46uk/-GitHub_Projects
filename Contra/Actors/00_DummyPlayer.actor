@@ -99,7 +99,7 @@
     "Width": 14,
     "Height": 42
   },
-  "AttackDelay": 25,
+  "AttackDelay": 10,
   "ZOrder": 9999,
   "SpeedLeft": 1.0,
   "SpeedRight": 1.0,

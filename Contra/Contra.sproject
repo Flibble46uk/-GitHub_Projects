@@ -83,7 +83,7 @@
     "Implode": false,
     "MemorySaver": "None",
     "FolderPath": "D:\\!ScorpionProjects\\Contra\\",
-    "IsDirty": false,
-    "DirtyDelay": 0.0
+    "IsDirty": true,
+    "DirtyDelay": 0.000105593354
   }
 }

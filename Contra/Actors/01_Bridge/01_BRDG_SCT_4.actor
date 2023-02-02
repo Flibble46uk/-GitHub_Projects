@@ -12,7 +12,7 @@
     "Up": null,
     "UpRight": null,
     "Left": "01_bridge_intact_sct4",
-    "Right": null,
+    "Right": "01_bridge_intact_sct4_exp",
     "DownLeft": null,
     "Down": null,
     "DownRight": null
