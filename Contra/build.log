@@ -136,7 +136,7 @@ Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_05x00.png by 11 pixels t
 === Estimated memory usages ===
 
 For chip:
-Map gfx (level gfx bundle 1 ): 130144
+Map gfx (level gfx bundle 1 ): 133952
 Music memory: 0
 BP Buffer memory: 141120
 core sfx/gfx memory: 232456
@@ -145,21 +145,21 @@ Parallax memory: 0
 For other:
 Map cache memory: 0
 Map header cache memory: 0
-Map data memory: 11790
+Map data memory: 11880
 Map background memory: 2672
 EXE memory: 210088
-vm memory: 11954
-project memory: 23856
+vm memory: 11946
+project memory: 24152
 
-Accounted memory chip: 503720
-Accounted memory other: 260360
-Accounted memory total: 764080
+Accounted memory chip: 507528
+Accounted memory other: 260738
+Accounted memory total: 768266
 
 === Misc ===
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
-Actor Count: 24
-Actor Data Size: 7104
+Actor Count: 25
+Actor Data Size: 7400
 Block Count: 6
 Block Data Size: 312
 Anim5 Count: 1
@@ -175,14 +175,14 @@ AnimationFrame Data Size: 3616
 ImageFrames: 159
 ImageFrame Data Size: 10812
 Asset bundle 0 (Core project asset bundle) Original size 232456 Crunched size 232456
-Asset bundle 1 (level_01) Original size 130144 Crunched size 130144
+Asset bundle 1 (level_01) Original size 133952 Crunched size 133952
 Background for map level_01 Original size 2672 Crunched size 2672
-Tile data for map level_01 (mem restrictions:None) Original size 11790 Crunched size 11790
+Tile data for map level_01 (mem restrictions:None) Original size 11880 Crunched size 11880
 Header data for map level_01 Original size 8756 Crunched size 8756
-Project Data Original size 23856 Crunched size 23856
+Project Data Original size 24152 Crunched size 24152
 Project Header Original size 4040 Crunched size 4040
 Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
 Panel title_screen Original size 39650 Crunched size 39650
 Panel top_panel Original size 4034 Crunched size 4034
-Project virtual machine (codeblocks) Original size 11954 Crunched size 11954
+Project virtual machine (codeblocks) Original size 11946 Crunched size 11946
 Project virtual machine redirects Original size 4 Crunched size 4
