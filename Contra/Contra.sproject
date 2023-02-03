@@ -25,7 +25,7 @@
       "CD32Forward": false,
       "CD32Green": false,
       "CD32Yellow": false,
-      "OnPress": "01_end_level",
+      "OnPress": "!!flame_test",
       "OnRelease": null
     }
   ],
@@ -83,7 +83,7 @@
     "Implode": false,
     "MemorySaver": "None",
     "FolderPath": "D:\\!ScorpionProjects\\Contra\\",
-    "IsDirty": true,
-    "DirtyDelay": 0.0199474934
+    "IsDirty": false,
+    "DirtyDelay": 0.0
   }
 }

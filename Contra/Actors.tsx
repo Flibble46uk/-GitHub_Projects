@@ -97,4 +97,9 @@
       <property name="Name" value="01_reactor" type="string" />
     </properties>
   </tile>
+  <tile id="28">
+    <properties>
+      <property name="Name" value="00_flm_up" type="string" />
+    </properties>
+  </tile>
 </tileset>

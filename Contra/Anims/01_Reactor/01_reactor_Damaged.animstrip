@@ -1,7 +1,7 @@
 {
   "Frames": [
     {
-      "Path": "01_Mountain.png",
+      "Path": "01_Reactor.png",
       "Duration": 5,
       "HandleX": 0,
       "HandleY": 0,
@@ -13,14 +13,14 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": "00_update_off"
     }
   ],
-  "PreventMovement": false,
-  "PreventCollision": true,
+  "PreventMovement": true,
+  "PreventCollision": false,
   "HideChildren": false,
   "AutoSprite": false,
-  "OnlySprite": true,
+  "OnlySprite": false,
   "SpriteType": "Attached_16colors",
   "Multiplexes": 0,
   "LoopFrame": 0,

@@ -9,6 +9,16 @@ Reduce width of Anims\00_Explosion_02\00_Explsion_02_03x00.png by 14 pixels to 1
 Reduce width of Anims\00_Explosion_02\00_Explsion_02_04x00.png by 15 pixels to 16 to improve blit performance by 200.00%
 Reduce width of Anims\00_Explosion_02\00_Explsion_02_03x00.png by 14 pixels to 16 to improve blit performance by 200.00%
 Reduce width of Anims\00_Explosion_02\00_Explsion_02_02x00.png by 5 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Flame\00_Explsion_02_02x00.png by 5 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Flame\00_Explsion_02_03x00.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Flame\00_Explsion_02_04x00.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Flame\00_Explsion_02_03x00.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Flame\00_Explsion_02_02x00.png by 5 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Flame\00_Explsion_02_02x00.png by 5 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Flame\00_Explsion_02_03x00.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Flame\00_Explsion_02_04x00.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Flame\00_Explsion_02_03x00.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Flame\00_Explsion_02_02x00.png by 5 pixels to 16 to improve blit performance by 200.00%
 Reduce width of Anims\00_WeaponsPod_02\Weapons_Pod_02_00x00.png by 12 pixels to 16 to improve blit performance by 200.00%
 Reduce width of Anims\00_WeaponsPod_02\Weapons_Pod_02_01x00.png by 12 pixels to 16 to improve blit performance by 200.00%
 Reduce width of Anims\01_Enemy_01\01_Enemy_01_death_00x00.png by 10 pixels to 16 to improve blit performance by 200.00%
@@ -33,7 +43,7 @@ Reduce width of Anims\01_Enemy_01\01_Enemy_01_03x00.png by 15 pixels to 16 to im
 Reduce width of Anims\01_Enemy_01\01_Enemy_01_00x00.png by 9 pixels to 16 to improve blit performance by 200.00%
 Reduce width of Anims\01_Enemy_01\01_Enemy_01_01x00.png by 15 pixels to 16 to improve blit performance by 200.00%
 Reduce width of Anims\01_Enemy_01\01_Enemy_01_03x00.png by 15 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\01_Mountain\01_Mountain - Copy.png by 44 pixels to 192 to reduce sprites by 2
+Reduce width of Anims\01_Reactor\01_Reactor.png by 13 pixels to 32 to improve blit performance by 100.00%
 Reduce width of Anims\01_Turret_Rock\01_Turrest_Rock_00x00.png by 6 pixels to 16 to improve blit performance by 200.00%
 Reduce width of Anims\01_Turret_Rock\01_Turrest_Rock_01x00.png by 6 pixels to 16 to improve blit performance by 200.00%
 Reduce width of Anims\01_Turret_Rock\01_Turrest_Rock_02x00.png by 6 pixels to 16 to improve blit performance by 200.00%
@@ -139,7 +149,7 @@ For chip:
 Map gfx (level gfx bundle 1 ): 133952
 Music memory: 0
 BP Buffer memory: 141120
-core sfx/gfx memory: 232456
+core sfx/gfx memory: 235664
 Parallax memory: 0
 
 For other:
@@ -148,18 +158,18 @@ Map header cache memory: 0
 Map data memory: 11880
 Map background memory: 2672
 EXE memory: 210088
-vm memory: 11946
-project memory: 24152
+vm memory: 12266
+project memory: 24804
 
-Accounted memory chip: 507528
-Accounted memory other: 260738
-Accounted memory total: 768266
+Accounted memory chip: 510736
+Accounted memory other: 261710
+Accounted memory total: 772446
 
 === Misc ===
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
-Actor Count: 25
-Actor Data Size: 7400
+Actor Count: 26
+Actor Data Size: 7696
 Block Count: 6
 Block Data Size: 312
 Anim5 Count: 1
@@ -168,21 +178,21 @@ Sound Count: 1
 Sound Data Size: 32
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 57
-Animations Data Size: 912
-AnimationFrame Count: 226
-AnimationFrame Data Size: 3616
-ImageFrames: 159
-ImageFrame Data Size: 10812
-Asset bundle 0 (Core project asset bundle) Original size 232456 Crunched size 232456
+Animations Count: 59
+Animations Data Size: 944
+AnimationFrame Count: 242
+AnimationFrame Data Size: 3872
+ImageFrames: 160
+ImageFrame Data Size: 10880
+Asset bundle 0 (Core project asset bundle) Original size 235664 Crunched size 235664
 Asset bundle 1 (level_01) Original size 133952 Crunched size 133952
 Background for map level_01 Original size 2672 Crunched size 2672
 Tile data for map level_01 (mem restrictions:None) Original size 11880 Crunched size 11880
 Header data for map level_01 Original size 8756 Crunched size 8756
-Project Data Original size 24152 Crunched size 24152
+Project Data Original size 24804 Crunched size 24804
 Project Header Original size 4040 Crunched size 4040
 Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
 Panel title_screen Original size 39650 Crunched size 39650
 Panel top_panel Original size 4034 Crunched size 4034
-Project virtual machine (codeblocks) Original size 11946 Crunched size 11946
+Project virtual machine (codeblocks) Original size 12266 Crunched size 12266
 Project virtual machine redirects Original size 4 Crunched size 4
