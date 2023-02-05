@@ -133,8 +133,8 @@
   "DivertOutOfScreenUp": null,
   "DivertOutOfScreenDown": "destroy_actor",
   "DivertPlatformEdge": "00_enemy01_fall",
-  "DivertPlatformLand": null,
-  "DivertTimer": "00_enemy01_land",
+  "DivertPlatformLand": "",
+  "DivertTimer": "",
   "DivertTimerFrames": 1,
   "Vars": [
     "0",

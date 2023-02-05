@@ -43,7 +43,7 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": "00_enemy01_land"
     }
   ],
   "PreventMovement": false,
@@ -53,7 +53,7 @@
   "OnlySprite": false,
   "SpriteType": "Attached_16colors",
   "Multiplexes": 0,
-  "LoopFrame": 0,
+  "LoopFrame": 2,
   "LinkedMap": null,
   "OnFinish": null,
   "AutoFlip": true
