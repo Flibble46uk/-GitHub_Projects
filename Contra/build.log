@@ -158,12 +158,12 @@ Map header cache memory: 0
 Map data memory: 11880
 Map background memory: 2672
 EXE memory: 199580
-vm memory: 11570
+vm memory: 11634
 project memory: 24804
 
 Accounted memory chip: 510736
-Accounted memory other: 250506
-Accounted memory total: 761242
+Accounted memory other: 250570
+Accounted memory total: 761306
 
 === Misc ===
 Maps and Asset Bundles Count: 2
@@ -194,5 +194,5 @@ Project Header Original size 4040 Crunched size 4040
 Panel scorpion_eng_splashscreen Original size 36186 Crunched size 3280
 Panel title_screen Original size 38746 Crunched size 38746
 Panel top_panel Original size 3130 Crunched size 3130
-Project virtual machine (codeblocks) Original size 11570 Crunched size 11570
+Project virtual machine (codeblocks) Original size 11634 Crunched size 11634
 Project virtual machine redirects Original size 4 Crunched size 4
