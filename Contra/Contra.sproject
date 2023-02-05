@@ -48,7 +48,7 @@
       "SpriteMode": "Mode_2_64_Wide",
       "Uses24BitColor": true,
       "SpriteColorBank": 6,
-      "SScan2": false,
+      "SScan2": true,
       "FMode": 1,
       "Width": 224,
       "XOffset": 32,
@@ -76,14 +76,14 @@
     "XOffset": 32,
     "FMode": 1,
     "Width": 224,
-    "SScan2": false,
+    "SScan2": true,
     "MapCache": false,
     "DoubleCopper": false,
     "AllocateMemoryUpfront": true,
     "Implode": false,
     "MemorySaver": "None",
     "FolderPath": "D:\\!ScorpionProjects\\Contra\\",
-    "IsDirty": false,
-    "DirtyDelay": 0.0
+    "IsDirty": true,
+    "DirtyDelay": 0.36013034
   }
 }
