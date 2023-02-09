@@ -15,12 +15,12 @@ Map header cache memory: 0
 Map data memory: 2340
 Map background memory: 2672
 EXE memory: 199964
-vm memory: 5972
+vm memory: 6024
 project memory: 2020
 
 Accounted memory chip: 230042
-Accounted memory other: 212968
-Accounted memory total: 443010
+Accounted memory other: 213020
+Accounted memory total: 443062
 
 === Misc ===
 Maps and Asset Bundles Count: 2
@@ -41,15 +41,15 @@ AnimationFrame Count: 3
 AnimationFrame Data Size: 48
 ImageFrames: 3
 ImageFrame Data Size: 204
-Asset bundle 0 (Core project asset bundle) Original size 9728 Crunched size 1858
+Asset bundle 0 (Core project asset bundle) Original size 9728 Crunched size 1854
 Asset bundle 1 (title_screen) Original size 32704 Crunched size 11444
 Background for map title_screen Original size 2672 Crunched size 100
 Tile data for map title_screen (mem restrictions:No_Blocks) Original size 2340 Crunched size 582
 Header data for map title_screen Original size 8756 Crunched size 278
-Project Data Original size 2020 Crunched size 192
+Project Data Original size 2020 Crunched size 200
 Project Header Original size 4040 Crunched size 1188
 Panel scorpion_eng_splashscreen Original size 36186 Crunched size 3280
-Project virtual machine (codeblocks) Original size 5972 Crunched size 1814
+Project virtual machine (codeblocks) Original size 6024 Crunched size 1828
 Project virtual machine redirects Original size 4 Crunched size 4
 
 Codeblocks by compiled size: 
@@ -91,6 +91,7 @@ destroy_actor: 54
 fadein: 52
 regenerate_screen: 52
 return: 52
+00_scroll_bg_left: 52
 destroy_block: 48
 regenerate_screen_wait: 42
 debug_dump: 30

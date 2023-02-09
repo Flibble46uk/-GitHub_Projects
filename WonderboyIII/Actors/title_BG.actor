@@ -134,14 +134,14 @@
   "DivertOutOfScreenDown": null,
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
-  "DivertTimer": null,
-  "DivertTimerFrames": 0,
+  "DivertTimer": "00_scroll_bg_left",
+  "DivertTimerFrames": 2,
   "Vars": [
     "0",
     "0",
     "0",
     "0",
-    "64",
+    "56",
     "0"
   ],
   "ControlPort": 0,

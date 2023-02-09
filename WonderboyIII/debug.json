@@ -4731,9 +4731,21 @@
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
-      "CodeBlock": "startup",
+      "CodeBlock": "00_scroll_bg_left",
       "CodeBlockLine": 0,
       "MemoryOffset": 5536,
+      "Description": "00_SCROLL_BG_LEFT"
+    },
+    {
+      "CodeBlock": "00_scroll_bg_left",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 5536,
+      "Description": "Set 'actor_var4' to 'actor_var4-1'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 5588,
       "Description": "STARTUP"
     }
   ],
