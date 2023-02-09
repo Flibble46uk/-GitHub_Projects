@@ -4696,32 +4696,44 @@
     },
     {
       "CodeBlock": "!!startup",
-      "CodeBlockLine": 2,
+      "CodeBlockLine": 1,
       "MemoryOffset": 5434,
-      "Description": "If 'actor_type' NotZero '0' ELSE GOTO 00005474"
+      "Description": "Set 'backgroundspritepairs' to '4'"
+    },
+    {
+      "CodeBlock": "!!startup",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 5440,
+      "Description": "Core operation'RefreshCopper'"
     },
     {
       "CodeBlock": "!!startup",
       "CodeBlockLine": 2,
-      "MemoryOffset": 5454,
+      "MemoryOffset": 5444,
+      "Description": "If 'actor_type' NotZero '0' ELSE GOTO 00005484"
+    },
+    {
+      "CodeBlock": "!!startup",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 5464,
       "Description": "Yield on  timer to  next line"
     },
     {
       "CodeBlock": "!!startup",
       "CodeBlockLine": 2,
-      "MemoryOffset": 5474,
+      "MemoryOffset": 5484,
       "Description": "Set 'newvalue' to 'title_screen'"
     },
     {
       "CodeBlock": "!!startup",
       "CodeBlockLine": 2,
-      "MemoryOffset": 5480,
+      "MemoryOffset": 5490,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 5526,
+      "MemoryOffset": 5536,
       "Description": "STARTUP"
     }
   ],

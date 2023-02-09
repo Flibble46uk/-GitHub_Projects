@@ -3,7 +3,7 @@
   "ClassType": "DefaultClass",
   "DefaultLookDir": "left",
   "Recycle": "Default",
-  "MoveType": "none",
+  "MoveType": "cpu_parallaxlock",
   "MaxEntities": 0,
   "NudgeX": 0,
   "NudgeY": 0,
@@ -141,12 +141,12 @@
     "0",
     "0",
     "0",
-    "0",
+    "64",
     "0"
   ],
   "ControlPort": 0,
   "DataVersion": 1,
   "TileID": 0,
-  "SuggestedRecycle": "Always",
+  "SuggestedRecycle": "Never",
   "UpAccelerationName": "Accel Up"
 }
