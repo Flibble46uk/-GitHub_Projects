@@ -55,6 +55,6 @@
   "Multiplexes": 0,
   "LoopFrame": 2,
   "LinkedMap": null,
-  "OnFinish": null,
+  "OnFinish": "",
   "AutoFlip": true
 }
