@@ -157,13 +157,13 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 11880
 Map background memory: 2672
-EXE memory: 199968
+EXE memory: 200120
 vm memory: 11606
 project memory: 24700
 
 Accounted memory chip: 510736
-Accounted memory other: 250826
-Accounted memory total: 761562
+Accounted memory other: 250978
+Accounted memory total: 761714
 
 === Misc ===
 Maps and Asset Bundles Count: 2
