@@ -1,0 +1,150 @@
+{
+  "Frames": [
+    {
+      "Path": "01_Turrest_Rock_01x00.png",
+      "Duration": 5,
+      "HandleX": 0,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "01_Turrest_Rock_02x00.png",
+      "Duration": 5,
+      "HandleX": 0,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "01_Turrest_Rock_03x00.png",
+      "Duration": 5,
+      "HandleX": 0,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "01_Turrest_Rock_04x00.png",
+      "Duration": 5,
+      "HandleX": 0,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "01_Turrest_Rock_05x00.png",
+      "Duration": 5,
+      "HandleX": 0,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "01_Turrest_Rock_06x00.png",
+      "Duration": 5,
+      "HandleX": 0,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "01_Turrest_Rock_07x00.png",
+      "Duration": 5,
+      "HandleX": 0,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "01_Turrest_Rock_08x00.png",
+      "Duration": 5,
+      "HandleX": 0,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "01_Turrest_Rock_09x00.png",
+      "Duration": 5,
+      "HandleX": 0,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": "00_update_off"
+    }
+  ],
+  "PreventMovement": true,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "SpriteType": "Attached_16colors",
+  "Multiplexes": 0,
+  "LoopFrame": 8,
+  "LinkedMap": null,
+  "OnFinish": null,
+  "AutoFlip": false
+}

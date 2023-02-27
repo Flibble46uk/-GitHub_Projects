@@ -1,0 +1,240 @@
+{
+  "Frames": [
+    {
+      "Path": "00_Explsion_02_00x00.png",
+      "Duration": 5,
+      "HandleX": -1,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "00_Explsion_02_01x00.png",
+      "Duration": 5,
+      "HandleX": -6,
+      "HandleY": -5,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "00_Explsion_02_02x00.png",
+      "Duration": 5,
+      "HandleX": -10,
+      "HandleY": -11,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "00_Explsion_02_03x00.png",
+      "Duration": 5,
+      "HandleX": -14,
+      "HandleY": -15,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "00_Explsion_02_04x00.png",
+      "Duration": 5,
+      "HandleX": -14,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "00_Explsion_02_03x00.png",
+      "Duration": 5,
+      "HandleX": -14,
+      "HandleY": -15,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "00_Explsion_02_02x00.png",
+      "Duration": 5,
+      "HandleX": -10,
+      "HandleY": -11,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "00_Explsion_02_01x00.png",
+      "Duration": 5,
+      "HandleX": -6,
+      "HandleY": -5,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "00_Explsion_02_02x00.png",
+      "Duration": 5,
+      "HandleX": -10,
+      "HandleY": -11,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "00_Explsion_02_03x00.png",
+      "Duration": 5,
+      "HandleX": -14,
+      "HandleY": -15,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "00_Explsion_02_04x00.png",
+      "Duration": 5,
+      "HandleX": -14,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "00_Explsion_02_03x00.png",
+      "Duration": 5,
+      "HandleX": -14,
+      "HandleY": -15,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "00_Explsion_02_02x00.png",
+      "Duration": 5,
+      "HandleX": -10,
+      "HandleY": -11,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "00_Explsion_02_01x00.png",
+      "Duration": 5,
+      "HandleX": -6,
+      "HandleY": -5,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "00_Explsion_02_00x00.png",
+      "Duration": 5,
+      "HandleX": -1,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": ""
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "SpriteType": "Attached_16colors",
+  "Multiplexes": 0,
+  "LoopFrame": 0,
+  "LinkedMap": null,
+  "OnFinish": null,
+  "AutoFlip": false
+}

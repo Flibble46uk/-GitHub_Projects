@@ -1,7 +1,5 @@
 {
   "Divert_PlayerProjectileCollision": null,
-  "IsPlatform": true,
-  "IsSolid": false,
   "BlockImagePath": "Blocks\\Platform_block.png",
   "X": 0,
   "Y": 0,
@@ -10,12 +8,14 @@
   "Divert_PlayerOverlap": null,
   "Divert_ProjectileCollision": null,
   "OnAnimationFrame": null,
-  "ShootOver": true,
   "FastBlit": false,
   "IsInvisible": true,
-  "IsSlope": false,
   "ReplaceTileProperties": true,
   "LinkedMap": null,
-  "TileID": 0,
-  "ImagePath": "D:\\!ScorpionProjects\\Contra\\\\Blocks\\Platform_block.png"
+  "BlockSolidType": "Platform",
+  "IsPlatform": false,
+  "IsSolid": false,
+  "ShootOver": false,
+  "IsSlope": false,
+  "TileID": 0
 }

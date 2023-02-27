@@ -1,0 +1,60 @@
+{
+  "Frames": [
+    {
+      "Path": "01_Enemy_01_06x00.png",
+      "Duration": 20,
+      "HandleX": -18,
+      "HandleY": -37,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "01_Enemy_01_07x00.png",
+      "Duration": 20,
+      "HandleX": -24,
+      "HandleY": -35,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "01_Enemy_01_08x00.png",
+      "Duration": 20,
+      "HandleX": -23,
+      "HandleY": -35,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": "00_enemy01_land"
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "SpriteType": "Attached_16colors",
+  "Multiplexes": 0,
+  "LoopFrame": 2,
+  "LinkedMap": null,
+  "OnFinish": "",
+  "AutoFlip": true
+}

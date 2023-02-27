@@ -1,0 +1,288 @@
+=== Image optimisations ===
+Reduce width of Anims\00_Explosion_02\00_Explsion_02_02x00.png by 5 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Explosion_02\00_Explsion_02_03x00.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Explosion_02\00_Explsion_02_04x00.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Explosion_02\00_Explsion_02_03x00.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Explosion_02\00_Explsion_02_02x00.png by 5 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Explosion_02\00_Explsion_02_02x00.png by 5 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Explosion_02\00_Explsion_02_03x00.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Explosion_02\00_Explsion_02_04x00.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Explosion_02\00_Explsion_02_03x00.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Explosion_02\00_Explsion_02_02x00.png by 5 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Flame\00_Explsion_02_02x00.png by 5 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Flame\00_Explsion_02_03x00.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Flame\00_Explsion_02_04x00.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Flame\00_Explsion_02_03x00.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Flame\00_Explsion_02_02x00.png by 5 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Flame\00_Explsion_02_02x00.png by 5 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Flame\00_Explsion_02_03x00.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Flame\00_Explsion_02_04x00.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Flame\00_Explsion_02_03x00.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_Flame\00_Explsion_02_02x00.png by 5 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_WeaponsPod_02\Weapons_Pod_02_00x00.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\00_WeaponsPod_02\Weapons_Pod_02_01x00.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Enemy_01\01_Enemy_01_death_00x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Enemy_01\01_Enemy_01_death_01x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Enemy_01\01_Enemy_01_death_02x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Enemy_01\01_Enemy_01_death_03x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Enemy_01\01_Enemy_01_death_04x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Enemy_01\01_Enemy_01_death_00x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Enemy_01\01_Enemy_01_death_01x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Enemy_01\01_Enemy_01_death_02x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Enemy_01\01_Enemy_01_death_03x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Enemy_01\01_Enemy_01_death_04x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Enemy_01\01_Enemy_01_06x00.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Enemy_01\01_Enemy_01_07x00.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Enemy_01\01_Enemy_01_08x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Enemy_01\01_Enemy_01_06x00.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Enemy_01\01_Enemy_01_07x00.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Enemy_01\01_Enemy_01_08x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Enemy_01\01_Enemy_01_00x00.png by 9 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Enemy_01\01_Enemy_01_01x00.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Enemy_01\01_Enemy_01_03x00.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Enemy_01\01_Enemy_01_00x00.png by 9 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Enemy_01\01_Enemy_01_01x00.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Enemy_01\01_Enemy_01_03x00.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Reactor\01_Reactor.png by 13 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anims\01_Turret_Rock\01_Turrest_Rock_00x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Turret_Rock\01_Turrest_Rock_01x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Turret_Rock\01_Turrest_Rock_02x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Turret_Rock\01_Turrest_Rock_03x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Turret_Rock\01_Turrest_Rock_04x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Turret_Rock\01_Turrest_Rock_05x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Turret_Rock\01_Turrest_Rock_06x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Turret_Rock\01_Turrest_Rock_07x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Turret_Rock\01_Turrest_Rock_08x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\01_Turret_Rock\01_Turrest_Rock_09x00.png by 7 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_00x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_01x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_02x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_03x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_05x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_00x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_01x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_02x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_03x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_05x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_00x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_01x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_02x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_03x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_05x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_00x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_01x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_02x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_03x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideJump\01_player_side_jump_05x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideLegsRun\Player_side_run_00x00.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideLegsRun\Player_side_run_01x00.png by 3 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideLegsRun\Player_side_run_02x00.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideLegsRun\Player_side_run_04x00.png by 1 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideLegsRun\Player_side_run_05x00.png by 7 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideLegsRun\Player_side_run_00x00.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideLegsRun\Player_side_run_01x00.png by 3 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideLegsRun\Player_side_run_02x00.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideLegsRun\Player_side_run_04x00.png by 1 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideLegsRun\Player_side_run_05x00.png by 7 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_Fire_00x03.png by 9 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_Fire_01x03.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_Fire_00x03.png by 9 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_Fire_00x03.png by 9 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_Fire_01x03.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_Fire_00x03.png by 9 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_Fire_00x00.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_Fire_01x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_Fire_00x00.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_Fire_00x00.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_Fire_01x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_Fire_00x00.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_Fire_00x01.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_Fire_01x01.png by 5 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_Fire_00x01.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_Fire_00x01.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_Fire_01x01.png by 5 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_Fire_00x01.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_Fire_00x02.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_Fire_01x02.png by 7 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_Fire_00x02.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_Fire_00x02.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_Fire_01x02.png by 7 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_Fire_00x02.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_02x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_01x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_02x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_01x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_02x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_01x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_02x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_01x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_02x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_01x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_02x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_02x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_01x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_02x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_01x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_02x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_01x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_02x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_01x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_02x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_01x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_02x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_00x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_01x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_02x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_03x00.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_04x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_05x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_00x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_01x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_02x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_03x00.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_04x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anims\PlayerSideTorsoShotgun\01_Shotgun_05x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (level gfx bundle 1 ): 133728
+Music memory: 0
+BP Buffer memory: 141120
+core sfx/gfx memory: 226536
+Parallax memory: 0
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 11892
+Map background memory: 2672
+EXE memory: 199680
+vm memory: 11704
+project memory: 17596
+
+Accounted memory chip: 501384
+Accounted memory other: 243544
+Accounted memory total: 744928
+
+=== Misc ===
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 24
+Actor Count: 26
+Actor Data Size: 5408
+Block Count: 6
+Block Data Size: 312
+Anim5 Count: 0
+Anim5 Data Size: 0
+Sound Count: 1
+Sound Data Size: 32
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 59
+Animations Data Size: 944
+AnimationFrame Count: 242
+AnimationFrame Data Size: 3872
+ImageFrames: 151
+ImageFrame Data Size: 6644
+Sprites: 2
+Sprites Data Size: 28
+Attack Data: 4
+Attack Data Size: 264
+Misc data size: 58
+Asset bundle 0 (Core project asset bundle) Original size 226536 Crunched size 226536
+Asset bundle 1 (level_01) Original size 133728 Crunched size 133728
+Background for map level_01 Original size 2672 Crunched size 2672
+Tile data for map level_01 (mem restrictions:None) Original size 11892 Crunched size 11892
+Header data for map level_01 Original size 7992 Crunched size 7992
+Project Data Original size 17596 Crunched size 17596
+Project Header Original size 4040 Crunched size 4040
+Panel scorpion_eng_splashscreen Original size 35930 Crunched size 3266
+Panel title_screen Original size 38490 Crunched size 38490
+Panel top_panel Original size 2874 Crunched size 2874
+Project virtual machine (codeblocks) Original size 11704 Crunched size 11704
+Project virtual machine redirects Original size 4 Crunched size 4
+
+Codeblocks by compiled size: 
+
+load_level: 988
+01_end_level: 986
+!!_startup: 726
+01_handler_bridge_1: 702
+01_handler_weap_pod_2: 374
+do_teleport: 362
+flipscreen_smooth: 346
+flipxymove: 306
+01_handler_turret_ground_1: 260
+00_colour_cycle: 236
+01_handler_weap_pod_1: 222
+set_yresolution: 200
+snap_to_screen: 190
+00_dstry_w_explsn_01: 190
+00_dstry_w_explsn_02: 190
+pre_startup: 188
+00_dstry_ground_turret: 188
+flipymove: 174
+pre_quit: 166
+flipxmove: 158
+01_handler_reactor: 148
+load_panel: 146
+00_colour_cycle2: 142
+destroy_all_blocks: 124
+unload_level: 114
+00_handler_level: 98
+load_panel_bottom: 96
+load_panel_top: 96
+waitforfirehit: 96
+unload_panel: 92
+wrap_screen_bottom: 92
+wrap_screen_right: 92
+wrap_screen_left: 88
+wrap_screen_top: 88
+00_handler_bg: 88
+flipscreen: 86
+pre_anim5: 86
+00_setcamera: 86
+fadeout: 84
+00_leave_screen: 84
+00_enemy01_death: 82
+waitforframes: 78
+00_player_fall: 78
+01_handler_turret_rock: 72
+00_event_delay_rnd: 70
+quit: 66
+00_enemy01_land: 64
+destroy_all_actors: 62
+jump_actor: 62
+load_music: 62
+unload_panel_bottom: 62
+unload_panel_top: 62
+!!flame_test: 58
+load_panel_finish: 56
+destroy_actor: 54
+00_handler_player: 54
+00_move_all: 54
+fadein: 52
+regenerate_screen: 52
+return: 52
+00_increase_var1: 52
+destroy_block: 48
+regenerate_screen_wait: 42
+00_actor_hide: 42
+00_enemy01_fall: 42
+00_invisble_off: 42
+00_invisble_on: 42
+00_spawn_torso: 42
+00_update_off: 42
+00_update_on: 42
+00_move_camera_r: 38
+00_follow_start: 36
+00_follow_stop: 36
+debug_dump: 30
+vm_registers: 26
+vm_constants: 26
+vm_registers_amiga: 26
+debug_breakpoint: 26
+vm_constants_notes: 26
+vm_constants_tile_properties: 26
+00_donothing: 26
+startup: 26

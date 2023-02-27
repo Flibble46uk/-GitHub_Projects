@@ -1,9 +1,9 @@
 {
   "ShootDirType": "actor_direction",
-  "ClassType": "Platform",
+  "ClassType": "DefaultClass",
   "DefaultLookDir": "left",
   "Recycle": "Default",
-  "MoveType": "none",
+  "MoveType": "cpu",
   "MaxEntities": 0,
   "NudgeX": 0,
   "NudgeY": -8,
@@ -95,7 +95,7 @@
   ],
   "CollBox": {
     "X": 0,
-    "Y": 6,
+    "Y": 8,
     "Width": 32,
     "Height": 18
   },
@@ -116,7 +116,10 @@
   "CollType_Right": "block",
   "CollType_Up": "block",
   "CollType_Down": "block",
-  "Flags": 0,
+  "Player": null,
+  "Camera": null,
+  "AutoScroll": null,
+  "Flags": "rideablePlatform",
   "AttackProjectile": null,
   "AutoFire": false,
   "AttackProjectileAmmoVariable": null,
@@ -145,7 +148,7 @@
     "0"
   ],
   "ControlPort": 0,
-  "DataVersion": 1,
+  "DataVersion": 3,
   "TileID": 16,
   "SuggestedRecycle": "Always",
   "UpAccelerationName": "Accel Up"
