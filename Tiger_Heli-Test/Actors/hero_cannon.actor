@@ -1,6 +1,6 @@
 {
   "ShootDirType": "actor_direction",
-  "ClassType": "Projectile",
+  "ClassType": "DefaultClass",
   "DefaultLookDir": "up",
   "Recycle": "Default",
   "MoveType": "cpu",
@@ -116,7 +116,10 @@
   "CollType_Right": "destroy",
   "CollType_Up": "destroy",
   "CollType_Down": "destroy",
-  "Flags": 0,
+  "Player": null,
+  "Camera": null,
+  "AutoScroll": null,
+  "Flags": "projectile",
   "AttackProjectile": null,
   "AutoFire": false,
   "AttackProjectileAmmoVariable": null,
@@ -145,7 +148,7 @@
     "0"
   ],
   "ControlPort": 0,
-  "DataVersion": 1,
+  "DataVersion": 3,
   "TileID": -1,
   "SuggestedRecycle": "Trash",
   "UpAccelerationName": "Accel Up"

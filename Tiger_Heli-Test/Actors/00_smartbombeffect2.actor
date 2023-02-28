@@ -1,9 +1,9 @@
 {
   "ShootDirType": "actor_direction",
-  "ClassType": "Projectile",
+  "ClassType": "DefaultClass",
   "DefaultLookDir": "right",
   "Recycle": "Trash",
-  "MoveType": "none",
+  "MoveType": "cpu",
   "MaxEntities": 0,
   "NudgeX": 0,
   "NudgeY": 1,
@@ -116,7 +116,10 @@
   "CollType_Right": "none",
   "CollType_Up": "none",
   "CollType_Down": "none",
-  "Flags": "canUseParentAnim",
+  "Player": null,
+  "Camera": null,
+  "AutoScroll": null,
+  "Flags": "canUseParentAnim, projectile",
   "AttackProjectile": null,
   "AutoFire": false,
   "AttackProjectileAmmoVariable": null,
@@ -145,8 +148,8 @@
     "0"
   ],
   "ControlPort": 0,
-  "DataVersion": 1,
-  "TileID": 34,
+  "DataVersion": 3,
+  "TileID": -1,
   "SuggestedRecycle": "Trash",
   "UpAccelerationName": "Accel Up"
 }

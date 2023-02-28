@@ -3,7 +3,7 @@
   "ClassType": "DefaultClass",
   "DefaultLookDir": "right",
   "Recycle": "Never",
-  "MoveType": "none",
+  "MoveType": "cpu",
   "MaxEntities": 0,
   "NudgeX": -1,
   "NudgeY": -1,
@@ -116,6 +116,9 @@
   "CollType_Right": "none",
   "CollType_Up": "none",
   "CollType_Down": "none",
+  "Player": null,
+  "Camera": null,
+  "AutoScroll": null,
   "Flags": 0,
   "AttackProjectile": null,
   "AutoFire": false,
@@ -145,7 +148,7 @@
     "0"
   ],
   "ControlPort": 0,
-  "DataVersion": 1,
+  "DataVersion": 3,
   "TileID": -1,
   "SuggestedRecycle": "Never",
   "UpAccelerationName": "Accel Up"

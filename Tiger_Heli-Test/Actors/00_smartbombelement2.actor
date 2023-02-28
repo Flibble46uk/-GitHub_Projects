@@ -116,6 +116,9 @@
   "CollType_Right": "none",
   "CollType_Up": "none",
   "CollType_Down": "none",
+  "Player": null,
+  "Camera": null,
+  "AutoScroll": null,
   "Flags": "canUseParentAnim",
   "AttackProjectile": null,
   "AutoFire": false,
@@ -145,8 +148,8 @@
     "Bombelement"
   ],
   "ControlPort": 0,
-  "DataVersion": 1,
-  "TileID": 35,
+  "DataVersion": 3,
+  "TileID": -1,
   "SuggestedRecycle": "Never",
   "UpAccelerationName": "Accel Up"
 }

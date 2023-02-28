@@ -2,7 +2,7 @@
   "TargetPlatform": "amiga_aga",
   "Talkpad": null,
   "Talkpad_OnBottom": false,
-  "StartupCodeBlock": "00_startup",
+  "StartupCodeBlock": "!!_startup",
   "Recompile": true,
   "DebugMode": false,
   "StartupSequenceDirty": false,
@@ -70,7 +70,7 @@
       "XOffset": 32,
       "XFillSize": 18,
       "YFillSize": 20,
-      "Implode": true,
+      "Implode": false,
       "MapCache": false,
       "DoubleCopper": true,
       "AllocateMemoryUpfront": true,
@@ -96,10 +96,10 @@
     "MapCache": false,
     "DoubleCopper": true,
     "AllocateMemoryUpfront": true,
-    "Implode": true,
+    "Implode": false,
     "MemorySaver": "None",
     "FolderPath": "D:\\!ScorpionProjects\\Tiger_Heli-Test\\",
-    "IsDirty": true,
-    "DirtyDelay": 0.0198868476
+    "IsDirty": false,
+    "DirtyDelay": 0.0
   }
 }

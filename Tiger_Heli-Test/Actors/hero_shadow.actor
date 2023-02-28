@@ -116,6 +116,9 @@
   "CollType_Right": "none",
   "CollType_Up": "none",
   "CollType_Down": "none",
+  "Player": null,
+  "Camera": null,
+  "AutoScroll": null,
   "Flags": 0,
   "AttackProjectile": null,
   "AutoFire": false,
@@ -123,7 +126,7 @@
   "AttackSound": null,
   "JumpSound": null,
   "DivertAttack": null,
-  "DivertSpawn": "00_actorblink",
+  "DivertSpawn": "",
   "DivertPlayerCollision": null,
   "DivertPlayerHit": null,
   "DivertHitAgainstPlayer": null,
@@ -145,7 +148,7 @@
     "0"
   ],
   "ControlPort": 0,
-  "DataVersion": 1,
+  "DataVersion": 3,
   "TileID": -1,
   "SuggestedRecycle": "Always",
   "UpAccelerationName": "Accel Up"

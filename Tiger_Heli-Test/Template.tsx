@@ -145,12 +145,7 @@
   </tile>
   <tile id="34">
     <properties>
-      <property name="Name" value="00_smartbombeffect2" type="string" />
-    </properties>
-  </tile>
-  <tile id="35">
-    <properties>
-      <property name="Name" value="00_smartbombelement2" type="string" />
+      <property name="Name" value="!!scorplogo" type="string" />
     </properties>
   </tile>
 </tileset>

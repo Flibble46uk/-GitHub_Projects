@@ -21,7 +21,7 @@
   "HideChildren": false,
   "AutoSprite": false,
   "OnlySprite": false,
-  "SpriteType": "Attached_16colors",
+  "SpriteType": "Channel_8_to_1",
   "Multiplexes": 0,
   "LoopFrame": 0,
   "LinkedMap": null,

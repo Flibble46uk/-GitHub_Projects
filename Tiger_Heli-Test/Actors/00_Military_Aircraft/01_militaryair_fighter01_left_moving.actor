@@ -105,7 +105,7 @@
   "SpeedRight": 0.0,
   "SpeedUp": 0.0,
   "SpeedDown": 0.0,
-  "AccelLeft": 1.0,
+  "AccelLeft": null,
   "AccelRight": null,
   "AccelUp": null,
   "AccelDown": null,
@@ -116,6 +116,9 @@
   "CollType_Right": "block",
   "CollType_Up": "block",
   "CollType_Down": "block",
+  "Player": null,
+  "Camera": null,
+  "AutoScroll": null,
   "Flags": 0,
   "AttackProjectile": null,
   "AutoFire": false,
@@ -145,7 +148,7 @@
     "0"
   ],
   "ControlPort": 0,
-  "DataVersion": 1,
+  "DataVersion": 3,
   "TileID": 23,
   "SuggestedRecycle": "Always",
   "UpAccelerationName": "Accel Up"

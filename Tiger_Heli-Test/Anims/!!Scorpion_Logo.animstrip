@@ -1,25 +1,10 @@
 {
   "Frames": [
     {
-      "Path": "Bombeffect_00x00.png",
-      "Duration": 7,
-      "HandleX": -8,
-      "HandleY": -8,
-      "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null
-    },
-    {
-      "Path": "Bombeffect_00x01.png",
-      "Duration": 7,
-      "HandleX": -8,
-      "HandleY": -8,
+      "Path": "Scorpion_White_32.png",
+      "Duration": 5,
+      "HandleX": 0,
+      "HandleY": 0,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
