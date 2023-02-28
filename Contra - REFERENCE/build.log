@@ -158,12 +158,12 @@ Map header cache memory: 0
 Map data memory: 11892
 Map background memory: 2672
 EXE memory: 199680
-vm memory: 11826
+vm memory: 11704
 project memory: 17596
 
 Accounted memory chip: 501384
-Accounted memory other: 243666
-Accounted memory total: 745050
+Accounted memory other: 243544
+Accounted memory total: 744928
 
 === Misc ===
 Maps and Asset Bundles Count: 2
@@ -199,7 +199,7 @@ Project Header Original size 4040 Crunched size 4040
 Panel scorpion_eng_splashscreen Original size 35930 Crunched size 3266
 Panel title_screen Original size 38490 Crunched size 38490
 Panel top_panel Original size 2874 Crunched size 2874
-Project virtual machine (codeblocks) Original size 11826 Crunched size 11826
+Project virtual machine (codeblocks) Original size 11704 Crunched size 11704
 Project virtual machine redirects Original size 4 Crunched size 4
 
 Codeblocks by compiled size: 
@@ -249,7 +249,6 @@ waitforframes: 78
 00_player_fall: 78
 01_handler_turret_rock: 72
 00_event_delay_rnd: 70
-01_handler_bg_parallax: 68
 quit: 66
 00_enemy01_land: 64
 destroy_all_actors: 62
@@ -260,7 +259,6 @@ unload_panel_top: 62
 !!flame_test: 58
 load_panel_finish: 56
 destroy_actor: 54
-00_dstry_parallax: 54
 00_handler_player: 54
 00_move_all: 54
 fadein: 52

@@ -2,7 +2,7 @@
   "ShootDirType": "actor_direction",
   "ClassType": "DefaultClass",
   "DefaultLookDir": "left",
-  "Recycle": "Default",
+  "Recycle": "Trash",
   "MoveType": "cpu",
   "MaxEntities": 0,
   "NudgeX": 0,
@@ -11,8 +11,8 @@
     "UpLeft": null,
     "Up": null,
     "UpRight": null,
-    "Left": "01_bridge_intact_sct4",
-    "Right": "01_bridge_intact_sct4_exp",
+    "Left": "01_bridge_dest_sct4",
+    "Right": null,
     "DownLeft": null,
     "Down": null,
     "DownRight": null
@@ -95,9 +95,9 @@
   ],
   "CollBox": {
     "X": 0,
-    "Y": 8,
+    "Y": 7,
     "Width": 32,
-    "Height": 18
+    "Height": 16
   },
   "AttackDelay": 0,
   "ZOrder": 0,
@@ -119,7 +119,7 @@
   "Player": null,
   "Camera": null,
   "AutoScroll": null,
-  "Flags": "rideablePlatform",
+  "Flags": 0,
   "AttackProjectile": null,
   "AutoFire": false,
   "AttackProjectileAmmoVariable": null,
@@ -137,8 +137,8 @@
   "DivertOutOfScreenDown": null,
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
-  "DivertTimer": "01_handler_bridge_1",
-  "DivertTimerFrames": 2,
+  "DivertTimer": null,
+  "DivertTimerFrames": 0,
   "Vars": [
     "0",
     "0",
@@ -149,7 +149,7 @@
   ],
   "ControlPort": 0,
   "DataVersion": 3,
-  "TileID": 19,
-  "SuggestedRecycle": "Always",
+  "TileID": -1,
+  "SuggestedRecycle": "Trash",
   "UpAccelerationName": "Accel Up"
 }

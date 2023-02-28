@@ -12,7 +12,7 @@
   "IsInvisible": true,
   "ReplaceTileProperties": true,
   "LinkedMap": null,
-  "BlockSolidType": "PlatformDropThrough",
+  "BlockSolidType": "Platform",
   "IsPlatform": false,
   "IsSolid": false,
   "ShootOver": false,

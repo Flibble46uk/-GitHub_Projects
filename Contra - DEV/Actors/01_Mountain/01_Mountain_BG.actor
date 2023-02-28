@@ -137,8 +137,8 @@
   "DivertOutOfScreenDown": null,
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
-  "DivertTimer": null,
-  "DivertTimerFrames": 0,
+  "DivertTimer": "01_handler_bg_parallax",
+  "DivertTimerFrames": 1,
   "Vars": [
     "0",
     "0",

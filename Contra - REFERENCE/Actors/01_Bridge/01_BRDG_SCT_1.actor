@@ -11,8 +11,8 @@
     "UpLeft": null,
     "Up": null,
     "UpRight": null,
-    "Left": "01_bridge_intact_sct2",
-    "Right": "01_bridge_intact_sct2_exp",
+    "Left": "01_bridge_intact_sct1",
+    "Right": "01_bridge_intact_sct1_exp",
     "DownLeft": null,
     "Down": null,
     "DownRight": null
@@ -95,7 +95,7 @@
   ],
   "CollBox": {
     "X": 0,
-    "Y": 8,
+    "Y": 6,
     "Width": 32,
     "Height": 18
   },
@@ -149,7 +149,7 @@
   ],
   "ControlPort": 0,
   "DataVersion": 3,
-  "TileID": 18,
+  "TileID": 16,
   "SuggestedRecycle": "Always",
   "UpAccelerationName": "Accel Up"
 }

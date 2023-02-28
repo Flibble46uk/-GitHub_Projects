@@ -11,7 +11,7 @@
     "UpLeft": null,
     "Up": null,
     "UpRight": null,
-    "Left": "01_bridge_dest_sct4",
+    "Left": "01_bridge_dest_sct1",
     "Right": null,
     "DownLeft": null,
     "Down": null,
@@ -95,7 +95,7 @@
   ],
   "CollBox": {
     "X": 0,
-    "Y": 8,
+    "Y": 7,
     "Width": 32,
     "Height": 16
   },
