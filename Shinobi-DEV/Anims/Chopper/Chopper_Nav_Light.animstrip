@@ -1,0 +1,49 @@
+{
+  "Frames": [
+    {
+      "Path": "Chopper_nav_00x00.png",
+      "Duration": 10,
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
+    },
+    {
+      "Path": "Chopper_nav_01x00.png",
+      "Duration": 10,
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
+    }
+  ],
+  "PreventMovement": true,
+  "PreventCollision": true,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "LinkedMap": null,
+  "OnFinish": null,
+  "AutoFlip": false
+}

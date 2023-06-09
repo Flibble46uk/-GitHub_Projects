@@ -1,0 +1,125 @@
+{
+  "Frames": [
+    {
+      "Path": "M1_S1_BG.png",
+      "Duration": 5,
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "OnlySprite"
+    },
+    {
+      "Path": "M1_S1_BG_Building_1.png",
+      "Duration": 5,
+      "HandleX": -64,
+      "HandleY": -112,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "OnlySprite"
+    },
+    {
+      "Path": "M1_S1_BG_Building_2.png",
+      "Duration": 5,
+      "HandleX": -32,
+      "HandleY": -112,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "OnlySprite"
+    },
+    {
+      "Path": "M1_S1_BG_Building_1_00x00.png",
+      "Duration": 5,
+      "HandleX": -32,
+      "HandleY": -112,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "OnlySprite"
+    },
+    {
+      "Path": "M1_S1_BG_Building_1_01x00.png",
+      "Duration": 5,
+      "HandleX": -32,
+      "HandleY": -112,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "OnlySprite"
+    },
+    {
+      "Path": "M1_S1_BG_Building_1.png",
+      "Duration": 5,
+      "HandleX": -64,
+      "HandleY": -112,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "OnlySprite"
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "LinkedMap": null,
+  "OnFinish": null,
+  "AutoFlip": false
+}

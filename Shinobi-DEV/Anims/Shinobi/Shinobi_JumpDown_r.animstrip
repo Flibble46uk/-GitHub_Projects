@@ -1,0 +1,49 @@
+{
+  "Frames": [
+    {
+      "Path": "Walk_Jump_09x00.png",
+      "Duration": 0,
+      "HandleX": -17,
+      "HandleY": -32,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
+    },
+    {
+      "Path": "Walk_Jump_10x00.png",
+      "Duration": 0,
+      "HandleX": -16,
+      "HandleY": -32,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": "",
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "LoopFrame": 2,
+  "LinkedMap": null,
+  "OnFinish": "",
+  "AutoFlip": true
+}

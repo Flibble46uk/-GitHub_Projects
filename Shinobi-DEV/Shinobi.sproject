@@ -1,0 +1,62 @@
+{
+  "TargetPlatform": "amiga_aga",
+  "Talkpad": null,
+  "Talkpad_OnBottom": false,
+  "StartupCodeBlock": "!start_up",
+  "Recompile": true,
+  "DebugMode": false,
+  "StartupSequenceDirty": false,
+  "Fire1Jump": false,
+  "Fire2Jump": true,
+  "UpJump": false,
+  "JumpOnHold": false,
+  "DataVersion": 3,
+  "Commands": [
+    {
+      "Compiler": "amiga",
+      "Key": "Space",
+      "JoystickPort": -1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": false,
+      "JoystickFire2": false,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "OnPress": "!switch_layers",
+      "OnRelease": null
+    },
+    {
+      "Compiler": "amiga",
+      "Key": "N",
+      "JoystickPort": -1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": false,
+      "JoystickFire2": false,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "OnPress": "00_frame_test",
+      "OnRelease": null
+    }
+  ],
+  "AnimationMetaData": {},
+  "Anim5MetaData": {},
+  "SoundMetaData": {
+    "hostage_rescue": {
+      "LinkedMap": "",
+      "RepeatDelay": 20
+    }
+  },
+  "MMLMetaData": {},
+  "NumberFontMetaData": {},
+  "FontMetaData": {},
+  "SplashScreen": null,
+  "LogicSpeed": "PAL_50HZ",
+  "PaletteLines": 1
+}

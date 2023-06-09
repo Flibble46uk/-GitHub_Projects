@@ -1,0 +1,30 @@
+{
+  "Frames": [
+    {
+      "Path": "Player_bullet.png",
+      "Duration": 1,
+      "HandleX": -8,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": -1,
+        "Y": -2,
+        "Width": 2,
+        "Height": 5
+      },
+      "HasHitBox": false,
+      "OnFrame": "",
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
+    }
+  ],
+  "PreventMovement": true,
+  "PreventCollision": true,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "LinkedMap": null,
+  "OnFinish": null,
+  "AutoFlip": false
+}

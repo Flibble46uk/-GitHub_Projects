@@ -1,0 +1,123 @@
+=== Image optimisations ===
+Reduce width of Anims\OutRun_Logo.png by 48 pixels to 128 to reduce sprites by 2
+
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (level gfx bundle 1): 61936
+Music memory (outrun): 112974
+BP Buffer memory: 128800
+core sfx/gfx memory: 10696
+Parallax memory: 0
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 60708
+Map background memory: 2672
+EXE memory: 203852
+vm memory: 9420
+project memory: 2126
+
+Accounted memory chip: 314406
+Accounted memory other: 278778
+Accounted memory total: 593184
+
+=== Misc ===
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 24
+Actor Count: 6
+Actor Data Size: 1200
+Block Count: 3
+Block Data Size: 156
+Anim5 Count: 0
+Anim5 Data Size: 0
+Sound Count: 1
+Sound Data Size: 24
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 6
+Animations Data Size: 96
+AnimationFrame Count: 8
+AnimationFrame Data Size: 128
+ImageFrames: 8
+ImageFrame Data Size: 352
+Sprites: 2
+Sprites Data Size: 28
+Attack Data: 1
+Attack Data Size: 66
+Misc data size: 30
+Asset bundle 0 (Core project asset bundle) Original size 10696 Crunched size 5366
+Asset bundle 1 (outrun_map) Original size 61936 Crunched size 19206
+Background for map outrun_map Original size 2672 Crunched size 118
+Music file outrun Original size 112974 Crunched size 74590
+Tile data for map outrun_map (mem restrictions:None) Original size 60708 Crunched size 4146
+Header data for map outrun_map Original size 7996 Crunched size 372
+Project Data Original size 2126 Crunched size 482
+Project Header Original size 4032 Crunched size 1196
+Panel scorpion_eng_splashscreen Original size 35948 Crunched size 3280
+Project virtual machine (codeblocks) Original size 9420 Crunched size 2816
+Project virtual machine redirects Original size 4 Crunched size 4
+
+=== Possibly unused Actors ===
+!dummyplayer
+beetle
+
+=== Codeblocks by compiled size ===
+load_level: 1012
+00_colour_beetle: 572
+00_colour_porsche: 572
+00_colour_semitruck: 572
+set_yresolution: 448
+00_navigate: 448
+!startup: 372
+do_teleport: 362
+flipscreen_smooth: 346 (Unused?)
+flipxymove: 306 (Unused?)
+pause: 252 (Unused?)
+pre_startup: 194
+snap_to_screen: 190 (Unused?)
+flipymove: 174 (Unused?)
+flipxmove: 158 (Unused?)
+load_panel: 146
+pre_quit: 146
+destroy_all_blocks: 124 (Unused?)
+00_change_gear: 122
+unload_level: 114
+load_panel_bottom: 96 (Unused?)
+load_panel_top: 96 (Unused?)
+waitforfireup: 94
+unload_panel: 92
+wrap_screen_bottom: 92 (Unused?)
+wrap_screen_right: 92 (Unused?)
+waitforfiredown: 90
+wrap_screen_left: 88 (Unused?)
+wrap_screen_top: 88 (Unused?)
+flipscreen: 86 (Unused?)
+pre_anim5: 86 (Unused?)
+waitforfirehit: 86
+fadeout: 84
+waitforframes: 78
+00_leave_top: 76 (Unused?)
+quit: 66 (Unused?)
+destroy_all_actors: 62 (Unused?)
+jump_actor: 62 (Unused?)
+load_music: 62
+unload_panel_bottom: 62
+unload_panel_top: 62
+fadein: 58
+load_panel_finish: 56
+destroy_actor: 54
+regenerate_screen: 52
+return: 52 (Unused?)
+destroy_block: 48 (Unused?)
+regenerate_screen_wait: 42
+debug_dump: 30 (Unused?)
+vm_registers: 26 (Unused?)
+vm_constants: 26 (Unused?)
+debug_breakpoint: 26 (Unused?)
+vm_constants_controlbits: 26 (Unused?)
+vm_constants_notes: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)
+vm_constants_platform: 26 (Unused?)
+startup: 26 (Unused?)

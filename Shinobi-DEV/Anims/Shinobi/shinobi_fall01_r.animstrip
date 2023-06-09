@@ -1,0 +1,30 @@
+{
+  "Frames": [
+    {
+      "Path": "Jump01_01x00.png",
+      "Duration": 0,
+      "HandleX": -13,
+      "HandleY": -34,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "LoopFrame": 1,
+  "LinkedMap": null,
+  "OnFinish": null,
+  "AutoFlip": true
+}
