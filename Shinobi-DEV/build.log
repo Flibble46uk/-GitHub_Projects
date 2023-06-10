@@ -75,8 +75,8 @@ Reduce width of Anims\Title_Screen\Shinobi_Symbol_3.png by 15 pixels to 80 to im
 For chip:
 Map gfx (level gfx bundle 1): 45116
 Music memory (): 0
-BP Buffer memory: 197568
-core sfx/gfx memory: 365080
+BP Buffer memory: 165200
+core sfx/gfx memory: 343992
 Parallax memory: 0
 
 For other:
@@ -84,13 +84,13 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 16506
 Map background memory: 2672
-EXE memory: 202688
-vm memory: 9672
-project memory: 10122
+EXE memory: 203852
+vm memory: 9658
+project memory: 9810
 
-Accounted memory chip: 607764
-Accounted memory other: 241660
-Accounted memory total: 849424
+Accounted memory chip: 554308
+Accounted memory other: 242498
+Accounted memory total: 796806
 
 === Misc ===
 Maps and Asset Bundles Count: 5
@@ -107,16 +107,16 @@ Teleporter Count: 1
 Teleporter Data Size: 8
 Animations Count: 33
 Animations Data Size: 528
-AnimationFrame Count: 89
-AnimationFrame Data Size: 1424
-ImageFrames: 70
-ImageFrame Data Size: 3080
-Sprites: 9
-Sprites Data Size: 126
+AnimationFrame Count: 84
+AnimationFrame Data Size: 1344
+ImageFrames: 66
+ImageFrame Data Size: 2904
+Sprites: 5
+Sprites Data Size: 70
 Attack Data: 1
 Attack Data Size: 66
 Misc data size: 72
-Asset bundle 0 (Core project asset bundle) Original size 365080 Crunched size 95732
+Asset bundle 0 (Core project asset bundle) Original size 343992 Crunched size 95190
 Asset bundle 1 (m1_s1) Original size 45116 Crunched size 6462
 Asset bundle 2 (m2_s1) Original size 34776 Crunched size 9102
 Asset bundle 3 (m2_s4) Original size 37408 Crunched size 14610
@@ -125,18 +125,18 @@ Background for map m1_s1 Original size 2672 Crunched size 206
 Background for map m2_s1 Original size 2672 Crunched size 206
 Background for map m2_s4 Original size 2672 Crunched size 92
 Background for map title Original size 2672 Crunched size 92
-Tile data for map m1_s1 (mem restrictions:None) Original size 13216 Crunched size 1516
-Tile data for map m2_s1 (mem restrictions:None) Original size 16506 Crunched size 1394
-Tile data for map m2_s4 (mem restrictions:None) Original size 10232 Crunched size 792
-Tile data for map title (mem restrictions:None) Original size 1944 Crunched size 586
+Tile data for map m1_s1 (mem restrictions:None) Original size 13216 Crunched size 1518
+Tile data for map m2_s1 (mem restrictions:None) Original size 16506 Crunched size 1398
+Tile data for map m2_s4 (mem restrictions:None) Original size 10232 Crunched size 798
+Tile data for map title (mem restrictions:None) Original size 1944 Crunched size 590
 Header data for map m1_s1 Original size 7996 Crunched size 486
 Header data for map m2_s1 Original size 7996 Crunched size 470
 Header data for map m2_s4 Original size 7996 Crunched size 444
 Header data for map title Original size 7996 Crunched size 434
-Project Data Original size 10122 Crunched size 2548
-Project Header Original size 4032 Crunched size 1196
-Panel scorpion_eng_splashscreen Original size 35944 Crunched size 3280
-Project virtual machine (codeblocks) Original size 9672 Crunched size 2868
+Project Data Original size 9810 Crunched size 2434
+Project Header Original size 4032 Crunched size 1194
+Panel scorpion_eng_splashscreen Original size 35948 Crunched size 3280
+Project virtual machine (codeblocks) Original size 9658 Crunched size 2860
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused Actors ===
@@ -155,7 +155,7 @@ hostage_rescue_22050
 hostage_rescue_44100
 
 === Codeblocks by compiled size ===
-!start_up: 1184
+!start_up: 1174
 load_level: 1012
 00_player_jump_handler: 896
 set_yresolution: 448

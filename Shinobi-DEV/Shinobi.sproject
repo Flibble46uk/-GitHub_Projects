@@ -25,6 +25,10 @@
       "CD32Forward": false,
       "CD32Green": false,
       "CD32Yellow": false,
+      "MegaDrive_B": false,
+      "MegaDrive_C": false,
+      "MegaDrive_A": false,
+      "MegaDrive_Start": false,
       "OnPress": "!switch_layers",
       "OnRelease": null
     },
@@ -41,6 +45,10 @@
       "CD32Forward": false,
       "CD32Green": false,
       "CD32Yellow": false,
+      "MegaDrive_B": false,
+      "MegaDrive_C": false,
+      "MegaDrive_A": false,
+      "MegaDrive_Start": false,
       "OnPress": "00_frame_test",
       "OnRelease": null
     }
@@ -50,7 +58,27 @@
   "SoundMetaData": {
     "hostage_rescue": {
       "LinkedMap": "",
-      "RepeatDelay": 20
+      "RepeatDelay": 20,
+      "IsMusic": false,
+      "Priority": 0
+    },
+    "hostage_rescue_11025": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0
+    },
+    "hostage_rescue_22050": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0
+    },
+    "hostage_rescue_44100": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0
     }
   },
   "MMLMetaData": {},
@@ -58,5 +86,8 @@
   "FontMetaData": {},
   "SplashScreen": null,
   "LogicSpeed": "PAL_50HZ",
-  "PaletteLines": 1
+  "StartingPaletteLine": 0,
+  "PaletteLines": 1,
+  "ReadCD32Buttons": false,
+  "MDRegion": "E"
 }

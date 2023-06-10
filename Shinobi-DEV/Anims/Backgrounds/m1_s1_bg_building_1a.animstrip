@@ -17,7 +17,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Channel_2_to_1",
-      "RenderType": "OnlySprite"
+      "RenderType": "OnlySprite",
+      "HighPriority": false,
+      "Background": true
     }
   ],
   "PreventMovement": false,
@@ -26,5 +28,6 @@
   "LoopFrame": 0,
   "LinkedMap": null,
   "OnFinish": null,
-  "AutoFlip": false
+  "AutoFlip": false,
+  "Streamed": true
 }
