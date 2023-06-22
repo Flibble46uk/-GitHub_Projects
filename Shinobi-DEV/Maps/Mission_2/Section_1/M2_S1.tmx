@@ -36,6 +36,7 @@
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
       <property name="foreground" type="bool" value="False" />
+      <property name="megadrive" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="2" name="blocks" width="128" height="23">
@@ -67,6 +68,7 @@
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
       <property name="foreground" type="bool" value="False" />
+      <property name="megadrive" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="3" name="actors" width="128" height="23">
@@ -98,6 +100,7 @@
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
       <property name="foreground" type="bool" value="False" />
+      <property name="megadrive" type="bool" value="true" />
     </properties>
   </layer>
   <layer opacity="0.5" id="4" name="foreground" width="128" height="23">
@@ -129,6 +132,7 @@
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
       <property name="foreground" type="bool" value="True" />
+      <property name="megadrive" type="bool" value="true" />
     </properties>
   </layer>
   <objectgroup id="6" name="events" />

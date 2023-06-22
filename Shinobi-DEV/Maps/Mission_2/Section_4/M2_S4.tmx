@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="60" height="30" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="7" nextobjectid="1">
-  <properties />
+<map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="60" height="30" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="7" nextobjectid="1">
+  <properties>
+    <property name="override_palette" type="file" value="amiga_aga.palette.png" />
+    <property name="override_color_start" type="int" value="0" />
+    <property name="override_color_count" type="int" value="128" />
+  </properties>
   <tileset firstgid="1" source="..\..\..\Actors.tsx" />
   <tileset firstgid="257" source="..\..\..\Blocks.tsx" />
   <tileset firstgid="513" source="M2_S4.tileset.tsx" />
@@ -40,7 +44,8 @@
 </data>
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
-      <property name="foreground" type="bool" value="False" />
+      <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="2" name="blocks" width="60" height="30">
@@ -78,7 +83,8 @@
 </data>
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
-      <property name="foreground" type="bool" value="False" />
+      <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="3" name="actors" width="60" height="30">
@@ -93,7 +99,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -116,7 +122,8 @@
 </data>
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
-      <property name="foreground" type="bool" value="False" />
+      <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="4" name="foreground" width="60" height="30">
@@ -154,7 +161,8 @@
 </data>
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
-      <property name="foreground" type="bool" value="True" />
+      <property name="foreground" type="bool" value="true" />
+      <property name="megadrive" type="bool" value="true" />
     </properties>
   </layer>
   <objectgroup id="6" name="events" />

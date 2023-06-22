@@ -79,4 +79,9 @@
       <property name="Name" value="!miss_2_sec_4_water" type="string" />
     </properties>
   </tile>
+  <tile id="26">
+    <properties>
+      <property name="Name" value="!miss_2_sec_4_bg" type="string" />
+    </properties>
+  </tile>
 </tileset>

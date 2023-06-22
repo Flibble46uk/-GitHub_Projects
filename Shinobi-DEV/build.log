@@ -76,7 +76,7 @@ For chip:
 Map gfx (level gfx bundle 1): 45116
 Music memory (): 0
 BP Buffer memory: 165200
-core sfx/gfx memory: 343992
+core sfx/gfx memory: 372792
 Parallax memory: 0
 
 For other:
@@ -84,19 +84,19 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 16506
 Map background memory: 2672
-EXE memory: 203852
-vm memory: 9658
-project memory: 9810
+EXE memory: 204172
+vm memory: 9714
+project memory: 10114
 
-Accounted memory chip: 554308
-Accounted memory other: 242498
-Accounted memory total: 796806
+Accounted memory chip: 583108
+Accounted memory other: 243178
+Accounted memory total: 826286
 
 === Misc ===
 Maps and Asset Bundles Count: 5
 Maps and Asset Bundles Data Size: 60
-Actor Count: 22
-Actor Data Size: 4400
+Actor Count: 23
+Actor Data Size: 4600
 Block Count: 5
 Block Data Size: 260
 Anim5 Count: 0
@@ -105,18 +105,18 @@ Sound Count: 4
 Sound Data Size: 96
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 33
-Animations Data Size: 528
-AnimationFrame Count: 84
-AnimationFrame Data Size: 1344
-ImageFrames: 66
-ImageFrame Data Size: 2904
-Sprites: 5
-Sprites Data Size: 70
+Animations Count: 34
+Animations Data Size: 544
+AnimationFrame Count: 85
+AnimationFrame Data Size: 1360
+ImageFrames: 67
+ImageFrame Data Size: 2948
+Sprites: 6
+Sprites Data Size: 84
 Attack Data: 1
 Attack Data Size: 66
-Misc data size: 72
-Asset bundle 0 (Core project asset bundle) Original size 343992 Crunched size 95190
+Misc data size: 86
+Asset bundle 0 (Core project asset bundle) Original size 372792 Crunched size 96740
 Asset bundle 1 (m1_s1) Original size 45116 Crunched size 6462
 Asset bundle 2 (m2_s1) Original size 34776 Crunched size 9102
 Asset bundle 3 (m2_s4) Original size 37408 Crunched size 14610
@@ -129,14 +129,14 @@ Tile data for map m1_s1 (mem restrictions:None) Original size 13216 Crunched siz
 Tile data for map m2_s1 (mem restrictions:None) Original size 16506 Crunched size 1398
 Tile data for map m2_s4 (mem restrictions:None) Original size 10232 Crunched size 798
 Tile data for map title (mem restrictions:None) Original size 1944 Crunched size 590
-Header data for map m1_s1 Original size 7996 Crunched size 486
+Header data for map m1_s1 Original size 7996 Crunched size 484
 Header data for map m2_s1 Original size 7996 Crunched size 470
 Header data for map m2_s4 Original size 7996 Crunched size 444
 Header data for map title Original size 7996 Crunched size 434
-Project Data Original size 9810 Crunched size 2434
-Project Header Original size 4032 Crunched size 1194
-Panel scorpion_eng_splashscreen Original size 35948 Crunched size 3280
-Project virtual machine (codeblocks) Original size 9658 Crunched size 2860
+Project Data Original size 10114 Crunched size 2514
+Project Header Original size 4032 Crunched size 1198
+Panel scorpion_eng_splashscreen Original size 35934 Crunched size 3268
+Project virtual machine (codeblocks) Original size 9714 Crunched size 2884
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused Actors ===
@@ -155,7 +155,7 @@ hostage_rescue_22050
 hostage_rescue_44100
 
 === Codeblocks by compiled size ===
-!start_up: 1174
+!start_up: 1232
 load_level: 1012
 00_player_jump_handler: 896
 set_yresolution: 448
