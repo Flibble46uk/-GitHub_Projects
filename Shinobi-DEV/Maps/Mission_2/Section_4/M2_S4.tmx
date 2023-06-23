@@ -3,7 +3,7 @@
   <properties>
     <property name="override_palette" type="file" value="amiga_aga.palette.png" />
     <property name="override_color_start" type="int" value="0" />
-    <property name="override_color_count" type="int" value="128" />
+    <property name="override_color_count" type="int" value="144" />
   </properties>
   <tileset firstgid="1" source="..\..\..\Actors.tsx" />
   <tileset firstgid="257" source="..\..\..\Blocks.tsx" />
