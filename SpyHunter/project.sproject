@@ -1,31 +1,15 @@
 {
-  "GFXMode": "BP5",
-  "GFXModeAGA": "BP5",
   "TargetPlatform": "amiga_ocs",
-  "EmulatedAmiga": "A1200",
-  "EmulatedFastRam": 2,
   "Talkpad": null,
   "Talkpad_OnBottom": false,
-  "WinUAEConfiguration": null,
   "StartupCodeBlock": "01_startup",
-  "Uses24BitColor": false,
-  "AGARequired": false,
-  "SpriteMode": "Mode_0_16_Wide",
-  "SpriteColorBank": 1,
-  "FMode": 0,
-  "Width": 240,
-  "XOffset": 48,
-  "SScan2": false,
   "Recompile": true,
-  "Implode": false,
-  "MapCache": false,
+  "DebugMode": false,
+  "StartupSequenceDirty": false,
   "Fire1Jump": false,
   "Fire2Jump": false,
   "UpJump": false,
   "JumpOnHold": false,
-  "XFillSize": 19,
-  "YFillSize": 20,
-  "Add21K": false,
   "DataVersion": 4,
   "Commands": [
     {
@@ -107,6 +91,22 @@
       "CD32Yellow": false,
       "OnPress": "",
       "OnRelease": "01_showscore"
+    },
+    {
+      "Compiler": "amiga",
+      "Key": "Tilde",
+      "JoystickPort": -1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": false,
+      "JoystickFire2": false,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "OnPress": null,
+      "OnRelease": null
     }
   ],
   "AnimationMetaData": {},
@@ -119,8 +119,5 @@
   },
   "FontMetaData": {},
   "SplashScreen": null,
-  "LogicSpeed": "PAL_50HZ",
-  "OutputSpeed": "PAL_50HZ",
-  "DoubleCopper": true,
-  "AllocateMemoryUpfront": true
+  "LogicSpeed": "PAL_50HZ"
 }

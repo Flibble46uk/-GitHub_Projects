@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="48" height="512" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="14">
- <properties>
-  <property name="divert_timer" value="01_spawncars"/>
-  <property name="divert_timerframes" type="int" value="100"/>
-  <property name="solid_top" type="bool" value="true"/>
- </properties>
- <tileset firstgid="1" source="../Actors.tsx"/>
- <tileset firstgid="257" source="../Blocks.tsx"/>
- <tileset firstgid="513" source="SpyHunter.tileset.tsx"/>
- <layer id="1" name="map" width="48" height="512">
-  <data encoding="csv">
+<?xml version="1.0" encoding="utf-8"?>
+<map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="48" height="512" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="9" nextobjectid="14">
+  <properties>
+    <property name="divert_timer" value="01_spawncars" />
+    <property name="divert_timerframes" type="int" value="100" />
+    <property name="solid_top" type="bool" value="true" />
+  </properties>
+  <tileset firstgid="1" source="..\Actors.tsx" />
+  <tileset firstgid="257" source="..\Blocks.tsx" />
+  <tileset firstgid="513" source="SpyHunter.tileset.tsx" />
+  <layer id="1" name="map" width="48" height="512">
+    <data encoding="csv">
 515,783,680,517,517,517,517,517,517,517,517,517,911,783,515,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 531,799,696,533,533,533,533,533,533,533,533,533,927,799,531,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 515,513,680,517,517,517,517,517,517,517,517,517,911,784,515,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -523,9 +523,13 @@
 515,784,642,517,517,517,517,517,517,517,517,517,911,783,515,0,0,0,0,0,0,0,0,0,0,515,513,642,533,533,533,533,533,533,533,533,533,911,513,515,0,0,0,0,0,0,0,0,
 531,800,658,517,517,517,517,517,517,517,517,517,927,799,531,0,0,0,0,0,0,0,0,0,0,531,529,658,517,517,517,517,517,517,517,517,517,927,529,531,0,0,0,0,0,0,0,0
 </data>
- </layer>
- <layer id="3" name="foreground" width="48" height="512">
-  <data encoding="csv">
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="False" />
+    </properties>
+  </layer>
+  <layer id="3" name="foreground" width="48" height="512">
+    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1039,9 +1043,13 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
- </layer>
- <layer id="8" name="Collisions" width="48" height="512">
-  <data encoding="csv">
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="True" />
+    </properties>
+  </layer>
+  <layer id="8" name="Collisions" width="48" height="512">
+    <data encoding="csv">
 258,258,263,0,0,0,0,0,0,0,0,0,257,258,258,262,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 258,258,263,0,0,0,0,0,0,0,0,0,257,258,258,262,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 258,258,263,0,0,0,0,0,0,0,0,0,257,258,258,262,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1555,9 +1563,13 @@
 258,258,263,0,0,0,0,0,0,0,0,0,257,258,258,262,0,0,0,0,0,0,0,0,262,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,262,0,0,0,0,0,0,0,
 258,258,263,0,0,0,0,0,0,0,0,0,257,258,266,262,0,0,0,0,0,0,0,0,262,0,0,0,0,0,0,0,0,0,0,0,0,0,0,266,262,0,0,0,0,0,0,0
 </data>
- </layer>
- <layer id="2" name="objects" width="48" height="512">
-  <data encoding="csv">
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="False" />
+    </properties>
+  </layer>
+  <layer id="2" name="objects" width="48" height="512">
+    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -2071,26 +2083,31 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
- </layer>
- <objectgroup id="5" name="events">
-  <object id="12" x="0" y="112" width="240" height="16">
-   <properties>
-    <property name="divert" value="01_loopstart"/>
-    <property name="enablevariable" value=""/>
-    <property name="eventtype" value="trigger"/>
-    <property name="onceonly" value="False"/>
-    <property name="pushout" value="none"/>
-    <property name="teleportname" value="RD_01lvlend"/>
-   </properties>
-  </object>
-  <object id="13" x="0" y="7792" width="240" height="16">
-   <properties>
-    <property name="divert" value=""/>
-    <property name="enablevariable" value=""/>
-    <property name="eventtype" value="none"/>
-    <property name="onceonly" value="True"/>
-    <property name="teleportname" value="RD_01lvlstart"/>
-   </properties>
-  </object>
- </objectgroup>
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="False" />
+    </properties>
+  </layer>
+  <objectgroup id="5" name="events">
+    <object id="12" gid="0" x="0" y="112" width="240" height="16">
+      <properties>
+        <property name="divert" value="" />
+        <property name="enablevariable" value="" />
+        <property name="eventtype" value="none" />
+        <property name="onceonly" value="False" />
+        <property name="pushout" value="none" />
+        <property name="teleportname" value="RD_01lvlend" />
+        <property name="onenter" type="String" value="01_loopstart" />
+      </properties>
+    </object>
+    <object id="13" gid="0" x="0" y="7792" width="240" height="16">
+      <properties>
+        <property name="divert" value="" />
+        <property name="enablevariable" value="" />
+        <property name="eventtype" value="none" />
+        <property name="onceonly" value="True" />
+        <property name="teleportname" value="RD_01lvlstart" />
+      </properties>
+    </object>
+  </objectgroup>
 </map>

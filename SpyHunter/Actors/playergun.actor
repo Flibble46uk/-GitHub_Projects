@@ -3,7 +3,7 @@
   "ClassType": "Actor",
   "DefaultLookDir": "up",
   "Recycle": "Trash",
-  "MoveType": "none",
+  "MoveType": "cpu",
   "MaxEntities": 0,
   "NudgeX": 8,
   "NudgeY": -20,
@@ -107,7 +107,7 @@
   "SpeedDown": 0.0,
   "AccelLeft": null,
   "AccelRight": null,
-  "AccelUp": 9.0,
+  "AccelUp": null,
   "AccelDown": null,
   "AccelLeftAir": null,
   "AccelRightAir": null,
@@ -116,6 +116,10 @@
   "CollType_Right": "block",
   "CollType_Up": "block",
   "CollType_Down": "block",
+  "Player": null,
+  "CanRidePlatform": null,
+  "Camera": null,
+  "AutoScroll": null,
   "Flags": 0,
   "AttackProjectile": null,
   "AutoFire": false,
@@ -145,6 +149,9 @@
     "0"
   ],
   "ControlPort": 1,
+  "DataVersion": 3,
+  "AutoSpawn": null,
   "TileID": 22,
-  "SuggestedRecycle": "Trash"
+  "SuggestedRecycle": "Trash",
+  "UpAccelerationName": "Accel Up"
 }

@@ -1,4 +1,5 @@
 {
+  "CompileOrder": 0,
   "DataVersion": 1,
   "Variables": [
     {
@@ -6,12 +7,14 @@
       "Value": "0",
       "Notes": null,
       "PrivateSet": false,
+      "Watch": false,
       "VariableType": "Variable"
     }
   ],
   "Commands": [
     {
-      "DataVersion": 2,
+      "Values": {},
+      "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
       "DisplayOperationType": "SetPanel",
@@ -22,7 +25,8 @@
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
-      "CoreType": "Set",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
       "Variable": "scoreon",
@@ -31,7 +35,8 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
-      "Comparison": "NotZero",
+      "Breakpoint": false,
+      "Conditions": [],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -49,7 +54,7 @@
       "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
-      "Frames": "",
+      "Frames": "0",
       "CameraX": "",
       "CameraY": "",
       "CameraBox": {
@@ -58,7 +63,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -82,7 +88,8 @@
       "SpeakDelay": 1
     },
     {
-      "DataVersion": 2,
+      "Values": {},
+      "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -93,7 +100,8 @@
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
-      "CoreType": "Set",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
       "Variable": "scoreon",
@@ -102,7 +110,16 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
-      "Comparison": "Equals",
+      "Breakpoint": false,
+      "Conditions": [
+        {
+          "LeftSide": "scoreon",
+          "Comparison": "Equals",
+          "RightSide": "1",
+          "ComparisonNext": "End",
+          "IsValid": true
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -120,7 +137,7 @@
       "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
-      "Frames": "",
+      "Frames": "0",
       "CameraX": "",
       "CameraY": "",
       "CameraBox": {
@@ -129,7 +146,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -153,7 +171,8 @@
       "SpeakDelay": 1
     },
     {
-      "DataVersion": 2,
+      "Values": {},
+      "DataVersion": 6,
       "Category": "Actor",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -164,7 +183,8 @@
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
-      "CoreType": "RefreshActorVariable",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
       "Variable": "none",
@@ -173,7 +193,8 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
-      "Comparison": "NotZero",
+      "Breakpoint": false,
+      "Conditions": [],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "camera_x",
@@ -191,7 +212,7 @@
       "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
-      "Frames": "",
+      "Frames": "0",
       "CameraX": "",
       "CameraY": "",
       "CameraBox": {
@@ -200,7 +221,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -224,7 +246,8 @@
       "SpeakDelay": 1
     },
     {
-      "DataVersion": 2,
+      "Values": {},
+      "DataVersion": 6,
       "Category": "Actor",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -235,7 +258,8 @@
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
-      "CoreType": "RefreshActorVariable",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
       "Variable": "none",
@@ -244,7 +268,8 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
-      "Comparison": "NotZero",
+      "Breakpoint": false,
+      "Conditions": [],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -262,7 +287,7 @@
       "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
-      "Frames": "",
+      "Frames": "0",
       "CameraX": "",
       "CameraY": "",
       "CameraBox": {
@@ -271,7 +296,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -295,7 +321,8 @@
       "SpeakDelay": 1
     },
     {
-      "DataVersion": 2,
+      "Values": {},
+      "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -306,7 +333,8 @@
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
-      "CoreType": "Set",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
       "Variable": "none",
@@ -315,7 +343,8 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
-      "Comparison": "NotZero",
+      "Breakpoint": false,
+      "Conditions": [],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -333,7 +362,7 @@
       "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
-      "Frames": "",
+      "Frames": "0",
       "CameraX": "",
       "CameraY": "",
       "CameraBox": {
@@ -342,7 +371,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -366,7 +396,8 @@
       "SpeakDelay": 1
     },
     {
-      "DataVersion": 2,
+      "Values": {},
+      "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -377,16 +408,26 @@
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
-      "CoreType": "Set",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
       "Goto": "01_killactor",
       "Comment": "",
-      "Variable": "none",
-      "Expression": "0",
+      "Variable": "actor_type",
+      "Expression": "smockup",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
-      "Comparison": "NotZero",
+      "Breakpoint": false,
+      "Conditions": [
+        {
+          "LeftSide": "actor_type",
+          "Comparison": "Equals",
+          "RightSide": "smockup",
+          "ComparisonNext": "End",
+          "IsValid": true
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -404,7 +445,7 @@
       "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
-      "Frames": "",
+      "Frames": "0",
       "CameraX": "",
       "CameraY": "",
       "CameraBox": {
@@ -413,7 +454,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -437,7 +479,8 @@
       "SpeakDelay": 1
     },
     {
-      "DataVersion": 2,
+      "Values": {},
+      "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -448,7 +491,8 @@
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
-      "CoreType": "Set",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
       "Variable": "none",
@@ -457,7 +501,8 @@
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
-      "Comparison": "NotZero",
+      "Breakpoint": false,
+      "Conditions": [],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -475,7 +520,7 @@
       "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
-      "Frames": "",
+      "Frames": "0",
       "CameraX": "",
       "CameraY": "",
       "CameraBox": {
@@ -484,7 +529,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
