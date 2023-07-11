@@ -4,11 +4,13 @@
   "Variables": [],
   "Commands": [
     {
-      "Values": {},
+      "Values": {
+        "CameraWarp": "True"
+      },
       "DataVersion": 6,
-      "Category": "Base",
+      "Category": "Display",
       "BasicOperationType": "SetVariable",
-      "DisplayOperationType": "SetPanel",
+      "DisplayOperationType": "SetCameraPosition",
       "AudioOperationType": "PlaySound",
       "ConditionType": "Condition",
       "LevelOperationType": "LoadLevel",
@@ -47,7 +49,7 @@
       "WaitForFireHit": false,
       "Frames": "0",
       "CameraX": "",
-      "CameraY": "",
+      "CameraY": "yres*bgframe",
       "CameraBox": {
         "Left": "0",
         "Right": "0",

@@ -5271,48 +5271,102 @@
       "CodeBlock": "!start_up",
       "CodeBlockLine": 5,
       "MemoryOffset": 6372,
+      "Description": "Raw expression '4'"
+    },
+    {
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 6378,
+      "Description": "Raw expression 'player_walk'"
+    },
+    {
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 6384,
+      "Description": "Core operation'ActorSpawn'"
+    },
+    {
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6388,
+      "Description": "Set 'player_x' to '128'"
+    },
+    {
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6398,
+      "Description": "Set 'player_y' to '192-32'"
+    },
+    {
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6414,
       "Description": "Set 'camera_y' to 'bgframe'"
     },
     {
       "CodeBlock": "00_bg_frame",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6404,
+      "MemoryOffset": 6446,
       "Description": "00_BG_FRAME"
     },
     {
       "CodeBlock": "00_bg_frame",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6404,
-      "Description": "Set 'camera_y' to 'yres*bgframe'"
+      "MemoryOffset": 6446,
+      "Description": "Raw expression 'camera_x'"
+    },
+    {
+      "CodeBlock": "00_bg_frame",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6452,
+      "Description": "Raw expression 'yres*bgframe'"
+    },
+    {
+      "CodeBlock": "00_bg_frame",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6466,
+      "Description": "Raw expression 'False'"
+    },
+    {
+      "CodeBlock": "00_bg_frame",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6472,
+      "Description": "Core operation'CameraWarp'"
+    },
+    {
+      "CodeBlock": "00_bg_frame",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6476,
+      "Description": "Set 'camera_follow' to 'camera_follow & 32752'"
     },
     {
       "CodeBlock": "00_bg_frame",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6418,
+      "MemoryOffset": 6490,
       "Description": "Yield on  timer to  next line"
     },
     {
       "CodeBlock": "00_bg_frame",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6438,
+      "MemoryOffset": 6510,
       "Description": "Set 'bgframe' to 'bgframe+1'"
     },
     {
       "CodeBlock": "00_bg_frame",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6450,
-      "Description": "If bgframe > 2 ELSE GOTO 00006468"
+      "MemoryOffset": 6522,
+      "Description": "If bgframe > 2 ELSE GOTO 00006540"
     },
     {
       "CodeBlock": "00_bg_frame",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6462,
+      "MemoryOffset": 6534,
       "Description": "Set 'bgframe' to '1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6494,
+      "MemoryOffset": 6566,
       "Description": "STARTUP"
     }
   ],
@@ -5327,10 +5381,13 @@
     "0": "scorpion_eng_splashscreen"
   },
   "Actors": {
-    "0": "Destroyed actor"
+    "0": "Destroyed actor",
+    "1": "player_walk"
   },
   "Sounds": {
     "0": "No sound played"
   },
-  "Animations": {}
+  "Animations": {
+    "1": "peng_walk"
+  }
 }
