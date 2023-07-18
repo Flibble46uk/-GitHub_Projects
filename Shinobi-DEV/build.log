@@ -76,27 +76,27 @@ For chip:
 Map gfx (level gfx bundle 1): 45116
 Music memory (): 0
 BP Buffer memory: 165200
-core sfx/gfx memory: 372568
+core sfx/gfx memory: 372562
 Parallax memory: 0
 
 For other:
 Map cache memory: 0
 Map header cache memory: 0
-Map data memory: 16506
+Map data memory: 16510
 Map background memory: 2672
-EXE memory: 204976
-vm memory: 9734
-project memory: 10114
+EXE memory: 203164
+vm memory: 10074
+project memory: 9838
 
-Accounted memory chip: 582884
-Accounted memory other: 244002
-Accounted memory total: 826886
+Accounted memory chip: 582878
+Accounted memory other: 242258
+Accounted memory total: 825136
 
 === Misc ===
 Maps and Asset Bundles Count: 5
 Maps and Asset Bundles Data Size: 60
 Actor Count: 23
-Actor Data Size: 4600
+Actor Data Size: 4324
 Block Count: 5
 Block Data Size: 260
 Anim5 Count: 0
@@ -116,27 +116,27 @@ Sprites Data Size: 84
 Attack Data: 1
 Attack Data Size: 66
 Misc data size: 86
-Asset bundle 0 (Core project asset bundle) Original size 372568 Crunched size 96872
-Asset bundle 1 (m1_s1) Original size 45116 Crunched size 6462
-Asset bundle 2 (m2_s1) Original size 34776 Crunched size 9102
-Asset bundle 3 (m2_s4) Original size 37408 Crunched size 14610
-Asset bundle 4 (title) Original size 27104 Crunched size 5108
+Asset bundle 0 (Core project asset bundle) Original size 372562 Crunched size 97114
+Asset bundle 1 (m1_s1) Original size 45116 Crunched size 7582
+Asset bundle 2 (m2_s1) Original size 34776 Crunched size 10080
+Asset bundle 3 (m2_s4) Original size 37408 Crunched size 14608
+Asset bundle 4 (title) Original size 27328 Crunched size 6148
 Background for map m1_s1 Original size 2672 Crunched size 206
 Background for map m2_s1 Original size 2672 Crunched size 206
 Background for map m2_s4 Original size 2672 Crunched size 92
 Background for map title Original size 2672 Crunched size 92
-Tile data for map m1_s1 (mem restrictions:None) Original size 13216 Crunched size 1518
-Tile data for map m2_s1 (mem restrictions:None) Original size 16506 Crunched size 1398
-Tile data for map m2_s4 (mem restrictions:None) Original size 10232 Crunched size 798
-Tile data for map title (mem restrictions:None) Original size 1944 Crunched size 590
+Tile data for map m1_s1 (mem restrictions:None) Original size 13220 Crunched size 1514
+Tile data for map m2_s1 (mem restrictions:None) Original size 16510 Crunched size 1394
+Tile data for map m2_s4 (mem restrictions:None) Original size 10236 Crunched size 794
+Tile data for map title (mem restrictions:None) Original size 1948 Crunched size 582
 Header data for map m1_s1 Original size 7996 Crunched size 484
 Header data for map m2_s1 Original size 7996 Crunched size 470
 Header data for map m2_s4 Original size 7996 Crunched size 446
 Header data for map title Original size 7996 Crunched size 434
-Project Data Original size 10114 Crunched size 2522
-Project Header Original size 4032 Crunched size 1194
+Project Data Original size 9838 Crunched size 2504
+Project Header Original size 4032 Crunched size 1198
 Panel scorpion_eng_splashscreen Original size 35934 Crunched size 3268
-Project virtual machine (codeblocks) Original size 9734 Crunched size 2892
+Project virtual machine (codeblocks) Original size 10074 Crunched size 2986
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused Actors ===
@@ -155,11 +155,11 @@ hostage_rescue_22050
 hostage_rescue_44100
 
 === Codeblocks by compiled size ===
-!start_up: 1252
-load_level: 1012
+!start_up: 1484
+load_level: 920
 00_player_jump_handler: 896
 set_yresolution: 448
-do_teleport: 362
+do_teleport: 392
 flipscreen_smooth: 346 (Unused?)
 flipxymove: 306 (Unused?)
 pause: 252 (Unused?)
@@ -173,6 +173,7 @@ load_panel: 146
 pre_quit: 146
 00_face_player: 132
 destroy_all_blocks: 124 (Unused?)
+pre_load_level: 118
 unload_level: 114
 00_hostage_rescued: 106
 !title_symbol_rotate: 102
@@ -201,16 +202,17 @@ fadein: 58
 load_panel_finish: 56
 !switch_layers: 56
 destroy_actor: 54
+AUTOGEN_OUTOFSCREEN_None_None_destroy_actor_None: 54
 regenerate_screen: 52
 return: 52 (Unused?)
 destroy_block: 48 (Unused?)
 02_s4_move_ground: 44
 regenerate_screen_wait: 42
 00_frame_test: 36
-debug_dump: 30 (Unused?)
 vm_registers: 26 (Unused?)
 vm_constants: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
+debug_dump: 26 (Unused?)
 vm_constants_controlbits: 26 (Unused?)
 vm_constants_notes: 26 (Unused?)
 vm_constants_tile_properties: 26 (Unused?)

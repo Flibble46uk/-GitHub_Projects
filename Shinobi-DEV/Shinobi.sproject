@@ -5,7 +5,6 @@
   "StartupCodeBlock": "!start_up",
   "Recompile": true,
   "DebugMode": false,
-  "StartupSequenceDirty": false,
   "Fire1Jump": false,
   "Fire2Jump": true,
   "UpJump": false,
