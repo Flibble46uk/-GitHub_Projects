@@ -85,12 +85,12 @@ Map header cache memory: 0
 Map data memory: 16510
 Map background memory: 2672
 EXE memory: 203164
-vm memory: 10074
+vm memory: 10062
 project memory: 9838
 
 Accounted memory chip: 582878
-Accounted memory other: 242258
-Accounted memory total: 825136
+Accounted memory other: 242246
+Accounted memory total: 825124
 
 === Misc ===
 Maps and Asset Bundles Count: 5
@@ -134,9 +134,9 @@ Header data for map m2_s1 Original size 7996 Crunched size 470
 Header data for map m2_s4 Original size 7996 Crunched size 446
 Header data for map title Original size 7996 Crunched size 434
 Project Data Original size 9838 Crunched size 2504
-Project Header Original size 4032 Crunched size 1198
+Project Header Original size 4032 Crunched size 1196
 Panel scorpion_eng_splashscreen Original size 35934 Crunched size 3268
-Project virtual machine (codeblocks) Original size 10074 Crunched size 2986
+Project virtual machine (codeblocks) Original size 10062 Crunched size 2992
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused Actors ===
@@ -155,7 +155,7 @@ hostage_rescue_22050
 hostage_rescue_44100
 
 === Codeblocks by compiled size ===
-!start_up: 1484
+!start_up: 1472
 load_level: 920
 00_player_jump_handler: 896
 set_yresolution: 448
