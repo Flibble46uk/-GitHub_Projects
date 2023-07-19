@@ -29,21 +29,9 @@
   <tile id="13" />
   <tile id="14" />
   <tile id="15" />
-  <tile id="16">
-    <properties>
-      <property name="Name" value="!miss_1_sec_1_bg1" type="string" />
-    </properties>
-  </tile>
-  <tile id="17">
-    <properties>
-      <property name="Name" value="!miss_1_sec_1_bg2" type="string" />
-    </properties>
-  </tile>
-  <tile id="18">
-    <properties>
-      <property name="Name" value="!miss_1_sec_1_bg3" type="string" />
-    </properties>
-  </tile>
+  <tile id="16" />
+  <tile id="17" />
+  <tile id="18" />
   <tile id="19">
     <properties>
       <property name="Name" value="!miss_1_sec_1_bg" type="string" />
@@ -82,6 +70,11 @@
   <tile id="26">
     <properties>
       <property name="Name" value="!miss_2_sec_4_bg" type="string" />
+    </properties>
+  </tile>
+  <tile id="27">
+    <properties>
+      <property name="Name" value="!miss_2_sec_1_bg" type="string" />
     </properties>
   </tile>
 </tileset>

@@ -5,13 +5,13 @@
   "Recycle": "Default",
   "MoveType": "cpu_parallaxlock",
   "MaxEntities": 0,
-  "NudgeX": 0,
-  "NudgeY": 0,
+  "NudgeX": 7,
+  "NudgeY": 8,
   "Idles": {
     "UpLeft": null,
     "Up": null,
     "UpRight": null,
-    "Left": "m1_s1_bg_building_2",
+    "Left": "m2_s4_bg",
     "Right": null,
     "DownLeft": null,
     "Down": null,
@@ -93,6 +93,17 @@
       "sqrMagnitude": 0
     }
   ],
+  "InvalidDirections": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
   "CollBox": {
     "X": -4,
     "Y": -4,
@@ -111,11 +122,11 @@
   "AccelDown": null,
   "AccelLeftAir": null,
   "AccelRightAir": null,
-  "RotationSpeed": 0.02,
-  "CollType_Left": "none",
-  "CollType_Right": "none",
-  "CollType_Up": "none",
-  "CollType_Down": "none",
+  "RotationSpeed": 0.05,
+  "CollType_Left": "block",
+  "CollType_Right": "block",
+  "CollType_Up": "block",
+  "CollType_Down": "block",
   "Player": null,
   "CanRidePlatform": null,
   "Camera": null,
@@ -144,12 +155,12 @@
     "0",
     "0",
     "0",
-    "288",
     "0",
+    "56",
     "0"
   ],
   "ControlPort": 0,
   "DataVersion": 3,
   "AutoSpawn": true,
-  "TileID": 18
+  "TileID": 27
 }
