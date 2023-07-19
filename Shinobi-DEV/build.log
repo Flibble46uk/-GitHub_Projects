@@ -73,7 +73,7 @@ Reduce width of Anims\Title_Screen\Shinobi_Symbol_3.png by 15 pixels to 80 to im
 === Estimated memory usages ===
 
 For chip:
-Map gfx (level gfx bundle 3): 58430
+Map gfx (level gfx bundle 3): 62272
 Music memory (): 0
 BP Buffer memory: 165200
 core sfx/gfx memory: 362018
@@ -88,9 +88,9 @@ EXE memory: 203164
 vm memory: 10048
 project memory: 9182
 
-Accounted memory chip: 585648
+Accounted memory chip: 589490
 Accounted memory other: 241576
-Accounted memory total: 827224
+Accounted memory total: 831066
 
 === Misc ===
 Maps and Asset Bundles Count: 5
@@ -119,7 +119,7 @@ Misc data size: 44
 Asset bundle 0 (Core project asset bundle) Original size 362018 Crunched size 96870
 Asset bundle 1 (m1_s1) Original size 45116 Crunched size 7582
 Asset bundle 2 (m2_s1) Original size 34776 Crunched size 10080
-Asset bundle 3 (m2_s4) Original size 58430 Crunched size 16442
+Asset bundle 3 (m2_s4) Original size 62272 Crunched size 16672
 Asset bundle 4 (title) Original size 27328 Crunched size 6148
 Background for map m1_s1 Original size 2672 Crunched size 206
 Background for map m2_s1 Original size 2672 Crunched size 206
@@ -127,7 +127,7 @@ Background for map m2_s4 Original size 2672 Crunched size 92
 Background for map title Original size 2672 Crunched size 92
 Tile data for map m1_s1 (mem restrictions:None) Original size 13220 Crunched size 1514
 Tile data for map m2_s1 (mem restrictions:None) Original size 16510 Crunched size 1394
-Tile data for map m2_s4 (mem restrictions:None) Original size 12036 Crunched size 1818
+Tile data for map m2_s4 (mem restrictions:None) Original size 12580 Crunched size 2062
 Tile data for map title (mem restrictions:None) Original size 1948 Crunched size 582
 Header data for map m1_s1 Original size 7996 Crunched size 486
 Header data for map m2_s1 Original size 7996 Crunched size 470

@@ -1,17 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
-<map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="60" height="30" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="9" nextobjectid="1">
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="60" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="1">
+ <properties>
+  <property name="override_color_count" type="int" value="144"/>
+  <property name="override_color_start" type="int" value="0"/>
+  <property name="override_palette" type="file" value="amiga_aga.palette.png"/>
+ </properties>
+ <tileset firstgid="1" source="../../../Actors.tsx"/>
+ <tileset firstgid="257" source="../../../Blocks.tsx"/>
+ <tileset firstgid="513" source="M2_S4.tileset.tsx"/>
+ <tileset firstgid="1009" source="m2_s4_extras.tsx"/>
+ <tileset firstgid="1027" source="Rotors.tsx"/>
+ <layer id="1" name="map" width="60" height="30">
   <properties>
-    <property name="override_color_count" type="int" value="144" />
-    <property name="override_color_start" type="int" value="0" />
-    <property name="override_palette" type="file" value="amiga_aga.palette.png" />
+   <property name="amiga_aga" type="bool" value="true"/>
+   <property name="foreground" type="bool" value="false"/>
+   <property name="megadrive" type="bool" value="true"/>
   </properties>
-  <tileset firstgid="1" source="..\..\..\Actors.tsx" />
-  <tileset firstgid="257" source="..\..\..\Blocks.tsx" />
-  <tileset firstgid="513" source="M2_S4.tileset.tsx" />
-  <tileset firstgid="1009" source="m2_s4_extras.tsx" />
-  <tileset firstgid="1027" source="Rotors.tsx" />
-  <layer id="1" name="map" width="60" height="30">
-    <data encoding="csv">
+  <data encoding="csv">
 513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,0,0,0,0,0,513,0,0,0,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
 513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,0,0,0,0,0,0,0,0,513,0,0,0,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
 513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,0,0,0,513,513,513,513,513,513,513,0,0,513,513,513,513,513,513,513,0,0,529,0,0,0,0,0,0,0,0,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
@@ -43,20 +48,19 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
-    <properties>
-      <property name="amiga_aga" type="bool" value="true" />
-      <property name="foreground" type="bool" value="false" />
-      <property name="megadrive" type="bool" value="true" />
-    </properties>
-  </layer>
-  <layer id="8" name="Map2" width="60" height="30">
-    <data encoding="csv">
+ </layer>
+ <layer id="8" name="Map2" width="60" height="30">
+  <properties>
+   <property name="amiga_aga" type="bool" value="true"/>
+   <property name="foreground" type="bool" value="false"/>
+  </properties>
+  <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,1027,1028,1029,1030,1031,1032,1033,1034,1035,1036,1037,1038,1039,1040,1041,1042,1043,1044,1121,1122,1123,1124,1125,1126,1127,1128,1129,1130,1131,1132,1133,1134,1135,1136,1137,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,1050,1051,1052,1053,1054,1055,1056,1057,1058,1059,1060,1061,1062,1063,1064,1065,1066,1067,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,1050,1051,1052,1053,1054,1055,1056,1057,1058,1059,1060,1061,1062,1063,1064,1065,1066,1067,1144,1145,1146,1147,1148,1149,1150,1151,1152,1153,1154,1155,1156,1157,1158,1159,1160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1090,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -82,13 +86,14 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
-    <properties>
-      <property name="amiga_aga" type="bool" value="true" />
-      <property name="foreground" type="bool" value="false" />
-    </properties>
-  </layer>
-  <layer id="2" name="blocks" width="60" height="30">
-    <data encoding="csv">
+ </layer>
+ <layer id="2" name="blocks" width="60" height="30">
+  <properties>
+   <property name="amiga_aga" type="bool" value="true"/>
+   <property name="foreground" type="bool" value="false"/>
+   <property name="megadrive" type="bool" value="true"/>
+  </properties>
+  <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -120,14 +125,14 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
-    <properties>
-      <property name="amiga_aga" type="bool" value="true" />
-      <property name="foreground" type="bool" value="false" />
-      <property name="megadrive" type="bool" value="true" />
-    </properties>
-  </layer>
-  <layer id="3" name="actors" width="60" height="30">
-    <data encoding="csv">
+ </layer>
+ <layer id="3" name="actors" width="60" height="30">
+  <properties>
+   <property name="amiga_aga" type="bool" value="true"/>
+   <property name="foreground" type="bool" value="false"/>
+   <property name="megadrive" type="bool" value="true"/>
+  </properties>
+  <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -159,14 +164,14 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
-    <properties>
-      <property name="amiga_aga" type="bool" value="true" />
-      <property name="foreground" type="bool" value="false" />
-      <property name="megadrive" type="bool" value="true" />
-    </properties>
-  </layer>
-  <layer id="4" name="foreground" width="60" height="30">
-    <data encoding="csv">
+ </layer>
+ <layer id="4" name="foreground" width="60" height="30">
+  <properties>
+   <property name="amiga_aga" type="bool" value="true"/>
+   <property name="foreground" type="bool" value="true"/>
+   <property name="megadrive" type="bool" value="true"/>
+  </properties>
+  <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -198,11 +203,6 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
-    <properties>
-      <property name="amiga_aga" type="bool" value="true" />
-      <property name="foreground" type="bool" value="true" />
-      <property name="megadrive" type="bool" value="true" />
-    </properties>
-  </layer>
-  <objectgroup id="6" name="events" />
+ </layer>
+ <objectgroup id="6" name="events"/>
 </map>

@@ -338,4 +338,106 @@
    <frame tileid="110" duration="100"/>
   </animation>
  </tile>
+ <tile id="117">
+  <animation>
+   <frame tileid="46" duration="100"/>
+   <frame tileid="117" duration="100"/>
+  </animation>
+ </tile>
+ <tile id="118">
+  <animation>
+   <frame tileid="46" duration="100"/>
+   <frame tileid="118" duration="100"/>
+  </animation>
+ </tile>
+ <tile id="119">
+  <animation>
+   <frame tileid="46" duration="100"/>
+   <frame tileid="119" duration="100"/>
+  </animation>
+ </tile>
+ <tile id="120">
+  <animation>
+   <frame tileid="46" duration="100"/>
+   <frame tileid="120" duration="100"/>
+  </animation>
+ </tile>
+ <tile id="121">
+  <animation>
+   <frame tileid="46" duration="100"/>
+   <frame tileid="121" duration="100"/>
+  </animation>
+ </tile>
+ <tile id="122">
+  <animation>
+   <frame tileid="46" duration="100"/>
+   <frame tileid="122" duration="100"/>
+  </animation>
+ </tile>
+ <tile id="123">
+  <animation>
+   <frame tileid="46" duration="100"/>
+   <frame tileid="123" duration="100"/>
+  </animation>
+ </tile>
+ <tile id="124">
+  <animation>
+   <frame tileid="46" duration="100"/>
+   <frame tileid="124" duration="100"/>
+  </animation>
+ </tile>
+ <tile id="125">
+  <animation>
+   <frame tileid="46" duration="100"/>
+   <frame tileid="125" duration="100"/>
+  </animation>
+ </tile>
+ <tile id="126">
+  <animation>
+   <frame tileid="46" duration="100"/>
+   <frame tileid="126" duration="100"/>
+  </animation>
+ </tile>
+ <tile id="127">
+  <animation>
+   <frame tileid="46" duration="100"/>
+   <frame tileid="127" duration="100"/>
+  </animation>
+ </tile>
+ <tile id="128">
+  <animation>
+   <frame tileid="46" duration="100"/>
+   <frame tileid="128" duration="100"/>
+  </animation>
+ </tile>
+ <tile id="129">
+  <animation>
+   <frame tileid="46" duration="100"/>
+   <frame tileid="129" duration="100"/>
+  </animation>
+ </tile>
+ <tile id="130">
+  <animation>
+   <frame tileid="46" duration="100"/>
+   <frame tileid="130" duration="100"/>
+  </animation>
+ </tile>
+ <tile id="131">
+  <animation>
+   <frame tileid="46" duration="100"/>
+   <frame tileid="131" duration="100"/>
+  </animation>
+ </tile>
+ <tile id="132">
+  <animation>
+   <frame tileid="46" duration="100"/>
+   <frame tileid="132" duration="100"/>
+  </animation>
+ </tile>
+ <tile id="133">
+  <animation>
+   <frame tileid="46" duration="100"/>
+   <frame tileid="133" duration="100"/>
+  </animation>
+ </tile>
 </tileset>
