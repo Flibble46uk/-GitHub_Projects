@@ -1,6 +1,4 @@
 === Image optimisations ===
-Reduce width of Anims\OutRun_Logo.png by 48 pixels to 128 to reduce sprites by 2
-Reduce width of Anims\DummyFireStart.png by 8 pixels to 16 to improve blit performance by 200.00%
 
 === Estimated memory usages ===
 
@@ -16,13 +14,13 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 60712
 Map background memory: 2672
-EXE memory: 203164
-vm memory: 9624
-project memory: 2244
+EXE memory: 206384
+vm memory: 9738
+project memory: 2292
 
 Accounted memory chip: 320530
-Accounted memory other: 278416
-Accounted memory total: 598946
+Accounted memory other: 281798
+Accounted memory total: 602328
 
 === Misc ===
 Maps and Asset Bundles Count: 2
@@ -30,7 +28,7 @@ Maps and Asset Bundles Data Size: 24
 Actor Count: 7
 Actor Data Size: 1316
 Block Count: 3
-Block Data Size: 156
+Block Data Size: 204
 Anim5 Count: 0
 Anim5 Data Size: 0
 Sound Count: 1
@@ -54,10 +52,10 @@ Background for map outrun_map Original size 2672 Crunched size 118
 Music file outrun Original size 112974 Crunched size 74590
 Tile data for map outrun_map (mem restrictions:None) Original size 60712 Crunched size 4274
 Header data for map outrun_map Original size 7996 Crunched size 372
-Project Data Original size 2244 Crunched size 522
-Project Header Original size 4032 Crunched size 1196
-Panel scorpion_eng_splashscreen Original size 35934 Crunched size 3268
-Project virtual machine (codeblocks) Original size 9624 Crunched size 2882
+Project Data Original size 2292 Crunched size 516
+Project Header Original size 4032 Crunched size 1198
+Panel scorpion_eng_splashscreen Original size 35154 Crunched size 3258
+Project virtual machine (codeblocks) Original size 9738 Crunched size 2950
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused Actors ===
@@ -65,7 +63,7 @@ Project virtual machine redirects Original size 4 Crunched size 4
 beetle
 
 === Codeblocks by compiled size ===
-load_level: 920
+load_level: 926
 00_colour_beetle: 572
 00_colour_porsche: 572
 00_colour_semitruck: 572
@@ -75,8 +73,8 @@ set_yresolution: 448
 do_teleport: 392
 flipscreen_smooth: 346 (Unused?)
 flipxymove: 306 (Unused?)
+pre_startup: 282
 pause: 252 (Unused?)
-pre_startup: 194
 snap_to_screen: 190 (Unused?)
 flipymove: 174 (Unused?)
 flipxmove: 158 (Unused?)

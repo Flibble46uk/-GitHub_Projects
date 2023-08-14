@@ -22,4 +22,9 @@
       <property name="Name" value="beetle" type="string" />
     </properties>
   </tile>
+  <tile id="5">
+    <properties>
+      <property name="Name" value="fire_start" type="string" />
+    </properties>
+  </tile>
 </tileset>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="20" height="512" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="16" nextobjectid="4">
+<map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="20" height="512" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="16" nextobjectid="4">
   <properties>
     <property name="rainbow_palette" type="file" value="Copper.png" />
   </properties>
@@ -524,6 +524,8 @@
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
+      <property name="amiga_ocs" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="15" name="Terrain2" width="20" height="512">
@@ -1044,6 +1046,8 @@
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
+      <property name="amiga_ocs" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="13" name="Water" width="20" height="512">
@@ -1564,6 +1568,8 @@
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
+      <property name="amiga_ocs" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="7" name="Road" width="20" height="512">
@@ -2084,6 +2090,8 @@
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
+      <property name="amiga_ocs" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="14" name="road2" width="20" height="512">
@@ -2604,6 +2612,8 @@
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
+      <property name="amiga_ocs" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="8" name="Shadows" width="20" height="512">
@@ -3124,6 +3134,8 @@
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
+      <property name="amiga_ocs" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="12" name="Shadows2" width="20" height="512">
@@ -3445,11 +3457,11 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,1151,1152,1153,1154,1155,1156,1157,1158,1159,1160,1161,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,1151,1164,0,0,0,0,0,0,0,0,1164,0,0,0,0,0,
+0,0,0,0,0,1164,0,0,0,0,0,0,0,0,1164,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,1151,1164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,1164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,1151,1164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,1164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -3644,6 +3656,8 @@
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
+      <property name="amiga_ocs" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="9" name="Decorations" width="20" height="512">
@@ -4164,6 +4178,8 @@
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
+      <property name="amiga_ocs" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="10" name="Decorations2" width="20" height="512">
@@ -4684,6 +4700,8 @@
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
+      <property name="amiga_ocs" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="11" name="Decorations3" width="20" height="512">
@@ -4995,22 +5013,22 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 1162,1162,1162,1162,1162,0,0,0,0,0,0,0,0,0,0,1162,1162,1162,1162,1162,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 1162,1162,1162,1162,1162,0,0,0,0,0,0,0,0,0,0,1162,1162,1162,1162,1162,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 1162,1162,1162,1162,1162,0,0,0,0,0,0,0,0,0,0,1162,1162,1162,1162,1162,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1173,1173,1173,1173,1173,0,0,0,0,0,0,0,0,0,0,1173,1173,1173,1173,1173,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1173,1173,1173,1173,1173,0,0,0,0,0,0,0,0,0,0,1173,1173,1173,1173,1173,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 1162,1162,1162,1162,1162,0,0,0,0,0,0,0,0,0,0,1162,1162,1162,1162,1162,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 1162,1162,1162,1162,1162,0,0,0,0,0,0,0,0,0,0,1162,1162,1162,1162,1162,
-1162,1162,1162,1162,1162,0,0,0,0,0,0,0,0,0,0,1162,1162,1162,1162,1162,
-1162,1162,1162,1162,1162,0,0,0,0,0,0,0,0,0,0,1162,1162,1162,1162,1162,
-1162,1162,1162,1162,1162,0,0,0,0,0,0,0,0,0,0,1162,1162,1162,1162,1162,
-1162,1162,1162,1162,1162,0,0,0,0,0,0,0,0,0,0,1162,1162,1162,1162,1162,
-1162,1162,1162,1162,1162,0,0,0,0,0,0,0,0,0,0,1162,1162,1162,1162,1162,
-1162,1162,1162,1162,1162,0,0,0,0,0,0,0,0,0,0,1162,1162,1162,1162,1162,
-1162,1162,1162,1162,1162,0,0,0,0,0,0,0,0,0,0,1162,1162,1162,1162,1162,
-1162,1162,1162,1162,1162,0,0,0,0,0,0,0,0,0,0,1162,1162,1162,1162,1162,
-1162,1162,1162,1162,1162,0,0,0,0,0,0,0,0,0,0,1162,1162,1162,1162,1162,
-1162,1162,1162,1162,1162,0,0,0,0,0,0,0,0,0,0,1162,1162,1162,1162,1162,
-1162,1162,1162,1162,1162,0,0,0,0,0,0,0,0,0,0,1162,1162,1162,1162,1162,
-1162,1162,1162,1162,1162,0,0,0,0,0,0,0,0,0,0,1162,1162,1162,1162,1162,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,1174,0,0,0,0,0,
+1184,1184,1184,1184,1184,0,0,0,0,0,0,0,0,0,0,1184,1184,1184,1184,1184,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,1174,0,0,0,0,0,
+1184,1184,1184,1184,1184,0,0,0,0,0,0,0,0,0,0,1184,1184,1184,1184,1184,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -5192,18 +5210,20 @@
 0,0,0,0,0,0,0,0,0,0,0,0,532,532,532,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,532,532,532,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,543,543,543,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,840,0,543,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,851,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,862,0,839,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,850,0,0,0,0,0,
-0,0,741,742,0,0,0,752,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,753,0,0,0,730,731,0,0,0,838,0,0,0,0,0,0,0,
-0,0,0,0,0,532,0,0,0,0,0,0,849,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,836,0,0,0,0,840,0,543,0,0,0,0,0,
+0,0,0,835,0,0,0,847,0,0,0,0,851,0,0,0,0,0,0,0,
+0,0,0,846,0,0,0,0,0,0,0,0,862,0,839,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,895,0,850,0,0,0,0,0,
+0,0,741,742,0,0,0,752,0,0,0,0,906,0,0,0,0,0,0,0,
+0,0,0,753,0,0,0,730,731,0,0,0,917,0,0,0,0,0,0,0,
+0,0,0,0,0,532,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,543,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
+      <property name="amiga_ocs" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="2" name="blocks" width="20" height="512">
@@ -5724,6 +5744,8 @@
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
+      <property name="amiga_ocs" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="3" name="actors" width="20" height="512">
@@ -6244,6 +6266,8 @@
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
+      <property name="amiga_ocs" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="4" name="foreground" width="20" height="512">
@@ -6730,7 +6754,7 @@
 0,0,0,0,0,0,0,0,733,734,735,736,0,0,0,0,733,734,735,736,
 0,0,0,0,0,0,0,0,744,745,746,747,0,0,0,0,744,745,746,747,
 0,0,0,0,0,0,0,0,755,756,757,758,0,0,0,0,755,756,757,758,
-0,0,0,0,0,0,0,0,722,723,724,725,0,0,0,0,0,0,0,0,
+0,1175,0,0,0,0,0,0,722,723,724,725,0,0,0,0,0,0,1176,0,
 0,0,0,0,0,0,0,0,733,734,735,736,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,744,745,746,747,0,0,0,0,0,0,0,0,
 0,730,731,0,0,0,0,0,755,756,757,758,0,0,0,0,0,0,0,0,
@@ -6747,23 +6771,25 @@
 0,761,762,0,0,0,0,0,744,745,746,747,0,0,0,0,0,0,0,0,
 0,741,742,0,0,0,0,0,755,756,757,758,0,0,0,0,0,0,0,0,
 0,728,729,0,0,0,0,0,722,723,724,725,0,0,0,0,0,0,0,0,
-0,739,740,0,0,0,0,0,733,734,735,736,0,0,0,0,0,0,0,0,
-0,750,751,0,0,0,0,0,744,745,746,747,0,0,0,0,0,0,0,0,
-0,761,762,0,0,0,0,0,755,756,757,758,0,0,0,0,0,0,0,0,
-0,730,731,0,0,0,0,0,0,0,0,0,0,0,0,0,0,715,716,0,
-0,728,729,0,0,0,0,0,726,727,728,729,0,0,0,0,0,726,727,0,
-0,739,740,0,0,0,0,0,737,738,739,740,0,0,0,0,0,737,738,0,
-0,750,751,0,0,0,0,0,748,749,750,751,0,0,0,0,0,748,749,0,
-0,761,762,0,0,0,0,0,759,760,761,762,0,0,0,0,0,759,760,0,
-0,0,810,811,812,813,814,815,816,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,722,723,724,725,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,733,734,735,736,0,0,0,0,0,0,0,0,
+0,739,740,0,0,0,0,0,733,734,735,736,1200,1201,1202,1203,0,0,0,0,
+0,750,751,0,0,0,0,0,744,745,746,747,1211,1212,1213,1214,0,0,0,0,
+0,761,762,0,0,0,0,0,755,756,1220,1221,1222,1223,1224,1225,0,0,0,0,
+0,730,731,0,0,0,0,0,0,0,1231,1232,1233,1234,1235,1236,0,715,716,0,
+0,728,729,0,0,0,0,0,726,727,728,729,1244,1245,1246,1247,0,726,727,0,
+0,739,740,0,0,0,0,0,737,738,739,740,1255,1256,1257,1258,0,737,738,0,
+0,750,751,0,0,0,0,0,748,749,750,751,873,0,0,0,0,748,749,0,
+0,761,762,0,0,0,0,0,759,760,761,762,884,0,0,0,0,759,760,0,
+0,0,810,811,812,813,814,815,816,0,0,0,895,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,722,723,724,725,906,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,733,734,735,736,917,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,744,745,746,747,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,755,756,757,758,0,0,0,0,0,0,0,0
 </data>
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
       <property name="foreground" type="bool" value="true" />
+      <property name="megadrive" type="bool" value="true" />
+      <property name="amiga_ocs" type="bool" value="true" />
     </properties>
   </layer>
   <objectgroup id="6" name="events">

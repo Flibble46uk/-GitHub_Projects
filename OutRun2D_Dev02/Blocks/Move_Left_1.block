@@ -9,7 +9,7 @@
   "Divert_ProjectileCollision": null,
   "OnAnimationFrame": null,
   "FastBlit": false,
-  "IsInvisible": false,
+  "IsInvisible": true,
   "ReplaceTileProperties": true,
   "LinkedMap": null,
   "BlockSolidType": "NotSolid",
