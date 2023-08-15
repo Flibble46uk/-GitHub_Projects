@@ -93,6 +93,17 @@
       "sqrMagnitude": 0
     }
   ],
+  "InvalidDirections": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
   "CollBox": {
     "X": 0,
     "Y": 0,
@@ -100,7 +111,7 @@
     "Height": 16
   },
   "AttackDelay": 0,
-  "ZOrder": 0,
+  "ZOrder": 9999,
   "SpeedLeft": 1.0,
   "SpeedRight": 1.0,
   "SpeedUp": 1.0,
@@ -122,7 +133,6 @@
   "AutoScroll": false,
   "Flags": 0,
   "AttackProjectile": null,
-  "AutoFire": false,
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,
@@ -151,5 +161,6 @@
   "ControlPort": 0,
   "DataVersion": 3,
   "AutoSpawn": null,
+  "AutoNavigate": false,
   "TileID": 0
 }
