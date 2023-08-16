@@ -14,13 +14,13 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 60712
 Map background memory: 2672
-EXE memory: 206384
+EXE memory: 206340
 vm memory: 9738
 project memory: 2292
 
 Accounted memory chip: 320530
-Accounted memory other: 281798
-Accounted memory total: 602328
+Accounted memory other: 281754
+Accounted memory total: 602284
 
 === Misc ===
 Maps and Asset Bundles Count: 2
@@ -52,10 +52,10 @@ Background for map outrun_map Original size 2672 Crunched size 118
 Music file outrun Original size 112974 Crunched size 74590
 Tile data for map outrun_map (mem restrictions:None) Original size 60712 Crunched size 4274
 Header data for map outrun_map Original size 7996 Crunched size 372
-Project Data Original size 2292 Crunched size 518
+Project Data Original size 2292 Crunched size 520
 Project Header Original size 4032 Crunched size 1198
 Panel scorpion_eng_splashscreen Original size 35154 Crunched size 3258
-Project virtual machine (codeblocks) Original size 9738 Crunched size 2950
+Project virtual machine (codeblocks) Original size 9738 Crunched size 2948
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused Actors ===

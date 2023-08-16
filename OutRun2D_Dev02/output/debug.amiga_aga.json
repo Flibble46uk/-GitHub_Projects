@@ -5473,7 +5473,7 @@
       "CodeBlock": "!startup",
       "CodeBlockLine": 6,
       "MemoryOffset": 6484,
-      "Description": "Set 'musicvol' to '2'"
+      "Description": "Set 'musicvol' to '256'"
     },
     {
       "CodeBlock": "!startup",
