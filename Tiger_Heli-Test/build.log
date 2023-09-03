@@ -1,4 +1,5 @@
 === Image optimisations ===
+Reduce width of Anims\Scorpion_White_32.png by 15 pixels to 16 to improve blit performance by 200.00%
 Reduce width of Anims\00_Civ_Cars\CivCar_Blue_Right.png by 15 pixels to 16 to improve blit performance by 200.00%
 Reduce width of Anims\00_Civ_Cars\CivCar_Red_Left.png by 15 pixels to 16 to improve blit performance by 200.00%
 Reduce width of Anims\00_Decorations\Anim_Road_Barrier.png by 11 pixels to 16 to improve blit performance by 200.00%
@@ -69,28 +70,28 @@ Reduce width of Anims\Hero_Rotors\Anim_Hero_Rotors_01x00.png by 10 pixels to 16 
 For chip:
 Map gfx (level gfx bundle 1 ): 229824
 Music memory: 0
-BP Buffer memory: 161784
-core sfx/gfx memory: 102248
+BP Buffer memory: 179760
+core sfx/gfx memory: 113036
 Parallax memory: 0
 
 For other:
 Map cache memory: 0
 Map header cache memory: 0
-Map data memory: 23950
+Map data memory: 23938
 Map background memory: 2672
-EXE memory: 199680
-vm memory: 10192
-project memory: 17228
+EXE memory: 201372
+vm memory: 10072
+project memory: 18010
 
-Accounted memory chip: 493856
-Accounted memory other: 253722
-Accounted memory total: 747578
+Accounted memory chip: 522620
+Accounted memory other: 256064
+Accounted memory total: 778684
 
 === Misc ===
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
 Actor Count: 48
-Actor Data Size: 9984
+Actor Data Size: 10368
 Block Count: 2
 Block Data Size: 104
 Anim5 Count: 0
@@ -103,46 +104,46 @@ Animations Count: 54
 Animations Data Size: 864
 AnimationFrame Count: 118
 AnimationFrame Data Size: 1888
-ImageFrames: 88
-ImageFrame Data Size: 3872
-Sprites: 6
-Sprites Data Size: 84
-Attack Data: 4
-Attack Data Size: 264
-Misc data size: 86
-Asset bundle 0 (Core project asset bundle) Original size 102248 Crunched size 102248
+ImageFrames: 95
+ImageFrame Data Size: 4180
+Sprites: 1
+Sprites Data Size: 14
+Attack Data: 6
+Attack Data Size: 396
+Misc data size: 114
+Asset bundle 0 (Core project asset bundle) Original size 113036 Crunched size 113036
 Asset bundle 1 (tigerhelilvl01) Original size 229824 Crunched size 229824
 Background for map tigerhelilvl01 Original size 2672 Crunched size 2672
-Tile data for map tigerhelilvl01 (mem restrictions:None) Original size 23950 Crunched size 23950
-Header data for map tigerhelilvl01 Original size 7992 Crunched size 7992
-Project Data Original size 17228 Crunched size 17228
+Tile data for map tigerhelilvl01 (mem restrictions:None) Original size 23938 Crunched size 23938
+Header data for map tigerhelilvl01 Original size 7988 Crunched size 7988
+Project Data Original size 18010 Crunched size 18010
 Project Header Original size 4040 Crunched size 4040
 Panel scorpion_eng_splashscreen Original size 35930 Crunched size 3266
-Project virtual machine (codeblocks) Original size 10192 Crunched size 10192
+Project virtual machine (codeblocks) Original size 10072 Crunched size 10072
 Project virtual machine redirects Original size 4 Crunched size 4
 
 Codeblocks by compiled size: 
 
 load_level: 988
-00_smartbomb: 736
-!!_startup: 532
-00_spawn_herotakeoff: 470
+00_smartbomb: 710
+!!_startup: 542
+00_spawn_herotakeoff: 456
 do_teleport: 362
 flipscreen_smooth: 346
 flipxymove: 306
-00_spawn_heli_truck: 262
+00_spawn_heli_truck: 246
 set_yresolution: 200
-00_crater_flames: 198
+00_crater_flames: 192
 snap_to_screen: 190
 pre_startup: 188
 flipymove: 174
 pre_quit: 166
 flipxmove: 158
-00_launch_vehicle: 156
 load_panel: 146
-00_leave_screen_y: 146
-00_leveleventmanager: 134
+00_launch_vehicle: 132
+00_leveleventmanager: 130
 destroy_all_blocks: 124
+00_leave_screen_y: 122
 unload_level: 114
 00_actordestroy: 106
 00_actordestroycrater: 106
@@ -150,19 +151,19 @@ unload_level: 114
 load_panel_bottom: 96
 load_panel_top: 96
 waitforfirehit: 96
-00_spawnsmartbomb: 94
 unload_panel: 92
 wrap_screen_bottom: 92
 wrap_screen_right: 92
+00_spawnsmartbomb: 92
 wrap_screen_left: 88
 wrap_screen_top: 88
-00_firetostart: 88
 flipscreen: 86
 pre_anim5: 86
 00_actortoplayer: 86
 fadeout: 84
+00_firetostart: 84
 waitforframes: 78
-00_stay_relevant: 76
+00_stay_relevant: 74
 00_actordestroybuilding: 70
 00_setcamera: 70
 00_smartbomb_effect: 70

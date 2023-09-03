@@ -93,11 +93,22 @@
       "sqrMagnitude": 0
     }
   ],
+  "InvalidDirections": [
+    true,
+    false,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true
+  ],
   "CollBox": {
     "X": -8,
     "Y": -8,
     "Width": 16,
-    "Height": 10
+    "Height": 1
   },
   "AttackDelay": 0,
   "ZOrder": 0,
@@ -112,16 +123,16 @@
   "AccelLeftAir": null,
   "AccelRightAir": null,
   "RotationSpeed": 0.0,
-  "CollType_Left": "destroy",
-  "CollType_Right": "destroy",
-  "CollType_Up": "destroy",
-  "CollType_Down": "destroy",
+  "CollType_Left": "none",
+  "CollType_Right": "none",
+  "CollType_Up": "none",
+  "CollType_Down": "none",
   "Player": null,
+  "CanRidePlatform": null,
   "Camera": null,
   "AutoScroll": null,
   "Flags": "projectile",
   "AttackProjectile": null,
-  "AutoFire": false,
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,
@@ -149,7 +160,7 @@
   ],
   "ControlPort": 0,
   "DataVersion": 3,
-  "TileID": -1,
-  "SuggestedRecycle": "Trash",
-  "UpAccelerationName": "Accel Up"
+  "AutoSpawn": null,
+  "AutoNavigate": false,
+  "TileID": -1
 }

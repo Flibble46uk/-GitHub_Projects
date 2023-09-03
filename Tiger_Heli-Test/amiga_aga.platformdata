@@ -12,11 +12,11 @@
   "FMode": 1,
   "Width": 256,
   "XOffset": 32,
-  "XFillSize": 18,
+  "XFillSize": 16,
   "YFillSize": 20,
-  "Implode": false,
   "MapCache": false,
   "DoubleCopper": true,
   "AllocateMemoryUpfront": true,
-  "NTSC": false
+  "NTSC": false,
+  "CrunchMode": "Implode"
 }
