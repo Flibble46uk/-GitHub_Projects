@@ -1,7 +1,6 @@
 {
-  "DataVersion": 2,
+  "DataVersion": 6,
   "FirstCopper": 0,
-  "PanelImagePath": "Panels\\Title_Screen.png",
   "FadeInFrames": 0,
   "FadeOutFrames": 0,
   "FadeInMusic": false,
@@ -11,6 +10,7 @@
   "TalkpadY": 0,
   "TalkpadWidth": 8,
   "TalkpadHeight": 8,
+  "PanelImagePath": "Title_Screen.png",
   "FireIndicatorPath": null,
   "ChoiceIndicatorPath": null,
   "FireIndicatorX": 0,
@@ -18,9 +18,34 @@
   "Options": [],
   "Elements": [],
   "GFXMode": "BP5",
-  "PanelOptionSound": null,
-  "CenterAdjust": 32,
+  "PanelSlot": "Middle",
+  "PanelOptionSound": "none",
+  "PanelOptionSoundMD": "none",
   "OverlapsGameView": false,
-  "TalkpadLineHeight": 0,
-  "TalkpadSpaceWidth": 0
+  "CenterAdjustments": {
+    "0": 32,
+    "1": 32,
+    "2": 32,
+    "3": 32
+  },
+  "CenterAdjust_MegaDrive": 0,
+  "PaletteLines_MegaDrive": 1,
+  "StartingPaletteLine_MegaDrive": 3,
+  "TalkpadPalLine": 0,
+  "FireIndicatorPalLine": 0,
+  "ChoiceIndicatorPalLine": 0,
+  "NumberFontPaletteLine": 0,
+  "ParallaxMultiplierX": 0.5,
+  "ParallaxMultiplierY": 0.0,
+  "SliceMode": "Unsliced",
+  "PanelSlices": [
+    {
+      "Left": -0.5,
+      "Idle": 0.0,
+      "Right": 0.5,
+      "Top": 0
+    }
+  ],
+  "ParallaxOverlayPath": null,
+  "Gap": 4
 }

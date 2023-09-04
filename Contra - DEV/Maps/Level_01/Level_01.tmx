@@ -4,6 +4,7 @@
     <property name="divert_timer" value="00_handler_level" />
     <property name="rainbow_palette" type="file" value="Level_01_Copper.png" />
     <property name="solid_bottom" type="bool" value="false" />
+    <property name="override_palette" type="file" value="" />
   </properties>
   <tileset firstgid="1" source="..\..\Actors.tsx" />
   <tileset firstgid="257" source="..\..\Blocks.tsx" />
@@ -27,6 +28,11 @@
 1019,1063,1064,1065,1019,1019,1019,1019,1066,1067,1068,1069,1070,1071,1072,1073,1074,1075,1070,1071,1076,1077,1078,1079,1080,896,896,896,896,896,896,896,896,896,896,896,1081,1082,1072,1073,1074,1075,896,896,896,896,896,1083,1081,1082,896,896,896,896,1084,1085,1086,1087,1088,1089,1090,1091,1092,1093,1094,1095,1096,1097,1098,1099,1100,1101,1094,1095,1096,1097,1098,1099,1100,1101,1094,1095,1102,662,829,830,667,668,665,669,1103,1104,1105,1106,1094,1095,1102,662,829,830,667,668,665,669,1103,1107,1105,1106,1094,1095,1102,662,829,830,667,668,665,669,1103,1108,1105,1109,1110,1111,1112,1113,1110,1114,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
+    <properties>
+      <property name="amiga_aga" type="bool" value="true" />
+      <property name="foreground" type="bool" value="False" />
+      <property name="amiga_ocs" type="bool" value="true" />
+    </properties>
   </layer>
   <layer id="2" name="objects" width="128" height="16">
     <data encoding="csv">
@@ -47,6 +53,11 @@
 0,261,0,0,0,0,0,0,0,0,0,0,0,0,258,258,258,258,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,258,258,258,258,0,0,0,0,0,0,0,0,0,0,0,0,258,258,258,258,258,258,258,258,258,258,258,258,258,258,258,258,258,258,258,258,258,258,258,258,258,258,258,258,258,261,0,0,0,0,0,0,0,0,0,0,0,0,0,261,0,0,0,0,0,0,0,0,0,0,0,0,0,261,0,0,0,0,0,0,0,261,261,0,0,0,0,0,0,261,
 261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,261,0,0,0,0,0,0,0,0,0,0,257,257,257,261,0,0,0,0,0,0,0,0,0,0,257,257,257,261,0,0,0,0,0,0,0,261,261,261,261,261,0,0,0,261
 </data>
+    <properties>
+      <property name="amiga_aga" type="bool" value="true" />
+      <property name="foreground" type="bool" value="False" />
+      <property name="amiga_ocs" type="bool" value="true" />
+    </properties>
   </layer>
   <layer id="3" name="foreground" width="128" height="16">
     <data encoding="csv">
@@ -67,37 +78,82 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
+    <properties>
+      <property name="amiga_aga" type="bool" value="true" />
+      <property name="foreground" type="bool" value="True" />
+      <property name="amiga_ocs" type="bool" value="true" />
+    </properties>
   </layer>
   <objectgroup id="5" name="events">
     <object id="3" gid="0" x="1415" y="208" width="0" height="0" template="../../templates/01_reactor.tx">
-      <properties />
+      <properties>
+        <property name="onexit" type="String" />
+        <property name="divert" type="String" value="" />
+        <property name="eventtype" type="String" value="none" />
+      </properties>
     </object>
     <object id="4" gid="0" x="621" y="155" width="0" height="0" template="../../templates/01_turret_rck.tx">
-      <properties />
+      <properties>
+        <property name="onexit" type="String" />
+        <property name="divert" type="String" value="" />
+        <property name="eventtype" type="String" value="none" />
+      </properties>
     </object>
     <object id="5" gid="0" x="717" y="115" width="0" height="0" template="../../templates/01_turret_rck.tx">
-      <properties />
+      <properties>
+        <property name="onexit" type="String" />
+        <property name="divert" type="String" value="" />
+        <property name="eventtype" type="String" value="none" />
+      </properties>
     </object>
     <object id="6" gid="0" x="1293" y="211" width="0" height="0" template="../../templates/01_turret_rck.tx">
-      <properties />
+      <properties>
+        <property name="onexit" type="String" />
+        <property name="divert" type="String" value="" />
+        <property name="eventtype" type="String" value="none" />
+      </properties>
     </object>
     <object id="7" gid="0" x="1118" y="169" width="0" height="0" template="../../templates/01_turret_grnd.tx">
-      <properties />
+      <properties>
+        <property name="onexit" type="String" />
+        <property name="divert" type="String" value="" />
+        <property name="eventtype" type="String" value="none" />
+      </properties>
     </object>
     <object id="8" gid="0" x="1146" y="233" width="0" height="0" template="../../templates/01_turret_grnd.tx">
-      <properties />
+      <properties>
+        <property name="onexit" type="String" />
+        <property name="divert" type="String" value="" />
+        <property name="eventtype" type="String" value="none" />
+      </properties>
     </object>
     <object id="9" gid="0" x="923" y="234" width="0" height="0" template="../../templates/01_enmy_01_run.tx">
-      <properties />
+      <properties>
+        <property name="onexit" type="String" />
+        <property name="divert" type="String" value="" />
+        <property name="eventtype" type="String" value="none" />
+      </properties>
     </object>
     <object id="10" gid="0" x="1060" y="234" width="0" height="0" template="../../templates/01_enmy_01_run.tx">
-      <properties />
+      <properties>
+        <property name="onexit" type="String" />
+        <property name="divert" type="String" value="" />
+        <property name="eventtype" type="String" value="none" />
+      </properties>
     </object>
     <object id="11" gid="0" x="1090" y="170" width="0" height="0" template="../../templates/01_enmy_01_run.tx">
-      <properties />
+      <properties>
+        <property name="onexit" type="String" />
+        <property name="divert" type="String" value="" />
+        <property name="eventtype" type="String" value="none" />
+      </properties>
     </object>
     <object id="12" gid="0" x="1049" y="128" width="0" height="0" template="../../templates/01_enmy_01_run.tx">
-      <properties />
+      <properties>
+        <property name="onexit" type="String" />
+        <property name="divert" type="String" value="" />
+        <property name="eventtype" type="String" value="none" />
+      </properties>
     </object>
   </objectgroup>
 </map>

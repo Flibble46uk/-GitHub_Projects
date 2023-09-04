@@ -13,9 +13,25 @@
   "ReplaceTileProperties": true,
   "LinkedMap": null,
   "BlockSolidType": "Slope",
-  "IsPlatform": false,
-  "IsSolid": false,
-  "ShootOver": false,
-  "IsSlope": false,
+  "PaletteLines": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "Priorities": [
+    [
+      false,
+      false
+    ],
+    [
+      false,
+      false
+    ]
+  ],
   "TileID": 1
 }

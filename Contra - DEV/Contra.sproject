@@ -5,11 +5,6 @@
   "StartupCodeBlock": "!!_startup",
   "Recompile": true,
   "DebugMode": false,
-  "StartupSequenceDirty": false,
-  "Fire1Jump": false,
-  "Fire2Jump": true,
-  "UpJump": false,
-  "JumpOnHold": false,
   "DataVersion": 3,
   "Commands": [
     {
@@ -25,6 +20,10 @@
       "CD32Forward": false,
       "CD32Green": false,
       "CD32Yellow": false,
+      "MegaDrive_B": false,
+      "MegaDrive_C": false,
+      "MegaDrive_A": false,
+      "MegaDrive_Start": false,
       "OnPress": "!!flame_test",
       "OnRelease": null
     }
@@ -32,8 +31,13 @@
   "AnimationMetaData": {},
   "Anim5MetaData": {},
   "SoundMetaData": {},
+  "MMLMetaData": {},
   "NumberFontMetaData": {},
   "FontMetaData": {},
   "SplashScreen": null,
-  "LogicSpeed": "PAL_50HZ"
+  "LogicSpeed": "PAL_50HZ",
+  "StartingPaletteLine": 0,
+  "PaletteLines": 1,
+  "ReadCD32Buttons": false,
+  "MDRegion": "E"
 }

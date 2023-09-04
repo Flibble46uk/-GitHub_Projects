@@ -6,21 +6,21 @@ For chip:
 Map gfx (level gfx bundle 1): 133728
 Music memory (): 0
 BP Buffer memory: 141120
-core sfx/gfx memory: 226312
+core sfx/gfx memory: 228104
 Parallax memory: 0
 
 For other:
 Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 11904
-Map background memory: 2672
-EXE memory: 206344
-vm memory: 13716
+Map background memory: 1396
+EXE memory: 207900
+vm memory: 13656
 project memory: 17164
 
-Accounted memory chip: 501160
-Accounted memory other: 251800
-Accounted memory total: 752960
+Accounted memory chip: 502952
+Accounted memory other: 252020
+Accounted memory total: 754972
 
 === Misc ===
 Maps and Asset Bundles Count: 2
@@ -46,17 +46,17 @@ Sprites Data Size: 28
 Attack Data: 4
 Attack Data Size: 264
 Misc data size: 58
-Asset bundle 0 (Core project asset bundle) Original size 226312 Crunched size 226312
-Asset bundle 1 (level_01) Original size 133728 Crunched size 133728
-Background for map level_01 Original size 2672 Crunched size 2672
-Tile data for map level_01 (mem restrictions:None) Original size 11904 Crunched size 11904
-Header data for map level_01 Original size 7996 Crunched size 7996
-Project Data Original size 17164 Crunched size 17164
-Project Header Original size 4032 Crunched size 4032
-Panel scorpion_eng_splashscreen Original size 35934 Crunched size 3268
-Panel title_screen Original size 38494 Crunched size 38494
-Panel top_panel Original size 2878 Crunched size 2878
-Project virtual machine (codeblocks) Original size 13716 Crunched size 13716
+Panel scorpion_eng_splashscreen Original size 35154 Crunched size 3258
+Panel title_screen Original size 38494 Crunched size 9632
+Panel top_panel Original size 2878 Crunched size 258
+Header data for map level_01 Original size 7996 Crunched size 676
+Tile data for map level_01 (mem restrictions:None) Original size 11904 Crunched size 2728
+Background for map level_01 Original size 1396 Crunched size 110
+Asset bundle 0 (Core project asset bundle) Original size 228104 Crunched size 76396
+Asset bundle 1 (level_01) Original size 133728 Crunched size 63824
+Project Header Original size 4032 Crunched size 1190
+Project Data Original size 17164 Crunched size 4690
+Project virtual machine (codeblocks) Original size 13656 Crunched size 3592
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -87,7 +87,7 @@ player_side_fire_sg_ur_l
 === Codeblocks by compiled size ===
 01_end_level: 986
 load_level: 926
-!!_startup: 764
+!!_startup: 776
 01_handler_bridge_1: 702
 set_yresolution: 448
 do_teleport: 392
@@ -105,10 +105,10 @@ snap_to_screen: 190
 00_dstry_ground_turret: 188
 flipymove: 174 (Unused?)
 flipxmove: 158 (Unused?)
-AUTOGEN_OUTOFSCREEN_00_donothing_00_donothing_00_donothing_00_donothing: 154
-AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_00_donothing_00_donothing: 154
-AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_00_donothing_!!_startup: 154
-AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 154
+AUTOGEN_OUTOFSCREEN_00_donothing_00_donothing_00_donothing_00_donothing: 156
+AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_00_donothing_00_donothing: 156
+AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_00_donothing_!!_startup: 156
+AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 156
 01_handler_reactor: 148
 load_panel: 146
 pre_quit: 146
@@ -153,9 +153,8 @@ fadein: 58
 load_panel_finish: 56
 AUTOGEN_OUTOFSCREEN_destroy_actor_None_None_None: 56
 AUTOGEN_OUTOFSCREEN_00_leave_screen_None_None_None: 56
-AUTOGEN_OUTOFSCREEN_00_dstry_parallax_None_None_None: 56
 destroy_actor: 54
-00_dstry_parallax: 54
+00_dstry_parallax: 54 (Unused?)
 00_handler_player: 54 (Unused?)
 00_move_all: 54
 regenerate_screen: 52
@@ -176,7 +175,6 @@ regenerate_screen_wait: 42
 vm_registers: 26 (Unused?)
 vm_constants: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
-debug_dump: 26 (Unused?)
 vm_constants_controlbits: 26 (Unused?)
 vm_constants_notes: 26 (Unused?)
 vm_constants_tile_properties: 26 (Unused?)

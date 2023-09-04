@@ -5,7 +5,7 @@
   "Commands": [
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -27,7 +27,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -54,7 +62,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -79,7 +88,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -101,7 +110,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "LessThanOrEqual",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "actor_x",
+          "Comparison": "LessThanOrEqual",
+          "RightSide": "camera_x+224-64",
+          "IsValid": true
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -128,7 +145,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -153,7 +171,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -175,7 +193,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotEquals",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "actor_lookdir",
+          "Comparison": "NotEquals",
+          "RightSide": "look_right",
+          "IsValid": true
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -202,7 +228,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -227,7 +254,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Actor",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -249,7 +276,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -276,7 +311,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -301,7 +337,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -323,7 +359,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -350,7 +394,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -375,7 +420,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -397,7 +442,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -424,7 +477,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -449,7 +503,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -471,7 +525,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -498,7 +560,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -523,7 +586,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -545,7 +608,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -572,7 +643,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -597,7 +669,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -619,7 +691,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "LessThanOrEqual",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "actor_x",
+          "Comparison": "LessThanOrEqual",
+          "RightSide": "camera_x+224-96",
+          "IsValid": true
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -646,7 +726,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -671,7 +752,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -693,7 +774,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "Equals",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "explosion_chain",
+          "Comparison": "Equals",
+          "RightSide": "0",
+          "IsValid": true
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -720,7 +809,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -745,7 +835,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "Gosub",
       "DisplayOperationType": "SetPanel",
@@ -767,7 +857,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -794,7 +892,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -819,7 +918,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "New",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -841,7 +940,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -868,7 +975,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -893,7 +1001,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "New",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -915,7 +1023,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "actor_x+24",
@@ -942,7 +1058,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -967,7 +1084,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Actor",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -989,7 +1106,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1016,7 +1141,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -1041,7 +1167,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
       "DisplayOperationType": "SetPanel",
@@ -1063,7 +1189,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1090,7 +1224,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -1115,7 +1250,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -1137,7 +1272,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "Equals",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "explosion_chain",
+          "Comparison": "Equals",
+          "RightSide": "1",
+          "IsValid": true
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1164,7 +1307,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -1189,7 +1333,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -1211,7 +1355,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1238,7 +1390,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -1263,7 +1416,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "Gosub",
       "DisplayOperationType": "SetPanel",
@@ -1285,7 +1438,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1312,7 +1473,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -1337,7 +1499,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "New",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -1359,7 +1521,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1386,7 +1556,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -1411,7 +1582,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "New",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -1433,7 +1604,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "actor_x+24",
@@ -1460,7 +1639,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -1485,7 +1665,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Actor",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -1507,7 +1687,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1534,7 +1722,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -1559,7 +1748,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
       "DisplayOperationType": "SetPanel",
@@ -1581,7 +1770,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1608,7 +1805,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -1633,7 +1831,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -1655,7 +1853,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1682,7 +1888,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -1707,7 +1914,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -1729,7 +1936,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "Equals",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "explosion_chain",
+          "Comparison": "Equals",
+          "RightSide": "2",
+          "IsValid": true
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1756,7 +1971,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -1781,7 +1997,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -1803,7 +2019,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1830,7 +2054,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -1855,7 +2080,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "Gosub",
       "DisplayOperationType": "SetPanel",
@@ -1877,7 +2102,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1904,7 +2137,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -1929,7 +2163,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "New",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -1951,7 +2185,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1978,7 +2220,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -2003,7 +2246,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "New",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -2025,7 +2268,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "actor_x+24",
@@ -2052,7 +2303,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -2077,7 +2329,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Actor",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -2099,7 +2351,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -2126,7 +2386,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -2151,7 +2412,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
       "DisplayOperationType": "SetPanel",
@@ -2173,7 +2434,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -2200,7 +2469,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -2225,7 +2495,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -2247,7 +2517,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -2274,7 +2552,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -2299,7 +2578,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -2321,7 +2600,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "Equals",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "explosion_chain",
+          "Comparison": "Equals",
+          "RightSide": "3",
+          "IsValid": true
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -2348,7 +2635,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -2373,7 +2661,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -2395,7 +2683,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -2422,7 +2718,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -2447,7 +2744,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "Gosub",
       "DisplayOperationType": "SetPanel",
@@ -2469,7 +2766,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -2496,7 +2801,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -2521,7 +2827,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "New",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -2543,7 +2849,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -2570,7 +2884,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -2595,7 +2910,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "New",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -2617,7 +2932,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "actor_x+24",
@@ -2644,7 +2967,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -2669,7 +2993,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Actor",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -2691,7 +3015,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -2718,7 +3050,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -2743,7 +3076,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
       "DisplayOperationType": "SetPanel",
@@ -2765,7 +3098,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -2792,7 +3133,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -2817,7 +3159,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -2839,7 +3181,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -2866,7 +3216,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -2891,7 +3242,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -2913,7 +3264,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -2940,7 +3299,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
@@ -2965,7 +3325,7 @@
     },
     {
       "Values": {},
-      "DataVersion": 4,
+      "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -2987,7 +3347,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Comparison": "NotZero",
+      "Conditions": [
+        {
+          "IsOR": false,
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -3014,7 +3382,8 @@
         "Up": "0",
         "Down": "0"
       },
-      "YRes": 224,
+      "YRes": "224",
+      "FrameWait": "",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,
