@@ -25,6 +25,10 @@
 691,691,691,691,691,691,691,691,691,691,691,691,691,691,691,691,691,691,691,691,
 691,691,691,691,691,691,691,691,691,691,691,691,691,691,691,691,691,691,691,691
 </data>
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="False" />
+    </properties>
   </layer>
   <layer id="2" name="objects" width="20" height="14">
     <data encoding="csv">
@@ -43,6 +47,10 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="False" />
+    </properties>
   </layer>
   <layer id="3" name="foreground" width="20" height="14">
     <data encoding="csv">
@@ -61,6 +69,10 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="True" />
+    </properties>
   </layer>
   <objectgroup id="5" name="events" />
 </map>

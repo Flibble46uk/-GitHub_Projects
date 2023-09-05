@@ -1,6 +1,6 @@
 {
   "ShootDirType": "actor_direction",
-  "ClassType": "Player",
+  "ClassType": "DefaultClass",
   "DefaultLookDir": "right",
   "Recycle": "Default",
   "MoveType": "control_platform",
@@ -107,7 +107,7 @@
   "SpeedDown": 7.0,
   "AccelLeft": null,
   "AccelRight": null,
-  "AccelUp": null,
+  "AccelUp": 0.9074074,
   "AccelDown": 0.302469134,
   "AccelLeftAir": null,
   "AccelRightAir": null,
@@ -116,6 +116,10 @@
   "CollType_Right": "block",
   "CollType_Up": "block",
   "CollType_Down": "block",
+  "Player": true,
+  "CanRidePlatform": null,
+  "Camera": null,
+  "AutoScroll": null,
   "Flags": 0,
   "AttackProjectile": null,
   "AutoFire": false,
@@ -144,7 +148,10 @@
     "0",
     "0"
   ],
-  "ControlPort": 0,
+  "ControlPort": 1,
+  "DataVersion": 3,
+  "AutoSpawn": null,
   "TileID": 13,
-  "SuggestedRecycle": "Never"
+  "SuggestedRecycle": "Never",
+  "UpAccelerationName": "Jump Cancel Dropoff"
 }

@@ -37,15 +37,37 @@ Reduce width of Anims\Highway_taxiwheels_00x00.png by 11 pixels to 16 to improve
 Reduce width of Anims\Highway_taxiwheels_01x00.png by 11 pixels to 16 to improve blit performance by 200.00%
 Reduce width of Anims\Highway_taxiwheels_02x00.png by 11 pixels to 16 to improve blit performance by 200.00%
 
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (level gfx bundle 2 ): 101120
+Music memory: 0
+BP Buffer memory: 112400
+core sfx/gfx memory: 134600
+Parallax memory: 900
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 13536
+Map background memory: 2672
+EXE memory: 201668
+vm memory: 8060
+project memory: 9002
+
+Accounted memory chip: 349020
+Accounted memory other: 234938
+Accounted memory total: 583958
+
 === Misc ===
 Maps and Asset Bundles Count: 4
 Maps and Asset Bundles Data Size: 48
 Actor Count: 15
-Actor Data Size: 4500
+Actor Data Size: 3000
 Block Count: 41
 Block Data Size: 2132
-Anim5 Count: 1
-Anim5 Data Size: 4
+Anim5 Count: 0
+Anim5 Data Size: 0
 Sound Count: 1
 Sound Data Size: 32
 Teleporter Count: 1
@@ -54,48 +76,94 @@ Animations Count: 25
 Animations Data Size: 400
 AnimationFrame Count: 56
 AnimationFrame Data Size: 896
-ImageFrames: BlitzTool.BlitzWord
-ImageFrame Data Size: 3456
-Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3308
-Crunching Panel debug as 1.img. Original size: 4940. Crunched size: 374
-Crunching Project virtual machine (codeblocks) as project.vm. Original size: 8428. Crunched size: 2276
-Crunching Project virtual machine redirects as project.rd. Original size: 4. Crunched size: 4
-Crunching Header data for map highway_01 as 1.mhd. Original size: 9780. Crunched size: 414
-Crunching Data for map highway_01 as 1.map. Original size: 16196. Crunched size: 1606
-Crunching Background for map highway_01 as 1.bg. Original size: 2672. Crunched size: 266
-Crunching Parallax for map highway_01 as 1.plx. Original size: 1800. Crunched size: 156
-Crunching Header data for map level_01 as 2.mhd. Original size: 9780. Crunched size: 306
-Crunching Data for map level_01 as 2.map. Original size: 15716. Crunched size: 3374
-Crunching Background for map level_01 as 2.bg. Original size: 2672. Crunched size: 248
-Crunching Parallax for map level_01 as 2.plx. Original size: 1800. Crunched size: 168
-Crunching Header data for map titlescreen as 3.mhd. Original size: 9780. Crunched size: 260
-Crunching Data for map titlescreen as 3.map. Original size: 2276. Crunched size: 660
-Crunching Background for map titlescreen as 3.bg. Original size: 2672. Crunched size: 178
-Crunching Asset bundle 0 (Core project asset bundle) as 0.gfx. Original size: 134600. Crunched size: 32224
-Crunching Asset bundle 1 (highway_01) as 1.gfx. Original size: 51520. Crunched size: 17978
-Crunching Asset bundle 2 (level_01) as 2.gfx. Original size: 101120. Crunched size: 27168
-Crunching Asset bundle 3 (titlescreen) as 3.gfx. Original size: 30080. Crunched size: 9908
-Crunching Project data as project.dat. Original size: 11476. Crunched size: 2344
-Crunching Scorpion header as project.hd. Original size: 4040. Crunched size: 1196
+ImageFrames: 53
+ImageFrame Data Size: 2332
+Sprites: 4
+Sprites Data Size: 56
+Attack Data: 1
+Attack Data Size: 66
+Misc data size: 30
+Asset bundle 0 (Core project asset bundle) Original size 134600 Crunched size 32224
+Asset bundle 1 (highway_01) Original size 51360 Crunched size 17974
+Asset bundle 2 (level_01) Original size 101120 Crunched size 27168
+Asset bundle 3 (titlescreen) Original size 29600 Crunched size 9896
+Background for map highway_01 Original size 2672 Crunched size 260
+Background for map level_01 Original size 2672 Crunched size 242
+Background for map titlescreen Original size 2672 Crunched size 178
+Tile data for map highway_01 (mem restrictions:None) Original size 13536 Crunched size 1568
+Tile data for map level_01 (mem restrictions:None) Original size 13136 Crunched size 3344
+Tile data for map titlescreen (mem restrictions:None) Original size 1936 Crunched size 652
+Header data for map highway_01 Original size 7992 Crunched size 384
+Header data for map level_01 Original size 7992 Crunched size 280
+Header data for map titlescreen Original size 7992 Crunched size 230
+Parallax for map highway_01 Original size 900 Crunched size 142
+Parallax for map level_01 Original size 900 Crunched size 154
+Project Data Original size 9002 Crunched size 2206
+Project Header Original size 4040 Crunched size 1192
+Panel scorpion_eng_splashscreen Original size 35930 Crunched size 3266
+Panel debug Original size 3680 Crunched size 396
+Project virtual machine (codeblocks) Original size 8060 Crunched size 2390
+Project virtual machine redirects Original size 4 Crunched size 4
 
-Estimated memory usages:
+Codeblocks by compiled size: 
 
-For chip:
-Map gfx (level gfx bundle 2 ): 101120
-Music memory: 0
-BP Buffer memory: 112400
-core sfx/gfx memory: 134600
-Parallax memory: 1800
-
-For other:
-Map cache memory: 0
-Map header cache memory: 0
-Map data memory: 16196
-Map background memory: 2672
-EXE memory: 196116
-vm memory: 8428
-project memory: 11476
-
-Accounted memory chip: 349920
-Accounted memory other: 234888
-Accounted memory total: 584808
+load_level: 890
+01_highway_01: 520
+do_teleport: 362
+flipscreen_smooth: 346
+flipxymove: 306
+01_title_screen_select: 258
+99_debug_info: 232
+set_yresolution: 200
+snap_to_screen: 190
+pre_startup: 188
+flipymove: 174
+00_player_mode: 166
+00_redcar_wheels_spawn: 162
+flipxmove: 158
+load_panel: 146
+pre_quit: 146
+01_level_01: 132
+01_title_screen: 132
+destroy_all_blocks: 124
+00_redcar_kill: 122
+unload_level: 114
+00_spritewrap: 112
+load_panel_bottom: 96
+load_panel_top: 96
+waitforfirehit: 96
+unload_panel: 92
+wrap_screen_bottom: 92
+wrap_screen_right: 92
+01_startup: 92
+wrap_screen_left: 88
+wrap_screen_top: 88
+00_killactorright: 88
+flipscreen: 86
+pre_anim5: 86
+fadeout: 84
+00_killactorleft: 84
+waitforframes: 78
+quit: 66
+destroy_all_actors: 62
+jump_actor: 62
+load_music: 62
+unload_panel_bottom: 62
+unload_panel_top: 62
+load_panel_finish: 56
+00_move_parallax: 56
+destroy_actor: 54
+fadein: 52
+regenerate_screen: 52
+return: 52
+destroy_block: 48
+regenerate_screen_wait: 42
+00_cambounds: 42
+debug_dump: 30
+vm_registers: 26
+vm_constants: 26
+vm_registers_amiga: 26
+debug_breakpoint: 26
+vm_constants_notes: 26
+vm_constants_tile_properties: 26
+startup: 26

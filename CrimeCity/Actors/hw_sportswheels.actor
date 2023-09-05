@@ -3,7 +3,7 @@
   "ClassType": "DefaultClass",
   "DefaultLookDir": "left",
   "Recycle": "Never",
-  "MoveType": "none",
+  "MoveType": "cpu",
   "MaxEntities": 0,
   "NudgeX": 0,
   "NudgeY": 0,
@@ -116,6 +116,10 @@
   "CollType_Right": "block",
   "CollType_Up": "block",
   "CollType_Down": "block",
+  "Player": null,
+  "CanRidePlatform": null,
+  "Camera": null,
+  "AutoScroll": null,
   "Flags": 0,
   "AttackProjectile": null,
   "AutoFire": false,
@@ -144,7 +148,10 @@
     "0",
     "0"
   ],
-  "ControlPort": 0,
+  "ControlPort": 1,
+  "DataVersion": 3,
+  "AutoSpawn": null,
   "TileID": 9,
-  "SuggestedRecycle": "Never"
+  "SuggestedRecycle": "Never",
+  "UpAccelerationName": "Accel Up"
 }

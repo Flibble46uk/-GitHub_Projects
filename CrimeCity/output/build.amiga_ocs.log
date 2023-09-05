@@ -1,0 +1,150 @@
+=== Image optimisations ===
+
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (level gfx bundle 2): 101120
+Music memory (): 0
+BP Buffer memory: 112400
+core sfx/gfx memory: 134600
+Parallax memory: 900
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 13548
+Map background memory: 1484
+EXE memory: 207900
+vm memory: 9150
+project memory: 9470
+
+Accounted memory chip: 349020
+Accounted memory other: 241552
+Accounted memory total: 590572
+
+=== Misc ===
+Maps and Asset Bundles Count: 4
+Maps and Asset Bundles Data Size: 48
+Actor Count: 15
+Actor Data Size: 2820
+Block Count: 41
+Block Data Size: 2788
+Anim5 Count: 0
+Anim5 Data Size: 0
+Sound Count: 1
+Sound Data Size: 24
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 25
+Animations Data Size: 400
+AnimationFrame Count: 56
+AnimationFrame Data Size: 896
+ImageFrames: 53
+ImageFrame Data Size: 2332
+Sprites: 4
+Sprites Data Size: 56
+Attack Data: 1
+Attack Data Size: 66
+Misc data size: 30
+Panel scorpion_eng_splashscreen Original size 35154 Crunched size 3258
+Header data for map highway_01 Original size 7996 Crunched size 388
+Tile data for map highway_01 (mem restrictions:None) Original size 13548 Crunched size 1566
+Background for map highway_01 Original size 1468 Crunched size 262
+Parallax for map highway_01 Original size 900 Crunched size 142
+Header data for map level_01 Original size 7996 Crunched size 284
+Tile data for map level_01 (mem restrictions:None) Original size 13148 Crunched size 3338
+Background for map level_01 Original size 1484 Crunched size 244
+Parallax for map level_01 Original size 900 Crunched size 154
+Header data for map titlescreen Original size 7996 Crunched size 234
+Tile data for map titlescreen (mem restrictions:None) Original size 1948 Crunched size 648
+Background for map titlescreen Original size 1396 Crunched size 168
+Asset bundle 0 (Core project asset bundle) Original size 134600 Crunched size 32222
+Asset bundle 1 (highway_01) Original size 51360 Crunched size 17974
+Asset bundle 2 (level_01) Original size 101120 Crunched size 27168
+Asset bundle 3 (titlescreen) Original size 29600 Crunched size 9896
+Project Header Original size 4032 Crunched size 1188
+Project Data Original size 9470 Crunched size 2226
+Project virtual machine (codeblocks) Original size 9150 Crunched size 2746
+Project virtual machine redirects Original size 4 Crunched size 4
+
+=== Possibly unused animations ===
+hero_crouch_pistol_r
+hero_crouch_pistol_l
+
+=== Possibly unused Actors ===
+dummyplayer
+hw_red_car
+hw_sportswheels
+hw_taxiwheels
+hw_truckwheels_front
+hw_truckwheels_rear1
+hw_truckwheels_rear2
+title_select_arrow
+
+=== Codeblocks by compiled size ===
+load_level: 926
+01_highway_01: 550
+set_yresolution: 448
+do_teleport: 392
+flipscreen_smooth: 346 (Unused?)
+flipxymove: 306 (Unused?)
+pre_startup: 282
+01_title_screen_select: 258
+pause: 252 (Unused?)
+snap_to_screen: 190 (Unused?)
+flipymove: 174 (Unused?)
+00_player_mode: 166
+00_redcar_wheels_spawn: 162
+01_level_01: 162
+01_title_screen: 162
+flipxmove: 158 (Unused?)
+load_panel: 146
+pre_quit: 146
+01_startup: 130
+destroy_all_blocks: 124 (Unused?)
+00_redcar_kill: 122
+pre_load_level: 118
+unload_level: 114
+00_spritewrap: 112
+load_panel_bottom: 96 (Unused?)
+load_panel_top: 96 (Unused?)
+99_debug_info: 96
+waitforfireup: 94
+unload_panel: 92
+wrap_screen_bottom: 92 (Unused?)
+wrap_screen_right: 92 (Unused?)
+waitforfiredown: 90
+wrap_screen_left: 88 (Unused?)
+wrap_screen_top: 88 (Unused?)
+00_killactorright: 88 (Unused?)
+flipscreen: 86 (Unused?)
+pre_anim5: 86 (Unused?)
+waitforfirehit: 86
+fadeout: 84
+00_killactorleft: 84
+waitforframes: 78
+quit: 66 (Unused?)
+destroy_all_actors: 62 (Unused?)
+jump_actor: 62 (Unused?)
+load_music: 62 (Unused?)
+unload_panel_bottom: 62
+unload_panel_top: 62
+00_move_parallax: 62
+fadein: 58
+load_panel_finish: 56
+AUTOGEN_OUTOFSCREEN_00_killactorleft_None_None_None: 56
+AUTOGEN_OUTOFSCREEN_00_cambounds_None_None_None: 56
+destroy_actor: 54
+regenerate_screen: 52
+return: 52 (Unused?)
+destroy_block: 48 (Unused?)
+regenerate_screen_wait: 42
+00_cambounds: 42
+vm_registers: 26 (Unused?)
+vm_constants: 26 (Unused?)
+debug_breakpoint: 26 (Unused?)
+vm_constants_controlbits: 26 (Unused?)
+vm_constants_notes: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)
+vm_constants_platform: 26 (Unused?)
+startup: 26 (Unused?)
