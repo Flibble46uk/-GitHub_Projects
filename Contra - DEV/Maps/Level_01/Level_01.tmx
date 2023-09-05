@@ -1,14 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="128" height="16" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="6" nextobjectid="13">
+<map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="128" height="16" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="8" nextobjectid="13">
   <properties>
     <property name="divert_timer" value="00_handler_level" />
+    <property name="override_palette" type="file" value="" />
     <property name="rainbow_palette" type="file" value="Level_01_Copper.png" />
     <property name="solid_bottom" type="bool" value="false" />
-    <property name="override_palette" type="file" value="" />
   </properties>
   <tileset firstgid="1" source="..\..\Actors.tsx" />
   <tileset firstgid="257" source="..\..\Blocks.tsx" />
   <tileset firstgid="513" source="Level_01.tileset.tsx" />
+  <layer id="7" name="map-1" width="128" height="16">
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1115,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1115,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1115,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1115,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1115,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1115,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1115,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1115,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1115,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1115,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1115,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1115,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1115,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1115,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1115,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1115,1115,1115,1115,1115,1115,1115,1115,1115,1115,1115,1115,1115,1115
+</data>
+    <properties>
+      <property name="amiga_aga" type="bool" value="true" />
+      <property name="foreground" type="bool" value="False" />
+    </properties>
+  </layer>
   <layer id="1" name="map" width="128" height="16">
     <data encoding="csv">
 513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,514,514,514,514,514,514,514,514,514,514,514,514,514,514,514,514,514,514,514,514,514,514,514,514,514,515,516,517,518,519,520,521,522,523,524,517,518,519,520,525,526,514,514,514,514,527,528,529,530,529,530,529,530,529,530,529,530,529,530,529,530,529,530,529,530,529,530,529,530,529,530,529,530,529,530,529,530,529,530,529,530,529,530,529,530,529,530,529,530,529,530,529,530,529,530,529,530,529,530,529,530,529,530,529,530,529,530,529,530,529,531,
@@ -30,8 +54,8 @@
 </data>
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
-      <property name="foreground" type="bool" value="False" />
       <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="false" />
     </properties>
   </layer>
   <layer id="2" name="objects" width="128" height="16">
@@ -55,8 +79,8 @@
 </data>
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
-      <property name="foreground" type="bool" value="False" />
       <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="false" />
     </properties>
   </layer>
   <layer id="3" name="foreground" width="128" height="16">
@@ -80,79 +104,79 @@
 </data>
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
-      <property name="foreground" type="bool" value="True" />
       <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="true" />
     </properties>
   </layer>
   <objectgroup id="5" name="events">
     <object id="3" gid="0" x="1415" y="208" width="0" height="0" template="../../templates/01_reactor.tx">
       <properties>
-        <property name="onexit" type="String" />
-        <property name="divert" type="String" value="" />
-        <property name="eventtype" type="String" value="none" />
+        <property name="divert" value="" />
+        <property name="eventtype" value="none" />
+        <property name="onexit" value="" />
       </properties>
     </object>
     <object id="4" gid="0" x="621" y="155" width="0" height="0" template="../../templates/01_turret_rck.tx">
       <properties>
-        <property name="onexit" type="String" />
-        <property name="divert" type="String" value="" />
-        <property name="eventtype" type="String" value="none" />
+        <property name="divert" value="" />
+        <property name="eventtype" value="none" />
+        <property name="onexit" value="" />
       </properties>
     </object>
     <object id="5" gid="0" x="717" y="115" width="0" height="0" template="../../templates/01_turret_rck.tx">
       <properties>
-        <property name="onexit" type="String" />
-        <property name="divert" type="String" value="" />
-        <property name="eventtype" type="String" value="none" />
+        <property name="divert" value="" />
+        <property name="eventtype" value="none" />
+        <property name="onexit" value="" />
       </properties>
     </object>
     <object id="6" gid="0" x="1293" y="211" width="0" height="0" template="../../templates/01_turret_rck.tx">
       <properties>
-        <property name="onexit" type="String" />
-        <property name="divert" type="String" value="" />
-        <property name="eventtype" type="String" value="none" />
+        <property name="divert" value="" />
+        <property name="eventtype" value="none" />
+        <property name="onexit" value="" />
       </properties>
     </object>
     <object id="7" gid="0" x="1118" y="169" width="0" height="0" template="../../templates/01_turret_grnd.tx">
       <properties>
-        <property name="onexit" type="String" />
-        <property name="divert" type="String" value="" />
-        <property name="eventtype" type="String" value="none" />
+        <property name="divert" value="" />
+        <property name="eventtype" value="none" />
+        <property name="onexit" value="" />
       </properties>
     </object>
     <object id="8" gid="0" x="1146" y="233" width="0" height="0" template="../../templates/01_turret_grnd.tx">
       <properties>
-        <property name="onexit" type="String" />
-        <property name="divert" type="String" value="" />
-        <property name="eventtype" type="String" value="none" />
+        <property name="divert" value="" />
+        <property name="eventtype" value="none" />
+        <property name="onexit" value="" />
       </properties>
     </object>
     <object id="9" gid="0" x="923" y="234" width="0" height="0" template="../../templates/01_enmy_01_run.tx">
       <properties>
-        <property name="onexit" type="String" />
-        <property name="divert" type="String" value="" />
-        <property name="eventtype" type="String" value="none" />
+        <property name="divert" value="" />
+        <property name="eventtype" value="none" />
+        <property name="onexit" value="" />
       </properties>
     </object>
     <object id="10" gid="0" x="1060" y="234" width="0" height="0" template="../../templates/01_enmy_01_run.tx">
       <properties>
-        <property name="onexit" type="String" />
-        <property name="divert" type="String" value="" />
-        <property name="eventtype" type="String" value="none" />
+        <property name="divert" value="" />
+        <property name="eventtype" value="none" />
+        <property name="onexit" value="" />
       </properties>
     </object>
     <object id="11" gid="0" x="1090" y="170" width="0" height="0" template="../../templates/01_enmy_01_run.tx">
       <properties>
-        <property name="onexit" type="String" />
-        <property name="divert" type="String" value="" />
-        <property name="eventtype" type="String" value="none" />
+        <property name="divert" value="" />
+        <property name="eventtype" value="none" />
+        <property name="onexit" value="" />
       </properties>
     </object>
     <object id="12" gid="0" x="1049" y="128" width="0" height="0" template="../../templates/01_enmy_01_run.tx">
       <properties>
-        <property name="onexit" type="String" />
-        <property name="divert" type="String" value="" />
-        <property name="eventtype" type="String" value="none" />
+        <property name="divert" value="" />
+        <property name="eventtype" value="none" />
+        <property name="onexit" value="" />
       </properties>
     </object>
   </objectgroup>
