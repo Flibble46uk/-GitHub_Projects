@@ -1,0 +1,22 @@
+{
+  "OutputSpeed": "PAL_50HZ",
+  "GFXMode": "BP5",
+  "MemorySaver": "None",
+  "EmulatedAmiga": "CD32",
+  "EmulatedFastRam": 0,
+  "WinUAEConfiguration": null,
+  "SpriteMode": "Mode_2_64_Wide",
+  "Uses24BitColor": true,
+  "SpriteColorBank": 6,
+  "SScan2": false,
+  "FMode": 1,
+  "Width": 192,
+  "XOffset": 64,
+  "XFillSize": 16,
+  "YFillSize": 20,
+  "MapCache": false,
+  "DoubleCopper": true,
+  "AllocateMemoryUpfront": true,
+  "NTSC": false,
+  "CrunchMode": "Implode"
+}

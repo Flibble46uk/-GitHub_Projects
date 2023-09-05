@@ -1,14 +1,10 @@
 {
-  "TargetPlatform": "amiga_aga",
+  "TargetPlatform": "amiga_aga_cd32",
   "Talkpad": null,
   "Talkpad_OnBottom": false,
   "StartupCodeBlock": "!startup",
   "Recompile": true,
   "DebugMode": false,
-  "Fire1Jump": false,
-  "Fire2Jump": true,
-  "UpJump": true,
-  "JumpOnHold": false,
   "DataVersion": 3,
   "Commands": [
     {
@@ -94,7 +90,20 @@
   ],
   "AnimationMetaData": {},
   "Anim5MetaData": {},
-  "SoundMetaData": {},
+  "SoundMetaData": {
+    "music1": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": true,
+      "Priority": 0
+    },
+    "outrun": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": true,
+      "Priority": 0
+    }
+  },
   "MMLMetaData": {},
   "NumberFontMetaData": {},
   "FontMetaData": {},

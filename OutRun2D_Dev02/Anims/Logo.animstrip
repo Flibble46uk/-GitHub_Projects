@@ -1,24 +1,28 @@
 {
   "Frames": [
     {
-      "Path": "OutRun_Logo.png",
       "Duration": 5,
-      "HandleX": 0,
-      "HandleY": 0,
-      "XFlipped": false,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "OnlySprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "OutRun_Logo.png",
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "PaletteLine": 0,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "OnlySprite",
-      "HighPriority": false
+      "HandleX": -32,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "OutRun_Logo",
+      "IsBlank": false
     }
   ],
   "PreventMovement": false,
@@ -28,5 +32,6 @@
   "LinkedMap": null,
   "OnFinish": null,
   "AutoFlip": false,
-  "Streamed": true
+  "Streamed": true,
+  "PatternBuffer": 0
 }

@@ -2,6 +2,7 @@
 <map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="20" height="512" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="16" nextobjectid="4">
   <properties>
     <property name="rainbow_palette" type="file" value="Copper.png" />
+    <property name="first_copper" type="int" value="102" />
   </properties>
   <tileset firstgid="1" source="..\Actors.tsx" />
   <tileset firstgid="257" source="..\Blocks.tsx" />
@@ -526,6 +527,7 @@
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
+      <property name="amiga_aga_cd32" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="15" name="Terrain2" width="20" height="512">
@@ -1048,6 +1050,7 @@
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
+      <property name="amiga_aga_cd32" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="13" name="Water" width="20" height="512">
@@ -1570,6 +1573,7 @@
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
+      <property name="amiga_aga_cd32" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="7" name="Road" width="20" height="512">
@@ -2092,6 +2096,7 @@
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
+      <property name="amiga_aga_cd32" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="14" name="road2" width="20" height="512">
@@ -2614,6 +2619,7 @@
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
+      <property name="amiga_aga_cd32" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="8" name="Shadows" width="20" height="512">
@@ -3136,6 +3142,7 @@
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
+      <property name="amiga_aga_cd32" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="12" name="Shadows2" width="20" height="512">
@@ -3658,6 +3665,7 @@
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
+      <property name="amiga_aga_cd32" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="9" name="Decorations" width="20" height="512">
@@ -4180,6 +4188,7 @@
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
+      <property name="amiga_aga_cd32" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="10" name="Decorations2" width="20" height="512">
@@ -4702,6 +4711,7 @@
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
+      <property name="amiga_aga_cd32" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="11" name="Decorations3" width="20" height="512">
@@ -5224,6 +5234,7 @@
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
+      <property name="amiga_aga_cd32" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="2" name="blocks" width="20" height="512">
@@ -5746,6 +5757,7 @@
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
+      <property name="amiga_aga_cd32" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="3" name="actors" width="20" height="512">
@@ -6268,6 +6280,7 @@
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
+      <property name="amiga_aga_cd32" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="4" name="foreground" width="20" height="512">
@@ -6790,6 +6803,7 @@
       <property name="foreground" type="bool" value="true" />
       <property name="megadrive" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
+      <property name="amiga_aga_cd32" type="bool" value="true" />
     </properties>
   </layer>
   <objectgroup id="6" name="events">
