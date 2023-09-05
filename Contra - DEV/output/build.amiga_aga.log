@@ -15,12 +15,12 @@ Map header cache memory: 0
 Map data memory: 11904
 Map background memory: 1396
 EXE memory: 207900
-vm memory: 13656
+vm memory: 13616
 project memory: 17164
 
 Accounted memory chip: 503176
-Accounted memory other: 252020
-Accounted memory total: 755196
+Accounted memory other: 251980
+Accounted memory total: 755156
 
 === Misc ===
 Maps and Asset Bundles Count: 2
@@ -49,14 +49,14 @@ Misc data size: 58
 Panel scorpion_eng_splashscreen Original size 35154 Crunched size 3258
 Panel title_screen Original size 38494 Crunched size 9632
 Panel top_panel Original size 2878 Crunched size 258
-Header data for map level_01 Original size 7996 Crunched size 676
+Header data for map level_01 Original size 7996 Crunched size 674
 Tile data for map level_01 (mem restrictions:None) Original size 11904 Crunched size 2738
 Background for map level_01 Original size 1396 Crunched size 110
 Asset bundle 0 (Core project asset bundle) Original size 228104 Crunched size 76396
 Asset bundle 1 (level_01) Original size 133952 Crunched size 63862
 Project Header Original size 4032 Crunched size 1192
-Project Data Original size 17164 Crunched size 4690
-Project virtual machine (codeblocks) Original size 13656 Crunched size 3592
+Project Data Original size 17164 Crunched size 4692
+Project virtual machine (codeblocks) Original size 13616 Crunched size 3572
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -116,7 +116,6 @@ pre_quit: 146
 destroy_all_blocks: 124 (Unused?)
 pre_load_level: 118
 unload_level: 114
-00_handler_level: 98
 load_panel_bottom: 96
 load_panel_top: 96 (Unused?)
 waitforfireup: 94
@@ -150,6 +149,7 @@ unload_panel_top: 62
 AUTOGEN_OUTOFSCREEN_None_00_leave_screen_None_None: 60
 fadein: 58
 !!flame_test: 58
+00_handler_level: 58
 load_panel_finish: 56
 AUTOGEN_OUTOFSCREEN_destroy_actor_None_None_None: 56
 AUTOGEN_OUTOFSCREEN_00_leave_screen_None_None_None: 56
