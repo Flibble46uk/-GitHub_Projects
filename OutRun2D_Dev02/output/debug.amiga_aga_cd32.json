@@ -2412,241 +2412,262 @@
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "LastPlayedSoundFrames",
+      "Name": "Math_X2",
       "DefaultValue": "0",
       "Index": 203,
       "MemoryOffset": 203
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "SpawnArea_X",
+      "Name": "Math_Y2",
       "DefaultValue": "0",
       "Index": 204,
       "MemoryOffset": 204
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "SpawnArea_Y",
+      "Name": "LastPlayedSoundFrames",
       "DefaultValue": "0",
       "Index": 205,
       "MemoryOffset": 205
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "SpawnArea_Width",
+      "Name": "SpawnArea_X",
       "DefaultValue": "0",
       "Index": 206,
       "MemoryOffset": 206
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "SpawnArea_Height",
+      "Name": "SpawnArea_Y",
       "DefaultValue": "0",
       "Index": 207,
       "MemoryOffset": 207
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "RecycleDistance",
-      "DefaultValue": "16",
+      "Name": "SpawnArea_Width",
+      "DefaultValue": "0",
       "Index": 208,
       "MemoryOffset": 208
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Breakpoint",
+      "Name": "SpawnArea_Height",
       "DefaultValue": "0",
       "Index": 209,
       "MemoryOffset": 209
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Autonum",
-      "DefaultValue": "0x8000",
+      "Name": "RecycleDistance",
+      "DefaultValue": "16",
       "Index": 210,
       "MemoryOffset": 210
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Seed1",
+      "Name": "Breakpoint",
       "DefaultValue": "0",
       "Index": 211,
       "MemoryOffset": 211
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Seed2",
-      "DefaultValue": "0",
+      "Name": "Autonum",
+      "DefaultValue": "0x8000",
       "Index": 212,
       "MemoryOffset": 212
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Seed3",
+      "Name": "Seed1",
       "DefaultValue": "0",
       "Index": 213,
       "MemoryOffset": 213
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Seed4",
+      "Name": "Seed2",
       "DefaultValue": "0",
       "Index": 214,
       "MemoryOffset": 214
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "DrawClipBottom",
+      "Name": "Seed3",
       "DefaultValue": "0",
       "Index": 215,
       "MemoryOffset": 215
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "ForegroundZ",
-      "DefaultValue": "1000",
+      "Name": "Seed4",
+      "DefaultValue": "0",
       "Index": 216,
       "MemoryOffset": 216
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "OptionMoveCooldown",
-      "DefaultValue": "25",
+      "Name": "DrawClipBottom",
+      "DefaultValue": "0",
       "Index": 217,
       "MemoryOffset": 217
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "KeyboardRawCode",
-      "DefaultValue": "0",
+      "Name": "ForegroundZ",
+      "DefaultValue": "1000",
       "Index": 218,
       "MemoryOffset": 218
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "ControlMode",
-      "DefaultValue": "0",
+      "Name": "OptionMoveCooldown",
+      "DefaultValue": "25",
       "Index": 219,
       "MemoryOffset": 219
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "HighColor",
+      "Name": "KeyboardRawCode",
       "DefaultValue": "0",
       "Index": 220,
       "MemoryOffset": 220
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "AGAFMode",
+      "Name": "ControlMode",
       "DefaultValue": "0",
       "Index": 221,
       "MemoryOffset": 221
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "SpecialScroll",
+      "Name": "HighColor",
       "DefaultValue": "0",
       "Index": 222,
       "MemoryOffset": 222
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "BPLCon3",
-      "DefaultValue": "0xC00",
+      "Name": "AGAFMode",
+      "DefaultValue": "0",
       "Index": 223,
       "MemoryOffset": 223
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Param",
+      "Name": "SpecialScroll",
       "DefaultValue": "0",
       "Index": 224,
       "MemoryOffset": 224
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "IsAGA",
-      "DefaultValue": "0",
+      "Name": "BPLCon3",
+      "DefaultValue": "0xC00",
       "Index": 225,
       "MemoryOffset": 225
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "IsNTSC",
+      "Name": "Param",
       "DefaultValue": "0",
       "Index": 226,
       "MemoryOffset": 226
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "IsFloppy",
+      "Name": "IsAGA",
       "DefaultValue": "0",
       "Index": 227,
       "MemoryOffset": 227
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "CDTracks",
+      "Name": "IsNTSC",
       "DefaultValue": "0",
       "Index": 228,
       "MemoryOffset": 228
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "ChipRam",
+      "Name": "IsFloppy",
       "DefaultValue": "0",
       "Index": 229,
       "MemoryOffset": 229
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "OtherRam",
+      "Name": "CDTracks",
       "DefaultValue": "0",
       "Index": 230,
       "MemoryOffset": 230
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Processor",
+      "Name": "ChipRam",
       "DefaultValue": "0",
       "Index": 231,
       "MemoryOffset": 231
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "ROM",
+      "Name": "OtherRam",
       "DefaultValue": "0",
       "Index": 232,
       "MemoryOffset": 232
     },
     {
-      "CodeBlock": "!startup",
-      "Name": "paintcolour",
+      "CodeBlock": "vm_registers",
+      "Name": "Processor",
       "DefaultValue": "0",
       "Index": 233,
       "MemoryOffset": 233
     },
     {
-      "CodeBlock": "!startup",
-      "Name": "paintcolourold",
+      "CodeBlock": "vm_registers",
+      "Name": "ROM",
       "DefaultValue": "0",
       "Index": 234,
       "MemoryOffset": 234
     },
     {
-      "CodeBlock": "!startup",
-      "Name": "gear",
+      "CodeBlock": "vm_registers",
+      "Name": "E8Trigger",
       "DefaultValue": "0",
       "Index": 235,
       "MemoryOffset": 235
     },
     {
-      "CodeBlock": "00_navigate",
-      "Name": "blcktype",
+      "CodeBlock": "!startup",
+      "Name": "paintcolour",
       "DefaultValue": "0",
       "Index": 236,
       "MemoryOffset": 236
+    },
+    {
+      "CodeBlock": "!startup",
+      "Name": "paintcolourold",
+      "DefaultValue": "0",
+      "Index": 237,
+      "MemoryOffset": 237
+    },
+    {
+      "CodeBlock": "!startup",
+      "Name": "gear",
+      "DefaultValue": "0",
+      "Index": 238,
+      "MemoryOffset": 238
+    },
+    {
+      "CodeBlock": "00_navigate",
+      "Name": "blcktype",
+      "DefaultValue": "0",
+      "Index": 239,
+      "MemoryOffset": 239
     }
   ],
   "Lines": [
@@ -5508,2216 +5529,3716 @@
     },
     {
       "CodeBlock": "!startup",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 6542,
-      "Description": "Raw expression 'outrun'"
-    },
-    {
-      "CodeBlock": "!startup",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 6548,
-      "Description": "Core operation'CDMusic'"
-    },
-    {
-      "CodeBlock": "!startup",
       "CodeBlockLine": 11,
-      "MemoryOffset": 6552,
+      "MemoryOffset": 6542,
       "Description": "Set 'musicvol' to '256'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 11,
-      "MemoryOffset": 6558,
+      "MemoryOffset": 6548,
       "Description": "Core operation'MusicVolReset'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 14,
-      "MemoryOffset": 6562,
+      "MemoryOffset": 6552,
       "Description": "Set 'red' to '189'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 14,
-      "MemoryOffset": 6568,
+      "MemoryOffset": 6558,
       "Description": "Set 'green' to '206'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 14,
-      "MemoryOffset": 6574,
+      "MemoryOffset": 6564,
       "Description": "Set 'blue' to '140'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 14,
-      "MemoryOffset": 6580,
+      "MemoryOffset": 6570,
       "Description": "Raw expression '14'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 14,
-      "MemoryOffset": 6586,
+      "MemoryOffset": 6576,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 15,
-      "MemoryOffset": 6590,
+      "MemoryOffset": 6580,
       "Description": "Set 'red' to '181'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 15,
-      "MemoryOffset": 6596,
+      "MemoryOffset": 6586,
       "Description": "Set 'green' to '197'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 15,
-      "MemoryOffset": 6602,
+      "MemoryOffset": 6592,
       "Description": "Set 'blue' to '132'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 15,
-      "MemoryOffset": 6608,
+      "MemoryOffset": 6598,
       "Description": "Raw expression '15'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 15,
-      "MemoryOffset": 6614,
+      "MemoryOffset": 6604,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 18,
-      "MemoryOffset": 6618,
+      "MemoryOffset": 6608,
       "Description": "Set 'red' to '239'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 18,
-      "MemoryOffset": 6624,
+      "MemoryOffset": 6614,
       "Description": "Set 'green' to '222'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 18,
-      "MemoryOffset": 6630,
+      "MemoryOffset": 6620,
       "Description": "Set 'blue' to '206'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 18,
-      "MemoryOffset": 6636,
+      "MemoryOffset": 6626,
       "Description": "Raw expression '12'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 18,
-      "MemoryOffset": 6642,
+      "MemoryOffset": 6632,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 19,
-      "MemoryOffset": 6646,
+      "MemoryOffset": 6636,
       "Description": "Set 'red' to '230'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 19,
-      "MemoryOffset": 6652,
+      "MemoryOffset": 6642,
       "Description": "Set 'green' to '214'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 19,
-      "MemoryOffset": 6658,
+      "MemoryOffset": 6648,
       "Description": "Set 'blue' to '197'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 19,
-      "MemoryOffset": 6664,
+      "MemoryOffset": 6654,
       "Description": "Raw expression '13'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 19,
-      "MemoryOffset": 6670,
+      "MemoryOffset": 6660,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "!startup",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 6674,
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6664,
+      "Description": "Set 'red' to '230'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6670,
+      "Description": "Set 'green' to '247'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6676,
+      "Description": "Set 'blue' to '247'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6682,
+      "Description": "Raw expression '97'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6688,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6692,
+      "Description": "Set 'red' to '230'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6698,
+      "Description": "Set 'green' to '230'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6704,
+      "Description": "Set 'blue' to '247'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6710,
+      "Description": "Raw expression '98'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6716,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6720,
+      "Description": "Set 'red' to '197'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6726,
+      "Description": "Set 'green' to '197'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6732,
+      "Description": "Set 'blue' to '197'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6738,
+      "Description": "Raw expression '99'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6744,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6748,
+      "Description": "Set 'red' to '181'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6754,
+      "Description": "Set 'green' to '164'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6760,
+      "Description": "Set 'blue' to '181'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6766,
+      "Description": "Raw expression '100'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6772,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6776,
+      "Description": "Set 'red' to '230'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6782,
+      "Description": "Set 'green' to '197'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6788,
+      "Description": "Set 'blue' to '247'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6794,
+      "Description": "Raw expression '101'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6800,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6804,
+      "Description": "Set 'red' to '212'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6810,
+      "Description": "Set 'green' to '0'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6816,
+      "Description": "Set 'blue' to '209'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6822,
+      "Description": "Raw expression '102'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6828,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6832,
+      "Description": "Set 'red' to '214'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6838,
+      "Description": "Set 'green' to '0'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6844,
+      "Description": "Set 'blue' to '0'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6850,
+      "Description": "Raw expression '103'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6856,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6860,
+      "Description": "Set 'red' to '247'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6866,
+      "Description": "Set 'green' to '0'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6872,
+      "Description": "Set 'blue' to '0'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6878,
+      "Description": "Raw expression '104'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6884,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6888,
+      "Description": "Set 'red' to '230'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6894,
+      "Description": "Set 'green' to '214'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6900,
+      "Description": "Set 'blue' to '164'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6906,
+      "Description": "Raw expression '105'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6912,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6916,
+      "Description": "Set 'red' to '0'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6922,
+      "Description": "Set 'green' to '230'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6928,
+      "Description": "Set 'blue' to '181'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6934,
+      "Description": "Raw expression '106'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6940,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6944,
+      "Description": "Set 'red' to '0'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6950,
+      "Description": "Set 'green' to '181'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6956,
+      "Description": "Set 'blue' to '115'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6962,
+      "Description": "Raw expression '107'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6968,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6972,
+      "Description": "Set 'red' to '0'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6978,
+      "Description": "Set 'green' to '148'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6984,
+      "Description": "Set 'blue' to '132'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6990,
+      "Description": "Raw expression '108'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 6996,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7000,
+      "Description": "Set 'red' to '0'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7006,
+      "Description": "Set 'green' to '197'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7012,
+      "Description": "Set 'blue' to '230'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7018,
+      "Description": "Raw expression '109'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7024,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7028,
+      "Description": "Set 'red' to '0'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7034,
+      "Description": "Set 'green' to '230'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7040,
+      "Description": "Set 'blue' to '230'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7046,
+      "Description": "Raw expression '110'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7052,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7056,
+      "Description": "Set 'red' to '0'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7062,
+      "Description": "Set 'green' to '0'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7068,
+      "Description": "Set 'blue' to '0'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7074,
+      "Description": "Raw expression '111'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7080,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 24,
+      "MemoryOffset": 7084,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "!startup",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 6680,
+      "CodeBlockLine": 24,
+      "MemoryOffset": 7090,
       "Description": "Raw expression 'outrun_logo'"
     },
     {
       "CodeBlock": "!startup",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 6686,
-      "Description": "Core operation'ActorSpawn'"
-    },
-    {
-      "CodeBlock": "!startup",
-      "CodeBlockLine": 22,
-      "MemoryOffset": 6690,
-      "Description": "Raw expression '0'"
-    },
-    {
-      "CodeBlock": "!startup",
-      "CodeBlockLine": 22,
-      "MemoryOffset": 6696,
-      "Description": "Raw expression 'fire_start'"
-    },
-    {
-      "CodeBlock": "!startup",
-      "CodeBlockLine": 22,
-      "MemoryOffset": 6702,
+      "CodeBlockLine": 24,
+      "MemoryOffset": 7096,
       "Description": "Core operation'ActorSpawn'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 25,
-      "MemoryOffset": 6706,
+      "MemoryOffset": 7100,
+      "Description": "Raw expression '0'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 7106,
+      "Description": "Raw expression 'fire_start'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 7112,
+      "Description": "Core operation'ActorSpawn'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 26,
+      "MemoryOffset": 7116,
       "Description": "GOSUB TO 'WAITFORFIREHIT'"
     },
     {
       "CodeBlock": "!startup",
-      "CodeBlockLine": 26,
-      "MemoryOffset": 6726,
+      "CodeBlockLine": 27,
+      "MemoryOffset": 7136,
       "Description": "Core operation'Foreach'"
     },
     {
       "CodeBlock": "!startup",
-      "CodeBlockLine": 26,
-      "MemoryOffset": 6734,
-      "Description": "If actor_type == outrun_logo ELSE GOTO 00006762"
+      "CodeBlockLine": 27,
+      "MemoryOffset": 7144,
+      "Description": "If actor_type == outrun_logo ELSE GOTO 00007172"
     },
     {
       "CodeBlock": "!startup",
-      "CodeBlockLine": 26,
-      "MemoryOffset": 6756,
+      "CodeBlockLine": 27,
+      "MemoryOffset": 7166,
       "Description": "GOTO 'DESTROY_ACTOR'"
     },
     {
       "CodeBlock": "!startup",
-      "CodeBlockLine": 27,
-      "MemoryOffset": 6764,
+      "CodeBlockLine": 31,
+      "MemoryOffset": 7174,
+      "Description": "GOSUB TO '00_MUSIC_SELECT'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 32,
+      "MemoryOffset": 7194,
       "Description": "Core operation'Foreach'"
     },
     {
       "CodeBlock": "!startup",
-      "CodeBlockLine": 27,
-      "MemoryOffset": 6772,
-      "Description": "If actor_type == fire_start ELSE GOTO 00006800"
+      "CodeBlockLine": 32,
+      "MemoryOffset": 7202,
+      "Description": "If actor_type == fire_start ELSE GOTO 00007230"
     },
     {
       "CodeBlock": "!startup",
-      "CodeBlockLine": 27,
-      "MemoryOffset": 6794,
+      "CodeBlockLine": 32,
+      "MemoryOffset": 7224,
       "Description": "GOTO 'DESTROY_ACTOR'"
     },
     {
       "CodeBlock": "00_change_gear",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6828,
+      "MemoryOffset": 7258,
       "Description": "00_CHANGE_GEAR"
     },
     {
       "CodeBlock": "00_change_gear",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6828,
+      "MemoryOffset": 7258,
       "Description": "Set 'gear' to '1-gear'"
     },
     {
       "CodeBlock": "00_change_gear",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6838,
+      "MemoryOffset": 7268,
       "Description": "If gear == 0"
     },
     {
       "CodeBlock": "00_change_gear",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6850,
+      "MemoryOffset": 7280,
       "Description": "Raw expression '4'"
     },
     {
       "CodeBlock": "00_change_gear",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6856,
+      "MemoryOffset": 7286,
       "Description": "Raw expression 'outrun_player'"
     },
     {
       "CodeBlock": "00_change_gear",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6862,
+      "MemoryOffset": 7292,
       "Description": "Raw expression 'True'"
     },
     {
       "CodeBlock": "00_change_gear",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6868,
+      "MemoryOffset": 7298,
       "Description": "Raw expression 'True'"
     },
     {
       "CodeBlock": "00_change_gear",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6874,
+      "MemoryOffset": 7304,
       "Description": "Core operation'ActorSetType'"
     },
     {
       "CodeBlock": "00_change_gear",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6878,
-      "Description": "GOTO '00006924'"
+      "MemoryOffset": 7308,
+      "Description": "GOTO '00007354'"
     },
     {
       "CodeBlock": "00_change_gear",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6884,
-      "Description": "If gear == 1 ELSE GOTO 00006924"
+      "MemoryOffset": 7314,
+      "Description": "If gear == 1 ELSE GOTO 00007354"
     },
     {
       "CodeBlock": "00_change_gear",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6896,
+      "MemoryOffset": 7326,
       "Description": "Raw expression '4'"
     },
     {
       "CodeBlock": "00_change_gear",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6902,
+      "MemoryOffset": 7332,
       "Description": "Raw expression 'outrun_player_hi'"
     },
     {
       "CodeBlock": "00_change_gear",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6908,
+      "MemoryOffset": 7338,
       "Description": "Raw expression 'True'"
     },
     {
       "CodeBlock": "00_change_gear",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6914,
+      "MemoryOffset": 7344,
       "Description": "Raw expression 'True'"
     },
     {
       "CodeBlock": "00_change_gear",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6920,
+      "MemoryOffset": 7350,
       "Description": "Core operation'ActorSetType'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6950,
+      "MemoryOffset": 7380,
       "Description": "00_COLOUR_BEETLE"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6950,
-      "Description": "If paintcolour == paintcolourold ELSE GOTO 00006986"
+      "MemoryOffset": 7380,
+      "Description": "If paintcolour == paintcolourold ELSE GOTO 00007416"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6964,
+      "MemoryOffset": 7394,
       "Description": "Set 'dice' to '5'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6970,
+      "MemoryOffset": 7400,
       "Description": "Core operation'RollDice'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6974,
+      "MemoryOffset": 7404,
       "Description": "Set 'paintcolour' to 'dice'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6980,
-      "Description": "GOTO '00006950'"
+      "MemoryOffset": 7410,
+      "Description": "GOTO '00007380'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6986,
+      "MemoryOffset": 7416,
       "Description": "Set 'paintcolourold' to 'paintcolour'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 6,
-      "MemoryOffset": 6992,
+      "MemoryOffset": 7422,
       "Description": "If paintcolour == 1"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 8,
-      "MemoryOffset": 7004,
+      "MemoryOffset": 7434,
       "Description": "Set 'red' to '141'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 8,
-      "MemoryOffset": 7010,
+      "MemoryOffset": 7440,
       "Description": "Set 'green' to '235'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 8,
-      "MemoryOffset": 7016,
+      "MemoryOffset": 7446,
       "Description": "Set 'blue' to '235'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 8,
-      "MemoryOffset": 7022,
+      "MemoryOffset": 7452,
       "Description": "Raw expression '23'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 8,
-      "MemoryOffset": 7028,
+      "MemoryOffset": 7458,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 9,
-      "MemoryOffset": 7032,
+      "MemoryOffset": 7462,
       "Description": "Set 'red' to '113'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 9,
-      "MemoryOffset": 7038,
+      "MemoryOffset": 7468,
       "Description": "Set 'green' to '187'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 9,
-      "MemoryOffset": 7044,
+      "MemoryOffset": 7474,
       "Description": "Set 'blue' to '187'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 9,
-      "MemoryOffset": 7050,
+      "MemoryOffset": 7480,
       "Description": "Raw expression '24'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 9,
-      "MemoryOffset": 7056,
+      "MemoryOffset": 7486,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 10,
-      "MemoryOffset": 7060,
+      "MemoryOffset": 7490,
       "Description": "Set 'red' to '44'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 10,
-      "MemoryOffset": 7066,
+      "MemoryOffset": 7496,
       "Description": "Set 'green' to '144'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 10,
-      "MemoryOffset": 7072,
+      "MemoryOffset": 7502,
       "Description": "Set 'blue' to '144'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 10,
-      "MemoryOffset": 7078,
+      "MemoryOffset": 7508,
       "Description": "Raw expression '25'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 10,
-      "MemoryOffset": 7084,
+      "MemoryOffset": 7514,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 11,
-      "MemoryOffset": 7088,
-      "Description": "GOTO '00007496'"
+      "MemoryOffset": 7518,
+      "Description": "GOTO '00007926'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 11,
-      "MemoryOffset": 7094,
+      "MemoryOffset": 7524,
       "Description": "If paintcolour == 2"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 13,
-      "MemoryOffset": 7106,
+      "MemoryOffset": 7536,
       "Description": "Set 'red' to '235'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 13,
-      "MemoryOffset": 7112,
+      "MemoryOffset": 7542,
       "Description": "Set 'green' to '235'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 13,
-      "MemoryOffset": 7118,
+      "MemoryOffset": 7548,
       "Description": "Set 'blue' to '141'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 13,
-      "MemoryOffset": 7124,
+      "MemoryOffset": 7554,
       "Description": "Raw expression '23'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 13,
-      "MemoryOffset": 7130,
+      "MemoryOffset": 7560,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 14,
-      "MemoryOffset": 7134,
+      "MemoryOffset": 7564,
       "Description": "Set 'red' to '164'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 14,
-      "MemoryOffset": 7140,
+      "MemoryOffset": 7570,
       "Description": "Set 'green' to '164'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 14,
-      "MemoryOffset": 7146,
+      "MemoryOffset": 7576,
       "Description": "Set 'blue' to '99'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 14,
-      "MemoryOffset": 7152,
+      "MemoryOffset": 7582,
       "Description": "Raw expression '24'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 14,
-      "MemoryOffset": 7158,
+      "MemoryOffset": 7588,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 15,
-      "MemoryOffset": 7162,
+      "MemoryOffset": 7592,
       "Description": "Set 'red' to '141'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 15,
-      "MemoryOffset": 7168,
+      "MemoryOffset": 7598,
       "Description": "Set 'green' to '141'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 15,
-      "MemoryOffset": 7174,
+      "MemoryOffset": 7604,
       "Description": "Set 'blue' to '85'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 15,
-      "MemoryOffset": 7180,
+      "MemoryOffset": 7610,
       "Description": "Raw expression '25'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 15,
-      "MemoryOffset": 7186,
+      "MemoryOffset": 7616,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 16,
-      "MemoryOffset": 7190,
-      "Description": "GOTO '00007496'"
+      "MemoryOffset": 7620,
+      "Description": "GOTO '00007926'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 16,
-      "MemoryOffset": 7196,
+      "MemoryOffset": 7626,
       "Description": "If paintcolour == 3"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 18,
-      "MemoryOffset": 7208,
+      "MemoryOffset": 7638,
       "Description": "Set 'red' to '230'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 18,
-      "MemoryOffset": 7214,
+      "MemoryOffset": 7644,
       "Description": "Set 'green' to '133'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 18,
-      "MemoryOffset": 7220,
+      "MemoryOffset": 7650,
       "Description": "Set 'blue' to '215'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 18,
-      "MemoryOffset": 7226,
+      "MemoryOffset": 7656,
       "Description": "Raw expression '23'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 18,
-      "MemoryOffset": 7232,
+      "MemoryOffset": 7662,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 19,
-      "MemoryOffset": 7236,
+      "MemoryOffset": 7666,
       "Description": "Set 'red' to '205'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 19,
-      "MemoryOffset": 7242,
+      "MemoryOffset": 7672,
       "Description": "Set 'green' to '112'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 19,
-      "MemoryOffset": 7248,
+      "MemoryOffset": 7678,
       "Description": "Set 'blue' to '186'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 19,
-      "MemoryOffset": 7254,
+      "MemoryOffset": 7684,
       "Description": "Raw expression '24'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 19,
-      "MemoryOffset": 7260,
+      "MemoryOffset": 7690,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 20,
-      "MemoryOffset": 7264,
+      "MemoryOffset": 7694,
       "Description": "Set 'red' to '154'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 20,
-      "MemoryOffset": 7270,
+      "MemoryOffset": 7700,
       "Description": "Set 'green' to '71'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 20,
-      "MemoryOffset": 7276,
+      "MemoryOffset": 7706,
       "Description": "Set 'blue' to '126'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 20,
-      "MemoryOffset": 7282,
+      "MemoryOffset": 7712,
       "Description": "Raw expression '25'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 20,
-      "MemoryOffset": 7288,
+      "MemoryOffset": 7718,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 21,
-      "MemoryOffset": 7292,
-      "Description": "GOTO '00007496'"
+      "MemoryOffset": 7722,
+      "Description": "GOTO '00007926'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 21,
-      "MemoryOffset": 7298,
+      "MemoryOffset": 7728,
       "Description": "If paintcolour == 4"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 23,
-      "MemoryOffset": 7310,
+      "MemoryOffset": 7740,
       "Description": "Set 'red' to '164'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 23,
-      "MemoryOffset": 7316,
+      "MemoryOffset": 7746,
       "Description": "Set 'green' to '164'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 23,
-      "MemoryOffset": 7322,
+      "MemoryOffset": 7752,
       "Description": "Set 'blue' to '255'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 23,
-      "MemoryOffset": 7328,
+      "MemoryOffset": 7758,
       "Description": "Raw expression '23'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 23,
-      "MemoryOffset": 7334,
+      "MemoryOffset": 7764,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 24,
-      "MemoryOffset": 7338,
+      "MemoryOffset": 7768,
       "Description": "Set 'red' to '99'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 24,
-      "MemoryOffset": 7344,
+      "MemoryOffset": 7774,
       "Description": "Set 'green' to '99'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 24,
-      "MemoryOffset": 7350,
+      "MemoryOffset": 7780,
       "Description": "Set 'blue' to '197'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 24,
-      "MemoryOffset": 7356,
+      "MemoryOffset": 7786,
       "Description": "Raw expression '24'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 24,
-      "MemoryOffset": 7362,
+      "MemoryOffset": 7792,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 25,
-      "MemoryOffset": 7366,
+      "MemoryOffset": 7796,
       "Description": "Set 'red' to '66'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 25,
-      "MemoryOffset": 7372,
+      "MemoryOffset": 7802,
       "Description": "Set 'green' to '66'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 25,
-      "MemoryOffset": 7378,
+      "MemoryOffset": 7808,
       "Description": "Set 'blue' to '164'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 25,
-      "MemoryOffset": 7384,
+      "MemoryOffset": 7814,
       "Description": "Raw expression '25'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 25,
-      "MemoryOffset": 7390,
+      "MemoryOffset": 7820,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 26,
-      "MemoryOffset": 7394,
-      "Description": "GOTO '00007496'"
+      "MemoryOffset": 7824,
+      "Description": "GOTO '00007926'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 26,
-      "MemoryOffset": 7400,
-      "Description": "If paintcolour == 5 ELSE GOTO 00007496"
+      "MemoryOffset": 7830,
+      "Description": "If paintcolour == 5 ELSE GOTO 00007926"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 28,
-      "MemoryOffset": 7412,
+      "MemoryOffset": 7842,
       "Description": "Set 'red' to '132'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 28,
-      "MemoryOffset": 7418,
+      "MemoryOffset": 7848,
       "Description": "Set 'green' to '181'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 28,
-      "MemoryOffset": 7424,
+      "MemoryOffset": 7854,
       "Description": "Set 'blue' to '99'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 28,
-      "MemoryOffset": 7430,
+      "MemoryOffset": 7860,
       "Description": "Raw expression '23'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 28,
-      "MemoryOffset": 7436,
+      "MemoryOffset": 7866,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 29,
-      "MemoryOffset": 7440,
+      "MemoryOffset": 7870,
       "Description": "Set 'red' to '66'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 29,
-      "MemoryOffset": 7446,
+      "MemoryOffset": 7876,
       "Description": "Set 'green' to '148'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 29,
-      "MemoryOffset": 7452,
+      "MemoryOffset": 7882,
       "Description": "Set 'blue' to '66'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 29,
-      "MemoryOffset": 7458,
+      "MemoryOffset": 7888,
       "Description": "Raw expression '24'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 29,
-      "MemoryOffset": 7464,
+      "MemoryOffset": 7894,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 30,
-      "MemoryOffset": 7468,
+      "MemoryOffset": 7898,
       "Description": "Set 'red' to '49'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 30,
-      "MemoryOffset": 7474,
+      "MemoryOffset": 7904,
       "Description": "Set 'green' to '82'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 30,
-      "MemoryOffset": 7480,
+      "MemoryOffset": 7910,
       "Description": "Set 'blue' to '49'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 30,
-      "MemoryOffset": 7486,
+      "MemoryOffset": 7916,
       "Description": "Raw expression '25'"
     },
     {
       "CodeBlock": "00_colour_beetle",
       "CodeBlockLine": 30,
-      "MemoryOffset": 7492,
+      "MemoryOffset": 7922,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 0,
-      "MemoryOffset": 7522,
+      "MemoryOffset": 7952,
       "Description": "00_COLOUR_PORSCHE"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7522,
-      "Description": "If paintcolour == paintcolourold ELSE GOTO 00007558"
+      "MemoryOffset": 7952,
+      "Description": "If paintcolour == paintcolourold ELSE GOTO 00007988"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7536,
+      "MemoryOffset": 7966,
       "Description": "Set 'dice' to '5'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7542,
+      "MemoryOffset": 7972,
       "Description": "Core operation'RollDice'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7546,
+      "MemoryOffset": 7976,
       "Description": "Set 'paintcolour' to 'dice'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7552,
-      "Description": "GOTO '00007522'"
+      "MemoryOffset": 7982,
+      "Description": "GOTO '00007952'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 4,
-      "MemoryOffset": 7558,
+      "MemoryOffset": 7988,
       "Description": "Set 'paintcolourold' to 'paintcolour'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 6,
-      "MemoryOffset": 7564,
+      "MemoryOffset": 7994,
       "Description": "If paintcolour == 1"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 8,
-      "MemoryOffset": 7576,
+      "MemoryOffset": 8006,
       "Description": "Set 'red' to '141'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 8,
-      "MemoryOffset": 7582,
+      "MemoryOffset": 8012,
       "Description": "Set 'green' to '235'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 8,
-      "MemoryOffset": 7588,
+      "MemoryOffset": 8018,
       "Description": "Set 'blue' to '235'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 8,
-      "MemoryOffset": 7594,
+      "MemoryOffset": 8024,
       "Description": "Raw expression '26'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 8,
-      "MemoryOffset": 7600,
+      "MemoryOffset": 8030,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 9,
-      "MemoryOffset": 7604,
+      "MemoryOffset": 8034,
       "Description": "Set 'red' to '113'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 9,
-      "MemoryOffset": 7610,
+      "MemoryOffset": 8040,
       "Description": "Set 'green' to '187'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 9,
-      "MemoryOffset": 7616,
+      "MemoryOffset": 8046,
       "Description": "Set 'blue' to '187'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 9,
-      "MemoryOffset": 7622,
+      "MemoryOffset": 8052,
       "Description": "Raw expression '27'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 9,
-      "MemoryOffset": 7628,
+      "MemoryOffset": 8058,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 10,
-      "MemoryOffset": 7632,
+      "MemoryOffset": 8062,
       "Description": "Set 'red' to '44'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 10,
-      "MemoryOffset": 7638,
+      "MemoryOffset": 8068,
       "Description": "Set 'green' to '144'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 10,
-      "MemoryOffset": 7644,
+      "MemoryOffset": 8074,
       "Description": "Set 'blue' to '144'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 10,
-      "MemoryOffset": 7650,
+      "MemoryOffset": 8080,
       "Description": "Raw expression '28'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 10,
-      "MemoryOffset": 7656,
+      "MemoryOffset": 8086,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 11,
-      "MemoryOffset": 7660,
-      "Description": "GOTO '00008068'"
+      "MemoryOffset": 8090,
+      "Description": "GOTO '00008498'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 11,
-      "MemoryOffset": 7666,
+      "MemoryOffset": 8096,
       "Description": "If paintcolour == 2"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 13,
-      "MemoryOffset": 7678,
+      "MemoryOffset": 8108,
       "Description": "Set 'red' to '235'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 13,
-      "MemoryOffset": 7684,
+      "MemoryOffset": 8114,
       "Description": "Set 'green' to '235'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 13,
-      "MemoryOffset": 7690,
+      "MemoryOffset": 8120,
       "Description": "Set 'blue' to '141'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 13,
-      "MemoryOffset": 7696,
+      "MemoryOffset": 8126,
       "Description": "Raw expression '26'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 13,
-      "MemoryOffset": 7702,
+      "MemoryOffset": 8132,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 14,
-      "MemoryOffset": 7706,
+      "MemoryOffset": 8136,
       "Description": "Set 'red' to '164'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 14,
-      "MemoryOffset": 7712,
+      "MemoryOffset": 8142,
       "Description": "Set 'green' to '164'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 14,
-      "MemoryOffset": 7718,
+      "MemoryOffset": 8148,
       "Description": "Set 'blue' to '99'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 14,
-      "MemoryOffset": 7724,
+      "MemoryOffset": 8154,
       "Description": "Raw expression '27'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 14,
-      "MemoryOffset": 7730,
+      "MemoryOffset": 8160,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 15,
-      "MemoryOffset": 7734,
+      "MemoryOffset": 8164,
       "Description": "Set 'red' to '141'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 15,
-      "MemoryOffset": 7740,
+      "MemoryOffset": 8170,
       "Description": "Set 'green' to '141'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 15,
-      "MemoryOffset": 7746,
+      "MemoryOffset": 8176,
       "Description": "Set 'blue' to '85'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 15,
-      "MemoryOffset": 7752,
+      "MemoryOffset": 8182,
       "Description": "Raw expression '28'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 15,
-      "MemoryOffset": 7758,
+      "MemoryOffset": 8188,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 16,
-      "MemoryOffset": 7762,
-      "Description": "GOTO '00008068'"
+      "MemoryOffset": 8192,
+      "Description": "GOTO '00008498'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 16,
-      "MemoryOffset": 7768,
+      "MemoryOffset": 8198,
       "Description": "If paintcolour == 3"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 18,
-      "MemoryOffset": 7780,
+      "MemoryOffset": 8210,
       "Description": "Set 'red' to '230'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 18,
-      "MemoryOffset": 7786,
+      "MemoryOffset": 8216,
       "Description": "Set 'green' to '133'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 18,
-      "MemoryOffset": 7792,
+      "MemoryOffset": 8222,
       "Description": "Set 'blue' to '215'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 18,
-      "MemoryOffset": 7798,
+      "MemoryOffset": 8228,
       "Description": "Raw expression '26'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 18,
-      "MemoryOffset": 7804,
+      "MemoryOffset": 8234,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 19,
-      "MemoryOffset": 7808,
+      "MemoryOffset": 8238,
       "Description": "Set 'red' to '205'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 19,
-      "MemoryOffset": 7814,
+      "MemoryOffset": 8244,
       "Description": "Set 'green' to '112'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 19,
-      "MemoryOffset": 7820,
+      "MemoryOffset": 8250,
       "Description": "Set 'blue' to '186'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 19,
-      "MemoryOffset": 7826,
+      "MemoryOffset": 8256,
       "Description": "Raw expression '27'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 19,
-      "MemoryOffset": 7832,
+      "MemoryOffset": 8262,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 20,
-      "MemoryOffset": 7836,
+      "MemoryOffset": 8266,
       "Description": "Set 'red' to '154'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 20,
-      "MemoryOffset": 7842,
+      "MemoryOffset": 8272,
       "Description": "Set 'green' to '71'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 20,
-      "MemoryOffset": 7848,
+      "MemoryOffset": 8278,
       "Description": "Set 'blue' to '126'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 20,
-      "MemoryOffset": 7854,
+      "MemoryOffset": 8284,
       "Description": "Raw expression '28'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 20,
-      "MemoryOffset": 7860,
+      "MemoryOffset": 8290,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 21,
-      "MemoryOffset": 7864,
-      "Description": "GOTO '00008068'"
+      "MemoryOffset": 8294,
+      "Description": "GOTO '00008498'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 21,
-      "MemoryOffset": 7870,
+      "MemoryOffset": 8300,
       "Description": "If paintcolour == 4"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 23,
-      "MemoryOffset": 7882,
+      "MemoryOffset": 8312,
       "Description": "Set 'red' to '164'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 23,
-      "MemoryOffset": 7888,
+      "MemoryOffset": 8318,
       "Description": "Set 'green' to '164'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 23,
-      "MemoryOffset": 7894,
+      "MemoryOffset": 8324,
       "Description": "Set 'blue' to '255'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 23,
-      "MemoryOffset": 7900,
+      "MemoryOffset": 8330,
       "Description": "Raw expression '26'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 23,
-      "MemoryOffset": 7906,
+      "MemoryOffset": 8336,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 24,
-      "MemoryOffset": 7910,
+      "MemoryOffset": 8340,
       "Description": "Set 'red' to '99'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 24,
-      "MemoryOffset": 7916,
+      "MemoryOffset": 8346,
       "Description": "Set 'green' to '99'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 24,
-      "MemoryOffset": 7922,
+      "MemoryOffset": 8352,
       "Description": "Set 'blue' to '197'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 24,
-      "MemoryOffset": 7928,
+      "MemoryOffset": 8358,
       "Description": "Raw expression '27'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 24,
-      "MemoryOffset": 7934,
+      "MemoryOffset": 8364,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 25,
-      "MemoryOffset": 7938,
+      "MemoryOffset": 8368,
       "Description": "Set 'red' to '66'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 25,
-      "MemoryOffset": 7944,
+      "MemoryOffset": 8374,
       "Description": "Set 'green' to '66'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 25,
-      "MemoryOffset": 7950,
+      "MemoryOffset": 8380,
       "Description": "Set 'blue' to '164'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 25,
-      "MemoryOffset": 7956,
+      "MemoryOffset": 8386,
       "Description": "Raw expression '28'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 25,
-      "MemoryOffset": 7962,
+      "MemoryOffset": 8392,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 26,
-      "MemoryOffset": 7966,
-      "Description": "GOTO '00008068'"
+      "MemoryOffset": 8396,
+      "Description": "GOTO '00008498'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 26,
-      "MemoryOffset": 7972,
-      "Description": "If paintcolour == 5 ELSE GOTO 00008068"
+      "MemoryOffset": 8402,
+      "Description": "If paintcolour == 5 ELSE GOTO 00008498"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 28,
-      "MemoryOffset": 7984,
+      "MemoryOffset": 8414,
       "Description": "Set 'red' to '132'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 28,
-      "MemoryOffset": 7990,
+      "MemoryOffset": 8420,
       "Description": "Set 'green' to '181'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 28,
-      "MemoryOffset": 7996,
+      "MemoryOffset": 8426,
       "Description": "Set 'blue' to '99'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 28,
-      "MemoryOffset": 8002,
+      "MemoryOffset": 8432,
       "Description": "Raw expression '26'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 28,
-      "MemoryOffset": 8008,
+      "MemoryOffset": 8438,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 29,
-      "MemoryOffset": 8012,
+      "MemoryOffset": 8442,
       "Description": "Set 'red' to '66'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 29,
-      "MemoryOffset": 8018,
+      "MemoryOffset": 8448,
       "Description": "Set 'green' to '148'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 29,
-      "MemoryOffset": 8024,
+      "MemoryOffset": 8454,
       "Description": "Set 'blue' to '66'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 29,
-      "MemoryOffset": 8030,
+      "MemoryOffset": 8460,
       "Description": "Raw expression '27'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 29,
-      "MemoryOffset": 8036,
+      "MemoryOffset": 8466,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 30,
-      "MemoryOffset": 8040,
+      "MemoryOffset": 8470,
       "Description": "Set 'red' to '49'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 30,
-      "MemoryOffset": 8046,
+      "MemoryOffset": 8476,
       "Description": "Set 'green' to '82'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 30,
-      "MemoryOffset": 8052,
+      "MemoryOffset": 8482,
       "Description": "Set 'blue' to '49'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 30,
-      "MemoryOffset": 8058,
+      "MemoryOffset": 8488,
       "Description": "Raw expression '28'"
     },
     {
       "CodeBlock": "00_colour_porsche",
       "CodeBlockLine": 30,
-      "MemoryOffset": 8064,
+      "MemoryOffset": 8494,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 0,
-      "MemoryOffset": 8094,
+      "MemoryOffset": 8524,
       "Description": "00_COLOUR_SEMITRUCK"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 1,
-      "MemoryOffset": 8094,
-      "Description": "If paintcolour == paintcolourold ELSE GOTO 00008130"
+      "MemoryOffset": 8524,
+      "Description": "If paintcolour == paintcolourold ELSE GOTO 00008560"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 2,
-      "MemoryOffset": 8108,
+      "MemoryOffset": 8538,
       "Description": "Set 'dice' to '5'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 2,
-      "MemoryOffset": 8114,
+      "MemoryOffset": 8544,
       "Description": "Core operation'RollDice'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 2,
-      "MemoryOffset": 8118,
+      "MemoryOffset": 8548,
       "Description": "Set 'paintcolour' to 'dice'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 3,
-      "MemoryOffset": 8124,
-      "Description": "GOTO '00008094'"
+      "MemoryOffset": 8554,
+      "Description": "GOTO '00008524'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 4,
-      "MemoryOffset": 8130,
+      "MemoryOffset": 8560,
       "Description": "Set 'paintcolourold' to 'paintcolour'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 6,
-      "MemoryOffset": 8136,
+      "MemoryOffset": 8566,
       "Description": "If paintcolour == 1"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 8,
-      "MemoryOffset": 8148,
+      "MemoryOffset": 8578,
       "Description": "Set 'red' to '141'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 8,
-      "MemoryOffset": 8154,
+      "MemoryOffset": 8584,
       "Description": "Set 'green' to '235'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 8,
-      "MemoryOffset": 8160,
+      "MemoryOffset": 8590,
       "Description": "Set 'blue' to '235'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 8,
-      "MemoryOffset": 8166,
+      "MemoryOffset": 8596,
       "Description": "Raw expression '20'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 8,
-      "MemoryOffset": 8172,
+      "MemoryOffset": 8602,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 9,
-      "MemoryOffset": 8176,
+      "MemoryOffset": 8606,
       "Description": "Set 'red' to '113'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 9,
-      "MemoryOffset": 8182,
+      "MemoryOffset": 8612,
       "Description": "Set 'green' to '187'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 9,
-      "MemoryOffset": 8188,
+      "MemoryOffset": 8618,
       "Description": "Set 'blue' to '187'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 9,
-      "MemoryOffset": 8194,
+      "MemoryOffset": 8624,
       "Description": "Raw expression '21'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 9,
-      "MemoryOffset": 8200,
+      "MemoryOffset": 8630,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 10,
-      "MemoryOffset": 8204,
+      "MemoryOffset": 8634,
       "Description": "Set 'red' to '44'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 10,
-      "MemoryOffset": 8210,
+      "MemoryOffset": 8640,
       "Description": "Set 'green' to '144'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 10,
-      "MemoryOffset": 8216,
+      "MemoryOffset": 8646,
       "Description": "Set 'blue' to '144'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 10,
-      "MemoryOffset": 8222,
+      "MemoryOffset": 8652,
       "Description": "Raw expression '22'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 10,
-      "MemoryOffset": 8228,
+      "MemoryOffset": 8658,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 11,
-      "MemoryOffset": 8232,
-      "Description": "GOTO '00008640'"
+      "MemoryOffset": 8662,
+      "Description": "GOTO '00009070'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 11,
-      "MemoryOffset": 8238,
+      "MemoryOffset": 8668,
       "Description": "If paintcolour == 2"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 13,
-      "MemoryOffset": 8250,
+      "MemoryOffset": 8680,
       "Description": "Set 'red' to '235'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 13,
-      "MemoryOffset": 8256,
+      "MemoryOffset": 8686,
       "Description": "Set 'green' to '235'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 13,
-      "MemoryOffset": 8262,
+      "MemoryOffset": 8692,
       "Description": "Set 'blue' to '141'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 13,
-      "MemoryOffset": 8268,
+      "MemoryOffset": 8698,
       "Description": "Raw expression '20'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 13,
-      "MemoryOffset": 8274,
+      "MemoryOffset": 8704,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 14,
-      "MemoryOffset": 8278,
+      "MemoryOffset": 8708,
       "Description": "Set 'red' to '164'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 14,
-      "MemoryOffset": 8284,
+      "MemoryOffset": 8714,
       "Description": "Set 'green' to '164'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 14,
-      "MemoryOffset": 8290,
+      "MemoryOffset": 8720,
       "Description": "Set 'blue' to '99'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 14,
-      "MemoryOffset": 8296,
+      "MemoryOffset": 8726,
       "Description": "Raw expression '21'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 14,
-      "MemoryOffset": 8302,
+      "MemoryOffset": 8732,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 15,
-      "MemoryOffset": 8306,
+      "MemoryOffset": 8736,
       "Description": "Set 'red' to '141'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 15,
-      "MemoryOffset": 8312,
+      "MemoryOffset": 8742,
       "Description": "Set 'green' to '141'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 15,
-      "MemoryOffset": 8318,
+      "MemoryOffset": 8748,
       "Description": "Set 'blue' to '85'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 15,
-      "MemoryOffset": 8324,
+      "MemoryOffset": 8754,
       "Description": "Raw expression '22'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 15,
-      "MemoryOffset": 8330,
+      "MemoryOffset": 8760,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 16,
-      "MemoryOffset": 8334,
-      "Description": "GOTO '00008640'"
+      "MemoryOffset": 8764,
+      "Description": "GOTO '00009070'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 16,
-      "MemoryOffset": 8340,
+      "MemoryOffset": 8770,
       "Description": "If paintcolour == 3"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 18,
-      "MemoryOffset": 8352,
+      "MemoryOffset": 8782,
       "Description": "Set 'red' to '230'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 18,
-      "MemoryOffset": 8358,
+      "MemoryOffset": 8788,
       "Description": "Set 'green' to '133'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 18,
-      "MemoryOffset": 8364,
+      "MemoryOffset": 8794,
       "Description": "Set 'blue' to '215'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 18,
-      "MemoryOffset": 8370,
+      "MemoryOffset": 8800,
       "Description": "Raw expression '20'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 18,
-      "MemoryOffset": 8376,
+      "MemoryOffset": 8806,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 19,
-      "MemoryOffset": 8380,
+      "MemoryOffset": 8810,
       "Description": "Set 'red' to '205'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 19,
-      "MemoryOffset": 8386,
+      "MemoryOffset": 8816,
       "Description": "Set 'green' to '112'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 19,
-      "MemoryOffset": 8392,
+      "MemoryOffset": 8822,
       "Description": "Set 'blue' to '186'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 19,
-      "MemoryOffset": 8398,
+      "MemoryOffset": 8828,
       "Description": "Raw expression '21'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 19,
-      "MemoryOffset": 8404,
+      "MemoryOffset": 8834,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 20,
-      "MemoryOffset": 8408,
+      "MemoryOffset": 8838,
       "Description": "Set 'red' to '154'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 20,
-      "MemoryOffset": 8414,
+      "MemoryOffset": 8844,
       "Description": "Set 'green' to '71'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 20,
-      "MemoryOffset": 8420,
+      "MemoryOffset": 8850,
       "Description": "Set 'blue' to '126'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 20,
-      "MemoryOffset": 8426,
+      "MemoryOffset": 8856,
       "Description": "Raw expression '22'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 20,
-      "MemoryOffset": 8432,
+      "MemoryOffset": 8862,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 21,
-      "MemoryOffset": 8436,
-      "Description": "GOTO '00008640'"
+      "MemoryOffset": 8866,
+      "Description": "GOTO '00009070'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 21,
-      "MemoryOffset": 8442,
+      "MemoryOffset": 8872,
       "Description": "If paintcolour == 4"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 23,
-      "MemoryOffset": 8454,
+      "MemoryOffset": 8884,
       "Description": "Set 'red' to '164'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 23,
-      "MemoryOffset": 8460,
+      "MemoryOffset": 8890,
       "Description": "Set 'green' to '164'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 23,
-      "MemoryOffset": 8466,
+      "MemoryOffset": 8896,
       "Description": "Set 'blue' to '255'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 23,
-      "MemoryOffset": 8472,
+      "MemoryOffset": 8902,
       "Description": "Raw expression '20'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 23,
-      "MemoryOffset": 8478,
+      "MemoryOffset": 8908,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 24,
-      "MemoryOffset": 8482,
+      "MemoryOffset": 8912,
       "Description": "Set 'red' to '99'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 24,
-      "MemoryOffset": 8488,
+      "MemoryOffset": 8918,
       "Description": "Set 'green' to '99'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 24,
-      "MemoryOffset": 8494,
+      "MemoryOffset": 8924,
       "Description": "Set 'blue' to '197'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 24,
-      "MemoryOffset": 8500,
+      "MemoryOffset": 8930,
       "Description": "Raw expression '21'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 24,
-      "MemoryOffset": 8506,
+      "MemoryOffset": 8936,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 25,
-      "MemoryOffset": 8510,
+      "MemoryOffset": 8940,
       "Description": "Set 'red' to '66'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 25,
-      "MemoryOffset": 8516,
+      "MemoryOffset": 8946,
       "Description": "Set 'green' to '66'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 25,
-      "MemoryOffset": 8522,
+      "MemoryOffset": 8952,
       "Description": "Set 'blue' to '164'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 25,
-      "MemoryOffset": 8528,
+      "MemoryOffset": 8958,
       "Description": "Raw expression '22'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 25,
-      "MemoryOffset": 8534,
+      "MemoryOffset": 8964,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 26,
-      "MemoryOffset": 8538,
-      "Description": "GOTO '00008640'"
+      "MemoryOffset": 8968,
+      "Description": "GOTO '00009070'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 26,
-      "MemoryOffset": 8544,
-      "Description": "If paintcolour == 5 ELSE GOTO 00008640"
+      "MemoryOffset": 8974,
+      "Description": "If paintcolour == 5 ELSE GOTO 00009070"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 28,
-      "MemoryOffset": 8556,
+      "MemoryOffset": 8986,
       "Description": "Set 'red' to '132'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 28,
-      "MemoryOffset": 8562,
+      "MemoryOffset": 8992,
       "Description": "Set 'green' to '181'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 28,
-      "MemoryOffset": 8568,
+      "MemoryOffset": 8998,
       "Description": "Set 'blue' to '99'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 28,
-      "MemoryOffset": 8574,
+      "MemoryOffset": 9004,
       "Description": "Raw expression '20'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 28,
-      "MemoryOffset": 8580,
+      "MemoryOffset": 9010,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 29,
-      "MemoryOffset": 8584,
+      "MemoryOffset": 9014,
       "Description": "Set 'red' to '66'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 29,
-      "MemoryOffset": 8590,
+      "MemoryOffset": 9020,
       "Description": "Set 'green' to '148'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 29,
-      "MemoryOffset": 8596,
+      "MemoryOffset": 9026,
       "Description": "Set 'blue' to '66'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 29,
-      "MemoryOffset": 8602,
+      "MemoryOffset": 9032,
       "Description": "Raw expression '21'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 29,
-      "MemoryOffset": 8608,
+      "MemoryOffset": 9038,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 30,
-      "MemoryOffset": 8612,
+      "MemoryOffset": 9042,
       "Description": "Set 'red' to '49'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 30,
-      "MemoryOffset": 8618,
+      "MemoryOffset": 9048,
       "Description": "Set 'green' to '82'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 30,
-      "MemoryOffset": 8624,
+      "MemoryOffset": 9054,
       "Description": "Set 'blue' to '49'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 30,
-      "MemoryOffset": 8630,
+      "MemoryOffset": 9060,
       "Description": "Raw expression '22'"
     },
     {
       "CodeBlock": "00_colour_semitruck",
       "CodeBlockLine": 30,
-      "MemoryOffset": 8636,
+      "MemoryOffset": 9066,
       "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "00_leave_top",
       "CodeBlockLine": 0,
-      "MemoryOffset": 8666,
+      "MemoryOffset": 9096,
       "Description": "00_LEAVE_TOP"
     },
     {
       "CodeBlock": "00_leave_top",
       "CodeBlockLine": 1,
-      "MemoryOffset": 8666,
-      "Description": "If actor_y < camera_y-16 ELSE GOTO 00008716"
+      "MemoryOffset": 9096,
+      "Description": "If actor_y < camera_y-16 ELSE GOTO 00009146"
     },
     {
       "CodeBlock": "00_leave_top",
       "CodeBlockLine": 2,
-      "MemoryOffset": 8696,
+      "MemoryOffset": 9126,
       "Description": "Set 'actor_y' to 'camera_y+256+8'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 9172,
+      "Description": "00_MUSIC_SELECT"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9172,
+      "Description": "Set 'red' to '247'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9178,
+      "Description": "Set 'green' to '0'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9184,
+      "Description": "Set 'blue' to '0'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9190,
+      "Description": "Raw expression '97'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9196,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9200,
+      "Description": "Set 'red' to '0'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9206,
+      "Description": "Set 'green' to '247'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9212,
+      "Description": "Set 'blue' to '0'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9218,
+      "Description": "Raw expression '98'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9224,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9228,
+      "Description": "Set 'red' to '0'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9234,
+      "Description": "Set 'green' to '247'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9240,
+      "Description": "Set 'blue' to '230'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9246,
+      "Description": "Raw expression '99'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9252,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9256,
+      "Description": "Set 'red' to '247'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9262,
+      "Description": "Set 'green' to '115'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9268,
+      "Description": "Set 'blue' to '164'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9274,
+      "Description": "Raw expression '100'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9280,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9284,
+      "Description": "Set 'red' to '247'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9290,
+      "Description": "Set 'green' to '197'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9296,
+      "Description": "Set 'blue' to '0'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9302,
+      "Description": "Raw expression '101'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9308,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9312,
+      "Description": "Set 'red' to '212'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9318,
+      "Description": "Set 'green' to '0'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9324,
+      "Description": "Set 'blue' to '209'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9330,
+      "Description": "Raw expression '102'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9336,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9340,
+      "Description": "Set 'red' to '214'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9346,
+      "Description": "Set 'green' to '214'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9352,
+      "Description": "Set 'blue' to '214'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9358,
+      "Description": "Raw expression '103'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9364,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9368,
+      "Description": "Set 'red' to '148'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9374,
+      "Description": "Set 'green' to '148'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9380,
+      "Description": "Set 'blue' to '148'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9386,
+      "Description": "Raw expression '104'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9392,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9396,
+      "Description": "Set 'red' to '82'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9402,
+      "Description": "Set 'green' to '82'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9408,
+      "Description": "Set 'blue' to '82'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9414,
+      "Description": "Raw expression '105'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9420,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9424,
+      "Description": "Set 'red' to '247'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9430,
+      "Description": "Set 'green' to '230'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9436,
+      "Description": "Set 'blue' to '164'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9442,
+      "Description": "Raw expression '106'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9448,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9452,
+      "Description": "Set 'red' to '247'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9458,
+      "Description": "Set 'green' to '214'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9464,
+      "Description": "Set 'blue' to '148'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9470,
+      "Description": "Raw expression '107'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9476,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9480,
+      "Description": "Set 'red' to '230'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9486,
+      "Description": "Set 'green' to '181'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9492,
+      "Description": "Set 'blue' to '115'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9498,
+      "Description": "Raw expression '108'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9504,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9508,
+      "Description": "Set 'red' to '214'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9514,
+      "Description": "Set 'green' to '164'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9520,
+      "Description": "Set 'blue' to '0'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9526,
+      "Description": "Raw expression '109'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9532,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9536,
+      "Description": "Set 'red' to '197'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9542,
+      "Description": "Set 'green' to '132'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9548,
+      "Description": "Set 'blue' to '0'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9554,
+      "Description": "Raw expression '110'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9560,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9564,
+      "Description": "Set 'red' to '0'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9570,
+      "Description": "Set 'green' to '0'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9576,
+      "Description": "Set 'blue' to '0'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9582,
+      "Description": "Raw expression '111'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9588,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 9592,
+      "Description": "Raw expression '0'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 9598,
+      "Description": "Raw expression 'music_1'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 9604,
+      "Description": "Core operation'ActorSpawn'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 9608,
+      "Description": "GOSUB TO 'WAITFORFIREHIT'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 9628,
+      "Description": "Raw expression 'outrun'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 9634,
+      "Description": "Core operation'CDMusic'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 9638,
+      "Description": "Core operation'Foreach'"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 9646,
+      "Description": "If actor_type == music_1 ELSE GOTO 00009674"
+    },
+    {
+      "CodeBlock": "00_music_select",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 9668,
+      "Description": "GOTO 'DESTROY_ACTOR'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 0,
-      "MemoryOffset": 8742,
+      "MemoryOffset": 9702,
       "Description": "00_NAVIGATE"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 2,
-      "MemoryOffset": 8742,
+      "MemoryOffset": 9702,
       "Description": "Set 'block_x' to 'camera_x+304/16'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 2,
-      "MemoryOffset": 8762,
+      "MemoryOffset": 9722,
       "Description": "Set 'block_y' to 'actor_y/16'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 2,
-      "MemoryOffset": 8788,
+      "MemoryOffset": 9748,
       "Description": "Core operation'BlockGet'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 2,
-      "MemoryOffset": 8792,
+      "MemoryOffset": 9752,
       "Description": "Set 'blcktype' to 'block_type'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 7,
-      "MemoryOffset": 8798,
+      "MemoryOffset": 9758,
       "Description": "If blcktype > 0"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 8,
-      "MemoryOffset": 8810,
+      "MemoryOffset": 9770,
       "Description": "If actor_x < camera_x+160"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 9,
-      "MemoryOffset": 8840,
+      "MemoryOffset": 9800,
       "Description": "Set 'block_x' to 'camera_x/16'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 9,
-      "MemoryOffset": 8856,
+      "MemoryOffset": 9816,
       "Description": "Set 'block_y' to 'actor_y/16'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 9,
-      "MemoryOffset": 8882,
+      "MemoryOffset": 9842,
       "Description": "Core operation'BlockGet'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 9,
-      "MemoryOffset": 8886,
+      "MemoryOffset": 9846,
       "Description": "Set 'blcktype' to 'block_type'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 10,
-      "MemoryOffset": 8892,
-      "Description": "GOTO '00008984'"
+      "MemoryOffset": 9852,
+      "Description": "GOTO '00009944'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 10,
-      "MemoryOffset": 8898,
-      "Description": "If actor_x >= camera_x+160 ELSE GOTO 00008984"
+      "MemoryOffset": 9858,
+      "Description": "If actor_x >= camera_x+160 ELSE GOTO 00009944"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 11,
-      "MemoryOffset": 8928,
+      "MemoryOffset": 9888,
       "Description": "Set 'block_x' to 'camera_x+304/16'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 11,
-      "MemoryOffset": 8948,
+      "MemoryOffset": 9908,
       "Description": "Set 'block_y' to 'actor_y/16'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 11,
-      "MemoryOffset": 8974,
+      "MemoryOffset": 9934,
       "Description": "Core operation'BlockGet'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 11,
-      "MemoryOffset": 8978,
+      "MemoryOffset": 9938,
       "Description": "Set 'blcktype' to 'block_type'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 13,
-      "MemoryOffset": 8984,
-      "Description": "GOTO '00009054'"
+      "MemoryOffset": 9944,
+      "Description": "GOTO '00010014'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 13,
-      "MemoryOffset": 8990,
-      "Description": "If blcktype <= 0 ELSE GOTO 00009054"
+      "MemoryOffset": 9950,
+      "Description": "If blcktype <= 0 ELSE GOTO 00010014"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 16,
-      "MemoryOffset": 9002,
+      "MemoryOffset": 9962,
       "Description": "Set 'block_x' to 'camera_x/16'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 16,
-      "MemoryOffset": 9018,
+      "MemoryOffset": 9978,
       "Description": "Set 'block_y' to 'actor_y/16'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 16,
-      "MemoryOffset": 9044,
+      "MemoryOffset": 10004,
       "Description": "Core operation'BlockGet'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 16,
-      "MemoryOffset": 9048,
+      "MemoryOffset": 10008,
       "Description": "Set 'blcktype' to 'block_type'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 19,
-      "MemoryOffset": 9054,
+      "MemoryOffset": 10014,
       "Description": "If blcktype == move_right_1"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 20,
-      "MemoryOffset": 9066,
+      "MemoryOffset": 10026,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 20,
-      "MemoryOffset": 9072,
+      "MemoryOffset": 10032,
       "Description": "Raw expression '16'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 20,
-      "MemoryOffset": 9078,
+      "MemoryOffset": 10038,
       "Description": "Raw expression '1'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 20,
-      "MemoryOffset": 9084,
+      "MemoryOffset": 10044,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 20,
-      "MemoryOffset": 9090,
+      "MemoryOffset": 10050,
       "Description": "Raw expression '8'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 20,
-      "MemoryOffset": 9096,
+      "MemoryOffset": 10056,
       "Description": "Raw expression 'False'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 20,
-      "MemoryOffset": 9102,
+      "MemoryOffset": 10062,
       "Description": "Core operation'RefreshActorPush'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 21,
-      "MemoryOffset": 9106,
-      "Description": "GOTO '00009164'"
+      "MemoryOffset": 10066,
+      "Description": "GOTO '00010124'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 21,
-      "MemoryOffset": 9112,
-      "Description": "If blcktype == move_left_1 ELSE GOTO 00009164"
+      "MemoryOffset": 10072,
+      "Description": "If blcktype == move_left_1 ELSE GOTO 00010124"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 22,
-      "MemoryOffset": 9124,
+      "MemoryOffset": 10084,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 22,
-      "MemoryOffset": 9130,
+      "MemoryOffset": 10090,
       "Description": "Raw expression '16'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 22,
-      "MemoryOffset": 9136,
+      "MemoryOffset": 10096,
       "Description": "Raw expression '-1'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 22,
-      "MemoryOffset": 9142,
+      "MemoryOffset": 10102,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 22,
-      "MemoryOffset": 9148,
+      "MemoryOffset": 10108,
       "Description": "Raw expression '8'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 22,
-      "MemoryOffset": 9154,
+      "MemoryOffset": 10114,
       "Description": "Raw expression 'False'"
     },
     {
       "CodeBlock": "00_navigate",
       "CodeBlockLine": 22,
-      "MemoryOffset": 9160,
+      "MemoryOffset": 10120,
       "Description": "Core operation'RefreshActorPush'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 10150,
+      "Description": "00_START_PLAYER_IDLE"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 10150,
+      "Description": "Raw expression '4'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 10156,
+      "Description": "Raw expression 'outrun_start_idle'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 10162,
+      "Description": "Raw expression 'True'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 10168,
+      "Description": "Raw expression 'True'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 10174,
+      "Description": "Core operation'ActorSetType'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10178,
+      "Description": "Set 'red' to '230'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10184,
+      "Description": "Set 'green' to '247'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10190,
+      "Description": "Set 'blue' to '247'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10196,
+      "Description": "Raw expression '97'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10202,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10206,
+      "Description": "Set 'red' to '230'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10212,
+      "Description": "Set 'green' to '230'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10218,
+      "Description": "Set 'blue' to '247'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10224,
+      "Description": "Raw expression '98'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10230,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10234,
+      "Description": "Set 'red' to '197'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10240,
+      "Description": "Set 'green' to '197'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10246,
+      "Description": "Set 'blue' to '197'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10252,
+      "Description": "Raw expression '99'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10258,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10262,
+      "Description": "Set 'red' to '181'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10268,
+      "Description": "Set 'green' to '164'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10274,
+      "Description": "Set 'blue' to '181'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10280,
+      "Description": "Raw expression '100'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10286,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10290,
+      "Description": "Set 'red' to '230'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10296,
+      "Description": "Set 'green' to '197'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10302,
+      "Description": "Set 'blue' to '247'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10308,
+      "Description": "Raw expression '101'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10314,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10318,
+      "Description": "Set 'red' to '212'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10324,
+      "Description": "Set 'green' to '0'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10330,
+      "Description": "Set 'blue' to '209'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10336,
+      "Description": "Raw expression '102'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10342,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10346,
+      "Description": "Set 'red' to '214'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10352,
+      "Description": "Set 'green' to '0'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10358,
+      "Description": "Set 'blue' to '0'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10364,
+      "Description": "Raw expression '103'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10370,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10374,
+      "Description": "Set 'red' to '247'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10380,
+      "Description": "Set 'green' to '0'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10386,
+      "Description": "Set 'blue' to '0'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10392,
+      "Description": "Raw expression '104'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10398,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10402,
+      "Description": "Set 'red' to '230'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10408,
+      "Description": "Set 'green' to '214'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10414,
+      "Description": "Set 'blue' to '164'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10420,
+      "Description": "Raw expression '105'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10426,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10430,
+      "Description": "Set 'red' to '0'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10436,
+      "Description": "Set 'green' to '230'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10442,
+      "Description": "Set 'blue' to '181'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10448,
+      "Description": "Raw expression '106'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10454,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10458,
+      "Description": "Set 'red' to '0'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10464,
+      "Description": "Set 'green' to '181'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10470,
+      "Description": "Set 'blue' to '115'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10476,
+      "Description": "Raw expression '107'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10482,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10486,
+      "Description": "Set 'red' to '0'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10492,
+      "Description": "Set 'green' to '255'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10498,
+      "Description": "Set 'blue' to '99'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10504,
+      "Description": "Raw expression '108'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10510,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10514,
+      "Description": "Set 'red' to '0'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10520,
+      "Description": "Set 'green' to '197'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10526,
+      "Description": "Set 'blue' to '230'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10532,
+      "Description": "Raw expression '109'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10538,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10542,
+      "Description": "Set 'red' to '0'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10548,
+      "Description": "Set 'green' to '58'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10554,
+      "Description": "Set 'blue' to '219'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10560,
+      "Description": "Raw expression '110'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10566,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10570,
+      "Description": "Set 'red' to '0'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10576,
+      "Description": "Set 'green' to '0'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10582,
+      "Description": "Set 'blue' to '0'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10588,
+      "Description": "Raw expression '111'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 10594,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 10598,
+      "Description": "Raw expression '0'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 10604,
+      "Description": "Raw expression 'outrun_start_lights'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 10610,
+      "Description": "Core operation'ActorSpawn'"
+    },
+    {
+      "CodeBlock": "00_start_player_idle",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 10614,
+      "Description": "Set 'new_y' to 'camera_y+128'"
+    },
+    {
+      "CodeBlock": "00_start_race",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 10658,
+      "Description": "00_START_RACE"
+    },
+    {
+      "CodeBlock": "00_start_race",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 10658,
+      "Description": "Raw expression '4'"
+    },
+    {
+      "CodeBlock": "00_start_race",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 10664,
+      "Description": "Raw expression 'outrun_player'"
+    },
+    {
+      "CodeBlock": "00_start_race",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 10670,
+      "Description": "Raw expression 'True'"
+    },
+    {
+      "CodeBlock": "00_start_race",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 10676,
+      "Description": "Raw expression 'True'"
+    },
+    {
+      "CodeBlock": "00_start_race",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 10682,
+      "Description": "Core operation'ActorSetType'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 9190,
+      "MemoryOffset": 10712,
       "Description": "STARTUP"
     }
   ],
@@ -7736,9 +9257,13 @@
     "1": "!dummyplayer",
     "2": "beetle",
     "3": "fire_start",
-    "4": "outrun_logo",
-    "5": "outrun_player",
-    "6": "outrun_player_hi"
+    "4": "music_1",
+    "5": "outrun_logo",
+    "6": "outrun_player",
+    "7": "outrun_player_hi",
+    "8": "outrun_start",
+    "9": "outrun_start_idle",
+    "10": "outrun_start_lights"
   },
   "Sounds": {
     "0": "No sound played"
@@ -7746,9 +9271,13 @@
   "Animations": {
     "1": "beetle_up",
     "2": "dummyplayer",
-    "3": "ferrari_idle",
-    "4": "ferrari_up",
-    "5": "logo",
-    "6": "start"
+    "3": "ferrari_startline",
+    "4": "ferrari_startline_idle",
+    "5": "ferrari_idle",
+    "6": "ferrari_up",
+    "7": "logo",
+    "8": "music_select_1",
+    "9": "start",
+    "10": "startline_lights"
   }
 }

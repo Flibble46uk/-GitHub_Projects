@@ -7,7 +7,7 @@
       "PaletteLine": 0,
       "RenderType": "OnlySprite",
       "SpriteType": "Attached_16colors",
-      "Path": "OutRun_Logo.png",
+      "Path": "Music_Select_1_00x00.png",
       "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
@@ -21,7 +21,7 @@
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "OutRun_Logo",
+      "Name": "Music_Select_1_00x00",
       "IsBlank": false
     }
   ],
@@ -31,7 +31,7 @@
   "LoopFrame": 0,
   "LinkedMap": null,
   "OnFinish": null,
-  "AutoFlip": false,
+  "AutoFlip": null,
   "Streamed": true,
   "PatternBuffer": 0
 }

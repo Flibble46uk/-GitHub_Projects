@@ -6,7 +6,7 @@ For chip:
 Map gfx (level gfx bundle 1): 68260
 Music memory (): 0
 BP Buffer memory: 103040
-core sfx/gfx memory: 10496
+core sfx/gfx memory: 26920
 Parallax memory: 0
 
 For other:
@@ -14,19 +14,19 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 60712
 Map background memory: 1624
-EXE memory: 207900
-vm memory: 9692
-project memory: 2292
+EXE memory: 208148
+vm memory: 11220
+project memory: 4246
 
-Accounted memory chip: 181796
-Accounted memory other: 282220
-Accounted memory total: 464016
+Accounted memory chip: 198220
+Accounted memory other: 285950
+Accounted memory total: 484170
 
 === Misc ===
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
-Actor Count: 7
-Actor Data Size: 1316
+Actor Count: 11
+Actor Data Size: 2068
 Block Count: 3
 Block Data Size: 204
 Anim5 Count: 0
@@ -35,14 +35,14 @@ Sound Count: 1
 Sound Data Size: 24
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 7
-Animations Data Size: 112
-AnimationFrame Count: 9
-AnimationFrame Data Size: 144
-ImageFrames: 7
-ImageFrame Data Size: 308
-Sprites: 2
-Sprites Data Size: 28
+Animations Count: 11
+Animations Data Size: 176
+AnimationFrame Count: 29
+AnimationFrame Data Size: 464
+ImageFrames: 24
+ImageFrame Data Size: 1056
+Sprites: 7
+Sprites Data Size: 98
 Attack Data: 1
 Attack Data Size: 66
 Misc data size: 44
@@ -50,25 +50,28 @@ Panel scorpion_eng_splashscreen Original size 35154 Crunched size 3258
 Header data for map outrun_map Original size 7996 Crunched size 372
 Tile data for map outrun_map (mem restrictions:None) Original size 60712 Crunched size 4284
 Background for map outrun_map Original size 1624 Crunched size 154
-Asset bundle 0 (Core project asset bundle) Original size 10496 Crunched size 5286
+Asset bundle 0 (Core project asset bundle) Original size 26920 Crunched size 9398
 Asset bundle 1 (outrun_map) Original size 68260 Crunched size 21528
-Project Header Original size 4032 Crunched size 1192
-Project Data Original size 2292 Crunched size 522
-Project virtual machine (codeblocks) Original size 9692 Crunched size 2946
+Project Header Original size 4032 Crunched size 1194
+Project Data Original size 4246 Crunched size 980
+Project virtual machine (codeblocks) Original size 11220 Crunched size 3292
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused Actors ===
 !dummyplayer
 beetle
+outrun_start
 
 === Codeblocks by compiled size ===
 load_level: 926
+!startup: 870
 00_colour_beetle: 572
 00_colour_porsche: 572
 00_colour_semitruck: 572
+00_music_select: 530
+00_start_player_idle: 508
 set_yresolution: 448
 00_navigate: 448
-!startup: 440
 do_teleport: 392
 flipscreen_smooth: 346 (Unused?)
 flipxymove: 306 (Unused?)
@@ -108,6 +111,7 @@ AUTOGEN_OUTOFSCREEN_None_None_None_destroy_actor: 62
 fadein: 58
 load_panel_finish: 56
 destroy_actor: 54
+00_start_race: 54
 regenerate_screen: 52
 return: 52 (Unused?)
 destroy_block: 48 (Unused?)

@@ -27,4 +27,24 @@
       <property name="Name" value="fire_start" type="string" />
     </properties>
   </tile>
+  <tile id="6">
+    <properties>
+      <property name="Name" value="outrun_start" type="string" />
+    </properties>
+  </tile>
+  <tile id="7">
+    <properties>
+      <property name="Name" value="outrun_start_idle" type="string" />
+    </properties>
+  </tile>
+  <tile id="8">
+    <properties>
+      <property name="Name" value="outrun_start_lights" type="string" />
+    </properties>
+  </tile>
+  <tile id="9">
+    <properties>
+      <property name="Name" value="music_1" type="string" />
+    </properties>
+  </tile>
 </tileset>

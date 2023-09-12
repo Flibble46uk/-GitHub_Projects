@@ -5,10 +5,10 @@
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "OnlySprite",
+      "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
-      "Path": "OutRun_Logo.png",
-      "OnFrame": null,
+      "Path": "Ferrari_start_00x01.png",
+      "OnFrame": "",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -16,12 +16,12 @@
         "Width": 0,
         "Height": 0
       },
-      "HandleX": -32,
-      "HandleY": 0,
+      "HandleX": -7,
+      "HandleY": -14,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "OutRun_Logo",
+      "Name": "Ferrari_start_00x01",
       "IsBlank": false
     }
   ],
@@ -31,7 +31,7 @@
   "LoopFrame": 0,
   "LinkedMap": null,
   "OnFinish": null,
-  "AutoFlip": false,
+  "AutoFlip": null,
   "Streamed": true,
   "PatternBuffer": 0
 }
