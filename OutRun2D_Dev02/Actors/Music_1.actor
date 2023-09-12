@@ -1,7 +1,7 @@
 {
   "ShootDirType": "actor_direction",
   "ClassType": "DefaultClass",
-  "DefaultLookDir": "right",
+  "DefaultLookDir": "up",
   "Recycle": "Default",
   "MoveType": "cpu_cameralock",
   "MaxEntities": 0,
@@ -9,10 +9,10 @@
   "NudgeY": 0,
   "Idles": {
     "UpLeft": null,
-    "Up": "logo",
+    "Up": "music_select_2",
     "UpRight": null,
-    "Left": "logo",
-    "Right": "music_select_1",
+    "Left": "music_select_1",
+    "Right": "music_select_3",
     "DownLeft": null,
     "Down": null,
     "DownRight": null
@@ -95,9 +95,9 @@
   ],
   "InvalidDirections": [
     true,
+    false,
     true,
-    true,
-    true,
+    false,
     false,
     false,
     true,

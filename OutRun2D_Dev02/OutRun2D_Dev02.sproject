@@ -102,6 +102,12 @@
       "RepeatDelay": 1,
       "IsMusic": true,
       "Priority": 0
+    },
+    "outrun1": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": true,
+      "Priority": 0
     }
   },
   "MMLMetaData": {},
