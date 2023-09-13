@@ -16,7 +16,7 @@
         "Width": 0,
         "Height": 0
       },
-      "HandleX": -32,
+      "HandleX": 0,
       "HandleY": 0,
       "XFlipped": false,
       "HighPriority": false,
@@ -40,7 +40,7 @@
         "Width": 0,
         "Height": 0
       },
-      "HandleX": -32,
+      "HandleX": 0,
       "HandleY": 0,
       "XFlipped": false,
       "HighPriority": false,

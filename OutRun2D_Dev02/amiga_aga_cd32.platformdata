@@ -18,5 +18,5 @@
   "DoubleCopper": true,
   "AllocateMemoryUpfront": true,
   "NTSC": false,
-  "CrunchMode": "Implode"
+  "CrunchMode": "NoCrunch"
 }
