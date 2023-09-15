@@ -3,13 +3,13 @@
   "ClassType": "DefaultClass",
   "DefaultLookDir": "up",
   "Recycle": "Default",
-  "MoveType": "control",
+  "MoveType": "none",
   "MaxEntities": 0,
   "NudgeX": 7,
   "NudgeY": 14,
   "Idles": {
     "UpLeft": null,
-    "Up": "ferrari_idle",
+    "Up": "ferrari_startline_parked",
     "UpRight": "",
     "Left": null,
     "Right": null,
@@ -19,7 +19,7 @@
   },
   "Moves": {
     "UpLeft": null,
-    "Up": "ferrari_up",
+    "Up": "",
     "UpRight": null,
     "Left": null,
     "Right": null,
@@ -94,15 +94,15 @@
     }
   ],
   "InvalidDirections": [
+    true,
     false,
+    true,
+    true,
     false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false
+    true,
+    true,
+    true,
+    true
   ],
   "CollBox": {
     "X": -6,
@@ -123,13 +123,13 @@
   "AccelLeftAir": null,
   "AccelRightAir": null,
   "RotationSpeed": 0.0,
-  "CollType_Left": "block",
-  "CollType_Right": "block",
-  "CollType_Up": "block",
-  "CollType_Down": "block",
+  "CollType_Left": "none",
+  "CollType_Right": "none",
+  "CollType_Up": "none",
+  "CollType_Down": "none",
   "Player": true,
   "CanRidePlatform": null,
-  "Camera": null,
+  "Camera": true,
   "AutoScroll": null,
   "Flags": 0,
   "AttackProjectile": null,
@@ -148,8 +148,8 @@
   "DivertOutOfScreenDown": null,
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
-  "DivertTimer": "00_player_handler",
-  "DivertTimerFrames": 1,
+  "DivertTimer": null,
+  "DivertTimerFrames": 0,
   "Vars": [
     "0",
     "0",
@@ -160,7 +160,7 @@
   ],
   "ControlPort": 0,
   "DataVersion": 3,
-  "AutoSpawn": false,
+  "AutoSpawn": true,
   "AutoNavigate": false,
-  "TileID": 2
+  "TileID": 10
 }

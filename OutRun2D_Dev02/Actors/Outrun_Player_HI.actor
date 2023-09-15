@@ -160,7 +160,7 @@
   ],
   "ControlPort": 0,
   "DataVersion": 3,
-  "AutoSpawn": null,
+  "AutoSpawn": false,
   "AutoNavigate": false,
   "TileID": -1
 }

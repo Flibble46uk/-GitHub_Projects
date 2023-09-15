@@ -133,7 +133,6 @@
   "AutoScroll": null,
   "Flags": 0,
   "AttackProjectile": null,
-  "AutoFire": false,
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,
@@ -161,6 +160,7 @@
   ],
   "ControlPort": 0,
   "DataVersion": 3,
-  "AutoSpawn": true,
+  "AutoSpawn": false,
+  "AutoNavigate": false,
   "TileID": 1
 }

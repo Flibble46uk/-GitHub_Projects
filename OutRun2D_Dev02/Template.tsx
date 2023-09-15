@@ -47,4 +47,9 @@
       <property name="Name" value="music_1" type="string" />
     </properties>
   </tile>
+  <tile id="10">
+    <properties>
+      <property name="Name" value="outrun_start_parked" type="string" />
+    </properties>
+  </tile>
 </tileset>

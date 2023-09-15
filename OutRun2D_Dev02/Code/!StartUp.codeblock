@@ -33,6 +33,14 @@
       "PrivateSet": false,
       "Watch": false,
       "VariableType": "Variable"
+    },
+    {
+      "Name": "AnimFrame",
+      "Value": "0",
+      "Notes": null,
+      "PrivateSet": false,
+      "Watch": false,
+      "VariableType": "Variable"
     }
   ],
   "Commands": [
