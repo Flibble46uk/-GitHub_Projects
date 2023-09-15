@@ -120,6 +120,12 @@
       "RepeatDelay": 1,
       "IsMusic": true,
       "Priority": 0
+    },
+    "wheelspin_skid": {
+      "LinkedMap": "",
+      "RepeatDelay": 0,
+      "IsMusic": false,
+      "Priority": 0
     }
   },
   "MMLMetaData": {},

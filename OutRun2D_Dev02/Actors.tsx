@@ -52,4 +52,9 @@
       <property name="Name" value="outrun_start_parked" type="string" />
     </properties>
   </tile>
+  <tile id="11">
+    <properties>
+      <property name="Name" value="pulloff_wheel_spin" type="string" />
+    </properties>
+  </tile>
 </tileset>
