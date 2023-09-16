@@ -126,6 +126,18 @@
       "RepeatDelay": 0,
       "IsMusic": false,
       "Priority": 0
+    },
+    "01_inferno [cd audio]": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": true,
+      "Priority": 0
+    },
+    "outrun_instant_oc_remix": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": true,
+      "Priority": 0
     }
   },
   "MMLMetaData": {},

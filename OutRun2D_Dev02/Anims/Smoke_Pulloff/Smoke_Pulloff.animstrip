@@ -41,7 +41,7 @@
         "Height": 0
       },
       "HandleX": -8,
-      "HandleY": 12,
+      "HandleY": 10,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
@@ -56,7 +56,7 @@
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "Smuoke_pulloff_03.png",
-      "OnFrame": "destroy_actor",
+      "OnFrame": "",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -65,12 +65,84 @@
         "Height": 0
       },
       "HandleX": -8,
-      "HandleY": 16,
+      "HandleY": 12,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
       "Name": "Smuoke_pulloff_03",
       "IsBlank": false
+    },
+    {
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "Smuoke_pulloff_04.png",
+      "OnFrame": null,
+      "HasHitBox": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HandleX": -8,
+      "HandleY": 13,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Smuoke_pulloff_04",
+      "IsBlank": false
+    },
+    {
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "Smuoke_pulloff_05.png",
+      "OnFrame": "",
+      "HasHitBox": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HandleX": -8,
+      "HandleY": 14,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Smuoke_pulloff_05",
+      "IsBlank": false
+    },
+    {
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": null,
+      "OnFrame": "destroy_actor",
+      "HasHitBox": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "[ blank ]",
+      "IsBlank": true
     }
   ],
   "PreventMovement": false,
