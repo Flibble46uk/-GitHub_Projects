@@ -237,7 +237,6 @@
  </tile>
  <tile id="94">
   <animation>
-   <frame tileid="95" duration="100"/>
    <frame tileid="46" duration="100"/>
    <frame tileid="94" duration="100"/>
   </animation>

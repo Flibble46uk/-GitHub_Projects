@@ -4,8 +4,8 @@
     <property name="override_palette" type="file" value="M1_S1_Palette.png" />
     <property name="rainbow_palette" type="file" value="M1_S1_Copper2.png" />
   </properties>
-  <tileset firstgid="1" source="..\..\..\Actors.tsx" />
-  <tileset firstgid="257" source="..\..\..\Blocks.tsx" />
+  <tileset firstgid="1" source="..\..\..\..\Actors.tsx" />
+  <tileset firstgid="257" source="..\..\..\..\Blocks.tsx" />
   <tileset firstgid="513" source="M1_S1.tileset.tsx" />
   <layer id="1" name="map" width="128" height="18">
     <data encoding="csv">
@@ -32,6 +32,7 @@
       <property name="amiga_aga" type="bool" value="true" />
       <property name="foreground" type="bool" value="False" />
       <property name="megadrive" type="bool" value="true" />
+      <property name="amiga_ocs" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="2" name="blocks" width="128" height="18">
@@ -59,6 +60,7 @@
       <property name="amiga_aga" type="bool" value="true" />
       <property name="foreground" type="bool" value="False" />
       <property name="megadrive" type="bool" value="true" />
+      <property name="amiga_ocs" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="3" name="actors" width="128" height="18">
@@ -86,6 +88,7 @@
       <property name="amiga_aga" type="bool" value="true" />
       <property name="foreground" type="bool" value="False" />
       <property name="megadrive" type="bool" value="true" />
+      <property name="amiga_ocs" type="bool" value="true" />
     </properties>
   </layer>
   <layer opacity="0.3" id="4" name="foreground" width="128" height="18">
@@ -113,6 +116,7 @@
       <property name="amiga_aga" type="bool" value="true" />
       <property name="foreground" type="bool" value="True" />
       <property name="megadrive" type="bool" value="true" />
+      <property name="amiga_ocs" type="bool" value="true" />
     </properties>
   </layer>
   <objectgroup id="6" name="events" />
