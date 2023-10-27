@@ -6,7 +6,7 @@
   "EmulatedFastRam": 0,
   "WinUAEConfiguration": null,
   "SpriteMode": "Mode_2_64_Wide",
-  "Uses24BitColor": false,
+  "Uses24BitColor": true,
   "SpriteColorBank": 1,
   "SScan2": false,
   "FMode": 0,
@@ -14,9 +14,10 @@
   "XOffset": 48,
   "XFillSize": 16,
   "YFillSize": 17,
-  "Implode": true,
   "MapCache": false,
   "DoubleCopper": true,
   "AllocateMemoryUpfront": true,
-  "NTSC": false
+  "NTSC": false,
+  "CrunchMode": "NoCrunch",
+  "MaxActiveActors": 128
 }

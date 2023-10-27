@@ -8,34 +8,34 @@
   "NudgeX": 7,
   "NudgeY": 8,
   "Idles": {
-    "UpLeft": null,
-    "Up": null,
-    "UpRight": null,
+    "UpLeft": "",
+    "Up": "",
+    "UpRight": "",
     "Left": "",
-    "Right": null,
-    "DownLeft": null,
+    "Right": "",
+    "DownLeft": "",
     "Down": "",
-    "DownRight": null
+    "DownRight": ""
   },
   "Moves": {
-    "UpLeft": null,
-    "Up": null,
-    "UpRight": null,
+    "UpLeft": "",
+    "Up": "",
+    "UpRight": "",
     "Left": "",
-    "Right": null,
-    "DownLeft": null,
+    "Right": "",
+    "DownLeft": "",
     "Down": "enemy_shot_03",
-    "DownRight": null
+    "DownRight": ""
   },
   "Attacks": {
-    "UpLeft": null,
-    "Up": null,
-    "UpRight": null,
+    "UpLeft": "",
+    "Up": "",
+    "UpRight": "",
     "Left": "",
-    "Right": null,
-    "DownLeft": null,
+    "Right": "",
+    "DownLeft": "",
     "Down": "",
-    "DownRight": null
+    "DownRight": ""
   },
   "ProjectileOffsets": [
     {
@@ -93,6 +93,17 @@
       "sqrMagnitude": 0
     }
   ],
+  "InvalidDirections": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
   "CollBox": {
     "X": -1,
     "Y": -8,
@@ -122,19 +133,18 @@
   "AutoScroll": null,
   "Flags": "projectile",
   "AttackProjectile": null,
-  "AutoFire": false,
   "AttackProjectileAmmoVariable": "",
   "AttackSound": null,
   "JumpSound": null,
-  "DivertAttack": null,
-  "DivertSpawn": null,
-  "DivertPlayerCollision": null,
-  "DivertPlayerHit": null,
-  "DivertHitAgainstPlayer": null,
+  "DivertAttack": "",
+  "DivertSpawn": "",
+  "DivertPlayerCollision": "",
+  "DivertPlayerHit": "",
+  "DivertHitAgainstPlayer": "",
   "DivertProjectileCollision": "",
-  "DivertOutOfScreenLeft": null,
-  "DivertOutOfScreenRight": null,
-  "DivertOutOfScreenUp": null,
+  "DivertOutOfScreenLeft": "",
+  "DivertOutOfScreenRight": "",
+  "DivertOutOfScreenUp": "",
   "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
@@ -151,5 +161,6 @@
   "ControlPort": 0,
   "DataVersion": 3,
   "AutoSpawn": null,
+  "AutoNavigate": false,
   "TileID": -1
 }

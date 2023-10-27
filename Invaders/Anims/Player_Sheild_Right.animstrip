@@ -1,49 +1,61 @@
 {
   "Frames": [
     {
-      "Path": "Sheild_Hit_02x00.png",
       "Duration": 10,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "Sheild_Hit_02x00.png",
+      "OnFrame": null,
+      "HasHitBox": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
       "HandleX": -16,
       "HandleY": -8,
       "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Sheild_Hit_02x00",
+      "IsBlank": false
+    },
+    {
+      "Duration": 1,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": null,
+      "OnFrame": "00_sheild_reset",
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "PaletteLine": 0,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "Normal"
-    },
-    {
-      "Path": null,
-      "Duration": 1,
       "HandleX": 0,
       "HandleY": 0,
       "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": "00_sheild_reset",
-      "PaletteLine": 0,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "Normal"
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "[ blank ]",
+      "IsBlank": true
     }
   ],
   "PreventMovement": true,
   "PreventCollision": true,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": null,
+  "LinkedMap": "",
   "OnFinish": null,
-  "AutoFlip": false
+  "AutoFlip": false,
+  "Streamed": true,
+  "PatternBuffer": 0
 }

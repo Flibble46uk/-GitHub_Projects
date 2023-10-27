@@ -5,13 +5,30 @@
   "StartupCodeBlock": "!startup",
   "Recompile": true,
   "DebugMode": false,
-  "StartupSequenceDirty": false,
-  "Fire1Jump": false,
-  "Fire2Jump": true,
-  "UpJump": true,
-  "JumpOnHold": false,
   "DataVersion": 3,
-  "Commands": [],
+  "Commands": [
+    {
+      "Compiler": "amiga",
+      "Key": "Space",
+      "JoystickPort": 1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": false,
+      "JoystickFire2": false,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "MegaDrive_B": false,
+      "MegaDrive_C": false,
+      "MegaDrive_A": false,
+      "MegaDrive_Start": false,
+      "OnPress": "00_player_fire",
+      "OnRelease": null,
+      "buttonState": 0
+    }
+  ],
   "AnimationMetaData": {},
   "Anim5MetaData": {},
   "SoundMetaData": {},
@@ -20,5 +37,10 @@
   "FontMetaData": {},
   "SplashScreen": null,
   "LogicSpeed": "PAL_50HZ",
-  "PaletteLines": 1
+  "StartingPaletteLine": 0,
+  "PaletteLines": 1,
+  "ReadCD32Buttons": false,
+  "MDRegion": "E",
+  "MDSoundDriver": "MDSDRV",
+  "SplashScreenFrames": 50
 }

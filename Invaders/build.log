@@ -4,7 +4,7 @@ Reduce width of Anims\Invader_Background_00x00.png by 32 pixels to 192 to reduce
 === Estimated memory usages ===
 
 For chip:
-Map gfx (Panel: scorpion_eng_splashscreen): 35944
+Map gfx (Panel: scorpion_eng_splashscreen): 35948
 Music memory (space_synthetik): 25000
 BP Buffer memory: 61440
 core sfx/gfx memory: 33402
@@ -15,13 +15,13 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 1352
 Map background memory: 2672
-EXE memory: 202688
-vm memory: 8268
+EXE memory: 203852
+vm memory: 8254
 project memory: 5392
 
-Accounted memory chip: 155786
-Accounted memory other: 220372
-Accounted memory total: 376158
+Accounted memory chip: 155790
+Accounted memory other: 221522
+Accounted memory total: 377312
 
 === Misc ===
 Maps and Asset Bundles Count: 2
@@ -55,10 +55,10 @@ Music file space_save Original size 6808 Crunched size 3402
 Music file space_synthetik Original size 25000 Crunched size 14058
 Tile data for map invaders (mem restrictions:No_Blocks) Original size 1352 Crunched size 244
 Header data for map invaders Original size 7996 Crunched size 370
-Project Data Original size 5392 Crunched size 1060
+Project Data Original size 5392 Crunched size 1062
 Project Header Original size 4032 Crunched size 1188
-Panel scorpion_eng_splashscreen Original size 35944 Crunched size 3280
-Project virtual machine (codeblocks) Original size 8268 Crunched size 2540
+Panel scorpion_eng_splashscreen Original size 35948 Crunched size 3280
+Project virtual machine (codeblocks) Original size 8254 Crunched size 2530
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused Actors ===
@@ -87,8 +87,8 @@ flipymove: 174 (Unused?)
 flipxmove: 158 (Unused?)
 load_panel: 146
 pre_quit: 146
-!startup: 128
 destroy_all_blocks: 124 (Unused?)
+!startup: 118
 00_bullet_invader: 116
 unload_level: 114
 00_destroy_invader: 110
