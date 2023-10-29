@@ -8,34 +8,34 @@
   "NudgeX": 8,
   "NudgeY": 16,
   "Idles": {
-    "UpLeft": null,
-    "Up": null,
-    "UpRight": null,
+    "UpLeft": "",
+    "Up": "",
+    "UpRight": "",
     "Left": "player_side_idle_sg_l",
     "Right": "player_side_idle_sg_r",
-    "DownLeft": null,
-    "Down": null,
-    "DownRight": null
+    "DownLeft": "",
+    "Down": "",
+    "DownRight": ""
   },
   "Moves": {
-    "UpLeft": null,
+    "UpLeft": "",
     "Up": "",
-    "UpRight": null,
+    "UpRight": "",
     "Left": "player_side_run_sg_l",
     "Right": "player_side_run_sg_r",
-    "DownLeft": null,
-    "Down": null,
-    "DownRight": null
+    "DownLeft": "",
+    "Down": "",
+    "DownRight": ""
   },
   "Attacks": {
-    "UpLeft": null,
-    "Up": null,
-    "UpRight": null,
+    "UpLeft": "",
+    "Up": "",
+    "UpRight": "",
     "Left": "player_side_fire_sg_l",
     "Right": "player_side_fire_sg_r",
-    "DownLeft": null,
-    "Down": null,
-    "DownRight": null
+    "DownLeft": "",
+    "Down": "",
+    "DownRight": ""
   },
   "ProjectileOffsets": [
     {
@@ -93,6 +93,17 @@
       "sqrMagnitude": 0
     }
   ],
+  "InvalidDirections": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
   "CollBox": {
     "X": -8,
     "Y": -16,
@@ -117,24 +128,24 @@
   "CollType_Up": "none",
   "CollType_Down": "none",
   "Player": null,
+  "CanRidePlatform": null,
   "Camera": null,
   "AutoScroll": null,
   "Flags": "canUseParentAnim",
   "AttackProjectile": "",
-  "AutoFire": false,
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,
-  "DivertAttack": null,
-  "DivertSpawn": null,
-  "DivertPlayerCollision": null,
-  "DivertPlayerHit": null,
-  "DivertHitAgainstPlayer": null,
-  "DivertProjectileCollision": null,
-  "DivertOutOfScreenLeft": null,
-  "DivertOutOfScreenRight": null,
-  "DivertOutOfScreenUp": null,
-  "DivertOutOfScreenDown": null,
+  "DivertAttack": "",
+  "DivertSpawn": "",
+  "DivertPlayerCollision": "",
+  "DivertPlayerHit": "",
+  "DivertHitAgainstPlayer": "",
+  "DivertProjectileCollision": "",
+  "DivertOutOfScreenLeft": "",
+  "DivertOutOfScreenRight": "",
+  "DivertOutOfScreenUp": "",
+  "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
   "DivertTimer": "",
@@ -149,7 +160,7 @@
   ],
   "ControlPort": 0,
   "DataVersion": 3,
-  "TileID": -1,
-  "SuggestedRecycle": "Always",
-  "UpAccelerationName": "Accel Up"
+  "AutoSpawn": null,
+  "AutoNavigate": false,
+  "TileID": -1
 }

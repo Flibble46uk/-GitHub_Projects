@@ -13,29 +13,29 @@
     "UpRight": "00_blank",
     "Left": "01_turret_ground_open",
     "Right": "01_turret_ground_close",
-    "DownLeft": null,
+    "DownLeft": "",
     "Down": "01_turret_ground_active",
-    "DownRight": null
+    "DownRight": ""
   },
   "Moves": {
-    "UpLeft": null,
-    "Up": null,
-    "UpRight": null,
-    "Left": null,
-    "Right": null,
-    "DownLeft": null,
-    "Down": null,
-    "DownRight": null
+    "UpLeft": "",
+    "Up": "",
+    "UpRight": "",
+    "Left": "",
+    "Right": "",
+    "DownLeft": "",
+    "Down": "",
+    "DownRight": ""
   },
   "Attacks": {
-    "UpLeft": null,
-    "Up": null,
-    "UpRight": null,
-    "Left": null,
-    "Right": null,
-    "DownLeft": null,
-    "Down": null,
-    "DownRight": null
+    "UpLeft": "",
+    "Up": "",
+    "UpRight": "",
+    "Left": "",
+    "Right": "",
+    "DownLeft": "",
+    "Down": "",
+    "DownRight": ""
   },
   "ProjectileOffsets": [
     {
@@ -93,6 +93,17 @@
       "sqrMagnitude": 0
     }
   ],
+  "InvalidDirections": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
   "CollBox": {
     "X": 8,
     "Y": 1,
@@ -117,24 +128,24 @@
   "CollType_Up": "block",
   "CollType_Down": "block",
   "Player": null,
+  "CanRidePlatform": null,
   "Camera": null,
   "AutoScroll": null,
   "Flags": 0,
   "AttackProjectile": null,
-  "AutoFire": false,
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,
-  "DivertAttack": null,
+  "DivertAttack": "",
   "DivertSpawn": "00_actor_hide",
-  "DivertPlayerCollision": null,
-  "DivertPlayerHit": null,
-  "DivertHitAgainstPlayer": null,
+  "DivertPlayerCollision": "",
+  "DivertPlayerHit": "",
+  "DivertHitAgainstPlayer": "",
   "DivertProjectileCollision": "00_dstry_ground_turret",
   "DivertOutOfScreenLeft": "00_leave_screen",
-  "DivertOutOfScreenRight": null,
-  "DivertOutOfScreenUp": null,
-  "DivertOutOfScreenDown": null,
+  "DivertOutOfScreenRight": "",
+  "DivertOutOfScreenUp": "",
+  "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
   "DivertTimer": "01_handler_turret_ground_1",
@@ -149,7 +160,7 @@
   ],
   "ControlPort": 0,
   "DataVersion": 3,
-  "TileID": 4,
-  "SuggestedRecycle": "Never",
-  "UpAccelerationName": "Accel Up"
+  "AutoSpawn": null,
+  "AutoNavigate": false,
+  "TileID": 4
 }

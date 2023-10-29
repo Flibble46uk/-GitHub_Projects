@@ -8,34 +8,34 @@
   "NudgeX": 8,
   "NudgeY": -8,
   "Idles": {
-    "UpLeft": null,
+    "UpLeft": "",
     "Up": "dummyplayer",
-    "UpRight": null,
+    "UpRight": "",
     "Left": "player_side_idle_l",
     "Right": "player_side_idle_r",
-    "DownLeft": null,
+    "DownLeft": "",
     "Down": "dummyplayer",
-    "DownRight": null
+    "DownRight": ""
   },
   "Moves": {
     "UpLeft": "player_side_jump_l",
-    "Up": null,
+    "Up": "",
     "UpRight": "player_side_jump_r",
     "Left": "player_side_run_l",
     "Right": "player_side_run_r",
     "DownLeft": "player_side_fall_sg_l",
-    "Down": null,
+    "Down": "",
     "DownRight": "player_side_fall_sg_r"
   },
   "Attacks": {
-    "UpLeft": null,
-    "Up": null,
+    "UpLeft": "",
+    "Up": "",
     "UpRight": "",
     "Left": "",
     "Right": "",
-    "DownLeft": null,
-    "Down": null,
-    "DownRight": null
+    "DownLeft": "",
+    "Down": "",
+    "DownRight": ""
   },
   "ProjectileOffsets": [
     {
@@ -138,10 +138,10 @@
   "JumpSound": null,
   "DivertAttack": "",
   "DivertSpawn": "00_spawn_torso",
-  "DivertPlayerCollision": null,
-  "DivertPlayerHit": null,
-  "DivertHitAgainstPlayer": null,
-  "DivertProjectileCollision": null,
+  "DivertPlayerCollision": "",
+  "DivertPlayerHit": "",
+  "DivertHitAgainstPlayer": "",
+  "DivertProjectileCollision": "",
   "DivertOutOfScreenLeft": "snap_to_screen",
   "DivertOutOfScreenRight": "snap_to_screen",
   "DivertOutOfScreenUp": "00_donothing",
