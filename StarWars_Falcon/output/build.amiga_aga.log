@@ -1,0 +1,130 @@
+=== Image optimisations ===
+
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (Panel: scorpion_eng_splashscreen): 35158
+Music memory (): 0
+BP Buffer memory: 131040
+core sfx/gfx memory: 23860
+Parallax memory: 0
+OS/other estimated: 99328
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 1500
+Map background memory: 1396
+EXE memory: 209944
+vm memory: 7786
+project memory: 5292
+memory reserved for active actors on screen (32): 4744
+memory reserved for dormant actors in map (256): 9216
+OS/other estimated: 105472
+
+Accounted memory chip: 394858
+Accounted memory other: 239878
+Accounted memory total: 634736
+
+=== Misc ===
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 24
+Actor Count: 7
+Actor Data Size: 1316
+Block Count: 1
+Block Data Size: 68
+Anim5 Count: 0
+Anim5 Data Size: 0
+Sound Count: 1
+Sound Data Size: 28
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 19
+Animations Data Size: 304
+AnimationFrame Count: 68
+AnimationFrame Data Size: 1088
+ImageFrames: 50
+ImageFrame Data Size: 2200
+Sprites: 1
+Sprites Data Size: 14
+Attack Data: 3
+Attack Data Size: 198
+Misc data size: 30
+Panel scorpion_eng_splashscreen Original size 35158 Crunched size 3258
+Header data for map testmap Original size 7992 Crunched size 208
+Tile data for map testmap (mem restrictions:No_Blocks) Original size 1500 Crunched size 172
+Background for map testmap Original size 1396 Crunched size 80
+Asset bundle 0 (Core project asset bundle) Original size 23860 Crunched size 3470
+Asset bundle 1 (testmap) Original size 320 Crunched size 320
+Project Header Original size 4036 Crunched size 1190
+Project Data Original size 5292 Crunched size 1658
+Project virtual machine (codeblocks) Original size 7786 Crunched size 2340
+Project virtual machine redirects Original size 4 Crunched size 4
+
+=== Possibly unused animations ===
+tie_fighter
+warp_star
+
+=== Possibly unused Actors ===
+!dummyplayer
+laser_r
+
+=== Codeblocks by compiled size ===
+load_level: 948
+set_yresolution: 446
+do_teleport: 320
+flipscreen_smooth: 306 (Unused?)
+pre_startup: 290
+pause: 252 (Unused?)
+flipxymove: 250 (Unused?)
+waitforframes: 186
+!startup: 164
+snap_to_screen: 158 (Unused?)
+00_engine_handler: 156
+flipymove: 146 (Unused?)
+load_panel: 146
+pre_quit: 144
+00_engine_mode: 138
+flipxmove: 130 (Unused?)
+destroy_all_blocks: 120 (Unused?)
+load_music: 118 (Unused?)
+pre_load_level: 118
+unload_level: 114
+waitforfireup: 106
+waitforfiredown: 102
+load_panel_bottom: 96 (Unused?)
+load_panel_top: 96 (Unused?)
+unload_panel: 92
+pre_anim5: 86 (Unused?)
+waitforfirehit: 86
+fadeout: 84
+wrap_screen_bottom: 76 (Unused?)
+wrap_screen_right: 76 (Unused?)
+wrap_screen_left: 72 (Unused?)
+wrap_screen_top: 72 (Unused?)
+flipscreen: 70 (Unused?)
+00_point_at_player: 68
+quit: 66 (Unused?)
+AUTOGEN_OUTOFSCREEN_None_None_destroy_actor_None: 64
+jump_actor: 62 (Unused?)
+unload_panel_bottom: 62
+unload_panel_top: 62
+fadein: 58
+00_fire_laser: 58
+destroy_all_actors: 56 (Unused?)
+load_panel_finish: 56
+destroy_actor: 54
+load_music_finish: 52
+regenerate_screen: 52
+return: 52 (Unused?)
+destroy_block: 48 (Unused?)
+regenerate_screen_wait: 42
+00_spawnfalconengine: 42
+vm_registers: 26 (Unused?)
+vm_constants: 26 (Unused?)
+debug_breakpoint: 26 (Unused?)
+vm_constants_controlbits: 26 (Unused?)
+vm_constants_notes: 26 (Unused?)
+vm_constants_platform: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)
+startup: 26 (Unused?)
