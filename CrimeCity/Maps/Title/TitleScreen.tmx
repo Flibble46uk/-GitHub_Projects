@@ -3,6 +3,7 @@
   <properties>
     <property name="override_palette" type="file" value="TitleScreenPalette.png" />
     <property name="rainbow_palette" type="file" value="CopperList.png" />
+    <property name="padding_top" type="int" value="0" />
   </properties>
   <tileset firstgid="1" source="..\..\Actors.tsx" />
   <tileset firstgid="257" source="..\..\Blocks.tsx" />
