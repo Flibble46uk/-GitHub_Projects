@@ -15,16 +15,16 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 11904
 Map background memory: 1396
-EXE memory: 210016
-vm memory: 13578
+EXE memory: 209940
+vm memory: 13522
 project memory: 17168
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 707976
-Accounted memory other: 268022
-Accounted memory total: 975998
+Accounted memory other: 267890
+Accounted memory total: 975866
 
 === Misc ===
 Maps and Asset Bundles Count: 2
@@ -50,17 +50,17 @@ Sprites Data Size: 28
 Attack Data: 4
 Attack Data Size: 264
 Misc data size: 58
-Panel scorpion_eng_splashscreen Original size 35154 Crunched size 3258
-Panel title_screen Original size 38494 Crunched size 9632
-Panel top_panel Original size 2878 Crunched size 258
-Header data for map level_01 Original size 7996 Crunched size 676
+Panel scorpion_eng_splashscreen Original size 35158 Crunched size 3258
+Panel title_screen Original size 38498 Crunched size 9634
+Panel top_panel Original size 2882 Crunched size 260
+Header data for map level_01 Original size 7992 Crunched size 672
 Tile data for map level_01 (mem restrictions:None) Original size 11904 Crunched size 2738
 Background for map level_01 Original size 1396 Crunched size 110
 Asset bundle 0 (Core project asset bundle) Original size 228104 Crunched size 76426
 Asset bundle 1 (level_01) Original size 133952 Crunched size 63862
 Project Header Original size 4036 Crunched size 1194
-Project Data Original size 17168 Crunched size 4706
-Project virtual machine (codeblocks) Original size 13578 Crunched size 3522
+Project Data Original size 17168 Crunched size 4704
+Project virtual machine (codeblocks) Original size 13522 Crunched size 3520
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -89,85 +89,85 @@ player_side_fire_sg_ur_l
 01_turret_rck_active
 
 === Codeblocks by compiled size ===
-load_level: 996
-01_end_level: 972
-!!_startup: 774
-01_handler_bridge_1: 664
-set_yresolution: 448
-do_teleport: 382
-01_handler_weap_pod_2: 342
-flipscreen_smooth: 330 (Unused?)
-pre_startup: 292
-flipxymove: 282 (Unused?)
+load_level: 986
+01_end_level: 910
+!!_startup: 724
+01_handler_bridge_1: 616
+set_yresolution: 446
+do_teleport: 320
+flipscreen_smooth: 306 (Unused?)
+01_handler_weap_pod_2: 294
+pre_startup: 290
 pause: 252 (Unused?)
-01_handler_turret_ground_1: 250
-00_colour_cycle: 236 (Unused?)
-01_handler_weap_pod_1: 214
-snap_to_screen: 182
-00_dstry_w_explsn_01: 182 (Unused?)
-00_dstry_w_explsn_02: 182
-00_dstry_ground_turret: 180
-flipymove: 162 (Unused?)
-AUTOGEN_OUTOFSCREEN_00_donothing_00_donothing_00_donothing_00_donothing: 148
-AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_00_donothing_00_donothing: 148
-AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_00_donothing_!!_startup: 148
-AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 148
-flipxmove: 146 (Unused?)
+flipxymove: 250 (Unused?)
+00_colour_cycle: 230 (Unused?)
+01_handler_turret_ground_1: 226
+01_handler_weap_pod_1: 194
+waitforframes: 186
+00_dstry_w_explsn_01: 174 (Unused?)
+00_dstry_w_explsn_02: 174
+AUTOGEN_OUTOFSCREEN_00_donothing_00_donothing_00_donothing_00_donothing: 172
+AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_00_donothing_00_donothing: 172
+AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_00_donothing_!!_startup: 172
+AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 172
+00_dstry_ground_turret: 172
+snap_to_screen: 158
+flipymove: 146 (Unused?)
 load_panel: 146
-pre_quit: 146
-00_colour_cycle2: 142
-01_handler_reactor: 140
-destroy_all_blocks: 124 (Unused?)
+pre_quit: 144
+00_colour_cycle2: 140
+flipxmove: 130 (Unused?)
+01_handler_reactor: 124
+destroy_all_blocks: 120 (Unused?)
 load_music: 118 (Unused?)
 pre_load_level: 118
 unload_level: 114
+waitforfireup: 106
+waitforfiredown: 102
 load_panel_bottom: 96
 load_panel_top: 96 (Unused?)
-waitforfireup: 94
 unload_panel: 92
-waitforfiredown: 90
-AUTOGEN_OUTOFSCREEN_00_leave_screen_None_None_destroy_actor: 88
+AUTOGEN_OUTOFSCREEN_00_leave_screen_None_None_destroy_actor: 92
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
-wrap_screen_bottom: 86 (Unused?)
-wrap_screen_right: 86 (Unused?)
-00_handler_bg: 86 (Unused?)
-00_setcamera: 86
 fadeout: 84
-wrap_screen_left: 82 (Unused?)
-wrap_screen_top: 82 (Unused?)
 00_enemy01_death: 82
-00_leave_screen: 82
-flipscreen: 78 (Unused?)
-waitforframes: 78
+00_handler_bg: 80 (Unused?)
 00_player_fall: 78
-00_event_delay_rnd: 70 (Unused?)
-01_handler_turret_rock: 70
+00_setcamera: 78
+wrap_screen_bottom: 76 (Unused?)
+wrap_screen_right: 76 (Unused?)
+00_leave_screen: 76
+wrap_screen_left: 72 (Unused?)
+wrap_screen_top: 72 (Unused?)
+flipscreen: 70 (Unused?)
+AUTOGEN_OUTOFSCREEN_None_00_leave_screen_None_None: 68
+00_event_delay_rnd: 68 (Unused?)
 01_handler_bg_parallax: 68
 quit: 66 (Unused?)
+AUTOGEN_OUTOFSCREEN_destroy_actor_None_None_None: 64
+AUTOGEN_OUTOFSCREEN_00_leave_screen_None_None_None: 64
+01_handler_turret_rock: 64
 jump_actor: 62 (Unused?)
 unload_panel_bottom: 62
 unload_panel_top: 62
-00_enemy01_land: 62
-destroy_all_actors: 60 (Unused?)
 fadein: 58
-AUTOGEN_OUTOFSCREEN_None_00_leave_screen_None_None: 58
 !!flame_test: 58
+00_enemy01_land: 58
 00_handler_level: 58
+destroy_all_actors: 56 (Unused?)
 load_panel_finish: 56
 destroy_actor: 54
-AUTOGEN_OUTOFSCREEN_destroy_actor_None_None_None: 54
-AUTOGEN_OUTOFSCREEN_00_leave_screen_None_None_None: 54
 00_dstry_parallax: 54 (Unused?)
 00_handler_player: 54 (Unused?)
 load_music_finish: 52
 regenerate_screen: 52
 return: 52 (Unused?)
-00_move_all: 50
 destroy_block: 48 (Unused?)
-00_increase_var1: 48
 00_follow_start: 46 (Unused?)
 00_follow_stop: 46
+00_move_all: 46
+00_increase_var1: 44
 regenerate_screen_wait: 42
 00_actor_hide: 42
 00_enemy01_fall: 42
@@ -176,7 +176,7 @@ regenerate_screen_wait: 42
 00_spawn_torso: 42
 00_update_off: 42
 00_update_on: 42
-00_move_camera_r: 38
+00_move_camera_r: 36
 vm_registers: 26 (Unused?)
 vm_constants: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
