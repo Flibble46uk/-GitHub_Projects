@@ -1,0 +1,23 @@
+{
+  "OutputSpeed": "PAL_50HZ",
+  "GFXMode": "BP8",
+  "MemorySaver": "None",
+  "EmulatedAmiga": "A1200",
+  "EmulatedFastRam": 0,
+  "WinUAEConfiguration": null,
+  "SpriteMode": "Mode_2_64_Wide",
+  "Uses24BitColor": null,
+  "SpriteColorBank": 15,
+  "SScan2": false,
+  "FMode": 1,
+  "Width": 256,
+  "XOffset": 32,
+  "XFillSize": 20,
+  "YFillSize": 17,
+  "MapCache": false,
+  "DoubleCopper": true,
+  "AllocateMemoryUpfront": true,
+  "NTSC": false,
+  "CrunchMode": "NoCrunch",
+  "MaxActiveActors": 32
+}
