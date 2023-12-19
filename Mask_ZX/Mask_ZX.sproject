@@ -2,7 +2,7 @@
   "TargetPlatform": "amiga_aga_cd32",
   "Talkpad": null,
   "Talkpad_OnBottom": false,
-  "StartupCodeBlock": "!start_up",
+  "StartupCodeBlock": "!001_start_up",
   "Recompile": true,
   "DebugMode": false,
   "DataVersion": 3,
