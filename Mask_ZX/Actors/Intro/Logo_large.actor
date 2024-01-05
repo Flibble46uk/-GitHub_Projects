@@ -127,6 +127,7 @@
   "CollType_Up": "block",
   "CollType_Down": "block",
   "Player": null,
+  "BlockCollider": null,
   "CanRidePlatform": null,
   "Camera": null,
   "AutoScroll": null,
@@ -147,8 +148,8 @@
   "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
-  "DivertTimer": "00_intro_cam",
-  "DivertTimerFrames": 5,
+  "DivertTimer": "",
+  "DivertTimerFrames": 1,
   "Vars": [
     "0",
     "0",

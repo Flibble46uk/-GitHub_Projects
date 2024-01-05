@@ -1,7 +1,5 @@
 {
   "TargetPlatform": "amiga_aga_cd32",
-  "Talkpad": null,
-  "Talkpad_OnBottom": false,
   "StartupCodeBlock": "!001_start_up",
   "Recompile": true,
   "DebugMode": false,
@@ -73,7 +71,15 @@
   ],
   "AnimationMetaData": {},
   "Anim5MetaData": {},
-  "SoundMetaData": {},
+  "SoundMetaData": {
+    "mask___01___the_deathstone_[sg1]": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": true,
+      "Priority": 0,
+      "Channel": null
+    }
+  },
   "MMLMetaData": {},
   "NumberFontMetaData": {},
   "FontMetaData": {},

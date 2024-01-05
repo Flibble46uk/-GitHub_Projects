@@ -6,4 +6,9 @@
       <property name="Name" value="logo_large" type="string" />
     </properties>
   </tile>
+  <tile id="1">
+    <properties>
+      <property name="Name" value="frame_counter" type="string" />
+    </properties>
+  </tile>
 </tileset>
