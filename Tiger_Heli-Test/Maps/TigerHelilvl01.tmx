@@ -4,8 +4,8 @@
     <property name="divert_timer" value="00_leveleventmanager" />
     <property name="divert_timerframes" type="int" value="1" />
   </properties>
-  <tileset firstgid="1" source="..\Actors.tsx" />
-  <tileset firstgid="257" source="..\Blocks.tsx" />
+  <tileset firstgid="1" source="../Actors.tsx" />
+  <tileset firstgid="257" source="../Blocks.tsx" />
   <tileset firstgid="513" source="TigerHelilvl01.tileset.tsx" />
   <layer id="1" name="map" width="16" height="255">
     <data encoding="csv">
