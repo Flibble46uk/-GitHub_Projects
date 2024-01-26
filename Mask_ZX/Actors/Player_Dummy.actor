@@ -2,19 +2,19 @@
   "ShootDirType": "actor_direction",
   "DefaultLookDir": "left",
   "Recycle": "Default",
-  "MoveType": "cpu_cameralock",
+  "MoveType": "control",
   "MaxEntities": 0,
   "NudgeX": 0,
   "NudgeY": 0,
   "Idles": {
     "UpLeft": "",
-    "Up": "",
-    "UpRight": "",
-    "Left": "dummy_actor",
-    "Right": "",
-    "DownLeft": "",
-    "Down": "",
-    "DownRight": ""
+    "Up": "dummy_player",
+    "UpRight": "dummy_player",
+    "Left": "dummy_player",
+    "Right": "dummy_player",
+    "DownLeft": "dummy_player",
+    "Down": "dummy_player",
+    "DownRight": "dummy_player"
   },
   "Moves": {
     "UpLeft": "",
@@ -93,15 +93,15 @@
     }
   ],
   "InvalidDirections": [
-    true,
-    true,
-    true,
     false,
     false,
-    true,
-    true,
-    true,
-    true
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
   ],
   "CollBox": {
     "X": 0,
@@ -111,10 +111,10 @@
   },
   "AttackDelay": 0,
   "ZOrder": 0,
-  "SpeedLeft": 0.0,
-  "SpeedRight": 0.0,
-  "SpeedUp": 0.0,
-  "SpeedDown": 0.0,
+  "SpeedLeft": 1.0,
+  "SpeedRight": 1.0,
+  "SpeedUp": 1.0,
+  "SpeedDown": 1.0,
   "AccelLeft": null,
   "AccelRight": null,
   "AccelUp": null,
@@ -126,7 +126,7 @@
   "CollType_Right": "block",
   "CollType_Up": "block",
   "CollType_Down": "block",
-  "Player": null,
+  "Player": true,
   "BlockCollider": null,
   "CanRidePlatform": null,
   "Camera": null,
@@ -148,8 +148,8 @@
   "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
-  "DivertTimer": "00_frame_count",
-  "DivertTimerFrames": 1,
+  "DivertTimer": null,
+  "DivertTimerFrames": 0,
   "Vars": [
     "0",
     "0",
@@ -162,5 +162,5 @@
   "DataVersion": 3,
   "AutoSpawn": null,
   "AutoNavigate": false,
-  "TileID": 1
+  "TileID": 2
 }

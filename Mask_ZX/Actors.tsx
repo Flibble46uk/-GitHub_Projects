@@ -11,4 +11,9 @@
       <property name="Name" value="frame_counter" type="string" />
     </properties>
   </tile>
+  <tile id="2">
+    <properties>
+      <property name="Name" value="player_dummy" type="string" />
+    </properties>
+  </tile>
 </tileset>

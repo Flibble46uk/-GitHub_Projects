@@ -81,7 +81,11 @@
     }
   },
   "MMLMetaData": {},
-  "NumberFontMetaData": {},
+  "NumberFontMetaData": {
+    "defaultnumberfont": {
+      "Radix": 10
+    }
+  },
   "FontMetaData": {},
   "SplashScreen": null,
   "LogicSpeed": "PAL_50HZ",
