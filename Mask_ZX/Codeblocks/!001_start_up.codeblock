@@ -3565,7 +3565,7 @@
       "WaitForFireHit": false,
       "Frames": "0",
       "CameraX": "ScreenOffset",
-      "CameraY": "",
+      "CameraY": "256",
       "CameraBox": {
         "Left": "0",
         "Right": "0",
