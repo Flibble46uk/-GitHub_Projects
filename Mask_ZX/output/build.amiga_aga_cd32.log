@@ -15,16 +15,16 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 33244
 Map background memory: 2072
-EXE memory: 210012
-vm memory: 9856
+EXE memory: 210376
+vm memory: 9996
 project memory: 1398
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 426894
-Accounted memory other: 270542
-Accounted memory total: 697436
+Accounted memory other: 271046
+Accounted memory total: 697940
 
 === Misc ===
 Maps and Asset Bundles Count: 3
@@ -50,12 +50,12 @@ Sprites Data Size: 28
 Attack Data: 1
 Attack Data Size: 66
 Misc data size: 14
-Panel scorpion_eng_splashscreen Original size 35158 Crunched size 3262
-Panel diagnosticsl Original size 6930 Crunched size 6930
-Header data for map intro_map Original size 7992 Crunched size 7992
+Panel scorpion_eng_splashscreen Original size 35160 Crunched size 3260
+Panel diagnosticsl Original size 6932 Crunched size 6932
+Header data for map intro_map Original size 7996 Crunched size 7996
 Tile data for map intro_map (mem restrictions:No_Blocks) Original size 33244 Crunched size 33244
 Background for map intro_map Original size 2072 Crunched size 2072
-Header data for map level_01_zx Original size 7992 Crunched size 7992
+Header data for map level_01_zx Original size 7996 Crunched size 7996
 Tile data for map level_01_zx (mem restrictions:No_Blocks) Original size 18780 Crunched size 18780
 Background for map level_01_zx Original size 1400 Crunched size 1400
 Asset bundle 0 (Core project asset bundle) Original size 19072 Crunched size 19072
@@ -63,7 +63,7 @@ Asset bundle 1 (intro_map) Original size 44142 Crunched size 44142
 Asset bundle 2 (level_01_zx) Original size 31500 Crunched size 31500
 Project Header Original size 4036 Crunched size 4036
 Project Data Original size 1398 Crunched size 1398
-Project virtual machine (codeblocks) Original size 9856 Crunched size 9856
+Project virtual machine (codeblocks) Original size 9996 Crunched size 9996
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -73,7 +73,7 @@ intro_camera
 player_dummy
 
 === Codeblocks by compiled size ===
-!001_start_up: 1962
+!001_start_up: 1976
 load_level: 764
 set_yresolution: 458
 do_teleport: 424
@@ -89,14 +89,14 @@ snap_to_screen: 158 (Unused?)
 pre_quit: 152
 load_panel: 146
 flipxmove: 142 (Unused?)
+unload_level: 142
 load_music: 130 (Unused?)
 destroy_all_blocks: 124 (Unused?)
 pre_load_level: 122
-unload_level: 118
 waitforfireup: 114
+fadein: 112
 waitforfiredown: 110
-fadein: 106
-unload_panel: 100
+unload_panel: 106
 load_panel_bottom: 96
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)
@@ -107,20 +107,21 @@ waitforfirehit: 86
 load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)
 wrap_screen_right: 76 (Unused?)
+set_ntsc: 74 (Unused?)
 flipscreen: 72 (Unused?)
 wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
 quit: 70
 jump_actor: 66 (Unused?)
+load_panel_finish: 66
 unload_panel_bottom: 62
 unload_panel_top: 62
 destroy_all_actors: 60 (Unused?)
-load_panel_finish: 60
 destroy_actor: 58
+regenerate_screen: 58
 destroy_block: 52 (Unused?)
-regenerate_screen: 52
 return: 52 (Unused?)
-regenerate_screen_wait: 42
+regenerate_screen_wait: 46
 freeze_actor: 40 (Unused?)
 unfreeze_actor: 40 (Unused?)
 block_coll_force: 32 (Unused?)
