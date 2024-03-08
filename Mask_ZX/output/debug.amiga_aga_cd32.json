@@ -2250,46 +2250,60 @@
       "MemoryOffset": 311
     },
     {
-      "CodeBlock": "!001_start_up",
+      "CodeBlock": "!start_up",
       "Name": "ScreenOffset",
       "DefaultValue": "28",
       "Index": 161,
       "MemoryOffset": 311
     },
     {
-      "CodeBlock": "!001_start_up",
+      "CodeBlock": "!start_up",
       "Name": "intro_frame",
       "DefaultValue": "0",
       "Index": 162,
       "MemoryOffset": 312
     },
     {
-      "CodeBlock": "!001_start_up",
+      "CodeBlock": "!start_up",
       "Name": "AnimStep",
       "DefaultValue": "0",
       "Index": 163,
       "MemoryOffset": 313
     },
     {
-      "CodeBlock": "!001_start_up",
+      "CodeBlock": "!start_up",
       "Name": "Frame_Count",
       "DefaultValue": "0",
       "Index": 164,
       "MemoryOffset": 314
     },
     {
-      "CodeBlock": "!001_start_up",
+      "CodeBlock": "!start_up",
       "Name": "No_spawn",
       "DefaultValue": "0",
       "Index": 165,
       "MemoryOffset": 315
     },
     {
-      "CodeBlock": "!001_start_up",
-      "Name": "Intro",
-      "DefaultValue": "1",
+      "CodeBlock": "!start_up",
+      "Name": "CarMode",
+      "DefaultValue": "0",
       "Index": 166,
       "MemoryOffset": 316
+    },
+    {
+      "CodeBlock": "!start_up",
+      "Name": "Intro",
+      "DefaultValue": "0",
+      "Index": 167,
+      "MemoryOffset": 317
+    },
+    {
+      "CodeBlock": "!start_up",
+      "Name": "Currentlevel",
+      "DefaultValue": "1",
+      "Index": 168,
+      "MemoryOffset": 318
     }
   ],
   "Lines": [
@@ -2327,7 +2341,7 @@
       "CodeBlock": "project",
       "CodeBlockLine": 0,
       "MemoryOffset": 60,
-      "Description": "GOTO '!001_START_UP'"
+      "Description": "GOTO '!START_UP'"
     },
     {
       "CodeBlock": "vm_registers",
@@ -5318,1881 +5332,1089 @@
       "Description": "Set 'actor_y' to 'actor_y + yres + 16'"
     },
     {
-      "CodeBlock": "!!garbage",
+      "CodeBlock": "autogen_outofscreen_snap_to_screen_snap_to_screen_snap_to_screen_snap_to_screen",
       "CodeBlockLine": 0,
       "MemoryOffset": 7004,
-      "Description": "!!GARBAGE"
+      "Description": "AUTOGEN_OUTOFSCREEN_SNAP_TO_SCREEN_SNAP_TO_SCREEN_SNAP_TO_SCREEN_SNAP_TO_SCREEN"
     },
     {
-      "CodeBlock": "!001_start_up",
+      "CodeBlock": "autogen_outofscreen_snap_to_screen_snap_to_screen_snap_to_screen_snap_to_screen",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 7004,
+      "Description": "If actor_y < camera_y ELSE GOTO 00007028"
+    },
+    {
+      "CodeBlock": "autogen_outofscreen_snap_to_screen_snap_to_screen_snap_to_screen_snap_to_screen",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 7022,
+      "Description": "GOTO 'SNAP_TO_SCREEN'"
+    },
+    {
+      "CodeBlock": "autogen_outofscreen_snap_to_screen_snap_to_screen_snap_to_screen_snap_to_screen",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7028,
+      "Description": "If actor_y > yres + camera_y ELSE GOTO 00007056"
+    },
+    {
+      "CodeBlock": "autogen_outofscreen_snap_to_screen_snap_to_screen_snap_to_screen_snap_to_screen",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 7050,
+      "Description": "GOTO 'SNAP_TO_SCREEN'"
+    },
+    {
+      "CodeBlock": "autogen_outofscreen_snap_to_screen_snap_to_screen_snap_to_screen_snap_to_screen",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 7056,
+      "Description": "If actor_x < camera_x ELSE GOTO 00007080"
+    },
+    {
+      "CodeBlock": "autogen_outofscreen_snap_to_screen_snap_to_screen_snap_to_screen_snap_to_screen",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 7074,
+      "Description": "GOTO 'SNAP_TO_SCREEN'"
+    },
+    {
+      "CodeBlock": "autogen_outofscreen_snap_to_screen_snap_to_screen_snap_to_screen_snap_to_screen",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 7080,
+      "Description": "If actor_x > xres + camera_x ELSE GOTO 00007108"
+    },
+    {
+      "CodeBlock": "autogen_outofscreen_snap_to_screen_snap_to_screen_snap_to_screen_snap_to_screen",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 7102,
+      "Description": "GOTO 'SNAP_TO_SCREEN'"
+    },
+    {
+      "CodeBlock": "!!bugs",
       "CodeBlockLine": 0,
-      "MemoryOffset": 7030,
-      "Description": "!001_START_UP"
+      "MemoryOffset": 7134,
+      "Description": "!!BUGS"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 35,
-      "MemoryOffset": 7030,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 7160,
+      "Description": "!START_UP"
+    },
+    {
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 7160,
       "Description": "Set 'newvalue' to '256'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 35,
-      "MemoryOffset": 7036,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 7166,
       "Description": "GOSUB TO 'SET_YRESOLUTION'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 35,
-      "MemoryOffset": 7056,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 7186,
       "Description": "GOSUB TO 'REGENERATE_SCREEN'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 36,
-      "MemoryOffset": 7076,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 7206,
       "Description": "Set 'fadetime' to '1'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 38,
-      "MemoryOffset": 7082,
-      "Description": "If intro == 1 ELSE GOTO 00007820"
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 7212,
+      "Description": "If intro == 1 ELSE GOTO 00007924"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 40,
-      "MemoryOffset": 7094,
-      "Description": "Set 'newvalue' to 'diagnosticsl'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 40,
-      "MemoryOffset": 7100,
-      "Description": "GOSUB TO 'LOAD_PANEL_BOTTOM'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 43,
-      "MemoryOffset": 7120,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 7224,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 43,
-      "MemoryOffset": 7128,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 7232,
       "Description": "Raw expression 'intro_map'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 43,
-      "MemoryOffset": 7134,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 7238,
       "Description": "Core operation'PushToStack'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 43,
-      "MemoryOffset": 7142,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 7246,
       "Description": "Raw expression 'intro_map'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 43,
-      "MemoryOffset": 7148,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 7252,
       "Description": "Core operation'PushToStack'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 43,
-      "MemoryOffset": 7156,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 7260,
       "Description": "GOSUB TO 'PRE_LOAD_LEVEL'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 43,
-      "MemoryOffset": 7176,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 7280,
       "Description": "Raw expression '15'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 43,
-      "MemoryOffset": 7182,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 7286,
       "Description": "Core operation'PopFromStack'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 43,
-      "MemoryOffset": 7190,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 7294,
       "Description": "Raw expression '14'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 43,
-      "MemoryOffset": 7196,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 7300,
       "Description": "Core operation'PopFromStack'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 43,
-      "MemoryOffset": 7204,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 7308,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 43,
-      "MemoryOffset": 7224,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 7328,
       "Description": "GOSUB TO 'FADEIN'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 44,
-      "MemoryOffset": 7244,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 7348,
       "Description": "Set 'camera_x' to 'ScreenOffset'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 44,
-      "MemoryOffset": 7250,
-      "Description": "Set 'camera_y' to '256'"
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 7354,
+      "Description": "Set 'camera_y' to '0'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 44,
-      "MemoryOffset": 7256,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 7360,
       "Description": "Set 'camera_follow' to 'camera_follow & 32752'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7268,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7372,
       "Description": "Set 'red' to '225'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7274,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7378,
       "Description": "Set 'green' to '214'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7280,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7384,
       "Description": "Set 'blue' to '200'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7286,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7390,
       "Description": "Raw expression '240'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7292,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7396,
       "Description": "Core operation'PaletteSet'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7300,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7404,
       "Description": "Set 'red' to '0'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7306,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7410,
       "Description": "Set 'green' to '0'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7312,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7416,
       "Description": "Set 'blue' to '0'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7318,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7422,
       "Description": "Raw expression '241'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7324,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7428,
       "Description": "Core operation'PaletteSet'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7332,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7436,
       "Description": "Set 'red' to '0'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7338,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7442,
       "Description": "Set 'green' to '0'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7344,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7448,
       "Description": "Set 'blue' to '0'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7350,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7454,
       "Description": "Raw expression '242'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7356,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7460,
       "Description": "Core operation'PaletteSet'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7364,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7468,
       "Description": "Set 'red' to '0'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7370,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7474,
       "Description": "Set 'green' to '0'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7376,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7480,
       "Description": "Set 'blue' to '0'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7382,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7486,
       "Description": "Raw expression '243'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7388,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7492,
       "Description": "Core operation'PaletteSet'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7396,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7500,
       "Description": "Set 'red' to '0'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7402,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7506,
       "Description": "Set 'green' to '0'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7408,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7512,
       "Description": "Set 'blue' to '0'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7414,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7518,
       "Description": "Raw expression '244'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7420,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7524,
       "Description": "Core operation'PaletteSet'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7428,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7532,
       "Description": "Set 'red' to '255'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7434,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7538,
       "Description": "Set 'green' to '255'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7440,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7544,
       "Description": "Set 'blue' to '255'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7446,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7550,
       "Description": "Raw expression '245'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7452,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7556,
       "Description": "Core operation'PaletteSet'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7460,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7564,
       "Description": "Set 'red' to '218'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7466,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7570,
       "Description": "Set 'green' to '200'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7472,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7576,
       "Description": "Set 'blue' to '186'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7478,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7582,
       "Description": "Raw expression '246'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7484,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7588,
       "Description": "Core operation'PaletteSet'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7492,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7596,
       "Description": "Set 'red' to '160'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7498,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7602,
       "Description": "Set 'green' to '160'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7504,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7608,
       "Description": "Set 'blue' to '153'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7510,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7614,
       "Description": "Raw expression '247'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7516,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7620,
       "Description": "Core operation'PaletteSet'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7524,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7628,
       "Description": "Set 'red' to '106'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7530,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7634,
       "Description": "Set 'green' to '106'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7536,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7640,
       "Description": "Set 'blue' to '98'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7542,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7646,
       "Description": "Raw expression '248'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7548,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7652,
       "Description": "Core operation'PaletteSet'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7556,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7660,
       "Description": "Set 'red' to '64'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7562,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7666,
       "Description": "Set 'green' to '64'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7568,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7672,
       "Description": "Set 'blue' to '59'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7574,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7678,
       "Description": "Raw expression '249'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7580,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7684,
       "Description": "Core operation'PaletteSet'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7588,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7692,
       "Description": "Set 'red' to '36'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7594,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7698,
       "Description": "Set 'green' to '36'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7600,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7704,
       "Description": "Set 'blue' to '36'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7606,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7710,
       "Description": "Raw expression '250'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7612,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7716,
       "Description": "Core operation'PaletteSet'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7620,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7724,
       "Description": "Set 'red' to '158'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7626,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7730,
       "Description": "Set 'green' to '0'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7632,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7736,
       "Description": "Set 'blue' to '0'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7638,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7742,
       "Description": "Raw expression '251'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7644,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7748,
       "Description": "Core operation'PaletteSet'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7652,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7756,
       "Description": "Set 'red' to '117'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7658,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7762,
       "Description": "Set 'green' to '0'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7664,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7768,
       "Description": "Set 'blue' to '43'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7670,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7774,
       "Description": "Raw expression '252'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7676,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7780,
       "Description": "Core operation'PaletteSet'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7684,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7788,
       "Description": "Set 'red' to '61'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7690,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7794,
       "Description": "Set 'green' to '21'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7696,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7800,
       "Description": "Set 'blue' to '45'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7702,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7806,
       "Description": "Raw expression '253'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7708,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7812,
       "Description": "Core operation'PaletteSet'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7716,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7820,
       "Description": "Set 'red' to '143'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7722,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7826,
       "Description": "Set 'green' to '124'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7728,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7832,
       "Description": "Set 'blue' to '0'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7734,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7838,
       "Description": "Raw expression '254'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7740,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7844,
       "Description": "Core operation'PaletteSet'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7748,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7852,
       "Description": "Set 'red' to '211'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7754,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7858,
       "Description": "Set 'green' to '182'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7760,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7864,
       "Description": "Set 'blue' to '0'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7766,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7870,
       "Description": "Raw expression '255'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7772,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7876,
       "Description": "Core operation'PaletteSet'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 47,
-      "MemoryOffset": 7780,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 24,
+      "MemoryOffset": 7884,
       "Description": "Raw expression 'mask___01___the_deathstone_[sg1]'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 47,
-      "MemoryOffset": 7786,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 24,
+      "MemoryOffset": 7890,
       "Description": "Core operation'CDMusic'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 48,
-      "MemoryOffset": 7794,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 7898,
       "Description": "Raw expression 'frame_counter'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 48,
-      "MemoryOffset": 7800,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 7904,
       "Description": "Raw expression 'camera_x'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 48,
-      "MemoryOffset": 7806,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 7910,
       "Description": "Raw expression 'camera_y'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 48,
-      "MemoryOffset": 7812,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 7916,
       "Description": "Core operation'PixelSpawn'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 51,
-      "MemoryOffset": 7820,
-      "Description": "If intro == 0 ELSE GOTO 00008980"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7832,
-      "Description": "Set 'red' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7838,
-      "Description": "Set 'green' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7844,
-      "Description": "Set 'blue' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7850,
-      "Description": "Raw expression '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7856,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7864,
-      "Description": "Set 'red' to '255'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7870,
-      "Description": "Set 'green' to '255'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7876,
-      "Description": "Set 'blue' to '255'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7882,
-      "Description": "Raw expression '1'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7888,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7896,
-      "Description": "Set 'red' to '227'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7902,
-      "Description": "Set 'green' to '227'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7908,
-      "Description": "Set 'blue' to '227'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7914,
-      "Description": "Raw expression '2'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7920,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7928,
-      "Description": "Set 'red' to '201'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7934,
-      "Description": "Set 'green' to '201'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7940,
-      "Description": "Set 'blue' to '201'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7946,
-      "Description": "Raw expression '3'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7952,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7960,
-      "Description": "Set 'red' to '145'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7966,
-      "Description": "Set 'green' to '145'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7972,
-      "Description": "Set 'blue' to '145'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7978,
-      "Description": "Raw expression '4'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7984,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7992,
-      "Description": "Set 'red' to '82'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7998,
-      "Description": "Set 'green' to '82'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8004,
-      "Description": "Set 'blue' to '82'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8010,
-      "Description": "Raw expression '5'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8016,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8024,
-      "Description": "Set 'red' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8030,
-      "Description": "Set 'green' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8036,
-      "Description": "Set 'blue' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8042,
-      "Description": "Raw expression '6'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8048,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8056,
-      "Description": "Set 'red' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8062,
-      "Description": "Set 'green' to '255'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8068,
-      "Description": "Set 'blue' to '255'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8074,
-      "Description": "Raw expression '7'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8080,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8088,
-      "Description": "Set 'red' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8094,
-      "Description": "Set 'green' to '204'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8100,
-      "Description": "Set 'blue' to '204'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8106,
-      "Description": "Raw expression '8'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8112,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8120,
-      "Description": "Set 'red' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8126,
-      "Description": "Set 'green' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8132,
-      "Description": "Set 'blue' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8138,
-      "Description": "Raw expression '9'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8144,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8152,
-      "Description": "Set 'red' to '241'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8158,
-      "Description": "Set 'green' to '14'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8164,
-      "Description": "Set 'blue' to '14'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8170,
-      "Description": "Raw expression '10'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8176,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8184,
-      "Description": "Set 'red' to '204'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8190,
-      "Description": "Set 'green' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8196,
-      "Description": "Set 'blue' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8202,
-      "Description": "Raw expression '11'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8208,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8216,
-      "Description": "Set 'red' to '158'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8222,
-      "Description": "Set 'green' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8228,
-      "Description": "Set 'blue' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8234,
-      "Description": "Raw expression '12'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8240,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8248,
-      "Description": "Set 'red' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8254,
-      "Description": "Set 'green' to '204'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8260,
-      "Description": "Set 'blue' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8266,
-      "Description": "Raw expression '13'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8272,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8280,
-      "Description": "Set 'red' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8286,
-      "Description": "Set 'green' to '138'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8292,
-      "Description": "Set 'blue' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8298,
-      "Description": "Raw expression '14'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8304,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8312,
-      "Description": "Set 'red' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8318,
-      "Description": "Set 'green' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8324,
-      "Description": "Set 'blue' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8330,
-      "Description": "Raw expression '15'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8336,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8344,
-      "Description": "Set 'red' to '204'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8350,
-      "Description": "Set 'green' to '204'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8356,
-      "Description": "Set 'blue' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8362,
-      "Description": "Raw expression '16'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8368,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8376,
-      "Description": "Set 'red' to '199'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8382,
-      "Description": "Set 'green' to '159'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8388,
-      "Description": "Set 'blue' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8394,
-      "Description": "Raw expression '17'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8400,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8408,
-      "Description": "Set 'red' to '169'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8414,
-      "Description": "Set 'green' to '138'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8420,
-      "Description": "Set 'blue' to '50'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8426,
-      "Description": "Raw expression '18'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8432,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8440,
-      "Description": "Set 'red' to '126'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8446,
-      "Description": "Set 'green' to '111'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8452,
-      "Description": "Set 'blue' to '38'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8458,
-      "Description": "Raw expression '19'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8464,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8472,
-      "Description": "Set 'red' to '82'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8478,
-      "Description": "Set 'green' to '82'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8484,
-      "Description": "Set 'blue' to '122'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8490,
-      "Description": "Raw expression '20'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8496,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8504,
-      "Description": "Set 'red' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8510,
-      "Description": "Set 'green' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8516,
-      "Description": "Set 'blue' to '204'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8522,
-      "Description": "Raw expression '21'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8528,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8536,
-      "Description": "Set 'red' to '204'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8542,
-      "Description": "Set 'green' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8548,
-      "Description": "Set 'blue' to '204'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8554,
-      "Description": "Raw expression '22'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8560,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8568,
-      "Description": "Set 'red' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8574,
-      "Description": "Set 'green' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8580,
-      "Description": "Set 'blue' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8586,
-      "Description": "Raw expression '23'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8592,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8600,
-      "Description": "Set 'red' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8606,
-      "Description": "Set 'green' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8612,
-      "Description": "Set 'blue' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8618,
-      "Description": "Raw expression '24'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8624,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8632,
-      "Description": "Set 'red' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8638,
-      "Description": "Set 'green' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8644,
-      "Description": "Set 'blue' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8650,
-      "Description": "Raw expression '25'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8656,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8664,
-      "Description": "Set 'red' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8670,
-      "Description": "Set 'green' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8676,
-      "Description": "Set 'blue' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8682,
-      "Description": "Raw expression '26'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8688,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8696,
-      "Description": "Set 'red' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8702,
-      "Description": "Set 'green' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8708,
-      "Description": "Set 'blue' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8714,
-      "Description": "Raw expression '27'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8720,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8728,
-      "Description": "Set 'red' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8734,
-      "Description": "Set 'green' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8740,
-      "Description": "Set 'blue' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8746,
-      "Description": "Raw expression '28'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8752,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8760,
-      "Description": "Set 'red' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8766,
-      "Description": "Set 'green' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8772,
-      "Description": "Set 'blue' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8778,
-      "Description": "Raw expression '29'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8784,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8792,
-      "Description": "Set 'red' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8798,
-      "Description": "Set 'green' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8804,
-      "Description": "Set 'blue' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8810,
-      "Description": "Raw expression '30'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8816,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8824,
-      "Description": "Set 'red' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8830,
-      "Description": "Set 'green' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8836,
-      "Description": "Set 'blue' to '0'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8842,
-      "Description": "Raw expression '31'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 8848,
-      "Description": "Core operation'PaletteSet'"
-    },
-    {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 55,
-      "MemoryOffset": 8856,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 32,
+      "MemoryOffset": 7924,
+      "Description": "If Currentlevel == 1 ELSE GOTO 00008060"
+    },
+    {
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 33,
+      "MemoryOffset": 7936,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 55,
-      "MemoryOffset": 8864,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 33,
+      "MemoryOffset": 7944,
       "Description": "Raw expression 'level_01_zx'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 55,
-      "MemoryOffset": 8870,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 33,
+      "MemoryOffset": 7950,
       "Description": "Core operation'PushToStack'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 55,
-      "MemoryOffset": 8878,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 33,
+      "MemoryOffset": 7958,
       "Description": "Raw expression 'level_01_zx'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 55,
-      "MemoryOffset": 8884,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 33,
+      "MemoryOffset": 7964,
       "Description": "Core operation'PushToStack'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 55,
-      "MemoryOffset": 8892,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 33,
+      "MemoryOffset": 7972,
       "Description": "GOSUB TO 'PRE_LOAD_LEVEL'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 55,
-      "MemoryOffset": 8912,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 33,
+      "MemoryOffset": 7992,
       "Description": "Raw expression '15'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 55,
-      "MemoryOffset": 8918,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 33,
+      "MemoryOffset": 7998,
       "Description": "Core operation'PopFromStack'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 55,
-      "MemoryOffset": 8926,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 33,
+      "MemoryOffset": 8006,
       "Description": "Raw expression '14'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 55,
-      "MemoryOffset": 8932,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 33,
+      "MemoryOffset": 8012,
       "Description": "Core operation'PopFromStack'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 55,
-      "MemoryOffset": 8940,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 33,
+      "MemoryOffset": 8020,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
-      "CodeBlock": "!001_start_up",
-      "CodeBlockLine": 55,
-      "MemoryOffset": 8960,
+      "CodeBlock": "!start_up",
+      "CodeBlockLine": 33,
+      "MemoryOffset": 8040,
       "Description": "GOSUB TO 'FADEIN'"
     },
     {
       "CodeBlock": "00_frame_count",
       "CodeBlockLine": 0,
-      "MemoryOffset": 9006,
+      "MemoryOffset": 8086,
       "Description": "00_FRAME_COUNT"
     },
     {
       "CodeBlock": "00_frame_count",
       "CodeBlockLine": 2,
-      "MemoryOffset": 9006,
-      "Description": "If frame_count != frame_count+1 ELSE GOTO 00009040"
+      "MemoryOffset": 8086,
+      "Description": "If frame_count != frame_count+1 ELSE GOTO 00008120"
     },
     {
       "CodeBlock": "00_frame_count",
       "CodeBlockLine": 2,
-      "MemoryOffset": 9022,
+      "MemoryOffset": 8102,
       "Description": "Set 'frame_count' to 'frame_count+1'"
     },
     {
       "CodeBlock": "00_frame_count",
       "CodeBlockLine": 2,
-      "MemoryOffset": 9032,
+      "MemoryOffset": 8112,
       "Description": "Core operation'RefreshUI'"
     },
     {
       "CodeBlock": "00_frame_count",
       "CodeBlockLine": 4,
-      "MemoryOffset": 9040,
-      "Description": "If frame_count == 1400 ELSE GOTO 00009060"
+      "MemoryOffset": 8120,
+      "Description": "If frame_count == 1400 ELSE GOTO 00008140"
     },
     {
       "CodeBlock": "00_frame_count",
       "CodeBlockLine": 5,
-      "MemoryOffset": 9054,
+      "MemoryOffset": 8134,
       "Description": "Set 'animstep' to '20'"
     },
     {
       "CodeBlock": "00_intro_control",
       "CodeBlockLine": 0,
-      "MemoryOffset": 9086,
+      "MemoryOffset": 8166,
       "Description": "00_INTRO_CONTROL"
     },
     {
       "CodeBlock": "00_intro_control",
       "CodeBlockLine": 4,
-      "MemoryOffset": 9086,
-      "Description": "If intro_frame < 12 ELSE GOTO 00009228"
+      "MemoryOffset": 8166,
+      "Description": "If intro_frame < 12 ELSE GOTO 00008368"
     },
     {
       "CodeBlock": "00_intro_control",
       "CodeBlockLine": 7,
-      "MemoryOffset": 9098,
-      "Description": "If xres == 256 ELSE GOTO 00009160"
+      "MemoryOffset": 8178,
+      "Description": "If xres == 256 ELSE GOTO 00008240"
     },
     {
       "CodeBlock": "00_intro_control",
       "CodeBlockLine": 8,
-      "MemoryOffset": 9112,
+      "MemoryOffset": 8192,
       "Description": "Raw expression '320*intro_frame+ScreenOffset'"
     },
     {
       "CodeBlock": "00_intro_control",
       "CodeBlockLine": 8,
-      "MemoryOffset": 9128,
+      "MemoryOffset": 8208,
       "Description": "Raw expression 'camera_y'"
     },
     {
       "CodeBlock": "00_intro_control",
       "CodeBlockLine": 8,
-      "MemoryOffset": 9134,
+      "MemoryOffset": 8214,
       "Description": "Raw expression 'True'"
     },
     {
       "CodeBlock": "00_intro_control",
       "CodeBlockLine": 8,
-      "MemoryOffset": 9140,
+      "MemoryOffset": 8220,
       "Description": "Core operation'CameraWarp'"
     },
     {
       "CodeBlock": "00_intro_control",
       "CodeBlockLine": 8,
-      "MemoryOffset": 9148,
+      "MemoryOffset": 8228,
       "Description": "Set 'camera_follow' to 'camera_follow & 32752'"
+    },
+    {
+      "CodeBlock": "00_intro_control",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 8240,
+      "Description": "If xres == 304 ELSE GOTO 00008300"
     },
     {
       "CodeBlock": "00_intro_control",
       "CodeBlockLine": 12,
-      "MemoryOffset": 9160,
-      "Description": "If xres == 320 ELSE GOTO 00009218"
+      "MemoryOffset": 8254,
+      "Description": "Raw expression '320*intro_frame+8'"
     },
     {
       "CodeBlock": "00_intro_control",
-      "CodeBlockLine": 13,
-      "MemoryOffset": 9174,
-      "Description": "Raw expression '320*intro_frame'"
-    },
-    {
-      "CodeBlock": "00_intro_control",
-      "CodeBlockLine": 13,
-      "MemoryOffset": 9186,
+      "CodeBlockLine": 12,
+      "MemoryOffset": 8268,
       "Description": "Raw expression 'camera_y'"
     },
     {
       "CodeBlock": "00_intro_control",
-      "CodeBlockLine": 13,
-      "MemoryOffset": 9192,
+      "CodeBlockLine": 12,
+      "MemoryOffset": 8274,
       "Description": "Raw expression 'True'"
     },
     {
       "CodeBlock": "00_intro_control",
-      "CodeBlockLine": 13,
-      "MemoryOffset": 9198,
+      "CodeBlockLine": 12,
+      "MemoryOffset": 8280,
       "Description": "Core operation'CameraWarp'"
     },
     {
       "CodeBlock": "00_intro_control",
-      "CodeBlockLine": 13,
-      "MemoryOffset": 9206,
+      "CodeBlockLine": 12,
+      "MemoryOffset": 8288,
       "Description": "Set 'camera_follow' to 'camera_follow & 32752'"
     },
     {
       "CodeBlock": "00_intro_control",
-      "CodeBlockLine": 15,
-      "MemoryOffset": 9218,
-      "Description": "Set 'intro_frame' to 'intro_frame+1'"
+      "CodeBlockLine": 16,
+      "MemoryOffset": 8300,
+      "Description": "If xres == 320 ELSE GOTO 00008358"
     },
     {
       "CodeBlock": "00_intro_control",
-      "CodeBlockLine": 19,
-      "MemoryOffset": 9228,
-      "Description": "If intro_frame == 12 ELSE GOTO 00009246"
+      "CodeBlockLine": 17,
+      "MemoryOffset": 8314,
+      "Description": "Raw expression '320*intro_frame'"
     },
     {
       "CodeBlock": "00_intro_control",
-      "CodeBlockLine": 20,
-      "MemoryOffset": 9240,
-      "Description": "Set 'intro_frame' to '0'"
-    },
-    {
-      "CodeBlock": "00_intro_control",
-      "CodeBlockLine": 24,
-      "MemoryOffset": 9246,
-      "Description": "If AnimStep == 20 AND No_spawn < 20 ELSE GOTO 00009308"
-    },
-    {
-      "CodeBlock": "00_intro_control",
-      "CodeBlockLine": 25,
-      "MemoryOffset": 9270,
-      "Description": "Raw expression 'logo_large'"
-    },
-    {
-      "CodeBlock": "00_intro_control",
-      "CodeBlockLine": 25,
-      "MemoryOffset": 9276,
-      "Description": "Raw expression 'camera_x+34'"
-    },
-    {
-      "CodeBlock": "00_intro_control",
-      "CodeBlockLine": 25,
-      "MemoryOffset": 9288,
+      "CodeBlockLine": 17,
+      "MemoryOffset": 8326,
       "Description": "Raw expression 'camera_y'"
     },
     {
       "CodeBlock": "00_intro_control",
-      "CodeBlockLine": 25,
-      "MemoryOffset": 9294,
+      "CodeBlockLine": 17,
+      "MemoryOffset": 8332,
+      "Description": "Raw expression 'True'"
+    },
+    {
+      "CodeBlock": "00_intro_control",
+      "CodeBlockLine": 17,
+      "MemoryOffset": 8338,
+      "Description": "Core operation'CameraWarp'"
+    },
+    {
+      "CodeBlock": "00_intro_control",
+      "CodeBlockLine": 17,
+      "MemoryOffset": 8346,
+      "Description": "Set 'camera_follow' to 'camera_follow & 32752'"
+    },
+    {
+      "CodeBlock": "00_intro_control",
+      "CodeBlockLine": 19,
+      "MemoryOffset": 8358,
+      "Description": "Set 'intro_frame' to 'intro_frame+1'"
+    },
+    {
+      "CodeBlock": "00_intro_control",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 8368,
+      "Description": "If intro_frame == 12 ELSE GOTO 00008386"
+    },
+    {
+      "CodeBlock": "00_intro_control",
+      "CodeBlockLine": 24,
+      "MemoryOffset": 8380,
+      "Description": "Set 'intro_frame' to '0'"
+    },
+    {
+      "CodeBlock": "00_intro_control",
+      "CodeBlockLine": 28,
+      "MemoryOffset": 8386,
+      "Description": "If AnimStep == 20 AND No_spawn < 20 ELSE GOTO 00008448"
+    },
+    {
+      "CodeBlock": "00_intro_control",
+      "CodeBlockLine": 29,
+      "MemoryOffset": 8410,
+      "Description": "Raw expression 'logo_large'"
+    },
+    {
+      "CodeBlock": "00_intro_control",
+      "CodeBlockLine": 29,
+      "MemoryOffset": 8416,
+      "Description": "Raw expression 'camera_x+34'"
+    },
+    {
+      "CodeBlock": "00_intro_control",
+      "CodeBlockLine": 29,
+      "MemoryOffset": 8428,
+      "Description": "Raw expression 'camera_y'"
+    },
+    {
+      "CodeBlock": "00_intro_control",
+      "CodeBlockLine": 29,
+      "MemoryOffset": 8434,
       "Description": "Core operation'PixelSpawn'"
     },
     {
       "CodeBlock": "00_intro_control",
-      "CodeBlockLine": 26,
-      "MemoryOffset": 9302,
+      "CodeBlockLine": 30,
+      "MemoryOffset": 8442,
       "Description": "Set 'no_spawn' to '20'"
+    },
+    {
+      "CodeBlock": "00_switch_mode",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 8474,
+      "Description": "00_SWITCH_MODE"
+    },
+    {
+      "CodeBlock": "00_switch_mode",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 8474,
+      "Description": "Set 'carmode' to '1-carmode'"
+    },
+    {
+      "CodeBlock": "00_switch_mode",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 8484,
+      "Description": "If carmode == 0"
+    },
+    {
+      "CodeBlock": "00_switch_mode",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 8496,
+      "Description": "Raw expression '4'"
+    },
+    {
+      "CodeBlock": "00_switch_mode",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 8502,
+      "Description": "Raw expression 'player_drive'"
+    },
+    {
+      "CodeBlock": "00_switch_mode",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 8508,
+      "Description": "Raw expression 'False'"
+    },
+    {
+      "CodeBlock": "00_switch_mode",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 8514,
+      "Description": "Raw expression 'False'"
+    },
+    {
+      "CodeBlock": "00_switch_mode",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 8520,
+      "Description": "Core operation'ActorSetType'"
+    },
+    {
+      "CodeBlock": "00_switch_mode",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 8528,
+      "Description": "GOTO '00008578'"
+    },
+    {
+      "CodeBlock": "00_switch_mode",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 8534,
+      "Description": "If carmode == 1 ELSE GOTO 00008578"
+    },
+    {
+      "CodeBlock": "00_switch_mode",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 8546,
+      "Description": "Raw expression '4'"
+    },
+    {
+      "CodeBlock": "00_switch_mode",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 8552,
+      "Description": "Raw expression 'player_fly'"
+    },
+    {
+      "CodeBlock": "00_switch_mode",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 8558,
+      "Description": "Raw expression 'False'"
+    },
+    {
+      "CodeBlock": "00_switch_mode",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 8564,
+      "Description": "Raw expression 'False'"
+    },
+    {
+      "CodeBlock": "00_switch_mode",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 8570,
+      "Description": "Core operation'ActorSetType'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 9334,
+      "MemoryOffset": 8604,
       "Description": "STARTUP"
     }
   ],
@@ -7212,7 +6434,10 @@
     "0": "Destroyed actor",
     "1": "frame_counter",
     "2": "logo_large",
-    "3": "player_dummy"
+    "3": "player_drive",
+    "4": "player_dummy",
+    "5": "player_fly",
+    "6": "test"
   },
   "Sounds": {
     "0": "No sound played"
@@ -7221,6 +6446,24 @@
     "1": "dummy_actor",
     "2": "dummy_player",
     "3": "intro_camera",
-    "4": "mask_logo_large"
+    "4": "mask_logo_large",
+    "5": "thd_d",
+    "6": "thd_dl",
+    "7": "thd_dr",
+    "8": "thd_l",
+    "9": "thd_r",
+    "10": "thd_u",
+    "11": "thd_ul",
+    "12": "thd_ur",
+    "13": "thf_d",
+    "14": "thf_dl",
+    "15": "thf_dr",
+    "16": "thf_l",
+    "17": "thf_r",
+    "18": "thf_u",
+    "19": "thf_ul",
+    "20": "thf_ur",
+    "21": "thunderhawk_drive",
+    "22": "thunderhawk_fly"
   }
 }

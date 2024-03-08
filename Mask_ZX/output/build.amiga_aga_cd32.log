@@ -5,46 +5,46 @@
 For chip:
 Map gfx (level gfx bundle 1): 44142
 Music memory (): 0
-BP Buffer memory: 158880
-core sfx/gfx memory: 19072
+BP Buffer memory: 133200
+core sfx/gfx memory: 32360
 Parallax memory: 0
 OS/other estimated: 99328
 
 For other:
 Map cache memory: 0
 Map header cache memory: 0
-Map data memory: 33244
+Map data memory: 41472
 Map background memory: 2072
-EXE memory: 210376
-vm memory: 9996
-project memory: 1398
+EXE memory: 210384
+vm memory: 9270
+project memory: 3578
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 426894
-Accounted memory other: 271046
-Accounted memory total: 697940
+Accounted memory chip: 414502
+Accounted memory other: 280736
+Accounted memory total: 695238
 
 === Misc ===
 Maps and Asset Bundles Count: 3
 Maps and Asset Bundles Data Size: 36
-Actor Count: 4
-Actor Data Size: 752
-Block Count: 1
-Block Data Size: 68
+Actor Count: 7
+Actor Data Size: 1316
+Block Count: 2
+Block Data Size: 136
 Anim5 Count: 0
 Anim5 Data Size: 0
 Sound Count: 1
 Sound Data Size: 28
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 5
-Animations Data Size: 80
-AnimationFrame Count: 6
-AnimationFrame Data Size: 96
-ImageFrames: 5
-ImageFrame Data Size: 220
+Animations Count: 23
+Animations Data Size: 368
+AnimationFrame Count: 38
+AnimationFrame Data Size: 608
+ImageFrames: 22
+ImageFrame Data Size: 968
 Sprites: 2
 Sprites Data Size: 28
 Attack Data: 1
@@ -53,51 +53,56 @@ Misc data size: 14
 Panel scorpion_eng_splashscreen Original size 35160 Crunched size 3260
 Panel diagnosticsl Original size 6932 Crunched size 6932
 Header data for map intro_map Original size 7996 Crunched size 7996
-Tile data for map intro_map (mem restrictions:No_Blocks) Original size 33244 Crunched size 33244
+Tile data for map intro_map (mem restrictions:None) Original size 41472 Crunched size 41472
 Background for map intro_map Original size 2072 Crunched size 2072
 Header data for map level_01_zx Original size 7996 Crunched size 7996
-Tile data for map level_01_zx (mem restrictions:No_Blocks) Original size 18780 Crunched size 18780
+Tile data for map level_01_zx (mem restrictions:None) Original size 23200 Crunched size 23200
 Background for map level_01_zx Original size 1400 Crunched size 1400
-Asset bundle 0 (Core project asset bundle) Original size 19072 Crunched size 19072
+Asset bundle 0 (Core project asset bundle) Original size 32360 Crunched size 32360
 Asset bundle 1 (intro_map) Original size 44142 Crunched size 44142
-Asset bundle 2 (level_01_zx) Original size 31500 Crunched size 31500
+Asset bundle 2 (level_01_zx) Original size 30092 Crunched size 30092
 Project Header Original size 4036 Crunched size 4036
-Project Data Original size 1398 Crunched size 1398
-Project virtual machine (codeblocks) Original size 9996 Crunched size 9996
+Project Data Original size 3578 Crunched size 3578
+Project virtual machine (codeblocks) Original size 9270 Crunched size 9270
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
+dummy_player
 intro_camera
+thunderhawk_fly
 
 === Possibly unused Actors ===
 player_dummy
+test
 
 === Codeblocks by compiled size ===
-!001_start_up: 1976
+!start_up: 926
 load_level: 764
 set_yresolution: 458
 do_teleport: 424
 flipscreen_smooth: 310 (Unused?)
+00_intro_control: 308
 flipxymove: 278 (Unused?)
 pre_startup: 270
-00_intro_control: 248
 waitforframes: 194
 check_talkpad: 192 (Unused?)
 pause: 176
 flipymove: 162 (Unused?)
-snap_to_screen: 158 (Unused?)
+snap_to_screen: 158
 pre_quit: 152
 load_panel: 146
 flipxmove: 142 (Unused?)
 unload_level: 142
 load_music: 130 (Unused?)
+AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_snap_to_screen_snap_to_screen: 130
+00_switch_mode: 130
 destroy_all_blocks: 124 (Unused?)
 pre_load_level: 122
 waitforfireup: 114
 fadein: 112
 waitforfiredown: 110
 unload_panel: 106
-load_panel_bottom: 96
+load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)
 fadeout: 88
@@ -137,5 +142,5 @@ vm_constants_controlbits: 26 (Unused?)
 vm_constants_notes: 26 (Unused?)
 vm_constants_platform: 26 (Unused?)
 vm_constants_tile_properties: 26 (Unused?)
-!!garbage: 26 (Unused?)
+!!bugs: 26 (Unused?)
 startup: 26 (Unused?)

@@ -16,4 +16,19 @@
       <property name="Name" value="player_dummy" type="string" />
     </properties>
   </tile>
+  <tile id="3">
+    <properties>
+      <property name="Name" value="player_fly" type="string" />
+    </properties>
+  </tile>
+  <tile id="4">
+    <properties>
+      <property name="Name" value="player_drive" type="string" />
+    </properties>
+  </tile>
+  <tile id="5">
+    <properties>
+      <property name="Name" value="test" type="string" />
+    </properties>
+  </tile>
 </tileset>
