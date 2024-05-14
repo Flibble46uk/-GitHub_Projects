@@ -1,13 +1,13 @@
-Compiled on 13 May 2024 03:21:39
+Compiled on 14 May 2024 01:20:46
 Version string: SE2024.1.240511.11.19.EX
 
 === Misc ===
-ImageFrames: 7
-ImageFrame Data Size: 308
+ImageFrames: 8
+ImageFrame Data Size: 352
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
-Actor Count: 3
-Actor Data Size: 564
+Actor Count: 5
+Actor Data Size: 940
 Movement Pattern Data: 2
 Block Count: 1
 Block Data Size: 68
@@ -17,12 +17,12 @@ Sound Count: 1
 Sound Data Size: 28
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 4
-Animations Data Size: 64
-AnimationFrame Count: 13
+Animations Count: 5
+Animations Data Size: 80
+AnimationFrame Count: 14
 AnimationFrame Data Size: System.Collections.Generic.List`1[System.Byte]
-Sprites: 1
-Sprites Data Size: 14
+Sprites: 2
+Sprites Data Size: 28
 Attack Data: 1
 Attack Data Size: 72
 Misc data size: 14
@@ -34,7 +34,7 @@ For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 55172
 Music memory (): 0
 BP Buffer memory: 131040
-core sfx/gfx memory: 4420
+core sfx/gfx memory: 69960
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -44,32 +44,35 @@ Map header cache memory: 0
 Map data memory: 2780
 Map background memory: 1400
 EXE memory: 214444
-vm memory: 7656
-project memory: 1374
+vm memory: 7830
+project memory: 1840
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 395432
-Accounted memory other: 241614
-Accounted memory total: 637046
+Accounted memory chip: 460972
+Accounted memory other: 242254
+Accounted memory total: 703226
 Movement patterns Original size 2 Crunched size 2
 Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
-Project virtual machine (codeblocks) Original size 7656 Crunched size 2284
-Header data for map intro Original size 8000 Crunched size 208
+Project virtual machine (codeblocks) Original size 7830 Crunched size 2354
+Header data for map intro Original size 8000 Crunched size 218
 Tile data for map intro (mem restrictions:No_Blocks) Original size 2780 Crunched size 398
 Background for map intro Original size 1400 Crunched size 82
-Asset bundle 0 (Core project asset bundle) Original size 4420 Crunched size 1082
+Asset bundle 0 (Core project asset bundle) Original size 69960 Crunched size 2094
 Asset bundle 1 (intro) Original size 4154 Crunched size 864
-Project Header Original size 4036 Crunched size 1190
-Project Data Original size 1374 Crunched size 282
+Project Header Original size 4036 Crunched size 1192
+Project Data Original size 1840 Crunched size 364
 Project virtual machine redirects Original size 4 Crunched size 4
+
+=== Possibly unused Actors ===
+gunstar_test
 
 === Codeblocks by compiled size ===
 load_level: 764
+!01_startup: 462
 do_teleport: 424
 flipscreen_smooth: 310 (Unused?)
-!01_startup: 288
 pre_startup: 282
 flipxymove: 278 (Unused?)
 set_yresolution: 202

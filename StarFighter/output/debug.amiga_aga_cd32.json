@@ -5279,162 +5279,312 @@
       "CodeBlock": "!01_startup",
       "CodeBlockLine": 1,
       "MemoryOffset": 6708,
+      "Description": "Set 'fadetime' to '1'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 6714,
       "Description": "Set 'newvalue' to '256'"
     },
     {
       "CodeBlock": "!01_startup",
-      "CodeBlockLine": 1,
-      "MemoryOffset": 6714,
+      "CodeBlockLine": 2,
+      "MemoryOffset": 6720,
       "Description": "GOSUB TO 'SET_YRESOLUTION'"
     },
     {
       "CodeBlock": "!01_startup",
-      "CodeBlockLine": 1,
-      "MemoryOffset": 6734,
+      "CodeBlockLine": 2,
+      "MemoryOffset": 6740,
       "Description": "GOSUB TO 'REGENERATE_SCREEN'"
     },
     {
       "CodeBlock": "!01_startup",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 6754,
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6760,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "!01_startup",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 6762,
-      "Description": "Raw expression 'intro'"
-    },
-    {
-      "CodeBlock": "!01_startup",
-      "CodeBlockLine": 2,
+      "CodeBlockLine": 3,
       "MemoryOffset": 6768,
-      "Description": "Core operation'PushToStack'"
-    },
-    {
-      "CodeBlock": "!01_startup",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 6776,
       "Description": "Raw expression 'intro'"
     },
     {
       "CodeBlock": "!01_startup",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 6782,
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6774,
       "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "!01_startup",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 6790,
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6782,
+      "Description": "Raw expression 'intro'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6788,
+      "Description": "Core operation'PushToStack'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6796,
       "Description": "GOSUB TO 'PRE_LOAD_LEVEL'"
     },
     {
       "CodeBlock": "!01_startup",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 6810,
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6816,
       "Description": "Raw expression '15'"
     },
     {
       "CodeBlock": "!01_startup",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 6816,
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6822,
       "Description": "Core operation'PopFromStack'"
     },
     {
       "CodeBlock": "!01_startup",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 6824,
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6830,
       "Description": "Raw expression '14'"
     },
     {
       "CodeBlock": "!01_startup",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 6830,
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6836,
       "Description": "Core operation'PopFromStack'"
     },
     {
       "CodeBlock": "!01_startup",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 6838,
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6844,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "!01_startup",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 6858,
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6864,
       "Description": "GOSUB TO 'FADEIN'"
     },
     {
       "CodeBlock": "!01_startup",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 6878,
+      "CodeBlockLine": 4,
+      "MemoryOffset": 6884,
       "Description": "Set 'camera_follow' to '0'"
     },
     {
       "CodeBlock": "!01_startup",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 6884,
+      "CodeBlockLine": 4,
+      "MemoryOffset": 6890,
       "Description": "Set 'maxcamerafollow' to '8 | 0'"
     },
     {
       "CodeBlock": "!01_startup",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 6894,
-      "Description": "Set 'camera_y' to 'mapheight-256'"
+      "CodeBlockLine": 5,
+      "MemoryOffset": 6900,
+      "Description": "Set 'red' to '0'"
     },
     {
       "CodeBlock": "!01_startup",
       "CodeBlockLine": 5,
       "MemoryOffset": 6906,
-      "Description": "Raw expression 'gunstar'"
+      "Description": "Set 'green' to '119'"
     },
     {
       "CodeBlock": "!01_startup",
       "CodeBlockLine": 5,
       "MemoryOffset": 6912,
-      "Description": "Raw expression '112'"
+      "Description": "Set 'blue' to '170'"
     },
     {
       "CodeBlock": "!01_startup",
       "CodeBlockLine": 5,
       "MemoryOffset": 6918,
-      "Description": "Raw expression 'mapheight-56'"
+      "Description": "Raw expression '129'"
     },
     {
       "CodeBlock": "!01_startup",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6930,
-      "Description": "Core operation'PixelSpawn'"
+      "MemoryOffset": 6924,
+      "Description": "Core operation'PaletteSet'"
     },
     {
       "CodeBlock": "!01_startup",
       "CodeBlockLine": 6,
-      "MemoryOffset": 6938,
-      "Description": "Raw expression 'gunstar_engines_launch'"
+      "MemoryOffset": 6932,
+      "Description": "Set 'camera_y' to 'mapheight-256'"
     },
     {
       "CodeBlock": "!01_startup",
-      "CodeBlockLine": 6,
+      "CodeBlockLine": 7,
       "MemoryOffset": 6944,
+      "Description": "Raw expression 'gunstar'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6950,
       "Description": "Raw expression '112'"
     },
     {
       "CodeBlock": "!01_startup",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 6950,
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6956,
       "Description": "Raw expression 'mapheight-56'"
     },
     {
       "CodeBlock": "!01_startup",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 6962,
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6968,
+      "Description": "Core operation'PixelSpawn'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 6976,
+      "Description": "Set 'wait' to '300'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 6982,
+      "Description": "GOSUB TO 'WAITFORFRAMES'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 7002,
+      "Description": "Set 'red' to '255'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 7008,
+      "Description": "Set 'green' to '255'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 7014,
+      "Description": "Set 'blue' to '255'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 7020,
+      "Description": "Raw expression '129'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 7026,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 7034,
+      "Description": "Set 'red' to '0'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 7040,
+      "Description": "Set 'green' to '0'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 7046,
+      "Description": "Set 'blue' to '0'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 7052,
+      "Description": "Raw expression '0'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 7058,
+      "Description": "Core operation'PaletteSet'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 7066,
+      "Description": "Raw expression '12'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 7072,
+      "Description": "Raw expression 'look_up'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 7078,
+      "Description": "Core operation'ActorSetLookdir'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 7086,
+      "Description": "Raw expression 'gunstar_engines_launch'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 7092,
+      "Description": "Raw expression '112'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 7098,
+      "Description": "Raw expression 'mapheight-56'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 7110,
+      "Description": "Core operation'PixelSpawn'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 7118,
+      "Description": "Raw expression 'intro_bg_stars'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 7124,
+      "Description": "Raw expression '0'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 7130,
+      "Description": "Raw expression 'mapheight'"
+    },
+    {
+      "CodeBlock": "!01_startup",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 7136,
       "Description": "Core operation'PixelSpawn'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6996,
+      "MemoryOffset": 7170,
       "Description": "STARTUP"
     }
   ],
@@ -5451,7 +5601,9 @@
   "Actors": {
     "0": "Destroyed actor",
     "1": "gunstar",
-    "2": "gunstar_engines_launch"
+    "2": "gunstar_engines_launch",
+    "3": "gunstar_test",
+    "4": "intro_bg_stars"
   },
   "Sounds": {
     "0": "No sound played"
@@ -5459,6 +5611,7 @@
   "Animations": {
     "1": "intro_fighter_off",
     "2": "intro_fighter_on",
-    "3": "intro_thrust"
+    "3": "intro_stars",
+    "4": "intro_thrust"
   }
 }

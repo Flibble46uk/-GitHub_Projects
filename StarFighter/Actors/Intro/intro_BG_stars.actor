@@ -1,16 +1,16 @@
 {
   "ShootDirType": "actor_direction",
-  "DefaultLookDir": "left",
+  "DefaultLookDir": "up",
   "Recycle": "Default",
   "MoveType": "cpu",
   "MaxEntities": 0,
-  "NudgeX": 8,
-  "NudgeY": 8,
+  "NudgeX": 0,
+  "NudgeY": 0,
   "Idles": {
     "UpLeft": "",
-    "Up": "",
+    "Up": "intro_stars",
     "UpRight": "",
-    "Left": "intro_thrust",
+    "Left": "",
     "Right": "",
     "DownLeft": "",
     "Down": "",
@@ -93,15 +93,15 @@
     }
   ],
   "InvalidDirections": [
+    true,
     false,
+    true,
+    true,
     false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false
+    true,
+    true,
+    true,
+    true
   ],
   "CollBox": {
     "X": -4,
@@ -110,7 +110,7 @@
     "Height": 8
   },
   "AttackDelay": 0,
-  "ZOrder": 0,
+  "ZOrder": -9999,
   "SpeedLeft": 0.0,
   "SpeedRight": 0.0,
   "SpeedUp": 0.0,
