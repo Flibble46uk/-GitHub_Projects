@@ -1,13 +1,13 @@
-Compiled on 14 May 2024 01:20:46
-Version string: SE2024.1.240511.11.19.EX
+Compiled on 05 July 2024 18:45:22
+Version string: SE2024.1.240610.22.56.EX
 
 === Misc ===
-ImageFrames: 8
-ImageFrame Data Size: 352
-Maps and Asset Bundles Count: 2
-Maps and Asset Bundles Data Size: 24
-Actor Count: 5
-Actor Data Size: 940
+ImageFrames: 29
+ImageFrame Data Size: 1276
+Maps and Asset Bundles Count: 3
+Maps and Asset Bundles Data Size: 36
+Actor Count: 8
+Actor Data Size: 1504
 Movement Pattern Data: 2
 Block Count: 1
 Block Data Size: 68
@@ -17,67 +17,71 @@ Sound Count: 1
 Sound Data Size: 28
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 5
-Animations Data Size: 80
-AnimationFrame Count: 14
-AnimationFrame Data Size: System.Collections.Generic.List`1[System.Byte]
+Animations Count: 9
+Animations Data Size: 144
+AnimationFrame Count: 53
+AnimationFrame Data Size: 848
 Sprites: 2
 Sprites Data Size: 28
 Attack Data: 1
-Attack Data Size: 72
+Attack Data Size: 74
 Misc data size: 14
 === Image optimisations ===
+Movement patterns Original size 2 Crunched size 2
+Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
+Project virtual machine (codeblocks) Original size 8156 Crunched size 8156
+Header data for map intro Original size 8000 Crunched size 8000
+Tile data for map intro (mem restrictions:No_Blocks) Original size 3108 Crunched size 3108
+Background for map intro Original size 1396 Crunched size 1396
+Header data for map outro Original size 8000 Crunched size 8000
+Tile data for map outro (mem restrictions:No_Blocks) Original size 2788 Crunched size 2788
+Background for map outro Original size 1396 Crunched size 1396
+Asset bundle 0 (Core project asset bundle) Original size 109064 Crunched size 109064
+Asset bundle 1 (intro) Original size 6402 Crunched size 6402
+Asset bundle 2 (outro) Original size 11920 Crunched size 11920
+Project Header Original size 4036 Crunched size 4036
+Project Data Original size 4030 Crunched size 4030
+Project virtual machine redirects Original size 4 Crunched size 4
 
-=== Estimated memory usages ===
+=== Accounted Memory Usage ===
+(Note that this isn't a full account of memory usage, just the memory we can account for)
 
 For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 55172
 Music memory (): 0
-BP Buffer memory: 131040
-core sfx/gfx memory: 69960
+BP Buffer memory: 138720
+core sfx/gfx memory: 109064
 Parallax memory: 0
 OS/other estimated: 99328
 
 For other:
 Map cache memory: 0
 Map header cache memory: 0
-Map data memory: 2780
-Map background memory: 1400
-EXE memory: 214444
-vm memory: 7830
-project memory: 1840
+Map data memory: 3108
+Map background memory: 1396
+EXE memory: 214976
+vm memory: 8156
+project memory: 4030
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 460972
-Accounted memory other: 242254
-Accounted memory total: 703226
-Movement patterns Original size 2 Crunched size 2
-Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
-Project virtual machine (codeblocks) Original size 7830 Crunched size 2354
-Header data for map intro Original size 8000 Crunched size 218
-Tile data for map intro (mem restrictions:No_Blocks) Original size 2780 Crunched size 398
-Background for map intro Original size 1400 Crunched size 82
-Asset bundle 0 (Core project asset bundle) Original size 69960 Crunched size 2094
-Asset bundle 1 (intro) Original size 4154 Crunched size 864
-Project Header Original size 4036 Crunched size 1192
-Project Data Original size 1840 Crunched size 364
-Project virtual machine redirects Original size 4 Crunched size 4
-
-=== Possibly unused Actors ===
-gunstar_test
+Accounted memory chip: 402284
+Accounted memory other: 351098
+Accounted memory total: 753382
 
 === Codeblocks by compiled size ===
-load_level: 764
-!01_startup: 462
+!01_startup: 802
+load_level: 568
 do_teleport: 424
 flipscreen_smooth: 310 (Unused?)
 pre_startup: 282
 flipxymove: 278 (Unused?)
+block_find: 206 (Unused?)
 set_yresolution: 202
 waitforframes: 194
 check_talkpad: 192 (Unused?)
+block_count: 178 (Unused?)
 pause: 176
 flipymove: 162 (Unused?)
 snap_to_screen: 158 (Unused?)
@@ -85,7 +89,7 @@ pre_quit: 152
 load_panel: 146
 flipxmove: 142 (Unused?)
 unload_level: 142
-destroy_all_blocks: 124 (Unused?)
+destroy_all_blocks: 128 (Unused?)
 pre_load_level: 122
 waitforfireup: 114
 fadein: 112
@@ -122,13 +126,5 @@ block_coll_force: 32 (Unused?)
 block_coll_passthru: 32 (Unused?)
 clear_block_collision: 32
 vm_registers: 26 (Unused?)
-vm_constants: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
-hardware_amiga: 26 (Unused?)
-hardware_megadrive: 26 (Unused?)
-vm_constants_audiodriver: 26 (Unused?)
-vm_constants_controlbits: 26 (Unused?)
-vm_constants_notes: 26 (Unused?)
-vm_constants_platform: 26 (Unused?)
 vm_constants_tile_properties: 26 (Unused?)
-startup: 26 (Unused?)

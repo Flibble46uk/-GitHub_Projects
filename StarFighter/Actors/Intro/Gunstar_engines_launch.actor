@@ -2,10 +2,10 @@
   "ShootDirType": "actor_direction",
   "DefaultLookDir": "up",
   "Recycle": "Default",
-  "MoveType": "cpu",
+  "MoveType": "cpu_parentlock",
   "MaxEntities": 0,
-  "NudgeX": 8,
-  "NudgeY": 8,
+  "NudgeX": -8,
+  "NudgeY": 9,
   "Idles": {
     "UpLeft": "",
     "Up": "intro_thrust",
@@ -159,7 +159,8 @@
     "0"
   ],
   "ControlPort": 0,
-  "DataVersion": 3,
+  "DataVersion": 4,
+  "ActorTag": "None",
   "AutoSpawn": null,
   "AutoNavigate": false,
   "ActorTimeline": {

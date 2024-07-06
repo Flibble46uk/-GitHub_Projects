@@ -1,6 +1,6 @@
 {
   "ShootDirType": "actor_direction",
-  "DefaultLookDir": "up",
+  "DefaultLookDir": "down",
   "Recycle": "Default",
   "MoveType": "cpu",
   "MaxEntities": 0,
@@ -13,7 +13,7 @@
     "Left": "",
     "Right": "",
     "DownLeft": "",
-    "Down": "",
+    "Down": "intro_stars",
     "DownRight": ""
   },
   "Moves": {
@@ -94,13 +94,13 @@
   ],
   "InvalidDirections": [
     true,
+    true,
+    true,
+    true,
     false,
     true,
     true,
     false,
-    true,
-    true,
-    true,
     true
   ],
   "CollBox": {
@@ -114,7 +114,7 @@
   "SpeedLeft": 0.0,
   "SpeedRight": 0.0,
   "SpeedUp": 0.0,
-  "SpeedDown": 0.0,
+  "SpeedDown": 0.01,
   "AccelLeft": null,
   "AccelRight": null,
   "AccelUp": null,
@@ -122,10 +122,10 @@
   "AccelLeftAir": null,
   "AccelRightAir": null,
   "RotationSpeed": 0.0,
-  "CollType_Left": "block",
-  "CollType_Right": "block",
-  "CollType_Up": "block",
-  "CollType_Down": "block",
+  "CollType_Left": "none",
+  "CollType_Right": "none",
+  "CollType_Up": "none",
+  "CollType_Down": "none",
   "Player": null,
   "BlockCollider": null,
   "CanRidePlatform": null,
@@ -159,7 +159,8 @@
     "0"
   ],
   "ControlPort": 0,
-  "DataVersion": 3,
+  "DataVersion": 4,
+  "ActorTag": "None",
   "AutoSpawn": null,
   "AutoNavigate": false,
   "ActorTimeline": {
