@@ -5,8 +5,8 @@
     <property name="rainbow_palette" type="file" value="CopperList.png" />
     <property name="padding_top" type="int" value="0" />
   </properties>
-  <tileset firstgid="1" source="..\..\Actors.tsx" />
-  <tileset firstgid="257" source="..\..\Blocks.tsx" />
+  <tileset firstgid="1" source="../../Actors.tsx" />
+  <tileset firstgid="257" source="../../Blocks.tsx" />
   <tileset firstgid="513" source="TitleScreen.tileset.tsx" />
   <tileset firstgid="705" source="TitleScreen_Extras.tileset.tsx" />
   <layer id="1" name="map" width="20" height="14">

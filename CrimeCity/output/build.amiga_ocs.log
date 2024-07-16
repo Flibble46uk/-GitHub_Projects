@@ -1,36 +1,13 @@
-=== Image optimisations ===
-
-=== Estimated memory usages ===
-
-For chip:
-Map gfx (level gfx bundle 2): 101120
-Music memory (): 0
-BP Buffer memory: 112400
-core sfx/gfx memory: 134600
-Parallax memory: 900
-OS/other estimated: 99328
-
-For other:
-Map cache memory: 0
-Map header cache memory: 0
-Map data memory: 13548
-Map background memory: 1484
-EXE memory: 209944
-vm memory: 9184
-project memory: 9474
-memory reserved for active actors on screen (32): 4744
-memory reserved for dormant actors in map (256): 9216
-OS/other estimated: 105472
-
-Accounted memory chip: 553820
-Accounted memory other: 257594
-Accounted memory total: 811414
+Compiled on 16 July 2024 03:43:57
+Version string: SE2024.1.240711.19.45.EX
 
 === Misc ===
+ImageFrames: 53
+ImageFrame Data Size: 2332
 Maps and Asset Bundles Count: 4
 Maps and Asset Bundles Data Size: 48
 Actor Count: 15
-Actor Data Size: 2820
+Actor Data Size: 2700
 Block Count: 41
 Block Data Size: 2788
 Anim5 Count: 0
@@ -43,33 +20,60 @@ Animations Count: 25
 Animations Data Size: 400
 AnimationFrame Count: 56
 AnimationFrame Data Size: 896
-ImageFrames: 53
-ImageFrame Data Size: 2332
 Sprites: 4
 Sprites Data Size: 56
-Attack Data: 1
-Attack Data Size: 66
-Misc data size: 30
-Panel scorpion_eng_splashscreen Original size 35158 Crunched size 3258
-Header data for map highway_01 Original size 7992 Crunched size 382
-Tile data for map highway_01 (mem restrictions:None) Original size 13548 Crunched size 1564
+Attack Data: 2
+Attack Data Size: 176
+Misc data size: 14
+=== Image optimisations ===
+Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
+Project virtual machine (codeblocks) Original size 9970 Crunched size 3054
+Header data for map highway_01 Original size 8000 Crunched size 384
+Tile data for map highway_01 (mem restrictions:None) Original size 13556 Crunched size 1742
 Background for map highway_01 Original size 1468 Crunched size 262
 Parallax for map highway_01 Original size 900 Crunched size 142
-Header data for map level_01 Original size 7992 Crunched size 278
-Tile data for map level_01 (mem restrictions:None) Original size 13148 Crunched size 3338
+Header data for map level_01 Original size 8000 Crunched size 282
+Tile data for map level_01 (mem restrictions:None) Original size 13156 Crunched size 3584
 Background for map level_01 Original size 1484 Crunched size 244
 Parallax for map level_01 Original size 900 Crunched size 154
-Header data for map titlescreen Original size 7992 Crunched size 226
-Tile data for map titlescreen (mem restrictions:None) Original size 1948 Crunched size 648
+Header data for map titlescreen Original size 8000 Crunched size 230
+Tile data for map titlescreen (mem restrictions:None) Original size 1956 Crunched size 742
 Background for map titlescreen Original size 1396 Crunched size 168
-Asset bundle 0 (Core project asset bundle) Original size 134600 Crunched size 32222
-Asset bundle 1 (highway_01) Original size 51360 Crunched size 17974
-Asset bundle 2 (level_01) Original size 101120 Crunched size 27168
-Asset bundle 3 (titlescreen) Original size 29600 Crunched size 9896
-Project Header Original size 4036 Crunched size 1190
-Project Data Original size 9474 Crunched size 2230
-Project virtual machine (codeblocks) Original size 9184 Crunched size 2670
+Asset bundle 0 (Core project asset bundle) Original size 134514 Crunched size 32222
+Asset bundle 1 (highway_01) Original size 49292 Crunched size 17928
+Asset bundle 2 (level_01) Original size 94414 Crunched size 27052
+Asset bundle 3 (titlescreen) Original size 28940 Crunched size 9888
+Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
+Project Header Original size 4036 Crunched size 1196
+Project Data Original size 9448 Crunched size 2370
 Project virtual machine redirects Original size 4 Crunched size 4
+
+=== Accounted Memory Usage ===
+(Note that this isn't a full account of memory usage, just the memory we can account for)
+
+For chip:
+Map gfx (level gfx bundle 2): 94414
+Music memory (): 0
+BP Buffer memory: 112400
+core sfx/gfx memory: 134514
+Parallax memory: 900
+OS/other estimated: 99328
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 13556
+Map background memory: 1484
+EXE memory: 217016
+vm memory: 9970
+project memory: 9448
+memory reserved for active actors on screen (32): 4616
+memory reserved for dormant actors in map (256): 9216
+OS/other estimated: 105472
+
+Accounted memory chip: 441556
+Accounted memory other: 370778
+Accounted memory total: 812334
 
 === Possibly unused animations ===
 hero_crouch_pistol_r
@@ -86,70 +90,76 @@ hw_truckwheels_rear2
 title_select_arrow
 
 === Codeblocks by compiled size ===
-load_level: 948
-01_highway_01: 508
-set_yresolution: 446
-do_teleport: 320
-flipscreen_smooth: 306 (Unused?)
-pre_startup: 290
-01_title_screen_select: 254
-pause: 252 (Unused?)
-flipxymove: 250 (Unused?)
-waitforframes: 186
-00_player_mode: 166
+01_highway_01: 598
+load_level: 568
+do_teleport: 424
+pre_startup: 354
+flipscreen_smooth: 310 (Unused?)
+flipxymove: 278 (Unused?)
+01_title_screen_select: 262
+block_find: 206 (Unused?)
+set_yresolution: 202
+waitforframes: 194
+01_level_01: 194
+check_talkpad: 192 (Unused?)
+01_title_screen: 188
+dummyplayer_autogen_attack: 184
+block_count: 178 (Unused?)
+00_player_mode: 178
+pause: 176 (Unused?)
+flipymove: 162 (Unused?)
 snap_to_screen: 158 (Unused?)
-flipymove: 146 (Unused?)
+pre_quit: 152
 load_panel: 146
-pre_quit: 144
-00_redcar_wheels_spawn: 138
-flipxmove: 130 (Unused?)
-01_level_01: 122
-destroy_all_blocks: 120 (Unused?)
-01_title_screen: 120
-load_music: 118 (Unused?)
-pre_load_level: 118
-unload_level: 114
-00_redcar_kill: 108
-waitforfireup: 106
-waitforfiredown: 102
+00_redcar_wheels_spawn: 146
+flipxmove: 142 (Unused?)
+unload_level: 142
+destroy_all_blocks: 128 (Unused?)
+pre_load_level: 122
+00_redcar_kill: 116
+waitforfireup: 114
+fadein: 112
+waitforfiredown: 110
+unload_panel: 106
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 00_spritewrap: 96
-unload_panel: 92
+01_startup: 96
+destroy_child_actors: 94 (Unused?)
+fadeout: 88
 99_debug_info: 88
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
-fadeout: 84
-01_startup: 82
-00_killactorright: 80 (Unused?)
+00_killactorright: 84 (Unused?)
+00_killactorleft: 80
+load_music: 78 (Unused?)
+load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)
 wrap_screen_right: 76 (Unused?)
-00_killactorleft: 76
+set_ntsc: 74 (Unused?)
+flipscreen: 72 (Unused?)
 wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
-flipscreen: 70 (Unused?)
-quit: 66 (Unused?)
-AUTOGEN_OUTOFSCREEN_00_killactorleft_None_None_None: 64
-AUTOGEN_OUTOFSCREEN_00_cambounds_None_None_None: 64
-jump_actor: 62 (Unused?)
+quit: 70 (Unused?)
+jump_actor: 66 (Unused?)
+load_panel_finish: 66
+00_move_parallax: 66
 unload_panel_bottom: 62
 unload_panel_top: 62
-00_move_parallax: 62
-fadein: 58
-destroy_all_actors: 56 (Unused?)
-load_panel_finish: 56
-destroy_actor: 54
-load_music_finish: 52
-regenerate_screen: 52
+destroy_all_actors: 60 (Unused?)
+destroy_actor: 58
+regenerate_screen: 58
+destroy_block: 52 (Unused?)
 return: 52 (Unused?)
-destroy_block: 48 (Unused?)
-regenerate_screen_wait: 42
+AUTOGEN_OUTOFSCREEN_00_killactorleft_None_None_None: 50
+AUTOGEN_OUTOFSCREEN_00_cambounds_None_None_None: 50
+regenerate_screen_wait: 46
 00_cambounds: 42
+freeze_actor: 40 (Unused?)
+unfreeze_actor: 40 (Unused?)
+block_coll_force: 32 (Unused?)
+block_coll_passthru: 32 (Unused?)
+clear_block_collision: 32
 vm_registers: 26 (Unused?)
-vm_constants: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
-vm_constants_controlbits: 26 (Unused?)
-vm_constants_notes: 26 (Unused?)
-vm_constants_platform: 26 (Unused?)
 vm_constants_tile_properties: 26 (Unused?)
-startup: 26 (Unused?)

@@ -6,8 +6,8 @@
     <property name="override_palette" type="file" value="Level_01_Palette.png" />
     <property name="parallax_path" type="file" value="Level_01_Parallax.png" />
   </properties>
-  <tileset firstgid="1" source="..\..\Actors.tsx" />
-  <tileset firstgid="257" source="..\..\Blocks.tsx" />
+  <tileset firstgid="1" source="../../Actors.tsx" />
+  <tileset firstgid="257" source="../../Blocks.tsx" />
   <tileset firstgid="513" source="Level_01_BG.tileset.tsx" />
   <tileset firstgid="1057" source="Level_01_FG.tileset.tsx" />
   <layer id="1" name="map" width="160" height="14">
