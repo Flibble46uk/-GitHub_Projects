@@ -21,7 +21,7 @@
       "Goto": "",
       "Comment": "Current Cutscene",
       "Variable": "cutscene",
-      "Expression": "2",
+      "Expression": "1",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,

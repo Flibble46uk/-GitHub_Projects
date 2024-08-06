@@ -1,7 +1,7 @@
 {
   "OutputSpeed": "PAL_25HZ",
   "GFXMode": "BP5",
-  "Add21K": false,
+  "MemorySaver": "None",
   "EmulatedAmiga": "A1200",
   "EmulatedFastRam": 1,
   "WinUAEConfiguration": null,
@@ -14,8 +14,10 @@
   "XOffset": 32,
   "XFillSize": 24,
   "YFillSize": 19,
-  "Implode": true,
   "MapCache": false,
   "DoubleCopper": true,
-  "AllocateMemoryUpfront": true
+  "AllocateMemoryUpfront": true,
+  "NTSC": false,
+  "CrunchMode": "Implode",
+  "MaxActiveActors": 32
 }

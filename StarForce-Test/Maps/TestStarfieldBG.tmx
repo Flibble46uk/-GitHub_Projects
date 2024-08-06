@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="16" height="48" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="6" nextobjectid="1">
   <properties />
-  <tileset firstgid="1" source="..\Actors.tsx" />
-  <tileset firstgid="257" source="..\Blocks.tsx" />
+  <tileset firstgid="1" source="..\..\Actors.tsx" />
+  <tileset firstgid="257" source="..\..\Blocks.tsx" />
   <tileset firstgid="513" source="TestStarfieldBG.tileset.tsx" />
   <layer id="1" name="map" width="16" height="48">
     <data encoding="csv">
@@ -55,6 +55,11 @@
 0,517,514,521,515,514,520,517,519,525,528,525,519,520,514,0,
 0,517,522,516,522,513,517,518,519,518,519,519,518,518,517,0
 </data>
+    <properties>
+      <property name="amiga_aga" type="bool" value="true" />
+      <property name="foreground" type="bool" value="False" />
+      <property name="amiga_ocs" type="bool" value="true" />
+    </properties>
   </layer>
   <layer id="2" name="objects" width="16" height="48">
     <data encoding="csv">
@@ -107,6 +112,11 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
+    <properties>
+      <property name="amiga_aga" type="bool" value="true" />
+      <property name="foreground" type="bool" value="False" />
+      <property name="amiga_ocs" type="bool" value="true" />
+    </properties>
   </layer>
   <layer id="3" name="foreground" width="16" height="48">
     <data encoding="csv">
@@ -159,6 +169,11 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
+    <properties>
+      <property name="amiga_aga" type="bool" value="true" />
+      <property name="foreground" type="bool" value="True" />
+      <property name="amiga_ocs" type="bool" value="true" />
+    </properties>
   </layer>
   <objectgroup id="5" name="events" />
 </map>

@@ -1,0 +1,75 @@
+=== Image optimisations ===
+Reduce width of Anim\01_playertruck_01x00.png by 14 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anim\01_playertruck_02x00.png by 14 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anim\01_playertruck_03x00.png by 14 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anim\01_playertruck_04x00.png by 14 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anim\01_playertruck_00x00.png by 14 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anim\01_playertruck_01x00.png by 14 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anim\Wizard_001_test_01x00.png by 4 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anim\Wizard_001_test_02x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\Wizard_001_test_03x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\Wizard_001_test_04x00.png by 3 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anim\Wizard_001_test_05x00.png by 3 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\Wizard_001_test_06x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\Wizard_001_test_01x00.png by 4 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anim\Wizard_001_test_02x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\Wizard_001_test_03x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\Wizard_001_test_04x00.png by 3 pixels to 32 to improve blit performance by 100.00%
+Reduce width of Anim\Wizard_001_test_05x00.png by 3 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\Wizard_001_test_06x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\Wizard_001_test_00x00.png by 3 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\Wizard_001_test_00x00.png by 3 pixels to 16 to improve blit performance by 200.00%
+
+=== Misc ===
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 24
+Actor Count: 4
+Actor Data Size: 1200
+Block Count: 2
+Block Data Size: 104
+Anim5 Count: 1
+Anim5 Data Size: 4
+Sound Count: 1
+Sound Data Size: 32
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 9
+Animations Data Size: 144
+AnimationFrame Count: 24
+AnimationFrame Data Size: 384
+ImageFrames: 25
+ImageFrame Data Size: 1600
+
+=== Cartridge section MUSC (size 560308) ===
+Music file peter_gnu Original size 78368 Crunched size 56024
+
+=== Cartridge section PANL (size 32988) ===
+Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
+
+=== Cartridge section MPHD (size 6148) ===
+Header data for map test_map_01 Original size 9780 Crunched size 608
+
+=== Cartridge section MPDT (size 34508) ===
+Tile data for map test_map_01 Original size 136084 Crunched size 3444
+
+=== Cartridge section MPBG (size 3648) ===
+Background for map test_map_01 Original size 2672 Crunched size 358
+
+=== Cartridge section MPPX (size 1688) ===
+Parallax for map test_map_01 Original size 1800 Crunched size 162
+
+=== Cartridge section ASBD (size 406288) ===
+Asset bundle 0 (Core project asset bundle) Original size 58512 Crunched size 10704
+Asset bundle 1 (test_map_01) Original size 73536 Crunched size 29912
+
+=== Cartridge section PROJ (size 12008) ===
+Project Header Original size 4040 Crunched size 1194
+
+=== Cartridge section PDAT (size 8288) ===
+Project Data Original size 3500 Crunched size 822
+
+=== Cartridge section VMCB (size 18188) ===
+Project virtual machine (codeblocks) Original size 6762 Crunched size 1812
+
+=== Cartridge section VMRD (size 108) ===
+Project virtual machine redirects Original size 4 Crunched size 4

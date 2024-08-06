@@ -1,0 +1,53 @@
+=== Image optimisations ===
+
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (level gfx bundle 1 ): 162880
+Music memory: 0
+BP Buffer memory: 137280
+core sfx/gfx memory: 140
+Parallax memory: 0
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 93184
+Map background memory: 2672
+EXE memory: 210088
+vm memory: 6422
+project memory: 2028
+
+Accounted memory chip: 300300
+Accounted memory other: 314394
+Accounted memory total: 614694
+
+=== Misc ===
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 24
+Actor Count: 2
+Actor Data Size: 592
+Block Count: 1
+Block Data Size: 52
+Anim5 Count: 1
+Anim5 Data Size: 1036
+Sound Count: 1
+Sound Data Size: 32
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 2
+Animations Data Size: 32
+AnimationFrame Count: 3
+AnimationFrame Data Size: 48
+ImageFrames: 3
+ImageFrame Data Size: 204
+Asset bundle 0 (Core project asset bundle) Original size 140 Crunched size 112
+Asset bundle 1 (dandare_map) Original size 162880 Crunched size 19160
+Background for map dandare_map Original size 2672 Crunched size 92
+Tile data for map dandare_map (mem restrictions:No_Blocks) Original size 93184 Crunched size 12236
+Header data for map dandare_map Original size 8756 Crunched size 304
+Project Data Original size 2028 Crunched size 178
+Project Header Original size 4040 Crunched size 1186
+Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
+Project virtual machine (codeblocks) Original size 6422 Crunched size 1752
+Project virtual machine redirects Original size 4 Crunched size 4

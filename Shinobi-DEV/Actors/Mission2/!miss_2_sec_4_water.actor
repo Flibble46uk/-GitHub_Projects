@@ -1,6 +1,5 @@
 {
   "ShootDirType": "actor_direction",
-  "ClassType": "DefaultClass",
   "DefaultLookDir": "left",
   "Recycle": "Default",
   "MoveType": "cpu",
@@ -8,34 +7,34 @@
   "NudgeX": 0,
   "NudgeY": 0,
   "Idles": {
-    "UpLeft": null,
-    "Up": null,
-    "UpRight": null,
+    "UpLeft": "",
+    "Up": "",
+    "UpRight": "",
     "Left": "mission_2_boss_water",
-    "Right": null,
-    "DownLeft": null,
-    "Down": null,
-    "DownRight": null
+    "Right": "",
+    "DownLeft": "",
+    "Down": "",
+    "DownRight": ""
   },
   "Moves": {
-    "UpLeft": null,
-    "Up": null,
-    "UpRight": null,
-    "Left": null,
-    "Right": null,
-    "DownLeft": null,
-    "Down": null,
-    "DownRight": null
+    "UpLeft": "",
+    "Up": "",
+    "UpRight": "",
+    "Left": "",
+    "Right": "",
+    "DownLeft": "",
+    "Down": "",
+    "DownRight": ""
   },
   "Attacks": {
-    "UpLeft": null,
-    "Up": null,
-    "UpRight": null,
-    "Left": null,
-    "Right": null,
-    "DownLeft": null,
-    "Down": null,
-    "DownRight": null
+    "UpLeft": "",
+    "Up": "",
+    "UpRight": "",
+    "Left": "",
+    "Right": "",
+    "DownLeft": "",
+    "Down": "",
+    "DownRight": ""
   },
   "ProjectileOffsets": [
     {
@@ -93,6 +92,17 @@
       "sqrMagnitude": 0
     }
   ],
+  "InvalidDirections": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
   "CollBox": {
     "X": -4,
     "Y": -4,
@@ -117,25 +127,25 @@
   "CollType_Up": "none",
   "CollType_Down": "none",
   "Player": null,
+  "BlockCollider": null,
   "CanRidePlatform": null,
   "Camera": null,
   "AutoScroll": null,
   "Flags": 0,
   "AttackProjectile": null,
-  "AutoFire": false,
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,
-  "DivertAttack": null,
-  "DivertSpawn": null,
-  "DivertPlayerCollision": null,
-  "DivertPlayerHit": null,
-  "DivertHitAgainstPlayer": null,
-  "DivertProjectileCollision": null,
-  "DivertOutOfScreenLeft": null,
-  "DivertOutOfScreenRight": null,
-  "DivertOutOfScreenUp": null,
-  "DivertOutOfScreenDown": null,
+  "DivertAttack": "",
+  "DivertSpawn": "",
+  "DivertPlayerCollision": "",
+  "DivertPlayerHit": "",
+  "DivertHitAgainstPlayer": "",
+  "DivertProjectileCollision": "",
+  "DivertOutOfScreenLeft": "",
+  "DivertOutOfScreenRight": "",
+  "DivertOutOfScreenUp": "",
+  "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
   "DivertTimer": "02_s4_move_ground",
@@ -149,7 +159,14 @@
     "0"
   ],
   "ControlPort": 0,
-  "DataVersion": 3,
+  "DataVersion": 4,
+  "ActorTag": "None",
   "AutoSpawn": true,
+  "AutoNavigate": false,
+  "ActorTimeline": {
+    "TimelineFrames": null,
+    "TimelineEvents": {},
+    "PingPong": false
+  },
   "TileID": 25
 }

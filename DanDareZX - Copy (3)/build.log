@@ -1,0 +1,50 @@
+=== Image optimisations ===
+
+=== Misc ===
+Actor Count: 2
+Actor Data Size: 584
+Block Count: 1
+Block Data Size: 52
+Anim5 Count: 1
+Anim5 Data Size: 4
+Sound Count: 1
+Sound Data Size: 16
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 2
+Animations Data Size: 32
+AnimationFrame Count: 3
+AnimationFrame Data Size: 204
+Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3312
+Crunching Panel statusbar as 1.img. Original size: 10210. Crunched size: 964
+Crunching Panel titlescreen as 2.img. Original size: 28386. Crunched size: 8158
+Crunching Project virtual machine (codeblocks) as project.vm. Original size: 4938. Crunched size: 1632
+Crunching Header data for map danbg as 1.mhd. Original size: 11556. Crunched size: 330
+Crunching Data for map danbg as 1.map. Original size: 139570. Crunched size: 7580
+Crunching Header data for map danfg as 2.mhd. Original size: 11556. Crunched size: 334
+Crunching Data for map danfg as 2.map. Original size: 143840. Crunched size: 9624
+Crunching Asset bundle 0 as 0.gfx. Original size: 140. Crunched size: 112
+Crunching Asset bundle 1 as 1.gfx. Original size: 41760. Crunched size: 3836
+Crunching Asset bundle 2 as 2.gfx. Original size: 102880. Crunched size: 10778
+Crunching Project data as project.dat. Original size: 900. Crunched size: 160
+Crunching Scorpion header as project.hd. Original size: 3004. Crunched size: 1180
+
+Estimated memory usages:
+
+For chip:
+Map gfx (level gfx bundle 2 ): 102880
+Music memory: 0
+BP Buffer memory: 109820
+core sfx/gfx memory: 140
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 143840
+EXE memory: 191848
+vm memory: 4938
+project memory: 900
+
+Accounted memory chip: 212840
+Accounted memory other: 341526
+Accounted memory total: 554366

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="112" height="112" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="16" nextobjectid="6">
+<map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="112" height="112" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="17" nextobjectid="7">
   <properties>
     <property name="copper_24" type="bool" value="true" />
     <property name="first_copper" type="int" value="38" />
   </properties>
-  <tileset firstgid="1" source="..\Actors.tsx" />
-  <tileset firstgid="257" source="..\Blocks.tsx" />
+  <tileset firstgid="1" source="../Actors.tsx" />
+  <tileset firstgid="257" source="../Blocks.tsx" />
   <tileset firstgid="513" source="Level01.tileset.tsx" />
-  <layer id="1" name="Map-Interior" width="112" height="112">
+  <layer visible="0" id="1" name="Map-Interior" width="112" height="112">
     <data encoding="csv">
 518,519,519,519,519,519,519,520,682,681,682,682,682,682,681,681,682,682,682,681,682,682,681,682,682,682,682,682,682,681,682,682,681,682,682,681,682,682,681,682,518,519,519,519,519,519,519,520,682,682,682,681,682,682,682,682,682,681,682,682,682,682,681,681,518,519,519,519,519,519,519,520,681,682,681,682,681,681,681,682,518,519,519,519,519,519,519,520,682,682,682,681,681,682,681,681,682,682,682,682,682,682,682,682,518,519,519,519,519,519,519,520,
 558,559,559,559,559,559,559,560,682,681,682,682,681,681,682,681,682,681,681,681,682,681,682,682,682,681,682,681,681,681,682,681,682,682,681,681,682,681,682,682,558,559,559,559,559,559,559,560,682,682,681,682,682,681,682,682,681,682,682,681,682,682,682,682,558,559,559,559,559,559,559,560,681,681,682,682,681,681,682,682,558,559,559,559,559,559,559,560,681,681,681,682,681,681,682,681,682,682,682,681,681,681,681,682,558,559,559,559,559,559,559,560,
@@ -128,7 +128,7 @@
       <property name="foreground" type="bool" value="false" />
     </properties>
   </layer>
-  <layer id="8" name="Map-Details" width="112" height="112">
+  <layer visible="0" id="8" name="Map-Details" width="112" height="112">
     <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -249,7 +249,7 @@
       <property name="foreground" type="bool" value="false" />
     </properties>
   </layer>
-  <layer id="12" name="Map-Shadows" width="112" height="112">
+  <layer visible="0" id="12" name="Map-Shadows" width="112" height="112">
     <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,644,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,644,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,644,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,644,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,644,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,644,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,644,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,644,0,0,0,0,0,0,0,0,
@@ -370,7 +370,7 @@
       <property name="foreground" type="bool" value="false" />
     </properties>
   </layer>
-  <layer id="2" name="blocks" width="112" height="112">
+  <layer visible="0" id="2" name="blocks" width="112" height="112">
     <data encoding="csv">
 257,257,257,257,257,257,257,257,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,257,257,257,257,257,257,257,257,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,257,257,257,257,257,257,257,257,0,0,0,0,0,0,0,0,257,257,257,257,257,257,257,257,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,257,257,257,257,257,257,257,257,
 257,257,257,257,257,257,257,257,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,257,257,257,257,257,257,257,257,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,257,257,257,257,257,257,257,257,0,0,0,0,0,0,0,0,257,257,257,257,257,257,257,257,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,257,257,257,257,257,257,257,257,
@@ -851,7 +851,7 @@
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
-      <property name="foreground" type="bool" value="false" />
+      <property name="foreground" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="9" name="foreground-Details" width="112" height="112">
@@ -972,7 +972,7 @@
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
-      <property name="foreground" type="bool" value="false" />
+      <property name="foreground" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="10" name="foreground-Grass" width="112" height="112">
@@ -1093,8 +1093,14 @@
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
-      <property name="foreground" type="bool" value="false" />
+      <property name="foreground" type="bool" value="true" />
     </properties>
   </layer>
+  <objectgroup id="16" name="Demo_Path">
+    <object id="6" gid="0" x="165" y="1688" width="0" height="0">
+      <polygon points="0,0 204,55 131,-275 -62,-275 -61,-3" />
+      <properties />
+    </object>
+  </objectgroup>
   <objectgroup id="6" name="Path" />
 </map>

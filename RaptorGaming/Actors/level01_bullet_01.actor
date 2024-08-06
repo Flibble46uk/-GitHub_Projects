@@ -1,6 +1,6 @@
 {
   "ShootDirType": "actor_direction",
-  "ClassType": "Projectile",
+  "ClassType": "DefaultClass",
   "DefaultLookDir": "right",
   "Recycle": "Default",
   "MoveType": "cpu",
@@ -8,34 +8,34 @@
   "NudgeX": 8,
   "NudgeY": 7,
   "Idles": {
-    "UpLeft": null,
+    "UpLeft": "",
     "Up": "",
-    "UpRight": null,
+    "UpRight": "",
     "Left": "lvl01_bullet_01",
     "Right": "lvl01_bullet_01",
-    "DownLeft": null,
-    "Down": null,
-    "DownRight": null
+    "DownLeft": "",
+    "Down": "",
+    "DownRight": ""
   },
   "Moves": {
-    "UpLeft": null,
+    "UpLeft": "",
     "Up": "",
-    "UpRight": null,
+    "UpRight": "",
     "Left": "lvl01_bullet_01",
     "Right": "lvl01_bullet_01",
-    "DownLeft": null,
-    "Down": null,
-    "DownRight": null
+    "DownLeft": "",
+    "Down": "",
+    "DownRight": ""
   },
   "Attacks": {
-    "UpLeft": null,
+    "UpLeft": "",
     "Up": "",
-    "UpRight": null,
+    "UpRight": "",
     "Left": "lvl01_bullet_01",
     "Right": "lvl01_bullet_01",
-    "DownLeft": null,
-    "Down": null,
-    "DownRight": null
+    "DownLeft": "",
+    "Down": "",
+    "DownRight": ""
   },
   "ProjectileOffsets": [
     {
@@ -93,6 +93,17 @@
       "sqrMagnitude": 0
     }
   ],
+  "InvalidDirections": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
   "CollBox": {
     "X": -2,
     "Y": -1,
@@ -116,17 +127,20 @@
   "CollType_Right": "destroy",
   "CollType_Up": "block",
   "CollType_Down": "block",
-  "Flags": 0,
+  "Player": null,
+  "CanRidePlatform": null,
+  "Camera": null,
+  "AutoScroll": null,
+  "Flags": "projectile",
   "AttackProjectile": null,
-  "AutoFire": false,
   "AttackProjectileAmmoVariable": "ammo",
   "AttackSound": null,
   "JumpSound": null,
-  "DivertAttack": null,
-  "DivertSpawn": null,
+  "DivertAttack": "",
+  "DivertSpawn": "",
   "DivertPlayerCollision": "destroy_actor",
-  "DivertPlayerHit": null,
-  "DivertHitAgainstPlayer": null,
+  "DivertPlayerHit": "",
+  "DivertHitAgainstPlayer": "",
   "DivertProjectileCollision": "",
   "DivertOutOfScreenLeft": "destroy_actor",
   "DivertOutOfScreenRight": "destroy_actor",
@@ -145,7 +159,8 @@
     "0"
   ],
   "ControlPort": 1,
-  "JumpCancel": 2.0,
-  "TileID": 12,
-  "SuggestedRecycle": "Trash"
+  "DataVersion": 3,
+  "AutoSpawn": null,
+  "AutoNavigate": false,
+  "TileID": 12
 }

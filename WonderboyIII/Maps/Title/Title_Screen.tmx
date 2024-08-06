@@ -3,8 +3,8 @@
   <properties>
     <property name="rainbow_palette" type="file" value="Copper_Effect.png" />
   </properties>
-  <tileset firstgid="1" source="..\..\Actors.tsx" />
-  <tileset firstgid="257" source="..\..\Blocks.tsx" />
+  <tileset firstgid="1" source="..\..\..\Actors.tsx" />
+  <tileset firstgid="257" source="..\..\..\Blocks.tsx" />
   <tileset firstgid="513" source="Title_Screen.tileset.tsx" />
   <layer id="1" name="map" width="32" height="14">
     <data encoding="csv">
@@ -23,6 +23,10 @@
 513,513,513,513,646,647,648,649,650,651,652,653,513,513,513,513,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 513,513,513,513,513,654,655,656,657,658,513,513,513,513,513,513,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="False" />
+    </properties>
   </layer>
   <layer id="2" name="blocks" width="32" height="14">
     <data encoding="csv">
@@ -41,6 +45,10 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="False" />
+    </properties>
   </layer>
   <layer id="3" name="actors" width="32" height="14">
     <data encoding="csv">
@@ -59,6 +67,10 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="False" />
+    </properties>
   </layer>
   <layer id="4" name="foreground" width="32" height="14">
     <data encoding="csv">
@@ -77,6 +89,10 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="True" />
+    </properties>
   </layer>
   <objectgroup id="6" name="events" />
 </map>

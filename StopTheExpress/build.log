@@ -1,12 +1,36 @@
 === Image optimisations ===
 
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (Panel: scorpion_eng_splashscreen): 37090
+Music memory: 0
+BP Buffer memory: 112896
+core sfx/gfx memory: 644
+Parallax memory: 0
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 37188
+Map background memory: 2672
+EXE memory: 210088
+vm memory: 6638
+project memory: 2368
+
+Accounted memory chip: 150630
+Accounted memory other: 258954
+Accounted memory total: 409584
+
 === Misc ===
+Maps and Asset Bundles Count: 3
+Maps and Asset Bundles Data Size: 36
 Actor Count: 3
 Actor Data Size: 888
 Block Count: 1
 Block Data Size: 52
 Anim5 Count: 1
-Anim5 Data Size: 4
+Anim5 Data Size: 1036
 Sound Count: 1
 Sound Data Size: 32
 Teleporter Count: 1
@@ -15,40 +39,19 @@ Animations Count: 3
 Animations Data Size: 48
 AnimationFrame Count: 4
 AnimationFrame Data Size: 64
-ImageFrames: BlitzTool.BlitzWord
-ImageFrame Data Size: 192
-Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3308
-Saving Project virtual machine (codeblocks) as project.vm. Original size: 5478
-Saving Header data for map imported map as 1.mhd. Original size: 9788
-Saving Data for map imported map as 1.map. Original size: 2124
-Saving Background for map imported map as 1.bg. Original size: 2672
-Saving Header data for map stoptheexpress as 2.mhd. Original size: 9788
-Saving Data for map stoptheexpress as 2.map. Original size: 55692
-Saving Background for map stoptheexpress as 2.bg. Original size: 2672
-Saving Asset bundle 0 as 0.gfx. Original size: 644
-Saving Asset bundle 1 as 1.gfx. Original size: 256
-Saving Asset bundle 2 as 2.gfx. Original size: 17152
-Saving Project data as project.dat. Original size: 1288
-Saving Scorpion header as project.hd. Original size: 4036
-
-Estimated memory usages:
-
-For chip:
-Map gfx (Panel: scorpion_eng_splashscreen): 37106
-Music memory: 0
-BP Buffer memory: 95360
-core sfx/gfx memory: 644
-Parallax memory: 0
-
-For other:
-Map cache memory: 0
-Map header cache memory: 0
-Map data memory: 55692
-Map background memory: 2672
-EXE memory: 202212
-vm memory: 5478
-project memory: 1288
-
-Accounted memory chip: 133110
-Accounted memory other: 267342
-Accounted memory total: 400452
+ImageFrames: 3
+ImageFrame Data Size: 204
+Asset bundle 0 (Core project asset bundle) Original size 644 Crunched size 88
+Asset bundle 1 (imported map) Original size 256 Crunched size 256
+Asset bundle 2 (stoptheexpress) Original size 17152 Crunched size 5226
+Background for map imported map Original size 2672 Crunched size 92
+Background for map stoptheexpress Original size 2672 Crunched size 142
+Tile data for map imported map (mem restrictions:No_Blocks) Original size 1476 Crunched size 170
+Tile data for map stoptheexpress (mem restrictions:No_Blocks) Original size 37188 Crunched size 1108
+Header data for map imported map Original size 8756 Crunched size 392
+Header data for map stoptheexpress Original size 8756 Crunched size 398
+Project Data Original size 2368 Crunched size 230
+Project Header Original size 4040 Crunched size 1184
+Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
+Project virtual machine (codeblocks) Original size 6638 Crunched size 1828
+Project virtual machine redirects Original size 4 Crunched size 4

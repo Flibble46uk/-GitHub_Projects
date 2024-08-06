@@ -14,10 +14,15 @@
   "XOffset": 16,
   "XFillSize": 23,
   "YFillSize": 20,
+  "XFillSizeMD": 21,
+  "YFillSizeMD": 16,
   "MapCache": false,
   "DoubleCopper": true,
   "AllocateMemoryUpfront": true,
   "NTSC": false,
   "CrunchMode": "Implode",
-  "MaxActiveActors": 32
+  "MaxActiveActors": 32,
+  "DynamicPatterns": 0,
+  "PaletteLines": 1,
+  "StartingPaletteLine": 0
 }

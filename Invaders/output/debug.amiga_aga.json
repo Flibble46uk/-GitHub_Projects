@@ -5239,7 +5239,7 @@
       "CodeBlock": "00_destroy_projectile",
       "CodeBlockLine": 1,
       "MemoryOffset": 7106,
-      "Description": "Raw expression '8'"
+      "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "00_destroy_projectile",
@@ -5705,26 +5705,50 @@
     },
     {
       "CodeBlock": "00_player_fire",
-      "CodeBlockLine": 6,
+      "CodeBlockLine": 2,
       "MemoryOffset": 8036,
-      "Description": "Raw expression '8'"
+      "Description": "If playerammo == 1 ELSE GOTO 00008120"
     },
     {
       "CodeBlock": "00_player_fire",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 8042,
+      "CodeBlockLine": 3,
+      "MemoryOffset": 8048,
+      "Description": "Set 'playerammo' to '0'"
+    },
+    {
+      "CodeBlock": "00_player_fire",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 8054,
+      "Description": "Raw expression '4'"
+    },
+    {
+      "CodeBlock": "00_player_fire",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 8060,
       "Description": "Raw expression '16384 + player_bullet'"
     },
     {
       "CodeBlock": "00_player_fire",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 8054,
+      "CodeBlockLine": 4,
+      "MemoryOffset": 8072,
       "Description": "Core operation'ActorShoot'"
+    },
+    {
+      "CodeBlock": "00_player_fire",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 8076,
+      "Description": "Set 'projectile_x' to 'player_x'"
+    },
+    {
+      "CodeBlock": "00_player_fire",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 8096,
+      "Description": "Set 'projectile_y' to 'player_y-16'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 8084,
+      "MemoryOffset": 8146,
       "Description": "STARTUP"
     }
   ],

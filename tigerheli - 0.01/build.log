@@ -1,0 +1,122 @@
+=== Image optimisations ===
+Reduce width of anims\00_Civ_Cars\CivCar_Blue_Right.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\00_Civ_Cars\CivCar_Red_Left.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\00_Decorations\Anim_Road_Barrier.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\00_Military_Aircraft\Fighter01_up.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\00_Military_Cars\MilitaryCar_Small_Left.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\00_Military_Cars\MilitaryCar_Small_Right.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\DummyFireStart\DummyFireStart.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Explosion_Building\anim_Explosion_Building_00x01.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Explosion_Building\anim_Explosion_Building_00x02.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Explosion_Building\anim_Explosion_Building_00x03.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Explosion_Building\anim_Explosion_Building_00x01.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Explosion_Building\anim_Explosion_Building_00x02.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Explosion_Building\anim_Explosion_Building_00x03.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Explosion_Building\anim_Explosion_Building_00x04.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Explosion_Building\anim_Explosion_Building_00x05.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Explosion_Building\anim_Explosion_Building_00x06.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Explosion_Building\anim_Explosion_Building_00x07.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Explosion_Building\anim_Explosion_Building_00x08.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Explosion_Building\anim_Explosion_Building_00x09.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Explosion_Ground\Explosion_ground_00x00.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Explosion_Ground\Explosion_ground_00x01.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Explosion_Ground\Explosion_ground_00x06.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Explosion_Ground\Explosion_ground_00x07.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Explosion_Ground\Explosion_ground_00x00.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Explosion_Ground\Explosion_ground_00x01.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Explosion_Ground\Explosion_ground_00x06.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Explosion_Ground\Explosion_ground_00x07.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Heli_Takeoff\Heli_takeoff_frame01.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Heli_Takeoff\Heli_takeoff_Lft_Frms_01x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Heli_Takeoff\Heli_takeoff_Lft_Frms_01x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Heli_Takeoff\Heli_takeoff_Lft_Frms_01x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Heli_Takeoff\Heli_takeoff_Lft_Frms_01x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Heli_Takeoff\Heli_takeoff_Lft_Frms_01x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Heli_Takeoff\Heli_takeoff_Lft_Frms_01x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Heli_Takeoff\Heli_takeoff_Lft_Frms_01x01.png by 7 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Heli_Takeoff\Heli_takeoff_Lft_Frms_01x01.png by 7 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Heli_Takeoff\Heli_takeoff_Lft_Frms_01x02.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Heli_Takeoff\Heli_takeoff_Lft_Frms_01x02.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Heli_Truck\Heli_Truck.png by 9 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Heli_Truck_Front\Heli_Truck_Front.png by 9 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Heli_Truck_Rear\Heli_Truck_Rear_13frames_00x00.png by 9 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Heli_Truck_Rear\Heli_Truck_Rear_13frames_00x01.png by 9 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Heli_Truck_Rear\Heli_Truck_Rear_13frames_00x02.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Heli_Truck_Rear\Heli_Truck_Rear_13frames_00x03.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Heli_Truck_Rear\Heli_Truck_Rear_13frames_00x04.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\Heli_Truck_Rear\Heli_Truck_Rear_13frames_00x06.png by 2 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\Heli_Truck_Rear\Heli_Truck_Rear_13frames_00x07.png by 4 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\Heli_Truck_Rear\Heli_Truck_Rear_13frames_00x08.png by 6 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\Heli_Truck_Rear\Heli_Truck_Rear_13frames_00x09.png by 8 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\Heli_Truck_Rear\Heli_Truck_Rear_13frames_00x10.png by 11 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\Heli_Truck_Rear\Heli_Truck_Rear_13frames_00x11.png by 11 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\Heli_Truck_Rear\Heli_Truck_Rear_13frames_00x12.png by 11 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\th_cannon_turret\th-cannon_turret-east-64_00x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\th_cannon_turret\th-cannon_turret-northt-64_00x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\th_cannon_turret\th-cannon_turret-northeast-64_00x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\th_cannon_turret\th-cannon_turret-northwest-64_00x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\th_cannon_turret\th-cannon_turret-south-64_00x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\th_cannon_turret\th-cannon_turret-southeast-64_00x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\th_cannon_turret\th-cannon_turret-southwest-64_00x00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\th_cannon_turret\th-cannon_turret-west-64_00x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\barrier-0001-64_00x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\th-explosion-0001-64_00x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\th-explosion-0002-64_00x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\th-explosion-0007-64_00x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\th-explosion-0008-64_00x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\th-explodenocrater-003-64_00x00.png by 1 pixels to 32 to improve blit performance by 100.00%
+Reduce width of sprites\th-explodenocrater-004-64_00x00.png by 1 pixels to 32 to improve blit performance by 100.00%
+Reduce width of sprites\th-explodenocrater-005-64_00x00.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\th-explodenocrater-006-64_00x00.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\th-explodehouse-002-64_00x00.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\th-explodehouse-003-64_00x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\th-explodehouse-004-64_00x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\th-explodehouse-004-64_00x00.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\th-explodehouse-005-64_00x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\th-building-smoke-002-64_00x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\theli-0001_00x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\theli-0002-64_00x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\theli-0003-64_00x00.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\tank-0003_00x00.png by 2 pixels to 32 to improve blit performance by 100.00%
+Reduce width of sprites\th-tank_no_turret-east-64_00x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\th-tank_no_turret-souwest-64_00x00.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\th-tank_no_turret-north-64_00x00.png by 5 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\th-tank_no_turret-south-64_00x00.png by 5 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\th-tank_no_turret-west-64_00x00.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\th-tank_turret-east-64_00x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\th-tank_turret-northeast-64_00x00.png by 9 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\th-tank_turret-northwest-64_00x00.png by 9 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\th-tank_turret-southeast-64_00x00.png by 9 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\th-tank_turret-southwest-64_00x00.png by 9 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\th-tank_turret-west-64_00x00.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\th-truckstart-001-64_00x00.png by 9 pixels to 16 to improve blit performance by 200.00%
+
+=== Misc ===
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 24
+Actor Count: 60
+Actor Data Size: 17760
+Block Count: 2
+Block Data Size: 104
+Anim5 Count: 1
+Anim5 Data Size: 4
+Sound Count: 1
+Sound Data Size: 32
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 82
+Animations Data Size: 1312
+AnimationFrame Count: 176
+AnimationFrame Data Size: 2816
+ImageFrames: 155
+ImageFrame Data Size: 10540
+Asset bundle 0 (Core project asset bundle) Original size 142204 Crunched size 45780
+Asset bundle 1 (th_map1) Original size 201024 Crunched size 40506
+Background for map th_map1 Original size 2672 Crunched size 92
+Tile data for map th_map1 Original size 28354 Crunched size 5902
+Header data for map th_map1 Original size 9780 Crunched size 890
+Project Data Original size 32600 Crunched size 5816
+Project Header Original size 4040 Crunched size 1190
+Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
+Project virtual machine (codeblocks) Original size 9546 Crunched size 2398
+Project virtual machine redirects Original size 4 Crunched size 4

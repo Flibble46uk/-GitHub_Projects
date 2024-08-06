@@ -14,7 +14,7 @@
       "JoystickX": 0,
       "JoystickY": 0,
       "JoystickFire1": false,
-      "JoystickFire2": false,
+      "JoystickFire2": true,
       "CD32Play": false,
       "CD32Reverse": false,
       "CD32Forward": false,
@@ -26,7 +26,7 @@
       "MegaDrive_Start": false,
       "OnPress": "00_player_fire",
       "OnRelease": null,
-      "buttonState": 0
+      "buttonState": 2
     }
   ],
   "AnimationMetaData": {},

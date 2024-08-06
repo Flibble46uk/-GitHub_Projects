@@ -1,48 +1,55 @@
 === Image optimisations ===
 
 === Misc ===
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 24
 Actor Count: 4
-Actor Data Size: 1184
+Actor Data Size: 1200
 Block Count: 4
 Block Data Size: 208
 Anim5 Count: 1
 Anim5 Data Size: 4
 Sound Count: 1
-Sound Data Size: 16
+Sound Data Size: 32
 Teleporter Count: 1
 Teleporter Data Size: 8
 Animations Count: 18
 Animations Data Size: 288
 AnimationFrame Count: 19
-AnimationFrame Data Size: 1520
-Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3312
-Crunching Panel loading as 1.img. Original size: 36074. Crunched size: 4462
-Crunching Panel logo as 2.img. Original size: 6274. Crunched size: 466
-Crunching Panel status as 3.img. Original size: 7906. Crunched size: 942
-Crunching Project virtual machine (codeblocks) as project.vm. Original size: 5122. Crunched size: 1760
-Crunching Header data for map imported map as 1.mhd. Original size: 11844. Crunched size: 278
-Crunching Data for map imported map as 1.map. Original size: 58452. Crunched size: 8526
-Crunching Asset bundle 0 as 0.gfx. Original size: 2272. Crunched size: 924
-Crunching Asset bundle 1 as 1.gfx. Original size: 15744. Crunched size: 2932
-Crunching Project data as project.dat. Original size: 3228. Crunched size: 570
-Crunching Scorpion header as project.hd. Original size: 4024. Crunched size: 1184
+AnimationFrame Data Size: 304
+ImageFrames: 19
+ImageFrame Data Size: 1216
 
-Estimated memory usages:
+=== Cartridge section PANL (size 535708) ===
+Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
+Panel loading Original size 36074 Crunched size 0
+Panel logo Original size 6274 Crunched size 0
+Panel status Original size 7906 Crunched size 0
 
-For chip:
-Map gfx (Panel: scorpion_eng_splashscreen): 37106
-Music memory: 0
-BP Buffer memory: 89280
-core sfx/gfx memory: 2272
+=== Cartridge section MPHD (size 2488) ===
+Header data for map imported map Original size 9780 Crunched size 242
 
-For other:
-Map cache memory: 0
-Map header cache memory: 0
-Map data memory: 58452
-EXE memory: 196156
-vm memory: 5122
-project memory: 3228
+=== Cartridge section MPDT (size 86468) ===
+Tile data for map imported map Original size 58348 Crunched size 8640
 
-Accounted memory chip: 128658
-Accounted memory other: 262958
-Accounted memory total: 391616
+=== Cartridge section MPBG (size 988) ===
+Background for map imported map Original size 2672 Crunched size 92
+
+=== Cartridge section MPPX (size 68) ===
+Parallax for map imported map Original size 0 Crunched size 0
+
+=== Cartridge section ASBD (size 41888) ===
+Asset bundle 0 (Core project asset bundle) Original size 2840 Crunched size 982
+Asset bundle 1 (imported map) Original size 20000 Crunched size 3194
+
+=== Cartridge section PROJ (size 11948) ===
+Project Header Original size 4040 Crunched size 1188
+
+=== Cartridge section PDAT (size 6628) ===
+Project Data Original size 3284 Crunched size 656
+
+=== Cartridge section VMCB (size 17788) ===
+Project virtual machine (codeblocks) Original size 6504 Crunched size 1772
+
+=== Cartridge section VMRD (size 108) ===
+Project virtual machine redirects Original size 4 Crunched size 4

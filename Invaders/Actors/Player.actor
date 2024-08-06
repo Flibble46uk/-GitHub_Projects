@@ -94,20 +94,20 @@
     }
   ],
   "InvalidDirections": [
+    true,
+    true,
+    true,
     false,
     false,
     false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false
+    true,
+    true,
+    true
   ],
   "CollBox": {
-    "X": -8,
+    "X": -7,
     "Y": 0,
-    "Width": 15,
+    "Width": 13,
     "Height": 8
   },
   "AttackDelay": 0,

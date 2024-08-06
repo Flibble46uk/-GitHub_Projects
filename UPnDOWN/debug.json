@@ -4952,944 +4952,1160 @@
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 4,
+      "CodeBlockLine": 3,
       "MemoryOffset": 6214,
       "Description": "If 'joyy' Equals '0' ELSE GOTO 00006242"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 5,
+      "CodeBlockLine": 4,
       "MemoryOffset": 6228,
       "Description": "Set 'actor_type' to 'player_car_stopped'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 5,
+      "CodeBlockLine": 4,
       "MemoryOffset": 6234,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 5,
+      "CodeBlockLine": 4,
       "MemoryOffset": 6238,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 8,
+      "CodeBlockLine": 7,
       "MemoryOffset": 6242,
-      "Description": "If 'ychanged' NotEquals 'player_y' ELSE GOTO 00006684"
+      "Description": "If 'ychanged' NotEquals 'player_y' ELSE GOTO 00006726"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 9,
+      "CodeBlockLine": 8,
       "MemoryOffset": 6270,
       "Description": "Set 'actor_type' to 'player_car'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 9,
+      "CodeBlockLine": 8,
       "MemoryOffset": 6276,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 9,
+      "CodeBlockLine": 8,
       "MemoryOffset": 6280,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 10,
+      "CodeBlockLine": 8,
       "MemoryOffset": 6284,
-      "Description": "If 'joyy' Equals '-1' ELSE GOTO 00006474"
+      "Description": "Set 'actor_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 11,
+      "CodeBlockLine": 8,
+      "MemoryOffset": 6290,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 6294,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 8,
       "MemoryOffset": 6298,
-      "Description": "Set 'player_type' to 'dummyplayer_up'"
+      "Description": "Set 'actor_animation' to 'Trigger_CancelAnimation'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 11,
+      "CodeBlockLine": 8,
       "MemoryOffset": 6304,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 11,
+      "CodeBlockLine": 8,
       "MemoryOffset": 6308,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 11,
+      "CodeBlockLine": 9,
       "MemoryOffset": 6312,
-      "Description": "Set 'player_lookdir' to 'reset_movement'"
+      "Description": "If 'joyy' Equals '-1' ELSE GOTO 00006516"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 11,
-      "MemoryOffset": 6318,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 11,
-      "MemoryOffset": 6322,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 11,
+      "CodeBlockLine": 10,
       "MemoryOffset": 6326,
-      "Description": "Set 'player_animation' to 'Trigger_CancelAnimation'"
-    },
-    {
-      "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 11,
-      "MemoryOffset": 6332,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 11,
-      "MemoryOffset": 6336,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 12,
-      "MemoryOffset": 6340,
       "Description": "Set 'x' to 'xmove+1'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 13,
-      "MemoryOffset": 6352,
+      "CodeBlockLine": 11,
+      "MemoryOffset": 6338,
+      "Description": "Set 'xmove' to '1-xmove'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 6348,
       "Description": "If 'player_lr' Equals '0'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 14,
-      "MemoryOffset": 6366,
+      "CodeBlockLine": 13,
+      "MemoryOffset": 6362,
       "Description": "Set 'actor_lookdir' to '3'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 14,
-      "MemoryOffset": 6372,
+      "CodeBlockLine": 13,
+      "MemoryOffset": 6368,
       "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 6372,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "00_car_manager",
       "CodeBlockLine": 14,
       "MemoryOffset": 6376,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 15,
-      "MemoryOffset": 6380,
       "Description": "Set 'actor_x' to 'actor_x-x'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 15,
-      "MemoryOffset": 6404,
+      "CodeBlockLine": 14,
+      "MemoryOffset": 6400,
       "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 6404,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "00_car_manager",
       "CodeBlockLine": 15,
       "MemoryOffset": 6408,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+      "Description": "GOTO '00006474'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 6414,
+      "Description": "If 'player_lr' Equals '1' ELSE GOTO 00006474"
     },
     {
       "CodeBlock": "00_car_manager",
       "CodeBlockLine": 16,
-      "MemoryOffset": 6412,
-      "Description": "GOTO '00006464'"
-    },
-    {
-      "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 17,
-      "MemoryOffset": 6418,
+      "MemoryOffset": 6428,
       "Description": "Set 'actor_lookdir' to '5'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 17,
-      "MemoryOffset": 6424,
+      "CodeBlockLine": 16,
+      "MemoryOffset": 6434,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 17,
-      "MemoryOffset": 6428,
+      "CodeBlockLine": 16,
+      "MemoryOffset": 6438,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 18,
-      "MemoryOffset": 6432,
+      "CodeBlockLine": 17,
+      "MemoryOffset": 6442,
       "Description": "Set 'actor_x' to 'actor_x+x'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 18,
-      "MemoryOffset": 6456,
+      "CodeBlockLine": 17,
+      "MemoryOffset": 6466,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 18,
-      "MemoryOffset": 6460,
+      "CodeBlockLine": 17,
+      "MemoryOffset": 6470,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 20,
-      "MemoryOffset": 6464,
-      "Description": "Set 'xmove' to '1-xmove'"
-    },
-    {
-      "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 23,
+      "CodeBlockLine": 19,
       "MemoryOffset": 6474,
-      "Description": "If 'joyy' Equals '1' ELSE GOTO 00006664"
+      "Description": "Set 'player_type' to 'dummyplayer_up'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 24,
+      "CodeBlockLine": 19,
+      "MemoryOffset": 6480,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 19,
+      "MemoryOffset": 6484,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 19,
       "MemoryOffset": 6488,
-      "Description": "Set 'player_type' to 'dummyplayer_down'"
+      "Description": "Set 'player_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 24,
+      "CodeBlockLine": 19,
       "MemoryOffset": 6494,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 24,
+      "CodeBlockLine": 19,
       "MemoryOffset": 6498,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 24,
+      "CodeBlockLine": 19,
       "MemoryOffset": 6502,
-      "Description": "Set 'player_lookdir' to 'reset_movement'"
+      "Description": "Set 'player_animation' to 'Trigger_CancelAnimation'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 24,
+      "CodeBlockLine": 19,
       "MemoryOffset": 6508,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 24,
+      "CodeBlockLine": 19,
       "MemoryOffset": 6512,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 24,
+      "CodeBlockLine": 22,
       "MemoryOffset": 6516,
-      "Description": "Set 'player_animation' to 'Trigger_CancelAnimation'"
+      "Description": "If 'joyy' Equals '1' ELSE GOTO 00006706"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 24,
-      "MemoryOffset": 6522,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 24,
-      "MemoryOffset": 6526,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 25,
+      "CodeBlockLine": 23,
       "MemoryOffset": 6530,
       "Description": "Set 'x' to 'xmove+1'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 26,
+      "CodeBlockLine": 24,
       "MemoryOffset": 6542,
-      "Description": "If 'player_lr' Equals '0'"
-    },
-    {
-      "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 27,
-      "MemoryOffset": 6556,
-      "Description": "Set 'actor_lookdir' to '3'"
-    },
-    {
-      "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 27,
-      "MemoryOffset": 6562,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 27,
-      "MemoryOffset": 6566,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 28,
-      "MemoryOffset": 6570,
-      "Description": "Set 'actor_x' to 'actor_x+x'"
-    },
-    {
-      "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 28,
-      "MemoryOffset": 6594,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 28,
-      "MemoryOffset": 6598,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 29,
-      "MemoryOffset": 6602,
-      "Description": "GOTO '00006654'"
-    },
-    {
-      "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 30,
-      "MemoryOffset": 6608,
-      "Description": "Set 'actor_lookdir' to '5'"
-    },
-    {
-      "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 30,
-      "MemoryOffset": 6614,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 30,
-      "MemoryOffset": 6618,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 31,
-      "MemoryOffset": 6622,
-      "Description": "Set 'actor_x' to 'actor_x-x'"
-    },
-    {
-      "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 31,
-      "MemoryOffset": 6646,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 31,
-      "MemoryOffset": 6650,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 33,
-      "MemoryOffset": 6654,
       "Description": "Set 'xmove' to '1-xmove'"
     },
     {
       "CodeBlock": "00_car_manager",
-      "CodeBlockLine": 35,
+      "CodeBlockLine": 25,
+      "MemoryOffset": 6552,
+      "Description": "If 'player_lr' Equals '0'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 26,
+      "MemoryOffset": 6566,
+      "Description": "Set 'actor_lookdir' to '3'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 26,
+      "MemoryOffset": 6572,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 26,
+      "MemoryOffset": 6576,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 27,
+      "MemoryOffset": 6580,
+      "Description": "Set 'actor_x' to 'actor_x+x'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 27,
+      "MemoryOffset": 6604,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 27,
+      "MemoryOffset": 6608,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 28,
+      "MemoryOffset": 6612,
+      "Description": "GOTO '00006664'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 29,
+      "MemoryOffset": 6618,
+      "Description": "Set 'actor_lookdir' to '5'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 29,
+      "MemoryOffset": 6624,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 29,
+      "MemoryOffset": 6628,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 30,
+      "MemoryOffset": 6632,
+      "Description": "Set 'actor_x' to 'actor_x-x'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 30,
+      "MemoryOffset": 6656,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 30,
+      "MemoryOffset": 6660,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 32,
       "MemoryOffset": 6664,
+      "Description": "Set 'player_type' to 'dummyplayer_down'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 32,
+      "MemoryOffset": 6670,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 32,
+      "MemoryOffset": 6674,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 32,
+      "MemoryOffset": 6678,
+      "Description": "Set 'player_lookdir' to 'reset_movement'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 32,
+      "MemoryOffset": 6684,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 32,
+      "MemoryOffset": 6688,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 32,
+      "MemoryOffset": 6692,
+      "Description": "Set 'player_animation' to 'Trigger_CancelAnimation'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 32,
+      "MemoryOffset": 6698,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 32,
+      "MemoryOffset": 6702,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "00_car_manager",
+      "CodeBlockLine": 34,
+      "MemoryOffset": 6706,
       "Description": "Set 'ychanged' to 'player_y'"
     },
     {
       "CodeBlock": "00_level_events",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6716,
+      "MemoryOffset": 6758,
       "Description": "00_LEVEL_EVENTS"
     },
     {
       "CodeBlock": "00_level_events",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6716,
+      "MemoryOffset": 6758,
       "Description": "Set 'joyx' to 'control1_x'"
     },
     {
       "CodeBlock": "00_level_events",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6726,
+      "MemoryOffset": 6768,
       "Description": "Set 'joyy' to 'control1_y'"
     },
     {
       "CodeBlock": "00_player_choice_lr",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6768,
+      "MemoryOffset": 6810,
       "Description": "00_PLAYER_CHOICE_LR"
     },
     {
       "CodeBlock": "00_player_choice_lr",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6768,
-      "Description": "If 'joyy' Equals '-1' ELSE GOTO 00006982"
+      "MemoryOffset": 6810,
+      "Description": "If 'joyy' Equals '-1' ELSE GOTO 00007030"
+    },
+    {
+      "CodeBlock": "00_player_choice_lr",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 6824,
+      "Description": "If 'joyx' Equals '0' ELSE GOTO 00006928"
     },
     {
       "CodeBlock": "00_player_choice_lr",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6782,
-      "Description": "If 'joyx' Equals '0' ELSE GOTO 00006886"
-    },
-    {
-      "CodeBlock": "00_player_choice_lr",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 6796,
+      "MemoryOffset": 6838,
       "Description": "If 'player_lr' Equals '0'"
     },
     {
       "CodeBlock": "00_player_choice_lr",
-      "CodeBlockLine": 7,
-      "MemoryOffset": 6810,
-      "Description": "If 'lane' GreaterThan '0' ELSE GOTO 00006836"
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6852,
+      "Description": "If 'lane' GreaterThan '0' ELSE GOTO 00006878"
     },
     {
       "CodeBlock": "00_player_choice_lr",
-      "CodeBlockLine": 8,
-      "MemoryOffset": 6824,
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6866,
       "Description": "Set 'lane' to 'lane-1'"
     },
     {
       "CodeBlock": "00_player_choice_lr",
-      "CodeBlockLine": 10,
-      "MemoryOffset": 6836,
-      "Description": "GOTO '00006886'"
+      "CodeBlockLine": 9,
+      "MemoryOffset": 6878,
+      "Description": "GOTO '00006928'"
+    },
+    {
+      "CodeBlock": "00_player_choice_lr",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 6884,
+      "Description": "If 'player_lr' Equals '1' ELSE GOTO 00006928"
     },
     {
       "CodeBlock": "00_player_choice_lr",
       "CodeBlockLine": 10,
-      "MemoryOffset": 6842,
-      "Description": "If 'player_lr' Equals '1' ELSE GOTO 00006886"
+      "MemoryOffset": 6898,
+      "Description": "If 'lane' LessThan 'total_lanes' ELSE GOTO 00006928"
     },
     {
       "CodeBlock": "00_player_choice_lr",
       "CodeBlockLine": 11,
-      "MemoryOffset": 6856,
-      "Description": "If 'lane' LessThan 'total_lanes' ELSE GOTO 00006886"
+      "MemoryOffset": 6916,
+      "Description": "Set 'lane' to 'lane+1'"
     },
     {
       "CodeBlock": "00_player_choice_lr",
-      "CodeBlockLine": 12,
-      "MemoryOffset": 6874,
-      "Description": "Set 'lane' to 'lane+1'"
+      "CodeBlockLine": 18,
+      "MemoryOffset": 6928,
+      "Description": "If 'joyx' Equals '1'"
     },
     {
       "CodeBlock": "00_player_choice_lr",
       "CodeBlockLine": 19,
-      "MemoryOffset": 6886,
-      "Description": "If 'joyx' Equals '1' ELSE GOTO 00006936"
+      "MemoryOffset": 6942,
+      "Description": "If 'lane' LessThan 'total_lanes' ELSE GOTO 00006978"
     },
     {
       "CodeBlock": "00_player_choice_lr",
       "CodeBlockLine": 20,
-      "MemoryOffset": 6900,
-      "Description": "If 'lane' LessThan 'total_lanes' ELSE GOTO 00006936"
+      "MemoryOffset": 6960,
+      "Description": "Set 'player_lr' to '1'"
     },
     {
       "CodeBlock": "00_player_choice_lr",
       "CodeBlockLine": 21,
-      "MemoryOffset": 6918,
-      "Description": "Set 'player_lr' to '1'"
+      "MemoryOffset": 6966,
+      "Description": "Set 'lane' to 'lane+1'"
     },
     {
       "CodeBlock": "00_player_choice_lr",
-      "CodeBlockLine": 22,
-      "MemoryOffset": 6924,
-      "Description": "Set 'lane' to 'lane+1'"
+      "CodeBlockLine": 24,
+      "MemoryOffset": 6978,
+      "Description": "GOTO '00007030'"
+    },
+    {
+      "CodeBlock": "00_player_choice_lr",
+      "CodeBlockLine": 24,
+      "MemoryOffset": 6984,
+      "Description": "If 'joyx' Equals '-1' ELSE GOTO 00007030"
+    },
+    {
+      "CodeBlock": "00_player_choice_lr",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 6998,
+      "Description": "If 'lane' GreaterThan '0' ELSE GOTO 00007030"
     },
     {
       "CodeBlock": "00_player_choice_lr",
       "CodeBlockLine": 26,
-      "MemoryOffset": 6936,
-      "Description": "If 'joyx' Equals '-1' ELSE GOTO 00006982"
+      "MemoryOffset": 7012,
+      "Description": "Set 'player_lr' to '0'"
     },
     {
       "CodeBlock": "00_player_choice_lr",
       "CodeBlockLine": 27,
-      "MemoryOffset": 6950,
-      "Description": "If 'lane' GreaterThan '0' ELSE GOTO 00006982"
-    },
-    {
-      "CodeBlock": "00_player_choice_lr",
-      "CodeBlockLine": 28,
-      "MemoryOffset": 6964,
-      "Description": "Set 'player_lr' to '0'"
-    },
-    {
-      "CodeBlock": "00_player_choice_lr",
-      "CodeBlockLine": 29,
-      "MemoryOffset": 6970,
+      "MemoryOffset": 7018,
       "Description": "Set 'lane' to 'lane-1'"
     },
     {
       "CodeBlock": "00_player_choice_lr",
-      "CodeBlockLine": 35,
-      "MemoryOffset": 6982,
-      "Description": "If 'joyy' Equals '1' ELSE GOTO 00007100"
+      "CodeBlockLine": 33,
+      "MemoryOffset": 7030,
+      "Description": "If 'joyy' Equals '1' ELSE GOTO 00007148"
     },
     {
       "CodeBlock": "00_player_choice_lr",
-      "CodeBlockLine": 38,
-      "MemoryOffset": 6996,
-      "Description": "If 'joyx' Equals '0' ELSE GOTO 00007100"
+      "CodeBlockLine": 36,
+      "MemoryOffset": 7044,
+      "Description": "If 'joyx' Equals '0' ELSE GOTO 00007148"
     },
     {
       "CodeBlock": "00_player_choice_lr",
-      "CodeBlockLine": 39,
-      "MemoryOffset": 7010,
+      "CodeBlockLine": 37,
+      "MemoryOffset": 7058,
       "Description": "If 'player_lr' Equals '1'"
     },
     {
       "CodeBlock": "00_player_choice_lr",
-      "CodeBlockLine": 40,
-      "MemoryOffset": 7024,
-      "Description": "If 'lane' GreaterThan '0' ELSE GOTO 00007050"
+      "CodeBlockLine": 38,
+      "MemoryOffset": 7072,
+      "Description": "If 'lane' GreaterThan '0' ELSE GOTO 00007098"
+    },
+    {
+      "CodeBlock": "00_player_choice_lr",
+      "CodeBlockLine": 39,
+      "MemoryOffset": 7086,
+      "Description": "Set 'lane' to 'lane-1'"
     },
     {
       "CodeBlock": "00_player_choice_lr",
       "CodeBlockLine": 41,
-      "MemoryOffset": 7038,
-      "Description": "Set 'lane' to 'lane-1'"
+      "MemoryOffset": 7098,
+      "Description": "GOTO '00007148'"
+    },
+    {
+      "CodeBlock": "00_player_choice_lr",
+      "CodeBlockLine": 41,
+      "MemoryOffset": 7104,
+      "Description": "If 'player_lr' Equals '0' ELSE GOTO 00007148"
+    },
+    {
+      "CodeBlock": "00_player_choice_lr",
+      "CodeBlockLine": 42,
+      "MemoryOffset": 7118,
+      "Description": "If 'lane' LessThan 'total_lanes' ELSE GOTO 00007148"
     },
     {
       "CodeBlock": "00_player_choice_lr",
       "CodeBlockLine": 43,
-      "MemoryOffset": 7050,
-      "Description": "GOTO '00007100'"
-    },
-    {
-      "CodeBlock": "00_player_choice_lr",
-      "CodeBlockLine": 43,
-      "MemoryOffset": 7056,
-      "Description": "If 'player_lr' Equals '0' ELSE GOTO 00007100"
-    },
-    {
-      "CodeBlock": "00_player_choice_lr",
-      "CodeBlockLine": 44,
-      "MemoryOffset": 7070,
-      "Description": "If 'lane' LessThan 'total_lanes' ELSE GOTO 00007100"
-    },
-    {
-      "CodeBlock": "00_player_choice_lr",
-      "CodeBlockLine": 45,
-      "MemoryOffset": 7088,
+      "MemoryOffset": 7136,
       "Description": "Set 'lane' to 'lane+1'"
+    },
+    {
+      "CodeBlock": "00_player_choice_lr",
+      "CodeBlockLine": 51,
+      "MemoryOffset": 7148,
+      "Description": "If 'joyx' Equals '1' ELSE GOTO 00007198"
+    },
+    {
+      "CodeBlock": "00_player_choice_lr",
+      "CodeBlockLine": 52,
+      "MemoryOffset": 7162,
+      "Description": "If 'lane' LessThan 'total_lanes' ELSE GOTO 00007198"
     },
     {
       "CodeBlock": "00_player_choice_lr",
       "CodeBlockLine": 53,
-      "MemoryOffset": 7100,
-      "Description": "If 'joyx' Equals '1' ELSE GOTO 00007150"
-    },
-    {
-      "CodeBlock": "00_player_choice_lr",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 7114,
-      "Description": "If 'lane' LessThan 'total_lanes' ELSE GOTO 00007150"
-    },
-    {
-      "CodeBlock": "00_player_choice_lr",
-      "CodeBlockLine": 55,
-      "MemoryOffset": 7132,
+      "MemoryOffset": 7180,
       "Description": "Set 'player_lr' to '0'"
     },
     {
       "CodeBlock": "00_player_choice_lr",
-      "CodeBlockLine": 56,
-      "MemoryOffset": 7138,
+      "CodeBlockLine": 54,
+      "MemoryOffset": 7186,
       "Description": "Set 'lane' to 'lane+1'"
     },
     {
       "CodeBlock": "00_player_choice_lr",
+      "CodeBlockLine": 58,
+      "MemoryOffset": 7198,
+      "Description": "If 'joyx' Equals '-1' ELSE GOTO 00007244"
+    },
+    {
+      "CodeBlock": "00_player_choice_lr",
+      "CodeBlockLine": 59,
+      "MemoryOffset": 7212,
+      "Description": "If 'lane' GreaterThan '0' ELSE GOTO 00007244"
+    },
+    {
+      "CodeBlock": "00_player_choice_lr",
       "CodeBlockLine": 60,
-      "MemoryOffset": 7150,
-      "Description": "If 'joyx' Equals '-1' ELSE GOTO 00007196"
-    },
-    {
-      "CodeBlock": "00_player_choice_lr",
-      "CodeBlockLine": 61,
-      "MemoryOffset": 7164,
-      "Description": "If 'lane' GreaterThan '0' ELSE GOTO 00007196"
-    },
-    {
-      "CodeBlock": "00_player_choice_lr",
-      "CodeBlockLine": 62,
-      "MemoryOffset": 7178,
+      "MemoryOffset": 7226,
       "Description": "Set 'player_lr' to '1'"
     },
     {
       "CodeBlock": "00_player_choice_lr",
-      "CodeBlockLine": 63,
-      "MemoryOffset": 7184,
+      "CodeBlockLine": 61,
+      "MemoryOffset": 7232,
       "Description": "Set 'lane' to 'lane-1'"
     },
     {
       "CodeBlock": "00_player_choice_lr",
-      "CodeBlockLine": 68,
-      "MemoryOffset": 7196,
+      "CodeBlockLine": 65,
+      "MemoryOffset": 7244,
       "Description": "Set 'player_x' to 'lane*48+32'"
     },
     {
       "CodeBlock": "00_player_choice_lr",
-      "CodeBlockLine": 68,
-      "MemoryOffset": 7214,
+      "CodeBlockLine": 65,
+      "MemoryOffset": 7262,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "00_player_choice_lr",
-      "CodeBlockLine": 68,
-      "MemoryOffset": 7218,
+      "CodeBlockLine": 65,
+      "MemoryOffset": 7266,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 0,
-      "MemoryOffset": 7254,
+      "MemoryOffset": 7302,
       "Description": "00_PLAYER_CHOICE_R"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7254,
-      "Description": "If 'joyy' Equals '-1' ELSE GOTO 00007414"
+      "MemoryOffset": 7302,
+      "Description": "If 'joyy' Equals '-1' ELSE GOTO 00007462"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 5,
-      "MemoryOffset": 7268,
-      "Description": "If 'joyx' Equals '0' ELSE GOTO 00007318"
+      "MemoryOffset": 7316,
+      "Description": "If 'joyx' Equals '0' ELSE GOTO 00007366"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 6,
-      "MemoryOffset": 7282,
-      "Description": "If 'lane' LessThan 'total_lanes' ELSE GOTO 00007318"
+      "MemoryOffset": 7330,
+      "Description": "If 'lane' LessThan 'total_lanes' ELSE GOTO 00007366"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 7,
-      "MemoryOffset": 7300,
+      "MemoryOffset": 7348,
       "Description": "Set 'player_lr' to '1'"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 8,
-      "MemoryOffset": 7306,
+      "MemoryOffset": 7354,
       "Description": "Set 'lane' to 'lane+1'"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 14,
-      "MemoryOffset": 7318,
-      "Description": "If 'joyx' Equals '1' ELSE GOTO 00007368"
+      "MemoryOffset": 7366,
+      "Description": "If 'joyx' Equals '1' ELSE GOTO 00007416"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 15,
-      "MemoryOffset": 7332,
-      "Description": "If 'lane' LessThan 'total_lanes' ELSE GOTO 00007368"
+      "MemoryOffset": 7380,
+      "Description": "If 'lane' LessThan 'total_lanes' ELSE GOTO 00007416"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 16,
-      "MemoryOffset": 7350,
+      "MemoryOffset": 7398,
       "Description": "Set 'player_lr' to '1'"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 17,
-      "MemoryOffset": 7356,
+      "MemoryOffset": 7404,
       "Description": "Set 'lane' to 'lane+1'"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 21,
-      "MemoryOffset": 7368,
-      "Description": "If 'joyx' Equals '-1' ELSE GOTO 00007414"
+      "MemoryOffset": 7416,
+      "Description": "If 'joyx' Equals '-1' ELSE GOTO 00007462"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 22,
-      "MemoryOffset": 7382,
-      "Description": "If 'lane' GreaterThan '0' ELSE GOTO 00007414"
+      "MemoryOffset": 7430,
+      "Description": "If 'lane' GreaterThan '0' ELSE GOTO 00007462"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 23,
-      "MemoryOffset": 7396,
+      "MemoryOffset": 7444,
       "Description": "Set 'player_lr' to '0'"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 24,
-      "MemoryOffset": 7402,
+      "MemoryOffset": 7450,
       "Description": "Set 'lane' to 'lane-1'"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 30,
-      "MemoryOffset": 7414,
-      "Description": "If 'joyy' Equals '1' ELSE GOTO 00007532"
+      "MemoryOffset": 7462,
+      "Description": "If 'joyy' Equals '1' ELSE GOTO 00007580"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 33,
-      "MemoryOffset": 7428,
-      "Description": "If 'joyx' Equals '0' ELSE GOTO 00007532"
+      "MemoryOffset": 7476,
+      "Description": "If 'joyx' Equals '0' ELSE GOTO 00007580"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 34,
-      "MemoryOffset": 7442,
+      "MemoryOffset": 7490,
       "Description": "If 'player_lr' Equals '1'"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 35,
-      "MemoryOffset": 7456,
-      "Description": "If 'lane' GreaterThan '0' ELSE GOTO 00007482"
+      "MemoryOffset": 7504,
+      "Description": "If 'lane' GreaterThan '0' ELSE GOTO 00007530"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 36,
-      "MemoryOffset": 7470,
+      "MemoryOffset": 7518,
       "Description": "Set 'lane' to 'lane-1'"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 38,
-      "MemoryOffset": 7482,
-      "Description": "GOTO '00007532'"
+      "MemoryOffset": 7530,
+      "Description": "GOTO '00007580'"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 38,
-      "MemoryOffset": 7488,
-      "Description": "If 'player_lr' Equals '0' ELSE GOTO 00007532"
+      "MemoryOffset": 7536,
+      "Description": "If 'player_lr' Equals '0' ELSE GOTO 00007580"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 39,
-      "MemoryOffset": 7502,
-      "Description": "If 'lane' LessThan 'total_lanes' ELSE GOTO 00007532"
+      "MemoryOffset": 7550,
+      "Description": "If 'lane' LessThan 'total_lanes' ELSE GOTO 00007580"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 40,
-      "MemoryOffset": 7520,
+      "MemoryOffset": 7568,
       "Description": "Set 'lane' to 'lane+1'"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 48,
-      "MemoryOffset": 7532,
-      "Description": "If 'joyx' Equals '1' ELSE GOTO 00007582"
+      "MemoryOffset": 7580,
+      "Description": "If 'joyx' Equals '1' ELSE GOTO 00007630"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 49,
-      "MemoryOffset": 7546,
-      "Description": "If 'lane' LessThan 'total_lanes' ELSE GOTO 00007582"
+      "MemoryOffset": 7594,
+      "Description": "If 'lane' LessThan 'total_lanes' ELSE GOTO 00007630"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 50,
-      "MemoryOffset": 7564,
+      "MemoryOffset": 7612,
       "Description": "Set 'player_lr' to '0'"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 51,
-      "MemoryOffset": 7570,
+      "MemoryOffset": 7618,
       "Description": "Set 'lane' to 'lane+1'"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 55,
-      "MemoryOffset": 7582,
-      "Description": "If 'joyx' Equals '-1' ELSE GOTO 00007628"
+      "MemoryOffset": 7630,
+      "Description": "If 'joyx' Equals '-1' ELSE GOTO 00007676"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 56,
-      "MemoryOffset": 7596,
-      "Description": "If 'lane' GreaterThan '0' ELSE GOTO 00007628"
+      "MemoryOffset": 7644,
+      "Description": "If 'lane' GreaterThan '0' ELSE GOTO 00007676"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 57,
-      "MemoryOffset": 7610,
+      "MemoryOffset": 7658,
       "Description": "Set 'player_lr' to '1'"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 58,
-      "MemoryOffset": 7616,
+      "MemoryOffset": 7664,
       "Description": "Set 'lane' to 'lane-1'"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 63,
-      "MemoryOffset": 7628,
+      "MemoryOffset": 7676,
       "Description": "Set 'player_x' to 'lane*48+32'"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 63,
-      "MemoryOffset": 7646,
+      "MemoryOffset": 7694,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "00_player_choice_r",
       "CodeBlockLine": 63,
-      "MemoryOffset": 7650,
+      "MemoryOffset": 7698,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "00_player_flip_lr",
       "CodeBlockLine": 0,
-      "MemoryOffset": 7686,
+      "MemoryOffset": 7734,
       "Description": "00_PLAYER_FLIP_LR"
     },
     {
       "CodeBlock": "00_player_flip_lr",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7686,
+      "MemoryOffset": 7734,
       "Description": "Core operation'BlockGet'"
     },
     {
       "CodeBlock": "00_player_flip_lr",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7690,
-      "Description": "If 'block_type' Equals 'block_fliplr' ELSE GOTO 00007830"
+      "MemoryOffset": 7738,
+      "Description": "If 'block_type' Equals 'block_fliplr' ELSE GOTO 00008002"
     },
     {
       "CodeBlock": "00_player_flip_lr",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7704,
+      "MemoryOffset": 7752,
       "Description": "Set 'player_lr' to '1-player_lr'"
     },
     {
       "CodeBlock": "00_player_flip_lr",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 7762,
+      "Description": "If 'joyy' Equals '-1'"
+    },
+    {
+      "CodeBlock": "00_player_flip_lr",
       "CodeBlockLine": 6,
-      "MemoryOffset": 7714,
+      "MemoryOffset": 7776,
       "Description": "If 'player_lr' Equals '0'"
     },
     {
       "CodeBlock": "00_player_flip_lr",
       "CodeBlockLine": 7,
-      "MemoryOffset": 7728,
-      "Description": "If 'lane' GreaterThan '0' ELSE GOTO 00007754"
+      "MemoryOffset": 7790,
+      "Description": "If 'lane' GreaterThan '0' ELSE GOTO 00007816"
     },
     {
       "CodeBlock": "00_player_flip_lr",
       "CodeBlockLine": 8,
-      "MemoryOffset": 7742,
+      "MemoryOffset": 7804,
       "Description": "Set 'lane' to 'lane-1'"
     },
     {
       "CodeBlock": "00_player_flip_lr",
       "CodeBlockLine": 10,
-      "MemoryOffset": 7754,
-      "Description": "GOTO '00007804'"
+      "MemoryOffset": 7816,
+      "Description": "GOTO '00007866'"
     },
     {
       "CodeBlock": "00_player_flip_lr",
       "CodeBlockLine": 10,
-      "MemoryOffset": 7760,
-      "Description": "If 'player_lr' Equals '1' ELSE GOTO 00007804"
+      "MemoryOffset": 7822,
+      "Description": "If 'player_lr' Equals '1' ELSE GOTO 00007866"
     },
     {
       "CodeBlock": "00_player_flip_lr",
       "CodeBlockLine": 11,
-      "MemoryOffset": 7774,
-      "Description": "If 'lane' LessThan 'total_lanes' ELSE GOTO 00007804"
+      "MemoryOffset": 7836,
+      "Description": "If 'lane' LessThan 'total_lanes' ELSE GOTO 00007866"
     },
     {
       "CodeBlock": "00_player_flip_lr",
       "CodeBlockLine": 12,
-      "MemoryOffset": 7792,
+      "MemoryOffset": 7854,
       "Description": "Set 'lane' to 'lane+1'"
     },
     {
       "CodeBlock": "00_player_flip_lr",
-      "CodeBlockLine": 16,
-      "MemoryOffset": 7804,
-      "Description": "Set 'player_x' to 'lane*48+32'"
+      "CodeBlockLine": 15,
+      "MemoryOffset": 7866,
+      "Description": "GOTO '00007976'"
+    },
+    {
+      "CodeBlock": "00_player_flip_lr",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 7872,
+      "Description": "If 'joyy' Equals '1' ELSE GOTO 00007976"
     },
     {
       "CodeBlock": "00_player_flip_lr",
       "CodeBlockLine": 16,
-      "MemoryOffset": 7822,
-      "Description": "Core operation'RefreshActorVariable'"
+      "MemoryOffset": 7886,
+      "Description": "If 'player_lr' Equals '1'"
     },
     {
       "CodeBlock": "00_player_flip_lr",
-      "CodeBlockLine": 16,
-      "MemoryOffset": 7826,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+      "CodeBlockLine": 17,
+      "MemoryOffset": 7900,
+      "Description": "If 'lane' GreaterThan '0' ELSE GOTO 00007926"
     },
     {
-      "CodeBlock": "00_player_push_left",
-      "CodeBlockLine": 0,
-      "MemoryOffset": 7862,
-      "Description": "00_PLAYER_PUSH_LEFT"
-    },
-    {
-      "CodeBlock": "00_player_push_left",
-      "CodeBlockLine": 1,
-      "MemoryOffset": 7862,
-      "Description": "If 'joyy' Equals '1' ELSE GOTO 00007914"
-    },
-    {
-      "CodeBlock": "00_player_push_left",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 7876,
+      "CodeBlock": "00_player_flip_lr",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 7914,
       "Description": "Set 'lane' to 'lane-1'"
     },
     {
-      "CodeBlock": "00_player_push_left",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 7888,
+      "CodeBlock": "00_player_flip_lr",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 7926,
+      "Description": "GOTO '00007976'"
+    },
+    {
+      "CodeBlock": "00_player_flip_lr",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 7932,
+      "Description": "If 'player_lr' Equals '0' ELSE GOTO 00007976"
+    },
+    {
+      "CodeBlock": "00_player_flip_lr",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 7946,
+      "Description": "If 'lane' LessThan 'total_lanes' ELSE GOTO 00007976"
+    },
+    {
+      "CodeBlock": "00_player_flip_lr",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 7964,
+      "Description": "Set 'lane' to 'lane+1'"
+    },
+    {
+      "CodeBlock": "00_player_flip_lr",
+      "CodeBlockLine": 26,
+      "MemoryOffset": 7976,
       "Description": "Set 'player_x' to 'lane*48+32'"
     },
     {
-      "CodeBlock": "00_player_push_left",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 7906,
+      "CodeBlock": "00_player_flip_lr",
+      "CodeBlockLine": 26,
+      "MemoryOffset": 7994,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
-      "CodeBlock": "00_player_push_left",
+      "CodeBlock": "00_player_flip_lr",
+      "CodeBlockLine": 26,
+      "MemoryOffset": 7998,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "00_player_push_down_left",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 8034,
+      "Description": "00_PLAYER_PUSH_DOWN_LEFT"
+    },
+    {
+      "CodeBlock": "00_player_push_down_left",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 8034,
+      "Description": "If 'joyy' Equals '1' ELSE GOTO 00008086"
+    },
+    {
+      "CodeBlock": "00_player_push_down_left",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 8048,
+      "Description": "Set 'lane' to 'lane-1'"
+    },
+    {
+      "CodeBlock": "00_player_push_down_left",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7910,
+      "MemoryOffset": 8060,
+      "Description": "Set 'player_x' to 'lane*48+32'"
+    },
+    {
+      "CodeBlock": "00_player_push_down_left",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 8078,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "00_player_push_down_left",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 8082,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "00_player_push_down_right",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 8118,
+      "Description": "00_PLAYER_PUSH_DOWN_RIGHT"
+    },
+    {
+      "CodeBlock": "00_player_push_down_right",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 8118,
+      "Description": "If 'joyy' Equals '1' ELSE GOTO 00008170"
+    },
+    {
+      "CodeBlock": "00_player_push_down_right",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 8132,
+      "Description": "Set 'lane' to 'lane+1'"
+    },
+    {
+      "CodeBlock": "00_player_push_down_right",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 8144,
+      "Description": "Set 'player_x' to 'lane*48+32'"
+    },
+    {
+      "CodeBlock": "00_player_push_down_right",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 8162,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "00_player_push_down_right",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 8166,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "00_player_push_up_left",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 8202,
+      "Description": "00_PLAYER_PUSH_UP_LEFT"
+    },
+    {
+      "CodeBlock": "00_player_push_up_left",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 8202,
+      "Description": "If 'joyy' Equals '-1' ELSE GOTO 00008254"
+    },
+    {
+      "CodeBlock": "00_player_push_up_left",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 8216,
+      "Description": "Set 'lane' to 'lane-1'"
+    },
+    {
+      "CodeBlock": "00_player_push_up_left",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 8228,
+      "Description": "Set 'player_x' to 'lane*48+32'"
+    },
+    {
+      "CodeBlock": "00_player_push_up_left",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 8246,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "00_player_push_up_left",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 8250,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "00_player_push_up_right",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 8286,
+      "Description": "00_PLAYER_PUSH_UP_RIGHT"
+    },
+    {
+      "CodeBlock": "00_player_push_up_right",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 8286,
+      "Description": "If 'joyy' Equals '-1' ELSE GOTO 00008338"
+    },
+    {
+      "CodeBlock": "00_player_push_up_right",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 8300,
+      "Description": "Set 'lane' to 'lane+1'"
+    },
+    {
+      "CodeBlock": "00_player_push_up_right",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 8312,
+      "Description": "Set 'player_x' to 'lane*48+32'"
+    },
+    {
+      "CodeBlock": "00_player_push_up_right",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 8330,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "00_player_push_up_right",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 8334,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 7946,
+      "MemoryOffset": 8370,
       "Description": "STARTUP"
     }
   ],

@@ -4,8 +4,8 @@
     <property name="divert_timer" value="00_main_loop" />
     <property name="divert_timerframes" type="int" value="0" />
   </properties>
-  <tileset firstgid="1" source="..\Actors.tsx" />
-  <tileset firstgid="257" source="..\Blocks.tsx" />
+  <tileset firstgid="1" source="..\..\Actors.tsx" />
+  <tileset firstgid="257" source="..\..\Blocks.tsx" />
   <tileset firstgid="513" source="Invaders.tileset.tsx" />
   <layer id="1" name="map" width="14" height="16">
     <data encoding="csv">
@@ -30,6 +30,7 @@
       <property name="amiga_aga" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="2" name="blocks" width="14" height="16">
@@ -55,6 +56,7 @@
       <property name="amiga_aga" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="3" name="actors" width="14" height="16">
@@ -80,6 +82,7 @@
       <property name="amiga_aga" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="4" name="foreground" width="14" height="16">
@@ -105,6 +108,7 @@
       <property name="amiga_aga" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="true" />
+      <property name="megadrive" type="bool" value="true" />
     </properties>
   </layer>
   <objectgroup id="6" name="events" />

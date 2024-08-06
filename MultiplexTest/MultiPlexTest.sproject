@@ -1,9 +1,10 @@
 {
-  "TargetPlatform": "amiga_ocs",
+  "TargetPlatform": "amiga_aga",
   "Talkpad": null,
   "Talkpad_OnBottom": false,
   "StartupCodeBlock": "00_startup",
   "Recompile": true,
+  "DebugMode": false,
   "StartupSequenceDirty": false,
   "Fire1Jump": false,
   "Fire2Jump": true,
@@ -116,7 +117,7 @@
   "SplashScreen": null,
   "LogicSpeed": "PAL_50HZ",
   "PlatformData": {
-    "ID": "amiga_ocs",
+    "ID": "amiga_aga",
     "Data": {
       "OutputSpeed": "PAL_50HZ",
       "GFXMode": "BP5",
@@ -132,14 +133,16 @@
       "Width": 256,
       "XOffset": 32,
       "XFillSize": 24,
-      "YFillSize": 20,
+      "YFillSize": 17,
       "Implode": true,
       "MapCache": false,
       "DoubleCopper": true,
-      "AllocateMemoryUpfront": true
+      "AllocateMemoryUpfront": true,
+      "NTSC": false
     },
     "Extension": "platformdata",
     "GetGFXMode": "BP5",
+    "NTSC": false,
     "OutputSpeed": "PAL_50HZ",
     "Uses24BitColor": false,
     "SpriteColorBank": 1,
@@ -149,7 +152,7 @@
     "EmulatedFastRam": 0,
     "WinUAEConfiguration": null,
     "XFillSize": 24,
-    "YFillSize": 20,
+    "YFillSize": 17,
     "XOffset": 32,
     "FMode": 0,
     "Width": 256,
@@ -159,7 +162,7 @@
     "AllocateMemoryUpfront": true,
     "Implode": true,
     "FolderPath": "D:\\!ScorpionProjects\\MultiplexTest\\",
-    "IsDirty": false,
-    "DirtyDelay": 0.0
+    "IsDirty": true,
+    "DirtyDelay": 0.00105928257
   }
 }

@@ -1,6 +1,5 @@
 {
   "ShootDirType": "actor_direction",
-  "ClassType": "DefaultClass",
   "DefaultLookDir": "up",
   "Recycle": "Default",
   "MoveType": "cpu",
@@ -28,14 +27,14 @@
     "DownRight": ""
   },
   "Attacks": {
-    "UpLeft": null,
-    "Up": null,
-    "UpRight": null,
-    "Left": null,
-    "Right": null,
-    "DownLeft": null,
-    "Down": null,
-    "DownRight": null
+    "UpLeft": "",
+    "Up": "",
+    "UpRight": "",
+    "Left": "",
+    "Right": "",
+    "DownLeft": "",
+    "Down": "",
+    "DownRight": ""
   },
   "ProjectileOffsets": [
     {
@@ -93,6 +92,17 @@
       "sqrMagnitude": 0
     }
   ],
+  "InvalidDirections": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
   "CollBox": {
     "X": -5,
     "Y": -7,
@@ -117,25 +127,25 @@
   "CollType_Up": "block",
   "CollType_Down": "block",
   "Player": true,
+  "BlockCollider": null,
   "CanRidePlatform": null,
   "Camera": null,
   "AutoScroll": null,
   "Flags": 0,
   "AttackProjectile": null,
-  "AutoFire": false,
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,
-  "DivertAttack": null,
-  "DivertSpawn": null,
-  "DivertPlayerCollision": null,
+  "DivertAttack": "",
+  "DivertSpawn": "",
+  "DivertPlayerCollision": "",
   "DivertPlayerHit": "",
-  "DivertHitAgainstPlayer": null,
-  "DivertProjectileCollision": null,
+  "DivertHitAgainstPlayer": "",
+  "DivertProjectileCollision": "",
   "DivertOutOfScreenLeft": "01_snap_to_screen",
   "DivertOutOfScreenRight": "01_snap_to_screen",
-  "DivertOutOfScreenUp": null,
-  "DivertOutOfScreenDown": null,
+  "DivertOutOfScreenUp": "",
+  "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
   "DivertTimer": "",
@@ -149,9 +159,14 @@
     "0"
   ],
   "ControlPort": 1,
-  "DataVersion": 3,
+  "DataVersion": 4,
+  "ActorTag": "None",
   "AutoSpawn": null,
-  "TileID": 18,
-  "SuggestedRecycle": "Never",
-  "UpAccelerationName": "Accel Up"
+  "AutoNavigate": false,
+  "ActorTimeline": {
+    "TimelineFrames": null,
+    "TimelineEvents": {},
+    "PingPong": false
+  },
+  "TileID": 18
 }

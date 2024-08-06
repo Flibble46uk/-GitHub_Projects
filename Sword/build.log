@@ -24,7 +24,7 @@ Reduce width of Anim\Wizard_001_test_00x00.png by 3 pixels to 16 to improve blit
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
 Actor Count: 4
-Actor Data Size: 1200
+Actor Data Size: 1184
 Block Count: 2
 Block Data Size: 104
 Anim5 Count: 1
@@ -37,8 +37,8 @@ Animations Count: 9
 Animations Data Size: 144
 AnimationFrame Count: 24
 AnimationFrame Data Size: 384
-ImageFrames: 25
-ImageFrame Data Size: 1600
+ImageFrames: 24
+ImageFrame Data Size: 1536
 
 === Cartridge section MUSC (size 560308) ===
 Music file peter_gnu Original size 78368 Crunched size 56024
@@ -58,18 +58,18 @@ Background for map test_map_01 Original size 2672 Crunched size 358
 === Cartridge section MPPX (size 1688) ===
 Parallax for map test_map_01 Original size 1800 Crunched size 162
 
-=== Cartridge section ASBD (size 406288) ===
-Asset bundle 0 (Core project asset bundle) Original size 58512 Crunched size 10704
+=== Cartridge section ASBD (size 405328) ===
+Asset bundle 0 (Core project asset bundle) Original size 58128 Crunched size 10608
 Asset bundle 1 (test_map_01) Original size 73536 Crunched size 29912
 
-=== Cartridge section PROJ (size 12008) ===
-Project Header Original size 4040 Crunched size 1194
+=== Cartridge section PROJ (size 11968) ===
+Project Header Original size 4040 Crunched size 1190
 
-=== Cartridge section PDAT (size 8288) ===
-Project Data Original size 3500 Crunched size 822
+=== Cartridge section PDAT (size 7968) ===
+Project Data Original size 3420 Crunched size 790
 
-=== Cartridge section VMCB (size 18188) ===
-Project virtual machine (codeblocks) Original size 6762 Crunched size 1812
+=== Cartridge section VMCB (size 18568) ===
+Project virtual machine (codeblocks) Original size 6864 Crunched size 1850
 
 === Cartridge section VMRD (size 108) ===
 Project virtual machine redirects Original size 4 Crunched size 4

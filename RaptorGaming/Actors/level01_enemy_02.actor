@@ -8,34 +8,34 @@
   "NudgeX": 7,
   "NudgeY": 0,
   "Idles": {
-    "UpLeft": null,
-    "Up": null,
-    "UpRight": null,
+    "UpLeft": "",
+    "Up": "",
+    "UpRight": "",
     "Left": "lvl01_enemy_02_l",
     "Right": "lvl01_enemy_02_r",
-    "DownLeft": null,
-    "Down": null,
-    "DownRight": null
+    "DownLeft": "",
+    "Down": "",
+    "DownRight": ""
   },
   "Moves": {
     "UpLeft": "lvl01_enemy_02_l",
-    "Up": null,
+    "Up": "",
     "UpRight": "lvl01_enemy_02_r",
     "Left": "lvl01_enemy_02_l",
     "Right": "lvl01_enemy_02_r",
     "DownLeft": "lvl01_enemy_02_l",
-    "Down": null,
+    "Down": "",
     "DownRight": "lvl01_enemy_02_r"
   },
   "Attacks": {
-    "UpLeft": null,
-    "Up": null,
-    "UpRight": null,
-    "Left": null,
-    "Right": null,
-    "DownLeft": null,
-    "Down": null,
-    "DownRight": null
+    "UpLeft": "",
+    "Up": "",
+    "UpRight": "",
+    "Left": "",
+    "Right": "",
+    "DownLeft": "",
+    "Down": "",
+    "DownRight": ""
   },
   "ProjectileOffsets": [
     {
@@ -93,6 +93,17 @@
       "sqrMagnitude": 0
     }
   ],
+  "InvalidDirections": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
   "CollBox": {
     "X": -8,
     "Y": -15,
@@ -116,22 +127,25 @@
   "CollType_Right": "block",
   "CollType_Up": "none",
   "CollType_Down": "block",
+  "Player": null,
+  "CanRidePlatform": null,
+  "Camera": null,
+  "AutoScroll": null,
   "Flags": 0,
   "AttackProjectile": null,
-  "AutoFire": false,
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,
-  "DivertAttack": null,
-  "DivertSpawn": null,
-  "DivertPlayerCollision": null,
-  "DivertPlayerHit": null,
-  "DivertHitAgainstPlayer": null,
+  "DivertAttack": "",
+  "DivertSpawn": "",
+  "DivertPlayerCollision": "",
+  "DivertPlayerHit": "",
+  "DivertHitAgainstPlayer": "",
   "DivertProjectileCollision": "02_kill_enemy",
   "DivertOutOfScreenLeft": "destroy_actor",
-  "DivertOutOfScreenRight": null,
-  "DivertOutOfScreenUp": null,
-  "DivertOutOfScreenDown": null,
+  "DivertOutOfScreenRight": "",
+  "DivertOutOfScreenUp": "",
+  "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
   "DivertTimer": null,
@@ -145,7 +159,8 @@
     "0"
   ],
   "ControlPort": 1,
-  "JumpCancel": 2.0,
-  "TileID": 8,
-  "SuggestedRecycle": "Trash"
+  "DataVersion": 3,
+  "AutoSpawn": null,
+  "AutoNavigate": false,
+  "TileID": 8
 }

@@ -4,8 +4,8 @@
     <property name="override_palette" type="file" value="Orbit_map_test_01_palette.png" />
     <property name="parallax_path" type="file" value="New_Parallax_test_01.parallax.png" />
   </properties>
-  <tileset firstgid="1" source="..\Actors.tsx" />
-  <tileset firstgid="257" source="..\Blocks.tsx" />
+  <tileset firstgid="1" source="..\..\Actors.tsx" />
+  <tileset firstgid="257" source="..\..\Blocks.tsx" />
   <tileset firstgid="513" source="Orbit_map_test.tileset.tsx" />
   <layer id="1" name="map" width="65" height="65">
     <data encoding="csv">
@@ -75,6 +75,11 @@
 515,516,519,520,515,516,519,520,515,516,519,520,515,516,519,520,515,516,519,520,515,516,519,520,515,516,519,520,515,516,519,520,515,516,519,520,515,516,519,520,515,516,519,520,515,516,519,520,515,516,519,520,515,516,519,520,515,516,519,520,515,516,519,520,515,
 513,514,513,514,513,514,513,514,513,514,513,514,513,514,513,514,513,514,513,514,513,514,513,514,513,514,513,514,513,514,513,514,513,514,513,514,513,514,513,514,513,514,513,514,513,514,513,514,513,514,513,514,513,514,513,514,513,514,513,514,513,514,513,514,513
 </data>
+    <properties>
+      <property name="amiga_aga" type="bool" value="true" />
+      <property name="foreground" type="bool" value="False" />
+      <property name="amiga_ocs" type="bool" value="true" />
+    </properties>
   </layer>
   <layer id="2" name="objects" width="65" height="65">
     <data encoding="csv">
@@ -144,6 +149,11 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
+    <properties>
+      <property name="amiga_aga" type="bool" value="true" />
+      <property name="foreground" type="bool" value="False" />
+      <property name="amiga_ocs" type="bool" value="true" />
+    </properties>
   </layer>
   <layer id="3" name="foreground" width="65" height="65">
     <data encoding="csv">
@@ -213,6 +223,11 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
+    <properties>
+      <property name="amiga_aga" type="bool" value="true" />
+      <property name="foreground" type="bool" value="True" />
+      <property name="amiga_ocs" type="bool" value="true" />
+    </properties>
   </layer>
   <objectgroup id="5" name="events" />
 </map>

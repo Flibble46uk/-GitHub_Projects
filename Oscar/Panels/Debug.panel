@@ -1,7 +1,6 @@
 {
-  "DataVersion": 2,
+  "DataVersion": 6,
   "FirstCopper": 0,
-  "PanelImagePath": "Panels\\StatusBar.png",
   "FadeInFrames": 0,
   "FadeOutFrames": 0,
   "FadeInMusic": false,
@@ -11,6 +10,7 @@
   "TalkpadY": 0,
   "TalkpadWidth": 8,
   "TalkpadHeight": 8,
+  "PanelImagePath": "StatusBar.png",
   "FireIndicatorPath": null,
   "ChoiceIndicatorPath": null,
   "FireIndicatorX": 0,
@@ -27,6 +27,8 @@
       "BarImage": null,
       "CounterImage1": null,
       "CounterDivisions": 1,
+      "PaletteLine": 3,
+      "IsHighPriority": true,
       "MaxValue": 9999
     },
     {
@@ -39,6 +41,8 @@
       "BarImage": null,
       "CounterImage1": null,
       "CounterDivisions": 1,
+      "PaletteLine": 3,
+      "IsHighPriority": true,
       "MaxValue": 9999
     },
     {
@@ -51,6 +55,8 @@
       "BarImage": null,
       "CounterImage1": null,
       "CounterDivisions": 1,
+      "PaletteLine": 3,
+      "IsHighPriority": true,
       "MaxValue": 9999
     },
     {
@@ -63,6 +69,8 @@
       "BarImage": null,
       "CounterImage1": null,
       "CounterDivisions": 1,
+      "PaletteLine": 3,
+      "IsHighPriority": true,
       "MaxValue": 9999
     },
     {
@@ -75,13 +83,40 @@
       "BarImage": null,
       "CounterImage1": null,
       "CounterDivisions": 1,
+      "PaletteLine": 3,
+      "IsHighPriority": true,
       "MaxValue": 9999
     }
   ],
   "GFXMode": "BP1",
-  "PanelOptionSound": null,
-  "CenterAdjust": 32,
+  "PanelSlot": "Middle",
+  "PanelOptionSound": "none",
+  "PanelOptionSoundMD": null,
   "OverlapsGameView": true,
-  "TalkpadLineHeight": 0,
-  "TalkpadSpaceWidth": 0
+  "CenterAdjustments": {
+    "0": 32,
+    "1": 32,
+    "2": 32,
+    "3": 32
+  },
+  "CenterAdjust_MegaDrive": 0,
+  "PaletteLines_MegaDrive": 1,
+  "StartingPaletteLine_MegaDrive": 3,
+  "TalkpadPalLine": 0,
+  "FireIndicatorPalLine": 0,
+  "ChoiceIndicatorPalLine": 0,
+  "NumberFontPaletteLine": 0,
+  "ParallaxMultiplierX": 0.5,
+  "ParallaxMultiplierY": 0.0,
+  "SliceMode": "Unsliced",
+  "PanelSlices": [
+    {
+      "Left": -0.5,
+      "Idle": 0.0,
+      "Right": 0.5,
+      "Top": 0
+    }
+  ],
+  "ParallaxOverlayPath": null,
+  "Gap": 4
 }

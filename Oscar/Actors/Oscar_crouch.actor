@@ -1,16 +1,16 @@
 {
   "ShootDirType": "actor_direction",
-  "ClassType": "Player",
+  "ClassType": "DefaultClass",
   "DefaultLookDir": "right",
   "Recycle": "Default",
-  "MoveType": "none",
+  "MoveType": "cpu",
   "MaxEntities": 0,
   "NudgeX": 8,
   "NudgeY": 0,
   "Idles": {
-    "UpLeft": null,
+    "UpLeft": "",
     "Up": "",
-    "UpRight": null,
+    "UpRight": "",
     "Left": "osccrch_l",
     "Right": "osccrch_r",
     "DownLeft": "",
@@ -28,14 +28,14 @@
     "DownRight": ""
   },
   "Attacks": {
-    "UpLeft": null,
-    "Up": null,
-    "UpRight": null,
+    "UpLeft": "",
+    "Up": "",
+    "UpRight": "",
     "Left": "osccrch_l",
     "Right": "osccrch_r",
-    "DownLeft": null,
-    "Down": null,
-    "DownRight": null
+    "DownLeft": "",
+    "Down": "",
+    "DownRight": ""
   },
   "ProjectileOffsets": [
     {
@@ -93,6 +93,17 @@
       "sqrMagnitude": 0
     }
   ],
+  "InvalidDirections": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
   "CollBox": {
     "X": -7,
     "Y": -6,
@@ -108,7 +119,7 @@
   "AccelLeft": null,
   "AccelRight": null,
   "AccelUp": null,
-  "AccelDown": 0.24242425,
+  "AccelDown": null,
   "AccelLeftAir": null,
   "AccelRightAir": null,
   "RotationSpeed": 0.0,
@@ -116,22 +127,25 @@
   "CollType_Right": "block",
   "CollType_Up": "block",
   "CollType_Down": "block",
+  "Player": true,
+  "CanRidePlatform": null,
+  "Camera": null,
+  "AutoScroll": null,
   "Flags": 0,
   "AttackProjectile": null,
-  "AutoFire": false,
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,
-  "DivertAttack": null,
-  "DivertSpawn": null,
-  "DivertPlayerCollision": null,
-  "DivertPlayerHit": null,
-  "DivertHitAgainstPlayer": null,
-  "DivertProjectileCollision": null,
-  "DivertOutOfScreenLeft": "01_prevent_leave_left",
-  "DivertOutOfScreenRight": null,
-  "DivertOutOfScreenUp": null,
-  "DivertOutOfScreenDown": null,
+  "DivertAttack": "",
+  "DivertSpawn": "",
+  "DivertPlayerCollision": "",
+  "DivertPlayerHit": "",
+  "DivertHitAgainstPlayer": "",
+  "DivertProjectileCollision": "",
+  "DivertOutOfScreenLeft": "",
+  "DivertOutOfScreenRight": "",
+  "DivertOutOfScreenUp": "",
+  "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
   "DivertTimer": "00_oscar_control",
@@ -145,8 +159,8 @@
     "0"
   ],
   "ControlPort": 1,
-  "DataVersion": 1,
-  "TileID": 1,
-  "SuggestedRecycle": "Never",
-  "UpAccelerationName": "Accel Up"
+  "DataVersion": 3,
+  "AutoSpawn": null,
+  "AutoNavigate": false,
+  "TileID": 1
 }

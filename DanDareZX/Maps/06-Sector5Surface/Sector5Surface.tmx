@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="75" height="9" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="6" nextobjectid="1">
   <properties />
-  <tileset firstgid="1" source="..\..\Actors.tsx" />
-  <tileset firstgid="257" source="..\..\Blocks.tsx" />
+  <tileset firstgid="1" source="..\..\..\Actors.tsx" />
+  <tileset firstgid="257" source="..\..\..\Blocks.tsx" />
   <tileset firstgid="513" source="Sector5Surface.tileset.tsx" />
   <layer id="1" name="map" width="75" height="9">
     <data encoding="csv">
@@ -16,6 +16,10 @@
 621,622,532,623,624,625,626,627,624,628,626,622,532,623,626,624,622,596,622,596,629,630,622,532,623,626,625,624,625,626,624,622,532,623,631,625,626,625,624,632,633,634,631,625,626,624,635,626,622,532,623,636,625,631,637,524,524,638,626,625,624,622,532,623,624,625,626,635,624,635,626,635,624,625,639,
 640,641,515,642,640,643,644,643,640,643,644,641,515,642,644,640,641,596,641,596,645,646,641,515,642,644,643,640,643,644,640,641,515,642,640,643,644,643,640,643,644,643,640,643,644,640,643,644,641,515,642,644,643,640,647,524,524,648,644,643,640,641,515,642,640,643,644,643,640,643,644,643,640,643,644
 </data>
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="False" />
+    </properties>
   </layer>
   <layer id="2" name="objects" width="75" height="9">
     <data encoding="csv">
@@ -29,6 +33,10 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="False" />
+    </properties>
   </layer>
   <layer id="3" name="foreground" width="75" height="9">
     <data encoding="csv">
@@ -42,6 +50,10 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="True" />
+    </properties>
   </layer>
   <objectgroup id="5" name="events" />
 </map>

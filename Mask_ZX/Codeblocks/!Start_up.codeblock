@@ -604,7 +604,7 @@
       "Goto": "",
       "Comment": "Play Intro 1=Enable 0=Disable (Test purposes only)",
       "Variable": "Intro",
-      "Expression": "1",
+      "Expression": "0",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,

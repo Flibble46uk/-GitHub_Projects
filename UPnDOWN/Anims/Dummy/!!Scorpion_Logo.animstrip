@@ -1,30 +1,37 @@
 {
   "Frames": [
     {
-      "Path": "Scorpion_White_32.png",
       "Duration": 5,
-      "HandleX": -1,
-      "HandleY": 0,
-      "XFlipped": false,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "OnlySprite",
+      "SpriteType": "Channel_2_to_1",
+      "Path": "Scorpion_White_32.png",
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null
+      "HandleX": -1,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Scorpion_White_32",
+      "IsBlank": false
     }
   ],
   "PreventMovement": false,
   "PreventCollision": false,
   "HideChildren": false,
-  "AutoSprite": false,
-  "OnlySprite": true,
-  "SpriteType": "Channel_2_to_1",
-  "Multiplexes": 0,
   "LoopFrame": 0,
-  "LinkedMap": null,
+  "LinkedMap": "",
   "OnFinish": null,
-  "AutoFlip": false
+  "AutoFlip": false,
+  "Streamed": true,
+  "PatternBuffer": 0
 }

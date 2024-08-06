@@ -13,37 +13,17 @@
   </tile>
   <tile id="2">
     <properties>
-      <property name="Name" value="actor_plane1" type="string" />
+      <property name="Name" value="00_dummyactor" type="string" />
     </properties>
   </tile>
   <tile id="3">
     <properties>
-      <property name="Name" value="actor_plane2" type="string" />
+      <property name="Name" value="00_dummycrater" type="string" />
     </properties>
   </tile>
   <tile id="4">
     <properties>
-      <property name="Name" value="actor_plane3" type="string" />
-    </properties>
-  </tile>
-  <tile id="5">
-    <properties>
-      <property name="Name" value="actor_plane4" type="string" />
-    </properties>
-  </tile>
-  <tile id="6">
-    <properties>
-      <property name="Name" value="actor_plane5" type="string" />
-    </properties>
-  </tile>
-  <tile id="7">
-    <properties>
-      <property name="Name" value="actor_ocspalette" type="string" />
-    </properties>
-  </tile>
-  <tile id="8">
-    <properties>
-      <property name="Name" value="00_dummyactor" type="string" />
+      <property name="Name" value="actor_crater_small" type="string" />
     </properties>
   </tile>
 </tileset>

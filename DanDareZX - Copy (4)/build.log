@@ -1,0 +1,58 @@
+=== Image optimisations ===
+
+=== Misc ===
+Actor Count: 2
+Actor Data Size: 592
+Block Count: 1
+Block Data Size: 52
+Anim5 Count: 1
+Anim5 Data Size: 4
+Sound Count: 1
+Sound Data Size: 32
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 2
+Animations Data Size: 32
+AnimationFrame Count: 4
+AnimationFrame Data Size: 64
+ImageFrames: BlitzTool.BlitzWord
+ImageFrame Data Size: 256
+Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3308
+Crunching Panel statusbar as 1.img. Original size: 8930. Crunched size: 902
+Crunching Panel statusbarwide as 2.img. Original size: 9250. Crunched size: 860
+Crunching Panel titlescreen as 3.img. Original size: 28386. Crunched size: 8156
+Crunching Project virtual machine (codeblocks) as project.vm. Original size: 6390. Crunched size: 1760
+Crunching Project virtual machine redirects as project.rd. Original size: 4. Crunched size: 4
+Crunching Header data for map sector1 as 1.mhd. Original size: 9788. Crunched size: 238
+Crunching Data for map sector1 as 1.map. Original size: 40736. Crunched size: 2828
+Crunching Background for map sector1 as 1.bg. Original size: 2672. Crunched size: 92
+Crunching Header data for map sector5surface as 2.mhd. Original size: 9788. Crunched size: 236
+Crunching Data for map sector5surface as 2.map. Original size: 5206. Crunched size: 916
+Crunching Background for map sector5surface as 2.bg. Original size: 2672. Crunched size: 92
+Crunching Asset bundle 0 as 0.gfx. Original size: 168. Crunched size: 104
+Crunching Asset bundle 1 as 1.gfx. Original size: 38016. Crunched size: 6492
+Crunching Asset bundle 2 as 2.gfx. Original size: 16256. Crunched size: 2340
+Crunching Project data as project.dat. Original size: 1040. Crunched size: 176
+Crunching Scorpion header as project.hd. Original size: 4036. Crunched size: 1188
+
+Estimated memory usages:
+
+For chip:
+Map gfx (level gfx bundle 1 ): 38016
+Music memory: 0
+BP Buffer memory: 84816
+core sfx/gfx memory: 168
+Parallax memory: 0
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 40736
+Map background memory: 2672
+EXE memory: 194920
+vm memory: 6390
+project memory: 1040
+
+Accounted memory chip: 123000
+Accounted memory other: 245758
+Accounted memory total: 368758

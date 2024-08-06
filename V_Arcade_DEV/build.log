@@ -6,7 +6,7 @@ For chip:
 Map gfx (level gfx bundle 1): 45992
 Music memory (): 0
 BP Buffer memory: 135840
-core sfx/gfx memory: 160
+core sfx/gfx memory: 320
 Parallax memory: 0
 
 For other:
@@ -18,9 +18,9 @@ EXE memory: 206296
 vm memory: 6978
 project memory: 766
 
-Accounted memory chip: 181992
+Accounted memory chip: 182152
 Accounted memory other: 235492
-Accounted memory total: 417484
+Accounted memory total: 417644
 
 === Misc ===
 Maps and Asset Bundles Count: 2
@@ -46,12 +46,12 @@ Sprites Data Size: 14
 Attack Data: 1
 Attack Data Size: 66
 Misc data size: 16
-Asset bundle 0 (Core project asset bundle) Original size 160 Crunched size 86
+Asset bundle 0 (Core project asset bundle) Original size 320 Crunched size 116
 Asset bundle 1 (level_01) Original size 45992 Crunched size 21032
 Background for map level_01 Original size 2672 Crunched size 106
 Tile data for map level_01 (mem restrictions:No_Blocks) Original size 18780 Crunched size 1452
 Header data for map level_01 Original size 7996 Crunched size 262
-Project Data Original size 766 Crunched size 158
+Project Data Original size 766 Crunched size 162
 Project Header Original size 4032 Crunched size 1188
 Panel scorpion_eng_splashscreen Original size 35934 Crunched size 3268
 Project virtual machine (codeblocks) Original size 6978 Crunched size 2202

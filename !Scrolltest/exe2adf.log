@@ -1,0 +1,51 @@
+  Settings Copy: devs/system-configuration
+  Internal copy file: system-configuration (size: 232)
+  Write S/startup-sequence.
+  Internal Copy command: C/cls
+  Internal copy file: cls (size: 128)
+  Internal Copy command: C/add21k
+  Internal copy file: add21k (size: 1836)
+  Copy file: game-crunched.exe (size: 72780)
+Copy Whole Directory - ..\temp
+Copy Whole Directory - ..\temp\data
+  Copy file: 0.gfx (size: 26440)
+  Copy file: 0.img (size: 3312)
+  Copy file: 1.bg (size: 2672)
+  Copy file: 1.gfx (size: 37120)
+  Copy file: 1.img (size: 42210)
+  Copy file: 1.map (size: 158388)
+  Copy file: 1.mhd (size: 9276)
+  Copy file: 1.mus (size: 78368)
+  Copy file: 2.img (size: 5986)
+  Copy file: FLOPPY (size: 6)
+  Copy file: project.dat (size: 10084)
+  Copy file: project.hd (size: 4036)
+  Copy file: project.vm (size: 10282)
+Copy Whole Directory - ..\temp\s
+Copy Whole Directory - ..\temp\savedata
+Device : Floppy DD. Cylinders = 80, Heads = 2, Sectors = 11. Volumes = 1
+Volume : Floppy 880 KBytes, "exe2adf" between sectors [0-1759]. OFS . Filled at 56.7%.
+         2022/07/15  19:50:19  000888  C/
+    128  2022/07/15  19:50:19  000889  C/cls
+   1836  2022/07/15  19:50:19  000891  C/add21k
+  72780  2022/07/15  19:50:19  000896  game-crunched.exe
+         2022/07/15  19:50:19  000117  savedata/
+         2022/07/15  19:50:19  000882  devs/
+    232  2022/07/15  19:50:19  000883  devs/system-configuration
+         2022/07/15  19:50:19  000885  S/
+     29  2022/07/15  19:50:19  000886  S/startup-sequence
+         2022/07/15  19:50:19  001049  data/
+   2672  2022/07/15  19:50:19  001114  data/1.bg
+  26440  2022/07/15  19:50:19  001050  data/0.gfx
+  10084  2022/07/15  19:50:19  000062  data/project.dat
+      6  2022/07/15  19:50:19  000060  data/FLOPPY
+  42210  2022/07/15  19:50:19  001200  data/1.img
+   9276  2022/07/15  19:50:19  001619  data/1.mhd
+  10282  2022/07/15  19:50:19  000094  data/project.vm
+  37120  2022/07/15  19:50:19  001121  data/1.gfx
+ 158388  2022/07/15  19:50:19  001289  data/1.map
+   5986  2022/07/15  19:50:19  000046  data/2.img
+   3312  2022/07/15  19:50:19  001106  data/0.img
+  78368  2022/07/15  19:50:19  001640  data/1.mus
+   4036  2022/07/15  19:50:19  000084  data/project.hd
+>>> Created "..\_tmp" <<<

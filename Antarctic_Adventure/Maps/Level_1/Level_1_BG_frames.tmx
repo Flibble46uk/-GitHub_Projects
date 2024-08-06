@@ -4,8 +4,8 @@
     <property name="divert_timer" type="string" value="00_bg_frame" />
     <property name="divert_timerframes" type="int" value="10" />
   </properties>
-  <tileset firstgid="1" source="..\..\Actors.tsx" />
-  <tileset firstgid="257" source="..\..\Blocks.tsx" />
+  <tileset firstgid="1" source="..\..\..\Actors.tsx" />
+  <tileset firstgid="257" source="..\..\..\Blocks.tsx" />
   <tileset firstgid="513" source="Level_1_BG_frames.tileset.tsx" />
   <layer id="1" name="map" width="16" height="84">
     <data encoding="csv">

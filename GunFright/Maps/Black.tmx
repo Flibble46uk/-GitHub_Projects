@@ -4,8 +4,8 @@
     <property name="copper_24" type="bool" value="true" />
     <property name="first_copper" type="int" value="35" />
   </properties>
-  <tileset firstgid="1" source="..\Actors.tsx" />
-  <tileset firstgid="257" source="..\Blocks.tsx" />
+  <tileset firstgid="1" source="../Actors.tsx" />
+  <tileset firstgid="257" source="../Blocks.tsx" />
   <tileset firstgid="513" source="Black.tileset.tsx" />
   <layer id="1" name="map" width="80" height="32">
     <data encoding="csv">
@@ -45,6 +45,7 @@
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="amiga_ocs" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="2" name="blocks" width="80" height="32">
@@ -85,6 +86,7 @@
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="amiga_ocs" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="3" name="actors" width="80" height="32">
@@ -125,6 +127,7 @@
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="amiga_ocs" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="4" name="foreground" width="80" height="32">
@@ -165,6 +168,7 @@
     <properties>
       <property name="amiga_aga" type="bool" value="true" />
       <property name="foreground" type="bool" value="true" />
+      <property name="amiga_ocs" type="bool" value="true" />
     </properties>
   </layer>
   <objectgroup id="6" name="events" />

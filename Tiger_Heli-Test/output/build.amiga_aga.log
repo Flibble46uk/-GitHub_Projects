@@ -1,36 +1,13 @@
-=== Image optimisations ===
-
-=== Estimated memory usages ===
-
-For chip:
-Map gfx (level gfx bundle 1): 229824
-Music memory (): 0
-BP Buffer memory: 144256
-core sfx/gfx memory: 100432
-Parallax memory: 0
-OS/other estimated: 99328
-
-For other:
-Map cache memory: 0
-Map header cache memory: 0
-Map data memory: 25246
-Map background memory: 1396
-EXE memory: 211072
-vm memory: 13282
-project memory: 16250
-memory reserved for active actors on screen (32): 4744
-memory reserved for dormant actors in map (256): 9216
-OS/other estimated: 105472
-
-Accounted memory chip: 679312
-Accounted memory other: 281206
-Accounted memory total: 960518
+Compiled on 22 July 2024 20:46:35
+Version string: SE2024.2.240722.09.19.EX
 
 === Misc ===
+ImageFrames: 94
+ImageFrame Data Size: 4136
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
 Actor Count: 48
-Actor Data Size: 9024
+Actor Data Size: 8640
 Block Count: 2
 Block Data Size: 136
 Anim5 Count: 0
@@ -43,23 +20,50 @@ Animations Count: 54
 Animations Data Size: 864
 AnimationFrame Count: 119
 AnimationFrame Data Size: 1904
-ImageFrames: 87
-ImageFrame Data Size: 3828
 Sprites: 5
 Sprites Data Size: 70
-Attack Data: 4
-Attack Data Size: 264
-Misc data size: 86
-Panel scorpion_eng_splashscreen Original size 35158 Crunched size 3262
-Header data for map tigerhelilvl01 Original size 7992 Crunched size 710
-Tile data for map tigerhelilvl01 (mem restrictions:None) Original size 25246 Crunched size 6090
+Attack Data: 5
+Attack Data Size: 440
+Misc data size: 70
+=== Image optimisations ===
+Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
+Project virtual machine (codeblocks) Original size 13944 Crunched size 4018
+Header data for map tigerhelilvl01 Original size 8000 Crunched size 714
+Tile data for map tigerhelilvl01 (mem restrictions:None) Original size 25254 Crunched size 6554
 Background for map tigerhelilvl01 Original size 1396 Crunched size 82
-Asset bundle 0 (Core project asset bundle) Original size 100432 Crunched size 29522
-Asset bundle 1 (tigerhelilvl01) Original size 229824 Crunched size 44314
-Project Header Original size 4032 Crunched size 1190
-Project Data Original size 16250 Crunched size 3636
-Project virtual machine (codeblocks) Original size 13282 Crunched size 3744
+Asset bundle 0 (Core project asset bundle) Original size 100394 Crunched size 29524
+Asset bundle 1 (tigerhelilvl01) Original size 222890 Crunched size 44298
+Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
+Project Header Original size 4036 Crunched size 1194
+Project Data Original size 16334 Crunched size 4008
 Project virtual machine redirects Original size 4 Crunched size 4
+
+=== Accounted Memory Usage ===
+(Note that this isn't a full account of memory usage, just the memory we can account for)
+
+For chip:
+Map gfx (level gfx bundle 1): 222890
+Music memory (): 0
+BP Buffer memory: 144256
+core sfx/gfx memory: 100394
+Parallax memory: 0
+OS/other estimated: 99328
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 25254
+Map background memory: 1396
+EXE memory: 215412
+vm memory: 13944
+project memory: 16334
+memory reserved for active actors on screen (64): 9224
+memory reserved for dormant actors in map (256): 9216
+OS/other estimated: 105472
+
+Accounted memory chip: 566868
+Accounted memory other: 396252
+Accounted memory total: 963120
 
 === Possibly unused animations ===
 00_turret_static_dummy
@@ -87,47 +91,51 @@ Project virtual machine redirects Original size 4 Crunched size 4
 01_militarycar_small_right
 01_militarycar_small_up
 exp_dummy
-hero_cannon
 hero_empty
 
 === Codeblocks by compiled size ===
-!!_startup: 896
-load_level: 774
+!!_startup: 910
 00_smartbomb: 720
+load_level: 568
 00_spawn_herotakeoff: 476
-set_yresolution: 458
-do_teleport: 420
-flipscreen_smooth: 306 (Unused?)
-pre_startup: 296
+pre_startup: 432
+do_teleport: 424
+flipscreen_smooth: 310 (Unused?)
+load_next_level: 300 (Unused?)
 flipxymove: 278 (Unused?)
-00_spawn_heli_truck: 256
+00_spawn_heli_truck: 258
 00_crater_flames: 212
+hero_loaded_autogen_attack: 208
+block_find: 206 (Unused?)
+set_yresolution: 202
 waitforframes: 194
 check_talkpad: 192 (Unused?)
+00_dummyplayer_autogen_attack: 184
+block_count: 178 (Unused?)
 pause: 176 (Unused?)
 flipymove: 162 (Unused?)
 snap_to_screen: 158
 pre_quit: 152
+restart_this_level: 150 (Unused?)
 load_panel: 146
 flipxmove: 142 (Unused?)
+unload_level: 142
 00_leave_screen_y: 138
-00_launch_vehicle: 134
-load_music: 130 (Unused?)
+00_launch_vehicle: 136
 AUTOGEN_OUTOFSCREEN_00_donothing_00_donothing_00_donothing_00_leave_screen_y: 130
 AUTOGEN_OUTOFSCREEN_00_donothing_00_donothing_00_donothing_00_donothing: 130
 AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 130
 AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_snap_to_screen_snap_to_screen: 130
-destroy_all_blocks: 124 (Unused?)
+destroy_all_blocks: 128 (Unused?)
 00_leveleventmanager: 124
-pre_load_level: 118
-unload_level: 118
+pre_load_level: 122
 00_actordestroy: 118
 00_actordestroycrater: 118
 waitforfireup: 114
+fadein: 112
 waitforfiredown: 110
-fadein: 106
+unload_panel: 106
 00_player_setup: 104
-unload_panel: 100
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)
@@ -136,6 +144,7 @@ pre_anim5: 86 (Unused?)
 waitforfirehit: 86
 00_firetostart: 86
 00_spawnsmartbomb: 86
+load_music: 78 (Unused?)
 AUTOGEN_OUTOFSCREEN_destroy_actor_None_None_00_leave_screen_y: 78
 AUTOGEN_OUTOFSCREEN_None_None_00_leave_screen_y_00_leave_screen_y: 78
 00_actordestroybuilding: 78
@@ -145,12 +154,14 @@ AUTOGEN_OUTOFSCREEN_None_None_00_leave_screen_y_00_leave_screen_y: 78
 load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)
 wrap_screen_right: 76 (Unused?)
+set_ntsc: 74 (Unused?)
 00_stay_relevant: 74
+flipscreen: 72 (Unused?)
 wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
-flipscreen: 70 (Unused?)
 quit: 70 (Unused?)
 jump_actor: 66 (Unused?)
+load_panel_finish: 66
 00_actorupdate_start: 66 (Unused?)
 00_actorupdate_stop: 66
 00_spawn_turret_static: 66 (Unused?)
@@ -158,41 +169,33 @@ jump_actor: 66 (Unused?)
 unload_panel_bottom: 62
 unload_panel_top: 62
 destroy_all_actors: 60 (Unused?)
-load_panel_finish: 60
 destroy_actor: 58
+regenerate_screen: 58
 AUTOGEN_OUTOFSCREEN_None_None_None_00_leave_screen_y: 54
 AUTOGEN_OUTOFSCREEN_None_None_None_destroy_actor: 54
 destroy_block: 52 (Unused?)
-regenerate_screen: 52
 return: 52 (Unused?)
 00_actorblink: 52 (Unused?)
 AUTOGEN_OUTOFSCREEN_None_None_00_stay_relevant_None: 50
 00_playerfollow_stop: 50
+regenerate_screen_wait: 46
 00_actorsmoke: 46
 00_make_invisible: 46
 00_make_visible: 46
 00_spawn_crater: 46
 00_actormovedown: 44
 00_smartbomb_move_elements: 44
-regenerate_screen_wait: 42
 freeze_actor: 40 (Unused?)
 unfreeze_actor: 40 (Unused?)
 autogen_anim_exp_building_11: 38
 autogen_anim_explosion_7: 38
 autogen_anim_explosion_crater_6: 38
-autogen_anim_explosion_crater_7: 38
 autogen_anim_heli_truck_rear_12: 38
 00_truck_state_add_one: 36 (Unused?)
 block_coll_force: 32 (Unused?)
 block_coll_passthru: 32 (Unused?)
+clear_block_collision: 32
 vm_registers: 26 (Unused?)
-vm_constants: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
-vm_constants_audiodriver: 26 (Unused?)
-vm_constants_controlbits: 26 (Unused?)
-vm_constants_notes: 26 (Unused?)
-vm_constants_platform: 26 (Unused?)
 vm_constants_tile_properties: 26 (Unused?)
-00_donothing: 26
 00_playerfollow: 26
-startup: 26 (Unused?)

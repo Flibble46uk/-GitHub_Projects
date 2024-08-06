@@ -1,7 +1,5 @@
 {
   "TargetPlatform": "amiga_aga",
-  "Talkpad": null,
-  "Talkpad_OnBottom": false,
   "StartupCodeBlock": "!!_startup",
   "Recompile": true,
   "DebugMode": false,
@@ -24,8 +22,19 @@
       "MegaDrive_C": false,
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
+      "MegaDrive_X": false,
+      "MegaDrive_Y": false,
+      "MegaDrive_Z": false,
+      "MegaDrive_Mode": false,
+      "Neo_A": false,
+      "Neo_B": false,
+      "Neo_C": false,
+      "Neo_D": false,
+      "Neo_Start": false,
+      "Neo_Select": false,
       "OnPress": "00_firetostart",
-      "OnRelease": null
+      "OnRelease": null,
+      "buttonState": 1
     },
     {
       "Compiler": "amiga",
@@ -44,8 +53,19 @@
       "MegaDrive_C": false,
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
+      "MegaDrive_X": false,
+      "MegaDrive_Y": false,
+      "MegaDrive_Z": false,
+      "MegaDrive_Mode": false,
+      "Neo_A": false,
+      "Neo_B": false,
+      "Neo_C": false,
+      "Neo_D": false,
+      "Neo_Start": false,
+      "Neo_Select": false,
       "OnPress": "00_spawnsmartbomb",
-      "OnRelease": null
+      "OnRelease": null,
+      "buttonState": 0
     }
   ],
   "AnimationMetaData": {},
@@ -56,8 +76,11 @@
   "FontMetaData": {},
   "SplashScreen": null,
   "LogicSpeed": "PAL_50HZ",
-  "StartingPaletteLine": 0,
-  "PaletteLines": 1,
   "ReadCD32Buttons": false,
-  "MDRegion": "E"
+  "ReadMD6Buttons": false,
+  "MDRegion": "Universal",
+  "MDSoundDriver": "MDSDRV",
+  "SplashScreenFrames": 50,
+  "TestLevel": null,
+  "SafetyRails": false
 }

@@ -1,74 +1,4 @@
 === Image optimisations ===
-Reduce width of Anims\Backgrounds\M1_S1_BG.png by 48 pixels to 192 to reduce sprites by 2
-Reduce width of Anims\Chopper\Chopper_gun_00x02.png by 6 pixels to 48 to improve blit performance by 100.00%
-Reduce width of Anims\Chopper\Chopper_gun_00x01.png by 6 pixels to 48 to improve blit performance by 100.00%
-Reduce width of Anims\Chopper\Chopper_gun_00x00.png by 6 pixels to 48 to improve blit performance by 100.00%
-Reduce width of Anims\Chopper\Chopper_rotor_1.png by 11 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Chopper\Chopper_rotor_1.png by 11 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Chopper\Chopper_rotor_2.png by 4 pixels to 272 to improve blit performance by 100.00%
-Reduce width of Anims\Chopper\Chopper_rotor_2.png by 4 pixels to 272 to improve blit performance by 100.00%
-Reduce width of Anims\Chopper\Chopper_rotor_3_00x00.png by 6 pixels to 80 to improve blit performance by 100.00%
-Reduce width of Anims\Chopper\Chopper_rotor_3_01x00.png by 10 pixels to 96 to improve blit performance by 100.00%
-Reduce width of Anims\Hostage\Hostage_04x00.png by 8 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_05x00.png by 7 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_06x00.png by 3 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_04x00.png by 8 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_05x00.png by 7 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_06x00.png by 3 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_00x00.png by 6 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_01x00.png by 6 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_00x00.png by 6 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_01x00.png by 6 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_00x00.png by 6 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_01x00.png by 6 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_00x00.png by 6 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_01x00.png by 6 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_02x00.png by 6 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_03x00.png by 8 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_02x00.png by 6 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_03x00.png by 8 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_00x00.png by 6 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_01x00.png by 6 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_00x00.png by 6 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_01x00.png by 6 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_00x00.png by 6 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_01x00.png by 6 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_00x00.png by 6 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_01x00.png by 6 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_02x00.png by 6 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_03x00.png by 8 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_02x00.png by 6 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Hostage\Hostage_03x00.png by 8 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Shinobi\Jump01_01x00.png by 11 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Shinobi\Jump01_01x00.png by 11 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Shinobi\Jump01_00x00.png by 11 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Shinobi\Jump01_00x00.png by 11 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Shinobi\Walk_Jump_09x00.png by 4 pixels to 32 to improve blit performance by 100.00%
-Reduce width of Anims\Shinobi\Walk_Jump_10x00.png by 6 pixels to 32 to improve blit performance by 100.00%
-Reduce width of Anims\Shinobi\Walk_Jump_09x00.png by 4 pixels to 32 to improve blit performance by 100.00%
-Reduce width of Anims\Shinobi\Walk_Jump_10x00.png by 6 pixels to 32 to improve blit performance by 100.00%
-Reduce width of Anims\Shinobi\Walk_Jump_06x00.png by 12 pixels to 32 to improve blit performance by 100.00%
-Reduce width of Anims\Shinobi\Walk_Jump_07x00.png by 13 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Shinobi\Walk_Jump_08x00.png by 13 pixels to 32 to improve blit performance by 100.00%
-Reduce width of Anims\Shinobi\Walk_Jump_06x00.png by 12 pixels to 32 to improve blit performance by 100.00%
-Reduce width of Anims\Shinobi\Walk_Jump_07x00.png by 13 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Shinobi\Walk_Jump_08x00.png by 13 pixels to 32 to improve blit performance by 100.00%
-Reduce width of Anims\Shinobi\Walk_Jump_00x00.png by 11 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Shinobi\Walk_Jump_00x00.png by 11 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Shinobi\Walk_Jump_00x00.png by 11 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Shinobi\Walk_Jump_01x00.png by 5 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Shinobi\Walk_Jump_02x00.png by 2 pixels to 32 to improve blit performance by 100.00%
-Reduce width of Anims\Shinobi\Walk_Jump_03x00.png by 8 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Shinobi\Walk_Jump_04x00.png by 8 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Shinobi\Walk_Jump_00x00.png by 11 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Shinobi\Walk_Jump_01x00.png by 5 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Shinobi\Walk_Jump_02x00.png by 2 pixels to 32 to improve blit performance by 100.00%
-Reduce width of Anims\Shinobi\Walk_Jump_03x00.png by 8 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Shinobi\Walk_Jump_04x00.png by 8 pixels to 16 to improve blit performance by 200.00%
-Reduce width of Anims\Title_Screen\Shinobi_Symbol.png by 15 pixels to 80 to improve blit performance by 100.00%
-Reduce width of Anims\Title_Screen\Shinobi_Symbol_1.png by 15 pixels to 80 to improve blit performance by 100.00%
-Reduce width of Anims\Title_Screen\Shinobi_Symbol_2.png by 15 pixels to 80 to improve blit performance by 100.00%
-Reduce width of Anims\Title_Screen\Shinobi_Symbol_3.png by 15 pixels to 80 to improve blit performance by 100.00%
 
 === Estimated memory usages ===
 
@@ -76,7 +6,7 @@ For chip:
 Map gfx (level gfx bundle 3): 82624
 Music memory (): 0
 BP Buffer memory: 165200
-core sfx/gfx memory: 362018
+core sfx/gfx memory: 363362
 Parallax memory: 0
 
 For other:
@@ -84,13 +14,13 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 16510
 Map background memory: 2672
-EXE memory: 203164
-vm memory: 10048
+EXE memory: 203832
+vm memory: 10042
 project memory: 9182
 
-Accounted memory chip: 609842
-Accounted memory other: 241576
-Accounted memory total: 851418
+Accounted memory chip: 611186
+Accounted memory other: 242238
+Accounted memory total: 853424
 
 === Misc ===
 Maps and Asset Bundles Count: 5
@@ -116,27 +46,27 @@ Sprites Data Size: 42
 Attack Data: 1
 Attack Data Size: 66
 Misc data size: 44
-Asset bundle 0 (Core project asset bundle) Original size 362018 Crunched size 96870
-Asset bundle 1 (m1_s1) Original size 45116 Crunched size 7582
-Asset bundle 2 (m2_s1) Original size 34776 Crunched size 10080
-Asset bundle 3 (m2_s4) Original size 82624 Crunched size 19266
-Asset bundle 4 (title) Original size 27328 Crunched size 6148
-Background for map m1_s1 Original size 2672 Crunched size 206
-Background for map m2_s1 Original size 2672 Crunched size 206
-Background for map m2_s4 Original size 2672 Crunched size 92
-Background for map title Original size 2672 Crunched size 92
-Tile data for map m1_s1 (mem restrictions:None) Original size 13220 Crunched size 1514
-Tile data for map m2_s1 (mem restrictions:None) Original size 16510 Crunched size 1394
-Tile data for map m2_s4 (mem restrictions:None) Original size 13596 Crunched size 2670
-Tile data for map title (mem restrictions:None) Original size 1948 Crunched size 582
-Header data for map m1_s1 Original size 7996 Crunched size 486
-Header data for map m2_s1 Original size 7996 Crunched size 470
-Header data for map m2_s4 Original size 7996 Crunched size 422
-Header data for map title Original size 7996 Crunched size 434
-Project Data Original size 9182 Crunched size 2350
-Project Header Original size 4032 Crunched size 1196
+Asset bundle 0 (Core project asset bundle) Original size 363362 Crunched size 363362
+Asset bundle 1 (m1_s1) Original size 45116 Crunched size 45116
+Asset bundle 2 (m2_s1) Original size 34776 Crunched size 34776
+Asset bundle 3 (m2_s4) Original size 82624 Crunched size 82624
+Asset bundle 4 (title) Original size 27328 Crunched size 27328
+Background for map m1_s1 Original size 2672 Crunched size 2672
+Background for map m2_s1 Original size 2672 Crunched size 2672
+Background for map m2_s4 Original size 2672 Crunched size 2672
+Background for map title Original size 2672 Crunched size 2672
+Tile data for map m1_s1 (mem restrictions:None) Original size 13220 Crunched size 13220
+Tile data for map m2_s1 (mem restrictions:None) Original size 16510 Crunched size 16510
+Tile data for map m2_s4 (mem restrictions:None) Original size 13596 Crunched size 13596
+Tile data for map title (mem restrictions:None) Original size 1948 Crunched size 1948
+Header data for map m1_s1 Original size 7996 Crunched size 7996
+Header data for map m2_s1 Original size 7996 Crunched size 7996
+Header data for map m2_s4 Original size 7996 Crunched size 7996
+Header data for map title Original size 7996 Crunched size 7996
+Project Data Original size 9182 Crunched size 9182
+Project Header Original size 4032 Crunched size 4032
 Panel scorpion_eng_splashscreen Original size 35934 Crunched size 3268
-Project virtual machine (codeblocks) Original size 10048 Crunched size 2980
+Project virtual machine (codeblocks) Original size 10042 Crunched size 10042
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -165,7 +95,7 @@ do_teleport: 392
 flipscreen_smooth: 346 (Unused?)
 flipxymove: 306 (Unused?)
 pause: 252 (Unused?)
-pre_startup: 194
+pre_startup: 220
 snap_to_screen: 190 (Unused?)
 !title_symbol_up: 182
 flipymove: 174 (Unused?)
@@ -214,7 +144,6 @@ regenerate_screen_wait: 42
 vm_registers: 26 (Unused?)
 vm_constants: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
-debug_dump: 26 (Unused?)
 vm_constants_controlbits: 26 (Unused?)
 vm_constants_notes: 26 (Unused?)
 vm_constants_tile_properties: 26 (Unused?)

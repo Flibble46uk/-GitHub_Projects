@@ -1,58 +1,118 @@
 === Image optimisations ===
-Reduce width of Anims\StarField\SF_Starfield01_01.png by 32 pixels to 192 to reduce sprites by 1
 
 === Estimated memory usages ===
 
 For chip:
-Map gfx (Panel: scorpion_eng_splashscreen): 37090
-Music memory: 0
-BP Buffer memory: 98280
-core sfx/gfx memory: 33152
+Map gfx (Panel: scorpion_eng_splashscreen): 35934
+Music memory (): 0
+BP Buffer memory: 104040
+core sfx/gfx memory: 98592
 Parallax memory: 0
 
 For other:
 Map cache memory: 0
 Map header cache memory: 0
-Map data memory: 4036
+Map data memory: 18632
 Map background memory: 2672
-EXE memory: 210088
-vm memory: 6646
-project memory: 2436
+EXE memory: 203028
+vm memory: 7202
+project memory: 1076
 
-Accounted memory chip: 168522
-Accounted memory other: 225878
-Accounted memory total: 394400
+Accounted memory chip: 238566
+Accounted memory other: 232610
+Accounted memory total: 471176
 
 === Misc ===
 Maps and Asset Bundles Count: 3
 Maps and Asset Bundles Data Size: 36
 Actor Count: 3
-Actor Data Size: 888
+Actor Data Size: 600
 Block Count: 1
 Block Data Size: 52
-Anim5 Count: 1
-Anim5 Data Size: 1036
+Anim5 Count: 0
+Anim5 Data Size: 0
 Sound Count: 1
-Sound Data Size: 32
+Sound Data Size: 24
 Teleporter Count: 1
 Teleporter Data Size: 8
 Animations Count: 3
 Animations Data Size: 48
 AnimationFrame Count: 4
 AnimationFrame Data Size: 64
-ImageFrames: 4
-ImageFrame Data Size: 272
-Asset bundle 0 (Core project asset bundle) Original size 33152 Crunched size 33152
-Asset bundle 1 (testfg) Original size 1600 Crunched size 1600
+ImageFrames: 3
+ImageFrame Data Size: 132
+Sprites: 2
+Sprites Data Size: 28
+Attack Data: 1
+Attack Data Size: 66
+Misc data size: 16
+Asset bundle 0 (Core project asset bundle) Original size 98592 Crunched size 98592
+Asset bundle 1 (testfg) Original size 1440 Crunched size 1440
 Asset bundle 2 (teststarfieldbg) Original size 2560 Crunched size 2560
 Background for map testfg Original size 2672 Crunched size 2672
 Background for map teststarfieldbg Original size 2672 Crunched size 2672
-Tile data for map testfg (mem restrictions:No_Blocks) Original size 1332 Crunched size 1332
-Tile data for map teststarfieldbg (mem restrictions:No_Blocks) Original size 4036 Crunched size 4036
-Header data for map testfg Original size 8756 Crunched size 8756
-Header data for map teststarfieldbg Original size 8756 Crunched size 8756
-Project Data Original size 2436 Crunched size 2436
-Project Header Original size 4040 Crunched size 4040
-Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
-Project virtual machine (codeblocks) Original size 6646 Crunched size 6646
+Tile data for map testfg (mem restrictions:No_Blocks) Original size 18632 Crunched size 18632
+Tile data for map teststarfieldbg (mem restrictions:No_Blocks) Original size 4056 Crunched size 4056
+Header data for map testfg Original size 7996 Crunched size 7996
+Header data for map teststarfieldbg Original size 7996 Crunched size 7996
+Project Data Original size 1076 Crunched size 1076
+Project Header Original size 4032 Crunched size 4032
+Panel scorpion_eng_splashscreen Original size 35934 Crunched size 3268
+Project virtual machine (codeblocks) Original size 7202 Crunched size 7202
 Project virtual machine redirects Original size 4 Crunched size 4
+
+=== Codeblocks by compiled size ===
+load_level: 1012
+set_yresolution: 448
+do_teleport: 362
+flipscreen_smooth: 346 (Unused?)
+flipxymove: 306 (Unused?)
+!!_startup: 270
+pause: 252 (Unused?)
+pre_startup: 194
+snap_to_screen: 190 (Unused?)
+flipymove: 174 (Unused?)
+00_starfield_rap: 162
+flipxmove: 158 (Unused?)
+load_panel: 146
+pre_quit: 146
+destroy_all_blocks: 124 (Unused?)
+unload_level: 114
+load_panel_bottom: 96 (Unused?)
+load_panel_top: 96 (Unused?)
+waitforfireup: 94
+unload_panel: 92
+wrap_screen_bottom: 92 (Unused?)
+wrap_screen_right: 92 (Unused?)
+waitforfiredown: 90
+wrap_screen_left: 88 (Unused?)
+wrap_screen_top: 88 (Unused?)
+flipscreen: 86 (Unused?)
+pre_anim5: 86 (Unused?)
+waitforfirehit: 86
+fadeout: 84
+waitforframes: 78
+quit: 66 (Unused?)
+00_level_events: 64 (Unused?)
+destroy_all_actors: 62 (Unused?)
+jump_actor: 62 (Unused?)
+load_music: 62 (Unused?)
+unload_panel_bottom: 62
+unload_panel_top: 62
+fadein: 58
+load_panel_finish: 56
+destroy_actor: 54
+regenerate_screen: 52
+return: 52 (Unused?)
+destroy_block: 48 (Unused?)
+regenerate_screen_wait: 42
+debug_dump: 30 (Unused?)
+vm_registers: 26 (Unused?)
+vm_constants: 26 (Unused?)
+debug_breakpoint: 26 (Unused?)
+vm_constants_controlbits: 26 (Unused?)
+vm_constants_notes: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)
+vm_constants_platform: 26 (Unused?)
+!!_scratchpad: 26 (Unused?)
+startup: 26 (Unused?)

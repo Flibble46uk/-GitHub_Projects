@@ -1,0 +1,120 @@
+=== Image optimisations ===
+Reduce width of Anim\r01_boathouseshadow_00x00.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\r01_playerspin_07x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\r01_playerspin_01x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\r01_playerspin_01x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\r01_playerspin_02x00.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\r01_playerspin_03x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\r01_playerspin_05x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\r01_playerspin_06x00.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\r01_playerspin_07x00.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Anim\ScoreMockup_00x00.png by 14 pixels to 160 to improve blit performance by 100.00%
+
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (level gfx bundle 1 ): 42400
+Music memory: 78368
+BP Buffer memory: 110960
+core sfx/gfx memory: 46310
+Parallax memory: 0
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 173780
+Map background memory: 2672
+EXE memory: 201968
+vm memory: 6000
+project memory: 14536
+
+Accounted memory chip: 278038
+Accounted memory other: 398956
+Accounted memory total: 676994
+
+=== Misc ===
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 24
+Actor Count: 28
+Actor Data Size: 5824
+Block Count: 12
+Block Data Size: 624
+Anim5 Count: 0
+Anim5 Data Size: 0
+Sound Count: 1
+Sound Data Size: 32
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 50
+Animations Data Size: 800
+AnimationFrame Count: 158
+AnimationFrame Data Size: 2528
+ImageFrames: 103
+ImageFrame Data Size: 4532
+Sprites: 1
+Sprites Data Size: 14
+Attack Data: 2
+Attack Data Size: 132
+Misc data size: 16
+Asset bundle 0 (Core project asset bundle) Original size 46310 Crunched size 12714
+Asset bundle 1 (spyhunter) Original size 42400 Crunched size 17032
+Background for map spyhunter Original size 2672 Crunched size 92
+Music file peter_gnu Original size 78368 Crunched size 56024
+Tile data for map spyhunter (mem restrictions:None) Original size 173780 Crunched size 10474
+Header data for map spyhunter Original size 7992 Crunched size 304
+Project Data Original size 14536 Crunched size 3072
+Project Header Original size 4040 Crunched size 1194
+Panel scorpion_eng_splashscreen Original size 35930 Crunched size 3266
+Panel spyhuntertitle Original size 41050 Crunched size 10288
+Panel status Original size 3770 Crunched size 432
+Project virtual machine (codeblocks) Original size 6000 Crunched size 1838
+Project virtual machine redirects Original size 4 Crunched size 4
+
+Codeblocks by compiled size: 
+
+load_level: 890
+do_teleport: 362
+flipscreen_smooth: 346
+flipxymove: 306
+set_yresolution: 200
+snap_to_screen: 190
+pre_startup: 188
+flipymove: 174
+pre_quit: 166
+01_startup: 166
+flipxmove: 158
+load_panel: 146
+destroy_all_blocks: 124
+unload_level: 114
+load_panel_bottom: 96
+load_panel_top: 96
+waitforfirehit: 96
+unload_panel: 92
+wrap_screen_bottom: 92
+wrap_screen_right: 92
+wrap_screen_left: 88
+wrap_screen_top: 88
+flipscreen: 86
+pre_anim5: 86
+fadeout: 84
+waitforframes: 78
+quit: 66
+destroy_all_actors: 62
+jump_actor: 62
+load_music: 62
+unload_panel_bottom: 62
+unload_panel_top: 62
+load_panel_finish: 56
+destroy_actor: 54
+fadein: 52
+regenerate_screen: 52
+return: 52
+destroy_block: 48
+regenerate_screen_wait: 42
+debug_dump: 30
+vm_registers: 26
+vm_constants: 26
+vm_registers_amiga: 26
+debug_breakpoint: 26
+vm_constants_notes: 26
+vm_constants_tile_properties: 26

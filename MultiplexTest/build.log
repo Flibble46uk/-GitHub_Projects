@@ -1,72 +1,137 @@
 === Image optimisations ===
 
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (Panel: scorpion_eng_splashscreen): 35934
+Music memory (): 0
+BP Buffer memory: 132000
+core sfx/gfx memory: 11840
+Parallax memory: 28800
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 23038
+Map background memory: 3192
+EXE memory: 203820
+vm memory: 8812
+project memory: 3460
+
+Accounted memory chip: 208574
+Accounted memory other: 242322
+Accounted memory total: 450896
+
 === Misc ===
-Maps and Asset Bundles Count: 6
-Maps and Asset Bundles Data Size: 72
-Actor Count: 10
-Actor Data Size: 2960
+Maps and Asset Bundles Count: 4
+Maps and Asset Bundles Data Size: 48
+Actor Count: 12
+Actor Data Size: 2400
 Block Count: 2
 Block Data Size: 104
-Anim5 Count: 1
-Anim5 Data Size: 4
+Anim5 Count: 0
+Anim5 Data Size: 0
 Sound Count: 1
-Sound Data Size: 32
+Sound Data Size: 24
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 10
-Animations Data Size: 160
-AnimationFrame Count: 11
-AnimationFrame Data Size: 176
-ImageFrames: 12
-ImageFrame Data Size: 768
-
-=== Cartridge section PANL (size 32988) ===
-Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
-
-=== Cartridge section MPHD (size 15328) ===
-Header data for map camera_test Original size 9780 Crunched size 322
-Header data for map imported map Original size 9780 Crunched size 312
-Header data for map orbit_map_test Original size 9780 Crunched size 240
-Header data for map wonderboy_all_rounds Original size 9780 Crunched size 312
-Header data for map wonderboy_lvl_01 Original size 9780 Crunched size 316
-
-=== Cartridge section MPDT (size 251408) ===
-Tile data for map camera_test Original size 7244 Crunched size 442
-Tile data for map imported map Original size 2124 Crunched size 372
-Tile data for map orbit_map_test Original size 27506 Crunched size 1246
-Tile data for map wonderboy_all_rounds Original size 797772 Crunched size 19450
-Tile data for map wonderboy_lvl_01 Original size 86276 Crunched size 3600
-
-=== Cartridge section MPBG (size 11648) ===
-Background for map camera_test Original size 2672 Crunched size 316
+Animations Count: 11
+Animations Data Size: 176
+AnimationFrame Count: 12
+AnimationFrame Data Size: 192
+ImageFrames: 9
+ImageFrame Data Size: 396
+Sprites: 1
+Sprites Data Size: 14
+Attack Data: 1
+Attack Data Size: 66
+Misc data size: 30
+Asset bundle 0 (Core project asset bundle) Original size 11840 Crunched size 656
+Asset bundle 1 (camera_test) Original size 160 Crunched size 160
+Asset bundle 2 (imported map) Original size 8000 Crunched size 4974
+Asset bundle 3 (orbit_map_test) Original size 20672 Crunched size 4808
+Background for map camera_test Original size 2672 Crunched size 306
 Background for map imported map Original size 3192 Crunched size 276
-Background for map orbit_map_test Original size 2672 Crunched size 358
-Background for map wonderboy_all_rounds Original size 2672 Crunched size 92
-Background for map wonderboy_lvl_01 Original size 2672 Crunched size 92
-
-=== Cartridge section MPPX (size 45848) ===
-Parallax for map camera_test Original size 29700 Crunched size 4392
-Parallax for map imported map Original size 0 Crunched size 0
-Parallax for map orbit_map_test Original size 1800 Crunched size 162
-Parallax for map wonderboy_all_rounds Original size 0 Crunched size 0
-Parallax for map wonderboy_lvl_01 Original size 0 Crunched size 0
-
-=== Cartridge section ASBD (size 981028) ===
-Asset bundle 0 (Core project asset bundle) Original size 19200 Crunched size 674
-Asset bundle 1 (camera_test) Original size 320 Crunched size 320
-Asset bundle 2 (imported map) Original size 7520 Crunched size 4926
-Asset bundle 3 (orbit_map_test) Original size 21920 Crunched size 4840
-Asset bundle 4 (wonderboy_all_rounds) Original size 239840 Crunched size 68410
-Asset bundle 5 (wonderboy_lvl_01) Original size 76800 Crunched size 18896
-
-=== Cartridge section PROJ (size 12208) ===
-Project Header Original size 4040 Crunched size 1214
-
-=== Cartridge section PDAT (size 5208) ===
-Project Data Original size 4284 Crunched size 514
-
-=== Cartridge section VMCB (size 21508) ===
-Project virtual machine (codeblocks) Original size 8296 Crunched size 2144
-
-=== Cartridge section VMRD (size 108) ===
+Background for map orbit_map_test Original size 2672 Crunched size 352
+Tile data for map camera_test (mem restrictions:None) Original size 6108 Crunched size 414
+Tile data for map imported map (mem restrictions:None) Original size 1820 Crunched size 364
+Tile data for map orbit_map_test (mem restrictions:None) Original size 23038 Crunched size 1168
+Header data for map camera_test Original size 7996 Crunched size 420
+Header data for map imported map Original size 7996 Crunched size 410
+Header data for map orbit_map_test Original size 7996 Crunched size 220
+Parallax for map camera_test Original size 28800 Crunched size 4380
+Parallax for map orbit_map_test Original size 900 Crunched size 148
+Project Data Original size 3460 Crunched size 536
+Project Header Original size 4032 Crunched size 1204
+Panel scorpion_eng_splashscreen Original size 35934 Crunched size 3268
+Project virtual machine (codeblocks) Original size 8812 Crunched size 2618
 Project virtual machine redirects Original size 4 Crunched size 4
+
+=== Possibly unused Actors ===
+00_dummycrater
+actor_crater_small
+
+=== Codeblocks by compiled size ===
+load_level: 1012
+00_startup: 610
+set_yresolution: 448
+do_teleport: 362
+flipscreen_smooth: 346 (Unused?)
+00_camera_test_moveplayer: 338
+flipxymove: 306 (Unused?)
+pause: 252 (Unused?)
+00_orbit_follow: 198
+pre_startup: 194
+snap_to_screen: 190 (Unused?)
+flipymove: 174 (Unused?)
+flipxmove: 158 (Unused?)
+load_panel: 146
+pre_quit: 146
+00_actortoplayer: 132
+01_plane1_toggle: 128
+01_plane2_toggle: 128
+01_plane3_toggle: 128
+01_plane4_toggle: 128
+01_plane5_toggle: 128
+destroy_all_blocks: 124 (Unused?)
+unload_level: 114
+load_panel_bottom: 96 (Unused?)
+load_panel_top: 96 (Unused?)
+waitforfireup: 94
+unload_panel: 92
+wrap_screen_bottom: 92 (Unused?)
+wrap_screen_right: 92 (Unused?)
+waitforfiredown: 90
+wrap_screen_left: 88 (Unused?)
+wrap_screen_top: 88 (Unused?)
+flipscreen: 86 (Unused?)
+pre_anim5: 86 (Unused?)
+waitforfirehit: 86
+fadeout: 84
+waitforframes: 78
+00_setcamera: 78
+quit: 66 (Unused?)
+destroy_all_actors: 62 (Unused?)
+jump_actor: 62 (Unused?)
+load_music: 62 (Unused?)
+unload_panel_bottom: 62
+unload_panel_top: 62
+00_actorupdate_stop: 62
+fadein: 58
+load_panel_finish: 56
+destroy_actor: 54
+regenerate_screen: 52
+return: 52 (Unused?)
+destroy_block: 48 (Unused?)
+regenerate_screen_wait: 42
+00_stopfollow: 36
+debug_dump: 30 (Unused?)
+vm_registers: 26 (Unused?)
+vm_constants: 26 (Unused?)
+debug_breakpoint: 26 (Unused?)
+vm_constants_controlbits: 26 (Unused?)
+vm_constants_notes: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)
+vm_constants_platform: 26 (Unused?)
+00_donothing: 26
+startup: 26 (Unused?)

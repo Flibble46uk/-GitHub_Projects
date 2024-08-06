@@ -4,8 +4,8 @@
     <property name="first_copper" type="int" value="102" />
     <property name="rainbow_palette" type="file" value="Copper.png" />
   </properties>
-  <tileset firstgid="1" source="..\Actors.tsx" />
-  <tileset firstgid="257" source="..\Blocks.tsx" />
+  <tileset firstgid="1" source="../Actors.tsx" />
+  <tileset firstgid="257" source="../Blocks.tsx" />
   <tileset firstgid="513" source="Outrun2D.tileset.tsx" />
   <layer id="1" name="Terrain" width="20" height="512">
     <data encoding="csv">

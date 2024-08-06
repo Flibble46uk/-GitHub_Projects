@@ -6,9 +6,4 @@
       <property name="Name" value="00_dummyplayer" type="string" />
     </properties>
   </tile>
-  <tile id="1">
-    <properties>
-      <property name="Name" value="starfield01_01" type="string" />
-    </properties>
-  </tile>
 </tileset>

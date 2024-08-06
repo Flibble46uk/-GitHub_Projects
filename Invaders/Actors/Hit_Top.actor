@@ -1,15 +1,15 @@
 {
   "ShootDirType": "actor_direction",
   "ClassType": "DefaultClass",
-  "DefaultLookDir": "left",
+  "DefaultLookDir": "up",
   "Recycle": "Default",
-  "MoveType": "cpu",
+  "MoveType": "none",
   "MaxEntities": 0,
   "NudgeX": 8,
   "NudgeY": 8,
   "Idles": {
     "UpLeft": "",
-    "Up": "",
+    "Up": "bullet_hit_top",
     "UpRight": "",
     "Left": "bullet_hit_top",
     "Right": "",
@@ -95,11 +95,11 @@
   ],
   "InvalidDirections": [
     true,
+    false,
     true,
     true,
     false,
-    false,
-    false,
+    true,
     true,
     true,
     true

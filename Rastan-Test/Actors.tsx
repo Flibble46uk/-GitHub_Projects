@@ -13,11 +13,7 @@
   </tile>
   <tile id="2" />
   <tile id="3" />
-  <tile id="4">
-    <properties>
-      <property name="Name" value="hero_legs_walk" type="string" />
-    </properties>
-  </tile>
+  <tile id="4" />
   <tile id="5" />
   <tile id="6" />
   <tile id="7" />
@@ -29,11 +25,7 @@
   <tile id="13" />
   <tile id="14" />
   <tile id="15" />
-  <tile id="16">
-    <properties>
-      <property name="Name" value="actor_stoneblock" type="string" />
-    </properties>
-  </tile>
+  <tile id="16" />
   <tile id="17" />
   <tile id="18" />
   <tile id="19" />
@@ -51,22 +43,7 @@
   <tile id="31" />
   <tile id="32">
     <properties>
-      <property name="Name" value="wizard_001" type="string" />
-    </properties>
-  </tile>
-  <tile id="33">
-    <properties>
-      <property name="Name" value="hero_torso" type="string" />
-    </properties>
-  </tile>
-  <tile id="34">
-    <properties>
-      <property name="Name" value="hero_torso_downsword" type="string" />
-    </properties>
-  </tile>
-  <tile id="35">
-    <properties>
-      <property name="Name" value="hero_legs_crouch" type="string" />
+      <property name="Name" value="01_bg_slice_01" type="string" />
     </properties>
   </tile>
 </tileset>

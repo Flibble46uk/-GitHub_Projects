@@ -1,6 +1,9 @@
 {
   "Frames": [
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -8,14 +11,6 @@
       "RenderType": "OnlySprite",
       "SpriteType": "Attached_16colors",
       "Path": "OutRun_Logo.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -32,
       "HandleY": 0,
       "XFlipped": false,
@@ -29,7 +24,7 @@
   "PreventCollision": true,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": null,
+  "LinkedMap": "",
   "OnFinish": null,
   "AutoFlip": false,
   "Streamed": true,

@@ -1,6 +1,5 @@
 {
   "ShootDirType": "actor_direction",
-  "ClassType": "DefaultClass",
   "DefaultLookDir": "left",
   "Recycle": "Default",
   "MoveType": "cpu_platform",
@@ -128,6 +127,7 @@
   "CollType_Up": "block",
   "CollType_Down": "block",
   "Player": null,
+  "BlockCollider": null,
   "CanRidePlatform": null,
   "Camera": null,
   "AutoScroll": null,
@@ -146,7 +146,7 @@
   "DivertOutOfScreenRight": "",
   "DivertOutOfScreenUp": "",
   "DivertOutOfScreenDown": "destroy_actor",
-  "DivertPlatformEdge": "00_enemy01_fall",
+  "DivertPlatformEdge": "00_enemy_fall",
   "DivertPlatformLand": "",
   "DivertTimer": "",
   "DivertTimerFrames": 1,

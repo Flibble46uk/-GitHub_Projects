@@ -1,14 +1,8 @@
 {
   "TargetPlatform": "amiga_aga",
-  "Talkpad": null,
-  "Talkpad_OnBottom": false,
   "StartupCodeBlock": "!start_up",
   "Recompile": true,
   "DebugMode": false,
-  "Fire1Jump": false,
-  "Fire2Jump": true,
-  "UpJump": false,
-  "JumpOnHold": false,
   "DataVersion": 3,
   "Commands": [
     {
@@ -28,8 +22,19 @@
       "MegaDrive_C": false,
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
+      "MegaDrive_X": false,
+      "MegaDrive_Y": false,
+      "MegaDrive_Z": false,
+      "MegaDrive_Mode": false,
+      "Neo_A": false,
+      "Neo_B": false,
+      "Neo_C": false,
+      "Neo_D": false,
+      "Neo_Start": false,
+      "Neo_Select": false,
       "OnPress": "!switch_layers",
-      "OnRelease": null
+      "OnRelease": null,
+      "buttonState": 0
     },
     {
       "Compiler": "amiga",
@@ -48,8 +53,19 @@
       "MegaDrive_C": false,
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
+      "MegaDrive_X": false,
+      "MegaDrive_Y": false,
+      "MegaDrive_Z": false,
+      "MegaDrive_Mode": false,
+      "Neo_A": false,
+      "Neo_B": false,
+      "Neo_C": false,
+      "Neo_D": false,
+      "Neo_Start": false,
+      "Neo_Select": false,
       "OnPress": "00_frame_test",
-      "OnRelease": null
+      "OnRelease": null,
+      "buttonState": 0
     }
   ],
   "AnimationMetaData": {},
@@ -59,25 +75,29 @@
       "LinkedMap": "",
       "RepeatDelay": 20,
       "IsMusic": false,
-      "Priority": 0
+      "Priority": 0,
+      "Channel": null
     },
     "hostage_rescue_11025": {
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": false,
-      "Priority": 0
+      "Priority": 0,
+      "Channel": null
     },
     "hostage_rescue_22050": {
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": false,
-      "Priority": 0
+      "Priority": 0,
+      "Channel": null
     },
     "hostage_rescue_44100": {
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": false,
-      "Priority": 0
+      "Priority": 0,
+      "Channel": null
     }
   },
   "MMLMetaData": {},
@@ -85,8 +105,11 @@
   "FontMetaData": {},
   "SplashScreen": null,
   "LogicSpeed": "PAL_50HZ",
-  "StartingPaletteLine": 0,
-  "PaletteLines": 1,
   "ReadCD32Buttons": false,
-  "MDRegion": "E"
+  "ReadMD6Buttons": false,
+  "MDRegion": "Universal",
+  "MDSoundDriver": "MDSDRV",
+  "SplashScreenFrames": 50,
+  "TestLevel": null,
+  "SafetyRails": true
 }

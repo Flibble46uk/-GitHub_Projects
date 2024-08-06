@@ -4,8 +4,8 @@
     <property name="divert_timer" value="" />
     <property name="divert_timerframes" type="int" value="0" />
   </properties>
-  <tileset firstgid="1" source="..\Actors.tsx" />
-  <tileset firstgid="257" source="..\Blocks.tsx" />
+  <tileset firstgid="1" source="..\..\Actors.tsx" />
+  <tileset firstgid="257" source="..\..\Blocks.tsx" />
   <tileset firstgid="513" source="Imported map.tileset.tsx" />
   <tileset firstgid="529" source="test_map_01_extra.tileset.tsx" />
   <layer id="1" name="map" width="16" height="16">
@@ -27,6 +27,11 @@
 513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
 513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513
 </data>
+    <properties>
+      <property name="amiga_aga" type="bool" value="true" />
+      <property name="foreground" type="bool" value="False" />
+      <property name="amiga_ocs" type="bool" value="true" />
+    </properties>
   </layer>
   <layer id="2" name="objects" width="16" height="16">
     <data encoding="csv">
@@ -47,6 +52,11 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
+    <properties>
+      <property name="amiga_aga" type="bool" value="true" />
+      <property name="foreground" type="bool" value="False" />
+      <property name="amiga_ocs" type="bool" value="true" />
+    </properties>
   </layer>
   <layer id="3" name="foreground" width="16" height="16">
     <data encoding="csv">
@@ -67,6 +77,11 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
+    <properties>
+      <property name="amiga_aga" type="bool" value="true" />
+      <property name="foreground" type="bool" value="True" />
+      <property name="amiga_ocs" type="bool" value="true" />
+    </properties>
   </layer>
   <objectgroup id="5" name="events" />
 </map>

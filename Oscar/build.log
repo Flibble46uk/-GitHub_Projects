@@ -47,55 +47,159 @@ Reduce width of Anims\Oscar_FaceRight_09x00.png by 10 pixels to 16 to improve bl
 Reduce width of Anims\Oscar_FaceRight_10x00.png by 11 pixels to 16 to improve blit performance by 200.00%
 Reduce width of Anims\StatusBar_00x00.png by 14 pixels to 192 to improve blit performance by 100.00%
 
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (level gfx bundle 1): 66456
+Music memory (): 0
+BP Buffer memory: 148800
+core sfx/gfx memory: 111240
+Parallax memory: 0
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 22432
+Map background memory: 2672
+EXE memory: 203164
+vm memory: 10978
+project memory: 10990
+
+Accounted memory chip: 326496
+Accounted memory other: 250236
+Accounted memory total: 576732
+
 === Misc ===
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
 Actor Count: 20
-Actor Data Size: 5920
+Actor Data Size: 3760
 Block Count: 2
 Block Data Size: 104
-Anim5 Count: 1
-Anim5 Data Size: 4
+Anim5 Count: 0
+Anim5 Data Size: 0
 Sound Count: 1
-Sound Data Size: 32
+Sound Data Size: 24
 Teleporter Count: 1
 Teleporter Data Size: 8
 Animations Count: 36
 Animations Data Size: 576
 AnimationFrame Count: 104
 AnimationFrame Data Size: 1664
-ImageFrames: 95
-ImageFrame Data Size: 6080
-
-=== Cartridge section PANL (size 194568) ===
-Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
-Panel debug Original size 4940 Crunched size 376
-Panel oscar_titlel Original size 42210 Crunched size 15770
-
-=== Cartridge section MPHD (size 5508) ===
-Header data for map oscar_lvl_01 Original size 9780 Crunched size 544
-
-=== Cartridge section MPDT (size 28848) ===
-Tile data for map oscar_lvl_01 Original size 26828 Crunched size 2878
-
-=== Cartridge section MPBG (size 1248) ===
+ImageFrames: 93
+ImageFrame Data Size: 4092
+Sprites: 1
+Sprites Data Size: 14
+Attack Data: 9
+Attack Data Size: 594
+Misc data size: 128
+Asset bundle 0 (Core project asset bundle) Original size 111240 Crunched size 29358
+Asset bundle 1 (oscar_lvl_01) Original size 66456 Crunched size 29746
 Background for map oscar_lvl_01 Original size 2672 Crunched size 118
-
-=== Cartridge section MPPX (size 68) ===
-Parallax for map oscar_lvl_01 Original size 0 Crunched size 0
-
-=== Cartridge section ASBD (size 592268) ===
-Asset bundle 0 (Core project asset bundle) Original size 111350 Crunched size 29418
-Asset bundle 1 (oscar_lvl_01) Original size 75840 Crunched size 29796
-
-=== Cartridge section PROJ (size 11948) ===
-Project Header Original size 4040 Crunched size 1188
-
-=== Cartridge section PDAT (size 31628) ===
-Project Data Original size 14412 Crunched size 3156
-
-=== Cartridge section VMCB (size 27448) ===
-Project virtual machine (codeblocks) Original size 10300 Crunched size 2738
-
-=== Cartridge section VMRD (size 108) ===
+Tile data for map oscar_lvl_01 (mem restrictions:None) Original size 22432 Crunched size 2682
+Header data for map oscar_lvl_01 Original size 7996 Crunched size 374
+Project Data Original size 10990 Crunched size 3090
+Project Header Original size 4032 Crunched size 1186
+Panel scorpion_eng_splashscreen Original size 35934 Crunched size 3268
+Panel debug Original size 3684 Crunched size 398
+Panel oscar_titlel Original size 41054 Crunched size 15744
+Project virtual machine (codeblocks) Original size 10978 Crunched size 3234
 Project virtual machine redirects Original size 4 Crunched size 4
+
+=== Possibly unused animations ===
+lvl01_enemy_03_l
+lvl01_enemy_03_r
+lvl01_grenade_01_r
+lvl01_grenade_01_l
+
+=== Possibly unused Actors ===
+dummy_actor
+level01_boss
+level01_bullet_01
+level01_enemy_01
+level01_enemy_02
+level01_enemy_03_spawner
+level01_grenade_01
+level01_miniboss
+level01_turret_01
+level01_turret_02
+oscar
+oscar_grenade_test
+oscar_gunhit_act
+
+=== Codeblocks by compiled size ===
+00_level_events: 962
+load_level: 920
+set_yresolution: 448
+50_lvl1_bighead_hit: 442
+00_oscar_grenade: 412
+do_teleport: 392
+flipscreen_smooth: 346 (Unused?)
+flipxymove: 306 (Unused?)
+00_startup: 286
+00_oscar_muzzle: 258
+pause: 252 (Unused?)
+00_oscar_fire: 214
+pre_startup: 194
+snap_to_screen: 190 (Unused?)
+flipymove: 174 (Unused?)
+02_grenade_01: 174
+flipxmove: 158 (Unused?)
+50_lvl1_miniboss: 156
+AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 154
+02_turret_shoot: 148
+load_panel: 146
+pre_quit: 146
+02_kill_enemy: 130
+AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_None_destroy_actor: 126
+destroy_all_blocks: 124 (Unused?)
+50_lvl1_bighead_spawn: 124
+pre_load_level: 118
+unload_level: 114
+load_panel_bottom: 96 (Unused?)
+load_panel_top: 96
+waitforfireup: 94
+unload_panel: 92
+wrap_screen_bottom: 92 (Unused?)
+wrap_screen_right: 92 (Unused?)
+waitforfiredown: 90
+AUTOGEN_OUTOFSCREEN_00_prevent_leave_left_00_prevent_leave_right_None_None: 90
+wrap_screen_left: 88 (Unused?)
+wrap_screen_top: 88 (Unused?)
+flipscreen: 86 (Unused?)
+pre_anim5: 86 (Unused?)
+waitforfirehit: 86
+fadeout: 84
+00_spawn_status: 82
+waitforframes: 78
+02_enemy_shoot: 76
+00_oscar_control: 70
+quit: 66 (Unused?)
+destroy_all_actors: 62 (Unused?)
+jump_actor: 62 (Unused?)
+load_music: 62 (Unused?)
+unload_panel_bottom: 62
+unload_panel_top: 62
+fadein: 58
+load_panel_finish: 56
+AUTOGEN_OUTOFSCREEN_destroy_actor_None_None_None: 56
+destroy_actor: 54
+regenerate_screen: 52
+return: 52 (Unused?)
+00_move_left: 52 (Unused?)
+destroy_block: 48 (Unused?)
+00_prevent_leave_right: 44
+regenerate_screen_wait: 42
+00_oscar_laser: 42
+00_count_grenade: 38
+00_count_laser: 38
+00_prevent_leave_left: 36
+vm_registers: 26 (Unused?)
+vm_constants: 26 (Unused?)
+debug_breakpoint: 26 (Unused?)
+debug_dump: 26 (Unused?)
+vm_constants_controlbits: 26 (Unused?)
+vm_constants_notes: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)
+vm_constants_platform: 26 (Unused?)
+startup: 26 (Unused?)

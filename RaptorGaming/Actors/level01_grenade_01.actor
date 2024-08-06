@@ -8,14 +8,14 @@
   "NudgeX": 8,
   "NudgeY": 8,
   "Idles": {
-    "UpLeft": null,
+    "UpLeft": "",
     "Up": "lvl01_bullet_01",
-    "UpRight": null,
+    "UpRight": "",
     "Left": "lvl01_bullet_01",
     "Right": "lvl01_bullet_01",
-    "DownLeft": null,
+    "DownLeft": "",
     "Down": "lvl01_bullet_01",
-    "DownRight": null
+    "DownRight": ""
   },
   "Moves": {
     "UpLeft": "lvl01_bullet_01",
@@ -28,14 +28,14 @@
     "DownRight": "lvl01_bullet_01"
   },
   "Attacks": {
-    "UpLeft": null,
-    "Up": null,
-    "UpRight": null,
-    "Left": null,
-    "Right": null,
-    "DownLeft": null,
-    "Down": null,
-    "DownRight": null
+    "UpLeft": "",
+    "Up": "",
+    "UpRight": "",
+    "Left": "",
+    "Right": "",
+    "DownLeft": "",
+    "Down": "",
+    "DownRight": ""
   },
   "ProjectileOffsets": [
     {
@@ -93,6 +93,17 @@
       "sqrMagnitude": 0
     }
   ],
+  "InvalidDirections": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
   "CollBox": {
     "X": -2,
     "Y": -2,
@@ -116,21 +127,24 @@
   "CollType_Right": "block",
   "CollType_Up": "block",
   "CollType_Down": "destroy",
+  "Player": null,
+  "CanRidePlatform": null,
+  "Camera": null,
+  "AutoScroll": null,
   "Flags": 0,
   "AttackProjectile": null,
-  "AutoFire": false,
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,
-  "DivertAttack": null,
-  "DivertSpawn": null,
-  "DivertPlayerCollision": null,
-  "DivertPlayerHit": null,
-  "DivertHitAgainstPlayer": null,
-  "DivertProjectileCollision": null,
+  "DivertAttack": "",
+  "DivertSpawn": "",
+  "DivertPlayerCollision": "",
+  "DivertPlayerHit": "",
+  "DivertHitAgainstPlayer": "",
+  "DivertProjectileCollision": "",
   "DivertOutOfScreenLeft": "destroy_actor",
   "DivertOutOfScreenRight": "destroy_actor",
-  "DivertOutOfScreenUp": null,
+  "DivertOutOfScreenUp": "",
   "DivertOutOfScreenDown": "destroy_actor",
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
@@ -145,7 +159,8 @@
     "0"
   ],
   "ControlPort": 1,
-  "JumpCancel": 2.0,
-  "TileID": 13,
-  "SuggestedRecycle": "Trash"
+  "DataVersion": 3,
+  "AutoSpawn": null,
+  "AutoNavigate": false,
+  "TileID": 13
 }

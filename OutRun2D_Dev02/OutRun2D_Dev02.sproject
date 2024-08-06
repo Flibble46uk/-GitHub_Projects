@@ -1,72 +1,10 @@
 {
   "TargetPlatform": "amiga_aga_cd32",
-  "Talkpad": null,
-  "Talkpad_OnBottom": false,
   "StartupCodeBlock": "!startup",
   "Recompile": true,
   "DebugMode": false,
   "DataVersion": 3,
   "Commands": [
-    {
-      "Compiler": "amiga",
-      "Key": "Alpha1",
-      "JoystickPort": -1,
-      "JoystickX": 0,
-      "JoystickY": 0,
-      "JoystickFire1": false,
-      "JoystickFire2": false,
-      "CD32Play": false,
-      "CD32Reverse": false,
-      "CD32Forward": false,
-      "CD32Green": false,
-      "CD32Yellow": false,
-      "MegaDrive_B": false,
-      "MegaDrive_C": false,
-      "MegaDrive_A": false,
-      "MegaDrive_Start": false,
-      "OnPress": "00_colour_beetle",
-      "OnRelease": null
-    },
-    {
-      "Compiler": "amiga",
-      "Key": "Alpha2",
-      "JoystickPort": -1,
-      "JoystickX": 0,
-      "JoystickY": 0,
-      "JoystickFire1": false,
-      "JoystickFire2": false,
-      "CD32Play": false,
-      "CD32Reverse": false,
-      "CD32Forward": false,
-      "CD32Green": false,
-      "CD32Yellow": false,
-      "MegaDrive_B": false,
-      "MegaDrive_C": false,
-      "MegaDrive_A": false,
-      "MegaDrive_Start": false,
-      "OnPress": "00_colour_semitruck",
-      "OnRelease": null
-    },
-    {
-      "Compiler": "amiga",
-      "Key": "Alpha3",
-      "JoystickPort": -1,
-      "JoystickX": 0,
-      "JoystickY": 0,
-      "JoystickFire1": false,
-      "JoystickFire2": false,
-      "CD32Play": false,
-      "CD32Reverse": false,
-      "CD32Forward": false,
-      "CD32Green": false,
-      "CD32Yellow": false,
-      "MegaDrive_B": false,
-      "MegaDrive_C": false,
-      "MegaDrive_A": false,
-      "MegaDrive_Start": false,
-      "OnPress": "00_colour_porsche",
-      "OnRelease": null
-    },
     {
       "Compiler": "amiga",
       "Key": "Space",
@@ -84,8 +22,13 @@
       "MegaDrive_C": false,
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
+      "MegaDrive_X": false,
+      "MegaDrive_Y": false,
+      "MegaDrive_Z": false,
+      "MegaDrive_Mode": false,
       "OnPress": "00_change_gear",
-      "OnRelease": null
+      "OnRelease": null,
+      "buttonState": 1
     }
   ],
   "AnimationMetaData": {},
@@ -95,49 +38,57 @@
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": true,
-      "Priority": 0
+      "Priority": 0,
+      "Channel": null
     },
     "outrun": {
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": true,
-      "Priority": 0
+      "Priority": 0,
+      "Channel": null
     },
     "outrun1": {
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": true,
-      "Priority": 0
+      "Priority": 0,
+      "Channel": null
     },
     "outrun2": {
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": true,
-      "Priority": 0
+      "Priority": 0,
+      "Channel": null
     },
     "outrun3": {
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": true,
-      "Priority": 0
+      "Priority": 0,
+      "Channel": null
     },
     "wheelspin_skid": {
       "LinkedMap": "",
       "RepeatDelay": 0,
       "IsMusic": false,
-      "Priority": 0
+      "Priority": 0,
+      "Channel": null
     },
     "01_inferno [cd audio]": {
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": true,
-      "Priority": 0
+      "Priority": 0,
+      "Channel": null
     },
     "outrun_instant_oc_remix": {
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": true,
-      "Priority": 0
+      "Priority": 0,
+      "Channel": null
     }
   },
   "MMLMetaData": {},
@@ -148,6 +99,9 @@
   "StartingPaletteLine": 0,
   "PaletteLines": 1,
   "ReadCD32Buttons": false,
-  "MDRegion": "E",
-  "MDSoundDriver": "MDSDRV"
+  "ReadMD6Buttons": false,
+  "MDRegion": "Universal",
+  "MDSoundDriver": "MDSDRV",
+  "SplashScreenFrames": 50,
+  "TestLevel": null
 }

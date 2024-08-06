@@ -48,6 +48,7 @@
     <properties>
       <property name="amiga_aga_cd32" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="neogeo" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="12" name="Shadows" width="240" height="32">
@@ -88,6 +89,7 @@
     <properties>
       <property name="amiga_aga_cd32" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="neogeo" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="7" name="Road" width="240" height="32">
@@ -128,6 +130,7 @@
     <properties>
       <property name="amiga_aga_cd32" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="neogeo" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="11" name="Dust" width="240" height="32">
@@ -168,6 +171,7 @@
     <properties>
       <property name="amiga_aga_cd32" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="neogeo" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="10" name="Horizon" width="240" height="32">
@@ -208,6 +212,7 @@
     <properties>
       <property name="amiga_aga_cd32" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="neogeo" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="8" name="Cars" width="240" height="32">
@@ -248,6 +253,7 @@
     <properties>
       <property name="amiga_aga_cd32" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="neogeo" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="9" name="Aircraft" width="240" height="32">
@@ -288,6 +294,7 @@
     <properties>
       <property name="amiga_aga_cd32" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="neogeo" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="2" name="blocks" width="240" height="32">
@@ -328,6 +335,7 @@
     <properties>
       <property name="amiga_aga_cd32" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="neogeo" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="3" name="actors" width="240" height="32">
@@ -368,6 +376,7 @@
     <properties>
       <property name="amiga_aga_cd32" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="neogeo" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="4" name="foreground" width="240" height="32">
@@ -408,6 +417,7 @@
     <properties>
       <property name="amiga_aga_cd32" type="bool" value="true" />
       <property name="foreground" type="bool" value="true" />
+      <property name="neogeo" type="bool" value="true" />
     </properties>
   </layer>
   <objectgroup id="6" name="events" />

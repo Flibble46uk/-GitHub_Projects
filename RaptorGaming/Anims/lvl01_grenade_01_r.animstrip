@@ -1,105 +1,127 @@
 {
   "Frames": [
     {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
       "Path": "LVL01_Grenade_01_Right_00x00.png",
-      "Duration": 5,
       "HandleX": -8,
       "HandleY": -8,
       "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "LVL01_Grenade_01_Right_00x00",
+      "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
       "Path": "LVL01_Grenade_01_Right_01x00.png",
-      "Duration": 5,
       "HandleX": -8,
       "HandleY": -8,
       "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "LVL01_Grenade_01_Right_01x00",
+      "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
       "Path": "LVL01_Grenade_01_Right_02x00.png",
-      "Duration": 5,
       "HandleX": -8,
       "HandleY": -8,
       "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "LVL01_Grenade_01_Right_02x00",
+      "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
       "Path": "LVL01_Grenade_01_Right_03x00.png",
-      "Duration": 5,
       "HandleX": -8,
       "HandleY": -8,
       "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "LVL01_Grenade_01_Right_03x00",
+      "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
       "Path": "LVL01_Grenade_01_Right_04x00.png",
-      "Duration": 5,
       "HandleX": -8,
       "HandleY": -8,
       "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "LVL01_Grenade_01_Right_04x00",
+      "IsBlank": false
     },
     {
-      "Path": "LVL01_Grenade_01_Right_05x00.png",
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "LVL01_Grenade_01_Right_05x00.png",
       "HandleX": -8,
       "HandleY": -8,
       "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "LVL01_Grenade_01_Right_05x00",
+      "IsBlank": false
     }
   ],
   "PreventMovement": false,
   "PreventCollision": false,
   "HideChildren": false,
-  "AutoSprite": false,
-  "OnlySprite": false,
-  "SpriteType": "Attached_16colors",
-  "Multiplexes": 0,
   "LoopFrame": 0,
-  "LinkedMap": null,
+  "LinkedMap": "",
   "OnFinish": null,
-  "AutoFlip": true
+  "AutoFlip": true,
+  "Streamed": true,
+  "PatternBuffer": 0
 }

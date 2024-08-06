@@ -1,0 +1,53 @@
+=== Image optimisations ===
+
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (Panel: scorpion_eng_splashscreen): 37090
+Music memory: 0
+BP Buffer memory: 106020
+core sfx/gfx memory: 14240
+Parallax memory: 0
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 9540
+Map background memory: 2672
+EXE memory: 210088
+vm memory: 6490
+project memory: 4404
+
+Accounted memory chip: 157350
+Accounted memory other: 233194
+Accounted memory total: 390544
+
+=== Misc ===
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 24
+Actor Count: 8
+Actor Data Size: 2368
+Block Count: 1
+Block Data Size: 52
+Anim5 Count: 1
+Anim5 Data Size: 1036
+Sound Count: 1
+Sound Data Size: 32
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 8
+Animations Data Size: 128
+AnimationFrame Count: 9
+AnimationFrame Data Size: 144
+ImageFrames: 9
+ImageFrame Data Size: 612
+Asset bundle 0 (Core project asset bundle) Original size 14240 Crunched size 5580
+Asset bundle 1 (imported map) Original size 160 Crunched size 160
+Background for map imported map Original size 2672 Crunched size 92
+Tile data for map imported map (mem restrictions:No_Blocks) Original size 9540 Crunched size 294
+Header data for map imported map Original size 8756 Crunched size 372
+Project Data Original size 4404 Crunched size 512
+Project Header Original size 4040 Crunched size 1190
+Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
+Project virtual machine (codeblocks) Original size 6490 Crunched size 1778
+Project virtual machine redirects Original size 4 Crunched size 4

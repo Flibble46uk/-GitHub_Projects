@@ -23,12 +23,22 @@
   </tile>
   <tile id="4">
     <properties>
-      <property name="Name" value="block_push_l" type="string" />
+      <property name="Name" value="block_push_ul" type="string" />
     </properties>
   </tile>
   <tile id="5">
     <properties>
-      <property name="Name" value="block_push_r" type="string" />
+      <property name="Name" value="block_push_ur" type="string" />
+    </properties>
+  </tile>
+  <tile id="6">
+    <properties>
+      <property name="Name" value="block_push_dl" type="string" />
+    </properties>
+  </tile>
+  <tile id="7">
+    <properties>
+      <property name="Name" value="block_push_dr" type="string" />
     </properties>
   </tile>
 </tileset>

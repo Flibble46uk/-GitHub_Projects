@@ -1,6 +1,9 @@
 {
   "Frames": [
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 10,
       "Background": false,
       "Multiplexes": 0,
@@ -8,14 +11,6 @@
       "RenderType": "OnlySprite",
       "SpriteType": "Attached_16colors",
       "Path": "Music_Select_1_00x00.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": 0,
       "HandleY": 0,
       "XFlipped": false,
@@ -25,6 +20,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 10,
       "Background": false,
       "Multiplexes": 0,
@@ -32,14 +30,6 @@
       "RenderType": "OnlySprite",
       "SpriteType": "Attached_16colors",
       "Path": "Music_Select_1_00x01.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": 0,
       "HandleY": 0,
       "XFlipped": false,
@@ -53,7 +43,7 @@
   "PreventCollision": true,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": null,
+  "LinkedMap": "",
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,

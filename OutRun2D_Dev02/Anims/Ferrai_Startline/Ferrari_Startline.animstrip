@@ -1,6 +1,9 @@
 {
   "Frames": [
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -8,14 +11,6 @@
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "Ferrari_start_00x05.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": 29,
       "HandleY": 18,
       "XFlipped": false,
@@ -25,6 +20,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -32,14 +30,6 @@
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "Ferrari_start_00x05.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": 28,
       "HandleY": 18,
       "XFlipped": false,
@@ -49,6 +39,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -56,14 +49,6 @@
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "Ferrari_start_00x05.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": 26,
       "HandleY": 18,
       "XFlipped": false,
@@ -73,6 +58,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -80,14 +68,6 @@
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "Ferrari_start_00x05.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": 23,
       "HandleY": 18,
       "XFlipped": false,
@@ -97,6 +77,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -104,14 +87,6 @@
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "Ferrari_start_00x05.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": 19,
       "HandleY": 18,
       "XFlipped": false,
@@ -121,6 +96,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -128,14 +106,6 @@
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "Ferrari_start_00x04.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": 9,
       "HandleY": 12,
       "XFlipped": false,
@@ -145,6 +115,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -152,14 +125,6 @@
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "Ferrari_start_00x03.png",
-      "OnFrame": "",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": 0,
       "HandleY": 5,
       "XFlipped": false,
@@ -169,6 +134,35 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Codeblock": "00_wheel_spin",
+            "Sound": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
+          }
+        ]
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -176,14 +170,6 @@
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "Ferrari_start_00x02.png",
-      "OnFrame": "00_wheel_spin",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -4,
       "HandleY": 0,
       "XFlipped": false,
@@ -193,6 +179,35 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Codeblock": "00_wheel_spin",
+            "Sound": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
+          }
+        ]
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -200,14 +215,6 @@
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "Ferrari_start_00x01.png",
-      "OnFrame": "00_wheel_spin",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -7,
       "HandleY": -3,
       "XFlipped": false,
@@ -217,6 +224,35 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Codeblock": "00_wheel_spin",
+            "Sound": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
+          }
+        ]
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -224,14 +260,6 @@
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "Ferrari_start_00x00.png",
-      "OnFrame": "00_wheel_spin",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -11,
       "HandleY": -6,
       "XFlipped": false,
@@ -241,6 +269,35 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Codeblock": "00_wheel_spin",
+            "Sound": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
+          }
+        ]
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -248,14 +305,6 @@
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "Ferrari_start_00x00.png",
-      "OnFrame": "00_wheel_spin",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -10,
       "HandleY": -7,
       "XFlipped": false,
@@ -265,6 +314,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -272,14 +324,6 @@
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "Ferrari_start_00x00.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -10,
       "HandleY": -9,
       "XFlipped": false,
@@ -289,6 +333,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -296,14 +343,6 @@
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "Ferrari_start_00x01.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -7,
       "HandleY": -9,
       "XFlipped": false,
@@ -313,6 +352,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -320,14 +362,6 @@
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "Ferrari_start_00x01.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -7,
       "HandleY": -13,
       "XFlipped": false,
@@ -337,6 +371,35 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Codeblock": "00_start_player_idle",
+            "Sound": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
+          }
+        ]
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -344,14 +407,6 @@
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "Ferrari_start_00x01.png",
-      "OnFrame": "00_start_player_idle",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -7,
       "HandleY": -14,
       "XFlipped": false,
@@ -365,7 +420,7 @@
   "PreventCollision": true,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": null,
+  "LinkedMap": "",
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,

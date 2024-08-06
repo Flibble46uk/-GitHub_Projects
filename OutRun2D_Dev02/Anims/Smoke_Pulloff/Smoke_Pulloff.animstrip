@@ -1,6 +1,9 @@
 {
   "Frames": [
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -8,14 +11,6 @@
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "Smuoke_pulloff_01.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -8,
       "HandleY": 10,
       "XFlipped": false,
@@ -25,6 +20,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -32,14 +30,6 @@
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "Smuoke_pulloff_02.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -8,
       "HandleY": 10,
       "XFlipped": false,
@@ -49,6 +39,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -56,14 +49,6 @@
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "Smuoke_pulloff_03.png",
-      "OnFrame": "",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -8,
       "HandleY": 12,
       "XFlipped": false,
@@ -73,6 +58,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -80,14 +68,6 @@
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "Smuoke_pulloff_04.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -8,
       "HandleY": 13,
       "XFlipped": false,
@@ -97,6 +77,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -104,14 +87,6 @@
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "Smuoke_pulloff_05.png",
-      "OnFrame": "",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -8,
       "HandleY": 14,
       "XFlipped": false,
@@ -121,6 +96,35 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Codeblock": "destroy_actor",
+            "Sound": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
+          }
+        ]
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -128,14 +132,6 @@
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": null,
-      "OnFrame": "destroy_actor",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": 0,
       "HandleY": 0,
       "XFlipped": false,
@@ -149,7 +145,7 @@
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": null,
+  "LinkedMap": "",
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,
