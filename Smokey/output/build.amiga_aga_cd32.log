@@ -1,4 +1,4 @@
-Compiled on 13 August 2024 08:01:52
+Compiled on 13 August 2024 08:12:51
 Version string: SE2024.2.240813.10.02.EX
 
 === Misc ===
@@ -27,7 +27,7 @@ Attack Data Size: 88
 Misc data size: 14
 === Image optimisations ===
 Panel scorpion_eng_splashscreen Original size 35168 Crunched size 3258
-Project virtual machine (codeblocks) Original size 8704 Crunched size 2638
+Project virtual machine (codeblocks) Original size 8718 Crunched size 2650
 Header data for map intrro Original size 8000 Crunched size 264
 Tile data for map intrro (mem restrictions:No_Blocks) Original size 4100 Crunched size 388
 Background for map intrro Original size 1396 Crunched size 134
@@ -55,21 +55,21 @@ Map header cache memory: 0
 Map data memory: 4100
 Map background memory: 1396
 EXE memory: 194840
-vm memory: 8704
+vm memory: 8718
 project memory: 1838
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 492915
-Accounted memory other: 330182
-Accounted memory total: 823097
+Accounted memory other: 330196
+Accounted memory total: 823111
 
 === Codeblocks by compiled size ===
 load_level: 568
 pre_startup: 432
 do_teleport: 424
-00_intro: 382
+00_intro: 396
 flipscreen_smooth: 310 (Unused?)
 load_next_level: 300 (Unused?)
 flipxymove: 278 (Unused?)

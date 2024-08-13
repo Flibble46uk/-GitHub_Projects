@@ -6065,84 +6065,90 @@
       "CodeBlock": "00_intro",
       "CodeBlockLine": 18,
       "MemoryOffset": 7922,
-      "Description": "If camera_x == 216 ELSE GOTO 00008000"
+      "Description": "If camera_x == 128 ELSE GOTO 00007968"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 19,
       "MemoryOffset": 7936,
-      "Description": "Raw expression 'cop_bronze'"
-    },
-    {
-      "CodeBlock": "00_intro",
-      "CodeBlockLine": 19,
-      "MemoryOffset": 7942,
-      "Description": "Raw expression 'camera_x'"
-    },
-    {
-      "CodeBlock": "00_intro",
-      "CodeBlockLine": 19,
-      "MemoryOffset": 7948,
-      "Description": "Raw expression '256-42'"
-    },
-    {
-      "CodeBlock": "00_intro",
-      "CodeBlockLine": 19,
-      "MemoryOffset": 7960,
-      "Description": "Core operation'PixelSpawn'"
-    },
-    {
-      "CodeBlock": "00_intro",
-      "CodeBlockLine": 20,
-      "MemoryOffset": 7968,
       "Description": "Set 'soundvol' to '256'"
     },
     {
       "CodeBlock": "00_intro",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 7974,
+      "CodeBlockLine": 20,
+      "MemoryOffset": 7942,
       "Description": "Raw expression 'buford'"
     },
     {
       "CodeBlock": "00_intro",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 7980,
+      "CodeBlockLine": 20,
+      "MemoryOffset": 7948,
       "Description": "Raw expression 'Note_F3'"
     },
     {
       "CodeBlock": "00_intro",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 7986,
+      "CodeBlockLine": 20,
+      "MemoryOffset": 7954,
       "Description": "Raw expression ''"
     },
     {
       "CodeBlock": "00_intro",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 7992,
+      "CodeBlockLine": 20,
+      "MemoryOffset": 7960,
       "Description": "Core operation'Sound'"
     },
     {
       "CodeBlock": "00_intro",
-      "CodeBlockLine": 24,
-      "MemoryOffset": 8000,
-      "Description": "If camera_x >= 512 ELSE GOTO 00008038"
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7968,
+      "Description": "If camera_x == 216 ELSE GOTO 00008014"
     },
     {
       "CodeBlock": "00_intro",
-      "CodeBlockLine": 25,
+      "CodeBlockLine": 24,
+      "MemoryOffset": 7982,
+      "Description": "Raw expression 'cop_bronze'"
+    },
+    {
+      "CodeBlock": "00_intro",
+      "CodeBlockLine": 24,
+      "MemoryOffset": 7988,
+      "Description": "Raw expression 'camera_x'"
+    },
+    {
+      "CodeBlock": "00_intro",
+      "CodeBlockLine": 24,
+      "MemoryOffset": 7994,
+      "Description": "Raw expression '256-42'"
+    },
+    {
+      "CodeBlock": "00_intro",
+      "CodeBlockLine": 24,
+      "MemoryOffset": 8006,
+      "Description": "Core operation'PixelSpawn'"
+    },
+    {
+      "CodeBlock": "00_intro",
+      "CodeBlockLine": 27,
       "MemoryOffset": 8014,
+      "Description": "If camera_x >= 512 ELSE GOTO 00008052"
+    },
+    {
+      "CodeBlock": "00_intro",
+      "CodeBlockLine": 28,
+      "MemoryOffset": 8028,
       "Description": "Set 'camera_x' to '0'"
     },
     {
       "CodeBlock": "00_intro",
-      "CodeBlockLine": 25,
-      "MemoryOffset": 8020,
+      "CodeBlockLine": 28,
+      "MemoryOffset": 8034,
       "Description": "Set 'camera_y' to '0'"
     },
     {
       "CodeBlock": "00_intro",
-      "CodeBlockLine": 25,
-      "MemoryOffset": 8026,
+      "CodeBlockLine": 28,
+      "MemoryOffset": 8040,
       "Description": "Set 'camera_follow' to 'camera_follow & 32752'"
     }
   ],
