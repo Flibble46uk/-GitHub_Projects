@@ -1,4 +1,4 @@
-Compiled on 14 August 2024 06:08:20
+Compiled on 14 August 2024 06:34:43
 Version string: SE2024.2.240813.10.02.EX
 
 === Misc ===
@@ -31,7 +31,7 @@ Project virtual machine (codeblocks) Original size 8802 Crunched size 8802
 Header data for map intrro Original size 8000 Crunched size 8000
 Tile data for map intrro (mem restrictions:No_Blocks) Original size 4100 Crunched size 4100
 Background for map intrro Original size 1396 Crunched size 1396
-Asset bundle 0 (Core project asset bundle) Original size 193960 Crunched size 193960
+Asset bundle 0 (Core project asset bundle) Original size 193192 Crunched size 193192
 Asset bundle 1 (intrro) Original size 8868 Crunched size 8868
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4036 Crunched size 4036
@@ -45,7 +45,7 @@ For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 35168
 Music memory (): 0
 BP Buffer memory: 132000
-core sfx/gfx memory: 193960
+core sfx/gfx memory: 193192
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -61,9 +61,9 @@ memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 460456
+Accounted memory chip: 459688
 Accounted memory other: 330648
-Accounted memory total: 791104
+Accounted memory total: 790336
 
 === Possibly unused sound effects ===
 bandit_intro_l___copy
