@@ -85,7 +85,8 @@
     },
     {
       "Values": {
-        "ScreenTop": "0"
+        "ScreenTop": "0",
+        "AGASScan2": "True"
       },
       "DataVersion": 6,
       "Category": "Display",

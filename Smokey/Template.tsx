@@ -11,4 +11,9 @@
       <property name="Name" value="cop_bronze" type="string" />
     </properties>
   </tile>
+  <tile id="2">
+    <properties>
+      <property name="Name" value="mountainintro" type="string" />
+    </properties>
+  </tile>
 </tileset>

@@ -5759,127 +5759,127 @@
       "CodeBlock": "!startup",
       "CodeBlockLine": 2,
       "MemoryOffset": 7404,
+      "Description": "Set 'specialscroll' to 'True'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 7410,
       "Description": "GOSUB TO 'REGENERATE_SCREEN'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7424,
+      "MemoryOffset": 7430,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7432,
-      "Description": "Raw expression 'intrro'"
-    },
-    {
-      "CodeBlock": "!startup",
-      "CodeBlockLine": 3,
       "MemoryOffset": 7438,
-      "Description": "Core operation'PushToStack'"
+      "Description": "Raw expression 'intrro'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7446,
-      "Description": "Raw expression 'intrro'"
+      "MemoryOffset": 7444,
+      "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 3,
       "MemoryOffset": 7452,
+      "Description": "Raw expression 'intrro'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 7458,
       "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7460,
+      "MemoryOffset": 7466,
       "Description": "GOSUB TO 'PRE_LOAD_LEVEL'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7480,
+      "MemoryOffset": 7486,
       "Description": "Raw expression '15'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7486,
+      "MemoryOffset": 7492,
       "Description": "Core operation'PopFromStack'"
-    },
-    {
-      "CodeBlock": "!startup",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 7494,
-      "Description": "Raw expression '14'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 3,
       "MemoryOffset": 7500,
+      "Description": "Raw expression '14'"
+    },
+    {
+      "CodeBlock": "!startup",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 7506,
       "Description": "Core operation'PopFromStack'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7508,
+      "MemoryOffset": 7514,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7528,
+      "MemoryOffset": 7534,
       "Description": "GOSUB TO 'FADEIN'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 4,
-      "MemoryOffset": 7548,
+      "MemoryOffset": 7554,
       "Description": "Set 'camera_x' to '0'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 4,
-      "MemoryOffset": 7554,
+      "MemoryOffset": 7560,
       "Description": "Set 'camera_y' to '0'"
     },
     {
       "CodeBlock": "!startup",
       "CodeBlockLine": 4,
-      "MemoryOffset": 7560,
+      "MemoryOffset": 7566,
       "Description": "Set 'camera_follow' to 'camera_follow & 32752'"
     },
     {
       "CodeBlock": "00_destroy_car",
       "CodeBlockLine": 0,
-      "MemoryOffset": 7598,
+      "MemoryOffset": 7604,
       "Description": "00_DESTROY_CAR"
     },
     {
       "CodeBlock": "00_destroy_car",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7598,
-      "Description": "If actor_x >= camera_x+256+60 ELSE GOTO 00007656"
-    },
-    {
-      "CodeBlock": "00_destroy_car",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 7624,
-      "Description": "Raw expression '0'"
+      "MemoryOffset": 7604,
+      "Description": "If actor_x >= camera_x+256+60 ELSE GOTO 00007662"
     },
     {
       "CodeBlock": "00_destroy_car",
       "CodeBlockLine": 2,
       "MemoryOffset": 7630,
-      "Description": "Raw expression 'none'"
+      "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "00_destroy_car",
       "CodeBlockLine": 2,
       "MemoryOffset": 7636,
-      "Description": "Raw expression 'True'"
+      "Description": "Raw expression 'none'"
     },
     {
       "CodeBlock": "00_destroy_car",
@@ -5891,264 +5891,342 @@
       "CodeBlock": "00_destroy_car",
       "CodeBlockLine": 2,
       "MemoryOffset": 7648,
+      "Description": "Raw expression 'True'"
+    },
+    {
+      "CodeBlock": "00_destroy_car",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 7654,
       "Description": "Core operation'ActorSetType'"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 0,
-      "MemoryOffset": 7682,
+      "MemoryOffset": 7688,
       "Description": "00_INTRO"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7682,
-      "Description": "If intro == 0 ELSE GOTO 00007818"
-    },
-    {
-      "CodeBlock": "00_intro",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 7694,
-      "Description": "Raw expression 'dualwheels'"
+      "MemoryOffset": 7688,
+      "Description": "If intro == 0 ELSE GOTO 00007850"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 3,
       "MemoryOffset": 7700,
+      "Description": "Raw expression 'dualwheels'"
+    },
+    {
+      "CodeBlock": "00_intro",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 7706,
       "Description": "Raw expression '256+28'"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7712,
+      "MemoryOffset": 7718,
       "Description": "Raw expression '256-46'"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7724,
+      "MemoryOffset": 7730,
       "Description": "Core operation'PixelSpawn'"
-    },
-    {
-      "CodeBlock": "00_intro",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 7732,
-      "Description": "Raw expression 'dualwheels'"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 4,
       "MemoryOffset": 7738,
+      "Description": "Raw expression 'dualwheels'"
+    },
+    {
+      "CodeBlock": "00_intro",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7744,
       "Description": "Raw expression '256+167'"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 4,
-      "MemoryOffset": 7750,
+      "MemoryOffset": 7756,
       "Description": "Raw expression '256-46'"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 4,
-      "MemoryOffset": 7762,
+      "MemoryOffset": 7768,
       "Description": "Core operation'PixelSpawn'"
-    },
-    {
-      "CodeBlock": "00_intro",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 7770,
-      "Description": "Raw expression 'singlewheel'"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 5,
       "MemoryOffset": 7776,
+      "Description": "Raw expression 'singlewheel'"
+    },
+    {
+      "CodeBlock": "00_intro",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 7782,
       "Description": "Raw expression '256+224+14'"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 5,
-      "MemoryOffset": 7792,
+      "MemoryOffset": 7798,
       "Description": "Raw expression '256-46'"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 5,
-      "MemoryOffset": 7804,
+      "MemoryOffset": 7810,
+      "Description": "Core operation'PixelSpawn'"
+    },
+    {
+      "CodeBlock": "00_intro",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 7818,
+      "Description": "Raw expression 'mountainintro'"
+    },
+    {
+      "CodeBlock": "00_intro",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 7824,
+      "Description": "Raw expression 'camera_x'"
+    },
+    {
+      "CodeBlock": "00_intro",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 7830,
+      "Description": "Raw expression 'camera_y'"
+    },
+    {
+      "CodeBlock": "00_intro",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 7836,
       "Description": "Core operation'PixelSpawn'"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 7,
-      "MemoryOffset": 7812,
+      "MemoryOffset": 7844,
       "Description": "Set 'intro' to '1'"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 10,
-      "MemoryOffset": 7818,
+      "MemoryOffset": 7850,
       "Description": "Set 'camera_x' to 'camera_x+1'"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 10,
-      "MemoryOffset": 7828,
+      "MemoryOffset": 7860,
       "Description": "Set 'camera_y' to '0'"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 10,
-      "MemoryOffset": 7834,
+      "MemoryOffset": 7866,
       "Description": "Set 'camera_follow' to 'camera_follow & 32752'"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 12,
-      "MemoryOffset": 7846,
-      "Description": "If camera_x == 32 ELSE GOTO 00007922"
+      "MemoryOffset": 7878,
+      "Description": "If camera_x == 32 ELSE GOTO 00007980"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 13,
-      "MemoryOffset": 7858,
+      "MemoryOffset": 7890,
       "Description": "Raw expression 'banditcar'"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 13,
-      "MemoryOffset": 7864,
+      "MemoryOffset": 7896,
       "Description": "Raw expression 'camera_x'"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 13,
-      "MemoryOffset": 7870,
+      "MemoryOffset": 7902,
       "Description": "Raw expression '256-42'"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 13,
-      "MemoryOffset": 7882,
+      "MemoryOffset": 7914,
       "Description": "Core operation'PixelSpawn'"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 14,
-      "MemoryOffset": 7890,
+      "MemoryOffset": 7922,
       "Description": "Set 'soundvol' to '256'"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 15,
-      "MemoryOffset": 7896,
-      "Description": "Raw expression 'bandit_intro'"
+      "MemoryOffset": 7928,
+      "Description": "Raw expression 'bandit_intro_l'"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 15,
-      "MemoryOffset": 7902,
-      "Description": "Raw expression 'Note_F3'"
+      "MemoryOffset": 7934,
+      "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 15,
-      "MemoryOffset": 7908,
+      "MemoryOffset": 7940,
       "Description": "Raw expression ''"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 15,
-      "MemoryOffset": 7914,
+      "MemoryOffset": 7946,
       "Description": "Core operation'Sound'"
     },
     {
       "CodeBlock": "00_intro",
-      "CodeBlockLine": 18,
-      "MemoryOffset": 7922,
-      "Description": "If camera_x == 128 ELSE GOTO 00007968"
-    },
-    {
-      "CodeBlock": "00_intro",
-      "CodeBlockLine": 19,
-      "MemoryOffset": 7936,
-      "Description": "Set 'soundvol' to '256'"
-    },
-    {
-      "CodeBlock": "00_intro",
-      "CodeBlockLine": 20,
-      "MemoryOffset": 7942,
-      "Description": "Raw expression 'buford'"
-    },
-    {
-      "CodeBlock": "00_intro",
-      "CodeBlockLine": 20,
-      "MemoryOffset": 7948,
-      "Description": "Raw expression 'Note_F3'"
-    },
-    {
-      "CodeBlock": "00_intro",
-      "CodeBlockLine": 20,
+      "CodeBlockLine": 16,
       "MemoryOffset": 7954,
+      "Description": "Raw expression 'bandit_intro_r'"
+    },
+    {
+      "CodeBlock": "00_intro",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 7960,
+      "Description": "Raw expression '0'"
+    },
+    {
+      "CodeBlock": "00_intro",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 7966,
       "Description": "Raw expression ''"
     },
     {
       "CodeBlock": "00_intro",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 7972,
+      "Description": "Core operation'Sound'"
+    },
+    {
+      "CodeBlock": "00_intro",
+      "CodeBlockLine": 19,
+      "MemoryOffset": 7980,
+      "Description": "If camera_x == 128 ELSE GOTO 00008052"
+    },
+    {
+      "CodeBlock": "00_intro",
       "CodeBlockLine": 20,
-      "MemoryOffset": 7960,
+      "MemoryOffset": 7994,
+      "Description": "Set 'soundvol' to '256'"
+    },
+    {
+      "CodeBlock": "00_intro",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 8000,
+      "Description": "Raw expression 'buford_l'"
+    },
+    {
+      "CodeBlock": "00_intro",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 8006,
+      "Description": "Raw expression '0'"
+    },
+    {
+      "CodeBlock": "00_intro",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 8012,
+      "Description": "Raw expression ''"
+    },
+    {
+      "CodeBlock": "00_intro",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 8018,
       "Description": "Core operation'Sound'"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 23,
-      "MemoryOffset": 7968,
-      "Description": "If camera_x == 216 ELSE GOTO 00008014"
+      "MemoryOffset": 8026,
+      "Description": "Raw expression 'buford_r'"
     },
     {
       "CodeBlock": "00_intro",
-      "CodeBlockLine": 24,
-      "MemoryOffset": 7982,
-      "Description": "Raw expression 'cop_bronze'"
+      "CodeBlockLine": 23,
+      "MemoryOffset": 8032,
+      "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "00_intro",
-      "CodeBlockLine": 24,
-      "MemoryOffset": 7988,
-      "Description": "Raw expression 'camera_x'"
+      "CodeBlockLine": 23,
+      "MemoryOffset": 8038,
+      "Description": "Raw expression ''"
     },
     {
       "CodeBlock": "00_intro",
-      "CodeBlockLine": 24,
-      "MemoryOffset": 7994,
-      "Description": "Raw expression '256-42'"
+      "CodeBlockLine": 23,
+      "MemoryOffset": 8044,
+      "Description": "Core operation'Sound'"
     },
     {
       "CodeBlock": "00_intro",
-      "CodeBlockLine": 24,
-      "MemoryOffset": 8006,
-      "Description": "Core operation'PixelSpawn'"
+      "CodeBlockLine": 26,
+      "MemoryOffset": 8052,
+      "Description": "If camera_x == 216 ELSE GOTO 00008098"
     },
     {
       "CodeBlock": "00_intro",
       "CodeBlockLine": 27,
-      "MemoryOffset": 8014,
-      "Description": "If camera_x >= 512 ELSE GOTO 00008052"
+      "MemoryOffset": 8066,
+      "Description": "Raw expression 'cop_bronze'"
     },
     {
       "CodeBlock": "00_intro",
-      "CodeBlockLine": 28,
-      "MemoryOffset": 8028,
+      "CodeBlockLine": 27,
+      "MemoryOffset": 8072,
+      "Description": "Raw expression 'camera_x'"
+    },
+    {
+      "CodeBlock": "00_intro",
+      "CodeBlockLine": 27,
+      "MemoryOffset": 8078,
+      "Description": "Raw expression '256-42'"
+    },
+    {
+      "CodeBlock": "00_intro",
+      "CodeBlockLine": 27,
+      "MemoryOffset": 8090,
+      "Description": "Core operation'PixelSpawn'"
+    },
+    {
+      "CodeBlock": "00_intro",
+      "CodeBlockLine": 30,
+      "MemoryOffset": 8098,
+      "Description": "If camera_x >= 512 ELSE GOTO 00008136"
+    },
+    {
+      "CodeBlock": "00_intro",
+      "CodeBlockLine": 31,
+      "MemoryOffset": 8112,
       "Description": "Set 'camera_x' to '0'"
     },
     {
       "CodeBlock": "00_intro",
-      "CodeBlockLine": 28,
-      "MemoryOffset": 8034,
+      "CodeBlockLine": 31,
+      "MemoryOffset": 8118,
       "Description": "Set 'camera_y' to '0'"
     },
     {
       "CodeBlock": "00_intro",
-      "CodeBlockLine": 28,
-      "MemoryOffset": 8040,
+      "CodeBlockLine": 31,
+      "MemoryOffset": 8124,
       "Description": "Set 'camera_follow' to 'camera_follow & 32752'"
     }
   ],
@@ -6167,17 +6245,22 @@
     "1": "banditcar",
     "2": "cop_bronze",
     "3": "dualwheels",
-    "4": "singlewheel"
+    "4": "mountainintro",
+    "5": "singlewheel"
   },
   "Sounds": {
     "0": "No sound played",
-    "1": "bandit_intro",
-    "2": "buford"
+    "1": "bandit_intro_l",
+    "2": "bandit_intro_l___copy",
+    "3": "bandit_intro_r",
+    "4": "buford_l",
+    "5": "buford_r"
   },
   "Animations": {
     "1": "bandit_car",
     "2": "cop_car_bronze",
     "3": "dual_wheels",
-    "4": "single_wheel"
+    "4": "mountain_intro",
+    "5": "single_wheel"
   }
 }

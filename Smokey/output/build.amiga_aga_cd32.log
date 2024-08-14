@@ -1,41 +1,41 @@
-Compiled on 13 August 2024 08:12:51
+Compiled on 14 August 2024 06:08:20
 Version string: SE2024.2.240813.10.02.EX
 
 === Misc ===
-ImageFrames: 9
-ImageFrame Data Size: 396
+ImageFrames: 10
+ImageFrame Data Size: 440
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
-Actor Count: 5
-Actor Data Size: 900
+Actor Count: 6
+Actor Data Size: 1080
 Block Count: 1
 Block Data Size: 68
 Anim5 Count: 0
 Anim5 Data Size: 0
-Sound Count: 3
-Sound Data Size: 84
+Sound Count: 6
+Sound Data Size: 168
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 5
-Animations Data Size: 80
-AnimationFrame Count: 10
-AnimationFrame Data Size: 160
-Sprites: 1
-Sprites Data Size: 14
+Animations Count: 6
+Animations Data Size: 96
+AnimationFrame Count: 11
+AnimationFrame Data Size: 176
+Sprites: 2
+Sprites Data Size: 28
 Attack Data: 1
 Attack Data Size: 88
-Misc data size: 14
+Misc data size: 28
 === Image optimisations ===
 Panel scorpion_eng_splashscreen Original size 35168 Crunched size 3258
-Project virtual machine (codeblocks) Original size 8718 Crunched size 2650
-Header data for map intrro Original size 8000 Crunched size 264
-Tile data for map intrro (mem restrictions:No_Blocks) Original size 4100 Crunched size 388
-Background for map intrro Original size 1396 Crunched size 134
-Asset bundle 0 (Core project asset bundle) Original size 226419 Crunched size 164022
-Asset bundle 1 (intrro) Original size 8868 Crunched size 3938
+Project virtual machine (codeblocks) Original size 8802 Crunched size 8802
+Header data for map intrro Original size 8000 Crunched size 8000
+Tile data for map intrro (mem restrictions:No_Blocks) Original size 4100 Crunched size 4100
+Background for map intrro Original size 1396 Crunched size 1396
+Asset bundle 0 (Core project asset bundle) Original size 193960 Crunched size 193960
+Asset bundle 1 (intrro) Original size 8868 Crunched size 8868
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
-Project Header Original size 4036 Crunched size 1194
-Project Data Original size 1838 Crunched size 430
+Project Header Original size 4036 Crunched size 4036
+Project Data Original size 2206 Crunched size 2206
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Accounted Memory Usage ===
@@ -45,7 +45,7 @@ For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 35168
 Music memory (): 0
 BP Buffer memory: 132000
-core sfx/gfx memory: 226419
+core sfx/gfx memory: 193960
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -55,25 +55,28 @@ Map header cache memory: 0
 Map data memory: 4100
 Map background memory: 1396
 EXE memory: 194840
-vm memory: 8718
-project memory: 1838
+vm memory: 8802
+project memory: 2206
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 492915
-Accounted memory other: 330196
-Accounted memory total: 823111
+Accounted memory chip: 460456
+Accounted memory other: 330648
+Accounted memory total: 791104
+
+=== Possibly unused sound effects ===
+bandit_intro_l___copy
 
 === Codeblocks by compiled size ===
 load_level: 568
+00_intro: 474
 pre_startup: 432
 do_teleport: 424
-00_intro: 396
 flipscreen_smooth: 310 (Unused?)
 load_next_level: 300 (Unused?)
 flipxymove: 278 (Unused?)
-!startup: 226
+!startup: 232
 block_find: 206 (Unused?)
 set_yresolution: 202
 waitforframes: 194

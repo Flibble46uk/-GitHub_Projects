@@ -77,6 +77,41 @@
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
+    },
+    "bandit_intro_l": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": 3
+    },
+    "bandit_intro_r": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": 2
+    },
+    "bandit_intro_l___copy": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "buford_l": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": 2
+    },
+    "buford_r": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": 3
     }
   },
   "MMLMetaData": {},
