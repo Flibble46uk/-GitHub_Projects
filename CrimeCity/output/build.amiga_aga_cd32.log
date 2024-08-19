@@ -1,4 +1,4 @@
-Compiled on 19 August 2024 07:05:04
+Compiled on 19 August 2024 06:23:49
 Version string: SE2024.2.240819.10.51.EX
 
 === Misc ===
@@ -27,24 +27,24 @@ Attack Data Size: 176
 Misc data size: 14
 === Image optimisations ===
 Panel scorpion_eng_splashscreen Original size 35168 Crunched size 3258
-Project virtual machine (codeblocks) Original size 10352 Crunched size 3114
+Project virtual machine (codeblocks) Original size 10496 Crunched size 3170
 Header data for map highway_01 Original size 8000 Crunched size 386
-Tile data for map highway_01 (mem restrictions:None) Original size 20300 Crunched size 1858
+Tile data for map highway_01 (mem restrictions:None) Original size 20300 Crunched size 1854
 Background for map highway_01 Original size 1468 Crunched size 262
 Parallax for map highway_01 Original size 900 Crunched size 142
 Header data for map level_01 Original size 8000 Crunched size 282
-Tile data for map level_01 (mem restrictions:None) Original size 13156 Crunched size 3584
+Tile data for map level_01 (mem restrictions:None) Original size 13156 Crunched size 3580
 Background for map level_01 Original size 1484 Crunched size 244
 Parallax for map level_01 Original size 900 Crunched size 154
 Header data for map titlescreen Original size 8000 Crunched size 230
-Tile data for map titlescreen (mem restrictions:None) Original size 1956 Crunched size 742
+Tile data for map titlescreen (mem restrictions:None) Original size 1956 Crunched size 736
 Background for map titlescreen Original size 1396 Crunched size 168
 Asset bundle 0 (Core project asset bundle) Original size 134514 Crunched size 32152
 Asset bundle 1 (highway_01) Original size 49292 Crunched size 17928
 Asset bundle 2 (level_01) Original size 94414 Crunched size 27052
 Asset bundle 3 (titlescreen) Original size 28940 Crunched size 9888
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
-Project Header Original size 4036 Crunched size 1198
+Project Header Original size 4036 Crunched size 1196
 Project Data Original size 9448 Crunched size 2386
 Project virtual machine redirects Original size 4 Crunched size 4
 
@@ -54,7 +54,7 @@ Project virtual machine redirects Original size 4 Crunched size 4
 For chip:
 Map gfx (level gfx bundle 2): 94414
 Music memory (): 0
-BP Buffer memory: 112400
+BP Buffer memory: 133920
 core sfx/gfx memory: 134514
 Parallax memory: 900
 OS/other estimated: 99328
@@ -65,15 +65,15 @@ Map header cache memory: 0
 Map data memory: 20300
 Map background memory: 1484
 EXE memory: 194988
-vm memory: 10352
+vm memory: 10496
 project memory: 9448
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 441556
-Accounted memory other: 355876
-Accounted memory total: 797432
+Accounted memory chip: 463076
+Accounted memory other: 356020
+Accounted memory total: 819096
 
 === Possibly unused animations ===
 hero_crouch_pistol_l
@@ -90,10 +90,10 @@ hw_truckwheels_rear2
 title_select_arrow
 
 === Codeblocks by compiled size ===
+01_highway_01: 598
 load_level: 568
-01_highway_01: 532
+pre_startup: 432
 do_teleport: 424
-pre_startup: 354
 flipscreen_smooth: 310 (Unused?)
 load_next_level: 300 (Unused?)
 flipxymove: 278 (Unused?)
