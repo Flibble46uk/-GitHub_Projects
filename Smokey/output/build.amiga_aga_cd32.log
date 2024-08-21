@@ -1,13 +1,13 @@
-Compiled on 14 August 2024 06:34:43
-Version string: SE2024.2.240813.10.02.EX
+Compiled on 21 August 2024 05:53:47
+Version string: SE2024.2.240820.23.28.EX
 
 === Misc ===
-ImageFrames: 10
-ImageFrame Data Size: 440
-Maps and Asset Bundles Count: 2
-Maps and Asset Bundles Data Size: 24
-Actor Count: 6
-Actor Data Size: 1080
+ImageFrames: 12
+ImageFrame Data Size: 528
+Maps and Asset Bundles Count: 3
+Maps and Asset Bundles Data Size: 36
+Actor Count: 8
+Actor Data Size: 1440
 Block Count: 1
 Block Data Size: 68
 Anim5 Count: 0
@@ -16,26 +16,30 @@ Sound Count: 6
 Sound Data Size: 168
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 6
-Animations Data Size: 96
-AnimationFrame Count: 11
-AnimationFrame Data Size: 176
-Sprites: 2
-Sprites Data Size: 28
+Animations Count: 8
+Animations Data Size: 128
+AnimationFrame Count: 13
+AnimationFrame Data Size: 208
+Sprites: 3
+Sprites Data Size: 42
 Attack Data: 1
 Attack Data Size: 88
-Misc data size: 28
+Misc data size: 42
 === Image optimisations ===
 Panel scorpion_eng_splashscreen Original size 35168 Crunched size 3258
-Project virtual machine (codeblocks) Original size 8802 Crunched size 8802
-Header data for map intrro Original size 8000 Crunched size 8000
-Tile data for map intrro (mem restrictions:No_Blocks) Original size 4100 Crunched size 4100
-Background for map intrro Original size 1396 Crunched size 1396
-Asset bundle 0 (Core project asset bundle) Original size 193192 Crunched size 193192
-Asset bundle 1 (intrro) Original size 8868 Crunched size 8868
+Project virtual machine (codeblocks) Original size 8912 Crunched size 8912
+Header data for map godzilla Original size 8004 Crunched size 8004
+Tile data for map godzilla (mem restrictions:No_Blocks) Original size 1796 Crunched size 1796
+Background for map godzilla Original size 1396 Crunched size 1396
+Header data for map intrro Original size 8004 Crunched size 8004
+Tile data for map intrro (mem restrictions:No_Blocks) Original size 18788 Crunched size 18788
+Background for map intrro Original size 2368 Crunched size 2368
+Asset bundle 0 (Core project asset bundle) Original size 201552 Crunched size 201552
+Asset bundle 1 (godzilla) Original size 7932 Crunched size 7932
+Asset bundle 2 (intrro) Original size 34182 Crunched size 34182
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4036 Crunched size 4036
-Project Data Original size 2206 Crunched size 2206
+Project Data Original size 2758 Crunched size 2758
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Accounted Memory Usage ===
@@ -44,39 +48,44 @@ Project virtual machine redirects Original size 4 Crunched size 4
 For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 35168
 Music memory (): 0
-BP Buffer memory: 132000
-core sfx/gfx memory: 193192
+BP Buffer memory: 135840
+core sfx/gfx memory: 201552
 Parallax memory: 0
 OS/other estimated: 99328
 
 For other:
 Map cache memory: 0
 Map header cache memory: 0
-Map data memory: 4100
-Map background memory: 1396
-EXE memory: 194840
-vm memory: 8802
-project memory: 2206
+Map data memory: 18788
+Map background memory: 2368
+EXE memory: 194988
+vm memory: 8912
+project memory: 2758
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 459688
-Accounted memory other: 330648
-Accounted memory total: 790336
+Accounted memory chip: 471888
+Accounted memory other: 347118
+Accounted memory total: 819006
+
+=== Possibly unused Actors ===
+dualwheels
+logo1
+singlewheel
 
 === Possibly unused sound effects ===
 bandit_intro_l___copy
 
 === Codeblocks by compiled size ===
 load_level: 568
-00_intro: 474
 pre_startup: 432
 do_teleport: 424
+00_intro: 378
 flipscreen_smooth: 310 (Unused?)
 load_next_level: 300 (Unused?)
 flipxymove: 278 (Unused?)
-!startup: 232
+!startup: 262
 block_find: 206 (Unused?)
 set_yresolution: 202
 waitforframes: 194
@@ -96,6 +105,7 @@ waitforfireup: 114
 fadein: 112
 waitforfiredown: 110
 unload_panel: 106
+00_light: 100
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)
@@ -107,6 +117,7 @@ load_music: 78 (Unused?)
 load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)
 wrap_screen_right: 76 (Unused?)
+00_mountains: 76
 set_ntsc: 74 (Unused?)
 flipscreen: 72 (Unused?)
 wrap_screen_left: 72 (Unused?)

@@ -112,6 +112,27 @@
       "IsMusic": false,
       "Priority": 0,
       "Channel": 3
+    },
+    "east_bound_and_down___jerry_reed_(instrumental)": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": true,
+      "Priority": 0,
+      "Channel": null
+    },
+    "(instrumental": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": true,
+      "Priority": 0,
+      "Channel": null
+    },
+    "instrumental": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": true,
+      "Priority": 0,
+      "Channel": null
     }
   },
   "MMLMetaData": {},
