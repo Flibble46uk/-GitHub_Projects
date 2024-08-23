@@ -3,28 +3,28 @@
   "DefaultLookDir": "left",
   "Recycle": "Never",
   "MoveType": "none",
-  "MaxEntities": 2,
-  "NudgeX": -5,
-  "NudgeY": -4,
+  "MaxEntities": 0,
+  "NudgeX": -6,
+  "NudgeY": -6,
   "Idles": {
-    "UpLeft": "kight_pole",
-    "Up": "kight_pole",
-    "UpRight": "kight_pole",
-    "Left": "kight_pole",
-    "Right": "kight_pole",
-    "DownLeft": "kight_pole",
-    "Down": "kight_pole",
-    "DownRight": "kight_pole"
+    "UpLeft": "smoke_tire",
+    "Up": "smoke_tire",
+    "UpRight": "smoke_tire",
+    "Left": "emitter_source",
+    "Right": "smoke_tire",
+    "DownLeft": "smoke_tire",
+    "Down": "smoke_tire",
+    "DownRight": "smoke_tire"
   },
   "Moves": {
-    "UpLeft": "kight_pole",
-    "Up": "kight_pole",
-    "UpRight": "kight_pole",
-    "Left": "kight_pole",
-    "Right": "kight_pole",
-    "DownLeft": "kight_pole",
-    "Down": "kight_pole",
-    "DownRight": "kight_pole"
+    "UpLeft": "smoke_tire",
+    "Up": "smoke_tire",
+    "UpRight": "smoke_tire",
+    "Left": "emitter_source",
+    "Right": "smoke_tire",
+    "DownLeft": "smoke_tire",
+    "Down": "smoke_tire",
+    "DownRight": "smoke_tire"
   },
   "Attacks": {
     "UpLeft": "",
@@ -104,13 +104,13 @@
     true
   ],
   "CollBox": {
-    "X": 5,
-    "Y": 4,
-    "Width": 38,
-    "Height": 47
+    "X": 6,
+    "Y": 6,
+    "Width": 3,
+    "Height": 3
   },
   "AttackDelay": 0,
-  "ZOrder": -4000,
+  "ZOrder": 1200,
   "SpeedLeft": 0.0,
   "SpeedRight": 0.0,
   "SpeedUp": 0.0,
@@ -142,20 +142,20 @@
   "DivertPlayerHit": "",
   "DivertHitAgainstPlayer": "",
   "DivertProjectileCollision": "",
-  "DivertOutOfScreenLeft": "",
+  "DivertOutOfScreenLeft": "destroy_actor",
   "DivertOutOfScreenRight": "",
   "DivertOutOfScreenUp": "",
   "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
-  "DivertTimer": "00_light",
-  "DivertTimerFrames": 1,
+  "DivertTimer": "00_emitter_02",
+  "DivertTimerFrames": 5,
   "Vars": [
     "0",
     "0",
     "0",
-    "0",
-    "0",
+    "-52",
+    "7",
     "0"
   ],
   "ControlPort": 0,
@@ -194,5 +194,5 @@
   "DivertMeleeByProjectile": null,
   "DivertMeleeAgainstProjectile": null,
   "IsAttacker": null,
-  "TileID": -1
+  "TileID": 3
 }

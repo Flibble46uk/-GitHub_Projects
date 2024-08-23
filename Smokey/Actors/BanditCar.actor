@@ -160,7 +160,7 @@
   ],
   "ControlPort": 0,
   "DataVersion": 4,
-  "ActorTag": "None",
+  "ActorTag": "Bandit",
   "AutoSpawn": null,
   "AutoNavigate": false,
   "ActorTimeline": {

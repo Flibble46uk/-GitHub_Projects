@@ -1,13 +1,13 @@
-Compiled on 21 August 2024 05:53:47
-Version string: SE2024.2.240820.23.28.EX
+Compiled on 23 August 2024 05:36:36
+Version string: SE2024.2.240823.10.05.EX
 
 === Misc ===
-ImageFrames: 12
-ImageFrame Data Size: 528
-Maps and Asset Bundles Count: 3
-Maps and Asset Bundles Data Size: 36
-Actor Count: 8
-Actor Data Size: 1440
+ImageFrames: 29
+ImageFrame Data Size: 1276
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 24
+Actor Count: 13
+Actor Data Size: 2340
 Block Count: 1
 Block Data Size: 68
 Anim5 Count: 0
@@ -16,30 +16,26 @@ Sound Count: 6
 Sound Data Size: 168
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 8
-Animations Data Size: 128
-AnimationFrame Count: 13
-AnimationFrame Data Size: 208
+Animations Count: 12
+Animations Data Size: 192
+AnimationFrame Count: 53
+AnimationFrame Data Size: 848
 Sprites: 3
 Sprites Data Size: 42
 Attack Data: 1
 Attack Data Size: 88
-Misc data size: 42
+Misc data size: 56
 === Image optimisations ===
 Panel scorpion_eng_splashscreen Original size 35168 Crunched size 3258
-Project virtual machine (codeblocks) Original size 8912 Crunched size 8912
-Header data for map godzilla Original size 8004 Crunched size 8004
-Tile data for map godzilla (mem restrictions:No_Blocks) Original size 1796 Crunched size 1796
-Background for map godzilla Original size 1396 Crunched size 1396
+Project virtual machine (codeblocks) Original size 9542 Crunched size 9542
 Header data for map intrro Original size 8004 Crunched size 8004
 Tile data for map intrro (mem restrictions:No_Blocks) Original size 18788 Crunched size 18788
 Background for map intrro Original size 2368 Crunched size 2368
-Asset bundle 0 (Core project asset bundle) Original size 201552 Crunched size 201552
-Asset bundle 1 (godzilla) Original size 7932 Crunched size 7932
-Asset bundle 2 (intrro) Original size 34182 Crunched size 34182
+Asset bundle 0 (Core project asset bundle) Original size 206736 Crunched size 206736
+Asset bundle 1 (intrro) Original size 23278 Crunched size 23278
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4036 Crunched size 4036
-Project Data Original size 2758 Crunched size 2758
+Project Data Original size 5112 Crunched size 5112
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Accounted Memory Usage ===
@@ -49,7 +45,7 @@ For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 35168
 Music memory (): 0
 BP Buffer memory: 135840
-core sfx/gfx memory: 201552
+core sfx/gfx memory: 206736
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -58,19 +54,21 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 18788
 Map background memory: 2368
-EXE memory: 194988
-vm memory: 8912
-project memory: 2758
+EXE memory: 194704
+vm memory: 9542
+project memory: 5112
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 471888
-Accounted memory other: 347118
-Accounted memory total: 819006
+Accounted memory chip: 477072
+Accounted memory other: 349818
+Accounted memory total: 826890
 
 === Possibly unused Actors ===
 dualwheels
+emitter_01
+emitter_02
 logo1
 singlewheel
 
@@ -79,13 +77,13 @@ bandit_intro_l___copy
 
 === Codeblocks by compiled size ===
 load_level: 568
-pre_startup: 432
+!startup: 484
+pre_startup: 444
 do_teleport: 424
-00_intro: 378
+00_intro: 392
 flipscreen_smooth: 310 (Unused?)
 load_next_level: 300 (Unused?)
 flipxymove: 278 (Unused?)
-!startup: 262
 block_find: 206 (Unused?)
 set_yresolution: 202
 waitforframes: 194
@@ -123,19 +121,26 @@ flipscreen: 72 (Unused?)
 wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
 quit: 70 (Unused?)
+00_emitter_02: 68
 jump_actor: 66 (Unused?)
 load_panel_finish: 66
+00_emitter_01: 66
+00_spawn_smoke: 66
 unload_panel_bottom: 62
 unload_panel_top: 62
 destroy_all_actors: 60 (Unused?)
 destroy_actor: 58
 regenerate_screen: 58
 AUTOGEN_OUTOFSCREEN_None_00_destroy_car_None_None: 54
+AUTOGEN_OUTOFSCREEN_None_destroy_actor_None_None: 54
 destroy_block: 52 (Unused?)
 return: 52 (Unused?)
+AUTOGEN_OUTOFSCREEN_destroy_actor_None_None_None: 50
 regenerate_screen_wait: 46
 freeze_actor: 40 (Unused?)
 unfreeze_actor: 40 (Unused?)
+autogen_smoke_plume_6: 38
+autogen_smoke_tire_0: 38
 block_coll_force: 32 (Unused?)
 block_coll_passthru: 32 (Unused?)
 clear_block_collision: 32

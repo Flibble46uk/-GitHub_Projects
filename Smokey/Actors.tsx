@@ -13,17 +13,12 @@
   </tile>
   <tile id="2">
     <properties>
-      <property name="Name" value="mountainintro" type="string" />
+      <property name="Name" value="emitter_01" type="string" />
     </properties>
   </tile>
   <tile id="3">
     <properties>
-      <property name="Name" value="logo1" type="string" />
-    </properties>
-  </tile>
-  <tile id="4">
-    <properties>
-      <property name="Name" value="light" type="string" />
+      <property name="Name" value="emitter_02" type="string" />
     </properties>
   </tile>
 </tileset>

@@ -9,14 +9,14 @@
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
       "RenderType": "Normal",
-      "SpriteType": "Channel_2_to_1",
-      "Path": "Light_pole.png",
+      "SpriteType": "Attached_16colors",
+      "Path": "Smoke_plume_00x00.png",
       "HandleX": 0,
-      "HandleY": 0,
+      "HandleY": -7,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "Light_pole",
+      "Name": "Smoke_plume_00x00",
       "IsBlank": false
     }
   ],

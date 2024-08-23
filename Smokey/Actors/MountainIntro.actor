@@ -194,5 +194,5 @@
   "DivertMeleeByProjectile": null,
   "DivertMeleeAgainstProjectile": null,
   "IsAttacker": null,
-  "TileID": 2
+  "TileID": -1
 }
