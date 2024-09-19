@@ -1,0 +1,90 @@
+{
+  "Frames": [
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 500,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "OnlySprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "Bio_01.png",
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Bio_01",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 500,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "OnlySprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "Bio_02.png",
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Bio_02",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 500,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "OnlySprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "Bio_03.png",
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Bio_03",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 500,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "OnlySprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "Bio_04.png",
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Bio_04",
+      "IsBlank": false
+    }
+  ],
+  "PreventAttack": false,
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "OnFinish": null,
+  "AutoFlip": null,
+  "Streamed": true,
+  "PatternBuffer": 0,
+  "LinkedMap": ""
+}

@@ -1,0 +1,149 @@
+{
+  "Frames": [
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 50,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "Countdown_01x00.png",
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Countdown_01x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 50,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "Countdown_02x00.png",
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Countdown_02x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 50,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "Countdown_03x00.png",
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Countdown_03x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 50,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "Countdown_04x00.png",
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Countdown_04x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Dir": "move_right",
+            "Codeblock": "destroy_actor",
+            "Actor": "none",
+            "Sound": "none",
+            "Expression": null,
+            "Tag": "FrameEvent0",
+            "IsConditional": false,
+            "OverrideDirection": false,
+            "Animation": "none",
+            "AnimationLoop": false,
+            "AutoFlip": false,
+            "AnimationFrame": "0",
+            "OverrideSpeed": false,
+            "XFloat": null,
+            "YFloat": null,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": [],
+            "Angle": 0.0,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": false
+          }
+        ]
+      },
+      "Duration": 50,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": null,
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "[ blank ]",
+      "IsBlank": true
+    }
+  ],
+  "PreventAttack": true,
+  "PreventMovement": true,
+  "PreventCollision": true,
+  "HideChildren": false,
+  "LoopFrame": 3,
+  "OnFinish": null,
+  "AutoFlip": null,
+  "Streamed": true,
+  "PatternBuffer": 0,
+  "LinkedMap": ""
+}
