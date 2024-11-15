@@ -1,5 +1,5 @@
 {
-  "BlockImagePath": "Blocks\\STOP.png",
+  "BlockImagePath": "Blocks\\Platform_Normal.png",
   "X": 0,
   "Y": 0,
   "Divert_PlayerCollision": null,
@@ -37,5 +37,5 @@
   "ZeroIsTransparent": false,
   "PaletteLineNeo": 0,
   "BlockTag": null,
-  "TileID": 2
+  "TileID": 1
 }

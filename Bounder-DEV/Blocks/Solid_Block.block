@@ -36,5 +36,6 @@
   ],
   "ZeroIsTransparent": false,
   "PaletteLineNeo": 0,
-  "TileID": 0
+  "BlockTag": null,
+  "TileID": 3
 }

@@ -9,6 +9,7 @@
   "Uses24BitColor": true,
   "SpriteColorBank": 2,
   "SScan2": false,
+  "SmoothScrolling": true,
   "FMode": 1,
   "Width": 192,
   "XOffset": 64,
@@ -22,6 +23,7 @@
   "NTSC": false,
   "CrunchMode": "NoCrunch",
   "MaxActiveActors": 32,
+  "MaxDormantActors": 128,
   "DynamicPatterns": 0,
   "PaletteLines": 1,
   "StartingPaletteLine": 0

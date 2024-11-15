@@ -2,7 +2,7 @@
   "ShootDirType": "actor_direction",
   "DefaultLookDir": "left",
   "Recycle": "Default",
-  "MoveType": "control",
+  "MoveType": "none",
   "MaxEntities": 0,
   "NudgeX": -9,
   "NudgeY": -8,
@@ -127,7 +127,7 @@
   "CollType_Up": "none",
   "CollType_Down": "none",
   "Player": true,
-  "BlockCollider": true,
+  "BlockCollider": false,
   "CanRidePlatform": null,
   "Camera": null,
   "AutoScroll": false,
@@ -137,7 +137,7 @@
   "AttackSound": null,
   "JumpSound": null,
   "DivertAttack": "",
-  "DivertSpawn": "00_8px_right",
+  "DivertSpawn": "",
   "DivertPlayerCollision": "",
   "DivertPlayerHit": "",
   "DivertHitAgainstPlayer": "",
@@ -148,7 +148,7 @@
   "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
-  "DivertTimer": "00_player_handler",
+  "DivertTimer": "",
   "DivertTimerFrames": 1,
   "Vars": [
     "0",
@@ -191,10 +191,12 @@
     "PingPong": false
   },
   "DontSpawnIfTooMany": false,
+  "AutoClearChildren": false,
   "DivertMeleeByProjectile": null,
   "DivertMeleeAgainstProjectile": null,
   "IsAttacker": false,
   "PreviewParent": null,
+  "RotationEnabled": false,
   "TileID": 1,
   "MaxTimelineFrames": 50
 }
