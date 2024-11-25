@@ -1,5 +1,5 @@
-Compiled on 15 November 2024 02:34:31
-Version string: SE2024.2.241115.09.52.EX
+Compiled on 25 November 2024 10:41:19
+Version string: SE2024.2.241124.08.24.EX
 
 === Misc ===
 ImageFrames: 15
@@ -27,13 +27,13 @@ Attack Data Size: 88
 Misc data size: 32
 === Image optimisations ===
 Music file bounder_00112_opt Original size 11976 Crunched size 11976
-Panel (background color #000) Original size 1296 Crunched size 76
-Panel scorpion_eng_splashscreen Original size 34288 Crunched size 3260
+Panel (background color #090) Original size 1296 Crunched size 76
+Panel scorpion_eng_splashscreen Original size 36788 Crunched size 3376
 Panel diagnosticsl Original size 2364 Crunched size 2364
 Panel bobs diagnosticsl Original size 398 Crunched size 398
-Panel (background)level_01_test Original size 1296 Crunched size 1296
-Panel (background)newpanel Original size 1296 Crunched size 1296
-Panel title_01 Original size 33020 Crunched size 33020
+Panel (background)lvl01_copper Original size 1296 Crunched size 1296
+Panel title Original size 36604 Crunched size 36604
+Panel (background)title_copper Original size 1296 Crunched size 1296
 Project virtual machine (codeblocks) Original size 10172 Crunched size 10172
 Header data for map level_01 Original size 840 Crunched size 840
 Tile data for map level_01 (mem restrictions:None) Original size 131394 Crunched size 131394
@@ -48,7 +48,7 @@ Project virtual machine redirects Original size 4 Crunched size 4
 (Note that this isn't a full account of memory usage, just the memory we can account for)
 
 For chip:
-Map gfx (Panel: scorpion_eng_splashscreen): 34288
+Map gfx (Panel: scorpion_eng_splashscreen): 36788
 Music memory (bounder_00112_opt): 11976
 BP Buffer memory: 87640
 core sfx/gfx memory: 191528
@@ -61,16 +61,16 @@ Map header cache memory: 0
 Map actor cache memory: 0
 Map data memory: 131394
 Map background memory: 1296
-EXE memory: 198352
+EXE memory: 198620
 vm memory: 10172
 project memory: 2030
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 424760
-Accounted memory other: 457940
-Accounted memory total: 882700
+Accounted memory chip: 427260
+Accounted memory other: 458208
+Accounted memory total: 885468
 
 === Codeblocks by compiled size ===
 !start_up: 1500
