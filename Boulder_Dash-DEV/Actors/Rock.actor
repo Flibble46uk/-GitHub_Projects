@@ -1,30 +1,30 @@
 {
   "ShootDirType": "actor_direction",
-  "DefaultLookDir": "left",
+  "DefaultLookDir": "up",
   "Recycle": "Default",
-  "MoveType": "control_tilebased",
+  "MoveType": "cpu",
   "MaxEntities": 0,
   "NudgeX": 0,
   "NudgeY": 0,
   "Idles": {
-    "UpLeft": "rockford_idle",
-    "Up": "rockford_idle",
-    "UpRight": "rockford_idle",
-    "Left": "rockford_idle",
-    "Right": "rockford_idle",
-    "DownLeft": "rockford_idle",
-    "Down": "rockford_idle",
-    "DownRight": "rockford_idle"
+    "UpLeft": "boulder_act",
+    "Up": "boulder_act",
+    "UpRight": "boulder_act",
+    "Left": "boulder_act",
+    "Right": "boulder_act",
+    "DownLeft": "boulder_act",
+    "Down": "boulder_act",
+    "DownRight": "boulder_act"
   },
   "Moves": {
-    "UpLeft": "rockford_idle",
-    "Up": "rockford_idle",
-    "UpRight": "rockford_idle",
-    "Left": "rockford_idle",
-    "Right": "rockford_idle",
-    "DownLeft": "rockford_idle",
-    "Down": "rockford_idle",
-    "DownRight": "rockford_idle"
+    "UpLeft": "boulder_act",
+    "Up": "boulder_act",
+    "UpRight": "boulder_act",
+    "Left": "boulder_act",
+    "Right": "boulder_act",
+    "DownLeft": "boulder_act",
+    "Down": "boulder_act",
+    "DownRight": "boulder_act"
   },
   "Attacks": {
     "UpLeft": "",
@@ -99,9 +99,9 @@
     false,
     false,
     false,
-    true,
     false,
-    true
+    false,
+    false
   ],
   "CollBox": {
     "X": 0,
@@ -110,10 +110,10 @@
     "Height": 16
   },
   "AttackDelay": 0,
-  "ZOrder": 6000,
+  "ZOrder": 0,
   "SpeedLeft": 1.0,
   "SpeedRight": 1.0,
-  "SpeedUp": 1.0,
+  "SpeedUp": 0.0,
   "SpeedDown": 1.0,
   "AccelLeft": null,
   "AccelRight": null,
@@ -126,8 +126,8 @@
   "CollType_Right": "block",
   "CollType_Up": "block",
   "CollType_Down": "block",
-  "Player": true,
-  "BlockCollider": false,
+  "Player": null,
+  "BlockCollider": null,
   "CanRidePlatform": null,
   "Camera": null,
   "AutoScroll": null,
@@ -137,7 +137,7 @@
   "AttackSound": null,
   "JumpSound": null,
   "DivertAttack": "",
-  "DivertSpawn": "",
+  "DivertSpawn": "02_boulder_logic",
   "DivertPlayerCollision": "",
   "DivertPlayerHit": "",
   "DivertHitAgainstPlayer": "",
@@ -148,8 +148,8 @@
   "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
-  "DivertTimer": "02_player_logic",
-  "DivertTimerFrames": 1,
+  "DivertTimer": "",
+  "DivertTimerFrames": 0,
   "Vars": [
     "0",
     "0",
@@ -161,7 +161,7 @@
   "ControlPort": 0,
   "DataVersion": 6,
   "ActorTag": "None",
-  "AutoSpawn": true,
+  "AutoSpawn": null,
   "AutoNavigate": false,
   "ActorTimeline": {
     "TimelineFrames": {
@@ -194,9 +194,9 @@
   "AutoClearChildren": false,
   "DivertMeleeByProjectile": null,
   "DivertMeleeAgainstProjectile": null,
-  "IsAttacker": false,
+  "IsAttacker": null,
   "PreviewParent": null,
   "RotationEnabled": false,
-  "TileID": 1,
+  "TileID": 2,
   "MaxTimelineFrames": 50
 }

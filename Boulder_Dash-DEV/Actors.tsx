@@ -7,4 +7,9 @@
       <property name="Name" value="rockford" type="string" />
     </properties>
   </tile>
+  <tile id="2">
+    <properties>
+      <property name="Name" value="rock" type="string" />
+    </properties>
+  </tile>
 </tileset>
