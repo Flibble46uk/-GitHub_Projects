@@ -12,4 +12,9 @@
       <property name="Name" value="rock" type="string" />
     </properties>
   </tile>
+  <tile id="3">
+    <properties>
+      <property name="Name" value="gem1" type="string" />
+    </properties>
+  </tile>
 </tileset>

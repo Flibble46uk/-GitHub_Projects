@@ -1,25 +1,25 @@
-Compiled on 16 December 2024 19:41:56
-Version string: SE2024.2.241211.23.19.EX
+Compiled on 17 December 2024 09:07:20
+Version string: SE2024.2.241217.18.42.EX
 
 === Misc ===
-ImageFrames: 45
-ImageFrame Data Size: 1980
+ImageFrames: 57
+ImageFrame Data Size: 2508
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
-Actor Count: 3
-Actor Data Size: 540
-Block Count: 7
-Block Data Size: 476
+Actor Count: 4
+Actor Data Size: 720
+Block Count: 8
+Block Data Size: 544
 Anim5 Count: 0
 Anim5 Data Size: 0
 Sound Count: 1
 Sound Data Size: 28
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 3
-Animations Data Size: 48
-AnimationFrame Count: 46
-AnimationFrame Data Size: 736
+Animations Count: 5
+Animations Data Size: 80
+AnimationFrame Count: 58
+AnimationFrame Data Size: 928
 Sprites: 1
 Sprites Data Size: 14
 Attack Data: 1
@@ -30,15 +30,15 @@ Panel (background color #000) Original size 1296 Crunched size 76
 Panel scorpion_eng_splashscreen Original size 36792 Crunched size 3380
 Panel diagnosticsl Original size 2240 Crunched size 2240
 Panel bobs diagnosticsl Original size 398 Crunched size 398
-Project virtual machine (codeblocks) Original size 8342 Crunched size 8342
+Project virtual machine (codeblocks) Original size 8798 Crunched size 8798
 Map actor data for test_lvl Original size 28 Crunched size 28
 Header data for map test_lvl Original size 844 Crunched size 844
 Tile data for map test_lvl (mem restrictions:None) Original size 5300 Crunched size 5300
-Asset bundle 0 (Core project asset bundle) Original size 4978 Crunched size 4978
+Asset bundle 0 (Core project asset bundle) Original size 7360 Crunched size 7360
 Asset bundle 1 (test_lvl) Original size 2846 Crunched size 2846
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4404 Crunched size 4404
-Project Data Original size 3962 Crunched size 3962
+Project Data Original size 4962 Crunched size 4962
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Accounted Memory Usage ===
@@ -48,7 +48,7 @@ For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 36792
 Music memory (): 0
 BP Buffer memory: 154000
-core sfx/gfx memory: 4978
+core sfx/gfx memory: 7360
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -58,16 +58,16 @@ Map header cache memory: 0
 Map actor cache memory: 0
 Map data memory: 5300
 Map background memory: 1296
-EXE memory: 198936
-vm memory: 8342
-project memory: 3962
+EXE memory: 198948
+vm memory: 8798
+project memory: 4962
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 295098
-Accounted memory other: 332532
-Accounted memory total: 627630
+Accounted memory chip: 297480
+Accounted memory other: 334000
+Accounted memory total: 631480
 
 === Codeblocks by compiled size ===
 load_level: 550
@@ -75,7 +75,9 @@ pre_startup: 444
 do_teleport: 402
 flipscreen_smooth: 310 (Unused?)
 flipxymove: 278 (Unused?)
+02_update_diamonds: 256
 load_next_level: 252 (Unused?)
+02_player_logic: 212
 block_find: 206 (Unused?)
 set_yresolution: 202
 waitforframes: 194
@@ -85,11 +87,11 @@ block_count: 178 (Unused?)
 pause: 176
 flipymove: 162 (Unused?)
 snap_to_screen: 158 (Unused?)
-02_player_logic: 154
 pre_quit: 152
 load_panel: 146
 flipxmove: 142 (Unused?)
 unload_level: 142
+AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 130
 02_boulder_logic: 130
 destroy_all_blocks: 128 (Unused?)
 restart_this_level: 128 (Unused?)

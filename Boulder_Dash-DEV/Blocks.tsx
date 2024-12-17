@@ -31,4 +31,9 @@
       <property name="Name" value="border1" type="string" />
     </properties>
   </tile>
+  <tile id="6">
+    <properties>
+      <property name="Name" value="wall" type="string" />
+    </properties>
+  </tile>
 </tileset>
