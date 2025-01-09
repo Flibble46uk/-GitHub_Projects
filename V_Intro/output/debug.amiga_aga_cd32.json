@@ -5852,7 +5852,7 @@
       "CodeBlock": "02_intro_move_camera",
       "CodeBlockLine": 5,
       "MemoryOffset": 7540,
-      "Description": "Raw expression 'camera_x+64'"
+      "Description": "Raw expression 'camera_x+56'"
     },
     {
       "CodeBlock": "02_intro_move_camera",

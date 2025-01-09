@@ -377,7 +377,7 @@
       "Breakpoint": false,
       "Level": "none",
       "NewBlock": "none",
-      "XPosition": "camera_x+64",
+      "XPosition": "camera_x+56",
       "YPosition": "camera_y+8",
       "TeleportName": "none",
       "XFloat": null,
@@ -429,7 +429,15 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
-      "Conditions": []
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
