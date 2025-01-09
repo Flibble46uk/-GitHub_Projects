@@ -1,5 +1,5 @@
-Compiled on 09 January 2025 09:28:01
-Version string: SE2024.2.250108.13.51.EX
+Compiled on 09 January 2025 13:36:56
+Version string: SE2024.2.250109.21.57.EX
 
 === Misc ===
 ImageFrames: 4
@@ -28,7 +28,7 @@ Misc data size: 18
 === Image optimisations ===
 Panel (background color #000) Original size 1296 Crunched size 76
 Panel scorpion_eng_splashscreen Original size 36792 Crunched size 3380
-Project virtual machine (codeblocks) Original size 8264 Crunched size 8264
+Project virtual machine (codeblocks) Original size 8270 Crunched size 8270
 Header data for map v_intro Original size 844 Crunched size 844
 Tile data for map v_intro (mem restrictions:No_Blocks) Original size 4388 Crunched size 4388
 Asset bundle 0 (Core project asset bundle) Original size 101752 Crunched size 101752
@@ -55,16 +55,16 @@ Map header cache memory: 0
 Map actor cache memory: 0
 Map data memory: 4388
 Map background memory: 1296
-EXE memory: 198948
-vm memory: 8264
+EXE memory: 199012
+vm memory: 8270
 project memory: 1138
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 347872
-Accounted memory other: 328730
-Accounted memory total: 676602
+Accounted memory other: 328800
+Accounted memory total: 676672
 
 === Codeblocks by compiled size ===
 load_level: 550
@@ -73,7 +73,7 @@ do_teleport: 402
 flipscreen_smooth: 310 (Unused?)
 flipxymove: 278 (Unused?)
 load_next_level: 252 (Unused?)
-01_startup: 230
+01_startup: 236
 block_find: 206 (Unused?)
 set_yresolution: 202
 waitforframes: 194

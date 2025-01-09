@@ -5684,192 +5684,198 @@
       "CodeBlock": "01_startup",
       "CodeBlockLine": 3,
       "MemoryOffset": 7248,
+      "Description": "Set 'fadetime' to '1'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7254,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 7256,
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7262,
       "Description": "Raw expression 'v_intro'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 7262,
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7268,
       "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 7270,
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7276,
       "Description": "GOSUB TO 'PRE_LOAD_LEVEL'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 7290,
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7296,
       "Description": "Set 'background' to '-1'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 7296,
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7302,
       "Description": "Raw expression '14'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 7302,
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7308,
       "Description": "Core operation'PopFromStack'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 7310,
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7316,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 7330,
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7336,
       "Description": "GOSUB TO 'FADEIN'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 7350,
-      "Description": "Raw expression 'intro_bg'"
-    },
-    {
-      "CodeBlock": "01_startup",
-      "CodeBlockLine": 4,
+      "CodeBlockLine": 6,
       "MemoryOffset": 7356,
-      "Description": "Raw expression 'none'"
-    },
-    {
-      "CodeBlock": "01_startup",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 7362,
-      "Description": "Raw expression 'none'"
-    },
-    {
-      "CodeBlock": "01_startup",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 7368,
-      "Description": "Core operation'PixelSpawn'"
-    },
-    {
-      "CodeBlock": "01_startup",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 7376,
       "Description": "Set 'camera_x' to '0'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 7382,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 7362,
       "Description": "Set 'camera_y' to '0'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 7388,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 7368,
       "Description": "Set 'camera_follow' to 'camera_follow & 32752'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 7380,
+      "Description": "Raw expression 'intro_bg'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 7386,
+      "Description": "Raw expression 'none'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 7392,
+      "Description": "Raw expression 'none'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 7398,
+      "Description": "Core operation'PixelSpawn'"
     },
     {
       "CodeBlock": "02_intro_flip_bg",
       "CodeBlockLine": 0,
-      "MemoryOffset": 7426,
+      "MemoryOffset": 7432,
       "Description": "02_INTRO_FLIP_BG"
     },
     {
       "CodeBlock": "02_intro_flip_bg",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7426,
-      "Description": "If camera_x >= 320 ELSE GOTO 00007460"
-    },
-    {
-      "CodeBlock": "02_intro_flip_bg",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 7440,
-      "Description": "Raw expression '0'"
+      "MemoryOffset": 7432,
+      "Description": "If camera_x >= 320 ELSE GOTO 00007466"
     },
     {
       "CodeBlock": "02_intro_flip_bg",
       "CodeBlockLine": 2,
       "MemoryOffset": 7446,
-      "Description": "Raw expression 'look_right'"
+      "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "02_intro_flip_bg",
       "CodeBlockLine": 2,
       "MemoryOffset": 7452,
+      "Description": "Raw expression 'look_right'"
+    },
+    {
+      "CodeBlock": "02_intro_flip_bg",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 7458,
       "Description": "Core operation'ActorSetLookdir'"
     },
     {
       "CodeBlock": "02_intro_move_camera",
       "CodeBlockLine": 0,
-      "MemoryOffset": 7486,
+      "MemoryOffset": 7492,
       "Description": "02_INTRO_MOVE_CAMERA"
     },
     {
       "CodeBlock": "02_intro_move_camera",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7486,
-      "Description": "If large_logo == 0 ELSE GOTO 00007590"
+      "MemoryOffset": 7492,
+      "Description": "If large_logo == 0 ELSE GOTO 00007596"
     },
     {
       "CodeBlock": "02_intro_move_camera",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7498,
+      "MemoryOffset": 7504,
       "Description": "If camera_x < 640"
     },
     {
       "CodeBlock": "02_intro_move_camera",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7512,
+      "MemoryOffset": 7518,
       "Description": "Set 'camera_x' to 'camera_x+1'"
     },
     {
       "CodeBlock": "02_intro_move_camera",
       "CodeBlockLine": 4,
-      "MemoryOffset": 7522,
-      "Description": "GOTO '00007590'"
-    },
-    {
-      "CodeBlock": "02_intro_move_camera",
-      "CodeBlockLine": 5,
       "MemoryOffset": 7528,
-      "Description": "Raw expression 'intro_logo'"
+      "Description": "GOTO '00007596'"
     },
     {
       "CodeBlock": "02_intro_move_camera",
       "CodeBlockLine": 5,
       "MemoryOffset": 7534,
+      "Description": "Raw expression 'intro_logo'"
+    },
+    {
+      "CodeBlock": "02_intro_move_camera",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 7540,
       "Description": "Raw expression 'camera_x+64'"
     },
     {
       "CodeBlock": "02_intro_move_camera",
       "CodeBlockLine": 5,
-      "MemoryOffset": 7546,
+      "MemoryOffset": 7552,
       "Description": "Raw expression 'camera_y+8'"
     },
     {
       "CodeBlock": "02_intro_move_camera",
       "CodeBlockLine": 5,
-      "MemoryOffset": 7556,
+      "MemoryOffset": 7562,
       "Description": "Core operation'PixelSpawn'"
     },
     {
       "CodeBlock": "02_intro_move_camera",
       "CodeBlockLine": 6,
-      "MemoryOffset": 7564,
+      "MemoryOffset": 7570,
       "Description": "Yield on  timer to  next line"
     },
     {
       "CodeBlock": "02_intro_move_camera",
       "CodeBlockLine": 7,
-      "MemoryOffset": 7584,
+      "MemoryOffset": 7590,
       "Description": "Set 'large_logo' to '1'"
     }
   ],
