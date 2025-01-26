@@ -1,4 +1,4 @@
-Compiled on 26 January 2025 12:20:10
+Compiled on 26 January 2025 13:21:41
 Version string: SE2024.2.250125.16.51.EX
 
 === Misc ===
@@ -32,7 +32,7 @@ Project virtual machine (codeblocks) Original size 8692 Crunched size 8692
 Header data for map test_map Original size 844 Crunched size 844
 Tile data for map test_map (mem restrictions:No_Blocks) Original size 4072 Crunched size 4072
 Asset bundle 0 (Core project asset bundle) Original size 295296 Crunched size 295296
-Asset bundle 1 (test_map) Original size 13472 Crunched size 13472
+Asset bundle 1 (test_map) Original size 13478 Crunched size 13478
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4404 Crunched size 4404
 Project Data Original size 986 Crunched size 986
