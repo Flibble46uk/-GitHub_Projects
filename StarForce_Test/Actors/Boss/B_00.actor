@@ -1,30 +1,30 @@
 {
   "ShootDirType": "actor_direction",
-  "DefaultLookDir": "left",
+  "DefaultLookDir": "down",
   "Recycle": "Default",
-  "MoveType": "cpu_cameralock",
+  "MoveType": "none",
   "MaxEntities": 0,
-  "NudgeX": 112,
-  "NudgeY": 200,
+  "NudgeX": 8,
+  "NudgeY": 0,
   "Idles": {
-    "UpLeft": "shot_single",
-    "Up": "shot_single",
-    "UpRight": "shot_single",
-    "Left": "shot_single",
-    "Right": "shot_single",
-    "DownLeft": "shot_single",
-    "Down": "shot_single",
-    "DownRight": "shot_single"
+    "UpLeft": "boss_00",
+    "Up": "boss_00",
+    "UpRight": "boss_00",
+    "Left": "boss_00",
+    "Right": "boss_00",
+    "DownLeft": "boss_00",
+    "Down": "boss_00",
+    "DownRight": "boss_00"
   },
   "Moves": {
-    "UpLeft": "shot_single",
-    "Up": "shot_single",
-    "UpRight": "shot_single",
-    "Left": "shot_single",
-    "Right": "shot_single",
-    "DownLeft": "shot_single",
-    "Down": "shot_single",
-    "DownRight": "shot_single"
+    "UpLeft": "boss_00",
+    "Up": "boss_00",
+    "UpRight": "boss_00",
+    "Left": "boss_00",
+    "Right": "boss_00",
+    "DownLeft": "boss_00",
+    "Down": "boss_00",
+    "DownRight": "boss_00"
   },
   "Attacks": {
     "UpLeft": "",
@@ -93,15 +93,15 @@
     }
   ],
   "InvalidDirections": [
+    true,
+    true,
+    true,
+    true,
     false,
+    true,
+    true,
     false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false
+    true
   ],
   "CollBox": {
     "X": -7,
@@ -110,7 +110,7 @@
     "Height": 14
   },
   "AttackDelay": 0,
-  "ZOrder": 9000,
+  "ZOrder": 2000,
   "SpeedLeft": 0.0,
   "SpeedRight": 0.0,
   "SpeedUp": 0.0,

@@ -1,30 +1,30 @@
 {
   "ShootDirType": "actor_direction",
-  "DefaultLookDir": "left",
+  "DefaultLookDir": "down",
   "Recycle": "Default",
-  "MoveType": "cpu_cameralock",
+  "MoveType": "cpu",
   "MaxEntities": 0,
-  "NudgeX": 112,
-  "NudgeY": 200,
+  "NudgeX": 8,
+  "NudgeY": 0,
   "Idles": {
-    "UpLeft": "shot_single",
-    "Up": "shot_single",
-    "UpRight": "shot_single",
-    "Left": "shot_single",
-    "Right": "shot_single",
-    "DownLeft": "shot_single",
-    "Down": "shot_single",
-    "DownRight": "shot_single"
+    "UpLeft": "enemy_01",
+    "Up": "enemy_01",
+    "UpRight": "enemy_01",
+    "Left": "enemy_01",
+    "Right": "enemy_01",
+    "DownLeft": "enemy_01",
+    "Down": "enemy_01",
+    "DownRight": "enemy_01"
   },
   "Moves": {
-    "UpLeft": "shot_single",
-    "Up": "shot_single",
-    "UpRight": "shot_single",
-    "Left": "shot_single",
-    "Right": "shot_single",
-    "DownLeft": "shot_single",
-    "Down": "shot_single",
-    "DownRight": "shot_single"
+    "UpLeft": "enemy_01",
+    "Up": "enemy_01",
+    "UpRight": "enemy_01",
+    "Left": "enemy_01",
+    "Right": "enemy_01",
+    "DownLeft": "enemy_01",
+    "Down": "enemy_01",
+    "DownRight": "enemy_01"
   },
   "Attacks": {
     "UpLeft": "",
@@ -110,11 +110,11 @@
     "Height": 14
   },
   "AttackDelay": 0,
-  "ZOrder": 9000,
+  "ZOrder": 500,
   "SpeedLeft": 0.0,
   "SpeedRight": 0.0,
   "SpeedUp": 0.0,
-  "SpeedDown": 0.0,
+  "SpeedDown": 1.0,
   "AccelLeft": null,
   "AccelRight": null,
   "AccelUp": null,
@@ -197,6 +197,6 @@
   "IsAttacker": null,
   "PreviewParent": null,
   "RotationEnabled": false,
-  "TileID": -1,
+  "TileID": 1,
   "MaxTimelineFrames": 50
 }
