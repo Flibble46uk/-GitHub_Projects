@@ -84,6 +84,13 @@
       "IsMusic": true,
       "Priority": 0,
       "Channel": null
+    },
+    "starforcemusic1": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": true,
+      "Priority": 0,
+      "Channel": null
     }
   },
   "MMLMetaData": {},
