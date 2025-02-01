@@ -70,7 +70,22 @@
   ],
   "AnimationMetaData": {},
   "Anim5MetaData": {},
-  "SoundMetaData": {},
+  "SoundMetaData": {
+    "star_force_arcade_soundtrack___tehkan_1984": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": true,
+      "Priority": 0,
+      "Channel": null
+    },
+    "starforcemusic": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": true,
+      "Priority": 0,
+      "Channel": null
+    }
+  },
   "MMLMetaData": {},
   "NumberFontMetaData": {},
   "FontMetaData": {},
