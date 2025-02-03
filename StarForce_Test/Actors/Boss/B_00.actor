@@ -1,5 +1,5 @@
 {
-  "ShootDirType": "actor_direction",
+  "ShootDirType": "aim_at_player",
   "DefaultLookDir": "down",
   "Recycle": "Default",
   "MoveType": "none",
@@ -81,9 +81,9 @@
     },
     {
       "x": 0,
-      "y": 0,
-      "magnitude": 0.0,
-      "sqrMagnitude": 0
+      "y": 8,
+      "magnitude": 8.0,
+      "sqrMagnitude": 64
     },
     {
       "x": 0,
@@ -109,7 +109,7 @@
     "Width": 14,
     "Height": 14
   },
-  "AttackDelay": 0,
+  "AttackDelay": 60,
   "ZOrder": 2000,
   "SpeedLeft": 0.0,
   "SpeedRight": 0.0,
@@ -132,7 +132,7 @@
   "Camera": null,
   "AutoScroll": null,
   "Flags": 0,
-  "AttackProjectile": null,
+  "AttackProjectile": "en_weap_01",
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,
@@ -194,7 +194,7 @@
   "AutoClearChildren": false,
   "DivertMeleeByProjectile": null,
   "DivertMeleeAgainstProjectile": null,
-  "IsAttacker": null,
+  "IsAttacker": true,
   "PreviewParent": null,
   "RotationEnabled": false,
   "TileID": -1,

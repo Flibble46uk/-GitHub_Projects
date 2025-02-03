@@ -148,7 +148,7 @@
   "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
-  "DivertTimer": null,
+  "DivertTimer": "02_move_boss",
   "DivertTimerFrames": 0,
   "Vars": [
     "0",
