@@ -27,14 +27,14 @@
     "DownRight": "shot_single"
   },
   "Attacks": {
-    "UpLeft": "",
-    "Up": "",
-    "UpRight": "",
-    "Left": "",
-    "Right": "",
-    "DownLeft": "",
-    "Down": "",
-    "DownRight": ""
+    "UpLeft": "shot_attack",
+    "Up": "shot_attack",
+    "UpRight": "shot_attack",
+    "Left": "shot_attack",
+    "Right": "shot_attack",
+    "DownLeft": "shot_attack",
+    "Down": "shot_attack",
+    "DownRight": "shot_attack"
   },
   "ProjectileOffsets": [
     {
