@@ -91,6 +91,20 @@
       "IsMusic": true,
       "Priority": 0,
       "Channel": null
+    },
+    "freestyler": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": true,
+      "Priority": 0,
+      "Channel": null
+    },
+    "mrbluesky": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": true,
+      "Priority": 0,
+      "Channel": null
     }
   },
   "MMLMetaData": {},
