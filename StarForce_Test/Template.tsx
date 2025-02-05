@@ -11,8 +11,16 @@
       <property name="Name" value="en_01" type="string" />
     </properties>
   </tile>
-  <tile id="2" />
-  <tile id="3" />
+  <tile id="2">
+    <properties>
+      <property name="Name" value="player_move" type="string" />
+    </properties>
+  </tile>
+  <tile id="3">
+    <properties>
+      <property name="Name" value="player_bullet" type="string" />
+    </properties>
+  </tile>
   <tile id="4" />
   <tile id="5" />
   <tile id="6" />
