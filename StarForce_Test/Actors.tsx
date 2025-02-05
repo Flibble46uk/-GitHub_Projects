@@ -21,7 +21,11 @@
       <property name="Name" value="player_bullet" type="string" />
     </properties>
   </tile>
-  <tile id="4" />
+  <tile id="4">
+    <properties>
+      <property name="Name" value="expl_01" type="string" />
+    </properties>
+  </tile>
   <tile id="5" />
   <tile id="6" />
   <tile id="7" />
