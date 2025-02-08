@@ -23,7 +23,7 @@
   "NTSC": false,
   "CrunchMode": "NoCrunch",
   "MaxActiveActors": 32,
-  "MaxDormantActors": 128,
+  "MaxDormantActors": 256,
   "DynamicPatterns": 0,
   "PaletteLines": 1,
   "StartingPaletteLine": 0
