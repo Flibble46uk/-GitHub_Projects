@@ -1,5 +1,5 @@
 {
-  "ShootDirType": "aim_at_player",
+  "ShootDirType": "actor_direction",
   "DefaultLookDir": "down",
   "Recycle": "Default",
   "MoveType": "cpu",

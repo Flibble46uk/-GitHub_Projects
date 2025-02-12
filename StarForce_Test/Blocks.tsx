@@ -11,4 +11,14 @@
       <property name="Name" value="level_end" type="string" />
     </properties>
   </tile>
+  <tile id="2">
+    <properties>
+      <property name="Name" value="bonus_01" type="string" />
+    </properties>
+  </tile>
+  <tile id="3">
+    <properties>
+      <property name="Name" value="blank" type="string" />
+    </properties>
+  </tile>
 </tileset>
