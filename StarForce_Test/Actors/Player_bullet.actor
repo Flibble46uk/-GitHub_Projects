@@ -149,7 +149,7 @@
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
   "DivertTimer": "02_player_bullet",
-  "DivertTimerFrames": 0,
+  "DivertTimerFrames": 1,
   "Vars": [
     "0",
     "0",
