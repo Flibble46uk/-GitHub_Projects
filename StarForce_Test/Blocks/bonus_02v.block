@@ -1,11 +1,11 @@
 {
   "BlockImagePath": "Blocks\\Star_Force_blocks.png",
-  "X": 48,
-  "Y": 48,
+  "X": 112,
+  "Y": 32,
   "Divert_PlayerCollision": null,
-  "Divert_PlayerHit": null,
+  "Divert_PlayerHit": "",
   "Divert_PlayerOverlap": null,
-  "Divert_ProjectileCollision": null,
+  "Divert_ProjectileCollision": "",
   "OnAnimationFrame": null,
   "FastBlit": false,
   "IsInvisible": false,
@@ -36,6 +36,6 @@
   ],
   "ZeroIsTransparent": false,
   "PaletteLineNeo": 0,
-  "BlockTag": "shadow",
-  "TileID": 4
+  "BlockTag": null,
+  "TileID": 23
 }

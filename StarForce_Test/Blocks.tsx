@@ -101,4 +101,39 @@
       <property name="Name" value="b15" type="string" />
     </properties>
   </tile>
+  <tile id="20">
+    <properties>
+      <property name="Name" value="bonus_02h" type="string" />
+    </properties>
+  </tile>
+  <tile id="21">
+    <properties>
+      <property name="Name" value="!b02shadow" type="string" />
+    </properties>
+  </tile>
+  <tile id="22">
+    <properties>
+      <property name="Name" value="crater" type="string" />
+    </properties>
+  </tile>
+  <tile id="23">
+    <properties>
+      <property name="Name" value="bonus_02v" type="string" />
+    </properties>
+  </tile>
+  <tile id="24">
+    <properties>
+      <property name="Name" value="bonus_03a" type="string" />
+    </properties>
+  </tile>
+  <tile id="25">
+    <properties>
+      <property name="Name" value="bonus_03b" type="string" />
+    </properties>
+  </tile>
+  <tile id="26">
+    <properties>
+      <property name="Name" value="bonus_03c" type="string" />
+    </properties>
+  </tile>
 </tileset>
