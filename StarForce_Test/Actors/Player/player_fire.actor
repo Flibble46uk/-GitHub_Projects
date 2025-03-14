@@ -148,7 +148,7 @@
   "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
-  "DivertTimer": "",
+  "DivertTimer": "02_player_handler",
   "DivertTimerFrames": 1,
   "Vars": [
     "0",

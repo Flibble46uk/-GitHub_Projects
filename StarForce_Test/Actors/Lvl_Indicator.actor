@@ -5,7 +5,7 @@
   "MoveType": "cpu_cameralock",
   "MaxEntities": 0,
   "NudgeX": 200,
-  "NudgeY": 240,
+  "NudgeY": 8,
   "Idles": {
     "UpLeft": "alphabet_1",
     "Up": "alphabet_1",

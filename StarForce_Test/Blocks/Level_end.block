@@ -1,5 +1,5 @@
 {
-  "BlockImagePath": "Blocks\\STOP.png",
+  "BlockImagePath": "Blocks\\END.png",
   "X": 0,
   "Y": 0,
   "Divert_PlayerCollision": null,
@@ -11,7 +11,7 @@
   "IsInvisible": false,
   "ReplaceTileProperties": true,
   "LinkedMap": "",
-  "BlockSolidType": "NotSolid",
+  "BlockSolidType": "Solid",
   "PlayerCollisionOverride": "Default",
   "ProjectileCollisionOverride": "Default",
   "PaletteLines": [

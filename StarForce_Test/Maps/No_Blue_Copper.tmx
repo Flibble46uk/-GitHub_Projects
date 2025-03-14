@@ -2,7 +2,7 @@
 <map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.10" tiledversion="1.11.1" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="15" nextobjectid="1">
   <properties>
     <property name="amiga_panel" value="" />
-    <property name="divert_timer" value="02_level" />
+    <property name="divert_timer" type="string" value="" />
     <property name="divert_timerframes" type="int" value="1" />
     <property name="override_palette" type="file" value="" />
     <property name="padding_top" type="int" value="2" />

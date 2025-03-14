@@ -20,11 +20,11 @@
       "IsBlank": false
     }
   ],
-  "PreventAttack": false,
-  "PreventMovement": false,
-  "PreventCollision": false,
-  "PreventJump": false,
-  "HideChildren": false,
+  "PreventAttack": true,
+  "PreventMovement": true,
+  "PreventCollision": true,
+  "PreventJump": true,
+  "HideChildren": true,
   "LoopFrame": 0,
   "OnFinish": null,
   "AutoFlip": null,

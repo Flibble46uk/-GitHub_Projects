@@ -20,10 +20,10 @@
       "IsBlank": true
     }
   ],
-  "PreventAttack": false,
+  "PreventAttack": true,
   "PreventMovement": false,
-  "PreventCollision": false,
-  "PreventJump": false,
+  "PreventCollision": true,
+  "PreventJump": true,
   "HideChildren": false,
   "LoopFrame": 0,
   "OnFinish": "02_delay",

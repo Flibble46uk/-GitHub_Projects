@@ -7,7 +7,7 @@
   "Commands": [
     {
       "Compiler": "amiga",
-      "Key": "P",
+      "Key": "R",
       "JoystickPort": -1,
       "JoystickX": 0,
       "JoystickY": 0,
@@ -157,6 +157,41 @@
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
+    },
+    "snd_extra_life": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": 3
+    },
+    "snd_bonus_hit": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": 3
+    },
+    "snd_expl_01": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": 1
+    },
+    "snd_expl_02": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": 1
+    },
+    "snd_player_shot": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": 1
     }
   },
   "MMLMetaData": {},

@@ -5,7 +5,7 @@
   "MoveType": "none",
   "MaxEntities": 0,
   "NudgeX": 0,
-  "NudgeY": -768,
+  "NudgeY": 0,
   "Idles": {
     "UpLeft": "stars_01",
     "Up": "stars_02",
@@ -121,7 +121,7 @@
   "AccelDown": null,
   "AccelLeftAir": null,
   "AccelRightAir": null,
-  "RotationSpeed": 0.0,
+  "RotationSpeed": 0.5,
   "CollType_Left": "block",
   "CollType_Right": "block",
   "CollType_Up": "block",
@@ -148,7 +148,7 @@
   "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
-  "DivertTimer": "02_move_bg",
+  "DivertTimer": "02_bg_move",
   "DivertTimerFrames": 2,
   "Vars": [
     "0",
