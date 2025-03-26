@@ -75,7 +75,7 @@
     },
     {
       "PanelElementType": 0,
-      "Variable": "angle1",
+      "Variable": "ebang",
       "X": 61,
       "Y": 0,
       "NumberFont": "defaultnumberfont",

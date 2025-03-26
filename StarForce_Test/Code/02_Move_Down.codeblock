@@ -81,7 +81,8 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
-      "Conditions": []
+      "Conditions": [],
+      "FileType": "png"
     }
   ]
 }

@@ -1,0 +1,194 @@
+Compiled on 26 March 2025 04:24:24
+Version string: SE2024.2.250324.21.09.EX
+
+=== Misc ===
+ImageFrames: 177
+ImageFrame Data Size: 7788
+Maps and Asset Bundles Count: 3
+Maps and Asset Bundles Data Size: 36
+Actor Count: 35
+Actor Data Size: 6300
+Block Count: 48
+Block Data Size: 3264
+Anim5 Count: 0
+Anim5 Data Size: 0
+Sound Count: 9
+Sound Data Size: 252
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 72
+Animations Data Size: 1152
+AnimationFrame Count: 178
+AnimationFrame Data Size: 2848
+Sprites: 4
+Sprites Data Size: 56
+Attack Data: 3
+Attack Data Size: 264
+Misc data size: 164
+=== Image optimisations ===
+Panel (background color #000) Original size 1296 Crunched size 76
+Panel scorpion_eng_splashscreen Original size 36792 Crunched size 3380
+Panel score_panel Original size 2144 Crunched size 2144
+Panel bobs score_panel Original size 238 Crunched size 238
+Panel (background)star_force_blue Original size 2736 Crunched size 2736
+Project virtual machine (codeblocks) Original size 19882 Crunched size 19882
+Map actor data for main_map Original size 3976 Crunched size 3976
+Header data for map main_map Original size 844 Crunched size 844
+Tile data for map main_map (mem restrictions:None) Original size 275768 Crunched size 275768
+Header data for map no_blue_copper Original size 844 Crunched size 844
+Tile data for map no_blue_copper (mem restrictions:None) Original size 240 Crunched size 240
+Asset bundle 0 (Core project asset bundle) Original size 1146978 Crunched size 1146978
+Asset bundle 1 (main_map) Original size 70174 Crunched size 70174
+Asset bundle 2 (no_blue_copper) Original size 160 Crunched size 160
+Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
+Project Header Original size 4408 Crunched size 4408
+Project Data Original size 22134 Crunched size 22134
+Project virtual machine redirects Original size 4 Crunched size 4
+
+=== Accounted Memory Usage ===
+(Note that this isn't a full account of memory usage, just the memory we can account for)
+
+For chip:
+Map gfx (level gfx bundle 1): 70174
+Music memory (): 0
+BP Buffer memory: 104760
+core sfx/gfx memory: 1146978
+Parallax memory: 0
+OS/other estimated: 99328
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map actor cache memory: 0
+Map data memory: 275768
+Map background memory: 2736
+EXE memory: 202792
+vm memory: 19882
+project memory: 22134
+memory reserved for active actors on screen (128): 18440
+memory reserved for dormant actors in map (256): 9216
+OS/other estimated: 105472
+
+Accounted memory chip: 1421240
+Accounted memory other: 656440
+Accounted memory total: 2077680
+
+=== Possibly unused blocks ===
+b03
+b04
+b05
+b06
+b07
+b08
+b09
+b10
+b11
+b12
+b13
+b14
+b15
+bonus_4d
+
+=== Possibly unused sound effects ===
+snd_bonus_hit
+snd_score_count
+star_force_(1985_06_25)(tehkan)(hudson)_[11]
+star_force_(1985_06_25)(tehkan)(hudson)_[15]
+
+=== Codeblocks by compiled size ===
+01_startup: 1638
+02_level: 1592
+02_player_bullet: 1102
+02_larios: 1096
+02_bonus_reveal: 770
+load_level: 550
+pre_startup: 500
+02_enemy_fire: 500
+03_handler_02_titta: 452
+do_teleport: 402
+03_handler_01_galli: 314
+flipscreen_smooth: 310 (Unused?)
+flipxymove: 278 (Unused?)
+02_colour_cycle_01: 258
+load_next_level: 252 (Unused?)
+02_player_death: 244 (Unused?)
+02_player_handler: 224
+02_set_palette: 218
+02_bg_move: 212
+block_find: 206 (Unused?)
+set_yresolution: 202
+02_larios_b: 202
+waitforframes: 194
+02_colour_cycle_02: 194
+check_talkpad: 192 (Unused?)
+02_larios_a: 190
+pause: 184 (Unused?)
+02_destroy_enemy: 184
+block_count: 178 (Unused?)
+02_destroy_building: 178
+03_handler_05_faillar: 166
+flipymove: 162 (Unused?)
+pre_quit: 160
+snap_to_screen: 158 (Unused?)
+02_count_bonus_4: 156
+load_panel: 146
+flipxmove: 142 (Unused?)
+unload_level: 142
+AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 130
+destroy_all_blocks: 128 (Unused?)
+restart_this_level: 128 (Unused?)
+pre_load_level: 122
+fadein: 112
+02_update_lives: 108
+unload_panel: 106
+waitforfireup: 102
+waitforfiredown: 98
+01_title_screen: 98
+load_panel_bottom: 96 (Unused?)
+load_panel_top: 96 (Unused?)
+02_delay: 96
+destroy_child_actors: 94 (Unused?)
+fadeout: 88
+pre_anim5: 86 (Unused?)
+waitforfirehit: 86
+load_music: 78 (Unused?)
+load_music_finish: 76
+wrap_screen_bottom: 76 (Unused?)
+wrap_screen_right: 76 (Unused?)
+set_ntsc: 74 (Unused?)
+flipscreen: 72 (Unused?)
+wrap_screen_left: 72 (Unused?)
+wrap_screen_top: 72 (Unused?)
+quit: 70 (Unused?)
+jump_actor: 66 (Unused?)
+load_panel_finish: 66
+unload_panel_bottom: 62
+unload_panel_top: 62
+02_level_boss: 62
+02_level_letter: 62
+destroy_all_actors: 60 (Unused?)
+destroy_actor: 58
+regenerate_screen: 58
+02_player_bullet_destroy: 58
+02_player_move: 58
+02_move_up: 56
+AUTOGEN_OUTOFSCREEN_None_None_None_destroy_actor: 54
+destroy_block: 52 (Unused?)
+return: 52 (Unused?)
+AUTOGEN_OUTOFSCREEN_None_None_destroy_actor_None: 50
+regenerate_screen_wait: 46
+02_update_off: 46 (Unused?)
+02_move_down: 44
+02_move_boss: 42
+03_spawner_reset: 42 (Unused?)
+freeze_actor: 40
+unfreeze_actor: 40 (Unused?)
+autogen_larios_01_down_1: 38
+block_coll_force: 32 (Unused?)
+block_coll_passthru: 32 (Unused?)
+clear_block_collision: 32
+02_auto_fire: 32
+vm_registers: 26 (Unused?)
+debug_breakpoint: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)
+00_bugs_to_do: 26 (Unused?)
