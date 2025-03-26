@@ -89,7 +89,8 @@
           "ComparisonNext": "End",
           "IsValid": true
         }
-      ]
+      ],
+      "FileType": "png"
     },
     {
       "Values": {},
@@ -178,13 +179,14 @@
           "ComparisonNext": "End",
           "IsValid": false
         }
-      ]
+      ],
+      "FileType": "png"
     },
     {
       "Values": {},
       "DataVersion": 6,
       "Category": "Base",
-      "BasicOperationType": "RollDice",
+      "BasicOperationType": "SetVariable",
       "DisplayOperationType": "SetPanel",
       "AudioOperationType": "PlaySound",
       "ConditionType": "Condition",
@@ -199,6 +201,96 @@
       "Goto": "",
       "Comment": "",
       "Variable": "bg_roll",
+      "Expression": "bg_roll+1",
+      "Index": "0",
+      "Label": "",
+      "Disabled": false,
+      "Breakpoint": false,
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": "",
+      "YPosition": "",
+      "TeleportName": "none",
+      "XFloat": null,
+      "YFloat": null,
+      "ActorType": "none",
+      "Animation": "none",
+      "PushXPixels": "",
+      "PushYPixels": "",
+      "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": "0",
+      "CameraX": "",
+      "CameraY": "",
+      "CameraBox": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "LookAhead": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "YRes": "",
+      "FrameWait": "",
+      "CameraFollowLeft": true,
+      "CameraFollowRight": true,
+      "CameraFollowUp": true,
+      "CameraFollowDown": true,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
+      "ColorIndex": "0",
+      "Color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "Sound": "",
+      "Music": "",
+      "MusicPos": "0",
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "VariableType": "Variable",
+      "VariableExpansionMode": "Word",
+      "DiceSides": "2",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ],
+      "FileType": "png"
+    },
+    {
+      "Values": {},
+      "DataVersion": 6,
+      "Category": "Conditional",
+      "BasicOperationType": "CommentOnly",
+      "DisplayOperationType": "SetPanel",
+      "AudioOperationType": "PlaySound",
+      "ConditionType": "Condition",
+      "LevelOperationType": "LoadLevel",
+      "ActorOperationType": "SetType",
+      "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "PaletteOperationType": "SetColor",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
+      "Goto": "",
+      "Comment": "",
+      "Variable": "none",
       "Expression": "",
       "Index": "0",
       "Label": "",
@@ -258,8 +350,287 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
+      "Conditions": [
+        {
+          "LeftSide": "bg_roll",
+          "Comparison": "Equals",
+          "RightSide": "4",
+          "ComparisonNext": "End",
+          "IsValid": true
+        }
+      ],
+      "FileType": "png"
+    },
+    {
+      "Values": {},
+      "DataVersion": 6,
+      "Category": "Base",
+      "BasicOperationType": "SetVariable",
+      "DisplayOperationType": "SetPanel",
+      "AudioOperationType": "PlaySound",
+      "ConditionType": "Condition",
+      "LevelOperationType": "LoadLevel",
+      "ActorOperationType": "SetType",
+      "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "PaletteOperationType": "SetColor",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
+      "Goto": "",
+      "Comment": "",
+      "Variable": "bg_roll",
+      "Expression": "1",
+      "Index": "0",
+      "Label": "",
+      "Disabled": false,
+      "Breakpoint": false,
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": "",
+      "YPosition": "",
+      "TeleportName": "none",
+      "XFloat": null,
+      "YFloat": null,
+      "ActorType": "none",
+      "Animation": "none",
+      "PushXPixels": "",
+      "PushYPixels": "",
+      "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": "0",
+      "CameraX": "",
+      "CameraY": "",
+      "CameraBox": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "LookAhead": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "YRes": "",
+      "FrameWait": "",
+      "CameraFollowLeft": true,
+      "CameraFollowRight": true,
+      "CameraFollowUp": true,
+      "CameraFollowDown": true,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
+      "ColorIndex": "0",
+      "Color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "Sound": "",
+      "Music": "",
+      "MusicPos": "0",
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "VariableType": "Variable",
+      "VariableExpansionMode": "Word",
+      "DiceSides": "2",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ],
+      "FileType": "png"
+    },
+    {
+      "Values": {},
+      "DataVersion": 6,
+      "Category": "Conditional",
+      "BasicOperationType": "CommentOnly",
+      "DisplayOperationType": "SetPanel",
+      "AudioOperationType": "PlaySound",
+      "ConditionType": "EndCondition",
+      "LevelOperationType": "LoadLevel",
+      "ActorOperationType": "SetType",
+      "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "PaletteOperationType": "SetColor",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
+      "Goto": "",
+      "Comment": "",
+      "Variable": "none",
+      "Expression": "",
+      "Index": "0",
+      "Label": "",
+      "Disabled": false,
+      "Breakpoint": false,
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": "",
+      "YPosition": "",
+      "TeleportName": "none",
+      "XFloat": null,
+      "YFloat": null,
+      "ActorType": "none",
+      "Animation": "none",
+      "PushXPixels": "",
+      "PushYPixels": "",
+      "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": "0",
+      "CameraX": "",
+      "CameraY": "",
+      "CameraBox": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "LookAhead": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "YRes": "",
+      "FrameWait": "",
+      "CameraFollowLeft": true,
+      "CameraFollowRight": true,
+      "CameraFollowUp": true,
+      "CameraFollowDown": true,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
+      "ColorIndex": "0",
+      "Color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "Sound": "",
+      "Music": "",
+      "MusicPos": "0",
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "VariableType": "Variable",
+      "VariableExpansionMode": "Word",
+      "DiceSides": "2",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ],
+      "FileType": "png"
+    },
+    {
+      "Values": {},
+      "DataVersion": 6,
+      "Category": "Base",
+      "BasicOperationType": "RollDice",
+      "DisplayOperationType": "SetPanel",
+      "AudioOperationType": "PlaySound",
+      "ConditionType": "Condition",
+      "LevelOperationType": "LoadLevel",
+      "ActorOperationType": "SetType",
+      "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "PaletteOperationType": "SetColor",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
+      "Goto": "",
+      "Comment": "",
+      "Variable": "bg_roll",
+      "Expression": "",
+      "Index": "0",
+      "Label": "",
+      "Disabled": true,
+      "Breakpoint": false,
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": "",
+      "YPosition": "",
+      "TeleportName": "none",
+      "XFloat": null,
+      "YFloat": null,
+      "ActorType": "none",
+      "Animation": "none",
+      "PushXPixels": "",
+      "PushYPixels": "",
+      "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": "0",
+      "CameraX": "",
+      "CameraY": "",
+      "CameraBox": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "LookAhead": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "YRes": "",
+      "FrameWait": "",
+      "CameraFollowLeft": true,
+      "CameraFollowRight": true,
+      "CameraFollowUp": true,
+      "CameraFollowDown": true,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
+      "ColorIndex": "0",
+      "Color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "Sound": "",
+      "Music": "",
+      "MusicPos": "0",
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "VariableType": "Variable",
+      "VariableExpansionMode": "Word",
       "DiceSides": "3",
-      "Conditions": []
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ],
+      "FileType": "png"
     },
     {
       "Values": {},
@@ -348,7 +719,8 @@
           "ComparisonNext": "End",
           "IsValid": true
         }
-      ]
+      ],
+      "FileType": "png"
     },
     {
       "Values": {},
@@ -437,7 +809,8 @@
           "ComparisonNext": "End",
           "IsValid": false
         }
-      ]
+      ],
+      "FileType": "png"
     },
     {
       "Values": {},
@@ -526,7 +899,8 @@
           "ComparisonNext": "End",
           "IsValid": true
         }
-      ]
+      ],
+      "FileType": "png"
     },
     {
       "Values": {},
@@ -615,7 +989,8 @@
           "ComparisonNext": "End",
           "IsValid": false
         }
-      ]
+      ],
+      "FileType": "png"
     },
     {
       "Values": {},
@@ -704,7 +1079,8 @@
           "ComparisonNext": "End",
           "IsValid": true
         }
-      ]
+      ],
+      "FileType": "png"
     },
     {
       "Values": {},
@@ -793,7 +1169,8 @@
           "ComparisonNext": "End",
           "IsValid": false
         }
-      ]
+      ],
+      "FileType": "png"
     },
     {
       "Values": {},
@@ -882,7 +1259,8 @@
           "ComparisonNext": "End",
           "IsValid": false
         }
-      ]
+      ],
+      "FileType": "png"
     },
     {
       "Values": {},
@@ -971,7 +1349,8 @@
           "ComparisonNext": "End",
           "IsValid": false
         }
-      ]
+      ],
+      "FileType": "png"
     },
     {
       "Values": {},
@@ -1060,7 +1439,8 @@
           "ComparisonNext": "End",
           "IsValid": false
         }
-      ]
+      ],
+      "FileType": "png"
     },
     {
       "Values": {},
@@ -1149,7 +1529,8 @@
           "ComparisonNext": "End",
           "IsValid": false
         }
-      ]
+      ],
+      "FileType": "png"
     },
     {
       "Values": {},
@@ -1238,7 +1619,8 @@
           "ComparisonNext": "End",
           "IsValid": false
         }
-      ]
+      ],
+      "FileType": "png"
     },
     {
       "Values": {},
@@ -1327,7 +1709,8 @@
           "ComparisonNext": "End",
           "IsValid": true
         }
-      ]
+      ],
+      "FileType": "png"
     },
     {
       "Values": {},
@@ -1416,7 +1799,8 @@
           "ComparisonNext": "End",
           "IsValid": false
         }
-      ]
+      ],
+      "FileType": "png"
     },
     {
       "Values": {},
@@ -1505,7 +1889,8 @@
           "ComparisonNext": "End",
           "IsValid": false
         }
-      ]
+      ],
+      "FileType": "png"
     }
   ]
 }

@@ -192,6 +192,27 @@
       "IsMusic": false,
       "Priority": 0,
       "Channel": 1
+    },
+    "snd_score_count": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "star_force_(1985_06_25)(tehkan)(hudson)_[11]": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "star_force_(1985_06_25)(tehkan)(hudson)_[15]": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
     }
   },
   "MMLMetaData": {},

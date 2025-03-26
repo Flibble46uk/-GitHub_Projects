@@ -141,7 +141,7 @@
   "DivertPlayerCollision": "",
   "DivertPlayerHit": "",
   "DivertHitAgainstPlayer": "",
-  "DivertProjectileCollision": "02_player_death",
+  "DivertProjectileCollision": "",
   "DivertOutOfScreenLeft": "",
   "DivertOutOfScreenRight": "",
   "DivertOutOfScreenUp": "",
