@@ -54,13 +54,13 @@
       "PaletteLineNeo": 0,
       "RenderType": "OnlySprite",
       "SpriteType": "Attached_16colors",
-      "Path": "BG_01.png",
+      "Path": "BG_03.png",
       "HandleX": 0,
       "HandleY": 0,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "BG_01",
+      "Name": "BG_03",
       "IsBlank": false
     }
   ],

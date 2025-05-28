@@ -2,7 +2,6 @@
   "TargetPlatform": "amiga_aga_cd32",
   "StartupCodeBlock": "!00startup",
   "Recompile": true,
-  "DebugMode": false,
   "DataVersion": 3,
   "Commands": [
     {
