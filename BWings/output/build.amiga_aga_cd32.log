@@ -1,5 +1,5 @@
-Compiled on 28 May 2025 14:04:21
-Version string: SE2025.0.250528.18.39.EX
+Compiled on 03 July 2025 18:45:03
+Version string: SE2025.0.250703.20.27.EX
 
 === Misc ===
 ImageFrames: 4
@@ -25,24 +25,26 @@ Sprites Data Size: 56
 Attack Data: 1
 Attack Data Size: 88
 Misc data size: 50
-=== Image optimisations ===
-Panel (background color #964) Original size 1296 Crunched size 76
-Panel scorpion_eng_splashscreen Original size 36792 Crunched size 3380
-Project virtual machine (codeblocks) Original size 8704 Crunched size 8704
-Header data for map map_01 Original size 844 Crunched size 844
-Tile data for map map_01 (mem restrictions:No_Blocks) Original size 74088 Crunched size 74088
-Asset bundle 0 (Core project asset bundle) Original size 200304 Crunched size 200304
-Asset bundle 1 (map_01) Original size 11898 Crunched size 11898
-Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
-Project Header Original size 4376 Crunched size 4376
-Project Data Original size 1160 Crunched size 1160
-Project virtual machine redirects Original size 4 Crunched size 4
+
+=== Data Sizes ===
+    Size | Crunch | Detail
+  200304 |        | Asset bundle 0 (Core project asset bundle)
+   74088 |        | Tile data for map map_01 (mem restrictions:No_Blocks)
+   11898 |        | Asset bundle 1 (map_01)
+    8526 |        | Project virtual machine (codeblocks)
+    4376 |        | Project Header
+    3380 |  (91%) | Panel scorpion_eng_splashscreen
+    1160 |        | Project Data
+     844 |        | Header data for map map_01
+      76 |  (95%) | Panel (background color #964)
+       4 |        | Project virtual machine redirects
+       2 |        | Misc Data (paths, hurt boxes etc)
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
 
 For chip:
-Map gfx (Panel: scorpion_eng_splashscreen): 36792
+Map gfx (Panel: scorpion_eng_splashscreen): 36784
 Music memory (): 0
 BP Buffer memory: 83296
 Core sfx/gfx memory: 200304
@@ -52,25 +54,25 @@ OS/other estimated: 99328
 For other:
 Map data memory: 74088
 Map background memory: 1296
-EXE memory: 202492
-vm memory: 8704
+EXE memory: 204544
+vm memory: 8526
 project memory: 1160
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 419720
-Accounted memory other: 402436
-Accounted memory total: 822156
+Accounted memory chip: 419712
+Accounted memory other: 404310
+Accounted memory total: 824022
 
 === Codeblocks by compiled size ===
-load_level: 550
-pre_startup: 500
-!00startup: 462
-do_teleport: 402
+load_level: 650
+pre_startup: 508
+!00startup: 478
 flipscreen_smooth: 310 (Unused?)
+load_next_level: 308 (Unused?)
+do_teleport: 300
 flipxymove: 278 (Unused?)
-load_next_level: 252 (Unused?)
 block_find: 206 (Unused?)
 set_yresolution: 202
 waitforframes: 194
@@ -81,24 +83,23 @@ block_count: 178 (Unused?)
 flipymove: 162 (Unused?)
 pre_quit: 160
 snap_to_screen: 158 (Unused?)
-load_panel: 146
+restart_this_level: 156 (Unused?)
 flipxmove: 142 (Unused?)
-unload_level: 142
+load_panel: 134
+unload_level: 130
 destroy_all_blocks: 128 (Unused?)
-restart_this_level: 128 (Unused?)
 pre_load_level: 122
-fadein: 112
-unload_panel: 106
+fadein: 108
+unload_panel: 102
 waitforfireup: 102
 waitforfiredown: 98
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)
-fadeout: 88
-pre_anim5: 86 (Unused?)
 waitforfirehit: 86
 !scroll_bg: 80
 load_music: 78 (Unused?)
+fadeout: 76
 load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)
 wrap_screen_right: 76 (Unused?)
@@ -106,17 +107,15 @@ set_ntsc: 74 (Unused?)
 flipscreen: 72 (Unused?)
 wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
-quit: 70 (Unused?)
 jump_actor: 66 (Unused?)
-load_panel_finish: 66
-unload_panel_bottom: 62
-unload_panel_top: 62
 destroy_all_actors: 60 (Unused?)
+quit: 60 (Unused?)
 destroy_actor: 58
-regenerate_screen: 58
 destroy_block: 52 (Unused?)
 return: 52 (Unused?)
-regenerate_screen_wait: 46
+load_panel_finish: 50
+unload_panel_bottom: 50
+unload_panel_top: 50
 freeze_actor: 40 (Unused?)
 unfreeze_actor: 40 (Unused?)
 autogen_back_01_0: 38

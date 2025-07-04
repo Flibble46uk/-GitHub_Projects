@@ -13,3 +13,7 @@ FILE "cdaudio_track_4.WAV" WAV
   TRACK 04 AUDIO
     PREGAP 00:02:00
     INDEX 01 00:00:00
+FILE "cdaudio_track_5.WAV" WAV
+  TRACK 05 AUDIO
+    PREGAP 00:02:00
+    INDEX 01 00:00:00

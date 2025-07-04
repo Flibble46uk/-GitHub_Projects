@@ -6918,7 +6918,7 @@
         "a": 255
       },
       "Sound": "",
-      "Music": "freestyler",
+      "Music": "sanxion_remi",
       "MusicPos": "0",
       "SpeakDelay": 1,
       "Platform": "all",
@@ -8342,7 +8342,10 @@
       "FileType": "png"
     },
     {
-      "Values": {},
+      "Values": {
+        "BackgroundAmiga": "",
+        "BackgroundMD": ""
+      },
       "DataVersion": 6,
       "Category": "Level",
       "BasicOperationType": "CommentOnly",
@@ -8365,7 +8368,7 @@
       "Label": "",
       "Disabled": false,
       "Breakpoint": false,
-      "Level": "no_blue_copper",
+      "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
       "YPosition": "",

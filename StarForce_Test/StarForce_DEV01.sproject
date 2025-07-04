@@ -213,6 +213,13 @@
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
+    },
+    "sanxion_remi": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": true,
+      "Priority": 0,
+      "Channel": null
     }
   },
   "MMLMetaData": {},
