@@ -1,0 +1,125 @@
+Compiled on 12 October 2025 11:06:25
+Version string: SE2025.0.251012.18.46.EX
+
+=== Misc ===
+ImageFrames: 5
+ImageFrame Data Size: 220
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 0
+Actor Count: 2
+Actor Data Size: 360
+Block Count: 11
+Block Data Size: 748
+Anim5 Count: 0
+Anim5 Data Size: 0
+Sound Count: 1
+Sound Data Size: 28
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 3
+Animations Data Size: 48
+AnimationFrame Count: 6
+AnimationFrame Data Size: 96
+Sprites: 1
+Sprites Data Size: 14
+Attack Data: 1
+Attack Data Size: 88
+Misc data size: 32
+
+=== Data Sizes ===
+    Size | Crunch | Detail
+    8170 |        | Project virtual machine (codeblocks)
+    4376 |        | Project Header
+    3380 |  (91%) | Panel scorpion_eng_splashscreen
+    2644 |        | Asset bundle 1 (test_01)
+    1644 |        | Project Data
+    1444 |        | Tile data for map test_01 (mem restrictions:None)
+    1296 |        | Panel (background)level_01_bg
+    1070 |        | Asset bundle 0 (Core project asset bundle)
+     848 |        | Header data for map test_01
+      76 |  (95%) | Panel (background color #FFF)
+       4 |        | Project virtual machine redirects
+       2 |        | Misc Data (paths, hurt boxes etc)
+
+=== Accounted Memory Usage ===
+(Note that this isn't a full account of memory usage, just the memory we can account for)
+
+For chip:
+Map gfx (Panel: scorpion_eng_splashscreen): 36784
+Music sample (): 0
+BP Buffer memory: 60000
+Core sfx/gfx memory: 1070
+Parallax memory: 0
+OS/other estimated: 99328
+
+For other:
+Map data memory: 1444
+Map background memory: 1296
+EXE memory: 217008
+vm memory: 8170
+project memory: 1644
+Music data (): 0
+memory reserved for active actors on screen (32): 5064
+memory reserved for dormant actors in map (128): 4608
+OS/other estimated: 105472
+
+Accounted memory chip: 197182
+Accounted memory other: 344706
+Accounted memory total: 541888
+
+=== Codeblocks by compiled size ===
+load_level: 650
+pre_startup: 446
+flipscreen_smooth: 310 (Unused?)
+do_teleport: 300
+flipxymove: 278 (Unused?)
+load_next_level: 268 (Unused?)
+block_find: 210 (Unused?)
+01_startup: 206
+set_yresolution: 202
+waitforframes: 194
+check_talkpad: 192 (Unused?)
+pause: 184
+block_count: 178 (Unused?)
+flipymove: 162 (Unused?)
+snap_to_screen: 162 (Unused?)
+pre_quit: 160
+flipxmove: 142 (Unused?)
+restart_this_level: 136 (Unused?)
+load_panel: 134
+unload_level: 130
+destroy_all_blocks: 128 (Unused?)
+pre_load_level: 122
+fadein: 108
+waitforfireup: 106
+unload_panel: 102
+waitforfiredown: 102
+load_panel_bottom: 96 (Unused?)
+load_panel_top: 96 (Unused?)
+destroy_child_actors: 94 (Unused?)
+waitforfirehit: 86
+load_music: 78 (Unused?)
+fadeout: 76
+load_music_finish: 76
+wrap_screen_bottom: 76 (Unused?)
+wrap_screen_right: 76 (Unused?)
+set_ntsc: 74 (Unused?)
+flipscreen: 72 (Unused?)
+wrap_screen_left: 72 (Unused?)
+wrap_screen_top: 72 (Unused?)
+jump_actor: 66 (Unused?)
+destroy_all_actors: 60 (Unused?)
+quit: 60 (Unused?)
+destroy_actor: 58
+destroy_block: 52 (Unused?)
+return: 52 (Unused?)
+load_panel_finish: 50
+unload_panel_bottom: 50
+unload_panel_top: 50
+freeze_actor: 40 (Unused?)
+unfreeze_actor: 40 (Unused?)
+block_coll_force: 32 (Unused?)
+block_coll_passthru: 32
+vm_registers: 26 (Unused?)
+debug_breakpoint: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)
