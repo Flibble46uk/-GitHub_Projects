@@ -4,19 +4,19 @@
       "EventContainer": {
         "Events": []
       },
-      "Duration": 1000,
+      "Duration": 25,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
-      "Path": "Fantasy_Logo_00x00.png",
-      "HandleX": -80,
-      "HandleY": 0,
+      "Path": "Enemy_01_00x00.png",
+      "HandleX": -9,
+      "HandleY": -1,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "Fantasy_Logo_00x00",
+      "Name": "Enemy_01_00x00",
       "IsBlank": false
     },
     {
@@ -25,7 +25,7 @@
           {
             "FrameEventType": "Trigger",
             "Dir": "move_right",
-            "Codeblock": "destroy_actor",
+            "Codeblock": "02_lvl_01_enemy_01_change",
             "Actor": "none",
             "Sound": "none",
             "Variable": null,
@@ -64,53 +64,10 @@
             "HasActorAngle": false,
             "HasChildAngle": false,
             "HasAngle": false
-          },
-          {
-            "FrameEventType": "SetVariable",
-            "Dir": "move_right",
-            "Codeblock": null,
-            "Actor": "none",
-            "Sound": "none",
-            "Variable": "interface",
-            "Expression": "interface+1",
-            "Tag": "FrameEvent1",
-            "IsConditional": false,
-            "OverrideDirection": false,
-            "Animation": "none",
-            "AnimationLoop": false,
-            "AutoFlip": false,
-            "AnimationFrame": "0",
-            "IsGlobal": true,
-            "OverrideSpeed": false,
-            "XFloat": null,
-            "YFloat": null,
-            "ColorR": 0,
-            "ColorG": 0,
-            "ColorB": 255,
-            "ResetMovement": true,
-            "ResetAnimation": true,
-            "Box": {
-              "X": -4,
-              "Y": -4,
-              "Width": 8,
-              "Height": 8
-            },
-            "HasTag": false,
-            "Color": {
-              "r": 0,
-              "g": 0,
-              "b": 255,
-              "a": 128
-            },
-            "Conditions": [],
-            "Angle": 0.0,
-            "HasActorAngle": false,
-            "HasChildAngle": false,
-            "HasAngle": false
           }
         ]
       },
-      "Duration": 5,
+      "Duration": 1,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
