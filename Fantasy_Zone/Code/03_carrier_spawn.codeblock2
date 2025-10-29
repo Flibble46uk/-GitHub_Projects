@@ -1,0 +1,17 @@
+Variable word Temp_x=0
+Variable word rand=0
+
+If current_level == 1
+    For temp_x From 0 To 9
+        CameraPosition X=temp_x*208 ResetMovement
+        Roll 7 Into Rand
+        Spawn lvl_01_carrier_a X=Camera_x+32+(rand*16) Y=32+(rand*16)
+        
+        Set new_var1=temp_x //Carrier ID
+        Set new_var2=2 //Damage level
+        
+        # Roll 32 Into Rand
+        # Set new_x=new_x+rand
+        # Wait 0
+    End
+End

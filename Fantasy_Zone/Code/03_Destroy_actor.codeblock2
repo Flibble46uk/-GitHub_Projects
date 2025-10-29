@@ -1,0 +1,52 @@
+//Destroy Bird enemy
+If actor_tag == enemy_01
+    ProjectileType none
+    Sound fz_enemydestroyed Volume=256
+    
+    ActorType expl_type_01 ResetMovement ResetAnimation
+    Set enemy_count_01=enemy_count_01-1
+    
+    Set player_score=player_score+10
+End
+
+//Destroy flying carrier.
+If actor_tag == carrier
+    ProjectileType none
+    If actor_var2 > 0
+        Set actor_var2=actor_var2-1
+    End
+    
+    If actor_var2 == 0
+        Sound fz_enemydestroyed Volume=256
+        
+        //Destroy child objects.
+        Set newvalue=actor_uniqueid
+        ForEachActor actor_spawnerid == newvalue and actor_uniqueid != newvalue Goto destroy_actor
+        
+        ActorType lvl_01_carrier_die ResetMovement ResetAnimation
+        ActorDirection move_down
+        NewType expl_type_02 ResetMovement ResetAnimation
+        Spawn expl_type_02 X=actor_x Y=actor_y
+        Set player_score=player_score+100
+    End
+End
+
+//Turn dead carrier into blocks
+If actor_tag == lvl_01_carrier_die
+    # Sound fz_enemydestroyed Volume=256
+    If actor_y >= mapheight-16
+        
+        //Working code
+        # SetBlock lvl_01_carrier_01 X=actor_x-16/16 Y=13
+        # SetBlock lvl_01_carrier_02 X=actor_x/16 Y=13
+        # SetBlock lvl_01_carrier_03 X=actor_x+16/16 Y=13
+        
+        //None working code
+        SetBlock lvl_01_carrier_01 X=(actor_x-16)/16 Y=13
+        SetBlock lvl_01_carrier_02 X=(actor_x)/16 Y=13
+        SetBlock lvl_01_carrier_03 X=(actor_x+16)/16 Y=13
+        
+        ActorType none ResetMovement ResetAnimation
+    End
+    
+End

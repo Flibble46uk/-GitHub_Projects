@@ -1,0 +1,21 @@
+If control1_x == 1
+    ActorDirection move_right
+    Set player_x=player_x+1
+End
+
+If control1_x == -1
+    ActorDirection move_left
+    Set player_x=player_x-1
+End
+
+If control1_y == 1
+    If player_y < mapheight-20
+        Set player_y=player_y+2
+    End
+End
+
+If control1_y == -1
+    If player_y > 0
+        Set player_y=player_y-2
+    End
+End

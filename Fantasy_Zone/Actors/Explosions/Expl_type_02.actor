@@ -1,30 +1,30 @@
 {
   "ShootDirType": "actor_direction",
   "DefaultLookDir": "left",
-  "Recycle": "Never",
+  "Recycle": "Default",
   "MoveType": "none",
   "MaxEntities": 0,
-  "NudgeX": 0,
-  "NudgeY": 0,
+  "NudgeX": -4,
+  "NudgeY": -5,
   "Idles": {
-    "UpLeft": "lvl_01_base_anim_a",
-    "Up": "lvl_01_base_anim_a",
-    "UpRight": "lvl_01_base_anim_a",
-    "Left": "lvl_01_base_anim_a",
-    "Right": "lvl_01_base_anim_a",
-    "DownLeft": "lvl_01_base_anim_a",
-    "Down": "lvl_01_base_anim_a",
-    "DownRight": "lvl_01_base_anim_a"
+    "UpLeft": "explosion_type_01",
+    "Up": "explosion_type_01",
+    "UpRight": "explosion_type_01",
+    "Left": "explosion_type_02",
+    "Right": "explosion_type_01",
+    "DownLeft": "explosion_type_01",
+    "Down": "explosion_type_01",
+    "DownRight": "explosion_type_01"
   },
   "Moves": {
-    "UpLeft": "lvl_01_base_anim_a",
-    "Up": "lvl_01_base_anim_a",
-    "UpRight": "lvl_01_base_anim_a",
-    "Left": "lvl_01_base_anim_a",
-    "Right": "lvl_01_base_anim_a",
-    "DownLeft": "lvl_01_base_anim_a",
-    "Down": "lvl_01_base_anim_a",
-    "DownRight": "lvl_01_base_anim_a"
+    "UpLeft": "explosion_type_01",
+    "Up": "explosion_type_01",
+    "UpRight": "explosion_type_01",
+    "Left": "explosion_type_02",
+    "Right": "explosion_type_01",
+    "DownLeft": "explosion_type_01",
+    "Down": "explosion_type_01",
+    "DownRight": "explosion_type_01"
   },
   "Attacks": {
     "UpLeft": "",
@@ -104,13 +104,13 @@
     true
   ],
   "CollBox": {
-    "X": -13,
-    "Y": 8,
-    "Width": 42,
-    "Height": 13
+    "X": 4,
+    "Y": 5,
+    "Width": 15,
+    "Height": 15
   },
   "AttackDelay": 0,
-  "ZOrder": 0,
+  "ZOrder": 7000,
   "SpeedLeft": 0.0,
   "SpeedRight": 0.0,
   "SpeedUp": 0.0,
@@ -137,7 +137,7 @@
   "AttackSound": null,
   "JumpSound": null,
   "DivertAttack": "",
-  "DivertSpawn": "02_level_01_mini",
+  "DivertSpawn": "",
   "DivertPlayerCollision": "",
   "DivertPlayerHit": "",
   "DivertHitAgainstPlayer": "",
@@ -191,12 +191,12 @@
     "PingPong": false
   },
   "DontSpawnIfTooMany": false,
-  "AutoClearChildren": true,
+  "AutoClearChildren": false,
   "DivertMeleeByProjectile": null,
   "DivertMeleeAgainstProjectile": null,
   "IsAttacker": null,
   "PreviewParent": null,
   "RotationEnabled": false,
-  "TileID": 1,
+  "TileID": -1,
   "MaxTimelineFrames": 50
 }

@@ -18,7 +18,27 @@
   "FireIndicatorX": 0,
   "FireIndicatorY": 0,
   "Options": [],
-  "Elements": [],
+  "Elements": [
+    {
+      "PanelElementType": 3,
+      "Variable": "radar_string",
+      "X": 88,
+      "Y": 0,
+      "NumberFont": null,
+      "Font": "defaultfont",
+      "BarImage": null,
+      "CounterImage1": null,
+      "CounterDivisions": 1,
+      "IsHighPriority": true,
+      "IsRightToLeft": false,
+      "PadZeroes": true,
+      "PaletteLine_MegaDrive": 3,
+      "PaletteLine_NeoGeo": 15,
+      "Characters": 10,
+      "MaxValue": 10,
+      "CanBeRightToLeft": false
+    }
+  ],
   "GFXMode": "BP5",
   "PanelSlot": "Bottom",
   "PanelOptionSound": "none",

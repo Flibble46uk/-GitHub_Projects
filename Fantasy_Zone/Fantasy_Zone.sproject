@@ -1,6 +1,6 @@
 {
   "TargetPlatform": "amiga_aga_cd32",
-  "StartupCodeBlock": "01_startup",
+  "StartupCodeBlock": "!startup",
   "Recompile": true,
   "DataVersion": 3,
   "Commands": [
@@ -69,7 +69,22 @@
   ],
   "AnimationMetaData": {},
   "Anim5MetaData": {},
-  "SoundMetaData": {},
+  "SoundMetaData": {
+    "fz_shot": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": 0
+    },
+    "fz_enemydestroyed": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    }
+  },
   "MMLMetaData": {},
   "NumberFontMetaData": {},
   "FontMetaData": {},
