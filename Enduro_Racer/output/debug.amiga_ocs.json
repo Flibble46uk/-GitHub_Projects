@@ -2787,6 +2787,20 @@
       "DefaultValue": "Handle_Collision",
       "Index": 204,
       "MemoryOffset": 511
+    },
+    {
+      "CodeBlock": "01_startup",
+      "Name": "Position",
+      "DefaultValue": "0",
+      "Index": 204,
+      "MemoryOffset": 511
+    },
+    {
+      "CodeBlock": "01_startup",
+      "Name": "Road_height",
+      "DefaultValue": "0",
+      "Index": 205,
+      "MemoryOffset": 512
     }
   ],
   "Lines": [
@@ -5941,118 +5955,532 @@
       "Description": "Set 'actor_y' to 'actor_y + yres + 16'"
     },
     {
-      "CodeBlock": "01_startup",
+      "CodeBlock": "01_position_step",
       "CodeBlockLine": 0,
       "MemoryOffset": 6936,
+      "Description": "01_POSITION_STEP"
+    },
+    {
+      "CodeBlock": "01_position_step",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6936,
+      "Description": "Set 'position' to 'position-1'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 6972,
       "Description": "01_STARTUP"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 1,
-      "MemoryOffset": 6936,
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6972,
+      "Description": "Set 'position' to 'mapheighttiles'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 6978,
       "Description": "Set 'newvalue' to '192'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 1,
-      "MemoryOffset": 6942,
+      "CodeBlockLine": 5,
+      "MemoryOffset": 6984,
       "Description": "GOSUB TO 'SET_YRESOLUTION'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 1,
-      "MemoryOffset": 6962,
+      "CodeBlockLine": 5,
+      "MemoryOffset": 7004,
       "Description": "Set 'screentop' to '32'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 1,
-      "MemoryOffset": 6968,
+      "CodeBlockLine": 5,
+      "MemoryOffset": 7010,
       "Description": "Core operation'RegenerateScreen'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 6976,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 7018,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 6984,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 7026,
       "Description": "Set 'fr[0]' to 'test_01'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 6990,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 7032,
       "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 6998,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 7040,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 7006,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 7048,
       "Description": "GOSUB TO 'PRE_LOAD_LEVEL'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 7026,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 7068,
       "Description": "Set 'background' to 'level_01_bg'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 7032,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 7074,
       "Description": "Set 'fr[0]' to '21'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 7038,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 7080,
       "Description": "Core operation'PopFromStack'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 7046,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 7088,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 7066,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 7108,
       "Description": "GOSUB TO 'FADEIN'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 7086,
+      "CodeBlockLine": 7,
+      "MemoryOffset": 7128,
+      "Description": "Set 'camera_x' to '0'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 7134,
+      "Description": "Set 'camera_y' to '0'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 7140,
+      "Description": "Set 'camera_follow' to 'camera_follow & 32752'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 7152,
       "Description": "Set 'fr[0]' to 'pl_ride'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 7092,
+      "CodeBlockLine": 9,
+      "MemoryOffset": 7158,
       "Description": "Set 'fr[1]' to '128'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 7098,
+      "CodeBlockLine": 9,
+      "MemoryOffset": 7164,
       "Description": "Set 'fr[2]' to '192-8'"
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 7108,
+      "CodeBlockLine": 9,
+      "MemoryOffset": 7174,
       "Description": "Core operation'PixelSpawn'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 7182,
+      "Description": "GOSUB TO '02_ROAD_SETUP'"
+    },
+    {
+      "CodeBlock": "02_player_handler",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 7228,
+      "Description": "02_PLAYER_HANDLER"
+    },
+    {
+      "CodeBlock": "02_player_handler",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 7228,
+      "Description": "Set 'block_x' to '0'"
+    },
+    {
+      "CodeBlock": "02_player_handler",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 7234,
+      "Description": "Set 'block_y' to 'position'"
+    },
+    {
+      "CodeBlock": "02_player_handler",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 7240,
+      "Description": "Core operation'BlockGet'"
+    },
+    {
+      "CodeBlock": "02_player_handler",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 7248,
+      "Description": "Set 'road_height' to 'block_type*4'"
+    },
+    {
+      "CodeBlock": "02_player_handler",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7260,
+      "Description": "Set 'actor_y' to '184+road_height'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 7302,
+      "Description": "02_ROAD_SETUP"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 7302,
+      "Description": "Set 'fr[0]' to 'road_line_01'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 7308,
+      "Description": "Set 'fr[1]' to '0'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 7314,
+      "Description": "Set 'fr[2]' to '119'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 7320,
+      "Description": "Core operation'PixelSpawn'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 7328,
+      "Description": "Set 'new_var1' to '6'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 7338,
+      "Description": "Set 'new_var2' to 'new_y'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7354,
+      "Description": "Set 'new_z' to '100'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 7364,
+      "Description": "Set 'fr[0]' to 'road_line_01'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 7370,
+      "Description": "Set 'fr[1]' to '0'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 7376,
+      "Description": "Set 'fr[2]' to '121'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 7382,
+      "Description": "Core operation'PixelSpawn'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 7390,
+      "Description": "Set 'new_var1' to '5'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 7400,
+      "Description": "Set 'new_var2' to 'new_y'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 7416,
+      "Description": "Set 'new_z' to '200'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 7426,
+      "Description": "Set 'fr[0]' to 'road_line_01'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 7432,
+      "Description": "Set 'fr[1]' to '0'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 7438,
+      "Description": "Set 'fr[2]' to '124'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 7444,
+      "Description": "Core operation'PixelSpawn'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 7452,
+      "Description": "Set 'new_var1' to '4'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 7462,
+      "Description": "Set 'new_var2' to 'new_y'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 7478,
+      "Description": "Set 'new_z' to '300'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 7488,
+      "Description": "Set 'fr[0]' to 'road_line_01'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 7494,
+      "Description": "Set 'fr[1]' to '0'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 7500,
+      "Description": "Set 'fr[2]' to '128'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 7506,
+      "Description": "Core operation'PixelSpawn'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 7514,
+      "Description": "Set 'new_var1' to '3'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 7524,
+      "Description": "Set 'new_var2' to 'new_y'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 7540,
+      "Description": "Set 'new_z' to '400'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 17,
+      "MemoryOffset": 7550,
+      "Description": "Set 'fr[0]' to 'road_line_01'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 17,
+      "MemoryOffset": 7556,
+      "Description": "Set 'fr[1]' to '0'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 17,
+      "MemoryOffset": 7562,
+      "Description": "Set 'fr[2]' to '134'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 17,
+      "MemoryOffset": 7568,
+      "Description": "Core operation'PixelSpawn'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 7576,
+      "Description": "Set 'new_var1' to '2'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 19,
+      "MemoryOffset": 7586,
+      "Description": "Set 'new_var2' to 'new_y'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 7602,
+      "Description": "Set 'new_z' to '500'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 7612,
+      "Description": "Set 'fr[0]' to 'road_line_01'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 7618,
+      "Description": "Set 'fr[1]' to '0'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 7624,
+      "Description": "Set 'fr[2]' to '147'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 7630,
+      "Description": "Core operation'PixelSpawn'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 7638,
+      "Description": "Set 'new_var1' to '1'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7648,
+      "Description": "Set 'new_var2' to 'new_y'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 24,
+      "MemoryOffset": 7664,
+      "Description": "Set 'new_z' to '600'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 7674,
+      "Description": "Set 'fr[0]' to 'road_line_01'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 7680,
+      "Description": "Set 'fr[1]' to '0'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 7686,
+      "Description": "Set 'fr[2]' to '172'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 7692,
+      "Description": "Core operation'PixelSpawn'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 26,
+      "MemoryOffset": 7700,
+      "Description": "Set 'new_var1' to '0'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 27,
+      "MemoryOffset": 7710,
+      "Description": "Set 'new_var2' to 'new_y'"
+    },
+    {
+      "CodeBlock": "02_road_setup",
+      "CodeBlockLine": 28,
+      "MemoryOffset": 7726,
+      "Description": "Set 'new_z' to '700'"
+    },
+    {
+      "CodeBlock": "02_road_update",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 7788,
+      "Description": "02_ROAD_UPDATE"
+    },
+    {
+      "CodeBlock": "02_road_update",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 7788,
+      "Description": "Set 'block_x' to '0'"
+    },
+    {
+      "CodeBlock": "02_road_update",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 7794,
+      "Description": "Set 'block_y' to 'position-actor_var1'"
+    },
+    {
+      "CodeBlock": "02_road_update",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 7812,
+      "Description": "Core operation'BlockGet'"
+    },
+    {
+      "CodeBlock": "02_road_update",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 7820,
+      "Description": "Set 'road_height' to 'block_type*4'"
+    },
+    {
+      "CodeBlock": "02_road_update",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7832,
+      "Description": "Set 'actor_y' to 'actor_var2-road_height'"
     }
   ],
   "Levels": {
@@ -6069,14 +6497,16 @@
   },
   "Actors": {
     "0": "Destroyed actor",
-    "1": "pl_ride"
+    "1": "pl_ride",
+    "2": "road_line_01"
   },
   "Sounds": {
     "0": "No sound played"
   },
   "Animations": {
     "1": "player_ride_l",
-    "2": "player_ride_r"
+    "2": "player_ride_r",
+    "3": "road_01"
   },
   "Blocks": {
     "0": "Destroyed block",

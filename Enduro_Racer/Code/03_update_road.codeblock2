@@ -1,0 +1,9 @@
+# Return
+Set block_x=0
+Set block_y=mapheighttiles-actor_var2-position
+GetBlock road_paint
+If road_paint != 0
+    ActorAnimation road_new Frame=actor_var2
+Else
+    ActorAnimation road_new Frame=0
+End

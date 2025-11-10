@@ -1,0 +1,6 @@
+Variable word Road_line=60
+While road_line > 0
+    Spawn new_road X=128 Y=119+road_line
+    Set new_var2=road_line
+    Set road_line=road_line-1
+End

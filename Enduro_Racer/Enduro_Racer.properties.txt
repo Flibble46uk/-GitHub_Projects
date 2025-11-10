@@ -7,3 +7,11 @@ project_name=
 project_name_international=
 publisher=
 version=
+
+[whdload_13]
+chip_mem_size=$100000
+fast_mem_size=$0
+
+[whdload_31]
+chip_mem_size=$1ff000
+fast_mem_size=$0
