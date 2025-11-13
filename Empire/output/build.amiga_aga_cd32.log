@@ -1,9 +1,9 @@
-Compiled on 22 September 2025 16:02:16
-Version string: SE2025.0.250922.10.31.EX
+Compiled on 13 November 2025 05:49:51
+Version string: SE2025.0.251112.09.00.EX
 
 === Misc ===
 ImageFrames: 93
-ImageFrame Data Size: 4092
+ImageFrame Data Size: 4464
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 0
 Actor Count: 10
@@ -26,26 +26,40 @@ Attack Data: 1
 Attack Data Size: 88
 Misc data size: 100
 
+=== Cartridge Composition ===
+ Header |   Offset | Size     | Crunch    | Detail
+   PL02 |      202 |       76 |   Implode | Panel (background color #F0F)
+   PL01 |      278 |     3380 |   Implode | Panel scorpion_eng_splashscreen
+   VC00 |     3658 |     9034 |  NoCrunch | Project virtual machine (codeblocks)
+   MH01 |    12692 |      848 |  NoCrunch | Header data for map level_01
+   MD01 |    13540 |    10368 |  NoCrunch | Tile data for map level_01 (mem restrictions:No_Blocks)
+   AB00 |    23908 |    16256 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
+   AB01 |    40164 |   286306 |  NoCrunch | Asset bundle 1 (level_01)
+   DB00 |   326470 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   326472 |     4376 |  NoCrunch | Project Header
+   PD00 |   330848 |     8278 |  NoCrunch | Project Data
+   VR00 |   339126 |        4 |  NoCrunch | Project virtual machine redirects
+
 === Data Sizes ===
-    Size | Crunch | Detail
-  286306 |        | Asset bundle 1 (level_01)
-   16256 |        | Asset bundle 0 (Core project asset bundle)
-   10368 |        | Tile data for map level_01 (mem restrictions:No_Blocks)
-    8792 |        | Project virtual machine (codeblocks)
-    7906 |        | Project Data
-    4376 |        | Project Header
-    3380 |  (91%) | Panel scorpion_eng_splashscreen
-     844 |        | Header data for map level_01
-      76 |  (95%) | Panel (background color #F0F)
-       4 |        | Project virtual machine redirects
-       2 |        | Misc Data (paths, hurt boxes etc)
+    Size |   Memory | Crunch | Detail
+  286306 |   286306 |        | Asset bundle 1 (level_01)
+   16256 |    16256 |        | Asset bundle 0 (Core project asset bundle)
+   10368 |    10368 |        | Tile data for map level_01 (mem restrictions:No_Blocks)
+    9034 |     9034 |        | Project virtual machine (codeblocks)
+    8278 |     8278 |        | Project Data
+    4376 |     4376 |        | Project Header
+    3380 |    36784 |  (91%) | Panel scorpion_eng_splashscreen
+     848 |      848 |        | Header data for map level_01
+      76 |     1296 |  (95%) | Panel (background color #F0F)
+       4 |        4 |        | Project virtual machine redirects
+       2 |        2 |        | Misc Data (paths, hurt boxes etc)
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
 
 For chip:
 Map gfx (level gfx bundle 1): 286306
-Music memory (): 0
+Music sample (): 0
 BP Buffer memory: 104400
 Core sfx/gfx memory: 16256
 Parallax memory: 0
@@ -54,23 +68,24 @@ OS/other estimated: 99328
 For other:
 Map data memory: 10368
 Map background memory: 1296
-EXE memory: 210656
-vm memory: 8792
-project memory: 7906
+EXE memory: 217032
+vm memory: 9034
+project memory: 8278
+Music data (): 0
 memory reserved for active actors on screen (32): 5064
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 506290
-Accounted memory other: 354162
-Accounted memory total: 860452
+Accounted memory other: 361152
+Accounted memory total: 867442
 
 === Codeblocks by compiled size ===
+load_level: 664
 01_startup: 656
-load_level: 650
-pre_startup: 508
+pre_startup: 500
+do_teleport: 320
 flipscreen_smooth: 310 (Unused?)
-do_teleport: 300
 flipxymove: 278 (Unused?)
 load_next_level: 268 (Unused?)
 block_find: 210 (Unused?)
@@ -86,9 +101,8 @@ pre_quit: 160
 flipxmove: 142 (Unused?)
 restart_this_level: 136 (Unused?)
 load_panel: 134
-unload_level: 130
 destroy_all_blocks: 128 (Unused?)
-pre_load_level: 122
+unload_level: 118
 fadein: 108
 waitforfireup: 106
 unload_panel: 102
@@ -96,6 +110,7 @@ waitforfiredown: 102
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)
+pre_load_level: 86
 waitforfirehit: 86
 load_music: 78 (Unused?)
 02_scroll_screen: 78
@@ -123,6 +138,6 @@ autogen_atat_foot_01_2: 38
 autogen_atat_foot_01_0: 34
 block_coll_force: 32 (Unused?)
 block_coll_passthru: 32
-vm_registers: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
+hardware_amiga: 26 (Unused?)
 vm_constants_tile_properties: 26 (Unused?)
