@@ -1,6 +1,8 @@
 # Return
+
+Set zdist=actor_var2
 Set block_x=0
-Set block_y=mapheighttiles-actor_var2-position
+Set block_y=mapheighttiles-position-zdist
 GetBlock road_paint
 If road_paint != 0
     ActorAnimation road_new Frame=actor_var2

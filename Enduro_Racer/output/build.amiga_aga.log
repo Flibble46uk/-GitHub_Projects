@@ -1,5 +1,5 @@
-Compiled on 10 November 2025 04:28:42
-Version string: SE2025.0.251110.16.16.EX
+Compiled on 05 December 2025 18:37:29
+Version string: SE2025.0.251204.21.46.EX
 
 === Misc ===
 ImageFrames: 67
@@ -22,37 +22,37 @@ AnimationFrame Count: 68
 AnimationFrame Data Size: 1088
 Sprites: 1
 Sprites Data Size: 14
-Attack Data: 1
-Attack Data Size: 88
-Misc data size: 66
+Attack Data: 2
+Attack Data Size: 176
+Misc data size: 74
 
 === Cartridge Composition ===
  Header |   Offset | Size     | Crunch    | Detail
-   PL03 |      220 |       76 |   Implode | Panel (background color #FFF)
-   PL01 |      296 |     3380 |   Implode | Panel scorpion_eng_splashscreen
-   PL02 |     3676 |     1296 |  NoCrunch | Panel (background)level_01_bg
-   VC00 |     4972 |     8580 |  NoCrunch | Project virtual machine (codeblocks)
-   MH01 |    13552 |      848 |  NoCrunch | Header data for map test_01
-   MD01 |    14400 |    50444 |  NoCrunch | Tile data for map test_01 (mem restrictions:None)
-   AB00 |    64844 |     4528 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
-   AB01 |    69372 |     1476 |  NoCrunch | Asset bundle 1 (test_01)
-   DB00 |    70848 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
-   PH00 |    70850 |     4376 |  NoCrunch | Project Header
-   PD00 |    75226 |     6058 |  NoCrunch | Project Data
-   VR00 |    81284 |        4 |  NoCrunch | Project virtual machine redirects
+   PL03 |      220 |     1296 |  NoCrunch | Panel (background color #FFF)
+   PL01 |     1516 |     2474 |       ZX0 | Panel scorpion_eng_splashscreen
+   PL02 |     3990 |     1296 |  NoCrunch | Panel (background)level_01_bg
+   VC00 |     5286 |     8818 |  NoCrunch | Project virtual machine (codeblocks)
+   MH01 |    14104 |      848 |  NoCrunch | Header data for map test_01
+   MD01 |    14952 |    50452 |  NoCrunch | Tile data for map test_01 (mem restrictions:None)
+   AB00 |    65404 |     6088 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
+   AB01 |    71492 |     1536 |  NoCrunch | Asset bundle 1 (test_01)
+   DB00 |    73028 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |    73030 |     4376 |  NoCrunch | Project Header
+   PD00 |    77406 |     6154 |  NoCrunch | Project Data
+   VR00 |    83560 |        4 |  NoCrunch | Project virtual machine redirects
 
 === Data Sizes ===
     Size |   Memory | Crunch | Detail
-   50444 |    50444 |        | Tile data for map test_01 (mem restrictions:None)
-    8580 |     8580 |        | Project virtual machine (codeblocks)
-    6058 |     6058 |        | Project Data
-    4528 |     4528 |        | Asset bundle 0 (Core project asset bundle)
+   50452 |    50452 |        | Tile data for map test_01 (mem restrictions:None)
+    8818 |     8818 |        | Project virtual machine (codeblocks)
+    6154 |     6154 |        | Project Data
+    6088 |     6088 |        | Asset bundle 0 (Core project asset bundle)
     4376 |     4376 |        | Project Header
-    3380 |    36784 |  (91%) | Panel scorpion_eng_splashscreen
-    1476 |     1476 |        | Asset bundle 1 (test_01)
+    2474 |    36784 |  (94%) | Panel scorpion_eng_splashscreen
+    1536 |     1536 |        | Asset bundle 1 (test_01)
+    1296 |     1296 |        | Panel (background color #FFF)
     1296 |     1296 |        | Panel (background)level_01_bg
      848 |      848 |        | Header data for map test_01
-      76 |     1296 |  (95%) | Panel (background color #FFF)
        4 |        4 |        | Project virtual machine redirects
        2 |        2 |        | Misc Data (paths, hurt boxes etc)
 
@@ -63,27 +63,27 @@ For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 36784
 Music sample (): 0
 BP Buffer memory: 60000
-Core sfx/gfx memory: 4528
+Core sfx/gfx memory: 6088
 Parallax memory: 0
 OS/other estimated: 99328
 
 For other:
-Map data memory: 50444
+Map data memory: 50452
 Map background memory: 1296
-EXE memory: 216976
-vm memory: 8580
-project memory: 6058
+EXE memory: 219724
+vm memory: 8818
+project memory: 6154
 Music data (): 0
 memory reserved for active actors on screen (128): 20232
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 200640
-Accounted memory other: 413666
-Accounted memory total: 614306
+Accounted memory chip: 202200
+Accounted memory other: 416756
+Accounted memory total: 618956
 
 === Codeblocks by compiled size ===
-load_level: 664
+load_level: 676
 pre_startup: 500
 do_teleport: 320
 flipscreen_smooth: 310 (Unused?)
@@ -98,13 +98,15 @@ pause: 184
 block_count: 178 (Unused?)
 flipymove: 162 (Unused?)
 snap_to_screen: 162 (Unused?)
+03_update_road: 162
 pre_quit: 160
-03_update_road: 156
 flipxmove: 142 (Unused?)
 restart_this_level: 136 (Unused?)
 load_panel: 134
 destroy_all_blocks: 128 (Unused?)
 unload_level: 118
+anim_force_left: 108 (Unused?)
+anim_force_right: 108 (Unused?)
 fadein: 108
 waitforfireup: 106
 unload_panel: 102
