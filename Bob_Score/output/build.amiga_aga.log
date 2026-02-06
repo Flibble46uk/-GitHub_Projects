@@ -1,4 +1,4 @@
-Compiled on 06 February 2026 00:35:00
+Compiled on 06 February 2026 04:37:56
 Version string: SE2026.0.260203.18.51.EX
 
 === Misc ===
@@ -30,19 +30,19 @@ Misc data size: 38
  Header |   Offset | Size     | Crunch    | Detail
    PL02 |      202 |     1816 |  NoCrunch | Panel (background color #000)
    PL01 |     2018 |     2474 |       ZX0 | Panel scorpion_eng_splashscreen
-   VC00 |     4492 |     9550 |  NoCrunch | Project virtual machine (codeblocks)
-   MH01 |    14042 |      848 |  NoCrunch | Header data for map blank
-   MD01 |    14890 |     1808 |  NoCrunch | Tile data for map blank (mem restrictions:No_Blocks)
-   AB00 |    16698 |     3200 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
-   AB01 |    19898 |      320 |  NoCrunch | Asset bundle 1 (blank)
-   DB00 |    20218 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
-   PH00 |    20220 |     4376 |  NoCrunch | Project Header
-   PD00 |    24596 |     1446 |  NoCrunch | Project Data
-   VR00 |    26042 |        4 |  NoCrunch | Project virtual machine redirects
+   VC00 |     4492 |     9470 |  NoCrunch | Project virtual machine (codeblocks)
+   MH01 |    13962 |      848 |  NoCrunch | Header data for map blank
+   MD01 |    14810 |     1808 |  NoCrunch | Tile data for map blank (mem restrictions:No_Blocks)
+   AB00 |    16618 |     3200 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
+   AB01 |    19818 |      320 |  NoCrunch | Asset bundle 1 (blank)
+   DB00 |    20138 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |    20140 |     4376 |  NoCrunch | Project Header
+   PD00 |    24516 |     1446 |  NoCrunch | Project Data
+   VR00 |    25962 |        4 |  NoCrunch | Project virtual machine redirects
 
 === Data Sizes ===
     Size |   Memory | Crunch | Detail
-    9550 |     9550 |        | Project virtual machine (codeblocks)
+    9470 |     9470 |        | Project virtual machine (codeblocks)
     4376 |     4376 |        | Project Header
     3200 |     3200 |        | Asset bundle 0 (Core project asset bundle)
     2474 |    36784 |  (94%) | Panel scorpion_eng_splashscreen
@@ -69,7 +69,7 @@ For other:
 Map data memory: 1808
 Map background memory: 1816
 EXE memory: 221356
-vm memory: 9550
+vm memory: 9470
 project memory: 1446
 Music data (): 0
 memory reserved for active actors on screen (32): 5064
@@ -77,15 +77,15 @@ memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 248912
-Accounted memory other: 351120
-Accounted memory total: 600032
+Accounted memory other: 351040
+Accounted memory total: 599952
 
 === Codeblocks by compiled size ===
 load_level: 682
 pre_startup: 500
-01_update_score: 412
-01_startup: 402
+01_startup: 410
 do_teleport: 320
+01_update_score: 320
 flipscreen_smooth: 310 (Unused?)
 freemem: 296
 flipxymove: 278 (Unused?)
