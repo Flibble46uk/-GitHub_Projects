@@ -1,4 +1,8 @@
 # Roll 32767 Into score
+If camera_y > 2048
+    Set camera_y=camera_y-1
+End
+
 Set score=score+1
 If score >= 32767
     Set score=0

@@ -1,10 +1,10 @@
-Compiled on 06 February 2026 07:32:04
+Compiled on 06 February 2026 09:10:24
 Version string: SE2026.0.260203.18.51.EX
 
 === Misc ===
 ImageFrames: 11
 ImageFrame Data Size: 528
-Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Count: 3
 Maps and Asset Bundles Data Size: 0
 Actor Count: 2
 Actor Data Size: 360
@@ -28,21 +28,26 @@ Misc data size: 38
 
 === Cartridge Composition ===
  Header |   Offset | Size     | Crunch    | Detail
-   PL02 |      202 |     1816 |  NoCrunch | Panel (background color #000)
-   PL01 |     2018 |     2474 |       ZX0 | Panel scorpion_eng_splashscreen
-   VC00 |     4492 |     9660 |  NoCrunch | Project virtual machine (codeblocks)
-   MH01 |    14152 |      848 |  NoCrunch | Header data for map blank
-   MD01 |    15000 |     1808 |  NoCrunch | Tile data for map blank (mem restrictions:No_Blocks)
-   AB00 |    16808 |     2400 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
-   AB01 |    19208 |      320 |  NoCrunch | Asset bundle 1 (blank)
-   DB00 |    19528 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
-   PH00 |    19530 |     4376 |  NoCrunch | Project Header
-   PD00 |    23906 |     1446 |  NoCrunch | Project Data
-   VR00 |    25352 |        4 |  NoCrunch | Project virtual machine redirects
+   PL02 |      256 |     1816 |  NoCrunch | Panel (background color #000)
+   PL01 |     2072 |     2474 |       ZX0 | Panel scorpion_eng_splashscreen
+   VC00 |     4546 |     9712 |  NoCrunch | Project virtual machine (codeblocks)
+   MH01 |    14258 |      848 |  NoCrunch | Header data for map blank
+   MD01 |    15106 |     1808 |  NoCrunch | Tile data for map blank (mem restrictions:No_Blocks)
+   MH02 |    16914 |      848 |  NoCrunch | Header data for map commando_map_all
+   MD02 |    17762 |   119792 |  NoCrunch | Tile data for map commando_map_all (mem restrictions:No_Blocks)
+   AB00 |   137554 |     2400 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
+   AB01 |   139954 |      320 |  NoCrunch | Asset bundle 1 (blank)
+   AB02 |   140274 |   229120 |  NoCrunch | Asset bundle 2 (commando_map_all)
+   DB00 |   369394 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   369396 |     4376 |  NoCrunch | Project Header
+   PD00 |   373772 |     1446 |  NoCrunch | Project Data
+   VR00 |   375218 |        4 |  NoCrunch | Project virtual machine redirects
 
 === Data Sizes ===
     Size |   Memory | Crunch | Detail
-    9660 |     9660 |        | Project virtual machine (codeblocks)
+  229120 |   229120 |        | Asset bundle 2 (commando_map_all)
+  119792 |   119792 |        | Tile data for map commando_map_all (mem restrictions:No_Blocks)
+    9712 |     9712 |        | Project virtual machine (codeblocks)
     4376 |     4376 |        | Project Header
     2474 |    36784 |  (94%) | Panel scorpion_eng_splashscreen
     2400 |     2400 |        | Asset bundle 0 (Core project asset bundle)
@@ -50,6 +55,7 @@ Misc data size: 38
     1808 |     1808 |        | Tile data for map blank (mem restrictions:No_Blocks)
     1446 |     1446 |        | Project Data
      848 |      848 |        | Header data for map blank
+     848 |      848 |        | Header data for map commando_map_all
      320 |      320 |        | Asset bundle 1 (blank)
        4 |        4 |        | Project virtual machine redirects
        2 |        2 |        | Misc Data (paths, hurt boxes etc)
@@ -58,33 +64,33 @@ Misc data size: 38
 (Note that this isn't a full account of memory usage, just the memory we can account for)
 
 For chip:
-Map gfx (Panel: scorpion_eng_splashscreen): 36784
+Map gfx (level gfx bundle 2): 229120
 Music sample (): 0
-BP Buffer memory: 109600
+BP Buffer memory: 106200
 Core sfx/gfx memory: 2400
 Parallax memory: 0
 OS/other estimated: 99328
 
 For other:
-Map data memory: 1808
+Map data memory: 119792
 Map background memory: 1816
 EXE memory: 221356
-vm memory: 9660
+vm memory: 9712
 project memory: 1446
 Music data (): 0
 memory reserved for active actors on screen (32): 5064
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 248112
-Accounted memory other: 351230
-Accounted memory total: 599342
+Accounted memory chip: 437048
+Accounted memory other: 469266
+Accounted memory total: 906314
 
 === Codeblocks by compiled size ===
 load_level: 682
 pre_startup: 500
 02_update_score: 458
-01_startup: 408
+01_startup: 436
 do_teleport: 320
 flipscreen_smooth: 310 (Unused?)
 freemem: 296
@@ -116,6 +122,7 @@ load_panel_top: 96
 destroy_child_actors: 94 (Unused?)
 pre_load_level: 86
 waitforfirehit: 86
+02_random_score: 80
 load_music: 78
 fadeout: 76
 load_music_finish: 76
@@ -129,7 +136,6 @@ jump_actor: 66 (Unused?)
 destroy_all_actors: 60 (Unused?)
 quit: 60 (Unused?)
 destroy_actor: 58
-02_random_score: 56
 freemem_hard: 54 (Unused?)
 destroy_block: 52 (Unused?)
 return: 52 (Unused?)
