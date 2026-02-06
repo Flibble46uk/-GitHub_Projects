@@ -1,25 +1,27 @@
 If actor_var3 == 5
-    # Set number=score/10000
+    Set number=(score/10000)%10
     Set digit=number
     ActorAnimation score_digits Frame=digit
     
 ElseIf actor_var3 == 4
-    # Set number=score/1000%10
+    Set number=(score/1000) % 10
     Set digit=number
     ActorAnimation score_digits Frame=digit
     
 ElseIf actor_var3 == 3
-    # Set number=score/100%10
+    Set number=score/100%10
     Set digit=number
     ActorAnimation score_digits Frame=digit
     
 ElseIf actor_var3 == 2
-    # Set number=score/10%10
+    Set number=score/10%10
     Set digit=number
     ActorAnimation score_digits Frame=digit
     
 ElseIf actor_var3 == 1
-    # Set number=score%10
+    Set number=score%10
     Set digit=number
     ActorAnimation score_digits Frame=digit
 End
+
+# Set number=9

@@ -148,7 +148,7 @@
   "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
-  "DivertTimer": "01_update_score",
+  "DivertTimer": "02_update_score",
   "DivertTimerFrames": 0,
   "Vars": [
     "0",

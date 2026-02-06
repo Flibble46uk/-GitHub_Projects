@@ -1,0 +1,5 @@
+# Roll 32767 Into score
+Set score=score+1
+If score >= 32767
+    Set score=0
+End

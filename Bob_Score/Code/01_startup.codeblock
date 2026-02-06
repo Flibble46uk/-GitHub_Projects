@@ -280,7 +280,7 @@
       "MusicPos": "0",
       "Platform": "all",
       "VariableType": "Variable",
-      "VariableExpansionMode": "Long",
+      "VariableExpansionMode": "Word",
       "DiceSides": "6",
       "Conditions": []
     },
@@ -507,7 +507,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "score",
-      "Expression": "54321",
+      "Expression": "0",
       "Index": "0",
       "Label": "",
       "Disabled": false,
