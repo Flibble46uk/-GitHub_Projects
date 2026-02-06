@@ -6590,422 +6590,446 @@
     },
     {
       "CodeBlock": "01_startup",
-      "CodeBlockLine": 19,
+      "CodeBlockLine": 18,
       "MemoryOffset": 7952,
+      "Description": "Set 'new_origin_y' to '+2'"
+    },
+    {
+      "CodeBlock": "01_startup",
+      "CodeBlockLine": 19,
+      "MemoryOffset": 7962,
       "Description": "Set 'new_var3' to '4'"
     },
     {
       "CodeBlock": "01_startup",
       "CodeBlockLine": 21,
-      "MemoryOffset": 7962,
+      "MemoryOffset": 7972,
       "Description": "Set 'fr[0]' to 'act_digits'"
     },
     {
       "CodeBlock": "01_startup",
       "CodeBlockLine": 21,
-      "MemoryOffset": 7968,
+      "MemoryOffset": 7978,
       "Description": "Set 'fr[1]' to 'camera_x'"
     },
     {
       "CodeBlock": "01_startup",
       "CodeBlockLine": 21,
-      "MemoryOffset": 7974,
+      "MemoryOffset": 7984,
       "Description": "Set 'fr[2]' to 'camera_y'"
     },
     {
       "CodeBlock": "01_startup",
       "CodeBlockLine": 21,
-      "MemoryOffset": 7980,
+      "MemoryOffset": 7990,
       "Description": "Core operation'PixelSpawn'"
     },
     {
       "CodeBlock": "01_startup",
       "CodeBlockLine": 22,
-      "MemoryOffset": 7988,
+      "MemoryOffset": 7998,
       "Description": "Set 'new_origin_x' to '+32'"
     },
     {
       "CodeBlock": "01_startup",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 8008,
+      "Description": "Set 'new_origin_y' to '+4'"
+    },
+    {
+      "CodeBlock": "01_startup",
       "CodeBlockLine": 23,
-      "MemoryOffset": 7998,
+      "MemoryOffset": 8018,
       "Description": "Set 'new_var3' to '3'"
     },
     {
       "CodeBlock": "01_startup",
       "CodeBlockLine": 25,
-      "MemoryOffset": 8008,
+      "MemoryOffset": 8028,
       "Description": "Set 'fr[0]' to 'act_digits'"
     },
     {
       "CodeBlock": "01_startup",
       "CodeBlockLine": 25,
-      "MemoryOffset": 8014,
+      "MemoryOffset": 8034,
       "Description": "Set 'fr[1]' to 'camera_x'"
     },
     {
       "CodeBlock": "01_startup",
       "CodeBlockLine": 25,
-      "MemoryOffset": 8020,
+      "MemoryOffset": 8040,
       "Description": "Set 'fr[2]' to 'camera_y'"
     },
     {
       "CodeBlock": "01_startup",
       "CodeBlockLine": 25,
-      "MemoryOffset": 8026,
+      "MemoryOffset": 8046,
       "Description": "Core operation'PixelSpawn'"
     },
     {
       "CodeBlock": "01_startup",
       "CodeBlockLine": 26,
-      "MemoryOffset": 8034,
+      "MemoryOffset": 8054,
       "Description": "Set 'new_origin_x' to '+48'"
     },
     {
       "CodeBlock": "01_startup",
+      "CodeBlockLine": 26,
+      "MemoryOffset": 8064,
+      "Description": "Set 'new_origin_y' to '+6'"
+    },
+    {
+      "CodeBlock": "01_startup",
       "CodeBlockLine": 27,
-      "MemoryOffset": 8044,
+      "MemoryOffset": 8074,
       "Description": "Set 'new_var3' to '2'"
     },
     {
       "CodeBlock": "01_startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 8054,
+      "MemoryOffset": 8084,
       "Description": "Set 'fr[0]' to 'act_digits'"
     },
     {
       "CodeBlock": "01_startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 8060,
+      "MemoryOffset": 8090,
       "Description": "Set 'fr[1]' to 'camera_x'"
     },
     {
       "CodeBlock": "01_startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 8066,
+      "MemoryOffset": 8096,
       "Description": "Set 'fr[2]' to 'camera_y'"
     },
     {
       "CodeBlock": "01_startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 8072,
+      "MemoryOffset": 8102,
       "Description": "Core operation'PixelSpawn'"
     },
     {
       "CodeBlock": "01_startup",
       "CodeBlockLine": 30,
-      "MemoryOffset": 8080,
+      "MemoryOffset": 8110,
       "Description": "Set 'new_origin_x' to '+64'"
     },
     {
       "CodeBlock": "01_startup",
+      "CodeBlockLine": 30,
+      "MemoryOffset": 8120,
+      "Description": "Set 'new_origin_y' to '+8'"
+    },
+    {
+      "CodeBlock": "01_startup",
       "CodeBlockLine": 31,
-      "MemoryOffset": 8090,
+      "MemoryOffset": 8130,
       "Description": "Set 'new_var3' to '1'"
     },
     {
       "CodeBlock": "02_random_score",
       "CodeBlockLine": 0,
-      "MemoryOffset": 8126,
+      "MemoryOffset": 8166,
       "Description": "02_RANDOM_SCORE"
     },
     {
       "CodeBlock": "02_random_score",
       "CodeBlockLine": 2,
-      "MemoryOffset": 8126,
-      "Description": "If camera_y > 2048 ELSE GOTO 00008150"
+      "MemoryOffset": 8166,
+      "Description": "If camera_y > 2048 ELSE GOTO 00008190"
     },
     {
       "CodeBlock": "02_random_score",
       "CodeBlockLine": 3,
-      "MemoryOffset": 8140,
+      "MemoryOffset": 8180,
       "Description": "Set 'camera_y' to 'camera_y-1'"
     },
     {
       "CodeBlock": "02_random_score",
       "CodeBlockLine": 6,
-      "MemoryOffset": 8150,
+      "MemoryOffset": 8190,
       "Description": "Set 'score' to 'score+1'"
     },
     {
       "CodeBlock": "02_random_score",
       "CodeBlockLine": 7,
-      "MemoryOffset": 8160,
-      "Description": "If score >= 32767 ELSE GOTO 00008180"
+      "MemoryOffset": 8200,
+      "Description": "If score >= 32767 ELSE GOTO 00008220"
     },
     {
       "CodeBlock": "02_random_score",
       "CodeBlockLine": 8,
-      "MemoryOffset": 8174,
+      "MemoryOffset": 8214,
       "Description": "Set 'score' to '0'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 0,
-      "MemoryOffset": 8206,
+      "MemoryOffset": 8246,
       "Description": "02_UPDATE_SCORE"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 1,
-      "MemoryOffset": 8206,
+      "MemoryOffset": 8246,
       "Description": "If actor_var3 == 5"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 2,
-      "MemoryOffset": 8222,
+      "MemoryOffset": 8262,
       "Description": "Set 'number' to '(score/10000)%10'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 3,
-      "MemoryOffset": 8256,
+      "MemoryOffset": 8296,
       "Description": "Set 'digit' to 'number'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 4,
-      "MemoryOffset": 8262,
+      "MemoryOffset": 8302,
       "Description": "Set 'fr[0]' to '0'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 4,
-      "MemoryOffset": 8268,
+      "MemoryOffset": 8308,
       "Description": "Set 'fr[1]' to 'score_digits'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 4,
-      "MemoryOffset": 8274,
+      "MemoryOffset": 8314,
       "Description": "Set 'fr[2]' to 'digit'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 4,
-      "MemoryOffset": 8280,
+      "MemoryOffset": 8320,
       "Description": "Set 'fr[3]' to '1'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 4,
-      "MemoryOffset": 8286,
+      "MemoryOffset": 8326,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 6,
-      "MemoryOffset": 8294,
-      "Description": "GOTO '00008638'"
+      "MemoryOffset": 8334,
+      "Description": "GOTO '00008678'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 6,
-      "MemoryOffset": 8300,
+      "MemoryOffset": 8340,
       "Description": "If actor_var3 == 4"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 7,
-      "MemoryOffset": 8316,
+      "MemoryOffset": 8356,
       "Description": "Set 'number' to '(score/1000) % 10'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 8,
-      "MemoryOffset": 8350,
+      "MemoryOffset": 8390,
       "Description": "Set 'digit' to 'number'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 9,
-      "MemoryOffset": 8356,
+      "MemoryOffset": 8396,
       "Description": "Set 'fr[0]' to '0'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 9,
-      "MemoryOffset": 8362,
+      "MemoryOffset": 8402,
       "Description": "Set 'fr[1]' to 'score_digits'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 9,
-      "MemoryOffset": 8368,
+      "MemoryOffset": 8408,
       "Description": "Set 'fr[2]' to 'digit'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 9,
-      "MemoryOffset": 8374,
+      "MemoryOffset": 8414,
       "Description": "Set 'fr[3]' to '1'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 9,
-      "MemoryOffset": 8380,
+      "MemoryOffset": 8420,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 11,
-      "MemoryOffset": 8388,
-      "Description": "GOTO '00008638'"
+      "MemoryOffset": 8428,
+      "Description": "GOTO '00008678'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 11,
-      "MemoryOffset": 8394,
+      "MemoryOffset": 8434,
       "Description": "If actor_var3 == 3"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 12,
-      "MemoryOffset": 8410,
+      "MemoryOffset": 8450,
       "Description": "Set 'number' to 'score/100%10'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 13,
-      "MemoryOffset": 8436,
+      "MemoryOffset": 8476,
       "Description": "Set 'digit' to 'number'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 14,
-      "MemoryOffset": 8442,
+      "MemoryOffset": 8482,
       "Description": "Set 'fr[0]' to '0'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 14,
-      "MemoryOffset": 8448,
+      "MemoryOffset": 8488,
       "Description": "Set 'fr[1]' to 'score_digits'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 14,
-      "MemoryOffset": 8454,
+      "MemoryOffset": 8494,
       "Description": "Set 'fr[2]' to 'digit'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 14,
-      "MemoryOffset": 8460,
+      "MemoryOffset": 8500,
       "Description": "Set 'fr[3]' to '1'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 14,
-      "MemoryOffset": 8466,
+      "MemoryOffset": 8506,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 16,
-      "MemoryOffset": 8474,
-      "Description": "GOTO '00008638'"
+      "MemoryOffset": 8514,
+      "Description": "GOTO '00008678'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 16,
-      "MemoryOffset": 8480,
+      "MemoryOffset": 8520,
       "Description": "If actor_var3 == 2"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 17,
-      "MemoryOffset": 8496,
+      "MemoryOffset": 8536,
       "Description": "Set 'number' to 'score/10%10'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 18,
-      "MemoryOffset": 8522,
+      "MemoryOffset": 8562,
       "Description": "Set 'digit' to 'number'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 19,
-      "MemoryOffset": 8528,
+      "MemoryOffset": 8568,
       "Description": "Set 'fr[0]' to '0'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 19,
-      "MemoryOffset": 8534,
+      "MemoryOffset": 8574,
       "Description": "Set 'fr[1]' to 'score_digits'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 19,
-      "MemoryOffset": 8540,
+      "MemoryOffset": 8580,
       "Description": "Set 'fr[2]' to 'digit'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 19,
-      "MemoryOffset": 8546,
+      "MemoryOffset": 8586,
       "Description": "Set 'fr[3]' to '1'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 19,
-      "MemoryOffset": 8552,
+      "MemoryOffset": 8592,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 21,
-      "MemoryOffset": 8560,
-      "Description": "GOTO '00008638'"
+      "MemoryOffset": 8600,
+      "Description": "GOTO '00008678'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 21,
-      "MemoryOffset": 8566,
-      "Description": "If actor_var3 == 1 ELSE GOTO 00008638"
+      "MemoryOffset": 8606,
+      "Description": "If actor_var3 == 1 ELSE GOTO 00008678"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 22,
-      "MemoryOffset": 8582,
+      "MemoryOffset": 8622,
       "Description": "Set 'number' to 'score%10'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 23,
-      "MemoryOffset": 8600,
+      "MemoryOffset": 8640,
       "Description": "Set 'digit' to 'number'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 24,
-      "MemoryOffset": 8606,
+      "MemoryOffset": 8646,
       "Description": "Set 'fr[0]' to '0'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 24,
-      "MemoryOffset": 8612,
+      "MemoryOffset": 8652,
       "Description": "Set 'fr[1]' to 'score_digits'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 24,
-      "MemoryOffset": 8618,
+      "MemoryOffset": 8658,
       "Description": "Set 'fr[2]' to 'digit'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 24,
-      "MemoryOffset": 8624,
+      "MemoryOffset": 8664,
       "Description": "Set 'fr[3]' to '1'"
     },
     {
       "CodeBlock": "02_update_score",
       "CodeBlockLine": 24,
-      "MemoryOffset": 8630,
+      "MemoryOffset": 8670,
       "Description": "Core operation'ActorSetAnimation'"
     }
   ],
