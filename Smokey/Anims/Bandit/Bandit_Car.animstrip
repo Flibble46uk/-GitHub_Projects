@@ -11,7 +11,7 @@
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "Bandit_Car.png",
-      "HandleX": -62,
+      "HandleX": 0,
       "HandleY": 0,
       "XFlipped": false,
       "HighPriority": false,

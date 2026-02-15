@@ -4,8 +4,8 @@
   "Recycle": "Never",
   "MoveType": "cpu_parentlock",
   "MaxEntities": 0,
-  "NudgeX": 0,
-  "NudgeY": 0,
+  "NudgeX": 10,
+  "NudgeY": 7,
   "Idles": {
     "UpLeft": "smoke_tire",
     "Up": "smoke_tire",
@@ -154,12 +154,12 @@
     "0",
     "0",
     "0",
-    "-52",
-    "7",
+    "0",
+    "0",
     "0"
   ],
-  "ControlPort": 0,
-  "DataVersion": 4,
+  "ControlPort": 1,
+  "DataVersion": 8,
   "ActorTag": "None",
   "AutoSpawn": null,
   "AutoNavigate": false,
@@ -191,8 +191,12 @@
     "PingPong": false
   },
   "DontSpawnIfTooMany": false,
+  "AutoClearChildren": false,
   "DivertMeleeByProjectile": null,
   "DivertMeleeAgainstProjectile": null,
   "IsAttacker": null,
-  "TileID": -1
+  "PreviewParent": "",
+  "RotationEnabled": false,
+  "TileID": -1,
+  "MaxTimelineFrames": 50
 }
